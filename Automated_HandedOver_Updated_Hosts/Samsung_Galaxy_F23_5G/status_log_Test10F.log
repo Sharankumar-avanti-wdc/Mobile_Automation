@@ -1,0 +1,96 @@
+2022-11-11 18:11:48 INFO   Samsung_Galaxy_F23_5G.Test10F rearVideoRec Test: Start
+2022-11-11 18:11:48 INFO   Samsung_Galaxy_F23_5G.Test10F rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-11-11 18:11:48 INFO   Samsung_Galaxy_F23_5G.Test10F rearVideoRec Test10F Scenario is as follows
+2022-11-11 18:11:48 INFO   Samsung_Galaxy_F23_5G.Test10F rearVideoRec 1.Launch Camera application and start front camera video recording for all host applicable resolutions in uSD Card
+2022-11-11 18:11:48 INFO   Samsung_Galaxy_F23_5G.Test10F rearVideoRec 2.Playback front Highest recorded video for 30 seconds, pause video playback, lock mobile and wait 30 seconds, unlock mobile and playback video from pause video duration
+2022-11-11 18:11:48 INFO   Samsung_Galaxy_F23_5G.Test10F rearVideoRec Setting up the appium desired capabilities
+2022-11-11 18:11:48 INFO   Samsung_Galaxy_F23_5G.Test10F rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-11-11 18:12:02 INFO   Samsung_Galaxy_F23_5G.Test10F rearVideoRec Launch Home screen and clear recent Apps
+2022-11-11 18:12:21 INFO   Samsung_Galaxy_F23_5G.Test10F rearVideoRec Launch Camera Application for front camera video recording
+2022-11-11 18:12:23 INFO   Samsung_Galaxy_F23_5G.Test10F rearVideoRec If change to uSD card pop-up exists select Cancel
+2022-11-11 18:12:33 INFO   Samsung_Galaxy_F23_5G.Test10F rearVideoRec change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy F23 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: RZCT303YGNE}, deviceApiLevel: 31, deviceManufacturer: samsung, deviceModel: SM-E236B, deviceName: RZCT303YGNE, deviceScreenDensity: 450, deviceScreenSize: 1080x2408, deviceUDID: RZCT303YGNE, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 64, takesScreenshot: true, udid: RZCT303YGNE, viewportRect: {height: 2146, left: 0, top: 64, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 8cfa3c5a-66c6-4364-9304-0867525ea677
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2022-11-11 18:12:33 INFO   Samsung_Galaxy_F23_5G.Test10F rearVideoRec If Location access Permission Request Pop Exists Click on Cancel. 
+2022-11-11 18:12:43 INFO   Samsung_Galaxy_F23_5G.Test10F rearVideoRec Location access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy F23 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: RZCT303YGNE}, deviceApiLevel: 31, deviceManufacturer: samsung, deviceModel: SM-E236B, deviceName: RZCT303YGNE, deviceScreenDensity: 450, deviceScreenSize: 1080x2408, deviceUDID: RZCT303YGNE, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 64, takesScreenshot: true, udid: RZCT303YGNE, viewportRect: {height: 2146, left: 0, top: 64, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 8cfa3c5a-66c6-4364-9304-0867525ea677
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2022-11-11 18:12:43 INFO   Samsung_Galaxy_F23_5G.Test10F rearVideoRec Test10F_Fcam_res: 2 resolutions supported
+2022-11-11 18:12:43 INFO   Samsung_Galaxy_F23_5G.Test10F rearVideoRec Switch to front camera mode
+2022-11-11 18:12:45 INFO   Samsung_Galaxy_F23_5G.Test10F rearVideoRec Switch to video mode
+2022-11-11 18:12:57 INFO   Samsung_Galaxy_F23_5G.Test10F rearVideoRec Select settings option
+2022-11-11 18:13:03 INFO   Samsung_Galaxy_F23_5G.Test10F rearVideoRec Swipe up and Select Storage location
+2022-11-11 18:13:14 INFO   Samsung_Galaxy_F23_5G.Test10F rearVideoRec Select uSD card as Storage option
+2022-11-11 18:13:22 INFO   Samsung_Galaxy_F23_5G.Test10F rearVideoRec Select front video size
+2022-11-11 18:13:23 INFO   Samsung_Galaxy_F23_5G.Test10F rearVideoRec Select First front video Resolution: 9:16
+2022-11-11 18:13:30 INFO   Samsung_Galaxy_F23_5G.Test10F rearVideoRec Start video recording
+2022-11-11 18:23:11 INFO   Samsung_Galaxy_F23_5G.Test10F rearVideoRec Stop video recording
+2022-11-11 18:23:17 INFO   Samsung_Galaxy_F23_5G.Test10F rearVideoRec Select front Video size
+2022-11-11 18:23:17 INFO   Samsung_Galaxy_F23_5G.Test10F rearVideoRec Select second front Video Resolution: 1:1
+2022-11-11 18:23:25 INFO   Samsung_Galaxy_F23_5G.Test10F rearVideoRec Start video recording
+2022-11-11 18:33:05 INFO   Samsung_Galaxy_F23_5G.Test10F rearVideoRec Stop video recording
+2022-11-11 18:33:11 INFO   Samsung_Galaxy_F23_5G.Test10F rearVideoRec Switch to defalut Photo mode
+2022-11-11 18:33:17 INFO   Samsung_Galaxy_F23_5G.Test10F rearVideoRec Switch to defalut back camera mode
+2022-11-11 18:33:25 INFO   Samsung_Galaxy_F23_5G.Test10F rearVideoRec Pass: Front video recording is successfull
+2022-11-11 18:33:25 INFO   Samsung_Galaxy_F23_5G.Test10F rearVideoRec Launch File Manager Application to verify captured videos
+2022-11-11 18:33:31 INFO   Samsung_Galaxy_F23_5G.Test10F rearVideoRec Select  SD Card
+2022-11-11 18:33:37 INFO   Samsung_Galaxy_F23_5G.Test10F rearVideoRec Select DCIM Folder
+2022-11-11 18:33:47 INFO   Samsung_Galaxy_F23_5G.Test10F rearVideoRec Select Camera Folder
+2022-11-11 18:33:53 INFO   Samsung_Galaxy_F23_5G.Test10F rearVideoRec Select More Options 
+2022-11-11 18:34:04 INFO   Samsung_Galaxy_F23_5G.Test10F rearVideoRec Select Edit options
+2022-11-11 18:34:10 INFO   Samsung_Galaxy_F23_5G.Test10F rearVideoRec Click On Select All Options
+2022-11-11 18:34:23 INFO   Samsung_Galaxy_F23_5G.Test10F rearVideoRec Test10F_Fcam_video: 2 videos captured successfully
+2022-11-11 18:34:23 INFO   Samsung_Galaxy_F23_5G.Test10F rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-11-11 18:34:23 INFO   Samsung_Galaxy_F23_5G.Test10F rearVideoRec Calling VideoPlayBackForSleepWake()
+2022-11-11 18:34:23 INFO   Samsung_Galaxy_F23_5G.Test10F VideoPlayBackForSleepWake Clearing Recent Apps
+2022-11-11 18:34:43 INFO   Samsung_Galaxy_F23_5G.Test10F VideoPlayBackForSleepWake Launch File Manager application and playback front recorded video from USD for 30 seconds, pause video playback, locking phone and unlock after 30 seconds delay and playback video from pause duration.
+2022-11-11 18:34:49 INFO   Samsung_Galaxy_F23_5G.Test10F VideoPlayBackForSleepWake swipe up and search for sd card
+2022-11-11 18:34:52 INFO   Samsung_Galaxy_F23_5G.Test10F VideoPlayBackForSleepWake Select  SD Card
+2022-11-11 18:34:57 INFO   Samsung_Galaxy_F23_5G.Test10F VideoPlayBackForSleepWake Swipe up and select DCIM folder
+2022-11-11 18:35:00 INFO   Samsung_Galaxy_F23_5G.Test10F VideoPlayBackForSleepWake Select DCIM folder
+2022-11-11 18:35:03 INFO   Samsung_Galaxy_F23_5G.Test10F VideoPlayBackForSleepWake Select Camera folder
+2022-11-11 18:35:06 INFO   Samsung_Galaxy_F23_5G.Test10F VideoPlayBackForSleepWake Select MoreOptions
+2022-11-11 18:35:12 INFO   Samsung_Galaxy_F23_5G.Test10F VideoPlayBackForSleepWake Select  Size By
+2022-11-11 18:35:20 INFO   Samsung_Galaxy_F23_5G.Test10F VideoPlayBackForSleepWake Click on first file to play highest recorded resolution video file from uSD
+2022-11-11 18:35:20 INFO   Samsung_Galaxy_F23_5G.Test10F VideoPlayBackForSleepWake Started video playback
+2022-11-11 18:35:40 INFO   Samsung_Galaxy_F23_5G.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2022-11-11 18:35:41 INFO   Samsung_Galaxy_F23_5G.Test10F VideoPlayBackForSleepWake Click pause video button
+2022-11-11 18:35:45 INFO   Samsung_Galaxy_F23_5G.Test10F VideoPlayBackForSleepWake Lock Mobile with 30 seconds delay
+2022-11-11 18:36:15 INFO   Samsung_Galaxy_F23_5G.Test10F VideoPlayBackForSleepWake Unlock Mobile 
+2022-11-11 18:36:15 INFO   Samsung_Galaxy_F23_5G.Test10F VideoPlayBackForSleepWake Wait For 30Seconds
+2022-11-11 18:36:20 INFO   Samsung_Galaxy_F23_5G.Test10F VideoPlayBackForSleepWake Playback video from pause video duration
+2022-11-11 18:37:08 INFO   Samsung_Galaxy_F23_5G.Test10F VideoPlayBackForSleepWake Pass: Test10F Pass for Front video play back, Pause,Lock and Unlock Phone Play back from Pause duration Scenario
+2022-11-11 18:37:08 INFO   Samsung_Galaxy_F23_5G.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-11-11 18:37:08 INFO   Samsung_Galaxy_F23_5G.Test10F VideoPlayBackForSleepWake calling DatamoveOperation() to move front camera recorded videos files to Test10F folder
+2022-11-11 18:37:14 INFO   Samsung_Galaxy_F23_5G.Test10F DataMoveOperation launch file manager application select uSD card-->DCIM folder-->Camera folder-->Select all back camera front camera videos create Test10 and cut paste all videos in BCFC_Cameravideos folder
+2022-11-11 18:37:20 INFO   Samsung_Galaxy_F23_5G.Test10F DataMoveOperation Swipe up to select uSD card
+2022-11-11 18:37:20 INFO   Samsung_Galaxy_F23_5G.Test10F DataMoveOperation Select SD card
+2022-11-11 18:37:27 INFO   Samsung_Galaxy_F23_5G.Test10F DataMoveOperation Select DCIM folder
+2022-11-11 18:37:30 INFO   Samsung_Galaxy_F23_5G.Test10F DataMoveOperation Select camera folder
+2022-11-11 18:37:33 INFO   Samsung_Galaxy_F23_5G.Test10F DataMoveOperation Select More Options 
+2022-11-11 18:37:44 INFO   Samsung_Galaxy_F23_5G.Test10F DataMoveOperation Select Edit options
+2022-11-11 18:37:51 INFO   Samsung_Galaxy_F23_5G.Test10F DataMoveOperation Click On Select All Options
+2022-11-11 18:37:54 INFO   Samsung_Galaxy_F23_5G.Test10F DataMoveOperation Select move to option
+2022-11-11 18:38:07 INFO   Samsung_Galaxy_F23_5G.Test10F DataMoveOperation Select uSD Card
+2022-11-11 18:38:13 INFO   Samsung_Galaxy_F23_5G.Test10F DataMoveOperation Select More Options 
+2022-11-11 18:38:23 INFO   Samsung_Galaxy_F23_5G.Test10F DataMoveOperation create folder
+2022-11-11 18:38:28 INFO   Samsung_Galaxy_F23_5G.Test10F DataMoveOperation Name folder as Test10F
+2022-11-11 18:38:34 INFO   Samsung_Galaxy_F23_5G.Test10F DataMoveOperation click create
+2022-11-11 18:38:37 INFO   Samsung_Galaxy_F23_5G.Test10F DataMoveOperation Select Test10F  folder
+2022-11-11 18:38:40 INFO   Samsung_Galaxy_F23_5G.Test10F DataMoveOperation Move here
+2022-11-11 18:40:40 INFO   Samsung_Galaxy_F23_5G.Test10F DataMoveOperation Cut paste  video files operation completed successfully
+2022-11-11 18:40:43 INFO   Samsung_Galaxy_F23_5G.Test10F DataMoveOperation Pass: Test10F  Pass for data move operation successfully
+2022-11-11 18:40:43 INFO   Samsung_Galaxy_F23_5G.Test10F DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-11-11 18:40:43 INFO   Samsung_Galaxy_F23_5G.Test10F VideoPlayBackForSleepWake Final Message: Pass Test10F Pass for front camera  video recording, Pause Video Playback scenario and data move operation scenario
+2022-11-11 18:40:43 INFO   Samsung_Galaxy_F23_5G.Test10F VideoPlayBackForSleepWake Test: End
+2022-11-11 18:40:43 INFO   Samsung_Galaxy_F23_5G.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

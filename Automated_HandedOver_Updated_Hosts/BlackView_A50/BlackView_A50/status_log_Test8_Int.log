@@ -1,0 +1,65 @@
+2023-01-27 16:52:43 INFO   BlackView_A50.Test8_Int recordAudio Test: Start
+2023-01-27 16:52:43 INFO   BlackView_A50.Test8_Int recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-27 16:52:43 INFO   BlackView_A50.Test8_Int recordAudio Test8_Int scenario is as follows
+2023-01-27 16:52:43 INFO   BlackView_A50.Test8_Int recordAudio 1.Launch mobile default voice recording application and set  storage option, record audio file for 2 minutes duration
+2023-01-27 16:52:43 INFO   BlackView_A50.Test8_Int recordAudio 2.Launch file manager application and playback recorded audio file from external storage, fast forward audio file and pause
+2023-01-27 16:52:43 INFO   BlackView_A50.Test8_Int recordAudio 3.Launch file manager application and playback copied audio files from external storage the files are placed in the Test1 folder
+2023-01-27 16:52:43 INFO   BlackView_A50.Test8_Int recordAudio Setting up the appium desired capabilities
+2023-01-27 16:52:43 INFO   BlackView_A50.Test8_Int recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-27 16:52:50 INFO   BlackView_A50.Test8_Int recordAudio Launch Home screen application and clear recent apps
+2023-01-27 16:53:01 INFO   BlackView_A50.Test8_Int recordAudio Clearing Recent Apps
+2023-01-27 16:53:11 INFO   BlackView_A50.Test8_Int recordAudio Pass: Test0 Pass for clearing Recent apps 
+2023-01-27 16:53:13 INFO   BlackView_A50.Test8_Int recordAudio Launch Voice recorder application for Audio recording
+2023-01-27 16:53:14 INFO   BlackView_A50.Test8_Int recordAudio If application launch permission pop-up exists accept allow permission to launch application
+2023-01-27 16:53:29 INFO   BlackView_A50.Test8_Int recordAudio  No Launch permission Pop-up  found
+2023-01-27 16:53:34 INFO   BlackView_A50.Test8_Int recordAudio Select settings option
+2023-01-27 16:53:39 INFO   BlackView_A50.Test8_Int recordAudio Select Save location option
+2023-01-27 16:53:45 INFO   BlackView_A50.Test8_Int recordAudio Select SD card option
+2023-01-27 16:53:54 INFO   BlackView_A50.Test8_Int recordAudio Start Recording
+2023-01-27 16:56:04 INFO   BlackView_A50.Test8_Int recordAudio Stop Recording
+2023-01-27 16:56:40 INFO   BlackView_A50.Test8_Int recordAudio Stop and Save Recording
+2023-01-27 16:56:47 INFO   BlackView_A50.Test8_Int recordAudio Pass: Test8_Int pass for recording  audio file
+2023-01-27 16:56:47 INFO   BlackView_A50.Test8_Int recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-27 16:56:47 INFO   BlackView_A50.Test8_Int recordAudio Calling PlayRecordedAudio() for Audio play back and fast forward scenario
+2023-01-27 16:56:52 INFO   BlackView_A50.Test8_Int PlayRecordedAudio Launch home screen and clear recent apps
+2023-01-27 16:57:06 INFO   BlackView_A50.Test8_Int PlayRecordedAudio clearing Recent apps 
+2023-01-27 16:57:08 INFO   BlackView_A50.Test8_Int PlayRecordedAudio Launch File Manager Application
+2023-01-27 16:57:18 INFO   BlackView_A50.Test8_Int PlayRecordedAudio Launch File Manager Application
+2023-01-27 16:57:23 INFO   BlackView_A50.Test8_Int PlayRecordedAudio Select internalstorage
+2023-01-27 16:57:23 INFO   BlackView_A50.Test8_Int PlayRecordedAudio Select Music Folder
+2023-01-27 16:57:28 INFO   BlackView_A50.Test8_Int PlayRecordedAudio Select recordings Folder
+2023-01-27 16:57:31 INFO   BlackView_A50.Test8_Int PlayRecordedAudio Click first audio file for audio playback and fast forward scenario
+2023-01-27 16:58:12 INFO   BlackView_A50.Test8_Int PlayRecordedAudio Fast Forwarding Audio for 10 Seconds
+2023-01-27 16:58:23 INFO   BlackView_A50.Test8_Int PlayRecordedAudio Continue audio playback
+2023-01-27 16:58:53 INFO   BlackView_A50.Test8_Int PlayRecordedAudio Pause audio playback
+2023-01-27 16:59:03 INFO   BlackView_A50.Test8_Int PlayRecordedAudio Pass: Test8_Int Pass for playing, fast forward, and pause recorded audio file scenario
+2023-01-27 16:59:03 INFO   BlackView_A50.Test8_Int PlayRecordedAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-27 16:59:03 INFO   BlackView_A50.Test8_Int PlayRecordedAudio Calling PlayCopiedAudioFile() for copied audio files from Test1 folder
+2023-01-27 16:59:08 INFO   BlackView_A50.Test8_Int PlayCopiedAudioFile Launch home screen
+2023-01-27 16:59:19 INFO   BlackView_A50.Test8_Int PlayCopiedAudioFile clearing Recent apps 
+2023-01-27 16:59:29 INFO   BlackView_A50.Test8_Int PlayCopiedAudioFile No recent apps found
+2023-01-27 16:59:31 INFO   BlackView_A50.Test8_Int PlayCopiedAudioFile Launch File Manager Application
+2023-01-27 16:59:40 INFO   BlackView_A50.Test8_Int PlayCopiedAudioFile Select  Internal storage
+2023-01-27 16:59:51 INFO   BlackView_A50.Test8_Int PlayCopiedAudioFile Select Test1 folder
+2023-01-27 17:00:01 INFO   BlackView_A50.Test8_Int PlayCopiedAudioFile Select Test_file folder
+2023-01-27 17:00:06 INFO   BlackView_A50.Test8_Int PlayCopiedAudioFile Select 1GB folder
+2023-01-27 17:00:09 INFO   BlackView_A50.Test8_Int PlayCopiedAudioFile Select MP3 files Folder
+2023-01-27 17:00:15 INFO   BlackView_A50.Test8_Int PlayCopiedAudioFile Playing first audio file from Test1 folder
+2023-01-27 17:00:55 INFO   BlackView_A50.Test8_Int PlayCopiedAudioFile Fast Forwarding Audio for 10 Seconds
+2023-01-27 17:01:06 INFO   BlackView_A50.Test8_Int PlayCopiedAudioFile Pause Audio
+2023-01-27 17:01:09 INFO   BlackView_A50.Test8_Int PlayCopiedAudioFile Pass: first audio file palyback and fast forward scenario is successfull
+2023-01-27 17:01:12 INFO   BlackView_A50.Test8_Int PlayCopiedAudioFile Playing second audio file from Test1 folder
+2023-01-27 17:01:52 INFO   BlackView_A50.Test8_Int PlayCopiedAudioFile Fast Forwarding Audio for 10 Seconds
+2023-01-27 17:02:03 INFO   BlackView_A50.Test8_Int PlayCopiedAudioFile Continue audio playback
+2023-01-27 17:02:13 INFO   BlackView_A50.Test8_Int PlayCopiedAudioFile Pause Audio
+2023-01-27 17:02:17 INFO   BlackView_A50.Test8_Int PlayCopiedAudioFile Pass: Seond audio file palyback and fast forward scenario is successfull
+2023-01-27 17:02:19 INFO   BlackView_A50.Test8_Int PlayCopiedAudioFile Playing third audio file from Test1 folder
+2023-01-27 17:03:00 INFO   BlackView_A50.Test8_Int PlayCopiedAudioFile Fast Forwarding Audio for 10 Seconds
+2023-01-27 17:03:10 INFO   BlackView_A50.Test8_Int PlayCopiedAudioFile Continue audio playback
+2023-01-27 17:03:20 INFO   BlackView_A50.Test8_Int PlayCopiedAudioFile Pause Audio
+2023-01-27 17:03:24 INFO   BlackView_A50.Test8_Int PlayCopiedAudioFile Pass: Third audio file palyback and fast forward scenario is successfull
+2023-01-27 17:03:24 INFO   BlackView_A50.Test8_Int PlayCopiedAudioFile Pass: Test8_Int Pass for Recorded and copied audio play back and fast forward scenario
+2023-01-27 17:03:24 INFO   BlackView_A50.Test8_Int PlayCopiedAudioFile ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-27 17:03:24 INFO   BlackView_A50.Test8_Int PlayCopiedAudioFile Final Message: Pass Test8_Int Pass for Recorded and copied audio play back and fast forward scenario
+2023-01-27 17:03:24 INFO   BlackView_A50.Test8_Int PlayCopiedAudioFile Test: End
+2023-01-27 17:03:24 INFO   BlackView_A50.Test8_Int PlayCopiedAudioFile ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

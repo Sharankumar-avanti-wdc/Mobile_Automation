@@ -1,0 +1,172 @@
+2023-01-20 10:58:07 INFO   UMIDIGI_A11S.Test0_Int start Test: Start
+2023-01-20 10:58:07 INFO   UMIDIGI_A11S.Test0_Int start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-20 10:58:07 INFO   UMIDIGI_A11S.Test0_Int start  Test0_Int Scenario is as follows  
+2023-01-20 10:58:07 INFO   UMIDIGI_A11S.Test0_Int start 1.Unlock phone, clear recent apps,Format uSD as Internal mount and Clear internal mount memory
+2023-01-20 10:58:07 INFO   UMIDIGI_A11S.Test0_Int start 2.Call Image() and Capture Rear camera 25 images with default resolution in internal mount uSD card and Verify the data capture
+2023-01-20 10:58:07 INFO   UMIDIGI_A11S.Test0_Int start 3.Call Video() and record Rear camera video of first 2 resloutions for 2 minutes of duration in internal mount uSD Card and verify the same
+2023-01-20 10:58:07 INFO   UMIDIGI_A11S.Test0_Int start 4.Call Format() Format uSD as External mount,Format back to internal mount, Verify with data format status.
+2023-01-20 10:58:07 INFO   UMIDIGI_A11S.Test0_Int start Setting up the appium desired capabilities
+2023-01-20 10:58:07 INFO   UMIDIGI_A11S.Test0_Int start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-20 10:58:14 INFO   UMIDIGI_A11S.Test0_Int start Unlocking Phone
+2023-01-20 10:58:14 INFO   UMIDIGI_A11S.Test0_Int start Launch home screen
+2023-01-20 10:58:25 INFO   UMIDIGI_A11S.Test0_Int start Clearing Recent Apps
+2023-01-20 10:58:31 INFO   UMIDIGI_A11S.Test0_Int start Pass: Test0_Int Pass for clearing Recent apps 
+2023-01-20 10:58:33 INFO   UMIDIGI_A11S.Test0_Int start Calling FormatAsInternal() to format uSD card as internal mount
+2023-01-20 10:58:33 INFO   UMIDIGI_A11S.Test0_Int FormatAsInternal Formatting uSD card as Internal mount
+2023-01-20 10:58:33 INFO   UMIDIGI_A11S.Test0_Int FormatAsInternal Launch settings application
+2023-01-20 10:58:39 INFO   UMIDIGI_A11S.Test0_Int FormatAsInternal Swipe up and select storage option
+2023-01-20 10:58:47 INFO   UMIDIGI_A11S.Test0_Int FormatAsInternal Select Storage option
+2023-01-20 10:58:53 INFO   UMIDIGI_A11S.Test0_Int FormatAsInternal Select SD card
+2023-01-20 10:58:58 INFO   UMIDIGI_A11S.Test0_Int FormatAsInternal Click more options
+2023-01-20 10:59:03 INFO   UMIDIGI_A11S.Test0_Int FormatAsInternal select storage settings
+2023-01-20 10:59:09 INFO   UMIDIGI_A11S.Test0_Int FormatAsInternal Select format as Internal option
+2023-01-20 10:59:14 INFO   UMIDIGI_A11S.Test0_Int FormatAsInternal Accept Format SD card pop-up
+2023-01-20 11:01:14 INFO   UMIDIGI_A11S.Test0_Int FormatAsInternal Accept move content  pop-up
+2023-01-20 11:02:14 INFO   UMIDIGI_A11S.Test0_Int FormatAsInternal Click Done option
+2023-01-20 11:02:19 INFO   UMIDIGI_A11S.Test0_Int FormatAsInternal Pass: Format as Internal Mount scenario completed Successfull
+2023-01-20 11:02:26 INFO   UMIDIGI_A11S.Test0_Int start Launch File Manager Application and clear internal memory
+2023-01-20 11:02:33 INFO   UMIDIGI_A11S.Test0_Int start Select  Internal storage
+2023-01-20 11:02:40 INFO   UMIDIGI_A11S.Test0_Int start Long press and hold android folder
+2023-01-20 11:02:52 INFO   UMIDIGI_A11S.Test0_Int start Click more options
+2023-01-20 11:02:55 INFO   UMIDIGI_A11S.Test0_Int start Click Select all option
+2023-01-20 11:02:59 INFO   UMIDIGI_A11S.Test0_Int start Select Delete option
+2023-01-20 11:03:09 INFO   UMIDIGI_A11S.Test0_Int start No data found to clear internal memory
+2023-01-20 11:03:09 INFO   UMIDIGI_A11S.Test0_Int start Pass: Clearing phone internal memory is successfull
+2023-01-20 11:03:23 INFO   UMIDIGI_A11S.Test0_Int start Calling Images() for rear camera image capture and verify the data
+2023-01-20 11:03:23 INFO   UMIDIGI_A11S.Test0_Int start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-20 11:03:23 INFO   UMIDIGI_A11S.Test0_Int Images Launch Camera Application for Rear picture capture
+2023-01-20 11:03:24 INFO   UMIDIGI_A11S.Test0_Int Images IF Change to uSD card notification pop-up exists select Cancel Option
+2023-01-20 11:03:34 INFO   UMIDIGI_A11S.Test0_Int Images change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: A11S, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: A11S432621112305514}, deviceApiLevel: 30, deviceManufacturer: HXY, deviceModel: MP01, deviceName: A11S432621112305514, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: A11S432621112305514, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 60, takesScreenshot: true, udid: A11S432621112305514, viewportRect: {height: 1396, left: 0, top: 60, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 590a10fd-0247-42e8-b39a-acda5889d825
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2023-01-20 11:03:36 INFO   UMIDIGI_A11S.Test0_Int Images if Location permisson Pop Exists Select Cancel Option
+2023-01-20 11:03:46 INFO   UMIDIGI_A11S.Test0_Int Images Location permission access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: A11S, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: A11S432621112305514}, deviceApiLevel: 30, deviceManufacturer: HXY, deviceModel: MP01, deviceName: A11S432621112305514, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: A11S432621112305514, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 60, takesScreenshot: true, udid: A11S432621112305514, viewportRect: {height: 1396, left: 0, top: 60, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 590a10fd-0247-42e8-b39a-acda5889d825
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2023-01-20 11:03:46 INFO   UMIDIGI_A11S.Test0_Int Images Switch to rear Camera Mode if current Exiting camera is Front camera Mode
+2023-01-20 11:03:56 INFO   UMIDIGI_A11S.Test0_Int Images Currently camera is already in rear camera mode no need to switch
+2023-01-20 11:03:56 INFO   UMIDIGI_A11S.Test0_Int Images Select photo mode option
+2023-01-20 11:03:56 INFO   UMIDIGI_A11S.Test0_Int Images Capture Image of Default Resolution
+2023-01-20 11:04:04 INFO   UMIDIGI_A11S.Test0_Int Images Captureing default resolution image 0
+2023-01-20 11:04:12 INFO   UMIDIGI_A11S.Test0_Int Images Captureing default resolution image 1
+2023-01-20 11:04:19 INFO   UMIDIGI_A11S.Test0_Int Images Captureing default resolution image 2
+2023-01-20 11:04:26 INFO   UMIDIGI_A11S.Test0_Int Images Captureing default resolution image 3
+2023-01-20 11:04:33 INFO   UMIDIGI_A11S.Test0_Int Images Captureing default resolution image 4
+2023-01-20 11:04:41 INFO   UMIDIGI_A11S.Test0_Int Images Captureing default resolution image 5
+2023-01-20 11:04:48 INFO   UMIDIGI_A11S.Test0_Int Images Captureing default resolution image 6
+2023-01-20 11:04:55 INFO   UMIDIGI_A11S.Test0_Int Images Captureing default resolution image 7
+2023-01-20 11:05:03 INFO   UMIDIGI_A11S.Test0_Int Images Captureing default resolution image 8
+2023-01-20 11:05:11 INFO   UMIDIGI_A11S.Test0_Int Images Captureing default resolution image 9
+2023-01-20 11:05:19 INFO   UMIDIGI_A11S.Test0_Int Images Captureing default resolution image 10
+2023-01-20 11:05:26 INFO   UMIDIGI_A11S.Test0_Int Images Captureing default resolution image 11
+2023-01-20 11:05:33 INFO   UMIDIGI_A11S.Test0_Int Images Captureing default resolution image 12
+2023-01-20 11:05:41 INFO   UMIDIGI_A11S.Test0_Int Images Captureing default resolution image 13
+2023-01-20 11:05:49 INFO   UMIDIGI_A11S.Test0_Int Images Captureing default resolution image 14
+2023-01-20 11:05:56 INFO   UMIDIGI_A11S.Test0_Int Images Captureing default resolution image 15
+2023-01-20 11:06:03 INFO   UMIDIGI_A11S.Test0_Int Images Captureing default resolution image 16
+2023-01-20 11:06:10 INFO   UMIDIGI_A11S.Test0_Int Images Captureing default resolution image 17
+2023-01-20 11:06:18 INFO   UMIDIGI_A11S.Test0_Int Images Captureing default resolution image 18
+2023-01-20 11:06:26 INFO   UMIDIGI_A11S.Test0_Int Images Captureing default resolution image 19
+2023-01-20 11:06:33 INFO   UMIDIGI_A11S.Test0_Int Images Captureing default resolution image 20
+2023-01-20 11:06:41 INFO   UMIDIGI_A11S.Test0_Int Images Captureing default resolution image 21
+2023-01-20 11:06:48 INFO   UMIDIGI_A11S.Test0_Int Images Captureing default resolution image 22
+2023-01-20 11:06:55 INFO   UMIDIGI_A11S.Test0_Int Images Captureing default resolution image 23
+2023-01-20 11:07:03 INFO   UMIDIGI_A11S.Test0_Int Images Captureing default resolution image 24
+2023-01-20 11:07:08 INFO   UMIDIGI_A11S.Test0_Int Images Total Number Of Image captured 25 is successfull
+2023-01-20 11:07:08 INFO   UMIDIGI_A11S.Test0_Int Images Launch File Manager application to verify  Image capture
+2023-01-20 11:07:22 INFO   UMIDIGI_A11S.Test0_Int Images Select DCIM Folder
+2023-01-20 11:07:32 INFO   UMIDIGI_A11S.Test0_Int Images Select Camera Folder
+2023-01-20 11:07:37 INFO   UMIDIGI_A11S.Test0_Int Images Select More Options 
+2023-01-20 11:07:48 INFO   UMIDIGI_A11S.Test0_Int Images Click On Select All Options
+2023-01-20 11:07:57 INFO   UMIDIGI_A11S.Test0_Int Images Pass: Total Number Of Image captured 25 is successfull
+2023-01-20 11:08:11 INFO   UMIDIGI_A11S.Test0_Int Images Calling video() for rear video recording in USD card and verifying data capture.
+2023-01-20 11:08:11 INFO   UMIDIGI_A11S.Test0_Int Images ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-20 11:08:11 INFO   UMIDIGI_A11S.Test0_Int Video Launch home screen and clear recent apps
+2023-01-20 11:08:16 INFO   UMIDIGI_A11S.Test0_Int Video Clearing recent apps
+2023-01-20 11:08:26 INFO   UMIDIGI_A11S.Test0_Int Video No recent apps found in background to clear
+2023-01-20 11:08:29 INFO   UMIDIGI_A11S.Test0_Int Video Launch camera application for rear camera video recording
+2023-01-20 11:08:30 INFO   UMIDIGI_A11S.Test0_Int Video IF Change to uSD card notification pop-up exists select Cancel Option
+2023-01-20 11:08:40 INFO   UMIDIGI_A11S.Test0_Int Video change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: A11S, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: A11S432621112305514}, deviceApiLevel: 30, deviceManufacturer: HXY, deviceModel: MP01, deviceName: A11S432621112305514, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: A11S432621112305514, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 60, takesScreenshot: true, udid: A11S432621112305514, viewportRect: {height: 1396, left: 0, top: 60, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 590a10fd-0247-42e8-b39a-acda5889d825
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2023-01-20 11:08:42 INFO   UMIDIGI_A11S.Test0_Int Video if Location permisson Pop Exists Select Cancel Option
+2023-01-20 11:08:52 INFO   UMIDIGI_A11S.Test0_Int Video Location permission access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: A11S, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: A11S432621112305514}, deviceApiLevel: 30, deviceManufacturer: HXY, deviceModel: MP01, deviceName: A11S432621112305514, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: A11S432621112305514, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 60, takesScreenshot: true, udid: A11S432621112305514, viewportRect: {height: 1396, left: 0, top: 60, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 590a10fd-0247-42e8-b39a-acda5889d825
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2023-01-20 11:08:52 INFO   UMIDIGI_A11S.Test0_Int Video Switch to rear Camera Mode if current Exiting camera is Front camera Mode
+2023-01-20 11:09:02 INFO   UMIDIGI_A11S.Test0_Int Video Currently camera is already in rear camera mode no need to switch
+2023-01-20 11:09:02 INFO   UMIDIGI_A11S.Test0_Int Video Switch to video mode
+2023-01-20 11:09:12 INFO   UMIDIGI_A11S.Test0_Int Video Select settings option
+2023-01-20 11:09:17 INFO   UMIDIGI_A11S.Test0_Int Video Select Video size option
+2023-01-20 11:09:23 INFO   UMIDIGI_A11S.Test0_Int Video Select rear camera first video resolution: HD 1080p
+2023-01-20 11:09:28 INFO   UMIDIGI_A11S.Test0_Int Video Start video recording
+2023-01-20 11:11:29 INFO   UMIDIGI_A11S.Test0_Int Video Stop video recording
+2023-01-20 11:11:34 INFO   UMIDIGI_A11S.Test0_Int Video Select settings option
+2023-01-20 11:11:39 INFO   UMIDIGI_A11S.Test0_Int Video Select Video size option
+2023-01-20 11:11:45 INFO   UMIDIGI_A11S.Test0_Int Video Select rear camera second video resolution: HD 720p
+2023-01-20 11:11:50 INFO   UMIDIGI_A11S.Test0_Int Video Start video recording
+2023-01-20 11:13:51 INFO   UMIDIGI_A11S.Test0_Int Video Recording Video for 2Minutes of Duration
+2023-01-20 11:13:51 INFO   UMIDIGI_A11S.Test0_Int Video Stop video recording
+2023-01-20 11:13:56 INFO   UMIDIGI_A11S.Test0_Int Video Switch back to photo mode option
+2023-01-20 11:14:10 INFO   UMIDIGI_A11S.Test0_Int Video Rear camera video recording is successfull
+2023-01-20 11:14:10 INFO   UMIDIGI_A11S.Test0_Int Video Launch File Manager application to verify  video  recordings
+2023-01-20 11:14:20 INFO   UMIDIGI_A11S.Test0_Int Video Select internal storage
+2023-01-20 11:14:25 INFO   UMIDIGI_A11S.Test0_Int Video Select DCIM Folder
+2023-01-20 11:14:35 INFO   UMIDIGI_A11S.Test0_Int Video Select Camera Folder
+2023-01-20 11:14:40 INFO   UMIDIGI_A11S.Test0_Int Video Select More Options 
+2023-01-20 11:14:50 INFO   UMIDIGI_A11S.Test0_Int Video Click On Select All Options
+2023-01-20 11:15:07 INFO   UMIDIGI_A11S.Test0_Int Video Pass: 2 Videos recorded Successfully
+2023-01-20 11:15:07 INFO   UMIDIGI_A11S.Test0_Int Video Pass: A total of 27 files present in uSD card before Format
+2023-01-20 11:15:07 INFO   UMIDIGI_A11S.Test0_Int Video ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-20 11:15:07 INFO   UMIDIGI_A11S.Test0_Int Video calling FormatAsExternal() for format with data scenario
+2023-01-20 11:15:07 INFO   UMIDIGI_A11S.Test0_Int FormatAsExternal Formatting uSD as External format
+2023-01-20 11:15:07 INFO   UMIDIGI_A11S.Test0_Int FormatAsExternal Launch Settings Application
+2023-01-20 11:15:13 INFO   UMIDIGI_A11S.Test0_Int FormatAsExternal Swipe Up and Search for Storage
+2023-01-20 11:15:21 INFO   UMIDIGI_A11S.Test0_Int FormatAsExternal Select storage option
+2023-01-20 11:15:26 INFO   UMIDIGI_A11S.Test0_Int FormatAsExternal Select uSD card
+2023-01-20 11:15:31 INFO   UMIDIGI_A11S.Test0_Int FormatAsExternal Click more options
+2023-01-20 11:15:37 INFO   UMIDIGI_A11S.Test0_Int FormatAsExternal Select Storage settings option
+2023-01-20 11:15:43 INFO   UMIDIGI_A11S.Test0_Int FormatAsExternal Select Format as portable option
+2023-01-20 11:15:48 INFO   UMIDIGI_A11S.Test0_Int FormatAsExternal Accept format pop-up
+2023-01-20 11:17:53 INFO   UMIDIGI_A11S.Test0_Int FormatAsExternal Pass: Fomrat as External Mount is successfull
+2023-01-20 11:17:55 INFO   UMIDIGI_A11S.Test0_Int Video ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-20 11:17:55 INFO   UMIDIGI_A11S.Test0_Int Video calling FormatAsInternal() for format with data scenario
+2023-01-20 11:17:55 INFO   UMIDIGI_A11S.Test0_Int FormatASInternal Formatting uSD card as internal mount
+2023-01-20 11:17:55 INFO   UMIDIGI_A11S.Test0_Int FormatASInternal Launch settings application
+2023-01-20 11:18:02 INFO   UMIDIGI_A11S.Test0_Int FormatASInternal Swipe up and select storage option
+2023-01-20 11:18:15 INFO   UMIDIGI_A11S.Test0_Int FormatASInternal Select uSD card
+2023-01-20 11:18:20 INFO   UMIDIGI_A11S.Test0_Int FormatASInternal Click more options
+2023-01-20 11:18:20 INFO   UMIDIGI_A11S.Test0_Int FormatASInternal Clicking on more options
+2023-01-20 11:18:25 INFO   UMIDIGI_A11S.Test0_Int FormatASInternal Select storage settings option
+2023-01-20 11:18:31 INFO   UMIDIGI_A11S.Test0_Int FormatASInternal Select Format as Internal option
+2023-01-20 11:18:41 INFO   UMIDIGI_A11S.Test0_Int FormatASInternal Accept format SD Card pop-up
+2023-01-20 11:20:42 INFO   UMIDIGI_A11S.Test0_Int FormatASInternal Accept move content pop-up
+2023-01-20 11:21:42 INFO   UMIDIGI_A11S.Test0_Int FormatASInternal click on done
+2023-01-20 11:21:46 INFO   UMIDIGI_A11S.Test0_Int FormatASInternal Pass: Format as Internal Mount completed Successfull
+2023-01-20 11:21:51 INFO   UMIDIGI_A11S.Test0_Int FormatASInternal Launch file manager
+2023-01-20 11:22:03 INFO   UMIDIGI_A11S.Test0_Int FormatASInternal Select DCIM folder
+2023-01-20 11:22:13 INFO   UMIDIGI_A11S.Test0_Int FormatASInternal Pass: Images and videos are not present in the DCIM folder, CARD format is successfully completed 
+2023-01-20 11:22:13 INFO   UMIDIGI_A11S.Test0_Int FormatASInternal Pass: Images and videos are not present in the DCIM folder, CARD format is successfully completed 
+2023-01-20 11:22:13 INFO   UMIDIGI_A11S.Test0_Int FormatASInternal Final Message: Pass Test0_Int Pass for format with data scenario
+2023-01-20 11:22:13 INFO   UMIDIGI_A11S.Test0_Int FormatASInternal Test: End
+2023-01-20 11:22:13 INFO   UMIDIGI_A11S.Test0_Int FormatASInternal ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

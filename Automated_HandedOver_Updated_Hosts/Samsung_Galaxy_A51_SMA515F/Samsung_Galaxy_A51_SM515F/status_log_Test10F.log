@@ -1,0 +1,106 @@
+2023-01-16 17:23:59 INFO   Samsung_Galaxy_A51_SM515F.Test10F rearVideoRec Test:Start
+2023-01-16 17:23:59 INFO   Samsung_Galaxy_A51_SM515F.Test10F rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-16 17:23:59 INFO   Samsung_Galaxy_A51_SM515F.Test10F rearVideoRec Test10F Scenario is as follows
+2023-01-16 17:23:59 INFO   Samsung_Galaxy_A51_SM515F.Test10F rearVideoRec 1.Launch Camera application and start front camera video recording for all host applicable resolutions in uSD Card
+2023-01-16 17:23:59 INFO   Samsung_Galaxy_A51_SM515F.Test10F rearVideoRec 2.Playback front Highest recorded video for 30 seconds, pause video playback, lock mobile and wait 30 seconds, unlock mobile and playback video from pause video duration
+2023-01-16 17:23:59 INFO   Samsung_Galaxy_A51_SM515F.Test10F rearVideoRec Setting up the appium desired capabilities
+2023-01-16 17:23:59 INFO   Samsung_Galaxy_A51_SM515F.Test10F rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-16 17:24:13 INFO   Samsung_Galaxy_A51_SM515F.Test10F rearVideoRec Launch Home screen and clear recent Apps
+2023-01-16 17:24:24 INFO   Samsung_Galaxy_A51_SM515F.Test10F rearVideoRec Clearing Recent Apps
+2023-01-16 17:24:31 INFO   Samsung_Galaxy_A51_SM515F.Test10F rearVideoRec Launch Camera Application for rear camera video recording
+2023-01-16 17:24:32 INFO   Samsung_Galaxy_A51_SM515F.Test10F rearVideoRec Test10F_Fcam_res: 3 resolutions supported
+2023-01-16 17:24:32 INFO   Samsung_Galaxy_A51_SM515F.Test10F rearVideoRec If change to uSD card pop-up exists select Cancel
+2023-01-16 17:24:43 INFO   Samsung_Galaxy_A51_SM515F.Test10F rearVideoRec change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy A51 , newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: RZ8N20BF9QE}, deviceApiLevel: 31, deviceManufacturer: samsung, deviceModel: SM-A515F, deviceName: RZ8N20BF9QE, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: RZ8N20BF9QE, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 87, takesScreenshot: true, udid: RZ8N20BF9QE, viewportRect: {height: 2099, left: 0, top: 87, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 021a5afb-7146-4b94-b6a2-06d8c3120afd
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2023-01-16 17:24:43 INFO   Samsung_Galaxy_A51_SM515F.Test10F rearVideoRec If Location access Permission Request Pop Exists Click on Cancel. 
+2023-01-16 17:24:53 INFO   Samsung_Galaxy_A51_SM515F.Test10F rearVideoRec Location access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy A51 , newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: RZ8N20BF9QE}, deviceApiLevel: 31, deviceManufacturer: samsung, deviceModel: SM-A515F, deviceName: RZ8N20BF9QE, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: RZ8N20BF9QE, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 87, takesScreenshot: true, udid: RZ8N20BF9QE, viewportRect: {height: 2099, left: 0, top: 87, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 021a5afb-7146-4b94-b6a2-06d8c3120afd
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2023-01-16 17:24:53 INFO   Samsung_Galaxy_A51_SM515F.Test10F rearVideoRec Switch To front Camera mode if current Exiting camera is rear camera mode
+2023-01-16 17:24:55 INFO   Samsung_Galaxy_A51_SM515F.Test10F rearVideoRec Switch to video mode
+2023-01-16 17:25:06 INFO   Samsung_Galaxy_A51_SM515F.Test10F rearVideoRec Select settings option
+2023-01-16 17:25:11 INFO   Samsung_Galaxy_A51_SM515F.Test10F rearVideoRec Swipe up and Select Storage location
+2023-01-16 17:25:22 INFO   Samsung_Galaxy_A51_SM515F.Test10F rearVideoRec Select uSD card as Storage option
+2023-01-16 17:25:31 INFO   Samsung_Galaxy_A51_SM515F.Test10F rearVideoRec Click on front video size and select resolution
+2023-01-16 17:25:31 INFO   Samsung_Galaxy_A51_SM515F.Test10F rearVideoRec Select  Front camera first Video Resolution:FRONT_CAMCORDER_RESOLUTION_UHD_60
+2023-01-16 17:25:39 INFO   Samsung_Galaxy_A51_SM515F.Test10F rearVideoRec Start front video recording
+2023-01-16 17:28:41 INFO   Samsung_Galaxy_A51_SM515F.Test10F rearVideoRec Stop Recording
+2023-01-16 17:28:43 INFO   Samsung_Galaxy_A51_SM515F.Test10F rearVideoRec Click front video size and select second resolution
+2023-01-16 17:28:43 INFO   Samsung_Galaxy_A51_SM515F.Test10F rearVideoRec Select front camera second video resolutio:BACK_CAMCORDER_RESOLUTION_FHD_60
+2023-01-16 17:28:51 INFO   Samsung_Galaxy_A51_SM515F.Test10F rearVideoRec Start front video recording
+2023-01-16 17:31:52 INFO   Samsung_Galaxy_A51_SM515F.Test10F rearVideoRec Stop Recording
+2023-01-16 17:31:54 INFO   Samsung_Galaxy_A51_SM515F.Test10F rearVideoRec Click front video size and select second resolution
+2023-01-16 17:31:55 INFO   Samsung_Galaxy_A51_SM515F.Test10F rearVideoRec Select front camera third video resolutio:BACK_CAMCORDER_RESOLUTION_FHD_60
+2023-01-16 17:32:03 INFO   Samsung_Galaxy_A51_SM515F.Test10F rearVideoRec Start front video recording
+2023-01-16 17:35:04 INFO   Samsung_Galaxy_A51_SM515F.Test10F rearVideoRec Switch To Rear Camera mode if current Exiting camera is Front camera mode
+2023-01-16 17:35:19 INFO   Samsung_Galaxy_A51_SM515F.Test10F rearVideoRec Pass: Test10F pass for front camera video recording
+2023-01-16 17:35:19 INFO   Samsung_Galaxy_A51_SM515F.Test10F rearVideoRec Launch file manager application and verify recorded video capture uSD Card
+2023-01-16 17:35:36 INFO   Samsung_Galaxy_A51_SM515F.Test10F rearVideoRec Swipe up to select uSD card
+2023-01-16 17:35:39 INFO   Samsung_Galaxy_A51_SM515F.Test10F rearVideoRec Select SD card
+2023-01-16 17:35:46 INFO   Samsung_Galaxy_A51_SM515F.Test10F rearVideoRec switch to grid view mode to select DCIM folder
+2023-01-16 17:35:49 INFO   Samsung_Galaxy_A51_SM515F.Test10F rearVideoRec Select DCIM folder
+2023-01-16 17:35:52 INFO   Samsung_Galaxy_A51_SM515F.Test10F rearVideoRec Select camera folder
+2023-01-16 17:35:56 INFO   Samsung_Galaxy_A51_SM515F.Test10F rearVideoRec switch to list view mode 
+2023-01-16 17:35:59 INFO   Samsung_Galaxy_A51_SM515F.Test10F rearVideoRec Click More options
+2023-01-16 17:36:05 INFO   Samsung_Galaxy_A51_SM515F.Test10F rearVideoRec Click Select all
+2023-01-16 17:36:19 INFO   Samsung_Galaxy_A51_SM515F.Test10F rearVideoRec Test10F_Fcam_video: 3 videos captured successfully
+2023-01-16 17:36:19 INFO   Samsung_Galaxy_A51_SM515F.Test10F rearVideoRec Pass: Test10F pass for front camera video recording
+2023-01-16 17:36:19 INFO   Samsung_Galaxy_A51_SM515F.Test10F rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-16 17:36:19 INFO   Samsung_Galaxy_A51_SM515F.Test10F rearVideoRec Calling VideoPlayBackForSleepWake()
+2023-01-16 17:36:19 INFO   Samsung_Galaxy_A51_SM515F.Test10F VideoPlayBackForSleepWake Launch File Manager application and playback front recorded video from uSD for 30 seconds, pause video playback, locking phone and unlock after 30 seconds delay and playback video from pause duration.
+2023-01-16 17:36:19 INFO   Samsung_Galaxy_A51_SM515F.Test10F VideoPlayBackForSleepWake Launch home screen
+2023-01-16 17:36:30 INFO   Samsung_Galaxy_A51_SM515F.Test10F VideoPlayBackForSleepWake Clearing recent apps
+2023-01-16 17:36:38 INFO   Samsung_Galaxy_A51_SM515F.Test10F VideoPlayBackForSleepWake Launching file manager application
+2023-01-16 17:36:39 INFO   Samsung_Galaxy_A51_SM515F.Test10F VideoPlayBackForSleepWake Swipe up to select uSD card
+2023-01-16 17:36:44 INFO   Samsung_Galaxy_A51_SM515F.Test10F VideoPlayBackForSleepWake Select SD card
+2023-01-16 17:36:55 INFO   Samsung_Galaxy_A51_SM515F.Test10F VideoPlayBackForSleepWake switch to grid view mode to select DCIM folder
+2023-01-16 17:36:59 INFO   Samsung_Galaxy_A51_SM515F.Test10F VideoPlayBackForSleepWake Select DCIM folder
+2023-01-16 17:37:02 INFO   Samsung_Galaxy_A51_SM515F.Test10F VideoPlayBackForSleepWake Select Camera folder
+2023-01-16 17:37:05 INFO   Samsung_Galaxy_A51_SM515F.Test10F VideoPlayBackForSleepWake switch to list view mode 
+2023-01-16 17:37:09 INFO   Samsung_Galaxy_A51_SM515F.Test10F VideoPlayBackForSleepWake Select more options
+2023-01-16 17:37:19 INFO   Samsung_Galaxy_A51_SM515F.Test10F VideoPlayBackForSleepWake Select Sort by Newest date first
+2023-01-16 17:37:22 INFO   Samsung_Galaxy_A51_SM515F.Test10F VideoPlayBackForSleepWake Click on first file to play highest recorded resolution video file
+2023-01-16 17:37:23 INFO   Samsung_Galaxy_A51_SM515F.Test10F VideoPlayBackForSleepWake Started video playback
+2023-01-16 17:37:43 INFO   Samsung_Galaxy_A51_SM515F.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-01-16 17:37:43 INFO   Samsung_Galaxy_A51_SM515F.Test10F VideoPlayBackForSleepWake Click pause video button
+2023-01-16 17:37:47 INFO   Samsung_Galaxy_A51_SM515F.Test10F VideoPlayBackForSleepWake Lock Mobile with 30 seconds delay
+2023-01-16 17:38:17 INFO   Samsung_Galaxy_A51_SM515F.Test10F VideoPlayBackForSleepWake Unlock Mobile 
+2023-01-16 17:38:17 INFO   Samsung_Galaxy_A51_SM515F.Test10F VideoPlayBackForSleepWake PlayBack Video from Pause duartion
+2023-01-16 17:38:17 INFO   Samsung_Galaxy_A51_SM515F.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-01-16 17:38:17 INFO   Samsung_Galaxy_A51_SM515F.Test10F VideoPlayBackForSleepWake Fast forward video play back for 10 seconds
+2023-01-16 17:38:17 INFO   Samsung_Galaxy_A51_SM515F.Test10F VideoPlayBackForSleepWake Pause video play back
+2023-01-16 17:38:29 INFO   Samsung_Galaxy_A51_SM515F.Test10F VideoPlayBackForSleepWake Pass: Pass Test10F Pass for Pause Video Playback scenario
+2023-01-16 17:38:29 INFO   Samsung_Galaxy_A51_SM515F.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-16 17:38:29 INFO   Samsung_Galaxy_A51_SM515F.Test10F VideoPlayBackForSleepWake calling DatamoveOperation() to move front camera recorded videos files to Test10F folder
+2023-01-16 17:38:29 INFO   Samsung_Galaxy_A51_SM515F.Test10F DataMoveOperation Re-launch file manager application and select external storage for data move operation, select all rear camera videos present in camera folder and move to Test10 folder
+2023-01-16 17:38:35 INFO   Samsung_Galaxy_A51_SM515F.Test10F DataMoveOperation Launching file manager application
+2023-01-16 17:38:38 INFO   Samsung_Galaxy_A51_SM515F.Test10F DataMoveOperation Select external storage
+2023-01-16 17:38:44 INFO   Samsung_Galaxy_A51_SM515F.Test10F DataMoveOperation switch to grid view mode and select DCIM  folder
+2023-01-16 17:38:47 INFO   Samsung_Galaxy_A51_SM515F.Test10F DataMoveOperation Select DCIM folder
+2023-01-16 17:38:50 INFO   Samsung_Galaxy_A51_SM515F.Test10F DataMoveOperation Select camera  folder
+2023-01-16 17:38:54 INFO   Samsung_Galaxy_A51_SM515F.Test10F DataMoveOperation switch to list view mode 
+2023-01-16 17:38:57 INFO   Samsung_Galaxy_A51_SM515F.Test10F DataMoveOperation Click More options
+2023-01-16 17:39:04 INFO   Samsung_Galaxy_A51_SM515F.Test10F DataMoveOperation Click Select all
+2023-01-16 17:39:08 INFO   Samsung_Galaxy_A51_SM515F.Test10F DataMoveOperation Click More options
+2023-01-16 17:39:14 INFO   Samsung_Galaxy_A51_SM515F.Test10F DataMoveOperation Select move to option
+2023-01-16 17:39:21 INFO   Samsung_Galaxy_A51_SM515F.Test10F DataMoveOperation Select uSD Card
+2023-01-16 17:39:27 INFO   Samsung_Galaxy_A51_SM515F.Test10F DataMoveOperation Select ADD NEW Folder option
+2023-01-16 17:39:34 INFO   Samsung_Galaxy_A51_SM515F.Test10F DataMoveOperation Name folder as Test10F
+2023-01-16 17:39:41 INFO   Samsung_Galaxy_A51_SM515F.Test10F DataMoveOperation Accept create folder
+2023-01-16 17:40:11 INFO   Samsung_Galaxy_A51_SM515F.Test10F DataMoveOperation Cut paste  video files operation completed successfully
+2023-01-16 17:40:22 INFO   Samsung_Galaxy_A51_SM515F.Test10F DataMoveOperation Test10F: Data move operation completed successfully
+2023-01-16 17:40:31 INFO   Samsung_Galaxy_A51_SM515F.Test10F DataMoveOperation Pass: Test10F Pass for data move operation successfully
+2023-01-16 17:40:31 INFO   Samsung_Galaxy_A51_SM515F.Test10F VideoPlayBackForSleepWake Final Message: Pass Test10F Pass for front camera  video recording, Pause Video Playback scenario and data move operation scenario
+2023-01-16 17:40:31 INFO   Samsung_Galaxy_A51_SM515F.Test10F VideoPlayBackForSleepWake Test: End
+2023-01-16 17:40:31 INFO   Samsung_Galaxy_A51_SM515F.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

@@ -1,0 +1,92 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 4, Errors: 0, Skipped: 3, Time elapsed: 20,943.318 s <<< FAILURE! - in TestSuite
+Motorola_Moto_G82_5G_XT22251.Test0.SetUp  Time elapsed: 6.496 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Device ZD2226M38Q was not in the list of connected devices
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Device ZD2226M38Q was not in the list of connected devices
+    at getResponseForW3CError (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: AndroidDriver
+	at Motorola_Moto_G82_5G_XT22251.Test0.SetUp(Test0.java:75)
+Caused by: java.lang.reflect.InvocationTargetException
+	at Motorola_Moto_G82_5G_XT22251.Test0.SetUp(Test0.java:75)
+Caused by: org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Device ZD2226M38Q was not in the list of connected devices
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Device ZD2226M38Q was not in the list of connected devices
+    at getResponseForW3CError (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+	at Motorola_Moto_G82_5G_XT22251.Test0.SetUp(Test0.java:75)
+
+Motorola_Moto_G82_5G_XT22251.Test3.SetUp  Time elapsed: 0.312 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Device ZD2226M38Q was not in the list of connected devices
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Device ZD2226M38Q was not in the list of connected devices
+    at getResponseForW3CError (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: AndroidDriver
+	at Motorola_Moto_G82_5G_XT22251.Test3.SetUp(Test3.java:64)
+Caused by: java.lang.reflect.InvocationTargetException
+	at Motorola_Moto_G82_5G_XT22251.Test3.SetUp(Test3.java:64)
+Caused by: org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Device ZD2226M38Q was not in the list of connected devices
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Device ZD2226M38Q was not in the list of connected devices
+    at getResponseForW3CError (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+	at Motorola_Moto_G82_5G_XT22251.Test3.SetUp(Test3.java:64)
+
+Motorola_Moto_G82_5G_XT22251.Test18.SetUp  Time elapsed: 0.277 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Device ZD2226M38Q was not in the list of connected devices
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Device ZD2226M38Q was not in the list of connected devices
+    at getResponseForW3CError (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: AndroidDriver
+	at Motorola_Moto_G82_5G_XT22251.Test18.SetUp(Test18.java:64)
+Caused by: java.lang.reflect.InvocationTargetException
+	at Motorola_Moto_G82_5G_XT22251.Test18.SetUp(Test18.java:64)
+Caused by: org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Device ZD2226M38Q was not in the list of connected devices
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Device ZD2226M38Q was not in the list of connected devices
+    at getResponseForW3CError (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+	at Motorola_Moto_G82_5G_XT22251.Test18.SetUp(Test18.java:64)
+
+Motorola_Moto_G82_5G_XT22251.Test8.recordAudio  Time elapsed: 48.784 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: moto g82 5G, newCommandTimeout: 600, platformName: android, platformVersion: 12, udid: ZD2226M38Q}, deviceApiLevel: 31, deviceManufacturer: motorola, deviceModel: moto g82 5G, deviceName: ZD2226M38Q, deviceScreenDensity: 340, deviceScreenSize: 1080x2400, deviceUDID: ZD2226M38Q, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pixelRatio: 2.125, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 100, takesScreenshot: true, udid: ZD2226M38Q, viewportRect: {height: 2098, left: 0, top: 100, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: f509bcb9-c490-45ce-a599-7243fe8044e1
+*** Element info: {Using=xpath, value=//*[@text='Test1']}
+	at Motorola_Moto_G82_5G_XT22251.Test8.PlayCopiedAudioFile(Test8.java:112)
+	at Motorola_Moto_G82_5G_XT22251.Test8.recordAudio(Test8.java:80)
+

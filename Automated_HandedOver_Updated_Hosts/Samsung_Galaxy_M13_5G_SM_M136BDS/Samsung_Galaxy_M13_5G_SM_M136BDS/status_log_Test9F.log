@@ -1,0 +1,380 @@
+2023-01-10 13:37:00 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture Test: Start
+2023-01-10 13:37:00 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-10 13:37:00 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture Test9F Scenario is as follows:
+2023-01-10 13:37:00 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture 1.Launch camera application, set uSD as a Storage option, start Front camera image picture capture for all Host front resolutions
+2023-01-10 13:37:00 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture Setting up the appium desired capabilities
+2023-01-10 13:37:00 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-10 13:37:06 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture Launch Home screen and Clear recent apps
+2023-01-10 13:37:26 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture Launch Camera Application for Front camera picture Capture for all Host resolutions
+2023-01-10 13:37:27 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture If change to uSD card pop-up exists select Cancel
+2023-01-10 13:37:37 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy M13 5G, newCommandTimeout: 600, platformName: android, platformVersion: 12, udid: RZCT70EY87V}, deviceApiLevel: 31, deviceManufacturer: samsung, deviceModel: SM-M136B, deviceName: RZCT70EY87V, deviceScreenDensity: 300, deviceScreenSize: 720x1600, deviceUDID: RZCT70EY87V, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pixelRatio: 1.875, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 45, takesScreenshot: true, udid: RZCT70EY87V, viewportRect: {height: 1420, left: 0, top: 45, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 3e2b34d2-eb08-4cd9-aba3-ef903e22caee
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2023-01-10 13:37:37 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture If Location access Permission Request Pop Exists Click on Cancel. 
+2023-01-10 13:37:47 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture Location access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy M13 5G, newCommandTimeout: 600, platformName: android, platformVersion: 12, udid: RZCT70EY87V}, deviceApiLevel: 31, deviceManufacturer: samsung, deviceModel: SM-M136B, deviceName: RZCT70EY87V, deviceScreenDensity: 300, deviceScreenSize: 720x1600, deviceUDID: RZCT70EY87V, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pixelRatio: 1.875, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 45, takesScreenshot: true, udid: RZCT70EY87V, viewportRect: {height: 1420, left: 0, top: 45, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 3e2b34d2-eb08-4cd9-aba3-ef903e22caee
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2023-01-10 13:37:52 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture Switch To front Camera if current Exiting camera is in Back camera mode
+2023-01-10 13:37:55 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture Test9F_Fcam_res: 4 resolutions supported
+2023-01-10 13:37:55 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture Click Settings option
+2023-01-10 13:38:00 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture Swipe up and select storage location option
+2023-01-10 13:38:11 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture Select SD as storage option
+2023-01-10 13:38:19 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture Select Front Image size
+2023-01-10 13:38:22 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture Select First front Image Resoution: 3:4
+2023-01-10 13:38:35 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image0
+2023-01-10 13:38:41 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image1
+2023-01-10 13:38:47 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image2
+2023-01-10 13:38:54 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image3
+2023-01-10 13:39:00 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image4
+2023-01-10 13:39:06 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image5
+2023-01-10 13:39:12 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image6
+2023-01-10 13:39:18 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image7
+2023-01-10 13:39:24 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image8
+2023-01-10 13:39:31 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image9
+2023-01-10 13:39:37 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image10
+2023-01-10 13:39:43 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image11
+2023-01-10 13:39:49 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image12
+2023-01-10 13:39:55 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image13
+2023-01-10 13:40:01 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image14
+2023-01-10 13:40:08 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image15
+2023-01-10 13:40:14 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image16
+2023-01-10 13:40:20 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image17
+2023-01-10 13:40:26 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image18
+2023-01-10 13:40:32 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image19
+2023-01-10 13:40:39 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image20
+2023-01-10 13:40:45 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image21
+2023-01-10 13:40:51 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image22
+2023-01-10 13:40:57 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image23
+2023-01-10 13:41:03 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image24
+2023-01-10 13:41:09 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image25
+2023-01-10 13:41:16 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image26
+2023-01-10 13:41:22 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image27
+2023-01-10 13:41:28 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image28
+2023-01-10 13:41:34 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image29
+2023-01-10 13:41:40 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image30
+2023-01-10 13:41:46 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image31
+2023-01-10 13:41:53 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image32
+2023-01-10 13:41:59 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image33
+2023-01-10 13:42:05 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image34
+2023-01-10 13:42:11 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image35
+2023-01-10 13:42:17 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image36
+2023-01-10 13:42:23 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image37
+2023-01-10 13:42:30 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image38
+2023-01-10 13:42:36 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image39
+2023-01-10 13:42:42 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image40
+2023-01-10 13:42:48 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image41
+2023-01-10 13:42:54 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image42
+2023-01-10 13:43:00 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image43
+2023-01-10 13:43:07 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image44
+2023-01-10 13:43:13 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image45
+2023-01-10 13:43:19 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image46
+2023-01-10 13:43:25 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image47
+2023-01-10 13:43:31 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image48
+2023-01-10 13:43:38 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image49
+2023-01-10 13:43:44 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image50
+2023-01-10 13:43:50 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image51
+2023-01-10 13:43:56 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image52
+2023-01-10 13:44:02 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image53
+2023-01-10 13:44:08 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image54
+2023-01-10 13:44:15 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image55
+2023-01-10 13:44:21 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image56
+2023-01-10 13:44:27 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image57
+2023-01-10 13:44:33 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image58
+2023-01-10 13:44:39 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image59
+2023-01-10 13:44:45 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image60
+2023-01-10 13:44:52 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image61
+2023-01-10 13:44:58 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image62
+2023-01-10 13:45:04 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image63
+2023-01-10 13:45:10 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image64
+2023-01-10 13:45:16 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image65
+2023-01-10 13:45:23 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image66
+2023-01-10 13:45:29 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image67
+2023-01-10 13:45:35 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image68
+2023-01-10 13:45:41 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image69
+2023-01-10 13:45:47 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image70
+2023-01-10 13:45:53 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image71
+2023-01-10 13:46:00 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image72
+2023-01-10 13:46:06 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image73
+2023-01-10 13:46:12 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking First resolution Image74
+2023-01-10 13:46:14 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture front camera first resolution:75 images Captured succesfull
+2023-01-10 13:46:14 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture Select Front Image size
+2023-01-10 13:46:16 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture Select Second resolution 9:16
+2023-01-10 13:46:30 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image0
+2023-01-10 13:46:36 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image1
+2023-01-10 13:46:42 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image2
+2023-01-10 13:46:48 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image3
+2023-01-10 13:46:54 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image4
+2023-01-10 13:47:00 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image5
+2023-01-10 13:47:07 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image6
+2023-01-10 13:47:13 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image7
+2023-01-10 13:47:19 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image8
+2023-01-10 13:47:25 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image9
+2023-01-10 13:47:31 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image10
+2023-01-10 13:47:37 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image11
+2023-01-10 13:47:44 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image12
+2023-01-10 13:47:50 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image13
+2023-01-10 13:47:56 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image14
+2023-01-10 13:48:02 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image15
+2023-01-10 13:48:08 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image16
+2023-01-10 13:48:14 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image17
+2023-01-10 13:48:20 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image18
+2023-01-10 13:48:27 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image19
+2023-01-10 13:48:33 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image20
+2023-01-10 13:48:39 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image21
+2023-01-10 13:48:45 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image22
+2023-01-10 13:48:51 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image23
+2023-01-10 13:48:58 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image24
+2023-01-10 13:49:04 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image25
+2023-01-10 13:49:10 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image26
+2023-01-10 13:49:16 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image27
+2023-01-10 13:49:22 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image28
+2023-01-10 13:49:28 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image29
+2023-01-10 13:49:35 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image30
+2023-01-10 13:49:41 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image31
+2023-01-10 13:49:47 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image32
+2023-01-10 13:49:53 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image33
+2023-01-10 13:49:59 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image34
+2023-01-10 13:50:05 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image35
+2023-01-10 13:50:12 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image36
+2023-01-10 13:50:18 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image37
+2023-01-10 13:50:24 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image38
+2023-01-10 13:50:30 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image39
+2023-01-10 13:50:36 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image40
+2023-01-10 13:50:42 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image41
+2023-01-10 13:50:48 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image42
+2023-01-10 13:50:55 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image43
+2023-01-10 13:51:01 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image44
+2023-01-10 13:51:07 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image45
+2023-01-10 13:51:13 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image46
+2023-01-10 13:51:19 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image47
+2023-01-10 13:51:25 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image48
+2023-01-10 13:51:32 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image49
+2023-01-10 13:51:38 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image50
+2023-01-10 13:51:44 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image51
+2023-01-10 13:51:50 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image52
+2023-01-10 13:51:56 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image53
+2023-01-10 13:52:02 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image54
+2023-01-10 13:52:09 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image55
+2023-01-10 13:52:15 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image56
+2023-01-10 13:52:21 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image57
+2023-01-10 13:52:27 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image58
+2023-01-10 13:52:33 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image59
+2023-01-10 13:52:39 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image60
+2023-01-10 13:52:45 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image61
+2023-01-10 13:52:52 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image62
+2023-01-10 13:52:58 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image63
+2023-01-10 13:53:04 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image64
+2023-01-10 13:53:10 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image65
+2023-01-10 13:53:16 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image66
+2023-01-10 13:53:22 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image67
+2023-01-10 13:53:29 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image68
+2023-01-10 13:53:35 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image69
+2023-01-10 13:53:41 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image70
+2023-01-10 13:53:47 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image71
+2023-01-10 13:53:53 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image72
+2023-01-10 13:53:59 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image73
+2023-01-10 13:54:06 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second resolution Image74
+2023-01-10 13:54:08 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture front camera second resolution:75 images Captured succesfull
+2023-01-10 13:54:08 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture Select Front Image size
+2023-01-10 13:54:10 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture Select third Image Resoution: 1:1
+2023-01-10 13:54:23 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image0
+2023-01-10 13:54:29 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image1
+2023-01-10 13:54:36 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image2
+2023-01-10 13:54:42 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image3
+2023-01-10 13:54:48 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image4
+2023-01-10 13:54:54 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image5
+2023-01-10 13:55:00 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image6
+2023-01-10 13:55:06 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image7
+2023-01-10 13:55:13 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image8
+2023-01-10 13:55:19 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image9
+2023-01-10 13:55:25 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image10
+2023-01-10 13:55:31 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image11
+2023-01-10 13:55:37 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image12
+2023-01-10 13:55:43 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image13
+2023-01-10 13:55:49 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image14
+2023-01-10 13:55:56 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image15
+2023-01-10 13:56:02 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image16
+2023-01-10 13:56:08 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image17
+2023-01-10 13:56:14 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image18
+2023-01-10 13:56:20 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image19
+2023-01-10 13:56:27 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image20
+2023-01-10 13:56:33 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image21
+2023-01-10 13:56:39 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image22
+2023-01-10 13:56:45 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image23
+2023-01-10 13:56:51 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image24
+2023-01-10 13:56:57 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image25
+2023-01-10 13:57:04 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image26
+2023-01-10 13:57:10 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image27
+2023-01-10 13:57:16 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image28
+2023-01-10 13:57:22 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image29
+2023-01-10 13:57:28 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image30
+2023-01-10 13:57:34 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image31
+2023-01-10 13:57:41 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image32
+2023-01-10 13:57:47 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image33
+2023-01-10 13:57:53 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image34
+2023-01-10 13:57:59 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image35
+2023-01-10 13:58:05 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image36
+2023-01-10 13:58:11 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image37
+2023-01-10 13:58:18 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image38
+2023-01-10 13:58:24 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image39
+2023-01-10 13:58:30 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image40
+2023-01-10 13:58:36 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image41
+2023-01-10 13:58:42 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image42
+2023-01-10 13:58:48 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image43
+2023-01-10 13:58:54 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image44
+2023-01-10 13:59:01 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image45
+2023-01-10 13:59:07 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image46
+2023-01-10 13:59:13 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image47
+2023-01-10 13:59:19 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image48
+2023-01-10 13:59:25 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image49
+2023-01-10 13:59:32 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image50
+2023-01-10 13:59:38 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image51
+2023-01-10 13:59:44 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image52
+2023-01-10 13:59:50 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image53
+2023-01-10 13:59:56 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image54
+2023-01-10 14:00:02 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image55
+2023-01-10 14:00:08 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image56
+2023-01-10 14:00:15 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image57
+2023-01-10 14:00:21 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image58
+2023-01-10 14:00:27 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image59
+2023-01-10 14:00:33 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image60
+2023-01-10 14:00:39 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image61
+2023-01-10 14:00:45 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image62
+2023-01-10 14:00:52 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image63
+2023-01-10 14:00:58 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image64
+2023-01-10 14:01:04 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image65
+2023-01-10 14:01:10 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image66
+2023-01-10 14:01:16 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image67
+2023-01-10 14:01:22 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image68
+2023-01-10 14:01:29 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image69
+2023-01-10 14:01:35 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image70
+2023-01-10 14:01:41 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image71
+2023-01-10 14:01:47 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image72
+2023-01-10 14:01:53 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image73
+2023-01-10 14:01:59 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Second Third Image74
+2023-01-10 14:02:01 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture front camera third resolution:75 images Captured succesfull
+2023-01-10 14:02:01 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture Select Front Image size
+2023-01-10 14:02:04 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture Select fourth resolution Full
+2023-01-10 14:02:20 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image0
+2023-01-10 14:02:26 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image1
+2023-01-10 14:02:32 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image2
+2023-01-10 14:02:39 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image3
+2023-01-10 14:02:45 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image4
+2023-01-10 14:02:51 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image5
+2023-01-10 14:02:57 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image6
+2023-01-10 14:03:03 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image7
+2023-01-10 14:03:09 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image8
+2023-01-10 14:03:16 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image9
+2023-01-10 14:03:22 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image10
+2023-01-10 14:03:28 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image11
+2023-01-10 14:03:34 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image12
+2023-01-10 14:03:40 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image13
+2023-01-10 14:03:46 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image14
+2023-01-10 14:03:52 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image15
+2023-01-10 14:03:59 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image16
+2023-01-10 14:04:05 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image17
+2023-01-10 14:04:11 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image18
+2023-01-10 14:04:17 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image19
+2023-01-10 14:04:23 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image20
+2023-01-10 14:04:29 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image21
+2023-01-10 14:04:36 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image22
+2023-01-10 14:04:42 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image23
+2023-01-10 14:04:48 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image24
+2023-01-10 14:04:54 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image25
+2023-01-10 14:05:00 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image26
+2023-01-10 14:05:06 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image27
+2023-01-10 14:05:12 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image28
+2023-01-10 14:05:19 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image29
+2023-01-10 14:05:25 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image30
+2023-01-10 14:05:31 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image31
+2023-01-10 14:05:37 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image32
+2023-01-10 14:05:43 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image33
+2023-01-10 14:05:49 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image34
+2023-01-10 14:05:56 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image35
+2023-01-10 14:06:02 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image36
+2023-01-10 14:06:08 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image37
+2023-01-10 14:06:14 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image38
+2023-01-10 14:06:20 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image39
+2023-01-10 14:06:26 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image40
+2023-01-10 14:06:32 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image41
+2023-01-10 14:06:39 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image42
+2023-01-10 14:06:45 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image43
+2023-01-10 14:06:51 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image44
+2023-01-10 14:06:57 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image45
+2023-01-10 14:07:03 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image46
+2023-01-10 14:07:09 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image47
+2023-01-10 14:07:16 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image48
+2023-01-10 14:07:22 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image49
+2023-01-10 14:07:28 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image50
+2023-01-10 14:07:34 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image51
+2023-01-10 14:07:40 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image52
+2023-01-10 14:07:46 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image53
+2023-01-10 14:07:52 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image54
+2023-01-10 14:07:59 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image55
+2023-01-10 14:08:05 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image56
+2023-01-10 14:08:11 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image57
+2023-01-10 14:08:17 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image58
+2023-01-10 14:08:23 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image59
+2023-01-10 14:08:29 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image60
+2023-01-10 14:08:36 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image61
+2023-01-10 14:08:42 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image62
+2023-01-10 14:08:48 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image63
+2023-01-10 14:08:54 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image64
+2023-01-10 14:09:00 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image65
+2023-01-10 14:09:06 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image66
+2023-01-10 14:09:13 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image67
+2023-01-10 14:09:19 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image68
+2023-01-10 14:09:25 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image69
+2023-01-10 14:09:31 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image70
+2023-01-10 14:09:37 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image71
+2023-01-10 14:09:43 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image72
+2023-01-10 14:09:49 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image73
+2023-01-10 14:09:56 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture clicking Fourth resolution Image74
+2023-01-10 14:09:58 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture Back camera fourth resolution:75 images Captured succesfull
+2023-01-10 14:10:03 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture Total Count value:300 images to be Captured 
+2023-01-10 14:10:03 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture switch to back camera
+2023-01-10 14:10:14 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture Launch file manager application and verify captured images present  in uSD Card
+2023-01-10 14:10:30 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture Swipe up to select uSD card
+2023-01-10 14:10:33 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture Select SD card
+2023-01-10 14:10:39 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture switch to grid view mode to select DCIM folder
+2023-01-10 14:10:43 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture Select DCIM folder
+2023-01-10 14:10:46 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture Select camera folder
+2023-01-10 14:10:49 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture switch to list view mode 
+2023-01-10 14:10:52 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture Click More options
+2023-01-10 14:10:59 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture Click Select all
+2023-01-10 14:11:02 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture Total Image captured
+2023-01-10 14:11:11 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture Pass: Test9F pass for rear Image capture
+2023-01-10 14:11:11 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture Test9F Fcam_image: 300  images Captured succesfull
+2023-01-10 14:11:11 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-10 14:11:14 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture calling DataMoveOperation() 
+2023-01-10 14:11:14 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F DataMoveOperation Re-launch file manager application and select external storage for data move operation, select all front camera images files present in camera folder and move to Test9F folder
+2023-01-10 14:11:23 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F DataMoveOperation Select external storage
+2023-01-10 14:11:29 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F DataMoveOperation switch to grid view mode and select DCIM  folder
+2023-01-10 14:11:32 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F DataMoveOperation Select DCIM folder
+2023-01-10 14:11:35 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F DataMoveOperation Select camera  folder
+2023-01-10 14:11:38 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F DataMoveOperation switch to list view mode 
+2023-01-10 14:11:41 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F DataMoveOperation Click More options
+2023-01-10 14:11:48 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F DataMoveOperation Click Select all
+2023-01-10 14:11:52 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F DataMoveOperation Click More options
+2023-01-10 14:11:58 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F DataMoveOperation Select move to option
+2023-01-10 14:12:05 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F DataMoveOperation Select uSD Card
+2023-01-10 14:12:11 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F DataMoveOperation Select ADD NEW Folder option
+2023-01-10 14:12:17 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F DataMoveOperation Name folder as Test9F
+2023-01-10 14:12:24 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F DataMoveOperation Accept create folder
+2023-01-10 14:12:59 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F DataMoveOperation Cut paste  operation completed successfully
+2023-01-10 14:13:02 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F DataMoveOperation Test9F: Data move operation completed successfully
+2023-01-10 14:13:11 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F DataMoveOperation Pass: Test9F Pass for data move operation successfully
+2023-01-10 14:13:11 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-10 14:13:11 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture Final message: Pass Test9F Pass for Front camera image capture  successfully
+2023-01-10 14:13:11 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture Test: End
+2023-01-10 14:13:11 INFO   Samsung_Galaxy_M13_5G_SM_M136BDS.Test9F frontPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

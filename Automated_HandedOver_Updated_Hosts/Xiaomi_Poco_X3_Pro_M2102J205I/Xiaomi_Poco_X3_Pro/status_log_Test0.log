@@ -1,0 +1,132 @@
+2022-12-05 14:29:33 INFO   Xiaomi_Poco_X3_Pro.Test0 start Test: Start
+2022-12-05 14:29:33 INFO   Xiaomi_Poco_X3_Pro.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-12-05 14:29:33 INFO   Xiaomi_Poco_X3_Pro.Test0 start  Test0 Scenario is as follows 
+2022-12-05 14:29:33 INFO   Xiaomi_Poco_X3_Pro.Test0 start 1.Unlock phone, clear recent apps, clear internal memory
+2022-12-05 14:29:33 INFO   Xiaomi_Poco_X3_Pro.Test0 start 2.Call Image() and Capture Rear camera 25 images for default resolution in uSD card and Verify the data capture
+2022-12-05 14:29:33 INFO   Xiaomi_Poco_X3_Pro.Test0 start 3.Call Video() and record Rear camera video of first 2 resloutions for 2 minutes of duration in uSD Card and verify the same
+2022-12-05 14:29:33 INFO   Xiaomi_Poco_X3_Pro.Test0 start 4.Call Format() and format uSD card with data and verify the same
+2022-12-05 14:29:33 INFO   Xiaomi_Poco_X3_Pro.Test0 start Setting up the appium desired capabilities
+2022-12-05 14:29:33 INFO   Xiaomi_Poco_X3_Pro.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-12-05 14:29:40 INFO   Xiaomi_Poco_X3_Pro.Test0 start Unlock Phone
+2022-12-05 14:29:45 INFO   Xiaomi_Poco_X3_Pro.Test0 start Launch home screen
+2022-12-05 14:29:52 INFO   Xiaomi_Poco_X3_Pro.Test0 start Launch appium permission access pop-up
+2022-12-05 14:30:02 INFO   Xiaomi_Poco_X3_Pro.Test0 start No appium launch access permission  found
+2022-12-05 14:30:02 INFO   Xiaomi_Poco_X3_Pro.Test0 start Clearing Recent Apps
+2022-12-05 14:30:17 INFO   Xiaomi_Poco_X3_Pro.Test0 start Pass: No recent pass found in background
+2022-12-05 14:30:19 INFO   Xiaomi_Poco_X3_Pro.Test0 start Launch File manager and Clear internal memory
+2022-12-05 14:30:37 INFO   Xiaomi_Poco_X3_Pro.Test0 start Select Internal storage
+2022-12-05 14:30:44 INFO   Xiaomi_Poco_X3_Pro.Test0 start Click More options
+2022-12-05 14:30:50 INFO   Xiaomi_Poco_X3_Pro.Test0 start Click Select all
+2022-12-05 14:30:53 INFO   Xiaomi_Poco_X3_Pro.Test0 start undo select Test1 folder
+2022-12-05 14:30:56 INFO   Xiaomi_Poco_X3_Pro.Test0 start Click More options
+2022-12-05 14:31:02 INFO   Xiaomi_Poco_X3_Pro.Test0 start Click Delete Option
+2022-12-05 14:31:53 INFO   Xiaomi_Poco_X3_Pro.Test0 start Pass: Clearing phone internal memory is successfull
+2022-12-05 14:31:53 INFO   Xiaomi_Poco_X3_Pro.Test0 start ===============================================================================================================================================
+2022-12-05 14:31:53 INFO   Xiaomi_Poco_X3_Pro.Test0 start Calling Image() to capture rear image in uSD card and verifying the same.
+2022-12-05 14:31:53 INFO   Xiaomi_Poco_X3_Pro.Test0 Images Launching settings application, set uSD as Storage option for Image capture
+2022-12-05 14:32:00 INFO   Xiaomi_Poco_X3_Pro.Test0 Images select about phone
+2022-12-05 14:32:04 INFO   Xiaomi_Poco_X3_Pro.Test0 Images select storage option
+2022-12-05 14:32:10 INFO   Xiaomi_Poco_X3_Pro.Test0 Images Select storage settings option
+2022-12-05 14:32:13 INFO   Xiaomi_Poco_X3_Pro.Test0 Images Select Camera option
+2022-12-05 14:32:16 INFO   Xiaomi_Poco_X3_Pro.Test0 Images Select Exteranl stoarge as storage option
+2022-12-05 14:32:37 INFO   Xiaomi_Poco_X3_Pro.Test0 Images Launch camera application
+2022-12-05 14:32:55 INFO   Xiaomi_Poco_X3_Pro.Test0 Images No location permission access pop-up found: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Poco X3 Pro, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: f13b3307}, deviceApiLevel: 30, deviceManufacturer: Xiaomi, deviceModel: M2102J20SI, deviceName: f13b3307, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: f13b3307, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 91, takesScreenshot: true, udid: f13b3307, viewportRect: {height: 2088, left: 0, top: 91, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 56a04c11-512c-45ef-a788-fa264b447be7
+*** Element info: {Using=xpath, value=//*[@resource-id='android:id/button2']}
+2022-12-05 14:32:55 INFO   Xiaomi_Poco_X3_Pro.Test0 Images Switch to photo mode
+2022-12-05 14:32:58 INFO   Xiaomi_Poco_X3_Pro.Test0 Images Capturing default resolution image
+2022-12-05 14:33:05 INFO   Xiaomi_Poco_X3_Pro.Test0 Images capturing default resolution image 0
+2022-12-05 14:33:13 INFO   Xiaomi_Poco_X3_Pro.Test0 Images capturing default resolution image 1
+2022-12-05 14:33:21 INFO   Xiaomi_Poco_X3_Pro.Test0 Images capturing default resolution image 2
+2022-12-05 14:33:28 INFO   Xiaomi_Poco_X3_Pro.Test0 Images capturing default resolution image 3
+2022-12-05 14:33:37 INFO   Xiaomi_Poco_X3_Pro.Test0 Images capturing default resolution image 4
+2022-12-05 14:33:45 INFO   Xiaomi_Poco_X3_Pro.Test0 Images capturing default resolution image 5
+2022-12-05 14:33:53 INFO   Xiaomi_Poco_X3_Pro.Test0 Images capturing default resolution image 6
+2022-12-05 14:34:01 INFO   Xiaomi_Poco_X3_Pro.Test0 Images capturing default resolution image 7
+2022-12-05 14:34:09 INFO   Xiaomi_Poco_X3_Pro.Test0 Images capturing default resolution image 8
+2022-12-05 14:34:17 INFO   Xiaomi_Poco_X3_Pro.Test0 Images capturing default resolution image 9
+2022-12-05 14:34:25 INFO   Xiaomi_Poco_X3_Pro.Test0 Images capturing default resolution image 10
+2022-12-05 14:34:33 INFO   Xiaomi_Poco_X3_Pro.Test0 Images capturing default resolution image 11
+2022-12-05 14:34:41 INFO   Xiaomi_Poco_X3_Pro.Test0 Images capturing default resolution image 12
+2022-12-05 14:34:49 INFO   Xiaomi_Poco_X3_Pro.Test0 Images capturing default resolution image 13
+2022-12-05 14:34:58 INFO   Xiaomi_Poco_X3_Pro.Test0 Images capturing default resolution image 14
+2022-12-05 14:35:06 INFO   Xiaomi_Poco_X3_Pro.Test0 Images capturing default resolution image 15
+2022-12-05 14:35:14 INFO   Xiaomi_Poco_X3_Pro.Test0 Images capturing default resolution image 16
+2022-12-05 14:35:22 INFO   Xiaomi_Poco_X3_Pro.Test0 Images capturing default resolution image 17
+2022-12-05 14:35:31 INFO   Xiaomi_Poco_X3_Pro.Test0 Images capturing default resolution image 18
+2022-12-05 14:35:38 INFO   Xiaomi_Poco_X3_Pro.Test0 Images capturing default resolution image 19
+2022-12-05 14:35:46 INFO   Xiaomi_Poco_X3_Pro.Test0 Images capturing default resolution image 20
+2022-12-05 14:35:54 INFO   Xiaomi_Poco_X3_Pro.Test0 Images capturing default resolution image 21
+2022-12-05 14:36:03 INFO   Xiaomi_Poco_X3_Pro.Test0 Images capturing default resolution image 22
+2022-12-05 14:36:11 INFO   Xiaomi_Poco_X3_Pro.Test0 Images capturing default resolution image 23
+2022-12-05 14:36:19 INFO   Xiaomi_Poco_X3_Pro.Test0 Images capturing default resolution image 24
+2022-12-05 14:36:19 INFO   Xiaomi_Poco_X3_Pro.Test0 Images 25 Image Capture is successfull
+2022-12-05 14:36:26 INFO   Xiaomi_Poco_X3_Pro.Test0 Images Launch file manager application and verify image capture in uSD Card
+2022-12-05 14:36:43 INFO   Xiaomi_Poco_X3_Pro.Test0 Images Swipe up to select uSD card
+2022-12-05 14:36:46 INFO   Xiaomi_Poco_X3_Pro.Test0 Images Select SD card
+2022-12-05 14:36:52 INFO   Xiaomi_Poco_X3_Pro.Test0 Images switch to grid view mode to select DCIM folder
+2022-12-05 14:36:55 INFO   Xiaomi_Poco_X3_Pro.Test0 Images Select DCIM folder
+2022-12-05 14:36:58 INFO   Xiaomi_Poco_X3_Pro.Test0 Images Select camera folder
+2022-12-05 14:37:01 INFO   Xiaomi_Poco_X3_Pro.Test0 Images switch to list view mode
+2022-12-05 14:37:04 INFO   Xiaomi_Poco_X3_Pro.Test0 Images Click More options
+2022-12-05 14:37:10 INFO   Xiaomi_Poco_X3_Pro.Test0 Images Click Select all
+2022-12-05 14:37:14 INFO   Xiaomi_Poco_X3_Pro.Test0 Images undo select RAW folder
+2022-12-05 14:37:20 INFO   Xiaomi_Poco_X3_Pro.Test0 Images Pass:Total Number Of Image captured 25 is successfull
+2022-12-05 14:37:23 INFO   Xiaomi_Poco_X3_Pro.Test0 Images ===============================================================================================================================================
+2022-12-05 14:37:23 INFO   Xiaomi_Poco_X3_Pro.Test0 Images Calling video() for rear video recording in USD card and verifying data capture.
+2022-12-05 14:37:23 INFO   Xiaomi_Poco_X3_Pro.Test0 Video Launching settings application, set uSD as Storage option for Video recording
+2022-12-05 14:37:47 INFO   Xiaomi_Poco_X3_Pro.Test0 Video Select external storage as option for Video recording
+2022-12-05 14:38:08 INFO   Xiaomi_Poco_X3_Pro.Test0 Video Launching camera application for video recording
+2022-12-05 14:38:15 INFO   Xiaomi_Poco_X3_Pro.Test0 Video if location permission access pop-up exists select Deny option 
+2022-12-05 14:38:25 INFO   Xiaomi_Poco_X3_Pro.Test0 Video Location permission access  pop-up not found: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Poco X3 Pro, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: f13b3307}, deviceApiLevel: 30, deviceManufacturer: Xiaomi, deviceModel: M2102J20SI, deviceName: f13b3307, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: f13b3307, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 91, takesScreenshot: true, udid: f13b3307, viewportRect: {height: 2088, left: 0, top: 91, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 56a04c11-512c-45ef-a788-fa264b447be7
+*** Element info: {Using=xpath, value=//*[@resource-id='android:id/button2']}
+2022-12-05 14:38:27 INFO   Xiaomi_Poco_X3_Pro.Test0 Video Switch to video mode
+2022-12-05 14:38:30 INFO   Xiaomi_Poco_X3_Pro.Test0 Video Click setting option and select video resolution
+2022-12-05 14:38:34 INFO   Xiaomi_Poco_X3_Pro.Test0 Video Select Video resolution 4K fps
+2022-12-05 14:38:42 INFO   Xiaomi_Poco_X3_Pro.Test0 Video Click Start video recording for: 2 minutes video duration
+2022-12-05 14:40:42 INFO   Xiaomi_Poco_X3_Pro.Test0 Video Stop video recording
+2022-12-05 14:40:49 INFO   Xiaomi_Poco_X3_Pro.Test0 Video Select second highest resolution FHD 1080 fps for recording
+2022-12-05 14:41:00 INFO   Xiaomi_Poco_X3_Pro.Test0 Video Click Start video recording for: 2minute video duration
+2022-12-05 14:43:01 INFO   Xiaomi_Poco_X3_Pro.Test0 Video Stop video recording
+2022-12-05 14:43:04 INFO   Xiaomi_Poco_X3_Pro.Test0 Video Rear camera Video recording is successfull.
+2022-12-05 14:43:04 INFO   Xiaomi_Poco_X3_Pro.Test0 Video Launch file manager application and verify video capture in uSD Card
+2022-12-05 14:43:23 INFO   Xiaomi_Poco_X3_Pro.Test0 Video Select SD card
+2022-12-05 14:43:30 INFO   Xiaomi_Poco_X3_Pro.Test0 Video switch to grid view mode
+2022-12-05 14:43:33 INFO   Xiaomi_Poco_X3_Pro.Test0 Video Select DCIM folder
+2022-12-05 14:43:36 INFO   Xiaomi_Poco_X3_Pro.Test0 Video Select camera folder
+2022-12-05 14:43:39 INFO   Xiaomi_Poco_X3_Pro.Test0 Video switch to list view mode
+2022-12-05 14:43:39 INFO   Xiaomi_Poco_X3_Pro.Test0 Video Click More options
+2022-12-05 14:43:45 INFO   Xiaomi_Poco_X3_Pro.Test0 Video Click Select all
+2022-12-05 14:43:49 INFO   Xiaomi_Poco_X3_Pro.Test0 Video undo select RAW folder
+2022-12-05 14:43:55 INFO   Xiaomi_Poco_X3_Pro.Test0 Video Pass: 2 Videos recorded Successfully
+2022-12-05 14:43:55 INFO   Xiaomi_Poco_X3_Pro.Test0 Video Pass: A total of 27 files present in uSD card before Format
+2022-12-05 14:43:55 INFO   Xiaomi_Poco_X3_Pro.Test0 Video ===============================================================================================================================================
+2022-12-05 14:43:58 INFO   Xiaomi_Poco_X3_Pro.Test0 Video calling Format() for format with data scenario
+2022-12-05 14:43:58 INFO   Xiaomi_Poco_X3_Pro.Test0 Format Launch settings application to format uSD card with data
+2022-12-05 14:44:05 INFO   Xiaomi_Poco_X3_Pro.Test0 Format Select about phone
+2022-12-05 14:44:09 INFO   Xiaomi_Poco_X3_Pro.Test0 Format Select Storage
+2022-12-05 14:44:15 INFO   Xiaomi_Poco_X3_Pro.Test0 Format Select format SD card
+2022-12-05 14:44:18 INFO   Xiaomi_Poco_X3_Pro.Test0 Format Accept allow pop-up to  Format uSD Card
+2022-12-05 14:44:51 INFO   Xiaomi_Poco_X3_Pro.Test0 Format Format uSD Card with data is succesfull
+2022-12-05 14:44:57 INFO   Xiaomi_Poco_X3_Pro.Test0 Format Launch file manager application and verify data format
+2022-12-05 14:45:16 INFO   Xiaomi_Poco_X3_Pro.Test0 Format Select SD card
+2022-12-05 14:45:22 INFO   Xiaomi_Poco_X3_Pro.Test0 Format switch to grid view mode
+2022-12-05 14:45:22 INFO   Xiaomi_Poco_X3_Pro.Test0 Format Select DCIM folder
+2022-12-05 14:45:22 INFO   Xiaomi_Poco_X3_Pro.Test0 Format switch to list view mode
+2022-12-05 14:45:22 INFO   Xiaomi_Poco_X3_Pro.Test0 Format Click On Camera Folder
+2022-12-05 14:45:32 INFO   Xiaomi_Poco_X3_Pro.Test0 Format Pass:Images and videos are not present in the DCIM folder, CARD format is successfully completed 
+2022-12-05 14:45:32 INFO   Xiaomi_Poco_X3_Pro.Test0 Format ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-12-05 14:45:32 INFO   Xiaomi_Poco_X3_Pro.Test0 Format Final Message: Pass Test0 pass for format Operation
+2022-12-05 14:45:32 INFO   Xiaomi_Poco_X3_Pro.Test0 Format Test:End
+2022-12-05 14:45:32 INFO   Xiaomi_Poco_X3_Pro.Test0 Format ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

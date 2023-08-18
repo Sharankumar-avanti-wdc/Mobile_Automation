@@ -1,0 +1,131 @@
+2023-03-10 18:42:51 INFO   BLU_G91_Pro.Test10_Int rearVideoRec Test: Start
+2023-03-10 18:42:51 INFO   BLU_G91_Pro.Test10_Int rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-10 18:42:51 INFO   BLU_G91_Pro.Test10_Int rearVideoRec Test10_Int Scenario is as follows
+2023-03-10 18:42:51 INFO   BLU_G91_Pro.Test10_Int rearVideoRec 1.Launch Camera application and start back camera video recording for all host applicable resolutions in Internal storage
+2023-03-10 18:42:51 INFO   BLU_G91_Pro.Test10_Int rearVideoRec 2.Playback Highest resolution recorded video from Internal storage, fast forward playback and pause video scenario 
+2023-03-10 18:42:51 INFO   BLU_G91_Pro.Test10_Int rearVideoRec 3.Playback copied videos from Test1 folder, fast forward and pause scenario
+2023-03-10 18:42:51 INFO   BLU_G91_Pro.Test10_Int rearVideoRec 4.Move recorded videos from Internal storage-->DCIM-->Camera folder to Test10_Int folder in Internal storage
+2023-03-10 18:42:51 INFO   BLU_G91_Pro.Test10_Int rearVideoRec Setting up the appium desired capabilities
+2023-03-10 18:42:51 INFO   BLU_G91_Pro.Test10_Int rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-10 18:43:09 INFO   BLU_G91_Pro.Test10_Int rearVideoRec Launch home screen
+2023-03-10 18:43:18 INFO   BLU_G91_Pro.Test10_Int rearVideoRec Clearing Recent Apps
+2023-03-10 18:43:18 INFO   BLU_G91_Pro.Test10_Int rearVideoRec Pass: No recent apps found
+2023-03-10 18:43:22 INFO   BLU_G91_Pro.Test10_Int rearVideoRec Launch Camera application for rear camera video recording
+2023-03-10 18:43:22 INFO   BLU_G91_Pro.Test10_Int rearVideoRec Launch Camera Application for Rear picture capture
+2023-03-10 18:43:44 INFO   BLU_G91_Pro.Test10_Int rearVideoRec Select App info
+2023-03-10 18:43:50 INFO   BLU_G91_Pro.Test10_Int rearVideoRec IF Change to uInternal storage notification pop-up exists select Cancel Option
+2023-03-10 18:44:00 INFO   BLU_G91_Pro.Test10_Int rearVideoRec change to Internal storage element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-201', ip: '10.65.147.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: G91 Pro, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: 1080305021000992}, deviceApiLevel: 30, deviceManufacturer: BLU, deviceModel: G91 Pro, deviceName: 1080305021000992, deviceScreenDensity: 480, deviceScreenSize: 1080x2400, deviceUDID: 1080305021000992, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 106, takesScreenshot: true, udid: 1080305021000992, viewportRect: {height: 2044, left: 0, top: 106, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: b8ec0b90-5707-4907-8e5a-978f802561ae
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("DENY")}
+2023-03-10 18:44:00 INFO   BLU_G91_Pro.Test10_Int rearVideoRec if Location permisson Pop Exists Select Cancel Option
+2023-03-10 18:44:10 INFO   BLU_G91_Pro.Test10_Int rearVideoRec Location permission access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-201', ip: '10.65.147.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: G91 Pro, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: 1080305021000992}, deviceApiLevel: 30, deviceManufacturer: BLU, deviceModel: G91 Pro, deviceName: 1080305021000992, deviceScreenDensity: 480, deviceScreenSize: 1080x2400, deviceUDID: 1080305021000992, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 106, takesScreenshot: true, udid: 1080305021000992, viewportRect: {height: 2044, left: 0, top: 106, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: b8ec0b90-5707-4907-8e5a-978f802561ae
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("START CAPTURE")}
+2023-03-10 18:44:10 INFO   BLU_G91_Pro.Test10_Int rearVideoRec Test10_Int_Bcam_res: 4 resolutions supported
+2023-03-10 18:44:10 INFO   BLU_G91_Pro.Test10_Int rearVideoRec Switch to video  mode
+2023-03-10 18:44:21 INFO   BLU_G91_Pro.Test10_Int rearVideoRec Select settings option
+2023-03-10 18:44:24 INFO   BLU_G91_Pro.Test10_Int rearVideoRec Select Video size(Back camera)
+2023-03-10 18:44:25 INFO   BLU_G91_Pro.Test10_Int rearVideoRec Select 1st Back Video Resolution: 1080p
+2023-03-10 18:44:33 INFO   BLU_G91_Pro.Test10_Int rearVideoRec Start video recording
+2023-03-10 18:54:13 INFO   BLU_G91_Pro.Test10_Int rearVideoRec Stop video recording
+2023-03-10 18:54:22 INFO   BLU_G91_Pro.Test10_Int rearVideoRec Select settings option
+2023-03-10 18:54:25 INFO   BLU_G91_Pro.Test10_Int rearVideoRec Select Video size(Back camera)
+2023-03-10 18:54:26 INFO   BLU_G91_Pro.Test10_Int rearVideoRec Select 2nd Back Video Resolution: 720p
+2023-03-10 18:54:34 INFO   BLU_G91_Pro.Test10_Int rearVideoRec Start video recording
+2023-03-10 19:04:14 INFO   BLU_G91_Pro.Test10_Int rearVideoRec Stop video recording
+2023-03-10 19:04:22 INFO   BLU_G91_Pro.Test10_Int rearVideoRec Select settings option
+2023-03-10 19:04:25 INFO   BLU_G91_Pro.Test10_Int rearVideoRec Select Video size(Back camera)
+2023-03-10 19:04:26 INFO   BLU_G91_Pro.Test10_Int rearVideoRec Select 3rd highest rear camera video resolution: 480p
+2023-03-10 19:04:34 INFO   BLU_G91_Pro.Test10_Int rearVideoRec Start video recording
+2023-03-10 19:14:14 INFO   BLU_G91_Pro.Test10_Int rearVideoRec Stop video recording
+2023-03-10 19:14:22 INFO   BLU_G91_Pro.Test10_Int rearVideoRec Select settings option
+2023-03-10 19:14:26 INFO   BLU_G91_Pro.Test10_Int rearVideoRec Select Video size(Back camera)
+2023-03-10 19:14:27 INFO   BLU_G91_Pro.Test10_Int rearVideoRec Select 4th highest rear camera video resolution: 4K
+2023-03-10 19:14:34 INFO   BLU_G91_Pro.Test10_Int rearVideoRec Start video recording
+2023-03-10 19:24:14 INFO   BLU_G91_Pro.Test10_Int rearVideoRec Stop video recording
+2023-03-10 19:24:23 INFO   BLU_G91_Pro.Test10_Int rearVideoRec Switch to photo mode
+2023-03-10 19:24:40 INFO   BLU_G91_Pro.Test10_Int rearVideoRec Pass: Rear video recording is successfull
+2023-03-10 19:24:40 INFO   BLU_G91_Pro.Test10_Int rearVideoRec Launch File Manager Application to verify captured videos in Internal storage
+2023-03-10 19:24:41 INFO   BLU_G91_Pro.Test10_Int rearVideoRec Swipe up to select Internal storage
+2023-03-10 19:24:45 INFO   BLU_G91_Pro.Test10_Int rearVideoRec Select Internal storage
+2023-03-10 19:24:51 INFO   BLU_G91_Pro.Test10_Int rearVideoRec switch to grid view mode to select DCIM folder
+2023-03-10 19:24:55 INFO   BLU_G91_Pro.Test10_Int rearVideoRec Select DCIM folder
+2023-03-10 19:24:58 INFO   BLU_G91_Pro.Test10_Int rearVideoRec Select camera folder
+2023-03-10 19:25:01 INFO   BLU_G91_Pro.Test10_Int rearVideoRec switch to list view mode 
+2023-03-10 19:25:07 INFO   BLU_G91_Pro.Test10_Int rearVideoRec Click More options
+2023-03-10 19:25:13 INFO   BLU_G91_Pro.Test10_Int rearVideoRec Click Select all
+2023-03-10 19:25:22 INFO   BLU_G91_Pro.Test10_Int rearVideoRec Test10_Int_Bcam_video: 4 Videos captured successfull
+2023-03-10 19:25:22 INFO   BLU_G91_Pro.Test10_Int rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-10 19:25:22 INFO   BLU_G91_Pro.Test10_Int rearVideoRec Calling RecordedVideoPlayback() for Playing Highest record video, fast forward video play back scenario
+2023-03-10 19:25:22 INFO   BLU_G91_Pro.Test10_Int RecordedVideoPlayback Launch Camera Application for rear camera video recording
+2023-03-10 19:25:28 INFO   BLU_G91_Pro.Test10_Int RecordedVideoPlayback Swipe up and select Internal storage
+2023-03-10 19:25:31 INFO   BLU_G91_Pro.Test10_Int RecordedVideoPlayback Select Internal storage
+2023-03-10 19:25:36 INFO   BLU_G91_Pro.Test10_Int RecordedVideoPlayback switch to grid view mode 
+2023-03-10 19:25:39 INFO   BLU_G91_Pro.Test10_Int RecordedVideoPlayback Swipe up and select DCIM folder
+2023-03-10 19:25:39 INFO   BLU_G91_Pro.Test10_Int RecordedVideoPlayback Select DCIM folder
+2023-03-10 19:25:42 INFO   BLU_G91_Pro.Test10_Int RecordedVideoPlayback Select Camera folder
+2023-03-10 19:25:46 INFO   BLU_G91_Pro.Test10_Int RecordedVideoPlayback switch to list view mode 
+2023-03-10 19:25:49 INFO   BLU_G91_Pro.Test10_Int RecordedVideoPlayback select more options
+2023-03-10 19:25:54 INFO   BLU_G91_Pro.Test10_Int RecordedVideoPlayback Select Sort BY
+2023-03-10 19:25:58 INFO   BLU_G91_Pro.Test10_Int RecordedVideoPlayback Select Largest first
+2023-03-10 19:26:01 INFO   BLU_G91_Pro.Test10_Int RecordedVideoPlayback Click on first file to play highest recorded resolution video file
+2023-03-10 19:26:01 INFO   BLU_G91_Pro.Test10_Int RecordedVideoPlayback Started video playback
+2023-03-10 19:26:21 INFO   BLU_G91_Pro.Test10_Int RecordedVideoPlayback Tap Somewhere on Screen for contents to visible on Screen
+2023-03-10 19:26:21 INFO   BLU_G91_Pro.Test10_Int RecordedVideoPlayback Fast forward video for 10 seconds
+2023-03-10 19:26:23 INFO   BLU_G91_Pro.Test10_Int RecordedVideoPlayback Continue video playback
+2023-03-10 19:26:49 INFO   BLU_G91_Pro.Test10_Int RecordedVideoPlayback Pass: Recorded Video playback and fast forward scenario successfull
+2023-03-10 19:26:49 INFO   BLU_G91_Pro.Test10_Int RecordedVideoPlayback ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-10 19:26:49 INFO   BLU_G91_Pro.Test10_Int RecordedVideoPlayback Calling DataMovementOperation() to move recorded rear camer videos to Test10_Int Folder
+2023-03-10 19:26:49 INFO   BLU_G91_Pro.Test10_Int DataMoveOperation launch file manager application select Internal storage-->DCIM folder-->Camera folder-->Select all rear camera videos create Test10_Int and cut paste all videos in Test10_Int folder
+2023-03-10 19:27:06 INFO   BLU_G91_Pro.Test10_Int DataMoveOperation Swipe up to select Internal storage
+2023-03-10 19:27:08 INFO   BLU_G91_Pro.Test10_Int DataMoveOperation Select Internal storage
+2023-03-10 19:27:14 INFO   BLU_G91_Pro.Test10_Int DataMoveOperation Select DCIM folder
+2023-03-10 19:27:14 INFO   BLU_G91_Pro.Test10_Int DataMoveOperation Select DCIM folder
+2023-03-10 19:27:18 INFO   BLU_G91_Pro.Test10_Int DataMoveOperation Select camera folder
+2023-03-10 19:27:21 INFO   BLU_G91_Pro.Test10_Int DataMoveOperation Click More options
+2023-03-10 19:27:27 INFO   BLU_G91_Pro.Test10_Int DataMoveOperation Click Select all
+2023-03-10 19:27:31 INFO   BLU_G91_Pro.Test10_Int DataMoveOperation Click More options
+2023-03-10 19:27:37 INFO   BLU_G91_Pro.Test10_Int DataMoveOperation Select move to option
+2023-03-10 19:27:44 INFO   BLU_G91_Pro.Test10_Int DataMoveOperation Select Internal storage
+2023-03-10 19:27:50 INFO   BLU_G91_Pro.Test10_Int DataMoveOperation Select ADD NEW Folder option
+2023-03-10 19:27:56 INFO   BLU_G91_Pro.Test10_Int DataMoveOperation Name folder as Test10_Int
+2023-03-10 19:28:03 INFO   BLU_G91_Pro.Test10_Int DataMoveOperation Accept create folder
+2023-03-10 19:30:04 INFO   BLU_G91_Pro.Test10_Int DataMoveOperation Cut paste  video files operation completed successfully
+2023-03-10 19:30:13 INFO   BLU_G91_Pro.Test10_Int DataMoveOperation Pass: Test10_Int Pass for data move operation successfully
+2023-03-10 19:30:13 INFO   BLU_G91_Pro.Test10_Int DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-10 19:30:13 INFO   BLU_G91_Pro.Test10_Int RecordedVideoPlayback Calling copiedvideosPlayBack() for playing copied video file from Test1 folder
+2023-03-10 19:30:13 INFO   BLU_G91_Pro.Test10_Int CopiedvideosPlayBack Launch file manager application, select Internal storage, select Test1 folder, select Videos folder and Play copied videos and fast forward the same 
+2023-03-10 19:30:22 INFO   BLU_G91_Pro.Test10_Int CopiedvideosPlayBack Select Internal storage
+2023-03-10 19:30:27 INFO   BLU_G91_Pro.Test10_Int CopiedvideosPlayBack switch to gird view mode 
+2023-03-10 19:30:30 INFO   BLU_G91_Pro.Test10_Int CopiedvideosPlayBack Select Test1 folder
+2023-03-10 19:30:33 INFO   BLU_G91_Pro.Test10_Int CopiedvideosPlayBack Select test_filefolder
+2023-03-10 19:30:37 INFO   BLU_G91_Pro.Test10_Int CopiedvideosPlayBack Select OneGB folder
+2023-03-10 19:30:40 INFO   BLU_G91_Pro.Test10_Int CopiedvideosPlayBack Select video folder
+2023-03-10 19:30:43 INFO   BLU_G91_Pro.Test10_Int CopiedvideosPlayBack switch to list view mode 
+2023-03-10 19:30:46 INFO   BLU_G91_Pro.Test10_Int CopiedvideosPlayBack Select LG_4K_DEMO_HDR_2018_(60FPS)_ELBA(480p).mp4 file for video playback
+2023-03-10 19:30:46 INFO   BLU_G91_Pro.Test10_Int CopiedvideosPlayBack Started video playback
+2023-03-10 19:31:07 INFO   BLU_G91_Pro.Test10_Int CopiedvideosPlayBack Tap Somewhere on Screen for contents to visible on Screen
+2023-03-10 19:31:07 INFO   BLU_G91_Pro.Test10_Int CopiedvideosPlayBack Click fast forward button for 10 seconds video forward
+2023-03-10 19:31:30 INFO   BLU_G91_Pro.Test10_Int CopiedvideosPlayBack Pass: 4K Video play back and fast forward is successful 
+2023-03-10 19:31:33 INFO   BLU_G91_Pro.Test10_Int CopiedvideosPlayBack Select FHD 5.1 ( 1350 X 2560 ).webm file for video playback
+2023-03-10 19:31:34 INFO   BLU_G91_Pro.Test10_Int CopiedvideosPlayBack Started video playback
+2023-03-10 19:31:54 INFO   BLU_G91_Pro.Test10_Int CopiedvideosPlayBack Tap Somewhere on Screen for contents to visible on Screen
+2023-03-10 19:31:54 INFO   BLU_G91_Pro.Test10_Int CopiedvideosPlayBack Click fast forward button for 10 seconds video forward
+2023-03-10 19:31:55 INFO   BLU_G91_Pro.Test10_Int CopiedvideosPlayBack Click pause button to stop video
+2023-03-10 19:32:05 INFO   BLU_G91_Pro.Test10_Int CopiedvideosPlayBack Pass: FHD Video play back and fast forward is successful 
+2023-03-10 19:32:05 INFO   BLU_G91_Pro.Test10_Int CopiedvideosPlayBack ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-10 19:32:05 INFO   BLU_G91_Pro.Test10_Int CopiedvideosPlayBack Final Message: Pass Test10_Int Pass for Playing Copied Video files, recorded video file and fast forward video play back scenario 
+2023-03-10 19:32:05 INFO   BLU_G91_Pro.Test10_Int CopiedvideosPlayBack Test: End
+2023-03-10 19:32:05 INFO   BLU_G91_Pro.Test10_Int CopiedvideosPlayBack ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-10 19:32:05 INFO   BLU_G91_Pro.Test10_Int CopiedvideosPlayBack Test: End
+2023-03-10 19:32:05 INFO   BLU_G91_Pro.Test10_Int CopiedvideosPlayBack ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

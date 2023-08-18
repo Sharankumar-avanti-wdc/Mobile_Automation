@@ -1,0 +1,91 @@
+2023-03-14 18:52:37 INFO   BLU_C5L_Max.Test10 rearVideoRec Test: Start
+2023-03-14 18:52:37 INFO   BLU_C5L_Max.Test10 rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-14 18:52:37 INFO   BLU_C5L_Max.Test10 rearVideoRec Test10 Scenario is as follows
+2023-03-14 18:52:37 INFO   BLU_C5L_Max.Test10 rearVideoRec 1.Launch Camera application and start rear camera video recording for all host applicable resolutions in uSD Card
+2023-03-14 18:52:37 INFO   BLU_C5L_Max.Test10 rearVideoRec 2.Playback Highest resolution recorded video from USD Card, fast forward playback and pause video scenario 
+2023-03-14 18:52:37 INFO   BLU_C5L_Max.Test10 rearVideoRec 3.Playback copied videos from Test1 folder, fast forward and pause scenario
+2023-03-14 18:52:37 INFO   BLU_C5L_Max.Test10 rearVideoRec Setting up the appium desired capabilities
+2023-03-14 18:52:37 INFO   BLU_C5L_Max.Test10 rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-14 18:52:57 INFO   BLU_C5L_Max.Test10 rearVideoRec Clearing Recent Apps
+2023-03-14 18:52:57 INFO   BLU_C5L_Max.Test10 rearVideoRec Pass: No recent apps found
+2023-03-14 18:53:01 INFO   BLU_C5L_Max.Test10 rearVideoRec Launch Camera Application for rear camera video recording
+2023-03-14 18:53:07 INFO   BLU_C5L_Max.Test10 rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-14 18:53:09 INFO   BLU_C5L_Max.Test10 rearVideoRec Test10_Bcam_res: 1 resolutions supported
+2023-03-14 18:53:09 INFO   BLU_C5L_Max.Test10 rearVideoRec Select settings option
+2023-03-14 18:53:14 INFO   BLU_C5L_Max.Test10 rearVideoRec Search for Storage path option
+2023-03-14 18:53:20 INFO   BLU_C5L_Max.Test10 rearVideoRec Select video tab
+2023-03-14 18:53:25 INFO   BLU_C5L_Max.Test10 rearVideoRec Select 1st Back Video Resolution by default
+2023-03-14 18:53:30 INFO   BLU_C5L_Max.Test10 rearVideoRec Start video recording
+2023-03-14 18:53:42 INFO   BLU_C5L_Max.Test10 rearVideoRec Stop video recording
+2023-03-14 19:03:59 INFO   BLU_C5L_Max.Test10 rearVideoRec Select photo mode
+2023-03-14 19:04:11 INFO   BLU_C5L_Max.Test10 rearVideoRec Pass: Rear video recording is successfull
+2023-03-14 19:04:11 INFO   BLU_C5L_Max.Test10 rearVideoRec Launch File Manager Application to verify captured videos
+2023-03-14 19:04:13 INFO   BLU_C5L_Max.Test10 rearVideoRec Select  SD Card
+2023-03-14 19:04:25 INFO   BLU_C5L_Max.Test10 rearVideoRec switch to grid view mode to select DCIM folder
+2023-03-14 19:04:29 INFO   BLU_C5L_Max.Test10 rearVideoRec Select DCIM folder
+2023-03-14 19:04:32 INFO   BLU_C5L_Max.Test10 rearVideoRec Select camera folder
+2023-03-14 19:04:35 INFO   BLU_C5L_Max.Test10 rearVideoRec switch to list view mode 
+2023-03-14 19:04:39 INFO   BLU_C5L_Max.Test10 rearVideoRec Select More Options 
+2023-03-14 19:04:42 INFO   BLU_C5L_Max.Test10 rearVideoRec Click On Select All Options
+2023-03-14 19:04:51 INFO   BLU_C5L_Max.Test10 rearVideoRec Test10_Bcam_video: 1 Videos captured successfully
+2023-03-14 19:04:51 INFO   BLU_C5L_Max.Test10 rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-14 19:04:51 INFO   BLU_C5L_Max.Test10 rearVideoRec Calling RecordedVideoPlayback() for Playing Highest record video, fast forward video play back scenario
+2023-03-14 19:04:51 INFO   BLU_C5L_Max.Test10 RecordedVideoPlayback Launch File Manager for playing highest resolution recorded video from USD, fast forward and pause scenario
+2023-03-14 19:05:02 INFO   BLU_C5L_Max.Test10 RecordedVideoPlayback Select External storage
+2023-03-14 19:05:08 INFO   BLU_C5L_Max.Test10 RecordedVideoPlayback switch to grid view mode to select DCIM folder
+2023-03-14 19:05:13 INFO   BLU_C5L_Max.Test10 RecordedVideoPlayback Select DCIM folder
+2023-03-14 19:05:16 INFO   BLU_C5L_Max.Test10 RecordedVideoPlayback Select camera folder
+2023-03-14 19:05:20 INFO   BLU_C5L_Max.Test10 RecordedVideoPlayback switch to list view mode 
+2023-03-14 19:05:28 INFO   BLU_C5L_Max.Test10 RecordedVideoPlayback Select more options and sort by largest file first
+2023-03-14 19:05:35 INFO   BLU_C5L_Max.Test10 RecordedVideoPlayback Click on first file to play highest recorded resolution video file
+2023-03-14 19:05:35 INFO   BLU_C5L_Max.Test10 RecordedVideoPlayback Started video playback
+2023-03-14 19:06:05 INFO   BLU_C5L_Max.Test10 RecordedVideoPlayback Tap Somewhere on Screen for contents to visible on Screen
+2023-03-14 19:06:08 INFO   BLU_C5L_Max.Test10 RecordedVideoPlayback Fast forward video for 10 seconds
+2023-03-14 19:06:37 INFO   BLU_C5L_Max.Test10 RecordedVideoPlayback Pass: Recorded Video play back and fast forward successfull 
+2023-03-14 19:06:37 INFO   BLU_C5L_Max.Test10 RecordedVideoPlayback ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-14 19:06:37 INFO   BLU_C5L_Max.Test10 RecordedVideoPlayback Calling DataMovementOperation() to move recorded rear camer videos to Test10 Folder
+2023-03-14 19:06:37 INFO   BLU_C5L_Max.Test10 DataMoveOperation launch file manager application select uSD card-->DCIM folder-->Camera folder-->Select all rear camera videos create Test10 and cut paste all videos in Test10 folder
+2023-03-14 19:06:54 INFO   BLU_C5L_Max.Test10 DataMoveOperation click on browse option
+2023-03-14 19:06:58 INFO   BLU_C5L_Max.Test10 DataMoveOperation Swipe up to select uSD card
+2023-03-14 19:07:02 INFO   BLU_C5L_Max.Test10 DataMoveOperation Select SD card
+2023-03-14 19:07:08 INFO   BLU_C5L_Max.Test10 DataMoveOperation switch to grid view mode to select DCIM folder
+2023-03-14 19:07:12 INFO   BLU_C5L_Max.Test10 DataMoveOperation Select DCIM folder
+2023-03-14 19:07:15 INFO   BLU_C5L_Max.Test10 DataMoveOperation Select camera folder
+2023-03-14 19:07:18 INFO   BLU_C5L_Max.Test10 DataMoveOperation switch to list view mode 
+2023-03-14 19:07:21 INFO   BLU_C5L_Max.Test10 DataMoveOperation Click More options
+2023-03-14 19:07:28 INFO   BLU_C5L_Max.Test10 DataMoveOperation Click Select all
+2023-03-14 19:07:32 INFO   BLU_C5L_Max.Test10 DataMoveOperation Click More options
+2023-03-14 19:07:38 INFO   BLU_C5L_Max.Test10 DataMoveOperation Select move to option
+2023-03-14 19:07:45 INFO   BLU_C5L_Max.Test10 DataMoveOperation Select uSD Card
+2023-03-14 19:07:51 INFO   BLU_C5L_Max.Test10 DataMoveOperation Select ADD NEW Folder option
+2023-03-14 19:07:58 INFO   BLU_C5L_Max.Test10 DataMoveOperation Name folder as Test10
+2023-03-14 19:08:05 INFO   BLU_C5L_Max.Test10 DataMoveOperation Accept create folder
+2023-03-14 19:10:07 INFO   BLU_C5L_Max.Test10 DataMoveOperation Cut paste  video files operation completed successfully
+2023-03-14 19:10:15 INFO   BLU_C5L_Max.Test10 DataMoveOperation Pass: Test10 Pass for data move operation successfully
+2023-03-14 19:10:15 INFO   BLU_C5L_Max.Test10 DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-14 19:10:15 INFO   BLU_C5L_Max.Test10 RecordedVideoPlayback Calling copiedvideosPlayBack() for playing copied video file from Test1 folder
+2023-03-14 19:10:15 INFO   BLU_C5L_Max.Test10 CopiedvideosPlayBack Re-launch file manager application and select external storage for playing copied video files
+2023-03-14 19:10:27 INFO   BLU_C5L_Max.Test10 CopiedvideosPlayBack Select external storage
+2023-03-14 19:10:27 INFO   BLU_C5L_Max.Test10 CopiedvideosPlayBack Select External Storage
+2023-03-14 19:10:30 INFO   BLU_C5L_Max.Test10 CopiedvideosPlayBack switch to grid view mode to select Test1 folder
+2023-03-14 19:10:33 INFO   BLU_C5L_Max.Test10 CopiedvideosPlayBack Select Test1 folder
+2023-03-14 19:10:37 INFO   BLU_C5L_Max.Test10 CopiedvideosPlayBack Select TestFile folder
+2023-03-14 19:10:40 INFO   BLU_C5L_Max.Test10 CopiedvideosPlayBack Select OneGB folder
+2023-03-14 19:10:43 INFO   BLU_C5L_Max.Test10 CopiedvideosPlayBack Select video folder
+2023-03-14 19:10:46 INFO   BLU_C5L_Max.Test10 CopiedvideosPlayBack switch to list view mode 
+2023-03-14 19:10:49 INFO   BLU_C5L_Max.Test10 CopiedvideosPlayBack Select LG_4K_DEMO_HDR_2018_(60FPS)_ELBA(480p).mp4 file for video playback
+2023-03-14 19:10:50 INFO   BLU_C5L_Max.Test10 CopiedvideosPlayBack Started video playback
+2023-03-14 19:11:10 INFO   BLU_C5L_Max.Test10 CopiedvideosPlayBack Tap Somewhere on Screen for contents to visible on Screen
+2023-03-14 19:11:12 INFO   BLU_C5L_Max.Test10 CopiedvideosPlayBack Click fast forward button for 10 seconds video forward
+2023-03-14 19:11:32 INFO   BLU_C5L_Max.Test10 CopiedvideosPlayBack click press back stop video
+2023-03-14 19:11:35 INFO   BLU_C5L_Max.Test10 CopiedvideosPlayBack Pass: 4K Video play back and fast forward is successful 
+2023-03-14 19:11:38 INFO   BLU_C5L_Max.Test10 CopiedvideosPlayBack Select FHD 5.1 ( 1350 X 2560 ).webm file for video playback
+2023-03-14 19:11:38 INFO   BLU_C5L_Max.Test10 CopiedvideosPlayBack Started video playback
+2023-03-14 19:11:58 INFO   BLU_C5L_Max.Test10 CopiedvideosPlayBack Tap Somewhere on Screen for contents to visible on Screen
+2023-03-14 19:12:00 INFO   BLU_C5L_Max.Test10 CopiedvideosPlayBack Click fast forward button for 10 seconds video forward
+2023-03-14 19:12:22 INFO   BLU_C5L_Max.Test10 CopiedvideosPlayBack click press back stop video
+2023-03-14 19:12:29 INFO   BLU_C5L_Max.Test10 CopiedvideosPlayBack Pass: FHD Video play back and fast forward is successful 
+2023-03-14 19:12:29 INFO   BLU_C5L_Max.Test10 CopiedvideosPlayBack ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-14 19:12:29 INFO   BLU_C5L_Max.Test10 CopiedvideosPlayBack Final Message: Pass Test10 Pass for Playing Copied Video files, recorded video file and fast forward video play back scenario 
+2023-03-14 19:12:29 INFO   BLU_C5L_Max.Test10 CopiedvideosPlayBack Test: End
+2023-03-14 19:12:29 INFO   BLU_C5L_Max.Test10 CopiedvideosPlayBack ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

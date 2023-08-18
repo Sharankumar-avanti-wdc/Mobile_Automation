@@ -1,0 +1,93 @@
+2022-11-11 18:18:29 INFO   Xiaomi_MI_11_Lite_5G.Test10F frontVideoRec Test:Start
+2022-11-11 18:18:29 INFO   Xiaomi_MI_11_Lite_5G.Test10F frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-11-11 18:18:29 INFO   Xiaomi_MI_11_Lite_5G.Test10F frontVideoRec Test10F Scenario is as follows
+2022-11-11 18:18:29 INFO   Xiaomi_MI_11_Lite_5G.Test10F frontVideoRec 1.Launch Camera application and start front camera video recording for all host applicable resolutions in uSD Card
+2022-11-11 18:18:29 INFO   Xiaomi_MI_11_Lite_5G.Test10F frontVideoRec 2.Playback front Highest recorded video for 30 seconds, pause video playback, lock mobile and wait 30 seconds, unlock mobile and playback video from pause video duration
+2022-11-11 18:18:29 INFO   Xiaomi_MI_11_Lite_5G.Test10F frontVideoRec Setting up the appium desired capabilities
+2022-11-11 18:18:29 INFO   Xiaomi_MI_11_Lite_5G.Test10F frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-11-11 18:18:41 INFO   Xiaomi_MI_11_Lite_5G.Test10F frontVideoRec Launch  Home screen
+2022-11-11 18:18:47 INFO   Xiaomi_MI_11_Lite_5G.Test10F frontVideoRec Launch appium permission access pop-up
+2022-11-11 18:18:58 INFO   Xiaomi_MI_11_Lite_5G.Test10F frontVideoRec No permission access pop-up found
+2022-11-11 18:18:58 INFO   Xiaomi_MI_11_Lite_5G.Test10F frontVideoRec Launching settings application and set external storage as storage option for video recording.
+2022-11-11 18:19:05 INFO   Xiaomi_MI_11_Lite_5G.Test10F frontVideoRec Select About phone
+2022-11-11 18:19:09 INFO   Xiaomi_MI_11_Lite_5G.Test10F frontVideoRec Select storage option
+2022-11-11 18:19:15 INFO   Xiaomi_MI_11_Lite_5G.Test10F frontVideoRec Select storage settings
+2022-11-11 18:19:18 INFO   Xiaomi_MI_11_Lite_5G.Test10F frontVideoRec Select camera option
+2022-11-11 18:19:21 INFO   Xiaomi_MI_11_Lite_5G.Test10F frontVideoRec Select storage as external storage
+2022-11-11 18:19:37 INFO   Xiaomi_MI_11_Lite_5G.Test10F frontVideoRec Launch Camera application for front camera video recording
+2022-11-11 18:19:55 INFO   Xiaomi_MI_11_Lite_5G.Test10F frontVideoRec No location permission access pop-up found: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Mi 11 Lite 5G, newCommandTimeout: 600, platformName: android, platformVersion: 11, udid: 2a0e42c3}, deviceApiLevel: 30, deviceManufacturer: Xiaomi, deviceModel: M2101K9G, deviceName: 2a0e42c3, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 2a0e42c3, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 104, takesScreenshot: true, udid: 2a0e42c3, viewportRect: {height: 2062, left: 0, top: 104, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 17c83bb0-1a34-414b-bfc1-b34aa3c06064
+*** Element info: {Using=xpath, value=//*[@resource-id='android:id/button2']}
+2022-11-11 18:19:57 INFO   Xiaomi_MI_11_Lite_5G.Test10F frontVideoRec Test10F_Fcam_res: 3 resolutions supported
+2022-11-11 18:19:57 INFO   Xiaomi_MI_11_Lite_5G.Test10F frontVideoRec Switch to video tab
+2022-11-11 18:20:00 INFO   Xiaomi_MI_11_Lite_5G.Test10F frontVideoRec Switch to front video camera mode
+2022-11-11 18:20:04 INFO   Xiaomi_MI_11_Lite_5G.Test10F frontVideoRec Switching to Front Video capture
+2022-11-11 18:20:04 INFO   Xiaomi_MI_11_Lite_5G.Test10F frontVideoRec Select settings option to select resolution
+2022-11-11 18:20:07 INFO   Xiaomi_MI_11_Lite_5G.Test10F frontVideoRec Select first video resolution: HD 720p, 30fps
+2022-11-11 18:20:20 INFO   Xiaomi_MI_11_Lite_5G.Test10F frontVideoRec Start video recording for specified duration time
+2022-11-11 18:30:02 INFO   Xiaomi_MI_11_Lite_5G.Test10F frontVideoRec Stop video recording
+2022-11-11 18:30:02 INFO   Xiaomi_MI_11_Lite_5G.Test10F frontVideoRec click setting option to select second highest video resolution
+2022-11-11 18:30:05 INFO   Xiaomi_MI_11_Lite_5G.Test10F frontVideoRec Select second video resolution: FHD 1080p, 30fps
+2022-11-11 18:30:18 INFO   Xiaomi_MI_11_Lite_5G.Test10F frontVideoRec Start Recording second resolution video for specified duration time
+2022-11-11 18:39:59 INFO   Xiaomi_MI_11_Lite_5G.Test10F frontVideoRec Stop Recording
+2022-11-11 18:40:04 INFO   Xiaomi_MI_11_Lite_5G.Test10F frontVideoRec click setting option to select second highest video resolution
+2022-11-11 18:40:07 INFO   Xiaomi_MI_11_Lite_5G.Test10F frontVideoRec Select Third video resolution: FHD 1080p, 60fps
+2022-11-11 18:40:21 INFO   Xiaomi_MI_11_Lite_5G.Test10F frontVideoRec Start Recording second resolution video for specified duration time
+2022-11-11 18:50:02 INFO   Xiaomi_MI_11_Lite_5G.Test10F frontVideoRec Stop Recording
+2022-11-11 18:50:07 INFO   Xiaomi_MI_11_Lite_5G.Test10F frontVideoRec Switch to rear video camera mode
+2022-11-11 18:50:10 INFO   Xiaomi_MI_11_Lite_5G.Test10F frontVideoRec Switch to video tab
+2022-11-11 18:50:18 INFO   Xiaomi_MI_11_Lite_5G.Test10F frontVideoRec Pass: Front video recording is successfull
+2022-11-11 18:50:18 INFO   Xiaomi_MI_11_Lite_5G.Test10F frontVideoRec Launch file manager application and verify recorded video capture uSD Card
+2022-11-11 18:50:34 INFO   Xiaomi_MI_11_Lite_5G.Test10F frontVideoRec Swipe up to select uSD card
+2022-11-11 18:50:37 INFO   Xiaomi_MI_11_Lite_5G.Test10F frontVideoRec Select SD card
+2022-11-11 18:50:43 INFO   Xiaomi_MI_11_Lite_5G.Test10F frontVideoRec Select DCIM folder
+2022-11-11 18:50:46 INFO   Xiaomi_MI_11_Lite_5G.Test10F frontVideoRec Select camera folder
+2022-11-11 18:51:01 INFO   Xiaomi_MI_11_Lite_5G.Test10F frontVideoRec Select More Options 
+2022-11-11 18:51:19 INFO   Xiaomi_MI_11_Lite_5G.Test10F frontVideoRec Click More options
+2022-11-11 18:51:25 INFO   Xiaomi_MI_11_Lite_5G.Test10F frontVideoRec Click Select all
+2022-11-11 18:51:38 INFO   Xiaomi_MI_11_Lite_5G.Test10F frontVideoRec Test10F_Fcam_video: 3 videos captured successfully
+2022-11-11 18:51:38 INFO   Xiaomi_MI_11_Lite_5G.Test10F frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-11-11 18:51:38 INFO   Xiaomi_MI_11_Lite_5G.Test10F frontVideoRec Calling VideoPlayBackForSleepWake()
+2022-11-11 18:51:38 INFO   Xiaomi_MI_11_Lite_5G.Test10F VideoPlayBackForSleepWake Launch File Manager application and playback front recorded video from USD for 30 seconds, pause video playback, locking phone and unlock after 30 seconds delay and playback video from pause duration.
+2022-11-11 18:51:46 INFO   Xiaomi_MI_11_Lite_5G.Test10F VideoPlayBackForSleepWake Select External Storage
+2022-11-11 18:51:52 INFO   Xiaomi_MI_11_Lite_5G.Test10F VideoPlayBackForSleepWake Select DCIM folder
+2022-11-11 18:51:55 INFO   Xiaomi_MI_11_Lite_5G.Test10F VideoPlayBackForSleepWake Select Camera folder
+2022-11-11 18:51:58 INFO   Xiaomi_MI_11_Lite_5G.Test10F VideoPlayBackForSleepWake Select MoreOptions1
+2022-11-11 18:52:03 INFO   Xiaomi_MI_11_Lite_5G.Test10F VideoPlayBackForSleepWake Select Sort by
+2022-11-11 18:52:08 INFO   Xiaomi_MI_11_Lite_5G.Test10F VideoPlayBackForSleepWake Select Sort by Newest date first
+2022-11-11 18:52:11 INFO   Xiaomi_MI_11_Lite_5G.Test10F VideoPlayBackForSleepWake Click on first file to play highest recorded resolution video file
+2022-11-11 18:52:11 INFO   Xiaomi_MI_11_Lite_5G.Test10F VideoPlayBackForSleepWake Started video playback
+2022-11-11 18:52:31 INFO   Xiaomi_MI_11_Lite_5G.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2022-11-11 18:52:31 INFO   Xiaomi_MI_11_Lite_5G.Test10F VideoPlayBackForSleepWake Click pause video button
+2022-11-11 18:52:35 INFO   Xiaomi_MI_11_Lite_5G.Test10F VideoPlayBackForSleepWake Lock Mobile with 30 seconds delay
+2022-11-11 18:53:05 INFO   Xiaomi_MI_11_Lite_5G.Test10F VideoPlayBackForSleepWake Unlock Mobile 
+2022-11-11 18:53:05 INFO   Xiaomi_MI_11_Lite_5G.Test10F VideoPlayBackForSleepWake Wait For 30Seconds
+2022-11-11 18:53:10 INFO   Xiaomi_MI_11_Lite_5G.Test10F VideoPlayBackForSleepWake Playback video from pause video duration
+2022-11-11 18:53:48 INFO   Xiaomi_MI_11_Lite_5G.Test10F VideoPlayBackForSleepWake Pass: Test10F Pass for Front video play back, Pause,Lock and Unlock Phone Play back from Pause duration Scenario
+2022-11-11 18:53:48 INFO   Xiaomi_MI_11_Lite_5G.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-11-11 18:53:48 INFO   Xiaomi_MI_11_Lite_5G.Test10F VideoPlayBackForSleepWake calling DatamoveOperation() to move front camera recorded videos files to Test10F folder
+2022-11-11 18:53:54 INFO   Xiaomi_MI_11_Lite_5G.Test10F DataMoveOperation launch file manager application select uSD card-->DCIM folder-->Camera folder-->Select all back camera front camera videos create Test10 and cut paste all videos in BCFC_Cameravideos folder
+2022-11-11 18:54:10 INFO   Xiaomi_MI_11_Lite_5G.Test10F DataMoveOperation click on browse option
+2022-11-11 18:54:13 INFO   Xiaomi_MI_11_Lite_5G.Test10F DataMoveOperation Swipe up to select uSD card
+2022-11-11 18:54:15 INFO   Xiaomi_MI_11_Lite_5G.Test10F DataMoveOperation Select SD card
+2022-11-11 18:54:22 INFO   Xiaomi_MI_11_Lite_5G.Test10F DataMoveOperation Select DCIM folder
+2022-11-11 18:54:25 INFO   Xiaomi_MI_11_Lite_5G.Test10F DataMoveOperation Select camera folder
+2022-11-11 18:54:28 INFO   Xiaomi_MI_11_Lite_5G.Test10F DataMoveOperation Click More options
+2022-11-11 18:54:34 INFO   Xiaomi_MI_11_Lite_5G.Test10F DataMoveOperation Click Select all
+2022-11-11 18:54:38 INFO   Xiaomi_MI_11_Lite_5G.Test10F DataMoveOperation Click More options
+2022-11-11 18:54:44 INFO   Xiaomi_MI_11_Lite_5G.Test10F DataMoveOperation Select move to option
+2022-11-11 18:54:51 INFO   Xiaomi_MI_11_Lite_5G.Test10F DataMoveOperation Select uSD Card
+2022-11-11 18:54:57 INFO   Xiaomi_MI_11_Lite_5G.Test10F DataMoveOperation Select ADD NEW Folder option
+2022-11-11 18:55:03 INFO   Xiaomi_MI_11_Lite_5G.Test10F DataMoveOperation Name folder as Test10F
+2022-11-11 18:55:10 INFO   Xiaomi_MI_11_Lite_5G.Test10F DataMoveOperation Accept create folder
+2022-11-11 18:57:10 INFO   Xiaomi_MI_11_Lite_5G.Test10F DataMoveOperation Cut paste  video files operation completed successfully
+2022-11-11 18:57:14 INFO   Xiaomi_MI_11_Lite_5G.Test10F DataMoveOperation Pass: Test10F Pass for data move operation successfully
+2022-11-11 18:57:14 INFO   Xiaomi_MI_11_Lite_5G.Test10F DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-11-11 18:57:14 INFO   Xiaomi_MI_11_Lite_5G.Test10F VideoPlayBackForSleepWake Final Message: Pass Test10F Pass for front camera  video recording, Pause Video Playback scenario and data move operation scenario
+2022-11-11 18:57:14 INFO   Xiaomi_MI_11_Lite_5G.Test10F VideoPlayBackForSleepWake Test: End
+2022-11-11 18:57:14 INFO   Xiaomi_MI_11_Lite_5G.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

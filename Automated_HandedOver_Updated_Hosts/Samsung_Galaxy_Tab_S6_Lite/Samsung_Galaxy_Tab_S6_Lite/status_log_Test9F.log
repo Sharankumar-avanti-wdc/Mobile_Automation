@@ -1,0 +1,49 @@
+2022-10-17 12:58:16 INFO   Samsung_Galaxy_Tab_S6_Lite.Test9F frontPictureCapture Test: Start
+2022-10-17 12:58:16 INFO   Samsung_Galaxy_Tab_S6_Lite.Test9F frontPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-17 12:58:16 INFO   Samsung_Galaxy_Tab_S6_Lite.Test9F frontPictureCapture Test9F Scenario is as follows:
+2022-10-17 12:58:16 INFO   Samsung_Galaxy_Tab_S6_Lite.Test9F frontPictureCapture 1.Launch camera application, set uSD as a Storage option, start Front camera image picture capture for all Host front resolutions
+2022-10-17 12:58:16 INFO   Samsung_Galaxy_Tab_S6_Lite.Test9F frontPictureCapture Setting up the appium desired capabilities
+2022-10-17 12:58:16 INFO   Samsung_Galaxy_Tab_S6_Lite.Test9F frontPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-17 12:58:25 INFO   Samsung_Galaxy_Tab_S6_Lite.Test9F frontPictureCapture Launch Home screen and clear recent apps
+2022-10-17 12:58:45 INFO   Samsung_Galaxy_Tab_S6_Lite.Test9F frontPictureCapture Launch Camera Application
+2022-10-17 12:58:45 INFO   Samsung_Galaxy_Tab_S6_Lite.Test9F frontPictureCapture Launch Camera Application for Front camera picture Capture for all Host resolutions
+2022-10-17 12:58:47 INFO   Samsung_Galaxy_Tab_S6_Lite.Test9F frontPictureCapture Test9F_Fcam_res: 4 resolutions supported
+2022-10-17 12:58:47 INFO   Samsung_Galaxy_Tab_S6_Lite.Test9F frontPictureCapture If change to uSD card pop-up exists select Cancel
+2022-10-17 12:58:57 INFO   Samsung_Galaxy_Tab_S6_Lite.Test9F frontPictureCapture change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy Tab S6 Lite, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: R52N81CPS4E}, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-P610, deviceName: R52N81CPS4E, deviceScreenDensity: 240, deviceScreenSize: 1200x2000, deviceUDID: R52N81CPS4E, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 36, takesScreenshot: true, udid: R52N81CPS4E, viewportRect: {height: 1892, left: 0, top: 36, width: 1200}, warnings: {}, webStorageEnabled: false}
+Session ID: 3a054a0c-ec23-49a6-94be-55e35fc2b0a5
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2022-10-17 12:58:57 INFO   Samsung_Galaxy_Tab_S6_Lite.Test9F frontPictureCapture If Location access Permission Request Pop Exists Click on Cancel. 
+2022-10-17 12:59:07 INFO   Samsung_Galaxy_Tab_S6_Lite.Test9F frontPictureCapture Location access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy Tab S6 Lite, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: R52N81CPS4E}, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-P610, deviceName: R52N81CPS4E, deviceScreenDensity: 240, deviceScreenSize: 1200x2000, deviceUDID: R52N81CPS4E, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 36, takesScreenshot: true, udid: R52N81CPS4E, viewportRect: {height: 1892, left: 0, top: 36, width: 1200}, warnings: {}, webStorageEnabled: false}
+Session ID: 3a054a0c-ec23-49a6-94be-55e35fc2b0a5
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2022-10-17 12:59:12 INFO   Samsung_Galaxy_Tab_S6_Lite.Test9F frontPictureCapture Switch To front Camera if current Exiting camera is in Back camera mode
+2022-10-17 12:59:14 INFO   Samsung_Galaxy_Tab_S6_Lite.Test9F frontPictureCapture Click Settings option
+2022-10-17 12:59:20 INFO   Samsung_Galaxy_Tab_S6_Lite.Test9F frontPictureCapture Swipe up and select storage location option
+2022-10-17 12:59:31 INFO   Samsung_Galaxy_Tab_S6_Lite.Test9F frontPictureCapture Select SD as storage option
+2022-10-17 12:59:39 INFO   Samsung_Galaxy_Tab_S6_Lite.Test9F frontPictureCapture Select Front Image size
+2022-10-17 12:59:40 INFO   Samsung_Galaxy_Tab_S6_Lite.Test9F frontPictureCapture Select First front Image Resoution: 3:4
+2022-10-17 12:59:48 INFO   Samsung_Galaxy_Tab_S6_Lite.Test9F frontPictureCapture Fail: Test9F fail for Fail Count Issue
+2022-10-17 12:59:48 INFO   Samsung_Galaxy_Tab_S6_Lite.Test9F frontPictureCapture calling DataMoveOperation() 
+2022-10-17 12:59:48 INFO   Samsung_Galaxy_Tab_S6_Lite.Test9F DataMoveOperation Re-launch file manager application and select external storage for data move operation, select all front camera images files present in camera folder and move to Test9F folder
+2022-10-17 12:59:56 INFO   Samsung_Galaxy_Tab_S6_Lite.Test9F DataMoveOperation Select external storage
+2022-10-17 13:00:01 INFO   Samsung_Galaxy_Tab_S6_Lite.Test9F DataMoveOperation switch to grid view mode and select DCIM  folder
+2022-10-17 13:00:05 INFO   Samsung_Galaxy_Tab_S6_Lite.Test9F DataMoveOperation Select DCIM folder
+2022-10-17 13:00:09 INFO   Samsung_Galaxy_Tab_S6_Lite.Test9F DataMoveOperation Select camera  folder
+2022-10-17 13:00:12 INFO   Samsung_Galaxy_Tab_S6_Lite.Test9F DataMoveOperation switch to list view mode 
+2022-10-17 13:00:15 INFO   Samsung_Galaxy_Tab_S6_Lite.Test9F DataMoveOperation Click More options
+2022-10-17 13:00:21 INFO   Samsung_Galaxy_Tab_S6_Lite.Test9F DataMoveOperation Click Select all
+2022-10-17 13:00:25 INFO   Samsung_Galaxy_Tab_S6_Lite.Test9F DataMoveOperation Click More options
+2022-10-17 13:00:32 INFO   Samsung_Galaxy_Tab_S6_Lite.Test9F DataMoveOperation Select move to option
+2022-10-17 13:00:42 INFO   Samsung_Galaxy_Tab_S6_Lite.Test9F frontPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-17 13:00:42 INFO   Samsung_Galaxy_Tab_S6_Lite.Test9F frontPictureCapture Final message: Fail Test9F for rear camera image capture
+2022-10-17 13:00:42 INFO   Samsung_Galaxy_Tab_S6_Lite.Test9F frontPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

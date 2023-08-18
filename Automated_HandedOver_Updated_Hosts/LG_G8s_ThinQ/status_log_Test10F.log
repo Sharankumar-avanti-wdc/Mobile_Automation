@@ -1,0 +1,96 @@
+2023-01-05 21:23:26 INFO   LG_G8s_ThinQ.Test10F frontVideoRec Test:Start
+2023-01-05 21:23:26 INFO   LG_G8s_ThinQ.Test10F frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-05 21:23:26 INFO   LG_G8s_ThinQ.Test10F frontVideoRec Test10F Scenario is as follows
+2023-01-05 21:23:26 INFO   LG_G8s_ThinQ.Test10F frontVideoRec 1.Launch Camera application and start front camera video recording for all host applicable resolutions in uSD Card
+2023-01-05 21:23:26 INFO   LG_G8s_ThinQ.Test10F frontVideoRec 2.Playback front Highest recorded video for 30 seconds, pause video playback, lock mobile and wait 30 seconds, unlock mobile and playback video from pause video duration
+2023-01-05 21:23:26 INFO   LG_G8s_ThinQ.Test10F frontVideoRec Setting up the appium desired capabilities
+2023-01-05 21:23:26 INFO   LG_G8s_ThinQ.Test10F frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-05 21:23:50 INFO   LG_G8s_ThinQ.Test10F frontVideoRec Clearing Recent Apps
+2023-01-05 21:24:00 INFO   LG_G8s_ThinQ.Test10F frontVideoRec Pass: Test0 Pass for clearing Recent apps 
+2023-01-05 21:24:02 INFO   LG_G8s_ThinQ.Test10F frontVideoRec Launch Camera Application for rear camera video recording
+2023-01-05 21:24:04 INFO   LG_G8s_ThinQ.Test10F frontVideoRec clcik on next
+2023-01-05 21:24:14 INFO   LG_G8s_ThinQ.Test10F frontVideoRec change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: G8S ThinQ, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: LMG810EAWef6f059b}, deviceApiLevel: 30, deviceManufacturer: LGE, deviceModel: LM-G810, deviceName: LMG810EAWef6f059b, deviceScreenDensity: 420, deviceScreenSize: 1080x2248, deviceUDID: LMG810EAWef6f059b, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 88, takesScreenshot: true, udid: LMG810EAWef6f059b, viewportRect: {height: 1946, left: 0, top: 88, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 5b986337-129f-489d-8515-e1e0db38c215
+*** Element info: {Using=xpath, value=//*[@text='Next']}
+2023-01-05 21:24:16 INFO   LG_G8s_ThinQ.Test10F frontVideoRec Test10F_Fcam_res: 3 resolutions supported
+2023-01-05 21:24:16 INFO   LG_G8s_ThinQ.Test10F frontVideoRec Switch to video mode
+2023-01-05 21:24:22 INFO   LG_G8s_ThinQ.Test10F frontVideoRec Click On Settings option to select front camera
+2023-01-05 21:24:27 INFO   LG_G8s_ThinQ.Test10F frontVideoRec Click On Settings and set uSD card as storage option
+2023-01-05 21:24:31 INFO   LG_G8s_ThinQ.Test10F frontVideoRec Select storage location option
+2023-01-05 21:24:35 INFO   LG_G8s_ThinQ.Test10F frontVideoRec Select SD as storage option
+2023-01-05 21:24:41 INFO   LG_G8s_ThinQ.Test10F frontVideoRec Click On Settings option to select front video resolution
+2023-01-05 21:24:45 INFO   LG_G8s_ThinQ.Test10F frontVideoRec Select Video Resolution
+2023-01-05 21:24:49 INFO   LG_G8s_ThinQ.Test10F frontVideoRec Select First back video Resolution: FHD 16:9 1920x1080
+2023-01-05 21:25:00 INFO   LG_G8s_ThinQ.Test10F frontVideoRec Start video recording
+2023-01-05 21:31:24 INFO   LG_G8s_ThinQ.Test10F frontVideoRec Stop video recording
+2023-01-05 21:31:24 INFO   LG_G8s_ThinQ.Test10F frontVideoRec Click On Settings option to select front video resolution
+2023-01-05 21:31:28 INFO   LG_G8s_ThinQ.Test10F frontVideoRec Select Video Resolution
+2023-01-05 21:31:32 INFO   LG_G8s_ThinQ.Test10F frontVideoRec Select Second back video Resolution: FHD 16:9 1920x1080
+2023-01-05 21:31:43 INFO   LG_G8s_ThinQ.Test10F frontVideoRec Start video recording
+2023-01-05 21:41:26 INFO   LG_G8s_ThinQ.Test10F frontVideoRec Stop video recording
+2023-01-05 21:41:26 INFO   LG_G8s_ThinQ.Test10F frontVideoRec Click On Settings option to select front video resolution
+2023-01-05 21:41:31 INFO   LG_G8s_ThinQ.Test10F frontVideoRec Select Video Resolution
+2023-01-05 21:41:34 INFO   LG_G8s_ThinQ.Test10F frontVideoRec Select Third back video Resolution: HD 16:9 1280x720
+2023-01-05 21:41:46 INFO   LG_G8s_ThinQ.Test10F frontVideoRec Start video recording
+2023-01-05 21:51:29 INFO   LG_G8s_ThinQ.Test10F frontVideoRec Stop video recording
+2023-01-05 21:51:34 INFO   LG_G8s_ThinQ.Test10F frontVideoRec switch to default photo mode
+2023-01-05 21:51:46 INFO   LG_G8s_ThinQ.Test10F frontVideoRec Pass: Test10F pass for front camera video recording
+2023-01-05 21:51:46 INFO   LG_G8s_ThinQ.Test10F frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-05 21:51:46 INFO   LG_G8s_ThinQ.Test10F frontVideoRec Launch File Manager Application to verify captured videos
+2023-01-05 21:51:47 INFO   LG_G8s_ThinQ.Test10F frontVideoRec swipe up and search for sd card
+2023-01-05 21:51:51 INFO   LG_G8s_ThinQ.Test10F frontVideoRec Select  SD Card
+2023-01-05 21:51:57 INFO   LG_G8s_ThinQ.Test10F frontVideoRec swipe up and search for dcim
+2023-01-05 21:52:00 INFO   LG_G8s_ThinQ.Test10F frontVideoRec Select DCIM Folder
+2023-01-05 21:52:05 INFO   LG_G8s_ThinQ.Test10F frontVideoRec Select Camera Folder
+2023-01-05 21:52:10 INFO   LG_G8s_ThinQ.Test10F frontVideoRec Select More Options 
+2023-01-05 21:52:15 INFO   LG_G8s_ThinQ.Test10F frontVideoRec Click On Select All Options
+2023-01-05 21:52:24 INFO   LG_G8s_ThinQ.Test10F frontVideoRec Test10F_Fcam_video: 3 Videos captured successfull
+2023-01-05 21:52:24 INFO   LG_G8s_ThinQ.Test10F frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-05 21:52:33 INFO   LG_G8s_ThinQ.Test10F frontVideoRec Calling VideoPlayBackForSleepWake()
+2023-01-05 21:52:33 INFO   LG_G8s_ThinQ.Test10F VideoPlayBackForSleepWake Clearing Recent Apps
+2023-01-05 21:52:54 INFO   LG_G8s_ThinQ.Test10F VideoPlayBackForSleepWake Pass: Test0 Pass for clearing Recent apps 
+2023-01-05 21:52:56 INFO   LG_G8s_ThinQ.Test10F VideoPlayBackForSleepWake Launch File Manager application and playback front recorded video from USD for 30 seconds, pause video playback, locking phone and unlock after 30 seconds delay and playback video from pause duration.
+2023-01-05 21:53:02 INFO   LG_G8s_ThinQ.Test10F VideoPlayBackForSleepWake swipe up and search for sd card
+2023-01-05 21:53:05 INFO   LG_G8s_ThinQ.Test10F VideoPlayBackForSleepWake Select External Storage
+2023-01-05 21:53:14 INFO   LG_G8s_ThinQ.Test10F VideoPlayBackForSleepWake Select DCIM Folder
+2023-01-05 21:53:17 INFO   LG_G8s_ThinQ.Test10F VideoPlayBackForSleepWake Select Camera
+2023-01-05 21:53:20 INFO   LG_G8s_ThinQ.Test10F VideoPlayBackForSleepWake select more options
+2023-01-05 21:53:25 INFO   LG_G8s_ThinQ.Test10F VideoPlayBackForSleepWake Select Sort BY
+2023-01-05 21:53:30 INFO   LG_G8s_ThinQ.Test10F VideoPlayBackForSleepWake Select Newest date first
+2023-01-05 21:53:33 INFO   LG_G8s_ThinQ.Test10F VideoPlayBackForSleepWake Click on first file to play highest recorded resolution video file
+2023-01-05 21:53:33 INFO   LG_G8s_ThinQ.Test10F VideoPlayBackForSleepWake Started video playback
+2023-01-05 21:53:53 INFO   LG_G8s_ThinQ.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-01-05 21:53:53 INFO   LG_G8s_ThinQ.Test10F VideoPlayBackForSleepWake Lock Mobile with 30 seconds delay
+2023-01-05 21:54:23 INFO   LG_G8s_ThinQ.Test10F VideoPlayBackForSleepWake Wait For 30Seconds
+2023-01-05 21:54:28 INFO   LG_G8s_ThinQ.Test10F VideoPlayBackForSleepWake Unlock Mobile 
+2023-01-05 21:55:05 INFO   LG_G8s_ThinQ.Test10F VideoPlayBackForSleepWake Pass: Test10F Pass for Front video play back, Pause,Lock and Unlock Phone Play back from Pause duration Scenario
+2023-01-05 21:55:05 INFO   LG_G8s_ThinQ.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-05 21:55:05 INFO   LG_G8s_ThinQ.Test10F VideoPlayBackForSleepWake Calling Data Move Operation
+2023-01-05 21:55:05 INFO   LG_G8s_ThinQ.Test10F DataMoveOperation Re-launch file manager application and select external storage for data move operation, select all rear camera videos present in camera folder and move to Test10 folder
+2023-01-05 21:55:11 INFO   LG_G8s_ThinQ.Test10F DataMoveOperation Launching file manager application
+2023-01-05 21:55:14 INFO   LG_G8s_ThinQ.Test10F DataMoveOperation Select external storage
+2023-01-05 21:55:19 INFO   LG_G8s_ThinQ.Test10F DataMoveOperation switch to grid view mode and select DCIM  folder
+2023-01-05 21:55:23 INFO   LG_G8s_ThinQ.Test10F DataMoveOperation Select DCIM folder
+2023-01-05 21:55:26 INFO   LG_G8s_ThinQ.Test10F DataMoveOperation Select camera  folder
+2023-01-05 21:55:29 INFO   LG_G8s_ThinQ.Test10F DataMoveOperation switch to list view mode 
+2023-01-05 21:55:32 INFO   LG_G8s_ThinQ.Test10F DataMoveOperation Click More options
+2023-01-05 21:55:39 INFO   LG_G8s_ThinQ.Test10F DataMoveOperation Click Select all
+2023-01-05 21:55:42 INFO   LG_G8s_ThinQ.Test10F DataMoveOperation Click More options
+2023-01-05 21:55:49 INFO   LG_G8s_ThinQ.Test10F DataMoveOperation Select move to option
+2023-01-05 21:55:55 INFO   LG_G8s_ThinQ.Test10F DataMoveOperation Select uSD Card
+2023-01-05 21:56:02 INFO   LG_G8s_ThinQ.Test10F DataMoveOperation Select ADD NEW Folder option
+2023-01-05 21:56:09 INFO   LG_G8s_ThinQ.Test10F DataMoveOperation Name folder as Test10F
+2023-01-05 21:56:15 INFO   LG_G8s_ThinQ.Test10F DataMoveOperation Accept create folder
+2023-01-05 21:56:47 INFO   LG_G8s_ThinQ.Test10F DataMoveOperation Cut paste  video files operation completed successfully
+2023-01-05 21:56:51 INFO   LG_G8s_ThinQ.Test10F DataMoveOperation Test10F: Data move operation completed successfully
+2023-01-05 21:57:00 INFO   LG_G8s_ThinQ.Test10F DataMoveOperation Pass: Test10F Pass for data move operation successfully
+2023-01-05 21:57:00 INFO   LG_G8s_ThinQ.Test10F DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-05 21:57:00 INFO   LG_G8s_ThinQ.Test10F VideoPlayBackForSleepWake Final Message: Pass Test10F Pass for Pause Video Playback
+2023-01-05 21:57:00 INFO   LG_G8s_ThinQ.Test10F VideoPlayBackForSleepWake Test: End
+2023-01-05 21:57:00 INFO   LG_G8s_ThinQ.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-05 21:57:00 INFO   LG_G8s_ThinQ.Test10F frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

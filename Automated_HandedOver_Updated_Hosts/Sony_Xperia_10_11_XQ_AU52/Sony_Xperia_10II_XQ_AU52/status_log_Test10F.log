@@ -1,0 +1,101 @@
+2022-10-12 18:32:11 INFO   Sony_Xperia_10II_XQ_AU52.Test10F rearVideoRec Test:Start
+2022-10-12 18:32:11 INFO   Sony_Xperia_10II_XQ_AU52.Test10F rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-12 18:32:11 INFO   Sony_Xperia_10II_XQ_AU52.Test10F rearVideoRec Test10F Scenario is as follows
+2022-10-12 18:32:11 INFO   Sony_Xperia_10II_XQ_AU52.Test10F rearVideoRec 1.Launch Camera application and start front camera video recording for all host applicable resolutions in uSD Card
+2022-10-12 18:32:11 INFO   Sony_Xperia_10II_XQ_AU52.Test10F rearVideoRec 2.Playback front Highest recorded video for 30 seconds, pause video playback, lock mobile and wait 30 seconds, unlock mobile and playback video from pause video duration
+2022-10-12 18:32:11 INFO   Sony_Xperia_10II_XQ_AU52.Test10F rearVideoRec Setting up the appium desired capabilities
+2022-10-12 18:32:11 INFO   Sony_Xperia_10II_XQ_AU52.Test10F rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-12 18:32:26 INFO   Sony_Xperia_10II_XQ_AU52.Test10F rearVideoRec Launch Home screen and clear recent Apps
+2022-10-12 18:32:26 INFO   Sony_Xperia_10II_XQ_AU52.Test10F rearVideoRec Launch camera application
+2022-10-12 18:32:27 INFO   Sony_Xperia_10II_XQ_AU52.Test10F rearVideoRec if Location permisson Pop Exists Select Cancel Option
+2022-10-12 18:32:27 INFO   Sony_Xperia_10II_XQ_AU52.Test10F rearVideoRec Test10F_Fcam_res: 4 resolutions supported
+2022-10-12 18:32:37 INFO   Sony_Xperia_10II_XQ_AU52.Test10F rearVideoRec change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: XQ-AU52, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: QV720DJV3A}, deviceApiLevel: 30, deviceManufacturer: Sony, deviceModel: XQ-AU52, deviceName: QV720DJV3A, deviceScreenDensity: 420, deviceScreenSize: 1080x2520, deviceUDID: QV720DJV3A, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 63, takesScreenshot: true, udid: QV720DJV3A, viewportRect: {height: 2331, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 396248ed-8987-456d-8e7c-477c6a31865d
+*** Element info: {Using=xpath, value=//*[@text='NO']}
+2022-10-12 18:32:40 INFO   Sony_Xperia_10II_XQ_AU52.Test10F rearVideoRec If Eye Direction Pop-up exists during switch camera select skip opption
+2022-10-12 18:32:50 INFO   Sony_Xperia_10II_XQ_AU52.Test10F rearVideoRec Select settings option
+2022-10-12 18:32:55 INFO   Sony_Xperia_10II_XQ_AU52.Test10F rearVideoRec Search for Data storage option
+2022-10-12 18:33:08 INFO   Sony_Xperia_10II_XQ_AU52.Test10F rearVideoRec Select SD as storage option
+2022-10-12 18:33:17 INFO   Sony_Xperia_10II_XQ_AU52.Test10F rearVideoRec Switch to Video Mode
+2022-10-12 18:33:27 INFO   Sony_Xperia_10II_XQ_AU52.Test10F rearVideoRec Select first front camera Video Resolution:Full HD (21:9)
+2022-10-12 18:33:47 INFO   Sony_Xperia_10II_XQ_AU52.Test10F rearVideoRec Start video recording
+2022-10-12 18:36:54 INFO   Sony_Xperia_10II_XQ_AU52.Test10F rearVideoRec Stop video recording
+2022-10-12 18:37:01 INFO   Sony_Xperia_10II_XQ_AU52.Test10F rearVideoRec Select settings option to select second resolution
+2022-10-12 18:37:08 INFO   Sony_Xperia_10II_XQ_AU52.Test10F rearVideoRec Select second front camera Video Resolution:Full HD (16:9)
+2022-10-12 18:37:28 INFO   Sony_Xperia_10II_XQ_AU52.Test10F rearVideoRec Start video recording
+2022-10-12 18:40:30 INFO   Sony_Xperia_10II_XQ_AU52.Test10F rearVideoRec Stop video recording
+2022-10-12 18:40:31 INFO   Sony_Xperia_10II_XQ_AU52.Test10F rearVideoRec Select settings option to select second resolution
+2022-10-12 18:40:39 INFO   Sony_Xperia_10II_XQ_AU52.Test10F rearVideoRec Select third front camera Video Resolution:1080x1080(1:1)
+2022-10-12 18:40:59 INFO   Sony_Xperia_10II_XQ_AU52.Test10F rearVideoRec Start video recording
+2022-10-12 18:44:01 INFO   Sony_Xperia_10II_XQ_AU52.Test10F rearVideoRec Stop video recording
+2022-10-12 18:44:08 INFO   Sony_Xperia_10II_XQ_AU52.Test10F rearVideoRec Select settings option to select fourth resolution
+2022-10-12 18:44:14 INFO   Sony_Xperia_10II_XQ_AU52.Test10F rearVideoRec Select fourth front camera Video Resolution:HD
+2022-10-12 18:44:35 INFO   Sony_Xperia_10II_XQ_AU52.Test10F rearVideoRec Start video recording
+2022-10-12 18:47:37 INFO   Sony_Xperia_10II_XQ_AU52.Test10F rearVideoRec Stop video recording
+2022-10-12 18:47:44 INFO   Sony_Xperia_10II_XQ_AU52.Test10F rearVideoRec Switch to Back Camera mode
+2022-10-12 18:47:50 INFO   Sony_Xperia_10II_XQ_AU52.Test10F rearVideoRec Pass: Test10F pass for front camera video recording
+2022-10-12 18:47:50 INFO   Sony_Xperia_10II_XQ_AU52.Test10F rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-12 18:47:50 INFO   Sony_Xperia_10II_XQ_AU52.Test10F rearVideoRec Launch file manager application and verify recorded video capture uSD Card
+2022-10-12 18:48:07 INFO   Sony_Xperia_10II_XQ_AU52.Test10F rearVideoRec Swipe up to select uSD card
+2022-10-12 18:48:10 INFO   Sony_Xperia_10II_XQ_AU52.Test10F rearVideoRec Select SD card
+2022-10-12 18:48:16 INFO   Sony_Xperia_10II_XQ_AU52.Test10F rearVideoRec switch to grid view mode to select DCIM folder
+2022-10-12 18:48:20 INFO   Sony_Xperia_10II_XQ_AU52.Test10F rearVideoRec Select DCIM folder
+2022-10-12 18:48:23 INFO   Sony_Xperia_10II_XQ_AU52.Test10F rearVideoRec Select camera folder
+2022-10-12 18:48:27 INFO   Sony_Xperia_10II_XQ_AU52.Test10F rearVideoRec switch to list view mode 
+2022-10-12 18:48:30 INFO   Sony_Xperia_10II_XQ_AU52.Test10F rearVideoRec Click More options
+2022-10-12 18:48:36 INFO   Sony_Xperia_10II_XQ_AU52.Test10F rearVideoRec Click Select all
+2022-10-12 18:48:51 INFO   Sony_Xperia_10II_XQ_AU52.Test10F rearVideoRec Test10F_Fcam_video: 4 videos captured successfully
+2022-10-12 18:48:51 INFO   Sony_Xperia_10II_XQ_AU52.Test10F rearVideoRec Pass: Test10F pass for front camera video recording
+2022-10-12 18:48:51 INFO   Sony_Xperia_10II_XQ_AU52.Test10F rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-12 18:49:00 INFO   Sony_Xperia_10II_XQ_AU52.Test10F rearVideoRec Calling VideoPlayBackForSleepWake()
+2022-10-12 18:49:00 INFO   Sony_Xperia_10II_XQ_AU52.Test10F VideoPlayBackForSleepWake Launch File Manager application and playback front recorded video from USD for 30 seconds, pause video playback, locking phone and unlock after 30 seconds delay and playback video from pause duration.
+2022-10-12 18:49:07 INFO   Sony_Xperia_10II_XQ_AU52.Test10F VideoPlayBackForSleepWake Launching file manager application
+2022-10-12 18:49:11 INFO   Sony_Xperia_10II_XQ_AU52.Test10F VideoPlayBackForSleepWake Select External Storage
+2022-10-12 18:49:16 INFO   Sony_Xperia_10II_XQ_AU52.Test10F VideoPlayBackForSleepWake switch to grid view mode to select DCIM folder
+2022-10-12 18:49:20 INFO   Sony_Xperia_10II_XQ_AU52.Test10F VideoPlayBackForSleepWake Select DCIM folder
+2022-10-12 18:49:23 INFO   Sony_Xperia_10II_XQ_AU52.Test10F VideoPlayBackForSleepWake Select Camera folder
+2022-10-12 18:49:33 INFO   Sony_Xperia_10II_XQ_AU52.Test10F VideoPlayBackForSleepWake Fail: Test10F Fail for VideoPlayBackForSleepWake()
+2022-10-12 18:49:33 INFO   Sony_Xperia_10II_XQ_AU52.Test10F VideoPlayBackForSleepWake Calling Data move operation
+2022-10-12 18:49:33 INFO   Sony_Xperia_10II_XQ_AU52.Test10F DataMoveOperation Re-launch file manager application and select external storage for data move operation, select all rear camera videos present in camera folder and move to Test10 folder
+2022-10-12 18:49:40 INFO   Sony_Xperia_10II_XQ_AU52.Test10F DataMoveOperation Launching file manager application
+2022-10-12 18:49:43 INFO   Sony_Xperia_10II_XQ_AU52.Test10F DataMoveOperation Select external storage
+2022-10-12 18:49:48 INFO   Sony_Xperia_10II_XQ_AU52.Test10F DataMoveOperation switch to grid view mode and select DCIM  folder
+2022-10-12 18:49:52 INFO   Sony_Xperia_10II_XQ_AU52.Test10F DataMoveOperation Select DCIM folder
+2022-10-12 18:49:55 INFO   Sony_Xperia_10II_XQ_AU52.Test10F DataMoveOperation Select camera  folder
+2022-10-12 18:49:58 INFO   Sony_Xperia_10II_XQ_AU52.Test10F DataMoveOperation switch to list view mode 
+2022-10-12 18:50:01 INFO   Sony_Xperia_10II_XQ_AU52.Test10F DataMoveOperation Click More options
+2022-10-12 18:50:08 INFO   Sony_Xperia_10II_XQ_AU52.Test10F DataMoveOperation Click Select all
+2022-10-12 18:50:12 INFO   Sony_Xperia_10II_XQ_AU52.Test10F DataMoveOperation Click More options
+2022-10-12 18:50:18 INFO   Sony_Xperia_10II_XQ_AU52.Test10F DataMoveOperation Select move to option
+2022-10-12 18:50:25 INFO   Sony_Xperia_10II_XQ_AU52.Test10F DataMoveOperation Select uSD Card
+2022-10-12 18:50:31 INFO   Sony_Xperia_10II_XQ_AU52.Test10F DataMoveOperation Select ADD NEW Folder option
+2022-10-12 18:50:38 INFO   Sony_Xperia_10II_XQ_AU52.Test10F DataMoveOperation Name folder as Test10F
+2022-10-12 18:50:44 INFO   Sony_Xperia_10II_XQ_AU52.Test10F DataMoveOperation Accept create folder
+2022-10-12 18:51:16 INFO   Sony_Xperia_10II_XQ_AU52.Test10F DataMoveOperation Cut paste  video files operation completed successfully
+2022-10-12 18:51:23 INFO   Sony_Xperia_10II_XQ_AU52.Test10F DataMoveOperation Test10F: Data move operation completed successfully
+2022-10-12 18:51:36 INFO   Sony_Xperia_10II_XQ_AU52.Test10F DataMoveOperation Pass: Test10F Pass for data move operation successfully
+2022-10-12 18:51:36 INFO   Sony_Xperia_10II_XQ_AU52.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-12 18:51:36 INFO   Sony_Xperia_10II_XQ_AU52.Test10F VideoPlayBackForSleepWake Final Message: Fail Test10F Fail for VideoPlayBackForSleepWake()
+2022-10-12 18:51:36 INFO   Sony_Xperia_10II_XQ_AU52.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-12 18:51:36 INFO   Sony_Xperia_10II_XQ_AU52.Test10F VideoPlayBackForSleepWake Test:End
+2022-10-12 18:51:36 INFO   Sony_Xperia_10II_XQ_AU52.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-12 18:51:36 INFO   Sony_Xperia_10II_XQ_AU52.Test10F VideoPlayBackForSleepWake calling DatamoveOperation() to move front camera recorded videos files to Test10F folder
+2022-10-12 18:51:36 INFO   Sony_Xperia_10II_XQ_AU52.Test10F DataMoveOperation Re-launch file manager application and select external storage for data move operation, select all rear camera videos present in camera folder and move to Test10 folder
+2022-10-12 18:51:43 INFO   Sony_Xperia_10II_XQ_AU52.Test10F DataMoveOperation Launching file manager application
+2022-10-12 18:51:46 INFO   Sony_Xperia_10II_XQ_AU52.Test10F DataMoveOperation Select external storage
+2022-10-12 18:51:51 INFO   Sony_Xperia_10II_XQ_AU52.Test10F DataMoveOperation switch to grid view mode and select DCIM  folder
+2022-10-12 18:51:55 INFO   Sony_Xperia_10II_XQ_AU52.Test10F DataMoveOperation Select DCIM folder
+2022-10-12 18:51:58 INFO   Sony_Xperia_10II_XQ_AU52.Test10F DataMoveOperation Select camera  folder
+2022-10-12 18:52:01 INFO   Sony_Xperia_10II_XQ_AU52.Test10F DataMoveOperation switch to list view mode 
+2022-10-12 18:52:04 INFO   Sony_Xperia_10II_XQ_AU52.Test10F DataMoveOperation Click More options
+2022-10-12 18:52:11 INFO   Sony_Xperia_10II_XQ_AU52.Test10F DataMoveOperation Click Select all
+2022-10-12 18:52:14 INFO   Sony_Xperia_10II_XQ_AU52.Test10F DataMoveOperation Click More options
+2022-10-12 18:52:21 INFO   Sony_Xperia_10II_XQ_AU52.Test10F DataMoveOperation Select move to option
+2022-10-12 18:52:31 INFO   Sony_Xperia_10II_XQ_AU52.Test10F VideoPlayBackForSleepWake Final message: Pass Test10F Pass for front camera  video recording, Pause Video Playback scenario and data move operation scenario
+2022-10-12 18:52:31 INFO   Sony_Xperia_10II_XQ_AU52.Test10F VideoPlayBackForSleepWake Test:End
+2022-10-12 18:52:31 INFO   Sony_Xperia_10II_XQ_AU52.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

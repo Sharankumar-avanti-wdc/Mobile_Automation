@@ -1,0 +1,69 @@
+2023-03-23 10:26:00 INFO   Realme_Pad_Mini_RMP2106.Test0 start Test: Start
+2023-03-23 10:26:00 INFO   Realme_Pad_Mini_RMP2106.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-23 10:26:00 INFO   Realme_Pad_Mini_RMP2106.Test0 start  Test0 Scenario is as follows 
+2023-03-23 10:26:00 INFO   Realme_Pad_Mini_RMP2106.Test0 start 1.Unlock phone, clear recent apps, clear internal memory
+2023-03-23 10:26:00 INFO   Realme_Pad_Mini_RMP2106.Test0 start 2.Call Image() and Capture Rear camera 25 images for default resolution in uSD card and Verify the data capture
+2023-03-23 10:26:00 INFO   Realme_Pad_Mini_RMP2106.Test0 start 3.Call Video() and record Rear camera video of first 2 resloutions for 2 minutes of duration in uSD Card and verify the same
+2023-03-23 10:26:00 INFO   Realme_Pad_Mini_RMP2106.Test0 start 4.Call Format() and format uSD card with data and verify the same
+2023-03-23 10:26:00 INFO   Realme_Pad_Mini_RMP2106.Test0 start Setting up the appium desired capabilities
+2023-03-23 10:26:00 INFO   Realme_Pad_Mini_RMP2106.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-23 10:26:08 INFO   Realme_Pad_Mini_RMP2106.Test0 start Launch Home screen
+2023-03-23 10:26:18 INFO   Realme_Pad_Mini_RMP2106.Test0 start Host does not support clear recent apps scenario during automation!
+2023-03-23 10:26:18 INFO   Realme_Pad_Mini_RMP2106.Test0 start Clearing Recent Apps
+2023-03-23 10:26:29 INFO   Realme_Pad_Mini_RMP2106.Test0 start Pass: Test0 Pass for clearing Recent apps 
+2023-03-23 10:26:31 INFO   Realme_Pad_Mini_RMP2106.Test0 start Launch File Manager Application and clear internal memory
+2023-03-23 10:26:37 INFO   Realme_Pad_Mini_RMP2106.Test0 start Swipe up and select uSD card
+2023-03-23 10:26:40 INFO   Realme_Pad_Mini_RMP2106.Test0 start Select  Internal storage
+2023-03-23 10:26:45 INFO   Realme_Pad_Mini_RMP2106.Test0 start Click on more options
+2023-03-23 10:26:48 INFO   Realme_Pad_Mini_RMP2106.Test0 start Click select all
+2023-03-23 10:26:52 INFO   Realme_Pad_Mini_RMP2106.Test0 start Click on more options
+2023-03-23 10:26:55 INFO   Realme_Pad_Mini_RMP2106.Test0 start Select delete option
+2023-03-23 10:26:59 INFO   Realme_Pad_Mini_RMP2106.Test0 start Accept delete pop-up
+2023-03-23 10:28:59 INFO   Realme_Pad_Mini_RMP2106.Test0 start Pass: Clearing phone internal memory is successfull
+2023-03-23 10:29:12 INFO   Realme_Pad_Mini_RMP2106.Test0 start Calling Image() for rear Image capture in uSD Card and Verify the Captured images
+2023-03-23 10:29:12 INFO   Realme_Pad_Mini_RMP2106.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-23 10:29:12 INFO   Realme_Pad_Mini_RMP2106.Test0 Images Launch Camera Application for Rear camera picture capture
+2023-03-23 10:29:13 INFO   Realme_Pad_Mini_RMP2106.Test0 Images IF Change to uSD card notification pop-up exists select Cancel Option
+2023-03-23 10:29:23 INFO   Realme_Pad_Mini_RMP2106.Test0 Images change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: realme Pad mini, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: 12E230531000112}, deviceApiLevel: 30, deviceManufacturer: realme, deviceModel: RMP2106, deviceName: 12E230531000112, deviceScreenDensity: 213, deviceScreenSize: 800x1340, deviceUDID: 12E230531000112, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.3312501, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 45, takesScreenshot: true, udid: 12E230531000112, viewportRect: {height: 1244, left: 0, top: 45, width: 800}, warnings: {}, webStorageEnabled: false}
+Session ID: 36b7e287-6e00-412a-8235-e98236c7df28
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Agree")}
+2023-03-23 10:29:23 INFO   Realme_Pad_Mini_RMP2106.Test0 Images If allow location pop exists select Dont allow option
+2023-03-23 10:29:34 INFO   Realme_Pad_Mini_RMP2106.Test0 Images Location access pop-up  element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: realme Pad mini, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: 12E230531000112}, deviceApiLevel: 30, deviceManufacturer: realme, deviceModel: RMP2106, deviceName: 12E230531000112, deviceScreenDensity: 213, deviceScreenSize: 800x1340, deviceUDID: 12E230531000112, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.3312501, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 45, takesScreenshot: true, udid: 12E230531000112, viewportRect: {height: 1244, left: 0, top: 45, width: 800}, warnings: {}, webStorageEnabled: false}
+Session ID: 36b7e287-6e00-412a-8235-e98236c7df28
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("DON’T ALLOW")}
+2023-03-23 10:29:34 INFO   Realme_Pad_Mini_RMP2106.Test0 Images If start capture pop exists select Start capture option
+2023-03-23 10:29:44 INFO   Realme_Pad_Mini_RMP2106.Test0 Images Start capture element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: realme Pad mini, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: 12E230531000112}, deviceApiLevel: 30, deviceManufacturer: realme, deviceModel: RMP2106, deviceName: 12E230531000112, deviceScreenDensity: 213, deviceScreenSize: 800x1340, deviceUDID: 12E230531000112, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.3312501, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 45, takesScreenshot: true, udid: 12E230531000112, viewportRect: {height: 1244, left: 0, top: 45, width: 800}, warnings: {}, webStorageEnabled: false}
+Session ID: 36b7e287-6e00-412a-8235-e98236c7df28
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("START CAPTURE")}
+2023-03-23 10:29:44 INFO   Realme_Pad_Mini_RMP2106.Test0 Images Switch to rear Camera Mode if current Exiting camera is Front camera Mode
+2023-03-23 10:29:54 INFO   Realme_Pad_Mini_RMP2106.Test0 Images Currently camera is already in rear camera mode no need to switch
+2023-03-23 10:30:04 INFO   Realme_Pad_Mini_RMP2106.Test0 Images Select settings option
+2023-03-23 10:30:09 INFO   Realme_Pad_Mini_RMP2106.Test0 Images Select Storagepath option
+2023-03-23 10:30:15 INFO   Realme_Pad_Mini_RMP2106.Test0 Images Select SD as storage option
+2023-03-23 10:30:22 INFO   Realme_Pad_Mini_RMP2106.Test0 Images Capture Image of Default Resolution
+2023-03-23 10:30:29 INFO   Realme_Pad_Mini_RMP2106.Test0 Images Captureing default resolition image 0
+2023-03-23 10:30:37 INFO   Realme_Pad_Mini_RMP2106.Test0 Images Captureing default resolition image 1
+2023-03-23 10:30:44 INFO   Realme_Pad_Mini_RMP2106.Test0 Images Captureing default resolition image 2
+2023-03-23 10:30:51 INFO   Realme_Pad_Mini_RMP2106.Test0 Images Captureing default resolition image 3
+2023-03-23 10:30:58 INFO   Realme_Pad_Mini_RMP2106.Test0 Images Captureing default resolition image 4
+2023-03-23 10:31:05 INFO   Realme_Pad_Mini_RMP2106.Test0 Images Captureing default resolition image 5
+2023-03-23 10:31:13 INFO   Realme_Pad_Mini_RMP2106.Test0 Images Captureing default resolition image 6
+2023-03-23 10:31:20 INFO   Realme_Pad_Mini_RMP2106.Test0 Images Captureing default resolition image 7
+2023-03-23 10:31:27 INFO   Realme_Pad_Mini_RMP2106.Test0 Images Captureing default resolition image 8
+2023-03-23 10:31:34 INFO   Realme_Pad_Mini_RMP2106.Test0 Images Captureing default resolition image 9
+2023-03-23 10:31:41 INFO   Realme_Pad_Mini_RMP2106.Test0 Images Captureing default resolition image 10

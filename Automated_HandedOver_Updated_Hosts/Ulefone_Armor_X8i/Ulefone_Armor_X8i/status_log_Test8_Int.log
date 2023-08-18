@@ -1,0 +1,64 @@
+2023-03-15 10:59:51 INFO   Ulefone_Armor_X8i.Test8_Int recordAudio Test: Start
+2023-03-15 10:59:51 INFO   Ulefone_Armor_X8i.Test8_Int recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-15 10:59:51 INFO   Ulefone_Armor_X8i.Test8_Int recordAudio Test8_Int scenario is as follows
+2023-03-15 10:59:51 INFO   Ulefone_Armor_X8i.Test8_Int recordAudio 1.Launch mobile default voice recording application and set  storage option, record audio file for 2 minutes duration
+2023-03-15 10:59:51 INFO   Ulefone_Armor_X8i.Test8_Int recordAudio 2.Launch file manager application and playback recorded audio file from external storage, fast forward audio file and pause
+2023-03-15 10:59:51 INFO   Ulefone_Armor_X8i.Test8_Int recordAudio 3.Launch file manager application and playback copied audio files from external storage the files are placed in the Test1 folder
+2023-03-15 10:59:51 INFO   Ulefone_Armor_X8i.Test8_Int recordAudio Setting up the appium desired capabilities
+2023-03-15 10:59:51 INFO   Ulefone_Armor_X8i.Test8_Int recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-15 11:00:01 INFO   Ulefone_Armor_X8i.Test8_Int recordAudio Launch Home screen application and clear recent apps
+2023-03-15 11:00:11 INFO   Ulefone_Armor_X8i.Test8_Int recordAudio Clearing Recent Apps
+2023-03-15 11:00:22 INFO   Ulefone_Armor_X8i.Test8_Int recordAudio No recent apps found in background
+2023-03-15 11:00:24 INFO   Ulefone_Armor_X8i.Test8_Int recordAudio Launch Voice recorder application for Audio recording
+2023-03-15 11:00:28 INFO   Ulefone_Armor_X8i.Test8_Int recordAudio If application launch permission pop-up exists accept allow permission to launch application
+2023-03-15 11:00:43 INFO   Ulefone_Armor_X8i.Test8_Int recordAudio  No Launch permission Pop-up  found
+2023-03-15 11:00:48 INFO   Ulefone_Armor_X8i.Test8_Int recordAudio Select settings option
+2023-03-15 11:00:53 INFO   Ulefone_Armor_X8i.Test8_Int recordAudio Select Save location option
+2023-03-15 11:00:59 INFO   Ulefone_Armor_X8i.Test8_Int recordAudio Select SD card option
+2023-03-15 11:01:04 INFO   Ulefone_Armor_X8i.Test8_Int recordAudio Click select option
+2023-03-15 11:01:09 INFO   Ulefone_Armor_X8i.Test8_Int recordAudio Select closed option
+2023-03-15 11:01:17 INFO   Ulefone_Armor_X8i.Test8_Int recordAudio Start Recording
+2023-03-15 11:03:17 INFO   Ulefone_Armor_X8i.Test8_Int recordAudio Stop Recording
+2023-03-15 11:03:31 INFO   Ulefone_Armor_X8i.Test8_Int recordAudio Pass: Test8_Int pass for recording  audio file
+2023-03-15 11:03:31 INFO   Ulefone_Armor_X8i.Test8_Int recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-15 11:03:31 INFO   Ulefone_Armor_X8i.Test8_Int recordAudio Calling PlayRecordedAudio() for Audio play back and fast forward scenario
+2023-03-15 11:03:36 INFO   Ulefone_Armor_X8i.Test8_Int PlayRecordedAudio Launch home screen and clear recent apps
+2023-03-15 11:03:51 INFO   Ulefone_Armor_X8i.Test8_Int PlayRecordedAudio clearing Recent apps 
+2023-03-15 11:03:53 INFO   Ulefone_Armor_X8i.Test8_Int PlayRecordedAudio Launch File Manager Application
+2023-03-15 11:04:04 INFO   Ulefone_Armor_X8i.Test8_Int PlayRecordedAudio Launch File Manager Application
+2023-03-15 11:04:09 INFO   Ulefone_Armor_X8i.Test8_Int PlayRecordedAudio Select internalstorage
+2023-03-15 11:04:09 INFO   Ulefone_Armor_X8i.Test8_Int PlayRecordedAudio Select Recorders Folder
+2023-03-15 11:04:13 INFO   Ulefone_Armor_X8i.Test8_Int PlayRecordedAudio Click first audio file for audio playback and fast forward scenario
+2023-03-15 11:04:53 INFO   Ulefone_Armor_X8i.Test8_Int PlayRecordedAudio Fast Forwarding Audio for 10 Seconds
+2023-03-15 11:05:04 INFO   Ulefone_Armor_X8i.Test8_Int PlayRecordedAudio Continue audio playback
+2023-03-15 11:05:14 INFO   Ulefone_Armor_X8i.Test8_Int PlayRecordedAudio Pause audio playback
+2023-03-15 11:05:24 INFO   Ulefone_Armor_X8i.Test8_Int PlayRecordedAudio Pass: Test8_Int Pass for playing, fast forward, and pause recorded audio file scenario
+2023-03-15 11:05:24 INFO   Ulefone_Armor_X8i.Test8_Int PlayRecordedAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-15 11:05:24 INFO   Ulefone_Armor_X8i.Test8_Int PlayRecordedAudio Calling PlayCopiedAudioFile() for copied audio files from Test1 folder
+2023-03-15 11:05:29 INFO   Ulefone_Armor_X8i.Test8_Int PlayCopiedAudioFile Launch home screen
+2023-03-15 11:05:41 INFO   Ulefone_Armor_X8i.Test8_Int PlayCopiedAudioFile clearing Recent apps 
+2023-03-15 11:05:53 INFO   Ulefone_Armor_X8i.Test8_Int PlayCopiedAudioFile Launch File Manager Application
+2023-03-15 11:06:04 INFO   Ulefone_Armor_X8i.Test8_Int PlayCopiedAudioFile Select  Internal storage
+2023-03-15 11:06:14 INFO   Ulefone_Armor_X8i.Test8_Int PlayCopiedAudioFile Select Test1 folder
+2023-03-15 11:06:25 INFO   Ulefone_Armor_X8i.Test8_Int PlayCopiedAudioFile Select Test_file folder
+2023-03-15 11:06:30 INFO   Ulefone_Armor_X8i.Test8_Int PlayCopiedAudioFile Select 1GB folder
+2023-03-15 11:06:33 INFO   Ulefone_Armor_X8i.Test8_Int PlayCopiedAudioFile Select MP3 files Folder
+2023-03-15 11:06:38 INFO   Ulefone_Armor_X8i.Test8_Int PlayCopiedAudioFile Playing first audio file from Test1 folder
+2023-03-15 11:07:19 INFO   Ulefone_Armor_X8i.Test8_Int PlayCopiedAudioFile Fast Forwarding Audio for 10 Seconds
+2023-03-15 11:07:30 INFO   Ulefone_Armor_X8i.Test8_Int PlayCopiedAudioFile Pause Audio
+2023-03-15 11:07:33 INFO   Ulefone_Armor_X8i.Test8_Int PlayCopiedAudioFile Pass: first audio file palyback and fast forward scenario is successfull
+2023-03-15 11:07:36 INFO   Ulefone_Armor_X8i.Test8_Int PlayCopiedAudioFile Playing second audio file from Test1 folder
+2023-03-15 11:08:16 INFO   Ulefone_Armor_X8i.Test8_Int PlayCopiedAudioFile Fast Forwarding Audio for 10 Seconds
+2023-03-15 11:08:27 INFO   Ulefone_Armor_X8i.Test8_Int PlayCopiedAudioFile Continue audio playback
+2023-03-15 11:08:37 INFO   Ulefone_Armor_X8i.Test8_Int PlayCopiedAudioFile Pause Audio
+2023-03-15 11:08:40 INFO   Ulefone_Armor_X8i.Test8_Int PlayCopiedAudioFile Pass: Seond audio file palyback and fast forward scenario is successfull
+2023-03-15 11:08:43 INFO   Ulefone_Armor_X8i.Test8_Int PlayCopiedAudioFile Playing third audio file from Test1 folder
+2023-03-15 11:09:23 INFO   Ulefone_Armor_X8i.Test8_Int PlayCopiedAudioFile Fast Forwarding Audio for 10 Seconds
+2023-03-15 11:09:34 INFO   Ulefone_Armor_X8i.Test8_Int PlayCopiedAudioFile Continue audio playback
+2023-03-15 11:09:44 INFO   Ulefone_Armor_X8i.Test8_Int PlayCopiedAudioFile Pause Audio
+2023-03-15 11:09:47 INFO   Ulefone_Armor_X8i.Test8_Int PlayCopiedAudioFile Pass: Third audio file palyback and fast forward scenario is successfull
+2023-03-15 11:09:47 INFO   Ulefone_Armor_X8i.Test8_Int PlayCopiedAudioFile Pass: Test8_Int Pass for Recorded and copied audio play back and fast forward scenario
+2023-03-15 11:09:47 INFO   Ulefone_Armor_X8i.Test8_Int PlayCopiedAudioFile ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-15 11:09:47 INFO   Ulefone_Armor_X8i.Test8_Int PlayCopiedAudioFile Final Message: Pass Test8_Int Pass for Recorded and copied audio play back and fast forward scenario
+2023-03-15 11:09:47 INFO   Ulefone_Armor_X8i.Test8_Int PlayCopiedAudioFile Test: End
+2023-03-15 11:09:47 INFO   Ulefone_Armor_X8i.Test8_Int PlayCopiedAudioFile ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

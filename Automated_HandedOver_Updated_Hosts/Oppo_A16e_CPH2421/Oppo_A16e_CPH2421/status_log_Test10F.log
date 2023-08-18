@@ -1,0 +1,77 @@
+2023-01-13 16:37:43 INFO   Oppo_A16e_CPH2421.Test10F frontVideoRec Test:Start
+2023-01-13 16:37:43 INFO   Oppo_A16e_CPH2421.Test10F frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-13 16:37:43 INFO   Oppo_A16e_CPH2421.Test10F frontVideoRec Test10F Scenario is as follows
+2023-01-13 16:37:43 INFO   Oppo_A16e_CPH2421.Test10F frontVideoRec 1.Launch Camera application and start front camera video recording for all host applicable resolutions in uSD Card
+2023-01-13 16:37:43 INFO   Oppo_A16e_CPH2421.Test10F frontVideoRec 2.Playback front Highest recorded video for 30 seconds, pause video playback, lock mobile and wait 30 seconds, unlock mobile and playback video from pause video duration
+2023-01-13 16:37:43 INFO   Oppo_A16e_CPH2421.Test10F frontVideoRec Setting up the appium desired capabilities
+2023-01-13 16:37:43 INFO   Oppo_A16e_CPH2421.Test10F frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-13 16:37:58 INFO   Oppo_A16e_CPH2421.Test10F frontVideoRec Launch Camera Application for rear camera video recording
+2023-01-13 16:38:05 INFO   Oppo_A16e_CPH2421.Test10F frontVideoRec Test10F_Fcam_res: 2 resolutions supported
+2023-01-13 16:38:05 INFO   Oppo_A16e_CPH2421.Test10F frontVideoRec Clicking Video Tab
+2023-01-13 16:38:11 INFO   Oppo_A16e_CPH2421.Test10F frontVideoRec Click On front camera mode
+2023-01-13 16:38:15 INFO   Oppo_A16e_CPH2421.Test10F frontVideoRec Select settings option
+2023-01-13 16:38:21 INFO   Oppo_A16e_CPH2421.Test10F frontVideoRec swipe up and select for video resolution
+2023-01-13 16:38:25 INFO   Oppo_A16e_CPH2421.Test10F frontVideoRec Select First front video Resolution:  1080P
+2023-01-13 16:38:39 INFO   Oppo_A16e_CPH2421.Test10F frontVideoRec Start video recording
+2023-01-13 16:38:40 INFO   Oppo_A16e_CPH2421.Test10F frontVideoRec Stop video recording
+2023-01-13 16:48:49 INFO   Oppo_A16e_CPH2421.Test10F frontVideoRec Select settings option
+2023-01-13 16:48:54 INFO   Oppo_A16e_CPH2421.Test10F frontVideoRec swipe up and select for video resolution
+2023-01-13 16:48:58 INFO   Oppo_A16e_CPH2421.Test10F frontVideoRec Select second front video Resolution:  720P
+2023-01-13 16:49:13 INFO   Oppo_A16e_CPH2421.Test10F frontVideoRec Start video recording
+2023-01-13 16:49:13 INFO   Oppo_A16e_CPH2421.Test10F frontVideoRec Stop video recording
+2023-01-13 16:59:14 INFO   Oppo_A16e_CPH2421.Test10F frontVideoRec Click On back camera mode
+2023-01-13 16:59:20 INFO   Oppo_A16e_CPH2421.Test10F frontVideoRec Switch to defalut Photo mode
+2023-01-13 16:59:31 INFO   Oppo_A16e_CPH2421.Test10F frontVideoRec Pass: Test10F pass for front camera video recording
+2023-01-13 16:59:31 INFO   Oppo_A16e_CPH2421.Test10F frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-13 16:59:31 INFO   Oppo_A16e_CPH2421.Test10F frontVideoRec Launch File Manager Application to verify captured videos
+2023-01-13 16:59:37 INFO   Oppo_A16e_CPH2421.Test10F frontVideoRec Select  SD Card
+2023-01-13 16:59:42 INFO   Oppo_A16e_CPH2421.Test10F frontVideoRec swipe up and search for dcim
+2023-01-13 16:59:46 INFO   Oppo_A16e_CPH2421.Test10F frontVideoRec Select DCIM Folder
+2023-01-13 16:59:52 INFO   Oppo_A16e_CPH2421.Test10F frontVideoRec Select Camera Folder
+2023-01-13 16:59:58 INFO   Oppo_A16e_CPH2421.Test10F frontVideoRec Select More Options 
+2023-01-13 17:00:03 INFO   Oppo_A16e_CPH2421.Test10F frontVideoRec Click On Select All Options
+2023-01-13 17:00:12 INFO   Oppo_A16e_CPH2421.Test10F frontVideoRec Test10F_Fcam_video: 2 Videos captured successfull
+2023-01-13 17:00:12 INFO   Oppo_A16e_CPH2421.Test10F frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-13 17:00:21 INFO   Oppo_A16e_CPH2421.Test10F frontVideoRec Calling VideoPlayBackForSleepWake()
+2023-01-13 17:00:21 INFO   Oppo_A16e_CPH2421.Test10F VideoPlayBackForSleepWake Launch File Manager application and playback front recorded video from USD for 30 seconds, pause video playback, locking phone and unlock after 30 seconds delay and playback video from pause duration.
+2023-01-13 17:00:28 INFO   Oppo_A16e_CPH2421.Test10F VideoPlayBackForSleepWake swipe up and search for sd card
+2023-01-13 17:00:31 INFO   Oppo_A16e_CPH2421.Test10F VideoPlayBackForSleepWake Select External Storage
+2023-01-13 17:00:36 INFO   Oppo_A16e_CPH2421.Test10F VideoPlayBackForSleepWake swipe up and search for dcim
+2023-01-13 17:00:40 INFO   Oppo_A16e_CPH2421.Test10F VideoPlayBackForSleepWake Select DCIM Folder
+2023-01-13 17:00:43 INFO   Oppo_A16e_CPH2421.Test10F VideoPlayBackForSleepWake Select Camera
+2023-01-13 17:00:47 INFO   Oppo_A16e_CPH2421.Test10F VideoPlayBackForSleepWake select more options
+2023-01-13 17:00:52 INFO   Oppo_A16e_CPH2421.Test10F VideoPlayBackForSleepWake Select Sort BY
+2023-01-13 17:00:57 INFO   Oppo_A16e_CPH2421.Test10F VideoPlayBackForSleepWake Select Newest date first
+2023-01-13 17:01:00 INFO   Oppo_A16e_CPH2421.Test10F VideoPlayBackForSleepWake Click on first file to play newest date frist recorded resolution video file in usd card
+2023-01-13 17:01:00 INFO   Oppo_A16e_CPH2421.Test10F VideoPlayBackForSleepWake Started video playback
+2023-01-13 17:01:20 INFO   Oppo_A16e_CPH2421.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-01-13 17:01:20 INFO   Oppo_A16e_CPH2421.Test10F VideoPlayBackForSleepWake Lock Mobile with 30 seconds delay
+2023-01-13 17:01:50 INFO   Oppo_A16e_CPH2421.Test10F VideoPlayBackForSleepWake Wait For 30Seconds
+2023-01-13 17:01:55 INFO   Oppo_A16e_CPH2421.Test10F VideoPlayBackForSleepWake Unlock Mobile 
+2023-01-13 17:02:25 INFO   Oppo_A16e_CPH2421.Test10F VideoPlayBackForSleepWake Pause video 
+2023-01-13 17:02:32 INFO   Oppo_A16e_CPH2421.Test10F VideoPlayBackForSleepWake Pass: Test10F Pass for Front video play back, Pause,Lock and Unlock Phone Play back from Pause duration Scenario
+2023-01-13 17:02:32 INFO   Oppo_A16e_CPH2421.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-13 17:02:32 INFO   Oppo_A16e_CPH2421.Test10F VideoPlayBackForSleepWake Calling Data Move Operation
+2023-01-13 17:02:32 INFO   Oppo_A16e_CPH2421.Test10F DataMoveOperation Re-launch file manager application and select external storage for data move operation, select all rear camera videos present in camera folder and move to Test10 folder
+2023-01-13 17:02:39 INFO   Oppo_A16e_CPH2421.Test10F DataMoveOperation Launching file manager application
+2023-01-13 17:02:42 INFO   Oppo_A16e_CPH2421.Test10F DataMoveOperation Select external storage
+2023-01-13 17:02:47 INFO   Oppo_A16e_CPH2421.Test10F DataMoveOperation switch to grid view mode and select DCIM  folder
+2023-01-13 17:02:51 INFO   Oppo_A16e_CPH2421.Test10F DataMoveOperation Select DCIM folder
+2023-01-13 17:02:54 INFO   Oppo_A16e_CPH2421.Test10F DataMoveOperation Select camera  folder
+2023-01-13 17:02:57 INFO   Oppo_A16e_CPH2421.Test10F DataMoveOperation switch to list view mode 
+2023-01-13 17:03:00 INFO   Oppo_A16e_CPH2421.Test10F DataMoveOperation Click More options
+2023-01-13 17:03:07 INFO   Oppo_A16e_CPH2421.Test10F DataMoveOperation Click Select all
+2023-01-13 17:03:11 INFO   Oppo_A16e_CPH2421.Test10F DataMoveOperation Click More options
+2023-01-13 17:03:17 INFO   Oppo_A16e_CPH2421.Test10F DataMoveOperation Select move to option
+2023-01-13 17:03:24 INFO   Oppo_A16e_CPH2421.Test10F DataMoveOperation Select uSD Card
+2023-01-13 17:03:30 INFO   Oppo_A16e_CPH2421.Test10F DataMoveOperation Select ADD NEW Folder option
+2023-01-13 17:03:37 INFO   Oppo_A16e_CPH2421.Test10F DataMoveOperation Name folder as Test10F
+2023-01-13 17:03:44 INFO   Oppo_A16e_CPH2421.Test10F DataMoveOperation Accept create folder
+2023-01-13 17:04:14 INFO   Oppo_A16e_CPH2421.Test10F DataMoveOperation Cut paste  video files operation completed successfully
+2023-01-13 17:04:17 INFO   Oppo_A16e_CPH2421.Test10F DataMoveOperation Test10F: Data move operation completed successfully
+2023-01-13 17:04:26 INFO   Oppo_A16e_CPH2421.Test10F DataMoveOperation Pass: Test10F Pass for data move operation successfully
+2023-01-13 17:04:26 INFO   Oppo_A16e_CPH2421.Test10F DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-13 17:04:26 INFO   Oppo_A16e_CPH2421.Test10F VideoPlayBackForSleepWake Final Message: Pass Test10F Pass for Pause Video Playback
+2023-01-13 17:04:26 INFO   Oppo_A16e_CPH2421.Test10F VideoPlayBackForSleepWake Test: End
+2023-01-13 17:04:26 INFO   Oppo_A16e_CPH2421.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-13 17:04:26 INFO   Oppo_A16e_CPH2421.Test10F frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

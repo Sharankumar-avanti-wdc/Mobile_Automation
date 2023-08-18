@@ -1,0 +1,45 @@
+2023-05-03 11:00:02 INFO   Ikall_Z7.Test0_Int start Test: Start
+2023-05-03 11:00:02 INFO   Ikall_Z7.Test0_Int start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-05-03 11:00:02 INFO   Ikall_Z7.Test0_Int start  Test0_Int Scenario is as follows  
+2023-05-03 11:00:02 INFO   Ikall_Z7.Test0_Int start 1.Unlock phone, clear recent apps,Format uSD as Internal mount and Clear internal mount memory
+2023-05-03 11:00:02 INFO   Ikall_Z7.Test0_Int start 2.Call Image() and Capture Rear camera 25 images with default resolution in internal mount uSD card and Verify the data capture
+2023-05-03 11:00:02 INFO   Ikall_Z7.Test0_Int start 3.Call Video() and record Rear camera video of first 2 resloutions for 2 minutes of duration in internal mount uSD Card and verify the same
+2023-05-03 11:00:02 INFO   Ikall_Z7.Test0_Int start 4.Call Format() Format uSD as External mount,Format back to internal mount, Verify with data format status.
+2023-05-03 11:00:02 INFO   Ikall_Z7.Test0_Int start Setting up the appium desired capabilities
+2023-05-03 11:00:02 INFO   Ikall_Z7.Test0_Int start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-05-03 11:00:13 INFO   Ikall_Z7.Test0_Int start clear recent apps
+2023-05-03 11:00:36 INFO   Ikall_Z7.Test0_Int start Pass: Test0_Int Pass for clearing Recent apps 
+2023-05-03 11:00:38 INFO   Ikall_Z7.Test0_Int start Calling FormatAsInternal() to format uSD card as internal mount
+2023-05-03 11:00:38 INFO   Ikall_Z7.Test0_Int FormatAsInternal Formatting Phone as InternalMOunt
+2023-05-03 11:00:38 INFO   Ikall_Z7.Test0_Int FormatAsInternal Launch Settings Application
+2023-05-03 11:00:45 INFO   Ikall_Z7.Test0_Int FormatAsInternal Swipe Up and Search for Storage
+2023-05-03 11:00:56 INFO   Ikall_Z7.Test0_Int FormatAsInternal Select Storage
+2023-05-03 11:01:02 INFO   Ikall_Z7.Test0_Int FormatAsInternal Clicking on more options
+2023-05-03 11:01:08 INFO   Ikall_Z7.Test0_Int FormatAsInternal Select storage settings
+2023-05-03 11:01:15 INFO   Ikall_Z7.Test0_Int FormatAsInternal Fomratting Phone as Internal mount
+2023-05-03 11:02:31 INFO   Ikall_Z7.Test0_Int FormatAsInternal click on movecontent
+2023-05-03 11:04:31 INFO   Ikall_Z7.Test0_Int FormatAsInternal click on done
+2023-05-03 11:04:41 INFO   Ikall_Z7.Test0_Int FormatAsInternal Fail: Test0_Int Fail during interanl mount scenario
+2023-05-03 11:04:41 INFO   Ikall_Z7.Test0_Int FormatAsInternal Final Message: Fail Test0_Int Fail during interanl mount scenario
+2023-05-03 11:04:41 INFO   Ikall_Z7.Test0_Int FormatAsInternal Test: End
+2023-05-03 11:04:41 INFO   Ikall_Z7.Test0_Int FormatAsInternal ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-05-03 11:04:41 INFO   Ikall_Z7.Test0_Int start Launch File Manager Application and clear internal memory
+2023-05-03 11:05:10 INFO   Ikall_Z7.Test0_Int start Select  Internal storage
+2023-05-03 11:05:20 INFO   Ikall_Z7.Test0_Int start Fail: Test0_Int fail for clear recent apps and clear internal memory org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '5CG2148T4G', ip: '10.113.85.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Z7, newCommandTimeout: 600, platformName: android, platformVersion: 10.0, udid: 0123456789ABCDEF}, deviceApiLevel: 29, deviceManufacturer: Ulefone, deviceModel: Note 8P, deviceName: 0123456789ABCDEF, deviceScreenDensity: 213, deviceScreenSize: 480x1014, deviceUDID: 0123456789ABCDEF, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pixelRatio: 1.3312501, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 43, takesScreenshot: true, udid: 0123456789ABCDEF, viewportRect: {height: 864, left: 0, top: 43, width: 480}, warnings: {}, webStorageEnabled: false}
+Session ID: 12e73a6a-bfd2-46f4-b6f9-ffa62c5de852
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Internal storage")}
+2023-05-03 11:05:20 INFO   Ikall_Z7.Test0_Int start Final Message: Fail Test0_Int fail for clear recent apps and clear internal memory org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '5CG2148T4G', ip: '10.113.85.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Z7, newCommandTimeout: 600, platformName: android, platformVersion: 10.0, udid: 0123456789ABCDEF}, deviceApiLevel: 29, deviceManufacturer: Ulefone, deviceModel: Note 8P, deviceName: 0123456789ABCDEF, deviceScreenDensity: 213, deviceScreenSize: 480x1014, deviceUDID: 0123456789ABCDEF, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pixelRatio: 1.3312501, platform: LINUX, platformName: Android, platformVersion: 10, statBarHeight: 43, takesScreenshot: true, udid: 0123456789ABCDEF, viewportRect: {height: 864, left: 0, top: 43, width: 480}, warnings: {}, webStorageEnabled: false}
+Session ID: 12e73a6a-bfd2-46f4-b6f9-ffa62c5de852
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Internal storage")}
+2023-05-03 11:05:20 INFO   Ikall_Z7.Test0_Int start Test End
+2023-05-03 11:05:20 INFO   Ikall_Z7.Test0_Int start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

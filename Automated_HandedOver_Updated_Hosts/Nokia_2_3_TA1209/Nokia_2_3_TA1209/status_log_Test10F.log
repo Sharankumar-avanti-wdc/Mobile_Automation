@@ -1,0 +1,94 @@
+2022-11-10 10:47:03 INFO   Nokia_2_2_TA1209.Test10F frontVideoRec Test:Start
+2022-11-10 10:47:03 INFO   Nokia_2_2_TA1209.Test10F frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-11-10 10:47:03 INFO   Nokia_2_2_TA1209.Test10F frontVideoRec Test10F Scenario is as follows
+2022-11-10 10:47:03 INFO   Nokia_2_2_TA1209.Test10F frontVideoRec 1.Launch Camera application and start front camera video recording for all host applicable resolutions in uSD Card
+2022-11-10 10:47:03 INFO   Nokia_2_2_TA1209.Test10F frontVideoRec 2.Playback front Highest recorded video for 30 seconds, pause video playback, lock mobile and wait 30 seconds, unlock mobile and playback video from pause video duration
+2022-11-10 10:47:03 INFO   Nokia_2_2_TA1209.Test10F frontVideoRec Setting up the appium desired capabilities
+2022-11-10 10:47:03 INFO   Nokia_2_2_TA1209.Test10F frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-11-10 10:47:17 INFO   Nokia_2_2_TA1209.Test10F frontVideoRec Launch home screen
+2022-11-10 10:47:23 INFO   Nokia_2_2_TA1209.Test10F frontVideoRec Launch camera application for rear camera picture capture
+2022-11-10 10:47:23 INFO   Nokia_2_2_TA1209.Test10F frontVideoRec Test10F_FCam_res: 2 resolutions supported
+2022-11-10 10:47:25 INFO   Nokia_2_2_TA1209.Test10F frontVideoRec If location location permission request pop-up exists? select deny option
+2022-11-10 10:47:35 INFO   Nokia_2_2_TA1209.Test10F frontVideoRec No location access permission pop-up found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Nokia 2.3, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: RT99621CA19C3109821}, deviceApiLevel: 30, deviceManufacturer: HMD Global, deviceModel: Nokia 2.3, deviceName: RT99621CA19C3109821, deviceScreenDensity: 280, deviceScreenSize: 720x1520, deviceUDID: RT99621CA19C3109821, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 56, takesScreenshot: true, udid: RT99621CA19C3109821, viewportRect: {height: 1324, left: 0, top: 56, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 9b5e4de9-a332-4382-b943-2bb51f6c2911
+*** Element info: {Using=xpath, value=//*[@resource-id='com.android.permissioncontroller:id/permission_deny_button']}
+2022-11-10 10:47:35 INFO   Nokia_2_2_TA1209.Test10F frontVideoRec Switch to video mode
+2022-11-10 10:47:39 INFO   Nokia_2_2_TA1209.Test10F frontVideoRec select settings option
+2022-11-10 10:47:42 INFO   Nokia_2_2_TA1209.Test10F frontVideoRec select data storage option
+2022-11-10 10:47:46 INFO   Nokia_2_2_TA1209.Test10F frontVideoRec select uSD card as storage option
+2022-11-10 10:47:52 INFO   Nokia_2_2_TA1209.Test10F frontVideoRec Switch to front camera mode
+2022-11-10 10:47:56 INFO   Nokia_2_2_TA1209.Test10F frontVideoRec select settings option
+2022-11-10 10:48:02 INFO   Nokia_2_2_TA1209.Test10F frontVideoRec select video resolution option
+2022-11-10 10:48:06 INFO   Nokia_2_2_TA1209.Test10F frontVideoRec select Video from rear camera option
+2022-11-10 10:48:10 INFO   Nokia_2_2_TA1209.Test10F frontVideoRec select first highest front camera video resolution: FHD 1080P
+2022-11-10 10:48:23 INFO   Nokia_2_2_TA1209.Test10F frontVideoRec Start recording
+2022-11-10 10:51:24 INFO   Nokia_2_2_TA1209.Test10F frontVideoRec Stop recodring
+2022-11-10 10:51:28 INFO   Nokia_2_2_TA1209.Test10F frontVideoRec select settings option
+2022-11-10 10:51:34 INFO   Nokia_2_2_TA1209.Test10F frontVideoRec select video resolution option
+2022-11-10 10:51:39 INFO   Nokia_2_2_TA1209.Test10F frontVideoRec select Video from rear camera option
+2022-11-10 10:51:43 INFO   Nokia_2_2_TA1209.Test10F frontVideoRec select second highest front camera video resolution: HD 720P
+2022-11-10 10:51:58 INFO   Nokia_2_2_TA1209.Test10F frontVideoRec Start recording
+2022-11-10 10:54:58 INFO   Nokia_2_2_TA1209.Test10F frontVideoRec Stop recodring
+2022-11-10 10:55:02 INFO   Nokia_2_2_TA1209.Test10F frontVideoRec Switch back to rear camera mode
+2022-11-10 10:55:05 INFO   Nokia_2_2_TA1209.Test10F frontVideoRec Switch back to photo camera mode
+2022-11-10 10:55:13 INFO   Nokia_2_2_TA1209.Test10F frontVideoRec Launch file manager application and verify recorded video capture uSD Card
+2022-11-10 10:55:31 INFO   Nokia_2_2_TA1209.Test10F frontVideoRec Swipe up to select uSD card
+2022-11-10 10:55:34 INFO   Nokia_2_2_TA1209.Test10F frontVideoRec Select SD card
+2022-11-10 10:55:40 INFO   Nokia_2_2_TA1209.Test10F frontVideoRec switch to grid view mode to select DCIM folder
+2022-11-10 10:55:43 INFO   Nokia_2_2_TA1209.Test10F frontVideoRec Select DCIM folder
+2022-11-10 10:55:47 INFO   Nokia_2_2_TA1209.Test10F frontVideoRec Select camera folder
+2022-11-10 10:55:50 INFO   Nokia_2_2_TA1209.Test10F frontVideoRec switch to list view mode 
+2022-11-10 10:55:53 INFO   Nokia_2_2_TA1209.Test10F frontVideoRec Click More options
+2022-11-10 10:56:00 INFO   Nokia_2_2_TA1209.Test10F frontVideoRec Click Select all
+2022-11-10 10:56:13 INFO   Nokia_2_2_TA1209.Test10F frontVideoRec Test10F_Fcam_video: 2 videos captured successfully
+2022-11-10 10:56:13 INFO   Nokia_2_2_TA1209.Test10F frontVideoRec Pass: Test10F pass for front camera video recording
+2022-11-10 10:56:13 INFO   Nokia_2_2_TA1209.Test10F frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-11-10 10:56:23 INFO   Nokia_2_2_TA1209.Test10F frontVideoRec Calling VideoPlayBackForSleepWake()
+2022-11-10 10:56:23 INFO   Nokia_2_2_TA1209.Test10F VideoPlayBackForSleepWake Launch File Manager application and playback front recorded video from USD for 30 seconds, pause video playback, locking phone and unlock after 30 seconds delay and playback video from pause duration.
+2022-11-10 10:56:30 INFO   Nokia_2_2_TA1209.Test10F VideoPlayBackForSleepWake Launching file manager application
+2022-11-10 10:56:33 INFO   Nokia_2_2_TA1209.Test10F VideoPlayBackForSleepWake Select External Storage
+2022-11-10 10:56:38 INFO   Nokia_2_2_TA1209.Test10F VideoPlayBackForSleepWake switch to grid view mode to select DCIM folder
+2022-11-10 10:56:41 INFO   Nokia_2_2_TA1209.Test10F VideoPlayBackForSleepWake Select DCIM folder
+2022-11-10 10:56:45 INFO   Nokia_2_2_TA1209.Test10F VideoPlayBackForSleepWake Select Camera folder
+2022-11-10 10:56:48 INFO   Nokia_2_2_TA1209.Test10F VideoPlayBackForSleepWake switch to list view mode 
+2022-11-10 10:56:51 INFO   Nokia_2_2_TA1209.Test10F VideoPlayBackForSleepWake Select more options
+2022-11-10 10:57:00 INFO   Nokia_2_2_TA1209.Test10F VideoPlayBackForSleepWake Select Sort by Newest date first
+2022-11-10 10:57:03 INFO   Nokia_2_2_TA1209.Test10F VideoPlayBackForSleepWake Click on first file to play highest recorded resolution video file from uSD card
+2022-11-10 10:57:03 INFO   Nokia_2_2_TA1209.Test10F VideoPlayBackForSleepWake Started video playback
+2022-11-10 10:57:23 INFO   Nokia_2_2_TA1209.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2022-11-10 10:57:24 INFO   Nokia_2_2_TA1209.Test10F VideoPlayBackForSleepWake Click pause video button
+2022-11-10 10:57:28 INFO   Nokia_2_2_TA1209.Test10F VideoPlayBackForSleepWake Lock Mobile with 30 seconds delay
+2022-11-10 10:57:58 INFO   Nokia_2_2_TA1209.Test10F VideoPlayBackForSleepWake Unlock Mobile 
+2022-11-10 10:57:58 INFO   Nokia_2_2_TA1209.Test10F VideoPlayBackForSleepWake PlayBack Video from Pause duartion
+2022-11-10 10:57:58 INFO   Nokia_2_2_TA1209.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2022-11-10 10:57:58 INFO   Nokia_2_2_TA1209.Test10F VideoPlayBackForSleepWake Fast forward video play back for 10 seconds
+2022-11-10 10:57:58 INFO   Nokia_2_2_TA1209.Test10F VideoPlayBackForSleepWake Pause video play back
+2022-11-10 10:58:14 INFO   Nokia_2_2_TA1209.Test10F VideoPlayBackForSleepWake Pass: Pass Test10F Pass for Pause Video Playback scenario
+2022-11-10 10:58:14 INFO   Nokia_2_2_TA1209.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-11-10 10:58:14 INFO   Nokia_2_2_TA1209.Test10F VideoPlayBackForSleepWake calling DatamoveOperation() to move front camera recorded videos files to Test10F folder
+2022-11-10 10:58:14 INFO   Nokia_2_2_TA1209.Test10F DataMoveOperation Re-launch file manager application and select external storage for data move operation, select all rear camera videos present in camera folder and move to Test10 folder
+2022-11-10 10:58:21 INFO   Nokia_2_2_TA1209.Test10F DataMoveOperation Launching file manager application
+2022-11-10 10:58:24 INFO   Nokia_2_2_TA1209.Test10F DataMoveOperation Select external storage
+2022-11-10 10:58:29 INFO   Nokia_2_2_TA1209.Test10F DataMoveOperation switch to grid view mode and select DCIM  folder
+2022-11-10 10:58:32 INFO   Nokia_2_2_TA1209.Test10F DataMoveOperation Select DCIM folder
+2022-11-10 10:58:35 INFO   Nokia_2_2_TA1209.Test10F DataMoveOperation Select camera  folder
+2022-11-10 10:58:39 INFO   Nokia_2_2_TA1209.Test10F DataMoveOperation switch to list view mode 
+2022-11-10 10:58:42 INFO   Nokia_2_2_TA1209.Test10F DataMoveOperation Click More options
+2022-11-10 10:58:48 INFO   Nokia_2_2_TA1209.Test10F DataMoveOperation Click Select all
+2022-11-10 10:58:52 INFO   Nokia_2_2_TA1209.Test10F DataMoveOperation Click More options
+2022-11-10 10:58:58 INFO   Nokia_2_2_TA1209.Test10F DataMoveOperation Select move to option
+2022-11-10 10:59:05 INFO   Nokia_2_2_TA1209.Test10F DataMoveOperation Select uSD Card
+2022-11-10 10:59:11 INFO   Nokia_2_2_TA1209.Test10F DataMoveOperation Select ADD NEW Folder option
+2022-11-10 10:59:18 INFO   Nokia_2_2_TA1209.Test10F DataMoveOperation Name folder as Test10F
+2022-11-10 10:59:25 INFO   Nokia_2_2_TA1209.Test10F DataMoveOperation Accept create folder
+2022-11-10 10:59:55 INFO   Nokia_2_2_TA1209.Test10F DataMoveOperation Cut paste  video files operation completed successfully
+2022-11-10 11:00:00 INFO   Nokia_2_2_TA1209.Test10F DataMoveOperation Test10F: Data move operation completed successfully
+2022-11-10 11:00:09 INFO   Nokia_2_2_TA1209.Test10F DataMoveOperation Pass: Test10F Pass for data move operation successfully
+2022-11-10 11:00:09 INFO   Nokia_2_2_TA1209.Test10F VideoPlayBackForSleepWake Final message: Pass Test10F Pass for front camera  video recording, Pause Video Playback scenario and data move operation scenario
+2022-11-10 11:00:09 INFO   Nokia_2_2_TA1209.Test10F VideoPlayBackForSleepWake Test:End
+2022-11-10 11:00:09 INFO   Nokia_2_2_TA1209.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

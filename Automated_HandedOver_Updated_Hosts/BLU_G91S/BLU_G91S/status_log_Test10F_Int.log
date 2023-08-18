@@ -1,0 +1,115 @@
+2023-03-08 20:24:45 INFO   BLU_G91S.Test10F_Int rearVideoRec Test: Start
+2023-03-08 20:24:45 INFO   BLU_G91S.Test10F_Int rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-08 20:24:45 INFO   BLU_G91S.Test10F_Int rearVideoRec Test10F_Int Scenario is as follows
+2023-03-08 20:24:45 INFO   BLU_G91S.Test10F_Int rearVideoRec 1.Launch Camera application and start front camera video recording for all host applicable resolutions in Internal storage
+2023-03-08 20:24:45 INFO   BLU_G91S.Test10F_Int rearVideoRec 2.Playback Highest resolution recorded video from UInternal storage, fast forward playback and pause video scenario 
+2023-03-08 20:24:45 INFO   BLU_G91S.Test10F_Int rearVideoRec 3.Playback copied videos from Test1 folder, fast forward and pause scenario
+2023-03-08 20:24:45 INFO   BLU_G91S.Test10F_Int rearVideoRec Setting up the appium desired capabilities
+2023-03-08 20:24:45 INFO   BLU_G91S.Test10F_Int rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-08 20:25:03 INFO   BLU_G91S.Test10F_Int rearVideoRec Launch home screen
+2023-03-08 20:25:12 INFO   BLU_G91S.Test10F_Int rearVideoRec Clearing Recent Apps
+2023-03-08 20:25:12 INFO   BLU_G91S.Test10F_Int rearVideoRec Pass: No recent apps found
+2023-03-08 20:25:17 INFO   BLU_G91S.Test10F_Int rearVideoRec Launch Camera application for front camera video recording
+2023-03-08 20:25:38 INFO   BLU_G91S.Test10F_Int rearVideoRec Select App info
+2023-03-08 20:25:45 INFO   BLU_G91S.Test10F_Int rearVideoRec IF Change to uInternal storage notification pop-up exists select Cancel Option
+2023-03-08 20:25:55 INFO   BLU_G91S.Test10F_Int rearVideoRec change to Internal storage element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-201', ip: '10.65.147.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: G91S, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: 1110305021009462}, deviceApiLevel: 30, deviceManufacturer: BLU, deviceModel: G91S, deviceName: 1110305021009462, deviceScreenDensity: 480, deviceScreenSize: 1080x2460, deviceUDID: 1110305021009462, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 106, takesScreenshot: true, udid: 1110305021009462, viewportRect: {height: 2104, left: 0, top: 106, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 70dd148b-789b-40eb-8486-f818d589e9f7
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("DENY")}
+2023-03-08 20:25:55 INFO   BLU_G91S.Test10F_Int rearVideoRec if Location permisson Pop Exists Select Cancel Option
+2023-03-08 20:26:05 INFO   BLU_G91S.Test10F_Int rearVideoRec Location permission access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-201', ip: '10.65.147.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: G91S, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: 1110305021009462}, deviceApiLevel: 30, deviceManufacturer: BLU, deviceModel: G91S, deviceName: 1110305021009462, deviceScreenDensity: 480, deviceScreenSize: 1080x2460, deviceUDID: 1110305021009462, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 106, takesScreenshot: true, udid: 1110305021009462, viewportRect: {height: 2104, left: 0, top: 106, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 70dd148b-789b-40eb-8486-f818d589e9f7
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("START CAPTURE")}
+2023-03-08 20:26:05 INFO   BLU_G91S.Test10F_Int rearVideoRec Test10F_Int_Fcam_res: 4 resolutions supported
+2023-03-08 20:26:05 INFO   BLU_G91S.Test10F_Int rearVideoRec Switch to video  mode
+2023-03-08 20:26:16 INFO   BLU_G91S.Test10F_Int rearVideoRec Switch to front video camera mode
+2023-03-08 20:26:19 INFO   BLU_G91S.Test10F_Int rearVideoRec Select settings option
+2023-03-08 20:26:22 INFO   BLU_G91S.Test10F_Int rearVideoRec Select Video size option
+2023-03-08 20:26:28 INFO   BLU_G91S.Test10F_Int rearVideoRec Select front camera first video resolution: 1080p
+2023-03-08 20:26:35 INFO   BLU_G91S.Test10F_Int rearVideoRec Start video recording
+2023-03-08 20:36:16 INFO   BLU_G91S.Test10F_Int rearVideoRec Stop video recording
+2023-03-08 20:36:24 INFO   BLU_G91S.Test10F_Int rearVideoRec Select settings option
+2023-03-08 20:36:27 INFO   BLU_G91S.Test10F_Int rearVideoRec Select Video size option
+2023-03-08 20:36:33 INFO   BLU_G91S.Test10F_Int rearVideoRec Select front camera second video resolution : 720p
+2023-03-08 20:36:40 INFO   BLU_G91S.Test10F_Int rearVideoRec Start video recording
+2023-03-08 20:46:21 INFO   BLU_G91S.Test10F_Int rearVideoRec Stop video recording
+2023-03-08 20:46:29 INFO   BLU_G91S.Test10F_Int rearVideoRec Select settings option
+2023-03-08 20:46:33 INFO   BLU_G91S.Test10F_Int rearVideoRec Select Video size option
+2023-03-08 20:46:39 INFO   BLU_G91S.Test10F_Int rearVideoRec Select front camera 3rd video resolution : 480p
+2023-03-08 20:46:46 INFO   BLU_G91S.Test10F_Int rearVideoRec Start video recording
+2023-03-08 20:56:26 INFO   BLU_G91S.Test10F_Int rearVideoRec Stop video recording
+2023-03-08 20:56:35 INFO   BLU_G91S.Test10F_Int rearVideoRec Select settings option
+2023-03-08 20:56:38 INFO   BLU_G91S.Test10F_Int rearVideoRec Select Video size option
+2023-03-08 20:56:44 INFO   BLU_G91S.Test10F_Int rearVideoRec Select front camera second video resolution : CIF
+2023-03-08 20:56:46 INFO   BLU_G91S.Test10F_Int rearVideoRec Start video recording
+2023-03-08 21:06:26 INFO   BLU_G91S.Test10F_Int rearVideoRec Stop video recording
+2023-03-08 21:06:35 INFO   BLU_G91S.Test10F_Int rearVideoRec Switch to rear video camera mode
+2023-03-08 21:06:38 INFO   BLU_G91S.Test10F_Int rearVideoRec Clicking photo Tab
+2023-03-08 21:06:51 INFO   BLU_G91S.Test10F_Int rearVideoRec Pass: Test10F_Int Pass for front camera video recording
+2023-03-08 21:06:51 INFO   BLU_G91S.Test10F_Int rearVideoRec Launch file manager application and verify recorded video capture Internal storage
+2023-03-08 21:07:07 INFO   BLU_G91S.Test10F_Int rearVideoRec Swipe up to select Internal storage
+2023-03-08 21:07:10 INFO   BLU_G91S.Test10F_Int rearVideoRec Select Internal storage
+2023-03-08 21:07:16 INFO   BLU_G91S.Test10F_Int rearVideoRec switch to grid view mode to select DCIM folder
+2023-03-08 21:07:19 INFO   BLU_G91S.Test10F_Int rearVideoRec Select DCIM folder
+2023-03-08 21:07:23 INFO   BLU_G91S.Test10F_Int rearVideoRec Select camera folder
+2023-03-08 21:07:26 INFO   BLU_G91S.Test10F_Int rearVideoRec switch to list view mode 
+2023-03-08 21:07:29 INFO   BLU_G91S.Test10F_Int rearVideoRec Click More options
+2023-03-08 21:07:35 INFO   BLU_G91S.Test10F_Int rearVideoRec Click Select all
+2023-03-08 21:07:44 INFO   BLU_G91S.Test10F_Int rearVideoRec Test10F_Int_Fcam_video: 4 Videos captured successfull
+2023-03-08 21:07:44 INFO   BLU_G91S.Test10F_Int rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-08 21:07:44 INFO   BLU_G91S.Test10F_Int rearVideoRec Calling VideoPlayBackForSleepWake()
+2023-03-08 21:07:50 INFO   BLU_G91S.Test10F_Int VideoPlayBackForSleepWake Launching file manager application
+2023-03-08 21:07:51 INFO   BLU_G91S.Test10F_Int VideoPlayBackForSleepWake Swipe up to select Internal storage
+2023-03-08 21:07:55 INFO   BLU_G91S.Test10F_Int VideoPlayBackForSleepWake Select Internal storage
+2023-03-08 21:08:01 INFO   BLU_G91S.Test10F_Int VideoPlayBackForSleepWake switch to grid view mode to select DCIM folder
+2023-03-08 21:08:05 INFO   BLU_G91S.Test10F_Int VideoPlayBackForSleepWake Select DCIM folder
+2023-03-08 21:08:08 INFO   BLU_G91S.Test10F_Int VideoPlayBackForSleepWake Select Camera folder
+2023-03-08 21:08:11 INFO   BLU_G91S.Test10F_Int VideoPlayBackForSleepWake switch to list view mode 
+2023-03-08 21:08:14 INFO   BLU_G91S.Test10F_Int VideoPlayBackForSleepWake Select more options
+2023-03-08 21:08:19 INFO   BLU_G91S.Test10F_Int VideoPlayBackForSleepWake Select Sort By option
+2023-03-08 21:08:23 INFO   BLU_G91S.Test10F_Int VideoPlayBackForSleepWake Select Sort by Newest date first
+2023-03-08 21:08:26 INFO   BLU_G91S.Test10F_Int VideoPlayBackForSleepWake Click on first file to play highest recorded resolution video file
+2023-03-08 21:08:27 INFO   BLU_G91S.Test10F_Int VideoPlayBackForSleepWake Started video playback
+2023-03-08 21:08:47 INFO   BLU_G91S.Test10F_Int VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-03-08 21:08:47 INFO   BLU_G91S.Test10F_Int VideoPlayBackForSleepWake Click pause video button
+2023-03-08 21:08:51 INFO   BLU_G91S.Test10F_Int VideoPlayBackForSleepWake Lock Mobile with 30 seconds delay
+2023-03-08 21:10:51 INFO   BLU_G91S.Test10F_Int VideoPlayBackForSleepWake Wait For 30Seconds
+2023-03-08 21:10:56 INFO   BLU_G91S.Test10F_Int VideoPlayBackForSleepWake Unlock Mobile 
+2023-03-08 21:10:56 INFO   BLU_G91S.Test10F_Int VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-03-08 21:10:56 INFO   BLU_G91S.Test10F_Int VideoPlayBackForSleepWake Click pause video button
+2023-03-08 21:11:29 INFO   BLU_G91S.Test10F_Int VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-03-08 21:11:29 INFO   BLU_G91S.Test10F_Int VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-03-08 21:11:29 INFO   BLU_G91S.Test10F_Int VideoPlayBackForSleepWake Click pause video button
+2023-03-08 21:11:41 INFO   BLU_G91S.Test10F_Int VideoPlayBackForSleepWake Pass: Test10F_Int Pass for Front video play back, Pause,Lock and Unlock Phone Play back from Pause duration Scenario
+2023-03-08 21:11:41 INFO   BLU_G91S.Test10F_Int VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-08 21:11:41 INFO   BLU_G91S.Test10F_Int VideoPlayBackForSleepWake calling DatamoveOperation() to move front camera recorded videos files to Test10F_Int folder
+2023-03-08 21:11:41 INFO   BLU_G91S.Test10F_Int DataMoveOperation launch file manager application select Internal storage-->DCIM folder-->Camera folder-->Select all front camera videos create Test10F_Int and cut paste all videos in Test10F_Int folder
+2023-03-08 21:11:47 INFO   BLU_G91S.Test10F_Int DataMoveOperation Swipe up to select Internal storage
+2023-03-08 21:11:49 INFO   BLU_G91S.Test10F_Int DataMoveOperation Select Internal storage
+2023-03-08 21:11:55 INFO   BLU_G91S.Test10F_Int DataMoveOperation switch to grid view mode to select DCIM folder
+2023-03-08 21:11:59 INFO   BLU_G91S.Test10F_Int DataMoveOperation Select DCIM folder
+2023-03-08 21:12:02 INFO   BLU_G91S.Test10F_Int DataMoveOperation Select Camera folder
+2023-03-08 21:12:05 INFO   BLU_G91S.Test10F_Int DataMoveOperation switch to list view mode 
+2023-03-08 21:12:09 INFO   BLU_G91S.Test10F_Int DataMoveOperation Click More options
+2023-03-08 21:12:15 INFO   BLU_G91S.Test10F_Int DataMoveOperation Click Select all
+2023-03-08 21:12:19 INFO   BLU_G91S.Test10F_Int DataMoveOperation Click More options
+2023-03-08 21:12:25 INFO   BLU_G91S.Test10F_Int DataMoveOperation Select move to option
+2023-03-08 21:12:32 INFO   BLU_G91S.Test10F_Int DataMoveOperation Select Internal storage
+2023-03-08 21:12:38 INFO   BLU_G91S.Test10F_Int DataMoveOperation Select ADD NEW Folder option
+2023-03-08 21:12:44 INFO   BLU_G91S.Test10F_Int DataMoveOperation Name folder as Test10F_Int
+2023-03-08 21:12:51 INFO   BLU_G91S.Test10F_Int DataMoveOperation Accept create folder
+2023-03-08 21:14:51 INFO   BLU_G91S.Test10F_Int DataMoveOperation Cut paste  video files operation completed successfully
+2023-03-08 21:14:59 INFO   BLU_G91S.Test10F_Int DataMoveOperation Pass: Test10F_Int Pass for data move operation successfully
+2023-03-08 21:14:59 INFO   BLU_G91S.Test10F_Int DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-08 21:14:59 INFO   BLU_G91S.Test10F_Int VideoPlayBackForSleepWake Final Message: Pass Test10F_Int Pass for front camera  video recording, Pause Video Playback scenario and data move operation scenario
+2023-03-08 21:14:59 INFO   BLU_G91S.Test10F_Int VideoPlayBackForSleepWake Test: End
+2023-03-08 21:14:59 INFO   BLU_G91S.Test10F_Int VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

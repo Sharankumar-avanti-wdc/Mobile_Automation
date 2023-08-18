@@ -1,0 +1,141 @@
+2023-03-28 11:18:08 INFO   Motorola_Moto_E30_XT21596.Test0 start Test: Start
+2023-03-28 11:18:08 INFO   Motorola_Moto_E30_XT21596.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-28 11:18:08 INFO   Motorola_Moto_E30_XT21596.Test0 start  Test0 Scenario is as follows 
+2023-03-28 11:18:08 INFO   Motorola_Moto_E30_XT21596.Test0 start 1.Unlock phone, clear recent apps, clear internal memory
+2023-03-28 11:18:08 INFO   Motorola_Moto_E30_XT21596.Test0 start 2.Call Image() and Capture Rear camera 25 images for default resolution in uSD card and Verify the data capture
+2023-03-28 11:18:08 INFO   Motorola_Moto_E30_XT21596.Test0 start 3.Call Video() and record Rear camera video of first 2 resloutions for 2 minutes of duration in uSD Card and verify the same
+2023-03-28 11:18:08 INFO   Motorola_Moto_E30_XT21596.Test0 start 4.Call Format() and format uSD card with data and verify the same
+2023-03-28 11:18:08 INFO   Motorola_Moto_E30_XT21596.Test0 start Setting up the appium desired capabilities
+2023-03-28 11:18:08 INFO   Motorola_Moto_E30_XT21596.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-28 11:18:24 INFO   Motorola_Moto_E30_XT21596.Test0 start Clearing Recent Apps
+2023-03-28 11:18:24 INFO   Motorola_Moto_E30_XT21596.Test0 start Pass: No recent apps found
+2023-03-28 11:18:28 INFO   Motorola_Moto_E30_XT21596.Test0 start Launch File Manager Application and clear internal memory
+2023-03-28 11:18:35 INFO   Motorola_Moto_E30_XT21596.Test0 start Swipe up and select uSD card
+2023-03-28 11:18:35 INFO   Motorola_Moto_E30_XT21596.Test0 start Select  Internal storage
+2023-03-28 11:18:40 INFO   Motorola_Moto_E30_XT21596.Test0 start Select  More options
+2023-03-28 11:18:43 INFO   Motorola_Moto_E30_XT21596.Test0 start click on Select all
+2023-03-28 11:18:47 INFO   Motorola_Moto_E30_XT21596.Test0 start Select Delete permanently
+2023-03-28 11:18:50 INFO   Motorola_Moto_E30_XT21596.Test0 start Select  Delete
+2023-03-28 11:19:41 INFO   Motorola_Moto_E30_XT21596.Test0 start Pass: Clearing phone internal memory is successfull
+2023-03-28 11:19:41 INFO   Motorola_Moto_E30_XT21596.Test0 start Calling Image() to capture rear camera image in uSD card and verifying the same.
+2023-03-28 11:19:41 INFO   Motorola_Moto_E30_XT21596.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-28 11:19:41 INFO   Motorola_Moto_E30_XT21596.Test0 Images Launch Camera Application for Rear picture capture
+2023-03-28 11:19:56 INFO   Motorola_Moto_E30_XT21596.Test0 Images change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-201', ip: '10.65.147.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: moto e30, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: ZY32DKLV9L}, deviceApiLevel: 30, deviceManufacturer: motorola, deviceModel: moto e30, deviceName: ZY32DKLV9L, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: ZY32DKLV9L, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 77, takesScreenshot: true, udid: ZY32DKLV9L, viewportRect: {height: 1364, left: 0, top: 77, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: d0953b0d-44cd-4138-9c91-46e0c7659165
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2023-03-28 11:19:58 INFO   Motorola_Moto_E30_XT21596.Test0 Images if Location permisson Pop Exists Select Cancel Option
+2023-03-28 11:20:08 INFO   Motorola_Moto_E30_XT21596.Test0 Images Location  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-201', ip: '10.65.147.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: moto e30, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: ZY32DKLV9L}, deviceApiLevel: 30, deviceManufacturer: motorola, deviceModel: moto e30, deviceName: ZY32DKLV9L, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: ZY32DKLV9L, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 77, takesScreenshot: true, udid: ZY32DKLV9L, viewportRect: {height: 1364, left: 0, top: 77, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: d0953b0d-44cd-4138-9c91-46e0c7659165
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2023-03-28 11:20:18 INFO   Motorola_Moto_E30_XT21596.Test0 Images Currently camera is already in rear camera mode no need to switch
+2023-03-28 11:20:18 INFO   Motorola_Moto_E30_XT21596.Test0 Images Select settings option
+2023-03-28 11:20:23 INFO   Motorola_Moto_E30_XT21596.Test0 Images Select  storage option
+2023-03-28 11:20:30 INFO   Motorola_Moto_E30_XT21596.Test0 Images Select SD as storage option
+2023-03-28 11:20:38 INFO   Motorola_Moto_E30_XT21596.Test0 Images Capture Image of Default Resolution
+2023-03-28 11:20:45 INFO   Motorola_Moto_E30_XT21596.Test0 Images clicking Image of Default Resolutions0
+2023-03-28 11:20:52 INFO   Motorola_Moto_E30_XT21596.Test0 Images clicking Image of Default Resolutions1
+2023-03-28 11:20:59 INFO   Motorola_Moto_E30_XT21596.Test0 Images clicking Image of Default Resolutions2
+2023-03-28 11:21:07 INFO   Motorola_Moto_E30_XT21596.Test0 Images clicking Image of Default Resolutions3
+2023-03-28 11:21:14 INFO   Motorola_Moto_E30_XT21596.Test0 Images clicking Image of Default Resolutions4
+2023-03-28 11:21:21 INFO   Motorola_Moto_E30_XT21596.Test0 Images clicking Image of Default Resolutions5
+2023-03-28 11:21:28 INFO   Motorola_Moto_E30_XT21596.Test0 Images clicking Image of Default Resolutions6
+2023-03-28 11:21:35 INFO   Motorola_Moto_E30_XT21596.Test0 Images clicking Image of Default Resolutions7
+2023-03-28 11:21:42 INFO   Motorola_Moto_E30_XT21596.Test0 Images clicking Image of Default Resolutions8
+2023-03-28 11:21:50 INFO   Motorola_Moto_E30_XT21596.Test0 Images clicking Image of Default Resolutions9
+2023-03-28 11:21:57 INFO   Motorola_Moto_E30_XT21596.Test0 Images clicking Image of Default Resolutions10
+2023-03-28 11:22:04 INFO   Motorola_Moto_E30_XT21596.Test0 Images clicking Image of Default Resolutions11
+2023-03-28 11:22:11 INFO   Motorola_Moto_E30_XT21596.Test0 Images clicking Image of Default Resolutions12
+2023-03-28 11:22:18 INFO   Motorola_Moto_E30_XT21596.Test0 Images clicking Image of Default Resolutions13
+2023-03-28 11:22:25 INFO   Motorola_Moto_E30_XT21596.Test0 Images clicking Image of Default Resolutions14
+2023-03-28 11:22:33 INFO   Motorola_Moto_E30_XT21596.Test0 Images clicking Image of Default Resolutions15
+2023-03-28 11:22:40 INFO   Motorola_Moto_E30_XT21596.Test0 Images clicking Image of Default Resolutions16
+2023-03-28 11:22:47 INFO   Motorola_Moto_E30_XT21596.Test0 Images clicking Image of Default Resolutions17
+2023-03-28 11:22:54 INFO   Motorola_Moto_E30_XT21596.Test0 Images clicking Image of Default Resolutions18
+2023-03-28 11:23:01 INFO   Motorola_Moto_E30_XT21596.Test0 Images clicking Image of Default Resolutions19
+2023-03-28 11:23:08 INFO   Motorola_Moto_E30_XT21596.Test0 Images clicking Image of Default Resolutions20
+2023-03-28 11:23:15 INFO   Motorola_Moto_E30_XT21596.Test0 Images clicking Image of Default Resolutions21
+2023-03-28 11:23:23 INFO   Motorola_Moto_E30_XT21596.Test0 Images clicking Image of Default Resolutions22
+2023-03-28 11:23:30 INFO   Motorola_Moto_E30_XT21596.Test0 Images clicking Image of Default Resolutions23
+2023-03-28 11:23:37 INFO   Motorola_Moto_E30_XT21596.Test0 Images clicking Image of Default Resolutions24
+2023-03-28 11:23:41 INFO   Motorola_Moto_E30_XT21596.Test0 Images 25 Image Capture is successfull
+2023-03-28 11:23:41 INFO   Motorola_Moto_E30_XT21596.Test0 Images Launch File Manager application to verify  Image capture
+2023-03-28 11:23:47 INFO   Motorola_Moto_E30_XT21596.Test0 Images Select  SD Card
+2023-03-28 11:23:50 INFO   Motorola_Moto_E30_XT21596.Test0 Images Select  SD Card
+2023-03-28 11:24:00 INFO   Motorola_Moto_E30_XT21596.Test0 Images Select DCIM Folder
+2023-03-28 11:24:05 INFO   Motorola_Moto_E30_XT21596.Test0 Images Select Camera Folder
+2023-03-28 11:24:10 INFO   Motorola_Moto_E30_XT21596.Test0 Images Select More Options 
+2023-03-28 11:24:21 INFO   Motorola_Moto_E30_XT21596.Test0 Images Select More Options 
+2023-03-28 11:24:21 INFO   Motorola_Moto_E30_XT21596.Test0 Images Click On Select All Options
+2023-03-28 11:24:31 INFO   Motorola_Moto_E30_XT21596.Test0 Images Pass: Total Number Of Image captured 25 is successfull
+2023-03-28 11:24:31 INFO   Motorola_Moto_E30_XT21596.Test0 Images Calling video() for rear video recording in USD card and verifying data capture.
+2023-03-28 11:24:31 INFO   Motorola_Moto_E30_XT21596.Test0 Images ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-28 11:24:37 INFO   Motorola_Moto_E30_XT21596.Test0 Video Launch Camera Application
+2023-03-28 11:24:52 INFO   Motorola_Moto_E30_XT21596.Test0 Video change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-201', ip: '10.65.147.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: moto e30, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: ZY32DKLV9L}, deviceApiLevel: 30, deviceManufacturer: motorola, deviceModel: moto e30, deviceName: ZY32DKLV9L, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: ZY32DKLV9L, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 77, takesScreenshot: true, udid: ZY32DKLV9L, viewportRect: {height: 1364, left: 0, top: 77, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: d0953b0d-44cd-4138-9c91-46e0c7659165
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2023-03-28 11:24:52 INFO   Motorola_Moto_E30_XT21596.Test0 Video If Location Permission Request Pop Exists Click on Cancel Option
+2023-03-28 11:25:02 INFO   Motorola_Moto_E30_XT21596.Test0 Video Location access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-201', ip: '10.65.147.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: moto e30, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: ZY32DKLV9L}, deviceApiLevel: 30, deviceManufacturer: motorola, deviceModel: moto e30, deviceName: ZY32DKLV9L, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: ZY32DKLV9L, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 77, takesScreenshot: true, udid: ZY32DKLV9L, viewportRect: {height: 1364, left: 0, top: 77, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: d0953b0d-44cd-4138-9c91-46e0c7659165
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2023-03-28 11:25:12 INFO   Motorola_Moto_E30_XT21596.Test0 Video Current Existing Camera is rear Camera
+2023-03-28 11:25:12 INFO   Motorola_Moto_E30_XT21596.Test0 Video Clicking Video Tab
+2023-03-28 11:25:17 INFO   Motorola_Moto_E30_XT21596.Test0 Video Select settings option
+2023-03-28 11:25:22 INFO   Motorola_Moto_E30_XT21596.Test0 Video Select  storage option
+2023-03-28 11:25:29 INFO   Motorola_Moto_E30_XT21596.Test0 Video Select SD as storage option
+2023-03-28 11:25:45 INFO   Motorola_Moto_E30_XT21596.Test0 Video Select 1st rear Video Resolution: Resolution FHD
+2023-03-28 11:25:50 INFO   Motorola_Moto_E30_XT21596.Test0 Video Start video recording
+2023-03-28 11:27:50 INFO   Motorola_Moto_E30_XT21596.Test0 Video Recording Video for 2Minutes of Duration
+2023-03-28 11:27:50 INFO   Motorola_Moto_E30_XT21596.Test0 Video Stop video recording
+2023-03-28 11:28:03 INFO   Motorola_Moto_E30_XT21596.Test0 Video Select 2nd rear Video Resolution: Resolution  HD
+2023-03-28 11:28:08 INFO   Motorola_Moto_E30_XT21596.Test0 Video Start video recording
+2023-03-28 11:30:09 INFO   Motorola_Moto_E30_XT21596.Test0 Video Recording Video for 2Minutes of Duration
+2023-03-28 11:30:09 INFO   Motorola_Moto_E30_XT21596.Test0 Video Stop video recording
+2023-03-28 11:30:24 INFO   Motorola_Moto_E30_XT21596.Test0 Video Rear camera video recording is successfull
+2023-03-28 11:30:24 INFO   Motorola_Moto_E30_XT21596.Test0 Video Launch File Manager application to verify  Video capture
+2023-03-28 11:30:32 INFO   Motorola_Moto_E30_XT21596.Test0 Video Select  SD Card
+2023-03-28 11:30:43 INFO   Motorola_Moto_E30_XT21596.Test0 Video Select DCIM Folder
+2023-03-28 11:30:48 INFO   Motorola_Moto_E30_XT21596.Test0 Video Select Camera Folder
+2023-03-28 11:30:53 INFO   Motorola_Moto_E30_XT21596.Test0 Video Select More Options 
+2023-03-28 11:31:03 INFO   Motorola_Moto_E30_XT21596.Test0 Video Click On Select All Options
+2023-03-28 11:31:13 INFO   Motorola_Moto_E30_XT21596.Test0 Video Pass: 2 Videos recorded Successfully
+2023-03-28 11:31:13 INFO   Motorola_Moto_E30_XT21596.Test0 Video Pass: A total of 27 files present in uSD card before Format
+2023-03-28 11:31:13 INFO   Motorola_Moto_E30_XT21596.Test0 Video calling Format() for format with data scenario
+2023-03-28 11:31:13 INFO   Motorola_Moto_E30_XT21596.Test0 Video ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-28 11:31:19 INFO   Motorola_Moto_E30_XT21596.Test0 Format Launch Settings application for Format uSD card with Data scenario 
+2023-03-28 11:31:25 INFO   Motorola_Moto_E30_XT21596.Test0 Format Scrolling till battery and device care is visible
+2023-03-28 11:31:30 INFO   Motorola_Moto_E30_XT21596.Test0 Format Clicking on storage
+2023-03-28 11:31:35 INFO   Motorola_Moto_E30_XT21596.Test0 Format Clicking on SD card
+2023-03-28 11:31:40 INFO   Motorola_Moto_E30_XT21596.Test0 Format Clicking on more options
+2023-03-28 11:31:46 INFO   Motorola_Moto_E30_XT21596.Test0 Format Clicking on Storage settings
+2023-03-28 11:31:52 INFO   Motorola_Moto_E30_XT21596.Test0 Format Click Format
+2023-03-28 11:31:57 INFO   Motorola_Moto_E30_XT21596.Test0 Format Started formatting, waiting till it gets formatted
+2023-03-28 11:32:44 INFO   Motorola_Moto_E30_XT21596.Test0 Format Format uSD with Data is successfull
+2023-03-28 11:32:44 INFO   Motorola_Moto_E30_XT21596.Test0 Format Launch File Manager application to verify  Card is fully Formated or not
+2023-03-28 11:32:53 INFO   Motorola_Moto_E30_XT21596.Test0 Format Select  SD Card
+2023-03-28 11:33:03 INFO   Motorola_Moto_E30_XT21596.Test0 Format Select DCIM Folder
+2023-03-28 11:33:08 INFO   Motorola_Moto_E30_XT21596.Test0 Format Click On Camera Folder
+2023-03-28 11:33:18 INFO   Motorola_Moto_E30_XT21596.Test0 Format Pass: Images and videos are not present in the DCIM folder, CARD format is successfully completed 
+2023-03-28 11:33:18 INFO   Motorola_Moto_E30_XT21596.Test0 Format ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-28 11:33:18 INFO   Motorola_Moto_E30_XT21596.Test0 Format Final Message: Pass Test0 pass for format Operation
+2023-03-28 11:33:18 INFO   Motorola_Moto_E30_XT21596.Test0 Format Test: End
+2023-03-28 11:33:18 INFO   Motorola_Moto_E30_XT21596.Test0 Format ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

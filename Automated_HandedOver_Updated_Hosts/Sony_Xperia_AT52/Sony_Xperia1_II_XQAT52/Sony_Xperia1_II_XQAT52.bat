@@ -1,0 +1,3 @@
+cd C:\Users\sandisk\eclipse-workspace\Sony_Xperia1_II_XQAT52
+
+mvn  -DmountUnmountCycle=1 -DrecordingDurationRear=500 -DrecordingDurationRear1=600 -DrecordingDurationRear2=600 -DrecordingDurationRear3=580 -DrecordingDurationfront=550 -DrecordingDurationfront1=550 -DrecordingDurationfront2=550 -DtotalPictureCountRear=100 -DtotalPictureCountRear1=100 -DtotalPictureCountRear2=100 -DtotalPictureCountFront=100 -DtotalPictureCountFront1=100 -DtotalPictureCountFront2=100  -DfileName=testngMain.xml clean install

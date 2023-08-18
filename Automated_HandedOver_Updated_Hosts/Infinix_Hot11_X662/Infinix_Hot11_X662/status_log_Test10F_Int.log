@@ -1,0 +1,56 @@
+2022-08-25 17:24:49 INFO   Infinix_Hot11_X662.Test10F_Int frontVideoRec Test:Start
+2022-08-25 17:24:49 INFO   Infinix_Hot11_X662.Test10F_Int frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-08-25 17:24:49 INFO   Infinix_Hot11_X662.Test10F_Int frontVideoRec Test10F_Int Scenario is as follows
+2022-08-25 17:24:49 INFO   Infinix_Hot11_X662.Test10F_Int frontVideoRec 1.Launch Camera application and start front camera video recording for all host applicable resolutions in uSD Card
+2022-08-25 17:24:49 INFO   Infinix_Hot11_X662.Test10F_Int frontVideoRec 2.Playback front Highest recorded video for 30 seconds, pause video playback, lock mobile and wait 30 seconds, unlock mobile and playback video from pause video duration
+2022-08-25 17:24:49 INFO   Infinix_Hot11_X662.Test10F_Int frontVideoRec Setting up the appium desired capabilities
+2022-08-25 17:24:49 INFO   Infinix_Hot11_X662.Test10F_Int frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-08-25 17:25:03 INFO   Infinix_Hot11_X662.Test10F_Int frontVideoRec Launch Camera Application for rear camera video recording
+2022-08-25 17:25:09 INFO   Infinix_Hot11_X662.Test10F_Int frontVideoRec Select camera permissions
+2022-08-25 17:25:29 INFO   Infinix_Hot11_X662.Test10F_Int frontVideoRec change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '5CG2148T4G', ip: '10.113.85.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Infinix HOT 11, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: 07445311AP145805}, deviceApiLevel: 30, deviceManufacturer: INFINIX MOBILITY LIMITED, deviceModel: Infinix X662, deviceName: 07445311AP145805, deviceScreenDensity: 480, deviceScreenSize: 1080x2408, deviceUDID: 07445311AP145805, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 108, takesScreenshot: true, udid: 07445311AP145805, viewportRect: {height: 2048, left: 0, top: 108, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: a58a98a7-3547-492e-8a88-2b46dceeb826
+*** Element info: {Using=xpath, value=//*[@resource-id='com.android.permissioncontroller:id/permission_deny_button']}
+2022-08-25 17:25:34 INFO   Infinix_Hot11_X662.Test10F_Int frontVideoRec Select video tab
+2022-08-25 17:25:37 INFO   Infinix_Hot11_X662.Test10F_Int frontVideoRec Click On front camera mode
+2022-08-25 17:25:41 INFO   Infinix_Hot11_X662.Test10F_Int frontVideoRec Select settings option
+2022-08-25 17:25:51 INFO   Infinix_Hot11_X662.Test10F_Int frontVideoRec Select First back video Resolution:  1080P
+2022-08-25 17:26:04 INFO   Infinix_Hot11_X662.Test10F_Int frontVideoRec Start video recording
+2022-08-25 17:26:04 INFO   Infinix_Hot11_X662.Test10F_Int frontVideoRec Stop video recording
+2022-08-25 17:31:13 INFO   Infinix_Hot11_X662.Test10F_Int frontVideoRec Select settings option
+2022-08-25 17:31:24 INFO   Infinix_Hot11_X662.Test10F_Int frontVideoRec Select First back video Resolution:  720P
+2022-08-25 17:31:37 INFO   Infinix_Hot11_X662.Test10F_Int frontVideoRec Start video recording
+2022-08-25 17:31:37 INFO   Infinix_Hot11_X662.Test10F_Int frontVideoRec Stop video recording
+2022-08-25 17:36:46 INFO   Infinix_Hot11_X662.Test10F_Int frontVideoRec Select settings option
+2022-08-25 17:36:56 INFO   Infinix_Hot11_X662.Test10F_Int frontVideoRec Select third front video Resolution:  2k
+2022-08-25 17:37:10 INFO   Infinix_Hot11_X662.Test10F_Int frontVideoRec Start video recording
+2022-08-25 17:42:13 INFO   Infinix_Hot11_X662.Test10F_Int frontVideoRec Stop video recording
+2022-08-25 17:42:21 INFO   Infinix_Hot11_X662.Test10F_Int frontVideoRec Click On back camera mode
+2022-08-25 17:42:26 INFO   Infinix_Hot11_X662.Test10F_Int frontVideoRec Select photo mode
+2022-08-25 17:42:33 INFO   Infinix_Hot11_X662.Test10F_Int frontVideoRec Pass: Test10F_Int pass for front camera video recording
+2022-08-25 17:42:33 INFO   Infinix_Hot11_X662.Test10F_Int frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-08-25 17:42:33 INFO   Infinix_Hot11_X662.Test10F_Int frontVideoRec Calling VideoPlayBackForSleepWake()
+2022-08-25 17:42:33 INFO   Infinix_Hot11_X662.Test10F_Int VideoPlayBackForSleepWake Launch File Manager application and playback front recorded video from USD for 30 seconds, pause video playback, locking phone and unlock after 30 seconds delay and playback video from pause duration.
+2022-08-25 17:42:42 INFO   Infinix_Hot11_X662.Test10F_Int VideoPlayBackForSleepWake Select External Storage
+2022-08-25 17:42:48 INFO   Infinix_Hot11_X662.Test10F_Int VideoPlayBackForSleepWake Select DCIM Folder
+2022-08-25 17:42:51 INFO   Infinix_Hot11_X662.Test10F_Int VideoPlayBackForSleepWake Select Camera
+2022-08-25 17:42:54 INFO   Infinix_Hot11_X662.Test10F_Int VideoPlayBackForSleepWake select more options
+2022-08-25 17:42:59 INFO   Infinix_Hot11_X662.Test10F_Int VideoPlayBackForSleepWake Select Sort BY
+2022-08-25 17:43:04 INFO   Infinix_Hot11_X662.Test10F_Int VideoPlayBackForSleepWake Select Newest date first
+2022-08-25 17:43:07 INFO   Infinix_Hot11_X662.Test10F_Int VideoPlayBackForSleepWake Click on first file to play highest recorded resolution video file
+2022-08-25 17:43:08 INFO   Infinix_Hot11_X662.Test10F_Int VideoPlayBackForSleepWake Started video playback
+2022-08-25 17:43:28 INFO   Infinix_Hot11_X662.Test10F_Int VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2022-08-25 17:43:28 INFO   Infinix_Hot11_X662.Test10F_Int VideoPlayBackForSleepWake Started video playback
+2022-08-25 17:43:28 INFO   Infinix_Hot11_X662.Test10F_Int VideoPlayBackForSleepWake Lock Mobile with 30 seconds delay
+2022-08-25 17:43:58 INFO   Infinix_Hot11_X662.Test10F_Int VideoPlayBackForSleepWake Wait For 30Seconds
+2022-08-25 17:44:03 INFO   Infinix_Hot11_X662.Test10F_Int VideoPlayBackForSleepWake Unlock Mobile 
+2022-08-25 17:44:03 INFO   Infinix_Hot11_X662.Test10F_Int VideoPlayBackForSleepWake Wait For 30Seconds
+2022-08-25 17:44:40 INFO   Infinix_Hot11_X662.Test10F_Int VideoPlayBackForSleepWake Pass: Test10F_Int Pass for Front video play back, Pause,Lock and Unlock Phone Play back from Pause duration Scenario
+2022-08-25 17:44:40 INFO   Infinix_Hot11_X662.Test10F_Int VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-08-25 17:44:40 INFO   Infinix_Hot11_X662.Test10F_Int VideoPlayBackForSleepWake Final Message: Pass Test10F_Int Pass for Pause Video Playback
+2022-08-25 17:44:40 INFO   Infinix_Hot11_X662.Test10F_Int VideoPlayBackForSleepWake Test:End
+2022-08-25 17:44:40 INFO   Infinix_Hot11_X662.Test10F_Int VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

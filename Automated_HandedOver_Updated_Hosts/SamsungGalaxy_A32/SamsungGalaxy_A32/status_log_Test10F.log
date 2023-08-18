@@ -1,0 +1,97 @@
+2023-01-10 20:06:23 INFO   SamsungGalaxy_A32.Test10F rearVideoRec Test:Start
+2023-01-10 20:06:23 INFO   SamsungGalaxy_A32.Test10F rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-10 20:06:23 INFO   SamsungGalaxy_A32.Test10F rearVideoRec Test10F Scenario is as follows
+2023-01-10 20:06:23 INFO   SamsungGalaxy_A32.Test10F rearVideoRec 1.Launch Camera application and start front camera video recording for all host applicable resolutions in uSD Card
+2023-01-10 20:06:23 INFO   SamsungGalaxy_A32.Test10F rearVideoRec 2.Playback front Highest recorded video for 30 seconds, pause video playback, lock mobile and wait 30 seconds, unlock mobile and playback video from pause video duration
+2023-01-10 20:06:23 INFO   SamsungGalaxy_A32.Test10F rearVideoRec Setting up the appium desired capabilities
+2023-01-10 20:06:23 INFO   SamsungGalaxy_A32.Test10F rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-10 20:06:36 INFO   SamsungGalaxy_A32.Test10F rearVideoRec Launch Home screen and clear recent Apps
+2023-01-10 20:06:54 INFO   SamsungGalaxy_A32.Test10F rearVideoRec Launch Camera Application for rear camera video recording
+2023-01-10 20:06:55 INFO   SamsungGalaxy_A32.Test10F rearVideoRec If change to uSD card pop-up exists select Cancel
+2023-01-10 20:07:05 INFO   SamsungGalaxy_A32.Test10F rearVideoRec change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy A32, newCommandTimeout: 600, platformName: android, platformVersion: 11, udid: RF8R30TPYQK}, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-A325M, deviceName: RF8R30TPYQK, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: RF8R30TPYQK, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 77, takesScreenshot: true, udid: RF8R30TPYQK, viewportRect: {height: 2118, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 36f7f933-a578-48a8-b520-2a5344d4fcb6
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2023-01-10 20:07:05 INFO   SamsungGalaxy_A32.Test10F rearVideoRec If Location access Permission Request Pop Exists Click on Cancel. 
+2023-01-10 20:07:15 INFO   SamsungGalaxy_A32.Test10F rearVideoRec Location access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy A32, newCommandTimeout: 600, platformName: android, platformVersion: 11, udid: RF8R30TPYQK}, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-A325M, deviceName: RF8R30TPYQK, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: RF8R30TPYQK, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 77, takesScreenshot: true, udid: RF8R30TPYQK, viewportRect: {height: 2118, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 36f7f933-a578-48a8-b520-2a5344d4fcb6
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2023-01-10 20:07:20 INFO   SamsungGalaxy_A32.Test10F rearVideoRec Test10F_Fcam_res: 2 resolutions supported
+2023-01-10 20:07:20 INFO   SamsungGalaxy_A32.Test10F rearVideoRec Switch to front camera mode
+2023-01-10 20:07:26 INFO   SamsungGalaxy_A32.Test10F rearVideoRec Clicking Video Tab
+2023-01-10 20:07:36 INFO   SamsungGalaxy_A32.Test10F rearVideoRec Select settings option
+2023-01-10 20:07:42 INFO   SamsungGalaxy_A32.Test10F rearVideoRec Click on settings option
+2023-01-10 20:07:42 INFO   SamsungGalaxy_A32.Test10F rearVideoRec Search for SD Card option
+2023-01-10 20:07:55 INFO   SamsungGalaxy_A32.Test10F rearVideoRec Select SD as storage option
+2023-01-10 20:08:03 INFO   SamsungGalaxy_A32.Test10F rearVideoRec Select 1st Back Video Resolution:FHD (30 fps)
+2023-01-10 20:08:11 INFO   SamsungGalaxy_A32.Test10F rearVideoRec Start video recording
+2023-01-10 20:17:51 INFO   SamsungGalaxy_A32.Test10F rearVideoRec Stop video recording
+2023-01-10 20:17:58 INFO   SamsungGalaxy_A32.Test10F rearVideoRec Select 2nd Front camera video size, HD (30 fps)
+2023-01-10 20:18:09 INFO   SamsungGalaxy_A32.Test10F rearVideoRec Start video recording
+2023-01-10 20:27:49 INFO   SamsungGalaxy_A32.Test10F rearVideoRec Stop video recording
+2023-01-10 20:27:56 INFO   SamsungGalaxy_A32.Test10F rearVideoRec Switch to rear camera
+2023-01-10 20:28:01 INFO   SamsungGalaxy_A32.Test10F rearVideoRec Switch to back  camera mode
+2023-01-10 20:28:10 INFO   SamsungGalaxy_A32.Test10F rearVideoRec Pass: Test10F pass for front camera video recording
+2023-01-10 20:28:10 INFO   SamsungGalaxy_A32.Test10F rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-10 20:28:10 INFO   SamsungGalaxy_A32.Test10F rearVideoRec Launch File Manager Application to verify captured videos
+2023-01-10 20:28:11 INFO   SamsungGalaxy_A32.Test10F rearVideoRec Swipe up to select uSD card
+2023-01-10 20:28:15 INFO   SamsungGalaxy_A32.Test10F rearVideoRec Select SD card
+2023-01-10 20:28:22 INFO   SamsungGalaxy_A32.Test10F rearVideoRec swipe up and search for dcim
+2023-01-10 20:28:25 INFO   SamsungGalaxy_A32.Test10F rearVideoRec Select DCIM Folder
+2023-01-10 20:28:30 INFO   SamsungGalaxy_A32.Test10F rearVideoRec Select Camera Folder
+2023-01-10 20:28:35 INFO   SamsungGalaxy_A32.Test10F rearVideoRec Select More Options 
+2023-01-10 20:28:41 INFO   SamsungGalaxy_A32.Test10F rearVideoRec Click On Select All Options
+2023-01-10 20:28:50 INFO   SamsungGalaxy_A32.Test10F rearVideoRec Test10F_Fcam_video: 2 Videos captured successfull
+2023-01-10 20:28:50 INFO   SamsungGalaxy_A32.Test10F rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-10 20:28:58 INFO   SamsungGalaxy_A32.Test10F rearVideoRec Calling VideoPlayBackForSleepWake()
+2023-01-10 20:28:58 INFO   SamsungGalaxy_A32.Test10F VideoPlayBackForSleepWake Launch File Manager application and playback front recorded video from USD for 30 seconds, pause video playback, locking phone and unlock after 30 seconds delay and playback video from pause duration.
+2023-01-10 20:29:04 INFO   SamsungGalaxy_A32.Test10F VideoPlayBackForSleepWake Swipe up to select uSD card
+2023-01-10 20:29:08 INFO   SamsungGalaxy_A32.Test10F VideoPlayBackForSleepWake Select SD card
+2023-01-10 20:29:14 INFO   SamsungGalaxy_A32.Test10F VideoPlayBackForSleepWake swipe up and search for dcim
+2023-01-10 20:29:18 INFO   SamsungGalaxy_A32.Test10F VideoPlayBackForSleepWake Select DCIM Folder
+2023-01-10 20:29:22 INFO   SamsungGalaxy_A32.Test10F VideoPlayBackForSleepWake Select Camera
+2023-01-10 20:29:25 INFO   SamsungGalaxy_A32.Test10F VideoPlayBackForSleepWake select more options
+2023-01-10 20:29:30 INFO   SamsungGalaxy_A32.Test10F VideoPlayBackForSleepWake Select Sort BY
+2023-01-10 20:29:35 INFO   SamsungGalaxy_A32.Test10F VideoPlayBackForSleepWake Select Newest date first
+2023-01-10 20:29:39 INFO   SamsungGalaxy_A32.Test10F VideoPlayBackForSleepWake Click on first file to play newest date frist recorded resolution video file in usd card
+2023-01-10 20:29:39 INFO   SamsungGalaxy_A32.Test10F VideoPlayBackForSleepWake Started video playback
+2023-01-10 20:29:59 INFO   SamsungGalaxy_A32.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-01-10 20:29:59 INFO   SamsungGalaxy_A32.Test10F VideoPlayBackForSleepWake Lock Mobile with 30 seconds delay
+2023-01-10 20:30:29 INFO   SamsungGalaxy_A32.Test10F VideoPlayBackForSleepWake Wait For 30Seconds
+2023-01-10 20:30:34 INFO   SamsungGalaxy_A32.Test10F VideoPlayBackForSleepWake Unlock Mobile 
+2023-01-10 20:31:04 INFO   SamsungGalaxy_A32.Test10F VideoPlayBackForSleepWake Pause video 
+2023-01-10 20:31:11 INFO   SamsungGalaxy_A32.Test10F VideoPlayBackForSleepWake Pass: Test10F Pass for Front video play back, Pause,Lock and Unlock Phone Play back from Pause duration Scenario
+2023-01-10 20:31:11 INFO   SamsungGalaxy_A32.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-10 20:31:11 INFO   SamsungGalaxy_A32.Test10F VideoPlayBackForSleepWake Calling Data Move Operation
+2023-01-10 20:31:11 INFO   SamsungGalaxy_A32.Test10F DataMoveOperation Re-launch file manager application and select external storage for data move operation, select all rear camera videos present in camera folder and move to Test10 folder
+2023-01-10 20:31:18 INFO   SamsungGalaxy_A32.Test10F DataMoveOperation Swipe up to select uSD card
+2023-01-10 20:31:21 INFO   SamsungGalaxy_A32.Test10F DataMoveOperation Select SD card
+2023-01-10 20:31:28 INFO   SamsungGalaxy_A32.Test10F DataMoveOperation switch to grid view mode and select DCIM  folder
+2023-01-10 20:31:31 INFO   SamsungGalaxy_A32.Test10F DataMoveOperation Select DCIM folder
+2023-01-10 20:31:34 INFO   SamsungGalaxy_A32.Test10F DataMoveOperation Select camera  folder
+2023-01-10 20:31:37 INFO   SamsungGalaxy_A32.Test10F DataMoveOperation switch to list view mode 
+2023-01-10 20:31:40 INFO   SamsungGalaxy_A32.Test10F DataMoveOperation Click More options
+2023-01-10 20:31:47 INFO   SamsungGalaxy_A32.Test10F DataMoveOperation Click Select all
+2023-01-10 20:31:51 INFO   SamsungGalaxy_A32.Test10F DataMoveOperation Click More options
+2023-01-10 20:31:57 INFO   SamsungGalaxy_A32.Test10F DataMoveOperation Select move to option
+2023-01-10 20:32:04 INFO   SamsungGalaxy_A32.Test10F DataMoveOperation Select uSD Card
+2023-01-10 20:32:10 INFO   SamsungGalaxy_A32.Test10F DataMoveOperation Select ADD NEW Folder option
+2023-01-10 20:32:16 INFO   SamsungGalaxy_A32.Test10F DataMoveOperation Name folder as Test10F
+2023-01-10 20:32:23 INFO   SamsungGalaxy_A32.Test10F DataMoveOperation Accept create folder
+2023-01-10 20:32:54 INFO   SamsungGalaxy_A32.Test10F DataMoveOperation Cut paste  video files operation completed successfully
+2023-01-10 20:32:57 INFO   SamsungGalaxy_A32.Test10F DataMoveOperation Test10F: Data move operation completed successfully
+2023-01-10 20:33:06 INFO   SamsungGalaxy_A32.Test10F DataMoveOperation Pass: Test10F Pass for data move operation successfully
+2023-01-10 20:33:06 INFO   SamsungGalaxy_A32.Test10F DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-10 20:33:06 INFO   SamsungGalaxy_A32.Test10F VideoPlayBackForSleepWake Final Message: Pass Test10F Pass for Pause Video Playback
+2023-01-10 20:33:06 INFO   SamsungGalaxy_A32.Test10F VideoPlayBackForSleepWake Test: End
+2023-01-10 20:33:06 INFO   SamsungGalaxy_A32.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-10 20:33:06 INFO   SamsungGalaxy_A32.Test10F rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

@@ -1,0 +1,88 @@
+2023-02-21 12:13:51 INFO   Realme_C30_RMX3581.Test10F_Int frontVideoRec Test:Start
+2023-02-21 12:13:51 INFO   Realme_C30_RMX3581.Test10F_Int frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-21 12:13:51 INFO   Realme_C30_RMX3581.Test10F_Int frontVideoRec Test10F_Int Scenario is as follows
+2023-02-21 12:13:51 INFO   Realme_C30_RMX3581.Test10F_Int frontVideoRec 1.Launch Camera application and start front camera video recording for all host applicable resolutions in Internal storage
+2023-02-21 12:13:51 INFO   Realme_C30_RMX3581.Test10F_Int frontVideoRec 2.Playback front Highest recorded video from Internal for 30 seconds, pause video playback, lock mobile and wait 30 seconds, unlock mobile and playback video from pause video duration
+2023-02-21 12:13:51 INFO   Realme_C30_RMX3581.Test10F_Int frontVideoRec Setting up the appium desired capabilities
+2023-02-21 12:13:51 INFO   Realme_C30_RMX3581.Test10F_Int frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-21 12:14:14 INFO   Realme_C30_RMX3581.Test10F_Int frontVideoRec Clearing Recent Apps
+2023-02-21 12:14:20 INFO   Realme_C30_RMX3581.Test10F_Int frontVideoRec Pass: Test0_Int Pass for clearing Recent apps 
+2023-02-21 12:14:24 INFO   Realme_C30_RMX3581.Test10F_Int frontVideoRec Launch Camera Application for front camera video recording
+2023-02-21 12:14:25 INFO   Realme_C30_RMX3581.Test10F_Int frontVideoRec Permission request
+2023-02-21 12:14:35 INFO   Realme_C30_RMX3581.Test10F_Int frontVideoRec change to Internal storage element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-201', ip: '10.65.147.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: realme C30, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: 2607172000008857}, deviceApiLevel: 30, deviceManufacturer: realme, deviceModel: RMX3581, deviceName: 2607172000008857, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: 2607172000008857, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 64, takesScreenshot: true, udid: 2607172000008857, viewportRect: {height: 1384, left: 0, top: 64, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 5af6dab4-0d7d-409f-ab9c-324d6ae5b7a4
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Agree")}
+2023-02-21 12:14:35 INFO   Realme_C30_RMX3581.Test10F_Int frontVideoRec Allow Camera to access this device�s location?
+2023-02-21 12:14:50 INFO   Realme_C30_RMX3581.Test10F_Int frontVideoRec Test10F_Int_Fcam_res: 3 resolutions supported
+2023-02-21 12:14:50 INFO   Realme_C30_RMX3581.Test10F_Int frontVideoRec Clicking Video Tab
+2023-02-21 12:14:56 INFO   Realme_C30_RMX3581.Test10F_Int frontVideoRec click on front camera
+2023-02-21 12:15:01 INFO   Realme_C30_RMX3581.Test10F_Int frontVideoRec Select settings option
+2023-02-21 12:15:05 INFO   Realme_C30_RMX3581.Test10F_Int frontVideoRec Select First front video Resolution: HD 720p, 30fps
+2023-02-21 12:15:16 INFO   Realme_C30_RMX3581.Test10F_Int frontVideoRec Start video recording
+2023-02-21 12:15:16 INFO   Realme_C30_RMX3581.Test10F_Int frontVideoRec Stop video recording
+2023-02-21 12:25:04 INFO   Realme_C30_RMX3581.Test10F_Int frontVideoRec Select settings option
+2023-02-21 12:25:08 INFO   Realme_C30_RMX3581.Test10F_Int frontVideoRec Select second front video Resolution:  SD 480p, 30fps
+2023-02-21 12:25:19 INFO   Realme_C30_RMX3581.Test10F_Int frontVideoRec Start video recording
+2023-02-21 12:25:19 INFO   Realme_C30_RMX3581.Test10F_Int frontVideoRec Stop video recording
+2023-02-21 12:34:59 INFO   Realme_C30_RMX3581.Test10F_Int frontVideoRec Select settings option
+2023-02-21 12:35:04 INFO   Realme_C30_RMX3581.Test10F_Int frontVideoRec Select third front video Resolution:  CIF, 30fps
+2023-02-21 12:35:15 INFO   Realme_C30_RMX3581.Test10F_Int frontVideoRec Start video recording
+2023-02-21 12:35:15 INFO   Realme_C30_RMX3581.Test10F_Int frontVideoRec Stop video recording
+2023-02-21 12:45:00 INFO   Realme_C30_RMX3581.Test10F_Int frontVideoRec Click On back camera mode
+2023-02-21 12:45:05 INFO   Realme_C30_RMX3581.Test10F_Int frontVideoRec Switch to defalut Photo mode
+2023-02-21 12:45:15 INFO   Realme_C30_RMX3581.Test10F_Int frontVideoRec Pass: Test10F_Int pass for front camera video recording
+2023-02-21 12:45:15 INFO   Realme_C30_RMX3581.Test10F_Int frontVideoRec Launch file manager application and verify recorded video capture Internal storage
+2023-02-21 12:45:31 INFO   Realme_C30_RMX3581.Test10F_Int frontVideoRec Swipe up to select Internal storage
+2023-02-21 12:45:40 INFO   Realme_C30_RMX3581.Test10F_Int frontVideoRec Select Internal storage
+2023-02-21 12:45:52 INFO   Realme_C30_RMX3581.Test10F_Int frontVideoRec Select DCIM folder
+2023-02-21 12:45:55 INFO   Realme_C30_RMX3581.Test10F_Int frontVideoRec Select camera folder
+2023-02-21 12:45:59 INFO   Realme_C30_RMX3581.Test10F_Int frontVideoRec Click More options
+2023-02-21 12:46:05 INFO   Realme_C30_RMX3581.Test10F_Int frontVideoRec Click Select all
+2023-02-21 12:46:12 INFO   Realme_C30_RMX3581.Test10F_Int frontVideoRec Test10F_Int_Fcam_video: 3 videos captured successfully
+2023-02-21 12:46:12 INFO   Realme_C30_RMX3581.Test10F_Int frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-21 12:46:21 INFO   Realme_C30_RMX3581.Test10F_Int frontVideoRec Calling VideoPlayBackForSleepWake()
+2023-02-21 12:46:21 INFO   Realme_C30_RMX3581.Test10F_Int VideoPlayBackForSleepWake Launch File Manager application and playback front recorded video from Internal for 30 seconds, pause video playback, locking phone and unlock after 30 seconds delay and playback video from pause duration.
+2023-02-21 12:46:27 INFO   Realme_C30_RMX3581.Test10F_Int VideoPlayBackForSleepWake Select Internal Storage
+2023-02-21 12:46:47 INFO   Realme_C30_RMX3581.Test10F_Int VideoPlayBackForSleepWake Select DCIM folder
+2023-02-21 12:46:50 INFO   Realme_C30_RMX3581.Test10F_Int VideoPlayBackForSleepWake Select Camera folder
+2023-02-21 12:46:53 INFO   Realme_C30_RMX3581.Test10F_Int VideoPlayBackForSleepWake Select MoreOptions1
+2023-02-21 12:46:58 INFO   Realme_C30_RMX3581.Test10F_Int VideoPlayBackForSleepWake Select Sort by
+2023-02-21 12:47:03 INFO   Realme_C30_RMX3581.Test10F_Int VideoPlayBackForSleepWake Select Sort by Newest date first
+2023-02-21 12:47:06 INFO   Realme_C30_RMX3581.Test10F_Int VideoPlayBackForSleepWake Click on first file to play highest recorded resolution video file
+2023-02-21 12:47:06 INFO   Realme_C30_RMX3581.Test10F_Int VideoPlayBackForSleepWake Started video playback
+2023-02-21 12:47:26 INFO   Realme_C30_RMX3581.Test10F_Int VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-02-21 12:47:26 INFO   Realme_C30_RMX3581.Test10F_Int VideoPlayBackForSleepWake Click pause video button
+2023-02-21 12:47:30 INFO   Realme_C30_RMX3581.Test10F_Int VideoPlayBackForSleepWake Lock Mobile with 30 seconds delay
+2023-02-21 12:48:00 INFO   Realme_C30_RMX3581.Test10F_Int VideoPlayBackForSleepWake Unlock Mobile 
+2023-02-21 12:48:00 INFO   Realme_C30_RMX3581.Test10F_Int VideoPlayBackForSleepWake Wait For 30Seconds
+2023-02-21 12:48:05 INFO   Realme_C30_RMX3581.Test10F_Int VideoPlayBackForSleepWake Playback video from pause video duration
+2023-02-21 12:48:35 INFO   Realme_C30_RMX3581.Test10F_Int VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-02-21 12:48:35 INFO   Realme_C30_RMX3581.Test10F_Int VideoPlayBackForSleepWake Click pause video button
+2023-02-21 12:48:46 INFO   Realme_C30_RMX3581.Test10F_Int VideoPlayBackForSleepWake Pass: Test10F_Int Pass for Front video play back, Pause,Lock and Unlock Phone Play back from Pause duration Scenario
+2023-02-21 12:48:46 INFO   Realme_C30_RMX3581.Test10F_Int VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-21 12:48:46 INFO   Realme_C30_RMX3581.Test10F_Int VideoPlayBackForSleepWake calling DatamoveOperation() to move front camera recorded videos files to Test10F_Int folder
+2023-02-21 12:48:46 INFO   Realme_C30_RMX3581.Test10F_Int DataMoveOperation launch file manager application select Internal storage-->DCIM folder-->Camera folder-->Select all front camera front camera videos create Test10 and cut paste all videos in Test10F_Int folder
+2023-02-21 12:49:02 INFO   Realme_C30_RMX3581.Test10F_Int DataMoveOperation click on browse option
+2023-02-21 12:49:06 INFO   Realme_C30_RMX3581.Test10F_Int DataMoveOperation Swipe up to select Internal storage
+2023-02-21 12:49:15 INFO   Realme_C30_RMX3581.Test10F_Int DataMoveOperation Select Internal storage
+2023-02-21 12:49:27 INFO   Realme_C30_RMX3581.Test10F_Int DataMoveOperation Select DCIM folder
+2023-02-21 12:49:30 INFO   Realme_C30_RMX3581.Test10F_Int DataMoveOperation Select camera folder
+2023-02-21 12:49:33 INFO   Realme_C30_RMX3581.Test10F_Int DataMoveOperation Click More options
+2023-02-21 12:49:39 INFO   Realme_C30_RMX3581.Test10F_Int DataMoveOperation Click Select all
+2023-02-21 12:49:43 INFO   Realme_C30_RMX3581.Test10F_Int DataMoveOperation Click More options
+2023-02-21 12:49:49 INFO   Realme_C30_RMX3581.Test10F_Int DataMoveOperation Select move to option
+2023-02-21 12:49:56 INFO   Realme_C30_RMX3581.Test10F_Int DataMoveOperation Select Internal storage
+2023-02-21 12:50:02 INFO   Realme_C30_RMX3581.Test10F_Int DataMoveOperation Select ADD NEW Folder option
+2023-02-21 12:50:08 INFO   Realme_C30_RMX3581.Test10F_Int DataMoveOperation Name folder as Test10F_Int
+2023-02-21 12:50:15 INFO   Realme_C30_RMX3581.Test10F_Int DataMoveOperation Accept create folder
+2023-02-21 12:52:15 INFO   Realme_C30_RMX3581.Test10F_Int DataMoveOperation Cut paste  video files operation completed successfully
+2023-02-21 12:52:30 INFO   Realme_C30_RMX3581.Test10F_Int DataMoveOperation Pass: Test10F_Int Pass for data move operation successfully
+2023-02-21 12:52:30 INFO   Realme_C30_RMX3581.Test10F_Int DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-21 12:52:30 INFO   Realme_C30_RMX3581.Test10F_Int VideoPlayBackForSleepWake Final Message: Pass Test10F_Int Pass for front camera  video recording, Pause Video Playback scenario and data move operation scenario
+2023-02-21 12:52:30 INFO   Realme_C30_RMX3581.Test10F_Int VideoPlayBackForSleepWake Test: End
+2023-02-21 12:52:30 INFO   Realme_C30_RMX3581.Test10F_Int VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

@@ -1,0 +1,96 @@
+2023-01-29 20:09:21 INFO   BlackView_Tab6.Test10F rearVideoRec Test: Start
+2023-01-29 20:09:21 INFO   BlackView_Tab6.Test10F rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-29 20:09:21 INFO   BlackView_Tab6.Test10F rearVideoRec Test10F Scenario is as follows
+2023-01-29 20:09:21 INFO   BlackView_Tab6.Test10F rearVideoRec 1.Launch Camera application and start back camera video recording for all host applicable resolutions in uSD Card
+2023-01-29 20:09:21 INFO   BlackView_Tab6.Test10F rearVideoRec 2.Playback Highest resolution recorded video from USD Card, fast forward playback and pause video scenario 
+2023-01-29 20:09:21 INFO   BlackView_Tab6.Test10F rearVideoRec 3.Playback copied videos from Test1 folder, fast forward and pause scenario
+2023-01-29 20:09:21 INFO   BlackView_Tab6.Test10F rearVideoRec Setting up the appium desired capabilities
+2023-01-29 20:09:21 INFO   BlackView_Tab6.Test10F rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-29 20:09:38 INFO   BlackView_Tab6.Test10F rearVideoRec Launch home screen
+2023-01-29 20:09:57 INFO   BlackView_Tab6.Test10F rearVideoRec Launch Camera application for front camera video recording
+2023-01-29 20:10:04 INFO   BlackView_Tab6.Test10F rearVideoRec Test10F_Fcam_res: 2 resolutions supported
+2023-01-29 20:10:04 INFO   BlackView_Tab6.Test10F rearVideoRec IF Change to uSD card notification pop-up exists select Cancel Option
+2023-01-29 20:10:15 INFO   BlackView_Tab6.Test10F rearVideoRec change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '172.20.10.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Tab 6, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: TAB6NEU00006443}, deviceApiLevel: 30, deviceManufacturer: Blackview, deviceModel: Tab 6, deviceName: TAB6NEU00006443, deviceScreenDensity: 213, deviceScreenSize: 800x1280, deviceUDID: TAB6NEU00006443, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.3312501, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 32, takesScreenshot: true, udid: TAB6NEU00006443, viewportRect: {height: 1187, left: 0, top: 32, width: 800}, warnings: {}, webStorageEnabled: false}
+Session ID: 651a9091-0519-464e-b498-ba6a3e2c7da5
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("DENY")}
+2023-01-29 20:10:15 INFO   BlackView_Tab6.Test10F rearVideoRec Switch to video recording mode
+2023-01-29 20:10:25 INFO   BlackView_Tab6.Test10F rearVideoRec Switch to front video camera mode
+2023-01-29 20:10:28 INFO   BlackView_Tab6.Test10F rearVideoRec Switching to Front Video capture
+2023-01-29 20:10:28 INFO   BlackView_Tab6.Test10F rearVideoRec Select settings option
+2023-01-29 20:10:33 INFO   BlackView_Tab6.Test10F rearVideoRec Select Storage path option
+2023-01-29 20:10:39 INFO   BlackView_Tab6.Test10F rearVideoRec Select SD as storage option
+2023-01-29 20:10:47 INFO   BlackView_Tab6.Test10F rearVideoRec Select settings option
+2023-01-29 20:10:52 INFO   BlackView_Tab6.Test10F rearVideoRec Select Video size option
+2023-01-29 20:10:58 INFO   BlackView_Tab6.Test10F rearVideoRec Select front camera first video resolution: HD 720p
+2023-01-29 20:11:08 INFO   BlackView_Tab6.Test10F rearVideoRec Start video recording
+2023-01-29 20:14:09 INFO   BlackView_Tab6.Test10F rearVideoRec Stop video recording
+2023-01-29 20:14:14 INFO   BlackView_Tab6.Test10F rearVideoRec Select settings option
+2023-01-29 20:14:20 INFO   BlackView_Tab6.Test10F rearVideoRec Select Video size option
+2023-01-29 20:14:26 INFO   BlackView_Tab6.Test10F rearVideoRec Select front camera second video resolution : SD 480p
+2023-01-29 20:14:36 INFO   BlackView_Tab6.Test10F rearVideoRec Start video recording
+2023-01-29 20:17:36 INFO   BlackView_Tab6.Test10F rearVideoRec Stop video recording
+2023-01-29 20:17:42 INFO   BlackView_Tab6.Test10F rearVideoRec Switch to rear video camera mode
+2023-01-29 20:17:42 INFO   BlackView_Tab6.Test10F rearVideoRec Clicking photo Tab
+2023-01-29 20:17:56 INFO   BlackView_Tab6.Test10F rearVideoRec Pass: Test10F Pass for front camera video recording
+2023-01-29 20:17:56 INFO   BlackView_Tab6.Test10F rearVideoRec Launch file manager application and verify recorded video capture uSD Card
+2023-01-29 20:18:13 INFO   BlackView_Tab6.Test10F rearVideoRec Swipe up to select uSD card
+2023-01-29 20:18:15 INFO   BlackView_Tab6.Test10F rearVideoRec Select SD card
+2023-01-29 20:18:22 INFO   BlackView_Tab6.Test10F rearVideoRec switch to grid view mode to select DCIM folder
+2023-01-29 20:18:25 INFO   BlackView_Tab6.Test10F rearVideoRec Select DCIM folder
+2023-01-29 20:18:28 INFO   BlackView_Tab6.Test10F rearVideoRec Select camera folder
+2023-01-29 20:18:31 INFO   BlackView_Tab6.Test10F rearVideoRec switch to list view mode 
+2023-01-29 20:18:34 INFO   BlackView_Tab6.Test10F rearVideoRec Click More options
+2023-01-29 20:18:40 INFO   BlackView_Tab6.Test10F rearVideoRec Click Select all
+2023-01-29 20:18:49 INFO   BlackView_Tab6.Test10F rearVideoRec Test10F_Fcam_video: 2 Videos captured successfull
+2023-01-29 20:18:49 INFO   BlackView_Tab6.Test10F rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-29 20:18:49 INFO   BlackView_Tab6.Test10F rearVideoRec Calling VideoPlayBackForSleepWake()
+2023-01-29 20:18:55 INFO   BlackView_Tab6.Test10F VideoPlayBackForSleepWake Launching file manager application
+2023-01-29 20:18:57 INFO   BlackView_Tab6.Test10F VideoPlayBackForSleepWake Swipe up to select uSD card
+2023-01-29 20:19:00 INFO   BlackView_Tab6.Test10F VideoPlayBackForSleepWake Select SD card
+2023-01-29 20:19:06 INFO   BlackView_Tab6.Test10F VideoPlayBackForSleepWake switch to grid view mode to select DCIM folder
+2023-01-29 20:19:10 INFO   BlackView_Tab6.Test10F VideoPlayBackForSleepWake Select DCIM folder
+2023-01-29 20:19:13 INFO   BlackView_Tab6.Test10F VideoPlayBackForSleepWake Select Camera folder
+2023-01-29 20:19:16 INFO   BlackView_Tab6.Test10F VideoPlayBackForSleepWake switch to list view mode 
+2023-01-29 20:19:19 INFO   BlackView_Tab6.Test10F VideoPlayBackForSleepWake Select more options
+2023-01-29 20:19:24 INFO   BlackView_Tab6.Test10F VideoPlayBackForSleepWake Select Sort By option
+2023-01-29 20:19:28 INFO   BlackView_Tab6.Test10F VideoPlayBackForSleepWake Select Sort by Newest date first
+2023-01-29 20:19:31 INFO   BlackView_Tab6.Test10F VideoPlayBackForSleepWake Click on first file to play highest recorded resolution video file
+2023-01-29 20:19:32 INFO   BlackView_Tab6.Test10F VideoPlayBackForSleepWake Started video playback
+2023-01-29 20:19:52 INFO   BlackView_Tab6.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-01-29 20:19:52 INFO   BlackView_Tab6.Test10F VideoPlayBackForSleepWake Click pause video button
+2023-01-29 20:19:56 INFO   BlackView_Tab6.Test10F VideoPlayBackForSleepWake Lock Mobile with 30 seconds delay
+2023-01-29 20:21:56 INFO   BlackView_Tab6.Test10F VideoPlayBackForSleepWake Wait For 30Seconds
+2023-01-29 20:22:01 INFO   BlackView_Tab6.Test10F VideoPlayBackForSleepWake Unlock Mobile 
+2023-01-29 20:22:01 INFO   BlackView_Tab6.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-01-29 20:22:01 INFO   BlackView_Tab6.Test10F VideoPlayBackForSleepWake Click pause video button
+2023-01-29 20:22:34 INFO   BlackView_Tab6.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-01-29 20:22:34 INFO   BlackView_Tab6.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-01-29 20:22:34 INFO   BlackView_Tab6.Test10F VideoPlayBackForSleepWake Click pause video button
+2023-01-29 20:22:46 INFO   BlackView_Tab6.Test10F VideoPlayBackForSleepWake Pass: Test10F Pass for Front video play back, Pause,Lock and Unlock Phone Play back from Pause duration Scenario
+2023-01-29 20:22:46 INFO   BlackView_Tab6.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-29 20:22:46 INFO   BlackView_Tab6.Test10F VideoPlayBackForSleepWake calling DatamoveOperation() to move front camera recorded videos files to Test10F folder
+2023-01-29 20:22:46 INFO   BlackView_Tab6.Test10F DataMoveOperation Launch home screen
+2023-01-29 20:22:52 INFO   BlackView_Tab6.Test10F DataMoveOperation launch file manager application select uSD card-->DCIM folder-->Camera folder-->Select all back camera front camera videos create Test10 and cut paste all videos in BCFC_Cameravideos folder
+2023-01-29 20:22:58 INFO   BlackView_Tab6.Test10F DataMoveOperation Swipe up to select uSD card
+2023-01-29 20:23:01 INFO   BlackView_Tab6.Test10F DataMoveOperation Select SD card
+2023-01-29 20:23:07 INFO   BlackView_Tab6.Test10F DataMoveOperation Select DCIM folder
+2023-01-29 20:23:10 INFO   BlackView_Tab6.Test10F DataMoveOperation Select camera folder
+2023-01-29 20:23:13 INFO   BlackView_Tab6.Test10F DataMoveOperation Click More options
+2023-01-29 20:23:19 INFO   BlackView_Tab6.Test10F DataMoveOperation Click Select all
+2023-01-29 20:23:23 INFO   BlackView_Tab6.Test10F DataMoveOperation Click More options
+2023-01-29 20:23:29 INFO   BlackView_Tab6.Test10F DataMoveOperation Select move to option
+2023-01-29 20:23:36 INFO   BlackView_Tab6.Test10F DataMoveOperation Select uSD Card
+2023-01-29 20:23:42 INFO   BlackView_Tab6.Test10F DataMoveOperation Select ADD NEW Folder option
+2023-01-29 20:23:49 INFO   BlackView_Tab6.Test10F DataMoveOperation Name folder as Test10F
+2023-01-29 20:23:56 INFO   BlackView_Tab6.Test10F DataMoveOperation Accept create folder
+2023-01-29 20:25:56 INFO   BlackView_Tab6.Test10F DataMoveOperation Cut paste  video files operation completed successfully
+2023-01-29 20:25:59 INFO   BlackView_Tab6.Test10F DataMoveOperation Pass: Test10F Pass for data move operation successfully
+2023-01-29 20:25:59 INFO   BlackView_Tab6.Test10F DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-29 20:25:59 INFO   BlackView_Tab6.Test10F VideoPlayBackForSleepWake Final Message: Pass Test10F Pass for front camera  video recording, Pause Video Playback scenario and data move operation scenario
+2023-01-29 20:25:59 INFO   BlackView_Tab6.Test10F VideoPlayBackForSleepWake Test: End
+2023-01-29 20:25:59 INFO   BlackView_Tab6.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

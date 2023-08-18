@@ -1,0 +1,223 @@
+2023-01-13 17:02:36 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture Test: Start
+2023-01-13 17:02:36 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-13 17:02:36 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture Test9F Scenario is as follows:
+2023-01-13 17:02:36 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture 1.Launch camera application, set uSD as a Storage option, start Front camera image picture capture for all Host front resolutions
+2023-01-13 17:02:36 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture Setting up the appium desired capabilities
+2023-01-13 17:02:36 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-13 17:02:43 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture Launch Home screen and clear recent apps
+2023-01-13 17:03:05 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture Launch Camera Application
+2023-01-13 17:03:05 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture Launch Camera Application for Front camera picture Capture for all Host resolutions
+2023-01-13 17:03:06 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture Test9F_Fcam_res: 5 resolutions supported
+2023-01-13 17:03:06 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture Unable to select Front camera image resolutions during automation.Hence capturing default resolution images.
+2023-01-13 17:03:06 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture If change to uSD card pop-up exists select Cancel
+2023-01-13 17:03:16 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy M33 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 12, udid: RZCT40W4PNJ}, deviceApiLevel: 31, deviceManufacturer: samsung, deviceModel: SM-M336BU, deviceName: RZCT40W4PNJ, deviceScreenDensity: 450, deviceScreenSize: 1080x2408, deviceUDID: RZCT40W4PNJ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 68, takesScreenshot: true, udid: RZCT40W4PNJ, viewportRect: {height: 2139, left: 0, top: 68, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: b8667ebb-62e4-431f-8aa6-12a95f648d75
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2023-01-13 17:03:16 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture If Location access Permission Request Pop Exists Click on Cancel. 
+2023-01-13 17:03:26 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture Location access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy M33 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 12, udid: RZCT40W4PNJ}, deviceApiLevel: 31, deviceManufacturer: samsung, deviceModel: SM-M336BU, deviceName: RZCT40W4PNJ, deviceScreenDensity: 450, deviceScreenSize: 1080x2408, deviceUDID: RZCT40W4PNJ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 68, takesScreenshot: true, udid: RZCT40W4PNJ, viewportRect: {height: 2139, left: 0, top: 68, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: b8667ebb-62e4-431f-8aa6-12a95f648d75
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2023-01-13 17:03:31 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture Switch To front Camera if current Exiting camera is in Back camera mode
+2023-01-13 17:03:33 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture Click Settings option
+2023-01-13 17:03:39 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture Swipe up and select storage location option
+2023-01-13 17:03:53 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture Select SD as storage option
+2023-01-13 17:04:01 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture Select Front Image size
+2023-01-13 17:04:01 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture Select First front Image Resoution: FRONT_CAMERA_PICTURE_RATIO_SUPER_RESOLUTION
+2023-01-13 17:04:08 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture Capture Images
+2023-01-13 17:04:13 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking First resolution Image0
+2023-01-13 17:04:17 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking First resolution Image1
+2023-01-13 17:04:21 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking First resolution Image2
+2023-01-13 17:04:25 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking First resolution Image3
+2023-01-13 17:04:30 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking First resolution Image4
+2023-01-13 17:04:34 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking First resolution Image5
+2023-01-13 17:04:38 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking First resolution Image6
+2023-01-13 17:04:42 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking First resolution Image7
+2023-01-13 17:04:47 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking First resolution Image8
+2023-01-13 17:04:51 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking First resolution Image9
+2023-01-13 17:04:55 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking First resolution Image10
+2023-01-13 17:04:59 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking First resolution Image11
+2023-01-13 17:05:03 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking First resolution Image12
+2023-01-13 17:05:08 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking First resolution Image13
+2023-01-13 17:05:12 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking First resolution Image14
+2023-01-13 17:05:16 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking First resolution Image15
+2023-01-13 17:05:20 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking First resolution Image16
+2023-01-13 17:05:25 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking First resolution Image17
+2023-01-13 17:05:29 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking First resolution Image18
+2023-01-13 17:05:33 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking First resolution Image19
+2023-01-13 17:05:37 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking First resolution Image20
+2023-01-13 17:05:41 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking First resolution Image21
+2023-01-13 17:05:46 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking First resolution Image22
+2023-01-13 17:05:50 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking First resolution Image23
+2023-01-13 17:05:54 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking First resolution Image24
+2023-01-13 17:05:58 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking First resolution Image25
+2023-01-13 17:06:03 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking First resolution Image26
+2023-01-13 17:06:07 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking First resolution Image27
+2023-01-13 17:06:12 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking First resolution Image28
+2023-01-13 17:06:16 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking First resolution Image29
+2023-01-13 17:06:21 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking First resolution Image30
+2023-01-13 17:06:25 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking First resolution Image31
+2023-01-13 17:06:29 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking First resolution Image32
+2023-01-13 17:06:33 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking First resolution Image33
+2023-01-13 17:06:37 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking First resolution Image34
+2023-01-13 17:06:39 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture Select Front Image size
+2023-01-13 17:06:39 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture Select Second resolution FRONT_CAMERA_PICTURE_RATIO_NORMAL
+2023-01-13 17:06:46 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture Start Front Image Capture
+2023-01-13 17:06:51 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second resolution Image0
+2023-01-13 17:06:55 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second resolution Image1
+2023-01-13 17:06:59 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second resolution Image2
+2023-01-13 17:07:03 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second resolution Image3
+2023-01-13 17:07:08 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second resolution Image4
+2023-01-13 17:07:12 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second resolution Image5
+2023-01-13 17:07:16 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second resolution Image6
+2023-01-13 17:07:20 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second resolution Image7
+2023-01-13 17:07:25 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second resolution Image8
+2023-01-13 17:07:29 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second resolution Image9
+2023-01-13 17:07:33 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second resolution Image10
+2023-01-13 17:07:37 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second resolution Image11
+2023-01-13 17:07:41 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second resolution Image12
+2023-01-13 17:07:46 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second resolution Image13
+2023-01-13 17:07:50 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second resolution Image14
+2023-01-13 17:07:54 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second resolution Image15
+2023-01-13 17:07:58 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second resolution Image16
+2023-01-13 17:08:04 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second resolution Image17
+2023-01-13 17:08:09 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second resolution Image18
+2023-01-13 17:08:13 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second resolution Image19
+2023-01-13 17:08:17 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second resolution Image20
+2023-01-13 17:08:22 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second resolution Image21
+2023-01-13 17:08:26 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second resolution Image22
+2023-01-13 17:08:30 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second resolution Image23
+2023-01-13 17:08:34 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second resolution Image24
+2023-01-13 17:08:39 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second resolution Image25
+2023-01-13 17:08:43 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second resolution Image26
+2023-01-13 17:08:47 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second resolution Image27
+2023-01-13 17:08:51 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second resolution Image28
+2023-01-13 17:08:55 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second resolution Image29
+2023-01-13 17:09:00 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second resolution Image30
+2023-01-13 17:09:04 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second resolution Image31
+2023-01-13 17:09:08 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second resolution Image32
+2023-01-13 17:09:12 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second resolution Image33
+2023-01-13 17:09:17 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second resolution Image34
+2023-01-13 17:09:19 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture Front camera second resolution:35 images Captured succesfull
+2023-01-13 17:09:19 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture Select Front Image size
+2023-01-13 17:09:19 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture Select third Image Resoution: FRONT_CAMERA_PICTURE_RATIO_WIDE
+2023-01-13 17:09:26 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture Capture Images
+2023-01-13 17:09:30 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second Third Image0
+2023-01-13 17:09:34 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second Third Image1
+2023-01-13 17:09:38 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second Third Image2
+2023-01-13 17:09:43 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second Third Image3
+2023-01-13 17:09:48 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second Third Image4
+2023-01-13 17:09:53 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second Third Image5
+2023-01-13 17:09:57 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second Third Image6
+2023-01-13 17:10:01 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second Third Image7
+2023-01-13 17:10:06 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second Third Image8
+2023-01-13 17:10:10 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second Third Image9
+2023-01-13 17:10:14 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second Third Image10
+2023-01-13 17:10:18 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second Third Image11
+2023-01-13 17:10:23 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second Third Image12
+2023-01-13 17:10:27 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second Third Image13
+2023-01-13 17:10:31 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second Third Image14
+2023-01-13 17:10:35 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second Third Image15
+2023-01-13 17:10:40 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second Third Image16
+2023-01-13 17:10:44 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second Third Image17
+2023-01-13 17:10:48 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second Third Image18
+2023-01-13 17:10:52 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second Third Image19
+2023-01-13 17:10:56 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second Third Image20
+2023-01-13 17:11:01 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second Third Image21
+2023-01-13 17:11:05 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second Third Image22
+2023-01-13 17:11:09 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second Third Image23
+2023-01-13 17:11:13 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second Third Image24
+2023-01-13 17:11:17 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second Third Image25
+2023-01-13 17:11:22 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second Third Image26
+2023-01-13 17:11:26 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second Third Image27
+2023-01-13 17:11:30 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second Third Image28
+2023-01-13 17:11:34 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second Third Image29
+2023-01-13 17:11:39 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second Third Image30
+2023-01-13 17:11:43 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second Third Image31
+2023-01-13 17:11:47 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second Third Image32
+2023-01-13 17:11:51 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second Third Image33
+2023-01-13 17:11:55 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Second Third Image34
+2023-01-13 17:11:57 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture Front camera third resolution:35 images Captured succesfull
+2023-01-13 17:11:57 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture Select Front Image size
+2023-01-13 17:11:57 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture Select fourth resolution:FRONT_CAMERA_PICTURE_RATIO_SQUARE
+2023-01-13 17:12:04 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture Capture Images
+2023-01-13 17:12:13 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Fourth resolution Image0
+2023-01-13 17:12:21 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Fourth resolution Image1
+2023-01-13 17:12:29 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Fourth resolution Image2
+2023-01-13 17:12:37 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Fourth resolution Image3
+2023-01-13 17:12:46 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Fourth resolution Image4
+2023-01-13 17:12:54 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Fourth resolution Image5
+2023-01-13 17:13:02 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Fourth resolution Image6
+2023-01-13 17:13:10 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Fourth resolution Image7
+2023-01-13 17:13:18 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Fourth resolution Image8
+2023-01-13 17:13:27 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Fourth resolution Image9
+2023-01-13 17:13:35 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Fourth resolution Image10
+2023-01-13 17:13:43 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Fourth resolution Image11
+2023-01-13 17:13:51 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Fourth resolution Image12
+2023-01-13 17:13:59 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Fourth resolution Image13
+2023-01-13 17:14:08 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Fourth resolution Image14
+2023-01-13 17:14:16 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Fourth resolution Image15
+2023-01-13 17:14:24 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Fourth resolution Image16
+2023-01-13 17:14:32 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Fourth resolution Image17
+2023-01-13 17:14:41 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Fourth resolution Image18
+2023-01-13 17:14:49 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Fourth resolution Image19
+2023-01-13 17:14:57 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Fourth resolution Image20
+2023-01-13 17:15:05 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Fourth resolution Image21
+2023-01-13 17:15:13 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Fourth resolution Image22
+2023-01-13 17:15:22 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Fourth resolution Image23
+2023-01-13 17:15:30 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Fourth resolution Image24
+2023-01-13 17:15:38 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Fourth resolution Image25
+2023-01-13 17:15:46 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Fourth resolution Image26
+2023-01-13 17:15:55 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Fourth resolution Image27
+2023-01-13 17:16:03 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Fourth resolution Image28
+2023-01-13 17:16:11 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Fourth resolution Image29
+2023-01-13 17:16:19 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Fourth resolution Image30
+2023-01-13 17:16:27 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Fourth resolution Image31
+2023-01-13 17:16:36 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Fourth resolution Image32
+2023-01-13 17:16:44 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Fourth resolution Image33
+2023-01-13 17:16:52 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture clicking Fourth resolution Image34
+2023-01-13 17:16:54 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture front camera fourth resolution:35 images Captured succesfull
+2023-01-13 17:16:57 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture Total Count value:140 images to be Captured 
+2023-01-13 17:16:59 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture Launch file manager application and verify captured images present  in uSD Card
+2023-01-13 17:17:16 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture Swipe up to select uSD card
+2023-01-13 17:17:18 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture Select SD card
+2023-01-13 17:17:24 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture switch to grid view mode to select DCIM folder
+2023-01-13 17:17:28 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture Select DCIM folder
+2023-01-13 17:17:31 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture Select camera folder
+2023-01-13 17:17:34 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture switch to list view mode 
+2023-01-13 17:17:37 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture Click More options
+2023-01-13 17:17:43 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture Click Select all
+2023-01-13 17:17:47 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture Total Image captured
+2023-01-13 17:17:56 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture Pass: Test9F pass for front Image capture
+2023-01-13 17:17:56 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture Test9F_Fcam_image: 140  images Captured succesfull
+2023-01-13 17:17:56 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-13 17:17:59 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture calling DataMoveOperation() 
+2023-01-13 17:17:59 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F DataMoveOperation Re-launch file manager application and select external storage for data move operation, select all front camera images files present in camera folder and move to Test9F folder
+2023-01-13 17:18:08 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F DataMoveOperation Select external storage
+2023-01-13 17:18:13 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F DataMoveOperation switch to grid view mode and select DCIM  folder
+2023-01-13 17:18:16 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F DataMoveOperation Select DCIM folder
+2023-01-13 17:18:20 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F DataMoveOperation Select camera  folder
+2023-01-13 17:18:23 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F DataMoveOperation switch to list view mode 
+2023-01-13 17:18:26 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F DataMoveOperation Click More options
+2023-01-13 17:18:32 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F DataMoveOperation Click Select all
+2023-01-13 17:18:36 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F DataMoveOperation Click More options
+2023-01-13 17:18:43 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F DataMoveOperation Select move to option
+2023-01-13 17:18:50 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F DataMoveOperation Select uSD Card
+2023-01-13 17:18:56 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F DataMoveOperation Select ADD NEW Folder option
+2023-01-13 17:19:02 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F DataMoveOperation Name folder as Test9F
+2023-01-13 17:19:09 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F DataMoveOperation Accept create folder
+2023-01-13 17:19:43 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F DataMoveOperation Cut paste   operation completed successfully
+2023-01-13 17:19:46 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F DataMoveOperation Test9F: Data move operation completed successfully
+2023-01-13 17:19:55 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F DataMoveOperation Pass: Test9F Pass for data move operation successfully
+2023-01-13 17:19:55 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture Final message: Pass Test9F Pass for front Camera image capture
+2023-01-13 17:19:55 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture Test: End
+2023-01-13 17:19:55 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test9F frontPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

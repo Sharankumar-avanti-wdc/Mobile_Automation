@@ -1,0 +1,73 @@
+2022-07-19 09:35:53 INFO   Realme_9i_RMX3941.Test10 rearVideoRec Test: Start
+2022-07-19 09:35:53 INFO   Realme_9i_RMX3941.Test10 rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-07-19 09:35:53 INFO   Realme_9i_RMX3941.Test10 rearVideoRec Test10 Scenario is as follows
+2022-07-19 09:35:53 INFO   Realme_9i_RMX3941.Test10 rearVideoRec 1.Launch Camera application and start back camera video recording for all host applicable resolutions in uSD Card
+2022-07-19 09:35:53 INFO   Realme_9i_RMX3941.Test10 rearVideoRec 2.Playback Highest resolution recorded video from USD Card, fast forward playback and pause video scenario 
+2022-07-19 09:35:53 INFO   Realme_9i_RMX3941.Test10 rearVideoRec 3.Playback copied videos from Test1 folder, fast forward and pause scenario
+2022-07-19 09:35:53 INFO   Realme_9i_RMX3941.Test10 rearVideoRec Setting up the appium desired capabilities
+2022-07-19 09:35:53 INFO   Realme_9i_RMX3941.Test10 rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-07-19 09:36:17 INFO   Realme_9i_RMX3941.Test10 rearVideoRec Launch Camera Application for rear camera video recording
+2022-07-19 09:36:29 INFO   Realme_9i_RMX3941.Test10 rearVideoRec change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '7L681N2', ip: '10.113.90.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: realme 9i, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: 755b3e4a}, deviceApiLevel: 30, deviceManufacturer: realme, deviceModel: RMX3491, deviceName: 755b3e4a, deviceScreenDensity: 480, deviceScreenSize: 1080x2412, deviceUDID: 755b3e4a, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 110, takesScreenshot: true, udid: 755b3e4a, viewportRect: {height: 2060, left: 0, top: 110, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: e7b722e3-1b45-4df9-a876-a2e67a2397b4
+*** Element info: {Using=xpath, value=//*[@resource-id='com.android.permissioncontroller:id/permission_deny_button']}
+2022-07-19 09:36:29 INFO   Realme_9i_RMX3941.Test10 rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-07-19 09:36:31 INFO   Realme_9i_RMX3941.Test10 rearVideoRec Clicking Video Tab
+2022-07-19 09:36:36 INFO   Realme_9i_RMX3941.Test10 rearVideoRec Select settings option
+2022-07-19 09:36:40 INFO   Realme_9i_RMX3941.Test10 rearVideoRec Search for Advanced settings option
+2022-07-19 09:36:43 INFO   Realme_9i_RMX3941.Test10 rearVideoRec Select SD as storage option
+2022-07-19 09:36:48 INFO   Realme_9i_RMX3941.Test10 rearVideoRec Select turn on option
+2022-07-19 09:36:58 INFO   Realme_9i_RMX3941.Test10 rearVideoRec Select SD as storage option
+2022-07-19 09:37:03 INFO   Realme_9i_RMX3941.Test10 rearVideoRec Select turn on option
+2022-07-19 09:37:20 INFO   Realme_9i_RMX3941.Test10 rearVideoRec Select 1st Back Video Resolution:1080p
+2022-07-19 09:37:27 INFO   Realme_9i_RMX3941.Test10 rearVideoRec Start video recording
+2022-07-19 09:37:30 INFO   Realme_9i_RMX3941.Test10 rearVideoRec Stop video recording
+2022-07-19 09:47:48 INFO   Realme_9i_RMX3941.Test10 rearVideoRec Select 2nd Back Video Resolution: 720P
+2022-07-19 09:47:57 INFO   Realme_9i_RMX3941.Test10 rearVideoRec Start video recording
+2022-07-19 09:47:57 INFO   Realme_9i_RMX3941.Test10 rearVideoRec Start Recording
+2022-07-19 09:48:00 INFO   Realme_9i_RMX3941.Test10 rearVideoRec Stop video recording
+2022-07-19 09:58:16 INFO   Realme_9i_RMX3941.Test10 rearVideoRec Stop recording
+2022-07-19 09:58:16 INFO   Realme_9i_RMX3941.Test10 rearVideoRec Switch to defalut Photo mode
+2022-07-19 09:58:26 INFO   Realme_9i_RMX3941.Test10 rearVideoRec Pass: Rear video recording is successfull
+2022-07-19 09:58:26 INFO   Realme_9i_RMX3941.Test10 rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-07-19 09:58:26 INFO   Realme_9i_RMX3941.Test10 rearVideoRec Calling RecordedVideoPlayback() for Playing Highest record video, fast forward video play back scenario
+2022-07-19 09:58:32 INFO   Realme_9i_RMX3941.Test10 RecordedVideoPlayback Launch Camera Application for rear camera video recording
+2022-07-19 09:58:42 INFO   Realme_9i_RMX3941.Test10 RecordedVideoPlayback Select External Storage
+2022-07-19 09:58:47 INFO   Realme_9i_RMX3941.Test10 RecordedVideoPlayback Select DCIM folder
+2022-07-19 09:58:50 INFO   Realme_9i_RMX3941.Test10 RecordedVideoPlayback Select Camera folder
+2022-07-19 09:58:53 INFO   Realme_9i_RMX3941.Test10 RecordedVideoPlayback select more options
+2022-07-19 09:58:58 INFO   Realme_9i_RMX3941.Test10 RecordedVideoPlayback Select Sort BY
+2022-07-19 09:59:03 INFO   Realme_9i_RMX3941.Test10 RecordedVideoPlayback Select Largest first
+2022-07-19 09:59:06 INFO   Realme_9i_RMX3941.Test10 RecordedVideoPlayback Click on first file to play highest recorded resolution video file
+2022-07-19 09:59:06 INFO   Realme_9i_RMX3941.Test10 RecordedVideoPlayback Started video playback
+2022-07-19 09:59:26 INFO   Realme_9i_RMX3941.Test10 RecordedVideoPlayback Tap Somewhere on Screen for contents to visible on Screen
+2022-07-19 09:59:26 INFO   Realme_9i_RMX3941.Test10 RecordedVideoPlayback Fast forward video for 10 seconds
+2022-07-19 09:59:54 INFO   Realme_9i_RMX3941.Test10 RecordedVideoPlayback Pass: Recorded Video play back and fast forward successfull 
+2022-07-19 09:59:54 INFO   Realme_9i_RMX3941.Test10 RecordedVideoPlayback ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-07-19 09:59:54 INFO   Realme_9i_RMX3941.Test10 RecordedVideoPlayback Calling copiedvideosPlayBack() for playing copied video file from Test1 folder
+2022-07-19 10:00:01 INFO   Realme_9i_RMX3941.Test10 CopiedvideosPlayBack Launch file manager application, select uSD card, select Test1 folder, select Videos folder and Play copied videos and fast forward the same 
+2022-07-19 10:00:10 INFO   Realme_9i_RMX3941.Test10 CopiedvideosPlayBack Select external storage
+2022-07-19 10:00:15 INFO   Realme_9i_RMX3941.Test10 CopiedvideosPlayBack Select External Storage
+2022-07-19 10:00:24 INFO   Realme_9i_RMX3941.Test10 CopiedvideosPlayBack Select test_filefolder
+2022-07-19 10:00:28 INFO   Realme_9i_RMX3941.Test10 CopiedvideosPlayBack Select OneGB folder
+2022-07-19 10:00:31 INFO   Realme_9i_RMX3941.Test10 CopiedvideosPlayBack Select video folder
+2022-07-19 10:00:35 INFO   Realme_9i_RMX3941.Test10 CopiedvideosPlayBack Select LG_4K_DEMO_HDR_2018_(60FPS)_ELBA(480p).mp4 file for video playback
+2022-07-19 10:00:35 INFO   Realme_9i_RMX3941.Test10 CopiedvideosPlayBack Tap Somewhere on Screen for contents to visible on Screen
+2022-07-19 10:00:35 INFO   Realme_9i_RMX3941.Test10 CopiedvideosPlayBack Started video playback
+2022-07-19 10:00:55 INFO   Realme_9i_RMX3941.Test10 CopiedvideosPlayBack Tap Somewhere on Screen for contents to visible on Screen
+2022-07-19 10:00:55 INFO   Realme_9i_RMX3941.Test10 CopiedvideosPlayBack Click fast forward button for 10 seconds video forward
+2022-07-19 10:01:18 INFO   Realme_9i_RMX3941.Test10 CopiedvideosPlayBack Pass: 4K Video play back and fast forward is successful 
+2022-07-19 10:01:21 INFO   Realme_9i_RMX3941.Test10 CopiedvideosPlayBack Select FHD 5.1 ( 1350 X 2560 ).webm file for video playback
+2022-07-19 10:01:22 INFO   Realme_9i_RMX3941.Test10 CopiedvideosPlayBack Started video playback
+2022-07-19 10:01:42 INFO   Realme_9i_RMX3941.Test10 CopiedvideosPlayBack Tap Somewhere on Screen for contents to visible on Screen
+2022-07-19 10:01:42 INFO   Realme_9i_RMX3941.Test10 CopiedvideosPlayBack Click fast forward button for 10 seconds video forward
+2022-07-19 10:01:43 INFO   Realme_9i_RMX3941.Test10 CopiedvideosPlayBack Click pause button to stop video
+2022-07-19 10:01:53 INFO   Realme_9i_RMX3941.Test10 CopiedvideosPlayBack Pass: FHD Video play back and fast forward is successful 
+2022-07-19 10:01:53 INFO   Realme_9i_RMX3941.Test10 CopiedvideosPlayBack ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-07-19 10:01:53 INFO   Realme_9i_RMX3941.Test10 CopiedvideosPlayBack Final message: Pass Test10 Pass for Playing Copied Video files, recorded video file and fast forward video play back scenario 
+2022-07-19 10:01:53 INFO   Realme_9i_RMX3941.Test10 CopiedvideosPlayBack Test: End
+2022-07-19 10:01:53 INFO   Realme_9i_RMX3941.Test10 CopiedvideosPlayBack ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

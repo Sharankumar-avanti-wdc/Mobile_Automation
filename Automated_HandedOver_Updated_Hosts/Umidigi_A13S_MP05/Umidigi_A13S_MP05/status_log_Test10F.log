@@ -1,0 +1,35 @@
+2023-02-20 16:22:19 INFO   Umidigi_A13S_MP05.Test10F rearVideoRec Test: Start
+2023-02-20 16:22:19 INFO   Umidigi_A13S_MP05.Test10F rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-20 16:22:19 INFO   Umidigi_A13S_MP05.Test10F rearVideoRec Test10F Scenario is as follows
+2023-02-20 16:22:19 INFO   Umidigi_A13S_MP05.Test10F rearVideoRec 1.Launch Camera application and start back camera video recording for all host applicable resolutions in uSD Card
+2023-02-20 16:22:19 INFO   Umidigi_A13S_MP05.Test10F rearVideoRec 2.Playback Highest resolution recorded video from USD Card, fast forward playback and pause video scenario 
+2023-02-20 16:22:19 INFO   Umidigi_A13S_MP05.Test10F rearVideoRec 3.Playback copied videos from Test1 folder, fast forward and pause scenario
+2023-02-20 16:22:19 INFO   Umidigi_A13S_MP05.Test10F rearVideoRec Setting up the appium desired capabilities
+2023-02-20 16:22:19 INFO   Umidigi_A13S_MP05.Test10F rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-20 16:22:37 INFO   Umidigi_A13S_MP05.Test10F rearVideoRec Launch home screen
+2023-02-20 16:22:56 INFO   Umidigi_A13S_MP05.Test10F rearVideoRec Launch Camera application for front camera video recording
+2023-02-20 16:23:03 INFO   Umidigi_A13S_MP05.Test10F rearVideoRec Test10F_Fcam_res: 3 resolutions supported
+2023-02-20 16:23:03 INFO   Umidigi_A13S_MP05.Test10F rearVideoRec IF Change to uSD card notification pop-up exists select Cancel Option
+2023-02-20 16:23:13 INFO   Umidigi_A13S_MP05.Test10F rearVideoRec change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: A13S, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: A13S46405Y2032702592}, deviceApiLevel: 30, deviceManufacturer: HXY, deviceModel: MP05, deviceName: A13S46405Y2032702592, deviceScreenDensity: 320, deviceScreenSize: 720x1650, deviceUDID: A13S46405Y2032702592, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 60, takesScreenshot: true, udid: A13S46405Y2032702592, viewportRect: {height: 1446, left: 0, top: 60, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: f62c11a6-7105-43af-8e1c-544b31673a6a
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("DON’T ALLOW")}
+2023-02-20 16:23:13 INFO   Umidigi_A13S_MP05.Test10F rearVideoRec Switch to video recording mode
+2023-02-20 16:23:23 INFO   Umidigi_A13S_MP05.Test10F rearVideoRec Switch to front video camera mode
+2023-02-20 16:23:27 INFO   Umidigi_A13S_MP05.Test10F rearVideoRec Switching to Front Video capture
+2023-02-20 16:23:27 INFO   Umidigi_A13S_MP05.Test10F rearVideoRec Select settings option
+2023-02-20 16:23:32 INFO   Umidigi_A13S_MP05.Test10F rearVideoRec Select Storagepath option
+2023-02-20 16:23:38 INFO   Umidigi_A13S_MP05.Test10F rearVideoRec Select SD as storage option
+2023-02-20 16:23:46 INFO   Umidigi_A13S_MP05.Test10F rearVideoRec Select settings option
+2023-02-20 16:23:51 INFO   Umidigi_A13S_MP05.Test10F rearVideoRec Select Video size option
+2023-02-20 16:23:57 INFO   Umidigi_A13S_MP05.Test10F rearVideoRec Select front camera first video resolution: HD 1080p
+2023-02-20 16:24:07 INFO   Umidigi_A13S_MP05.Test10F rearVideoRec Start video recording
+2023-02-20 16:27:07 INFO   Umidigi_A13S_MP05.Test10F rearVideoRec Stop video recording
+2023-02-20 16:27:13 INFO   Umidigi_A13S_MP05.Test10F rearVideoRec Select settings option
+2023-02-20 16:27:18 INFO   Umidigi_A13S_MP05.Test10F rearVideoRec Select Video size option
+2023-02-20 16:27:24 INFO   Umidigi_A13S_MP05.Test10F rearVideoRec Select front camera second video resolution : HD 720p
+2023-02-20 16:27:34 INFO   Umidigi_A13S_MP05.Test10F rearVideoRec Start video recording

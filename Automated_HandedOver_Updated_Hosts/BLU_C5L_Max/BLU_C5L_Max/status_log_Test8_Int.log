@@ -1,0 +1,70 @@
+2023-03-16 12:23:22 INFO   BLU_C5L_Max.Test8_Int recordAudio Test: Start
+2023-03-16 12:23:22 INFO   BLU_C5L_Max.Test8_Int recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-16 12:23:22 INFO   BLU_C5L_Max.Test8_Int recordAudio Test8_Int scenario is as follows
+2023-03-16 12:23:22 INFO   BLU_C5L_Max.Test8_Int recordAudio 1.Launch mobile default voice recording application and set Internal storage option, record audio file for 2 minutes duration
+2023-03-16 12:23:22 INFO   BLU_C5L_Max.Test8_Int recordAudio 2.Launch file manager application and playback recorded audio file from Internal storage, fast forward audio file and pause
+2023-03-16 12:23:22 INFO   BLU_C5L_Max.Test8_Int recordAudio 3.Launch file manager application and playback copied audio files from Internal storage the files are placed in the Test1 folder
+2023-03-16 12:23:22 INFO   BLU_C5L_Max.Test8_Int recordAudio Setting up the appium desired capabilities
+2023-03-16 12:23:22 INFO   BLU_C5L_Max.Test8_Int recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-16 12:23:41 INFO   BLU_C5L_Max.Test8_Int recordAudio Clearing Recent Apps
+2023-03-16 12:23:41 INFO   BLU_C5L_Max.Test8_Int recordAudio Pass: No recent apps found
+2023-03-16 12:23:45 INFO   BLU_C5L_Max.Test8_Int recordAudio Launch Voice recorder application for Audio recording
+2023-03-16 12:23:51 INFO   BLU_C5L_Max.Test8_Int recordAudio If application launch permission pop-up exists accept allow permission to launch application
+2023-03-16 12:24:01 INFO   BLU_C5L_Max.Test8_Int recordAudio  No Launch permission Pop-up  found
+2023-03-16 12:24:21 INFO   BLU_C5L_Max.Test8_Int recordAudio Start Recording
+2023-03-16 12:26:31 INFO   BLU_C5L_Max.Test8_Int recordAudio Stop Recording
+2023-03-16 12:27:12 INFO   BLU_C5L_Max.Test8_Int recordAudio Pass: Test8_Int pass for recording  audio file
+2023-03-16 12:27:12 INFO   BLU_C5L_Max.Test8_Int recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-16 12:27:12 INFO   BLU_C5L_Max.Test8_Int recordAudio Launch File Manager Application to verify recorded audio
+2023-03-16 12:27:20 INFO   BLU_C5L_Max.Test8_Int recordAudio swipe up and search for Internal storage
+2023-03-16 12:27:30 INFO   BLU_C5L_Max.Test8_Int recordAudio Select  Internal storage
+2023-03-16 12:27:35 INFO   BLU_C5L_Max.Test8_Int recordAudio Select list view
+2023-03-16 12:27:39 INFO   BLU_C5L_Max.Test8_Int recordAudio Select Music Folder
+2023-03-16 12:27:44 INFO   BLU_C5L_Max.Test8_Int recordAudio Select Voice recorder
+2023-03-16 12:27:49 INFO   BLU_C5L_Max.Test8_Int recordAudio switch to list view mode
+2023-03-16 12:27:52 INFO   BLU_C5L_Max.Test8_Int recordAudio Select More Options 
+2023-03-16 12:27:57 INFO   BLU_C5L_Max.Test8_Int recordAudio Click On Select All Options
+2023-03-16 12:28:07 INFO   BLU_C5L_Max.Test8_Int recordAudio Test8_Int: 1 Audio file recorded  sucessfully
+2023-03-16 12:28:07 INFO   BLU_C5L_Max.Test8_Int recordAudio Pass: Test8_Int pass for audio recording in uSD Card
+2023-03-16 12:28:07 INFO   BLU_C5L_Max.Test8_Int recordAudio Calling PlayRecordedAudio() to play back recorded file
+2023-03-16 12:28:07 INFO   BLU_C5L_Max.Test8_Int recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-16 12:28:12 INFO   BLU_C5L_Max.Test8_Int PlayRecordedAudio Launch File Manager Application
+2023-03-16 12:28:29 INFO   BLU_C5L_Max.Test8_Int PlayRecordedAudio Select  Internal storage
+2023-03-16 12:28:34 INFO   BLU_C5L_Max.Test8_Int PlayRecordedAudio Select list view
+2023-03-16 12:28:37 INFO   BLU_C5L_Max.Test8_Int PlayRecordedAudio Select Music Folder
+2023-03-16 12:28:42 INFO   BLU_C5L_Max.Test8_Int PlayRecordedAudio Select Voice recorder
+2023-03-16 12:28:48 INFO   BLU_C5L_Max.Test8_Int PlayRecordedAudio switch to list view mode
+2023-03-16 12:28:51 INFO   BLU_C5L_Max.Test8_Int PlayRecordedAudio Click Audio file for play back and fast forward
+2023-03-16 12:28:51 INFO   BLU_C5L_Max.Test8_Int PlayRecordedAudio Started Audio playback
+2023-03-16 12:29:11 INFO   BLU_C5L_Max.Test8_Int PlayRecordedAudio click on fastforward  10 seconds
+2023-03-16 12:29:32 INFO   BLU_C5L_Max.Test8_Int PlayRecordedAudio click on pause
+2023-03-16 12:29:36 INFO   BLU_C5L_Max.Test8_Int PlayRecordedAudio Pass: Test8_Int Pass for playing recorded Audio file
+2023-03-16 12:29:47 INFO   BLU_C5L_Max.Test8_Int PlayRecordedAudio Pass: Test8_Int Pass for playing, fast forward, and pause recorded audio file scenario
+2023-03-16 12:29:47 INFO   BLU_C5L_Max.Test8_Int PlayRecordedAudio Calling PlayCopiedAudioFile() for copied audio files from Test1 folder
+2023-03-16 12:29:47 INFO   BLU_C5L_Max.Test8_Int PlayRecordedAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-16 12:29:59 INFO   BLU_C5L_Max.Test8_Int PlayCopiedAudioFile Launching file manager application
+2023-03-16 12:30:08 INFO   BLU_C5L_Max.Test8_Int PlayCopiedAudioFile Select  Internal storage
+2023-03-16 12:30:18 INFO   BLU_C5L_Max.Test8_Int PlayCopiedAudioFile Select test1
+2023-03-16 12:30:22 INFO   BLU_C5L_Max.Test8_Int PlayCopiedAudioFile Select testfile
+2023-03-16 12:30:25 INFO   BLU_C5L_Max.Test8_Int PlayCopiedAudioFile Select 1GB
+2023-03-16 12:30:28 INFO   BLU_C5L_Max.Test8_Int PlayCopiedAudioFile Select MP3 Files
+2023-03-16 12:30:31 INFO   BLU_C5L_Max.Test8_Int PlayCopiedAudioFile Select Laahe.Mp3.mp3
+2023-03-16 12:30:32 INFO   BLU_C5L_Max.Test8_Int PlayCopiedAudioFile Started video playback
+2023-03-16 12:30:52 INFO   BLU_C5L_Max.Test8_Int PlayCopiedAudioFile Click fast forward button for 10 seconds audio forward
+2023-03-16 12:31:13 INFO   BLU_C5L_Max.Test8_Int PlayCopiedAudioFile Pause audio playback
+2023-03-16 12:31:16 INFO   BLU_C5L_Max.Test8_Int PlayCopiedAudioFile Pass: 1st Copied Audio play back and fast forward is successfull
+2023-03-16 12:31:19 INFO   BLU_C5L_Max.Test8_Int PlayCopiedAudioFile select 11 Rob Thomas - Lonely No More.mp3
+2023-03-16 12:31:19 INFO   BLU_C5L_Max.Test8_Int PlayCopiedAudioFile Started audio playback
+2023-03-16 12:31:39 INFO   BLU_C5L_Max.Test8_Int PlayCopiedAudioFile Click fast forward button for 10 seconds audio forward
+2023-03-16 12:32:00 INFO   BLU_C5L_Max.Test8_Int PlayCopiedAudioFile Pause audio playback
+2023-03-16 12:32:04 INFO   BLU_C5L_Max.Test8_Int PlayCopiedAudioFile Pass: 2nd Copied Audio play back and fast forward is successfull
+2023-03-16 12:32:07 INFO   BLU_C5L_Max.Test8_Int PlayCopiedAudioFile select file_example_MP3_5MG.mp3
+2023-03-16 12:32:07 INFO   BLU_C5L_Max.Test8_Int PlayCopiedAudioFile Started audio playback
+2023-03-16 12:32:27 INFO   BLU_C5L_Max.Test8_Int PlayCopiedAudioFile Click fast forward button for 10 seconds audio forward
+2023-03-16 12:32:48 INFO   BLU_C5L_Max.Test8_Int PlayCopiedAudioFile Pause audio playback
+2023-03-16 12:32:55 INFO   BLU_C5L_Max.Test8_Int PlayCopiedAudioFile Pass: 3rd Copied Audio play back and fast forward is successfull
+2023-03-16 12:32:55 INFO   BLU_C5L_Max.Test8_Int PlayCopiedAudioFile Pass: Test8_Int Pass for Recorded and copied audio play back and fast forward scenario
+2023-03-16 12:32:55 INFO   BLU_C5L_Max.Test8_Int PlayCopiedAudioFile ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-16 12:32:55 INFO   BLU_C5L_Max.Test8_Int PlayCopiedAudioFile Final Message: Pass Test8_Int Pass for Recorded and copied audio play back and fast forward scenario
+2023-03-16 12:32:55 INFO   BLU_C5L_Max.Test8_Int PlayCopiedAudioFile Test: End
+2023-03-16 12:32:55 INFO   BLU_C5L_Max.Test8_Int PlayCopiedAudioFile ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

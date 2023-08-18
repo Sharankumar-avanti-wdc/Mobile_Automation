@@ -1,0 +1,98 @@
+2023-03-16 13:17:30 INFO   Magch_Tablet10_M210.Test10F_Int rearVideoRec Test: Start
+2023-03-16 13:17:30 INFO   Magch_Tablet10_M210.Test10F_Int rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-16 13:17:30 INFO   Magch_Tablet10_M210.Test10F_Int rearVideoRec Test10F_Int Scenario is as follows
+2023-03-16 13:17:30 INFO   Magch_Tablet10_M210.Test10F_Int rearVideoRec 1.Launch Camera application and start back camera video recording for all host applicable resolutions in internal mount uSD card storage
+2023-03-16 13:17:30 INFO   Magch_Tablet10_M210.Test10F_Int rearVideoRec 2.Playback Highest resolution recorded video from internal storage, fast forward playback and pause video scenario 
+2023-03-16 13:17:30 INFO   Magch_Tablet10_M210.Test10F_Int rearVideoRec 3.Playback copied videos from Test1 folder, fast forward and pause scenario
+2023-03-16 13:17:30 INFO   Magch_Tablet10_M210.Test10F_Int rearVideoRec Setting up the appium desired capabilities
+2023-03-16 13:17:30 INFO   Magch_Tablet10_M210.Test10F_Int rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-16 13:17:48 INFO   Magch_Tablet10_M210.Test10F_Int rearVideoRec Launch home screen
+2023-03-16 13:17:59 INFO   Magch_Tablet10_M210.Test10F_Int rearVideoRec Clearing Recent Apps
+2023-03-16 13:18:08 INFO   Magch_Tablet10_M210.Test10F_Int rearVideoRec Launch Camera application for front camera video recording
+2023-03-16 13:18:15 INFO   Magch_Tablet10_M210.Test10F_Int rearVideoRec Test10F_Int_Fcam_res: 3 resolutions supported
+2023-03-16 13:18:15 INFO   Magch_Tablet10_M210.Test10F_Int rearVideoRec IF Change to uSD card notification pop-up exists select Cancel Option
+2023-03-16 13:18:25 INFO   Magch_Tablet10_M210.Test10F_Int rearVideoRec change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: M210, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: 32112505868}, deviceApiLevel: 30, deviceManufacturer: MAGCH, deviceModel: M210, deviceName: 32112505868, deviceScreenDensity: 280, deviceScreenSize: 1200x1920, deviceUDID: 32112505868, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 42, takesScreenshot: true, udid: 32112505868, viewportRect: {height: 1850, left: 0, top: 42, width: 1200}, warnings: {}, webStorageEnabled: false}
+Session ID: 31c5fc78-250c-40e7-9412-76668259267b
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("DENY")}
+2023-03-16 13:18:25 INFO   Magch_Tablet10_M210.Test10F_Int rearVideoRec Switch to video recording mode
+2023-03-16 13:18:35 INFO   Magch_Tablet10_M210.Test10F_Int rearVideoRec Switch to front Camera Mode if current Exiting camera is rear camera Mode
+2023-03-16 13:18:47 INFO   Magch_Tablet10_M210.Test10F_Int rearVideoRec Select settings option
+2023-03-16 13:18:52 INFO   Magch_Tablet10_M210.Test10F_Int rearVideoRec Select Video size(Front camera) option
+2023-03-16 13:18:58 INFO   Magch_Tablet10_M210.Test10F_Int rearVideoRec Select first highest front camera video resolution: HD 720p
+2023-03-16 13:19:09 INFO   Magch_Tablet10_M210.Test10F_Int rearVideoRec Start video recording
+2023-03-16 13:22:09 INFO   Magch_Tablet10_M210.Test10F_Int rearVideoRec Stop video recording
+2023-03-16 13:22:14 INFO   Magch_Tablet10_M210.Test10F_Int rearVideoRec Select settings option
+2023-03-16 13:22:19 INFO   Magch_Tablet10_M210.Test10F_Int rearVideoRec Select Video size option
+2023-03-16 13:22:25 INFO   Magch_Tablet10_M210.Test10F_Int rearVideoRec Select second highest front camera video resolution: SD 480p
+2023-03-16 13:22:35 INFO   Magch_Tablet10_M210.Test10F_Int rearVideoRec Start video recording
+2023-03-16 13:25:35 INFO   Magch_Tablet10_M210.Test10F_Int rearVideoRec Stop video recording
+2023-03-16 13:25:41 INFO   Magch_Tablet10_M210.Test10F_Int rearVideoRec Select settings option
+2023-03-16 13:25:46 INFO   Magch_Tablet10_M210.Test10F_Int rearVideoRec Select Video size option
+2023-03-16 13:25:52 INFO   Magch_Tablet10_M210.Test10F_Int rearVideoRec Select third highest front camera video resolution: CIF
+2023-03-16 13:26:02 INFO   Magch_Tablet10_M210.Test10F_Int rearVideoRec Start video recording
+2023-03-16 13:29:02 INFO   Magch_Tablet10_M210.Test10F_Int rearVideoRec Stop video recording
+2023-03-16 13:29:07 INFO   Magch_Tablet10_M210.Test10F_Int rearVideoRec Switch to rear video camera mode
+2023-03-16 13:29:08 INFO   Magch_Tablet10_M210.Test10F_Int rearVideoRec Clicking photo Tab
+2023-03-16 13:29:22 INFO   Magch_Tablet10_M210.Test10F_Int rearVideoRec Pass: Test10F_Int Pass for front camera video recording
+2023-03-16 13:29:22 INFO   Magch_Tablet10_M210.Test10F_Int rearVideoRec Launch file manager application and verify recorded video captureInternal storage
+2023-03-16 13:29:38 INFO   Magch_Tablet10_M210.Test10F_Int rearVideoRec Swipe up to select Internal storage
+2023-03-16 13:29:38 INFO   Magch_Tablet10_M210.Test10F_Int rearVideoRec Select Internal storage
+2023-03-16 13:29:45 INFO   Magch_Tablet10_M210.Test10F_Int rearVideoRec switch to grid view mode to select DCIM folder
+2023-03-16 13:29:48 INFO   Magch_Tablet10_M210.Test10F_Int rearVideoRec Select DCIM folder
+2023-03-16 13:29:51 INFO   Magch_Tablet10_M210.Test10F_Int rearVideoRec Select camera folder
+2023-03-16 13:29:54 INFO   Magch_Tablet10_M210.Test10F_Int rearVideoRec switch to list view mode 
+2023-03-16 13:29:57 INFO   Magch_Tablet10_M210.Test10F_Int rearVideoRec Click More options
+2023-03-16 13:30:03 INFO   Magch_Tablet10_M210.Test10F_Int rearVideoRec Click Select all
+2023-03-16 13:30:12 INFO   Magch_Tablet10_M210.Test10F_Int rearVideoRec Test10F_Int_Fcam_video: 3 Videos captured successfull
+2023-03-16 13:30:12 INFO   Magch_Tablet10_M210.Test10F_Int rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-16 13:30:12 INFO   Magch_Tablet10_M210.Test10F_Int rearVideoRec Calling VideoPlayBackForSleepWake()
+2023-03-16 13:30:19 INFO   Magch_Tablet10_M210.Test10F_Int VideoPlayBackForSleepWake Launching file manager application
+2023-03-16 13:30:20 INFO   Magch_Tablet10_M210.Test10F_Int VideoPlayBackForSleepWake Swipe up to select Internal storage
+2023-03-16 13:30:21 INFO   Magch_Tablet10_M210.Test10F_Int VideoPlayBackForSleepWake Select Internal storage
+2023-03-16 13:30:27 INFO   Magch_Tablet10_M210.Test10F_Int VideoPlayBackForSleepWake switch to grid view mode to select DCIM folder
+2023-03-16 13:30:30 INFO   Magch_Tablet10_M210.Test10F_Int VideoPlayBackForSleepWake Select DCIM folder
+2023-03-16 13:30:33 INFO   Magch_Tablet10_M210.Test10F_Int VideoPlayBackForSleepWake Select Camera folder
+2023-03-16 13:30:36 INFO   Magch_Tablet10_M210.Test10F_Int VideoPlayBackForSleepWake switch to list view mode 
+2023-03-16 13:30:39 INFO   Magch_Tablet10_M210.Test10F_Int VideoPlayBackForSleepWake Select more options
+2023-03-16 13:30:45 INFO   Magch_Tablet10_M210.Test10F_Int VideoPlayBackForSleepWake Select Sort By option
+2023-03-16 13:30:48 INFO   Magch_Tablet10_M210.Test10F_Int VideoPlayBackForSleepWake Select Sort by Newest date first
+2023-03-16 13:30:52 INFO   Magch_Tablet10_M210.Test10F_Int VideoPlayBackForSleepWake Click on first file to play highest recorded resolution video file
+2023-03-16 13:30:52 INFO   Magch_Tablet10_M210.Test10F_Int VideoPlayBackForSleepWake Started video playback
+2023-03-16 13:31:12 INFO   Magch_Tablet10_M210.Test10F_Int VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-03-16 13:31:12 INFO   Magch_Tablet10_M210.Test10F_Int VideoPlayBackForSleepWake Click pause video button
+2023-03-16 13:31:16 INFO   Magch_Tablet10_M210.Test10F_Int VideoPlayBackForSleepWake Lock Mobile with 30 seconds delay
+2023-03-16 13:33:17 INFO   Magch_Tablet10_M210.Test10F_Int VideoPlayBackForSleepWake Wait For 30Seconds
+2023-03-16 13:33:23 INFO   Magch_Tablet10_M210.Test10F_Int VideoPlayBackForSleepWake Unlock Mobile 
+2023-03-16 13:33:23 INFO   Magch_Tablet10_M210.Test10F_Int VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-03-16 13:33:23 INFO   Magch_Tablet10_M210.Test10F_Int VideoPlayBackForSleepWake Click pause video button
+2023-03-16 13:33:57 INFO   Magch_Tablet10_M210.Test10F_Int VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-03-16 13:33:57 INFO   Magch_Tablet10_M210.Test10F_Int VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-03-16 13:33:57 INFO   Magch_Tablet10_M210.Test10F_Int VideoPlayBackForSleepWake Click pause video button
+2023-03-16 13:34:08 INFO   Magch_Tablet10_M210.Test10F_Int VideoPlayBackForSleepWake Pass: Test10F_Int Pass for Front video play back, Pause,Lock and Unlock Phone Play back from Pause duration Scenario
+2023-03-16 13:34:08 INFO   Magch_Tablet10_M210.Test10F_Int VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-16 13:34:08 INFO   Magch_Tablet10_M210.Test10F_Int VideoPlayBackForSleepWake calling DatamoveOperation() to move front camera recorded videos files to Test10F_Int folder
+2023-03-16 13:34:08 INFO   Magch_Tablet10_M210.Test10F_Int DataMoveOperation Launch home screen
+2023-03-16 13:34:14 INFO   Magch_Tablet10_M210.Test10F_Int DataMoveOperation launch file manager application select Internal storage-->DCIM folder-->Camera folder-->Select all back camera front camera videos create Test10F_Int and cut paste all videos in Test10F_Int folder
+2023-03-16 13:34:20 INFO   Magch_Tablet10_M210.Test10F_Int DataMoveOperation Swipe up to select Internal storage
+2023-03-16 13:34:21 INFO   Magch_Tablet10_M210.Test10F_Int DataMoveOperation Select Internal storage
+2023-03-16 13:34:27 INFO   Magch_Tablet10_M210.Test10F_Int DataMoveOperation Select DCIM folder
+2023-03-16 13:34:30 INFO   Magch_Tablet10_M210.Test10F_Int DataMoveOperation Select camera folder
+2023-03-16 13:34:33 INFO   Magch_Tablet10_M210.Test10F_Int DataMoveOperation Click More options
+2023-03-16 13:34:39 INFO   Magch_Tablet10_M210.Test10F_Int DataMoveOperation Click Select all
+2023-03-16 13:34:43 INFO   Magch_Tablet10_M210.Test10F_Int DataMoveOperation Click More options
+2023-03-16 13:34:49 INFO   Magch_Tablet10_M210.Test10F_Int DataMoveOperation Select move to option
+2023-03-16 13:34:56 INFO   Magch_Tablet10_M210.Test10F_Int DataMoveOperation Select Internal storage
+2023-03-16 13:35:02 INFO   Magch_Tablet10_M210.Test10F_Int DataMoveOperation Select ADD NEW Folder option
+2023-03-16 13:35:09 INFO   Magch_Tablet10_M210.Test10F_Int DataMoveOperation Name folder as Test10F_Int
+2023-03-16 13:35:15 INFO   Magch_Tablet10_M210.Test10F_Int DataMoveOperation Accept create folder
+2023-03-16 13:37:16 INFO   Magch_Tablet10_M210.Test10F_Int DataMoveOperation Cut paste  video files operation completed successfully
+2023-03-16 13:37:19 INFO   Magch_Tablet10_M210.Test10F_Int DataMoveOperation Pass: Test10F_Int Pass for data move operation successfully
+2023-03-16 13:37:19 INFO   Magch_Tablet10_M210.Test10F_Int DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-16 13:37:19 INFO   Magch_Tablet10_M210.Test10F_Int VideoPlayBackForSleepWake Final Message: Pass Test10F_Int Pass for front camera  video recording, Pause Video Playback scenario and data move operation scenario
+2023-03-16 13:37:19 INFO   Magch_Tablet10_M210.Test10F_Int VideoPlayBackForSleepWake Test: End
+2023-03-16 13:37:19 INFO   Magch_Tablet10_M210.Test10F_Int VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

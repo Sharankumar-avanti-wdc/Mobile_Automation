@@ -1,0 +1,1534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="5,105.344" tests="8" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="fileName" value="testngMain.xml"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="totalPictureCountRear" value="12"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="totalPictureCountFront" value="12"/>
+    <property name="java.class.path" value="C:\Users\sandisk\Android11\Eclipse_Workspace\Samsung_Galaxy_A33_5G_SMA336EDS\target\test-classes;C:\Users\sandisk\Android11\Eclipse_Workspace\Samsung_Galaxy_A33_5G_SMA336EDS\target\classes;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\sandisk\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\sandisk\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\sandisk\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\sandisk\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\sandisk\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\sandisk\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\sandisk\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\sandisk\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\sandisk\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\sandisk\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-android-driver\2.39.0\selenium-android-driver-2.39.0.jar;C:\Users\sandisk\.m2\repository\io\appium\java-client\7.0.0\java-client-7.0.0.jar;C:\Users\sandisk\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\sandisk\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\sandisk\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\sandisk\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\sandisk\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\sandisk\.m2\repository\cglib\cglib\3.2.8\cglib-3.2.8.jar;C:\Users\sandisk\.m2\repository\org\ow2\asm\asm\6.2.1\asm-6.2.1.jar;C:\Users\sandisk\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\sandisk\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\sandisk\.m2\repository\commons-validator\commons-validator\1.6\commons-validator-1.6.jar;C:\Users\sandisk\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\sandisk\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\sandisk\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\sandisk\.m2\repository\org\apache\commons\commons-lang3\3.8\commons-lang3-3.8.jar;C:\Users\sandisk\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\sandisk\.m2\repository\org\springframework\spring-context\5.1.0.RELEASE\spring-context-5.1.0.RELEASE.jar;C:\Users\sandisk\.m2\repository\org\springframework\spring-aop\5.1.0.RELEASE\spring-aop-5.1.0.RELEASE.jar;C:\Users\sandisk\.m2\repository\org\springframework\spring-beans\5.1.0.RELEASE\spring-beans-5.1.0.RELEASE.jar;C:\Users\sandisk\.m2\repository\org\springframework\spring-core\5.1.0.RELEASE\spring-core-5.1.0.RELEASE.jar;C:\Users\sandisk\.m2\repository\org\springframework\spring-jcl\5.1.0.RELEASE\spring-jcl-5.1.0.RELEASE.jar;C:\Users\sandisk\.m2\repository\org\springframework\spring-expression\5.1.0.RELEASE\spring-expression-5.1.0.RELEASE.jar;C:\Users\sandisk\.m2\repository\org\aspectj\aspectjweaver\1.9.1\aspectjweaver-1.9.1.jar;C:\Users\sandisk\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\sandisk\.m2\repository\org\testng\testng\6.1.1\testng-6.1.1.jar;C:\Users\sandisk\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\sandisk\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\sandisk\.m2\repository\com\beust\jcommander\1.12\jcommander-1.12.jar;C:\Users\sandisk\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\sandisk\AppData\Local\Temp\surefire7932413570157741912\surefirebooter6274145690495679070.jar C:\Users\sandisk\AppData\Local\Temp\surefire7932413570157741912 2023-01-16T16-27-07_636-jvmRun1 surefire4465231194945438930tmp surefire_0480653183745125247tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\sandisk\Android11\Eclipse_Workspace\Samsung_Galaxy_A33_5G_SMA336EDS\target\test-classes;C:\Users\sandisk\Android11\Eclipse_Workspace\Samsung_Galaxy_A33_5G_SMA336EDS\target\classes;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\sandisk\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\sandisk\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\sandisk\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\sandisk\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\sandisk\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\sandisk\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\sandisk\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\sandisk\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\sandisk\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\sandisk\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-android-driver\2.39.0\selenium-android-driver-2.39.0.jar;C:\Users\sandisk\.m2\repository\io\appium\java-client\7.0.0\java-client-7.0.0.jar;C:\Users\sandisk\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\sandisk\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\sandisk\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\sandisk\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\sandisk\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\sandisk\.m2\repository\cglib\cglib\3.2.8\cglib-3.2.8.jar;C:\Users\sandisk\.m2\repository\org\ow2\asm\asm\6.2.1\asm-6.2.1.jar;C:\Users\sandisk\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\sandisk\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\sandisk\.m2\repository\commons-validator\commons-validator\1.6\commons-validator-1.6.jar;C:\Users\sandisk\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\sandisk\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\sandisk\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\sandisk\.m2\repository\org\apache\commons\commons-lang3\3.8\commons-lang3-3.8.jar;C:\Users\sandisk\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\sandisk\.m2\repository\org\springframework\spring-context\5.1.0.RELEASE\spring-context-5.1.0.RELEASE.jar;C:\Users\sandisk\.m2\repository\org\springframework\spring-aop\5.1.0.RELEASE\spring-aop-5.1.0.RELEASE.jar;C:\Users\sandisk\.m2\repository\org\springframework\spring-beans\5.1.0.RELEASE\spring-beans-5.1.0.RELEASE.jar;C:\Users\sandisk\.m2\repository\org\springframework\spring-core\5.1.0.RELEASE\spring-core-5.1.0.RELEASE.jar;C:\Users\sandisk\.m2\repository\org\springframework\spring-jcl\5.1.0.RELEASE\spring-jcl-5.1.0.RELEASE.jar;C:\Users\sandisk\.m2\repository\org\springframework\spring-expression\5.1.0.RELEASE\spring-expression-5.1.0.RELEASE.jar;C:\Users\sandisk\.m2\repository\org\aspectj\aspectjweaver\1.9.1\aspectjweaver-1.9.1.jar;C:\Users\sandisk\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\sandisk\.m2\repository\org\testng\testng\6.1.1\testng-6.1.1.jar;C:\Users\sandisk\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\sandisk\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\sandisk\.m2\repository\com\beust\jcommander\1.12\jcommander-1.12.jar;C:\Users\sandisk\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\sandisk"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_202\jre"/>
+    <property name="basedir" value="C:\Users\sandisk\Android11\Eclipse_Workspace\Samsung_Galaxy_A33_5G_SMA336EDS"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="mountUnmountCycle" value="1"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\sandisk\AppData\Local\Temp\surefire7932413570157741912\surefirebooter6274145690495679070.jar"/>
+    <property name="recordingDurationRear" value="180"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_202-b08"/>
+    <property name="user.name" value="sandisk"/>
+    <property name="path.separator" value=";"/>
+    <property name="recordingDurationfront" value="180"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\sandisk\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\sandisk\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_202"/>
+    <property name="user.dir" value="C:\Users\sandisk\Android11\Eclipse_Workspace\Samsung_Galaxy_A33_5G_SMA336EDS"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.util.logging.SimpleFormatter.format" value="%1$tY-%1$tm-%1$td %1$tH:%1$tM:%1$tS %4$-6s %2$s %5$s%6$s%n"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="Tolerance_Level" value="75"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\ant\apache-ant-1.9.15\bin;C:\Android\Android_SDK\Android-sdk\bin;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Android\Android_SDK\Android-sdk\tools;C:\Android\Android_SDK\Android-sdk\platform-tools;C:\Users\sandisk\Android11\Maven\apache-maven-3.8.4\bin;C:\Users\sandisk\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.202-b08"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="start" classname="Samsung_Galaxy_A33_5G_SMA336EDS.Test0" time="1,042.703">
+    <system-out><![CDATA[Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test0 Scenario is as follows 
+1.Unlock phone, clear recent apps, clear internal memory
+2.Call Image() and Capture Rear camera 25 images for default resolution in uSD card and Verify the data capture
+3.Call Video() and record Rear camera video of first 2 resloutions for 2 minutes of duration in uSD Card and verify the same
+4.Call Format() and format uSD card with data and verify the same
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Setting up the appium desired capabilities
+Unlock phone if locked
+launch home screen
+Clearing Recent Apps
+Pass for clearing Recent apps 
+Launch file manager application for clearing phone internal memory
+Swipe up
+Select Internal storage
+Click More options
+Click select all
+Click More options
+Select delete permanently option
+Accept allow delete pop-up
+Pass: Clearing phone internal memory is successfull
+===============================================================================================================================================
+Calling Image() for rear Image capture in uSD Card and Verify the Captured images
+Launch Camera Application for Rear picture capture
+If change to uSD card permisssion pop-up exists during camera application launch select cancel option
+change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy A33 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 13, udid: RZCT30ZLPDL}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-A336E, deviceName: RZCT30ZLPDL, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RZCT30ZLPDL, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 65, takesScreenshot: true, udid: RZCT30ZLPDL, viewportRect: {height: 2120, left: 0, top: 65, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: ba3852db-5610-4dbe-a0a7-9556c1245beb
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+if Location permisson Pop Exists during camera application launch select cancel option Select Cancel Option
+Location access permission pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy A33 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 13, udid: RZCT30ZLPDL}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-A336E, deviceName: RZCT30ZLPDL, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RZCT30ZLPDL, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 65, takesScreenshot: true, udid: RZCT30ZLPDL, viewportRect: {height: 2120, left: 0, top: 65, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: ba3852db-5610-4dbe-a0a7-9556c1245beb
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+Switch To rear Camera Mode if current Exiting camera is Front camera Mode
+Select settings option
+Search for SD Card option
+Select SD as storage option
+Capture Image of Default Resolution
+Captures default resolution image 0
+Captures default resolution image 1
+Captures default resolution image 2
+Captures default resolution image 3
+Captures default resolution image 4
+Captures default resolution image 5
+Captures default resolution image 6
+Captures default resolution image 7
+Captures default resolution image 8
+Captures default resolution image 9
+Captures default resolution image 10
+Captures default resolution image 11
+Captures default resolution image 12
+Captures default resolution image 13
+Captures default resolution image 14
+Captures default resolution image 15
+Captures default resolution image 16
+Captures default resolution image 17
+Captures default resolution image 18
+Captures default resolution image 19
+Captures default resolution image 20
+Captures default resolution image 21
+Captures default resolution image 22
+Captures default resolution image 23
+Captures default resolution image 24
+Pass:Total Number Of Image captured 25 is successfull
+Launch file manager application and verify image capture in uSD card
+Select SD card
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+Select camera folder
+switch to list view mode to select DCIM folder
+Click More options
+Click select all
+Pass: Total Number Of Image captured 25 in uSD card is successfull
+Calling video() for rear video recording in uSD card and verifying data capture.
+===============================================================================================================================================
+Calling video() for rear video recording in uSD card and verifying data capture.
+Clear recent apps
+Launch Camera Application for rear camera video recording
+If Change to SD Card notification pop-up exists during camear application launch select Cancel Option
+change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy A33 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 13, udid: RZCT30ZLPDL}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-A336E, deviceName: RZCT30ZLPDL, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RZCT30ZLPDL, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 65, takesScreenshot: true, udid: RZCT30ZLPDL, viewportRect: {height: 2120, left: 0, top: 65, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: ba3852db-5610-4dbe-a0a7-9556c1245beb
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+If Location Permission Request Pop Exists select  Cancel Option
+Location access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy A33 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 13, udid: RZCT30ZLPDL}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-A336E, deviceName: RZCT30ZLPDL, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RZCT30ZLPDL, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 65, takesScreenshot: true, udid: RZCT30ZLPDL, viewportRect: {height: 2120, left: 0, top: 65, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: ba3852db-5610-4dbe-a0a7-9556c1245beb
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+Switch To rear Camera mode if current Exiting camera is Front camera
+Curent camera existing camera mode is rear camera mode no need switch camera
+Switch to video mode
+Select settings option
+Click on settings option
+Search for SD Card option
+Select SD as storage option
+select rear video size option
+Select First highest rear camera Video Resolution:BACK_CAMCORDER_RESOLUTION_FHD_30
+Start video recording
+Stop video recording
+select rear video size option
+Select Second highest rear camera video resolution :BACK_CAMCORDER_RESOLUTION_HD_30
+Start video recording
+Stop video recording
+Pass: Rear camera video recording is successfull
+Launch file manager application and verify video capture in uSD card
+Swipe up
+Select SD card
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+Select camera folder
+switch to list view mode to select DCIM folder
+Click More options
+Click select all
+Pass: 2 Videos recorded Successfully
+Pass: A total of 27 files present in uSD card before Format
+calling Format() for format with data scenario
+===============================================================================================================================================
+calling Format() for format with data scenario
+Launch Settings application for Format uSD card with Data 
+Scroll up and select Battery and device care option
+Select battery and device care
+Select storage
+Select Format option
+Started formatting, waiting till it gets formatted
+Format uSD is successfull
+Pass: Format uSD with Data is successfull
+Launch file manager application and Verify data format
+Select SD card
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+switch to list view mode to select DCIM folder
+Pass:Images and videos are not present in the DCIM folder, CARD format is successfully completed 
+Final Message: Pass Test0 pass for format uSd card with data scenario Operation
+Test:End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+]]></system-out>
+    <system-err><![CDATA[2023-01-16 16:27:16 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+2023-01-16 16:27:23 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy A33 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 13, udid: RZCT30ZLPDL}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-A336E, deviceName: RZCT30ZLPDL, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RZCT30ZLPDL, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 65, takesScreenshot: true, udid: RZCT30ZLPDL, viewportRect: {height: 2120, left: 0, top: 65, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: ba3852db-5610-4dbe-a0a7-9556c1245beb
+*** Element info: {Using=xpath, value=//*[@resource-id='com.google.android.apps.nbu.files:id/agree_button']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at Samsung_Galaxy_A33_5G_SMA336EDS.Test0.start(Test0.java:156)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:673)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:842)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1166)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1178)
+	at org.testng.TestRunner.privateRun(TestRunner.java:757)
+	at org.testng.TestRunner.run(TestRunner.java:608)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1158)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1154)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1083)
+	at org.testng.TestNG.run(TestNG.java:999)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy A33 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 13, udid: RZCT30ZLPDL}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-A336E, deviceName: RZCT30ZLPDL, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RZCT30ZLPDL, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 65, takesScreenshot: true, udid: RZCT30ZLPDL, viewportRect: {height: 2120, left: 0, top: 65, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: ba3852db-5610-4dbe-a0a7-9556c1245beb
+*** Element info: {Using=xpath, value=//*[@resource-id='com.google.android.apps.nbu.files:id/agree_button']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at Samsung_Galaxy_A33_5G_SMA336EDS.Test0.Images(Test0.java:365)
+	at Samsung_Galaxy_A33_5G_SMA336EDS.Test0.start(Test0.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:673)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:842)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1166)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1178)
+	at org.testng.TestRunner.privateRun(TestRunner.java:757)
+	at org.testng.TestRunner.run(TestRunner.java:608)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1158)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1154)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1083)
+	at org.testng.TestNG.run(TestNG.java:999)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy A33 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 13, udid: RZCT30ZLPDL}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-A336E, deviceName: RZCT30ZLPDL, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RZCT30ZLPDL, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 65, takesScreenshot: true, udid: RZCT30ZLPDL, viewportRect: {height: 2120, left: 0, top: 65, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: ba3852db-5610-4dbe-a0a7-9556c1245beb
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Close all")}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.FindsByAndroidUIAutomator.findElementByAndroidUIAutomator(FindsByAndroidUIAutomator.java:38)
+	at Samsung_Galaxy_A33_5G_SMA336EDS.Test0.Video(Test0.java:497)
+	at Samsung_Galaxy_A33_5G_SMA336EDS.Test0.Images(Test0.java:444)
+	at Samsung_Galaxy_A33_5G_SMA336EDS.Test0.start(Test0.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:673)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:842)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1166)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1178)
+	at org.testng.TestRunner.privateRun(TestRunner.java:757)
+	at org.testng.TestRunner.run(TestRunner.java:608)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1158)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1154)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1083)
+	at org.testng.TestNG.run(TestNG.java:999)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy A33 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 13, udid: RZCT30ZLPDL}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-A336E, deviceName: RZCT30ZLPDL, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RZCT30ZLPDL, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 65, takesScreenshot: true, udid: RZCT30ZLPDL, viewportRect: {height: 2120, left: 0, top: 65, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: ba3852db-5610-4dbe-a0a7-9556c1245beb
+*** Element info: {Using=xpath, value=//*[@resource-id='com.google.android.apps.nbu.files:id/agree_button']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at Samsung_Galaxy_A33_5G_SMA336EDS.Test0.Video(Test0.java:664)
+	at Samsung_Galaxy_A33_5G_SMA336EDS.Test0.Images(Test0.java:444)
+	at Samsung_Galaxy_A33_5G_SMA336EDS.Test0.start(Test0.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:673)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:842)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1166)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1178)
+	at org.testng.TestRunner.privateRun(TestRunner.java:757)
+	at org.testng.TestRunner.run(TestRunner.java:608)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1158)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1154)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1083)
+	at org.testng.TestNG.run(TestNG.java:999)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy A33 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 13, udid: RZCT30ZLPDL}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-A336E, deviceName: RZCT30ZLPDL, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RZCT30ZLPDL, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 65, takesScreenshot: true, udid: RZCT30ZLPDL, viewportRect: {height: 2120, left: 0, top: 65, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: ba3852db-5610-4dbe-a0a7-9556c1245beb
+*** Element info: {Using=xpath, value=//*[@resource-id='com.google.android.apps.nbu.files:id/agree_button']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at Samsung_Galaxy_A33_5G_SMA336EDS.Test0.Format(Test0.java:883)
+	at Samsung_Galaxy_A33_5G_SMA336EDS.Test0.Video(Test0.java:740)
+	at Samsung_Galaxy_A33_5G_SMA336EDS.Test0.Images(Test0.java:444)
+	at Samsung_Galaxy_A33_5G_SMA336EDS.Test0.start(Test0.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:673)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:842)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1166)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1178)
+	at org.testng.TestRunner.privateRun(TestRunner.java:757)
+	at org.testng.TestRunner.run(TestRunner.java:608)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1158)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1154)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1083)
+	at org.testng.TestNG.run(TestNG.java:999)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy A33 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 13, udid: RZCT30ZLPDL}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-A336E, deviceName: RZCT30ZLPDL, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RZCT30ZLPDL, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 65, takesScreenshot: true, udid: RZCT30ZLPDL, viewportRect: {height: 2120, left: 0, top: 65, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: ba3852db-5610-4dbe-a0a7-9556c1245beb
+*** Element info: {Using=xpath, value=//*[@text='Camera']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at Samsung_Galaxy_A33_5G_SMA336EDS.Test0.Format(Test0.java:923)
+	at Samsung_Galaxy_A33_5G_SMA336EDS.Test0.Video(Test0.java:740)
+	at Samsung_Galaxy_A33_5G_SMA336EDS.Test0.Images(Test0.java:444)
+	at Samsung_Galaxy_A33_5G_SMA336EDS.Test0.start(Test0.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:673)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:842)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1166)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1178)
+	at org.testng.TestRunner.privateRun(TestRunner.java:757)
+	at org.testng.TestRunner.run(TestRunner.java:608)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1158)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1154)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1083)
+	at org.testng.TestNG.run(TestNG.java:999)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]></system-err>
+  </testcase>
+  <testcase name="Format" classname="Samsung_Galaxy_A33_5G_SMA336EDS.Test3" time="304.372">
+    <system-out><![CDATA[Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test3 Scenario is as follows
+1.Unmount,mount, Format uSD card for specified number of times and verify data format 
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch Homescreen and clear recent apps
+Clear recent apps is successfull
+Number of Unmount,mount and Format cycles = 1
+Launch  setting application to format uSD card
+Scroll up and select Battery and device care option
+Select battery and device care
+Select storag
+Select more options
+Select Unmount option
+Select mount option
+Select more options
+Select Format option
+Unmount, mount and Format uSD card cycle:01 completed succesfully
+Pass: Test3 Pass for MOunt,unmount and Formating the uSD Card
+Launch file manager application and verify data format
+Select SD card
+switch to gird view mode
+Check for camera folder. If present print check for video and image files if video and images file present print fail message
+Pass: Images and videos are not present in the DCIM folder, CARD format is successfully completed 
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Final Message: Pass Test3 Pass for Unmount,Mount and Formattig uSD Card
+Test:End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+]]></system-out>
+    <system-err><![CDATA[2023-01-16 16:44:47 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+2023-01-16 16:44:53 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy A33 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 13, udid: RZCT30ZLPDL}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-A336E, deviceName: RZCT30ZLPDL, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RZCT30ZLPDL, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 65, takesScreenshot: true, udid: RZCT30ZLPDL, viewportRect: {height: 2120, left: 0, top: 65, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 499eb8ce-5ff1-4691-ab35-c7ea5396b1eb
+*** Element info: {Using=xpath, value=//*[@resource-id='com.google.android.apps.nbu.files:id/agree_button']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at Samsung_Galaxy_A33_5G_SMA336EDS.Test3.Format(Test3.java:246)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:673)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:842)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1166)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1178)
+	at org.testng.TestRunner.privateRun(TestRunner.java:757)
+	at org.testng.TestRunner.run(TestRunner.java:608)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1158)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1154)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1083)
+	at org.testng.TestNG.run(TestNG.java:999)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy A33 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 13, udid: RZCT30ZLPDL}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-A336E, deviceName: RZCT30ZLPDL, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RZCT30ZLPDL, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 65, takesScreenshot: true, udid: RZCT30ZLPDL, viewportRect: {height: 2120, left: 0, top: 65, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 499eb8ce-5ff1-4691-ab35-c7ea5396b1eb
+*** Element info: {Using=xpath, value=//*[@text='Camera']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at Samsung_Galaxy_A33_5G_SMA336EDS.Test3.Format(Test3.java:281)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:673)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:842)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1166)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1178)
+	at org.testng.TestRunner.privateRun(TestRunner.java:757)
+	at org.testng.TestRunner.run(TestRunner.java:608)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1158)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1154)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1083)
+	at org.testng.TestNG.run(TestNG.java:999)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]></system-err>
+  </testcase>
+  <testcase name="CopyPaste" classname="Samsung_Galaxy_A33_5G_SMA336EDS.Test18" time="1,012.111">
+    <system-out><![CDATA[Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test18 Scenario is as follows
+1.Pushing 1GB zip File to Host Internal Memory via server folder named as Test1 
+2.Extracting zip file in Host internal memory
+3.Copy Paste 1GB file (Test1) from host internal memory to uSD Card, Create a folder named Test2 in uSD Card, Copy paste 1GB Folder(Test1) From internal to external inside folder Test2 and Vice versa
+4.Create folder name(New_Scenario in External memory, select folder name(Test2) from internal memory and perform cut paste operation from internla to external memory
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch Home Screen application and clear recent apps
+Clearing recent apps
+Pushing zip file to host internal memory
+Push file is successfull
+Pushing 1GB zip File to Host internal storage via appium server is successfull
+Launching file manager application to extract zip and perform copy paste, cut paste operation from internal memory to external memory
+Select Internal storage
+Select Test1 Folder internal storage
+Select  zip file
+Select Extract option
+Extracting Push zip file as Folder named Test1
+Extracting Complete
+Select Test1 folder from internal storage
+Select More Options
+Select Copy to
+Select uSD Card
+Select Copy here
+Copy paste Test1 folder from Internal to external storage is successfull
+Select SD card
+Select More Options
+Select create folder option
+Name folder as Test2
+Test2 folder created successfully in external storage
+Select Test1 Folder from external storage
+Select More Options
+Select Copy to
+Select uSD Card
+Select Test2 Folder
+Select Copy here
+Copy paste Test1 folder data to Test2 folder within external storage is successfull
+Select More Options
+Select create folder option
+Name folder as New_Scenario
+Select Test2 Folder from External Storage
+Select More Options
+Select Copy to
+Select internal storage
+Select Copy here
+Pass: Test18 Pass copy paste operation from Internal to external and Vice-versa scenario
+Select Test2 Folder from internal Storage
+Select More Options
+Select Move to
+Select uSD Card
+Select New_scenario folder
+Select Move here
+Cut paste Operation Completed Successfully
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Final Message: Pass Test18 pass for copy paste & cut paste operation
+Test:End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+]]></system-out>
+    <system-err><![CDATA[2023-01-16 16:49:58 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+2023-01-16 16:50:09 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="recordAudio" classname="Samsung_Galaxy_A33_5G_SMA336EDS.Test8" time="619.289">
+    <system-out><![CDATA[Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test8 scenario is as follows
+1.Launch mobile default voice recording application and set uSD card storage option, record audio file for 2 minutes duration
+2.Launch file manager application and playback recorded audio file from external storage, fast forward audio file and pause
+3.Launch file manager application and playback copied audio files from external storage the files are placed in the Test1 folder
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch Home screen application and clear recent apps
+Clearing recent apps
+Launch Voice recorder application for Audio recording
+ No Launch permission Pop-up  found
+If save to uSD card pop-up exists select Save to SD card option
+Select More options and Set uSD card as storage option
+Select settings option
+Clicking on more options
+Select uSD card
+Start Recording
+Stop Recording
+Stop and Save Recording
+Pass: Test8 pass for recording an audio file
+Calling PlayRecordedAudio() for Audio play back and fast forward scenario
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Calling PlayRecordedAudio() for Audio play back and fast forward scenario
+Launch home screen
+Clearing recent apps
+Launch File Manager Application and verfify recorded audio file in uSD card, and perform audio playback fastforward scenario
+Select external storage
+switch to grid view mode to select Test1 folder
+Select Music Folder
+switch to list view mode
+Select Voice recorder
+Recorded audio file present in uSD card succesfully
+Click Audio file for playback and fast forward
+Playing audio playback
+Fast Forwarding audio playback for 10 sceonds duration
+Continue audio playback
+Pause Audio playback
+Pass: Test8 Pass for playing, fast forward, and pause recorded audio file scenario
+Calling PlayCopiedAudioFile() for copied audio files from Test1 folder
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Calling PlayCopiedAudioFile() for copied audio files from Test1 folder
+Launch home screen and clear recent apps
+Launch File Manager Application and select SD card
+Select external storage
+switch to grid view mode to select Test1 folder
+Select Test1 folder from external storage
+Select test_file folder
+Select 1GB folder
+switch back to list  view mode
+Select MP3 files folder from uSD card
+Select First audio file for playback
+Playing audio playback
+Fast forwarding audio for 30 seconds
+Continue audio playback
+Pause audio playback
+Pass: First Audio Playback is Successfull 
+Select second audio file for playback
+Playing audio playback
+Fast forwarding audio for 30 seconds
+Continue audio playback
+Pause audio playback
+Pass: second Audio Play back is succssfull
+Select third audio file for playback
+Playing third audio playback
+Fast forwarding audio playback for 30 seconds duration
+Continue audio playback
+Pause Audio playback
+Pass: Third audio playback is successfull
+Pass: Test8 Pass for Recorded and copied audio play back and fast forward scenario 
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Final Message: Pass Test8 Pass for playing recorded audio playback and  copied audio playback and fast forward scenario
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+]]></system-out>
+    <system-err><![CDATA[2023-01-16 17:06:58 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+2023-01-16 17:07:09 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="rearVideoRec" classname="Samsung_Galaxy_A33_5G_SMA336EDS.Test10" time="746.412">
+    <system-out><![CDATA[Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test10 Scenario is as follows
+1.Launch Camera application and start rear camera video recording for all host applicable resolutions in uSD Card and verify recorded data
+2.Playback Highest resolution recorded video from uSD Card, fast forward playback and pause video playback scenario 
+3.Playback copied videos from Test1 folder, fast forward and pause video playback scenario
+4.Move rear camera recorded videos from camera folder to Test10 folder
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch home screen
+Clearing Recent Apps
+Launch Camera Application for rear camera video recording
+Test10_Bcam_res: 1 resolutions supported
+If change to uSD card pop-up exists select cancel
+change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy A33 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 13, udid: RZCT30ZLPDL}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-A336E, deviceName: RZCT30ZLPDL, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RZCT30ZLPDL, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 65, takesScreenshot: true, udid: RZCT30ZLPDL, viewportRect: {height: 2120, left: 0, top: 65, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: bad5826b-df5c-4105-99c6-071ec6f69a24
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+If Location access Permission Request Pop Exists Click on Cancel. 
+Location access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy A33 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 13, udid: RZCT30ZLPDL}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-A336E, deviceName: RZCT30ZLPDL, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RZCT30ZLPDL, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 65, takesScreenshot: true, udid: RZCT30ZLPDL, viewportRect: {height: 2120, left: 0, top: 65, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: bad5826b-df5c-4105-99c6-071ec6f69a24
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+Switch to rear Camera mode if current Exiting camera is Front camera mode
+Current camera mode is rear camera mode no need switch
+Switch to video mode
+Click On Settings and set uSD card as storage option
+Swipe Up and select storage location option
+Select SD as storage option
+Select Rear video size
+Host unable to select video resolutions during automation. !Hence recording only default video resolution
+recordingDurationRear = 180 Seconds
+Start video recording
+Stop video recording
+launch file manager application and verify data
+Swipe up to select uSD card
+Select SD card
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Test10_Bcam_video: 1 video captured successfully
+Calling RecordedVideoPlayback() for Playing Highest record video, fast forward video play back scenario
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Calling RecordedVideoPlayback() for Playing Highest record video, fast forward video play back scenario
+Launch Home screen and clear recent apps
+Clear recent apps
+Launch file manager application for rear camera video play back
+Swipe up and select uSD card
+Select External storage
+switch to gird view mode
+Swipe up and select DCIM folder
+Select DCIM folder
+Select Camera folder
+switch to list view mode
+select more options
+Select Sort BY
+Select Largest first
+Playing higest resolution recorded video file from external storage
+Started video playback
+Tap Somewhere on Screen for contents to visible on Screen
+Fast forward video for 10 seconds
+Continue video playback
+Pause video playback
+Pass: Recorded Video play back and fast forward successfull
+Calling DataMovementOperation() to move recorded rear camer videos to Test10 Folder 
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Calling DataMovementOperation() to move recorded rear camer videos to Test10 Folder 
+Re-launch file manager application and select external storage for data move operation, select all rear camera videos present in camera folder and move to Test10 folder
+Select external storage
+switch to grid view mode and select DCIM folder
+Select DCIM folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Click More options
+select move to option
+select uSD Card
+Select ADD NEW Folder option
+Name folder as Test10
+Accept create folder
+Cut paste  video files operation completed successfully
+Test10: Data move operation completed successfully
+Pass: Test10 Pass for data move operation successfully
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Calling copiedvideosPlayBack() for playing copied video file from Test1 folder
+launch  Home screen and clear recent apps
+Clearing recent apps
+Launch file manager application, select uSD card, select Test1 folder, select Videos folder and Play copied videos and fast forward the same 
+Select external storage
+switch to gird view mode
+Select Test1 folder from external storage
+Select Test1 folder
+Select OneGB folder
+Select video folder
+switch to list view mode
+Select LG_4K_DEMO_HDR_2018_(60FPS)_ELBA(480p).mp4 file for video playback
+Started video playback
+Tap Somewhere on Screen for contents to visible on Screen
+Click fast forward button for 10 seconds video forward
+Continue video playback
+Pause video playback
+Pass: 4K Video play back and fast forward is successful 
+Select FHD 5.1 ( 1350 X 2560 ).webm file for video playback
+Started video playback
+Started video playback
+Tap Somewhere on Screen for contents to visible on Screen
+Click fast forward button for 10 seconds video forward
+Continue video playback
+Pause video playback
+Pass: FHD Video play back and fast forward is successful 
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Final Message: Pass Test10 Pass for Playing Copied Video files, recorded video file and fast forward video play back scenario and Data move operation
+Test:End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+]]></system-out>
+    <system-err><![CDATA[2023-01-16 17:17:24 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+2023-01-16 17:17:30 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="rearVideoRec" classname="Samsung_Galaxy_A33_5G_SMA336EDS.Test10F" time="602.785">
+    <system-out><![CDATA[Test:Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test10F Scenario is as follows
+1.Launch Camera application and start front camera video recording for all host applicable resolutions in uSD Card
+2.Playback front Highest recorded video from uSD card for 30 seconds, pause video playback, lock mobile and wait 30 seconds, unlock mobile and playback video from pause video duration
+3.Move front camera recorded videos from Camera folder to Test10F folder
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch Home screen and clear recent AppsClearing Recent Apps
+Launch Camera Application for rear camera video recording
+Test10F_Fcam_res: 1 resolutions supported
+If change to uSD card pop-up exists select Cancel
+change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy A33 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 13, udid: RZCT30ZLPDL}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-A336E, deviceName: RZCT30ZLPDL, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RZCT30ZLPDL, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 65, takesScreenshot: true, udid: RZCT30ZLPDL, viewportRect: {height: 2120, left: 0, top: 65, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: a255ebbc-7a04-4f05-a834-205d4ab6b83c
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+If Location access Permission Request Pop Exists Click on Cancel. 
+Switch To front Camera mode if current Exiting camera is rear camera mode
+Switch to video mode
+Select settings option
+Swipe up and Select Storage location
+Select uSD card as Storage option
+Click on front video size and select resolution
+Host does not support front camera video resolution during automation. !Hence recording only default front video resolution.
+recordingDurationfront = 180 Seconds
+Start front video recodring
+Stop Recording
+Pass: Test10F pass for front camera video recording
+Launch file manager application and verify recorded video capture uSD Card
+Swipe up to select uSD card
+Select SD card
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Test10F_Fcam_video: 1 videos captured successfully
+Pass: Test10F pass for front camera video recording
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Calling VideoPlayBackForSleepWake()
+Launch File Manager application and playback front recorded video from USD for 30 seconds, pause video playback, locking phone and unlock after 30 seconds delay and playback video from pause duration.
+launch Home screen
+Clearing recent apps
+Launching file manager application
+Swipe up to select uSD card
+Select SD card
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+Select Camera folder
+switch to list view mode
+Select more options
+Select Sort by Newest date first
+Click on first file to play highest recorded resolution video file
+Tap Somewhere on Screen for contents to visible on Screen
+Click pause video button
+Lock Mobile with 30 seconds delay
+Unlock Mobile
+PlayBack Video from Pause duartion
+Tap Somewhere on Screen for contents to visible on Screen
+Fast forward video play back for 10 seconds
+Pause video play back
+Pass: Pass Test10F Pass for Pause Video Playback scenario
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+calling DatamoveOperation() to move front camera recorded videos files to Test10F folder
+Re-launch file manager application and select external storage for data move operation, select all rear camera videos present in camera folder and move to Test10 folder
+Select external storage
+switch to grid view mode and select DCIM folder
+Select DCIM folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Click More options
+select move to option
+select uSD Card
+Select ADD NEW Folder option
+Name folder as Test10F
+Accept create folder
+Cut paste  video files operation completed successfully
+Test10F: Data move operation completed successfully
+Pass: Test10F Pass for data move operation successfully
+Final Message: Pass Test10F Pass for front camera  video recording, Pause Video Playback scenario and data move operation scenario
+Test:End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+]]></system-out>
+    <system-err><![CDATA[2023-01-16 17:29:56 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+2023-01-16 17:30:03 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy A33 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 13, udid: RZCT30ZLPDL}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-A336E, deviceName: RZCT30ZLPDL, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RZCT30ZLPDL, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 65, takesScreenshot: true, udid: RZCT30ZLPDL, viewportRect: {height: 2120, left: 0, top: 65, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: a255ebbc-7a04-4f05-a834-205d4ab6b83c
+*** Element info: {Using=xpath, value=//*[@resource-id='com.google.android.apps.nbu.files:id/agree_button']}
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at Samsung_Galaxy_A33_5G_SMA336EDS.Test10F.rearVideoRec(Test10F.java:379)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:673)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:842)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1166)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1178)
+	at org.testng.TestRunner.privateRun(TestRunner.java:757)
+	at org.testng.TestRunner.run(TestRunner.java:608)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1158)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1154)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1083)
+	at org.testng.TestNG.run(TestNG.java:999)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]></system-err>
+  </testcase>
+  <testcase name="RearPictureCapture" classname="Samsung_Galaxy_A33_5G_SMA336EDS.Test9" time="385.484">
+    <system-out><![CDATA[Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test9 Scenario is follows:
+1.Launch camera application, set uSD as a Storage option, start rear camera Image capture for all host resolutions
+2.Move rear camera captured images from external storage to Test9 folder in external storage
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch Home Screen and Clear recent
+Launch Home screen and clear recent apps
+Launch Camera application for rear Picture capture for all host resolution
+Test9_Bcam_res: 1 resolutions supported
+If change to uSD card pop-up exists select Cancel
+change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy A33 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 13, udid: RZCT30ZLPDL}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-A336E, deviceName: RZCT30ZLPDL, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RZCT30ZLPDL, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 65, takesScreenshot: true, udid: RZCT30ZLPDL, viewportRect: {height: 2120, left: 0, top: 65, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: e68ac707-1981-43a0-b111-0e78139d9ba1
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+If Location access Permission Request Pop Exists Click on Cancel. 
+If Location access Permission Request Pop Exists Click on Cancel. 
+Location access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy A33 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 13, udid: RZCT30ZLPDL}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-A336E, deviceName: RZCT30ZLPDL, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RZCT30ZLPDL, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 65, takesScreenshot: true, udid: RZCT30ZLPDL, viewportRect: {height: 2120, left: 0, top: 65, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: e68ac707-1981-43a0-b111-0e78139d9ba1
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+Switch To Rear Camera mode if current Exiting camera is Front camera mode
+Click Settings option
+Search for Storage location
+Select SD as storage option
+Select Rear Image Size
+Host unable to select Rear camera image resolutions during automation. !Hence captureing images with default resolution.
+totalPictureCountRear = 12
+clicking First   Resolution Image0
+clicking First   Resolution Image1
+clicking First   Resolution Image2
+clicking First   Resolution Image3
+clicking First   Resolution Image4
+clicking First   Resolution Image5
+clicking First   Resolution Image6
+clicking First   Resolution Image7
+clicking First   Resolution Image8
+clicking First   Resolution Image9
+clicking First   Resolution Image10
+clicking First   Resolution Image11
+Rear camera first resolution:12 images Captured succesfull
+Total Count value:12 images to be Captured 
+Launch file manager application and verify captured rear camera images present  in uSD Card
+Swipe up to select uSD card
+Select SD card
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Total: 12 selected images Captured succesfull
+Actual Value:12 selected
+Interger value:12
+Tolerance_Level = 75
+
+Pass: Test9 pass for rear Image capture
+Test9_Bcam_image: 12  images Captured succesfull
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+calling DataMoveOperation()
+Re-launch file manager application and select external storage for data move operation, select all rear camera images files present in camera folder and move to Test9 folder
+Select external storage
+switch to grid view mode and select DCIM folder
+Select DCIM folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Click More options
+select move to option
+select uSD Card
+Select ADD NEW Folder option
+Name folder as Test9
+Accept create folder
+Cut paste operation completed successfully
+Test9: Data move operation completed successfully
+Pass: Test9 Pass for data move operation successfully
+Final Message: Pass Test9 Pass for rear Camera image capture
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+]]></system-out>
+    <system-err><![CDATA[2023-01-16 17:40:06 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+2023-01-16 17:40:17 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy A33 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 13, udid: RZCT30ZLPDL}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-A336E, deviceName: RZCT30ZLPDL, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RZCT30ZLPDL, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 65, takesScreenshot: true, udid: RZCT30ZLPDL, viewportRect: {height: 2120, left: 0, top: 65, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: e68ac707-1981-43a0-b111-0e78139d9ba1
+*** Element info: {Using=xpath, value=//*[@resource-id='com.google.android.apps.nbu.files:id/agree_button']}
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at Samsung_Galaxy_A33_5G_SMA336EDS.Test9.RearPictureCapture(Test9.java:375)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:673)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:842)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1166)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1178)
+	at org.testng.TestRunner.privateRun(TestRunner.java:757)
+	at org.testng.TestRunner.run(TestRunner.java:608)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1158)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1154)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1083)
+	at org.testng.TestNG.run(TestNG.java:999)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]></system-err>
+  </testcase>
+  <testcase name="frontPictureCapture" classname="Samsung_Galaxy_A33_5G_SMA336EDS.Test9F" time="334.83">
+    <system-out><![CDATA[Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test9F Scenario is as follows:
+1.Launch camera application, set uSD as a Storage option, start Front camera image picture capture for all Host front resolutions
+2.Move rear camera captured images from external storage to Test9F folder
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch Home screen and clear recent apps
+Launch Camera Application for Front camera picture Capture for all Host resolutions
+Test9F_Fcam_res: 1 resolutions supported
+If change to uSD card pop-up exists select Cancel
+change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy A33 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 13, udid: RZCT30ZLPDL}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-A336E, deviceName: RZCT30ZLPDL, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RZCT30ZLPDL, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 65, takesScreenshot: true, udid: RZCT30ZLPDL, viewportRect: {height: 2120, left: 0, top: 65, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 05ed8c1e-dade-404d-8956-95a9b56ab6e5
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+If Location access Permission Request Pop Exists Click on Cancel. 
+Switch To front Camera if current Exiting camera is in Back camera mode
+Click Settings option
+Swipe up and select storage location option
+Select SD as storage option
+Select Front Image size
+Host unable to select Rear camera image resolutions during automation. !Hence captureing images with default resolution.
+totalPictureCountFront = 12Images to captured
+clicking First resolution Image0
+clicking First resolution Image1
+clicking First resolution Image2
+clicking First resolution Image3
+clicking First resolution Image4
+clicking First resolution Image5
+clicking First resolution Image6
+clicking First resolution Image7
+clicking First resolution Image8
+clicking First resolution Image9
+clicking First resolution Image10
+clicking First resolution Image11
+Total Count value:12 images to be Captured 
+Launch file manager application and verify captured images present in uSD Card
+Swipe up to select uSD card
+Select SD card
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Total Image
+Test9F_Fcam_image: 12 selected images Captured succesfull
+Actual Value:12 selected
+Interger value:12
+Tolerance_Level = 75
+
+Pass: Test9F pass for front Image capture
+Test9F_Fcam_image: 12  images Captured succesfull
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+calling DataMoveOperation()
+Re-launch file manager application and select external storage for data move operation, select all front camera images files present in camera folder and move to Test9F folder
+Select external storage
+switch to grid view mode and select DCIM folder
+Select DCIM folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Click More options
+select move to option
+select uSD Card
+Select ADD NEW Folder option
+Name folder as Test9F
+Accept create folder
+Cut paste   operation completed successfully
+Test9F: Data move operation completed successfully
+Pass: Test9F Pass for data move operation successfully
+Final Message: Pass Test9F Pass for front Camera image capture
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+]]></system-out>
+    <system-err><![CDATA[2023-01-16 17:46:38 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+2023-01-16 17:46:50 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy A33 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 13, udid: RZCT30ZLPDL}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-A336E, deviceName: RZCT30ZLPDL, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RZCT30ZLPDL, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 65, takesScreenshot: true, udid: RZCT30ZLPDL, viewportRect: {height: 2120, left: 0, top: 65, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 05ed8c1e-dade-404d-8956-95a9b56ab6e5
+*** Element info: {Using=xpath, value=//*[@resource-id='com.google.android.apps.nbu.files:id/agree_button']}
+	at sun.reflect.GeneratedConstructorAccessor14.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at Samsung_Galaxy_A33_5G_SMA336EDS.Test9F.frontPictureCapture(Test9F.java:341)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:673)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:842)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1166)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1178)
+	at org.testng.TestRunner.privateRun(TestRunner.java:757)
+	at org.testng.TestRunner.run(TestRunner.java:608)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1158)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1154)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1083)
+	at org.testng.TestNG.run(TestNG.java:999)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]></system-err>
+  </testcase>
+</testsuite>

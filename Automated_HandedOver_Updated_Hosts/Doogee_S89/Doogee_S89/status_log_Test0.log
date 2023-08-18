@@ -1,0 +1,145 @@
+2023-02-20 14:29:28 INFO   Doogee_S89.Test0 start Test: Start
+2023-02-20 14:29:28 INFO   Doogee_S89.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-20 14:29:28 INFO   Doogee_S89.Test0 start  Test0 Scenario is as follows 
+2023-02-20 14:29:28 INFO   Doogee_S89.Test0 start 1.Unlock phone, clear recent apps, clear internal memory
+2023-02-20 14:29:28 INFO   Doogee_S89.Test0 start 2.Call Image() and Capture Rear camera 25 images for default resolution in uSD card and Verify the data capture
+2023-02-20 14:29:28 INFO   Doogee_S89.Test0 start 3.Call Video() and record Rear camera video of first 2 resloutions for 2 minutes of duration in uSD Card and verify the same
+2023-02-20 14:29:28 INFO   Doogee_S89.Test0 start 4.Call Format() and format uSD card with data and verify the same
+2023-02-20 14:29:28 INFO   Doogee_S89.Test0 start Setting up the appium desired capabilities
+2023-02-20 14:29:28 INFO   Doogee_S89.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-20 14:29:40 INFO   Doogee_S89.Test0 start Launch Home screen
+2023-02-20 14:29:49 INFO   Doogee_S89.Test0 start Clearing Recent Apps
+2023-02-20 14:29:49 INFO   Doogee_S89.Test0 start Pass: No recent apps found
+2023-02-20 14:29:53 INFO   Doogee_S89.Test0 start Launch File Manager Application and clear internal memory
+2023-02-20 14:30:07 INFO   Doogee_S89.Test0 start Select  Internal storage
+2023-02-20 14:30:12 INFO   Doogee_S89.Test0 start Select  More options
+2023-02-20 14:30:15 INFO   Doogee_S89.Test0 start click on Select all
+2023-02-20 14:30:19 INFO   Doogee_S89.Test0 start Select Delete permanently
+2023-02-20 14:30:29 INFO   Doogee_S89.Test0 start Pass: Clearing phone internal memory is successfull
+2023-02-20 14:30:29 INFO   Doogee_S89.Test0 start Calling Image() to capture rear camera image in uSD card and verifying the same.
+2023-02-20 14:30:29 INFO   Doogee_S89.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-20 14:30:35 INFO   Doogee_S89.Test0 Images Launch Camera Application for Rear camera picture capture
+2023-02-20 14:30:42 INFO   Doogee_S89.Test0 Images IF Change to uSD card notification pop-up exists select Cancel Option
+2023-02-20 14:30:52 INFO   Doogee_S89.Test0 Images change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: S89, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: S890000000000000127}, deviceApiLevel: 31, deviceManufacturer: DOOGEE, deviceModel: S89, deviceName: S890000000000000127, deviceScreenDensity: 480, deviceScreenSize: 1080x2340, deviceUDID: S890000000000000127, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 90, takesScreenshot: true, udid: S890000000000000127, viewportRect: {height: 2112, left: 0, top: 90, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: b09e94ba-129e-4419-bf6a-08318b54995b
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("DENY")}
+2023-02-20 14:30:52 INFO   Doogee_S89.Test0 Images if Location permisson Pop Exists Select Cancel Option
+2023-02-20 14:31:02 INFO   Doogee_S89.Test0 Images Location permission access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: S89, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: S890000000000000127}, deviceApiLevel: 31, deviceManufacturer: DOOGEE, deviceModel: S89, deviceName: S890000000000000127, deviceScreenDensity: 480, deviceScreenSize: 1080x2340, deviceUDID: S890000000000000127, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 90, takesScreenshot: true, udid: S890000000000000127, viewportRect: {height: 2112, left: 0, top: 90, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: b09e94ba-129e-4419-bf6a-08318b54995b
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("START CAPTURE")}
+2023-02-20 14:31:02 INFO   Doogee_S89.Test0 Images Switch to rear Camera Mode if current Exiting camera is Front camera Mode
+2023-02-20 14:31:04 INFO   Doogee_S89.Test0 Images Select settings option
+2023-02-20 14:31:14 INFO   Doogee_S89.Test0 Images Select Storagepath option
+2023-02-20 14:31:20 INFO   Doogee_S89.Test0 Images Select SD as storage option
+2023-02-20 14:31:28 INFO   Doogee_S89.Test0 Images Capture Image of Default Resolution
+2023-02-20 14:31:36 INFO   Doogee_S89.Test0 Images Captureing default resolition image 0
+2023-02-20 14:31:43 INFO   Doogee_S89.Test0 Images Captureing default resolition image 1
+2023-02-20 14:31:51 INFO   Doogee_S89.Test0 Images Captureing default resolition image 2
+2023-02-20 14:31:58 INFO   Doogee_S89.Test0 Images Captureing default resolition image 3
+2023-02-20 14:32:06 INFO   Doogee_S89.Test0 Images Captureing default resolition image 4
+2023-02-20 14:32:13 INFO   Doogee_S89.Test0 Images Captureing default resolition image 5
+2023-02-20 14:32:20 INFO   Doogee_S89.Test0 Images Captureing default resolition image 6
+2023-02-20 14:32:27 INFO   Doogee_S89.Test0 Images Captureing default resolition image 7
+2023-02-20 14:32:35 INFO   Doogee_S89.Test0 Images Captureing default resolition image 8
+2023-02-20 14:32:42 INFO   Doogee_S89.Test0 Images Captureing default resolition image 9
+2023-02-20 14:32:49 INFO   Doogee_S89.Test0 Images Captureing default resolition image 10
+2023-02-20 14:32:56 INFO   Doogee_S89.Test0 Images Captureing default resolition image 11
+2023-02-20 14:33:04 INFO   Doogee_S89.Test0 Images Captureing default resolition image 12
+2023-02-20 14:33:11 INFO   Doogee_S89.Test0 Images Captureing default resolition image 13
+2023-02-20 14:33:18 INFO   Doogee_S89.Test0 Images Captureing default resolition image 14
+2023-02-20 14:33:25 INFO   Doogee_S89.Test0 Images Captureing default resolition image 15
+2023-02-20 14:33:33 INFO   Doogee_S89.Test0 Images Captureing default resolition image 16
+2023-02-20 14:33:40 INFO   Doogee_S89.Test0 Images Captureing default resolition image 17
+2023-02-20 14:33:47 INFO   Doogee_S89.Test0 Images Captureing default resolition image 18
+2023-02-20 14:33:54 INFO   Doogee_S89.Test0 Images Captureing default resolition image 19
+2023-02-20 14:34:02 INFO   Doogee_S89.Test0 Images Captureing default resolition image 20
+2023-02-20 14:34:09 INFO   Doogee_S89.Test0 Images Captureing default resolition image 21
+2023-02-20 14:34:16 INFO   Doogee_S89.Test0 Images Captureing default resolition image 22
+2023-02-20 14:34:23 INFO   Doogee_S89.Test0 Images Captureing default resolition image 23
+2023-02-20 14:34:31 INFO   Doogee_S89.Test0 Images Captureing default resolition image 24
+2023-02-20 14:34:40 INFO   Doogee_S89.Test0 Images 25 image capture is successfull
+2023-02-20 14:34:40 INFO   Doogee_S89.Test0 Images Launch File Manager application to verify  Image capture
+2023-02-20 14:34:46 INFO   Doogee_S89.Test0 Images Select  SD Card
+2023-02-20 14:34:55 INFO   Doogee_S89.Test0 Images Select DCIM Folder
+2023-02-20 14:35:05 INFO   Doogee_S89.Test0 Images Select Camera Folder
+2023-02-20 14:35:10 INFO   Doogee_S89.Test0 Images Select More Options 
+2023-02-20 14:35:20 INFO   Doogee_S89.Test0 Images Click On Select All Options
+2023-02-20 14:35:30 INFO   Doogee_S89.Test0 Images Pass:Total Number Of Image captured 25 is successfull
+2023-02-20 14:35:37 INFO   Doogee_S89.Test0 Images Calling video() for rear video recording in USD card and verifying data capture.
+2023-02-20 14:35:37 INFO   Doogee_S89.Test0 Images ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-20 14:35:43 INFO   Doogee_S89.Test0 Video re-launch camera application for rear camera video recording
+2023-02-20 14:35:49 INFO   Doogee_S89.Test0 Video IF Change to uSD card notification pop-up exists select Cancel Option
+2023-02-20 14:35:59 INFO   Doogee_S89.Test0 Video change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: S89, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: S890000000000000127}, deviceApiLevel: 31, deviceManufacturer: DOOGEE, deviceModel: S89, deviceName: S890000000000000127, deviceScreenDensity: 480, deviceScreenSize: 1080x2340, deviceUDID: S890000000000000127, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 90, takesScreenshot: true, udid: S890000000000000127, viewportRect: {height: 2112, left: 0, top: 90, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: b09e94ba-129e-4419-bf6a-08318b54995b
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("DENY")}
+2023-02-20 14:35:59 INFO   Doogee_S89.Test0 Video if Location permisson Pop Exists Select Cancel Option
+2023-02-20 14:36:09 INFO   Doogee_S89.Test0 Video Location permission access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: S89, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: S890000000000000127}, deviceApiLevel: 31, deviceManufacturer: DOOGEE, deviceModel: S89, deviceName: S890000000000000127, deviceScreenDensity: 480, deviceScreenSize: 1080x2340, deviceUDID: S890000000000000127, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 90, takesScreenshot: true, udid: S890000000000000127, viewportRect: {height: 2112, left: 0, top: 90, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: b09e94ba-129e-4419-bf6a-08318b54995b
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("START CAPTURE")}
+2023-02-20 14:36:09 INFO   Doogee_S89.Test0 Video Switch to video recording mode
+2023-02-20 14:36:19 INFO   Doogee_S89.Test0 Video Select settings option
+2023-02-20 14:36:30 INFO   Doogee_S89.Test0 Video Select Storagepath option
+2023-02-20 14:36:35 INFO   Doogee_S89.Test0 Video Select SD as storage option
+2023-02-20 14:36:43 INFO   Doogee_S89.Test0 Video Select settings option
+2023-02-20 14:36:49 INFO   Doogee_S89.Test0 Video Select Video size option
+2023-02-20 14:36:55 INFO   Doogee_S89.Test0 Video Select first highest rear camera video resolution: 1920x1080
+2023-02-20 14:37:00 INFO   Doogee_S89.Test0 Video Start video recording
+2023-02-20 14:39:00 INFO   Doogee_S89.Test0 Video Recording Video for 2Minutes of Duration
+2023-02-20 14:39:00 INFO   Doogee_S89.Test0 Video Stop video recording
+2023-02-20 14:39:05 INFO   Doogee_S89.Test0 Video Select settings option
+2023-02-20 14:39:10 INFO   Doogee_S89.Test0 Video Select Video size option
+2023-02-20 14:39:16 INFO   Doogee_S89.Test0 Video Select second highest rear camera video resolution: 1280x720
+2023-02-20 14:39:22 INFO   Doogee_S89.Test0 Video Start video recording
+2023-02-20 14:41:22 INFO   Doogee_S89.Test0 Video Recording Video for 2Minutes of Duration
+2023-02-20 14:41:22 INFO   Doogee_S89.Test0 Video Stop video recording
+2023-02-20 14:41:28 INFO   Doogee_S89.Test0 Video Switch to back to photo mode
+2023-02-20 14:41:42 INFO   Doogee_S89.Test0 Video Rear camera video recording is successfull
+2023-02-20 14:41:42 INFO   Doogee_S89.Test0 Video Launch file manager application to verify recorded videos in uSD card
+2023-02-20 14:41:49 INFO   Doogee_S89.Test0 Video Select  SD Card
+2023-02-20 14:41:57 INFO   Doogee_S89.Test0 Video Select DCIM Folder
+2023-02-20 14:42:07 INFO   Doogee_S89.Test0 Video Select Camera Folder
+2023-02-20 14:42:12 INFO   Doogee_S89.Test0 Video Select More Options 
+2023-02-20 14:42:23 INFO   Doogee_S89.Test0 Video Click On Select All Options
+2023-02-20 14:42:32 INFO   Doogee_S89.Test0 Video Pass: 2 Videos recorded Successfully
+2023-02-20 14:42:32 INFO   Doogee_S89.Test0 Video Pass: A total of 27 files present in uSD card before Format
+2023-02-20 14:42:40 INFO   Doogee_S89.Test0 Video calling Format() for format with data scenario
+2023-02-20 14:42:40 INFO   Doogee_S89.Test0 Video ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-20 14:42:47 INFO   Doogee_S89.Test0 Format Launch Settings application for Format uSD card with Data scenario 
+2023-02-20 14:42:52 INFO   Doogee_S89.Test0 Format Scrolling till battery and device care is visible
+2023-02-20 14:43:01 INFO   Doogee_S89.Test0 Format Clicking on storage
+2023-02-20 14:43:06 INFO   Doogee_S89.Test0 Format Clicking on this device
+2023-02-20 14:43:11 INFO   Doogee_S89.Test0 Format Clicking on SD card
+2023-02-20 14:43:17 INFO   Doogee_S89.Test0 Format Clicking on files
+2023-02-20 14:43:22 INFO   Doogee_S89.Test0 Format Clicking on more options
+2023-02-20 14:43:28 INFO   Doogee_S89.Test0 Format Clicking on Storage settings
+2023-02-20 14:43:34 INFO   Doogee_S89.Test0 Format Click Format
+2023-02-20 14:43:39 INFO   Doogee_S89.Test0 Format Started formatting, waiting till it gets formatted
+2023-02-20 14:45:19 INFO   Doogee_S89.Test0 Format Format uSD with Data is successfull
+2023-02-20 14:45:19 INFO   Doogee_S89.Test0 Format Launch File Manager application to verify  Image capture
+2023-02-20 14:45:25 INFO   Doogee_S89.Test0 Format Select  SD Card
+2023-02-20 14:45:33 INFO   Doogee_S89.Test0 Format Select DCIM Folder
+2023-02-20 14:45:43 INFO   Doogee_S89.Test0 Format Click On Camera Folder
+2023-02-20 14:45:53 INFO   Doogee_S89.Test0 Format Pass: Images and videos are not present in the DCIM folder, CARD format is successfully completed 
+2023-02-20 14:45:53 INFO   Doogee_S89.Test0 Format Final Message: Pass Test0 pass for format Operation
+2023-02-20 14:45:53 INFO   Doogee_S89.Test0 Format Test: End
+2023-02-20 14:45:53 INFO   Doogee_S89.Test0 Format ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

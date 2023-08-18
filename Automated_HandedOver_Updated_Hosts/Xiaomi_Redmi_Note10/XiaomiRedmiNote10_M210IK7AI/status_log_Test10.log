@@ -1,0 +1,127 @@
+2022-10-10 15:46:40 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 rearVideoRec Test: Start
+2022-10-10 15:46:40 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-10 15:46:40 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 rearVideoRec Test10 Scenario is as follows
+2022-10-10 15:46:40 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 rearVideoRec 1.Launch Camera application and start back camera video recording for all host applicable resolutions in uSD Card
+2022-10-10 15:46:40 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 rearVideoRec 2.Playback Highest resolution recorded video from USD Card, fast forward playback and pause video scenario 
+2022-10-10 15:46:40 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 rearVideoRec 3.Playback copied videos from Test1 folder, fast forward and pause scenario
+2022-10-10 15:46:40 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 rearVideoRec 4.Move recorded rear camera video to Test10 folder
+2022-10-10 15:46:40 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 rearVideoRec Setting up the appium desired capabilities
+2022-10-10 15:46:40 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-10 15:46:59 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 rearVideoRec Launch home screen
+2022-10-10 15:47:05 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 rearVideoRec Launch appium permission access pop-up
+2022-10-10 15:47:15 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 rearVideoRec No permission access pop-up found
+2022-10-10 15:47:17 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 rearVideoRec Launching settings application and set external storage as storage option for video recording.
+2022-10-10 15:47:24 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 rearVideoRec Select About phone
+2022-10-10 15:47:29 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 rearVideoRec Select storage option
+2022-10-10 15:47:36 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 rearVideoRec Select storage settings
+2022-10-10 15:47:40 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 rearVideoRec Select camera option
+2022-10-10 15:47:44 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 rearVideoRec Select storage as external storage
+2022-10-10 15:47:59 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 rearVideoRec Launch Camera application for rear camera video recording
+2022-10-10 15:48:07 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 rearVideoRec Test10_Bcam_res: 4 resolutions supported
+2022-10-10 15:48:17 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 rearVideoRec No location permission access pop-up found: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Redmi Note 10, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: 45f950b0}, deviceApiLevel: 30, deviceManufacturer: Xiaomi, deviceModel: M2101K7AI, deviceName: 45f950b0, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 45f950b0, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 93, takesScreenshot: true, udid: 45f950b0, viewportRect: {height: 2084, left: 0, top: 93, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 2b9b6507-4c52-4168-b018-875232ac09fd
+*** Element info: {Using=xpath, value=//*[@resource-id='android:id/button2']}
+2022-10-10 15:48:17 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 rearVideoRec Switch to video tab
+2022-10-10 15:48:20 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 rearVideoRec Select settings option to select resolution
+2022-10-10 15:48:24 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 rearVideoRec Select first highest video resolution 4K fps
+2022-10-10 15:48:37 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 rearVideoRec Start video recording for specified duration time
+2022-10-10 15:51:38 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 rearVideoRec Stop video recording
+2022-10-10 15:51:41 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 rearVideoRec click setting option to select second highest video resolution
+2022-10-10 15:51:44 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 rearVideoRec Select second highest video resolution FHD 1080fps
+2022-10-10 15:51:58 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 rearVideoRec Start Recording second resolution video for specified duration time
+2022-10-10 15:54:59 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 rearVideoRec Stop recording 
+2022-10-10 15:55:00 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 rearVideoRec click setting option to select third highest video resolution
+2022-10-10 15:55:03 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 rearVideoRec Select Third video resolution HD 720fps
+2022-10-10 15:55:17 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 rearVideoRec Start Recording Third resolution video for specified duration time
+2022-10-10 15:58:18 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 rearVideoRec Stop Recording
+2022-10-10 15:58:19 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 rearVideoRec click setting option to select third Fourth video resolution
+2022-10-10 15:58:23 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 rearVideoRec Select Fourth video resolution HD fps
+2022-10-10 15:58:36 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 rearVideoRec Start Recording Fourth resolution video for specified duration time
+2022-10-10 16:01:37 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 rearVideoRec Stop Recording
+2022-10-10 16:01:43 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 rearVideoRec Pass: Rear video recording is successfull
+2022-10-10 16:01:43 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 rearVideoRec Launch file manager application and verify recorded video present  in uSD Card
+2022-10-10 16:02:00 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 rearVideoRec Swipe up to select uSD card
+2022-10-10 16:02:03 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 rearVideoRec Select SD card
+2022-10-10 16:02:09 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 rearVideoRec switch to grid view mode to select DCIM folder
+2022-10-10 16:02:13 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 rearVideoRec Select DCIM folder
+2022-10-10 16:02:16 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 rearVideoRec Select camera folder
+2022-10-10 16:02:19 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 rearVideoRec switch to list view mode 
+2022-10-10 16:02:22 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 rearVideoRec Click More options
+2022-10-10 16:02:29 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 rearVideoRec Click Select all
+2022-10-10 16:02:43 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 rearVideoRec Test10_Bcam_video: 4 videos captured successfully
+2022-10-10 16:02:43 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-10 16:02:43 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 rearVideoRec Calling RecordedVideoPlayback() for Playing Highest record video, fast forward video play back scenario
+2022-10-10 16:02:43 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 RecordedVideoPlayback Launching file manager application
+2022-10-10 16:02:52 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 RecordedVideoPlayback Select External storage
+2022-10-10 16:02:55 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 RecordedVideoPlayback switch to grid view mode to select DCIM folder
+2022-10-10 16:02:59 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 RecordedVideoPlayback Select DCIM folder
+2022-10-10 16:03:02 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 RecordedVideoPlayback Select camera folder
+2022-10-10 16:03:05 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 RecordedVideoPlayback switch to list view mode 
+2022-10-10 16:03:09 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 RecordedVideoPlayback Select RAW folder
+2022-10-10 16:03:21 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 RecordedVideoPlayback Click More options
+2022-10-10 16:03:26 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 RecordedVideoPlayback Click Delete option
+2022-10-10 16:03:32 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 RecordedVideoPlayback Allow Delete option
+2022-10-10 16:03:52 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 RecordedVideoPlayback Click More options
+2022-10-10 16:03:57 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 RecordedVideoPlayback Select External Storage
+2022-10-10 16:03:57 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 RecordedVideoPlayback Select sort by largest file first
+2022-10-10 16:04:05 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 RecordedVideoPlayback Click on first file to play highest recorded resolution video file from uSD card
+2022-10-10 16:04:05 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 RecordedVideoPlayback Started video playback
+2022-10-10 16:04:35 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 RecordedVideoPlayback Tap Somewhere on Screen for contents to visible on Screen
+2022-10-10 16:04:36 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 RecordedVideoPlayback Fast forward video for 10 seconds
+2022-10-10 16:04:57 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 RecordedVideoPlayback Continue video playback
+2022-10-10 16:04:57 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 RecordedVideoPlayback Tap Somewhere on Screen for contents to visible on Screen
+2022-10-10 16:04:57 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 RecordedVideoPlayback Pause video playback
+2022-10-10 16:05:07 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 RecordedVideoPlayback Pass: Recorded Video play back and fast forward successfull 
+2022-10-10 16:05:07 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 RecordedVideoPlayback Pass: Recorded Video play back and fast forward successfull 
+2022-10-10 16:05:07 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 RecordedVideoPlayback ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-10 16:05:07 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 RecordedVideoPlayback Calling DataMovementOperation() to move recorded rear camer videos to Test10 Folder
+2022-10-10 16:05:07 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 DataMoveOperation Re-launch file manager application and select external storage for data move operation, select all rear camera videos present in camera folder and move to Test10 folder
+2022-10-10 16:05:13 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 DataMoveOperation Launching file manager application
+2022-10-10 16:05:16 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 DataMoveOperation Select external storage
+2022-10-10 16:05:21 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 DataMoveOperation switch to grid view mode and select DCIM  folder
+2022-10-10 16:05:25 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 DataMoveOperation Select DCIM folder
+2022-10-10 16:05:28 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 DataMoveOperation Select camera  folder
+2022-10-10 16:05:31 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 DataMoveOperation switch to list view mode 
+2022-10-10 16:05:34 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 DataMoveOperation Click More options
+2022-10-10 16:05:41 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 DataMoveOperation Click Select all
+2022-10-10 16:05:45 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 DataMoveOperation Click More options
+2022-10-10 16:05:51 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 DataMoveOperation Select move to option
+2022-10-10 16:05:58 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 DataMoveOperation Select uSD Card
+2022-10-10 16:06:04 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 DataMoveOperation Select ADD NEW Folder option
+2022-10-10 16:06:10 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 DataMoveOperation Name folder as Test10
+2022-10-10 16:06:17 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 DataMoveOperation Accept create folder
+2022-10-10 16:06:47 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 DataMoveOperation Cut paste  video files operation completed successfully
+2022-10-10 16:06:50 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 DataMoveOperation Test10: Data move operation completed successfully
+2022-10-10 16:07:00 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 DataMoveOperation Pass: Test10 Pass for data move operation successfully
+2022-10-10 16:07:00 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 RecordedVideoPlayback ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-10 16:07:00 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 RecordedVideoPlayback Calling copiedvideosPlayBack() for playing copied video file from Test1 folder
+2022-10-10 16:07:00 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 CopiedvideosPlayBack Re-launch file manager application and select external storage for playing copied video files
+2022-10-10 16:07:06 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 CopiedvideosPlayBack Launching file manager application
+2022-10-10 16:07:09 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 CopiedvideosPlayBack Select external storage
+2022-10-10 16:07:12 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 CopiedvideosPlayBack switch to grid view mode to select Test1 folder
+2022-10-10 16:07:15 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 CopiedvideosPlayBack Select Test1 folder
+2022-10-10 16:07:19 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 CopiedvideosPlayBack Select tes_file folder
+2022-10-10 16:07:22 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 CopiedvideosPlayBack Select 1GB folder
+2022-10-10 16:07:25 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 CopiedvideosPlayBack Select video folder
+2022-10-10 16:07:29 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 CopiedvideosPlayBack switch to list view mode to select Test1 folder
+2022-10-10 16:07:32 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 CopiedvideosPlayBack Started video playback
+2022-10-10 16:07:52 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 CopiedvideosPlayBack Tap Somewhere on Screen for contents to visible on Screen
+2022-10-10 16:07:52 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 CopiedvideosPlayBack Click fast forward button for 10 seconds video forward
+2022-10-10 16:08:13 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 CopiedvideosPlayBack Pause video playback
+2022-10-10 16:08:16 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 CopiedvideosPlayBack Pass: 4K Video play back and fast forward is successful 
+2022-10-10 16:08:19 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 CopiedvideosPlayBack Select FHD 5.1 ( 1350 X 2560 ).webm file for video playback from uSD card(Test-->Videos)
+2022-10-10 16:08:19 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 CopiedvideosPlayBack Started video playback
+2022-10-10 16:08:39 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 CopiedvideosPlayBack Tap Somewhere on Screen for contents to visible on Screen
+2022-10-10 16:08:40 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 CopiedvideosPlayBack Click fast forward button for 10 seconds video forward
+2022-10-10 16:09:01 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 CopiedvideosPlayBack Continue video playback
+2022-10-10 16:09:01 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 CopiedvideosPlayBack Pause video playback
+2022-10-10 16:09:06 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 CopiedvideosPlayBack Pass: FHD Video play back and fast forward is successful 
+2022-10-10 16:09:06 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 CopiedvideosPlayBack ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-10 16:09:06 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 CopiedvideosPlayBack Final message: Pass Test10 Pass for rear camera  video recording, playback and fast forward highest resolution recorded video and playback and fast forward copied video files from Test1 folder and data move operation scenario
+2022-10-10 16:09:06 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 CopiedvideosPlayBack Test:End
+2022-10-10 16:09:06 INFO   XiaomiRedmiNote10_M210IK7AI.Test10 CopiedvideosPlayBack ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

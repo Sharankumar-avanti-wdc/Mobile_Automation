@@ -1,0 +1,64 @@
+2023-03-16 12:15:17 INFO   Magch_Tablet10_M210.Test8_Int recordAudio Test: Start
+2023-03-16 12:15:17 INFO   Magch_Tablet10_M210.Test8_Int recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-16 12:15:17 INFO   Magch_Tablet10_M210.Test8_Int recordAudio Test8_Int scenario is as follows
+2023-03-16 12:15:17 INFO   Magch_Tablet10_M210.Test8_Int recordAudio 1.Launch voice recorder application, record 2 minutes audio in Internal mount storage and verify recorded audio in internal storage
+2023-03-16 12:15:17 INFO   Magch_Tablet10_M210.Test8_Int recordAudio 2.Play recorded audio file from internal mount storage,fast forward and pause audio.
+2023-03-16 12:15:17 INFO   Magch_Tablet10_M210.Test8_Int recordAudio 3.Launch file manager application and playback copied audio files from internal storage the files are placed in the Test1 folder
+2023-03-16 12:15:17 INFO   Magch_Tablet10_M210.Test8_Int recordAudio Setting up the appium desired capabilities
+2023-03-16 12:15:17 INFO   Magch_Tablet10_M210.Test8_Int recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-16 12:15:24 INFO   Magch_Tablet10_M210.Test8_Int recordAudio Launch home screen
+2023-03-16 12:15:36 INFO   Magch_Tablet10_M210.Test8_Int recordAudio Clearing Recent Apps
+2023-03-16 12:15:44 INFO   Magch_Tablet10_M210.Test8_Int recordAudio Launch Voice recorder application for Audio recording
+2023-03-16 12:15:45 INFO   Magch_Tablet10_M210.Test8_Int recordAudio If application launch permission pop-up exists accept allow permission to launch application
+2023-03-16 12:16:00 INFO   Magch_Tablet10_M210.Test8_Int recordAudio  No Launch permission Pop-up  found
+2023-03-16 12:16:05 INFO   Magch_Tablet10_M210.Test8_Int recordAudio Select settings option
+2023-03-16 12:16:10 INFO   Magch_Tablet10_M210.Test8_Int recordAudio Select Save location option
+2023-03-16 12:16:16 INFO   Magch_Tablet10_M210.Test8_Int recordAudio Select Phone option
+2023-03-16 12:16:24 INFO   Magch_Tablet10_M210.Test8_Int recordAudio Start Recording
+2023-03-16 12:18:35 INFO   Magch_Tablet10_M210.Test8_Int recordAudio Stop Recording
+2023-03-16 12:19:11 INFO   Magch_Tablet10_M210.Test8_Int recordAudio Stop and Save Recording
+2023-03-16 12:19:17 INFO   Magch_Tablet10_M210.Test8_Int recordAudio Pass: Test8_Int pass for recording  audio file
+2023-03-16 12:19:17 INFO   Magch_Tablet10_M210.Test8_Int recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-16 12:19:17 INFO   Magch_Tablet10_M210.Test8_Int recordAudio Calling PlayRecordedAudio() for Audio play back and fast forward scenario
+2023-03-16 12:19:22 INFO   Magch_Tablet10_M210.Test8_Int PlayRecordedAudio Launch home screen and clear recent apps
+2023-03-16 12:19:37 INFO   Magch_Tablet10_M210.Test8_Int PlayRecordedAudio clearing Recent apps 
+2023-03-16 12:19:39 INFO   Magch_Tablet10_M210.Test8_Int PlayRecordedAudio Launch File Manager Application
+2023-03-16 12:19:46 INFO   Magch_Tablet10_M210.Test8_Int PlayRecordedAudio Launch File Manager Application
+2023-03-16 12:19:51 INFO   Magch_Tablet10_M210.Test8_Int PlayRecordedAudio Select Music Folder
+2023-03-16 12:19:56 INFO   Magch_Tablet10_M210.Test8_Int PlayRecordedAudio Select recordings Folder
+2023-03-16 12:19:59 INFO   Magch_Tablet10_M210.Test8_Int PlayRecordedAudio Click first audio file for audio playback and fast forward scenario
+2023-03-16 12:20:39 INFO   Magch_Tablet10_M210.Test8_Int PlayRecordedAudio Fast Forwarding Audio for 10 Seconds
+2023-03-16 12:20:39 INFO   Magch_Tablet10_M210.Test8_Int PlayRecordedAudio Continue audio playback
+2023-03-16 12:21:09 INFO   Magch_Tablet10_M210.Test8_Int PlayRecordedAudio Pause audio playback
+2023-03-16 12:21:20 INFO   Magch_Tablet10_M210.Test8_Int PlayRecordedAudio Pass: Test8_Int Pass for playing, fast forward, and pause recorded audio file scenario
+2023-03-16 12:21:20 INFO   Magch_Tablet10_M210.Test8_Int PlayRecordedAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-16 12:21:20 INFO   Magch_Tablet10_M210.Test8_Int PlayRecordedAudio Calling PlayCopiedAudioFile() for copied audio files from Test1 folder
+2023-03-16 12:21:25 INFO   Magch_Tablet10_M210.Test8_Int PlayCopiedAudioFile Launch home screen
+2023-03-16 12:21:36 INFO   Magch_Tablet10_M210.Test8_Int PlayCopiedAudioFile clearing Recent apps 
+2023-03-16 12:21:46 INFO   Magch_Tablet10_M210.Test8_Int PlayCopiedAudioFile No recent apps found
+2023-03-16 12:21:48 INFO   Magch_Tablet10_M210.Test8_Int PlayCopiedAudioFile Launch File Manager Application
+2023-03-16 12:21:54 INFO   Magch_Tablet10_M210.Test8_Int PlayCopiedAudioFile Select  Internal storage
+2023-03-16 12:22:05 INFO   Magch_Tablet10_M210.Test8_Int PlayCopiedAudioFile Select Test1 folder
+2023-03-16 12:22:15 INFO   Magch_Tablet10_M210.Test8_Int PlayCopiedAudioFile Select Test_file folder
+2023-03-16 12:22:20 INFO   Magch_Tablet10_M210.Test8_Int PlayCopiedAudioFile Select 1GB folder
+2023-03-16 12:22:23 INFO   Magch_Tablet10_M210.Test8_Int PlayCopiedAudioFile Select MP3 files Folder
+2023-03-16 12:22:28 INFO   Magch_Tablet10_M210.Test8_Int PlayCopiedAudioFile Playing first audio file from Test1 folder
+2023-03-16 12:23:09 INFO   Magch_Tablet10_M210.Test8_Int PlayCopiedAudioFile Fast Forwarding Audio for 10 Seconds
+2023-03-16 12:23:19 INFO   Magch_Tablet10_M210.Test8_Int PlayCopiedAudioFile Continue audio playback
+2023-03-16 12:23:29 INFO   Magch_Tablet10_M210.Test8_Int PlayCopiedAudioFile Pause Audio
+2023-03-16 12:23:32 INFO   Magch_Tablet10_M210.Test8_Int PlayCopiedAudioFile Pass: first audio file palyback and fast forward scenario is successfull
+2023-03-16 12:23:34 INFO   Magch_Tablet10_M210.Test8_Int PlayCopiedAudioFile Playing second audio file from Test1 folder
+2023-03-16 12:24:15 INFO   Magch_Tablet10_M210.Test8_Int PlayCopiedAudioFile Fast Forwarding Audio for 10 Seconds
+2023-03-16 12:24:25 INFO   Magch_Tablet10_M210.Test8_Int PlayCopiedAudioFile Continue audio playback
+2023-03-16 12:24:35 INFO   Magch_Tablet10_M210.Test8_Int PlayCopiedAudioFile Pause Audio
+2023-03-16 12:24:38 INFO   Magch_Tablet10_M210.Test8_Int PlayCopiedAudioFile Pass: Seond audio file palyback and fast forward scenario is successfull
+2023-03-16 12:24:40 INFO   Magch_Tablet10_M210.Test8_Int PlayCopiedAudioFile Playing third audio file from Test1 folder
+2023-03-16 12:25:21 INFO   Magch_Tablet10_M210.Test8_Int PlayCopiedAudioFile Fast Forwarding Audio for 10 Seconds
+2023-03-16 12:25:31 INFO   Magch_Tablet10_M210.Test8_Int PlayCopiedAudioFile Continue audio playback
+2023-03-16 12:25:41 INFO   Magch_Tablet10_M210.Test8_Int PlayCopiedAudioFile Pause Audio
+2023-03-16 12:25:45 INFO   Magch_Tablet10_M210.Test8_Int PlayCopiedAudioFile Pass: Third audio file palyback and fast forward scenario is successfull
+2023-03-16 12:25:45 INFO   Magch_Tablet10_M210.Test8_Int PlayCopiedAudioFile Pass: Test8_Int Pass for Recorded and copied audio play back and fast forward scenario
+2023-03-16 12:25:45 INFO   Magch_Tablet10_M210.Test8_Int PlayCopiedAudioFile ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-16 12:25:45 INFO   Magch_Tablet10_M210.Test8_Int PlayCopiedAudioFile Final Message: Pass Test8_Int Pass for Recorded and copied audio play back and fast forward scenario
+2023-03-16 12:25:45 INFO   Magch_Tablet10_M210.Test8_Int PlayCopiedAudioFile Test: End
+2023-03-16 12:25:45 INFO   Magch_Tablet10_M210.Test8_Int PlayCopiedAudioFile ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

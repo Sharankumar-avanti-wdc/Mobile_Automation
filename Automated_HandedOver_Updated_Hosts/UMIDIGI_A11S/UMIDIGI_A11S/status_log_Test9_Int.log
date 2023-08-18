@@ -1,0 +1,309 @@
+2023-01-05 10:25:00 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Test: Start
+2023-01-05 10:25:00 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-05 10:25:00 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Test9_Int Scenario is follows:
+2023-01-05 10:25:00 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture 1.Launch camera application, start rear camera Image capture for all host resolutions
+2023-01-05 10:25:00 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture 2.Move rear camera image captured files from camera folder to Test9_Int folder
+2023-01-05 10:25:00 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Setting up the appium desired capabilities
+2023-01-05 10:25:00 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-05 10:25:13 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Launch home screen
+2023-01-05 10:25:19 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Clearing Recent Apps
+2023-01-05 10:25:32 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Launch Camera application for rear camera Image capture
+2023-01-05 10:25:39 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Test9_Int_Bcam_res: 9 resolutions supported
+2023-01-05 10:25:39 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture IF Change to uSD card notification pop-up exists select Cancel Option
+2023-01-05 10:25:49 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: A11S, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: A11S432621112305514}, deviceApiLevel: 30, deviceManufacturer: HXY, deviceModel: MP01, deviceName: A11S432621112305514, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: A11S432621112305514, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 60, takesScreenshot: true, udid: A11S432621112305514, viewportRect: {height: 1396, left: 0, top: 60, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: adb521ad-665e-4b7d-b30f-53c3c43e431c
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2023-01-05 10:25:51 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture if Location permisson Pop Exists Select Cancel Option
+2023-01-05 10:26:01 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Location permission access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: A11S, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: A11S432621112305514}, deviceApiLevel: 30, deviceManufacturer: HXY, deviceModel: MP01, deviceName: A11S432621112305514, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: A11S432621112305514, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 60, takesScreenshot: true, udid: A11S432621112305514, viewportRect: {height: 1396, left: 0, top: 60, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: adb521ad-665e-4b7d-b30f-53c3c43e431c
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2023-01-05 10:26:01 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Switch to rear Camera Mode if current Exiting camera is Front camera Mode
+2023-01-05 10:26:11 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Currently camera is already in rear camera mode no need to switch
+2023-01-05 10:26:11 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Select photo mode option
+2023-01-05 10:26:11 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Select settings option
+2023-01-05 10:26:17 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Select settings option to select resolution
+2023-01-05 10:26:21 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Select Rear camera first image resolution: (4:3) 16 megapixels
+2023-01-05 10:26:39 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture captureing first Resolution image 0
+2023-01-05 10:26:47 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture captureing first Resolution image 1
+2023-01-05 10:26:54 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture captureing first Resolution image 2
+2023-01-05 10:27:01 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture captureing first Resolution image 3
+2023-01-05 10:27:09 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture captureing first Resolution image 4
+2023-01-05 10:27:16 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture captureing first Resolution image 5
+2023-01-05 10:27:24 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture captureing first Resolution image 6
+2023-01-05 10:27:31 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture captureing first Resolution image 7
+2023-01-05 10:27:38 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture captureing first Resolution image 8
+2023-01-05 10:27:46 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture captureing first Resolution image 9
+2023-01-05 10:27:54 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture captureing first Resolution image 10
+2023-01-05 10:28:01 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture captureing first Resolution image 11
+2023-01-05 10:28:08 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture captureing first Resolution image 12
+2023-01-05 10:28:15 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture captureing first Resolution image 13
+2023-01-05 10:28:23 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture captureing first Resolution image 14
+2023-01-05 10:28:30 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture captureing first Resolution image 15
+2023-01-05 10:28:37 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture captureing first Resolution image 16
+2023-01-05 10:28:44 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture captureing first Resolution image 17
+2023-01-05 10:28:46 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Select settings option
+2023-01-05 10:28:51 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Select settings option to select resolution
+2023-01-05 10:28:56 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Select Rear camera second resolution: (4:3) 8 megapixels
+2023-01-05 10:29:14 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture captureing Second  Resolution image 0
+2023-01-05 10:29:22 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture captureing Second  Resolution image 1
+2023-01-05 10:29:29 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture captureing Second  Resolution image 2
+2023-01-05 10:29:37 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture captureing Second  Resolution image 3
+2023-01-05 10:29:44 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture captureing Second  Resolution image 4
+2023-01-05 10:29:52 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture captureing Second  Resolution image 5
+2023-01-05 10:29:59 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture captureing Second  Resolution image 6
+2023-01-05 10:30:07 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture captureing Second  Resolution image 7
+2023-01-05 10:30:14 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture captureing Second  Resolution image 8
+2023-01-05 10:30:21 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture captureing Second  Resolution image 9
+2023-01-05 10:30:29 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture captureing Second  Resolution image 10
+2023-01-05 10:30:36 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture captureing Second  Resolution image 11
+2023-01-05 10:30:44 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture captureing Second  Resolution image 12
+2023-01-05 10:30:51 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture captureing Second  Resolution image 13
+2023-01-05 10:30:58 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture captureing Second  Resolution image 14
+2023-01-05 10:31:06 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture captureing Second  Resolution image 15
+2023-01-05 10:31:13 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture captureing Second  Resolution image 16
+2023-01-05 10:31:20 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture captureing Second  Resolution image 17
+2023-01-05 10:31:22 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Select settings option
+2023-01-05 10:31:28 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Select settings option to select resolution
+2023-01-05 10:31:32 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Select rear camera third resolution:(4:3) 4 megapixels
+2023-01-05 10:31:45 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:31:51 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Captureing third Resolution image 0
+2023-01-05 10:31:53 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:31:58 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Captureing third Resolution image 1
+2023-01-05 10:32:00 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:32:06 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Captureing third Resolution image 2
+2023-01-05 10:32:08 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:32:13 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Captureing third Resolution image 3
+2023-01-05 10:32:15 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:32:21 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Captureing third Resolution image 4
+2023-01-05 10:32:23 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:32:30 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Captureing third Resolution image 5
+2023-01-05 10:32:32 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:32:37 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Captureing third Resolution image 6
+2023-01-05 10:32:39 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:32:45 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Captureing third Resolution image 7
+2023-01-05 10:32:47 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:32:52 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Captureing third Resolution image 8
+2023-01-05 10:32:54 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:33:00 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Captureing third Resolution image 9
+2023-01-05 10:33:02 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:33:07 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Captureing third Resolution image 10
+2023-01-05 10:33:09 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:33:14 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Captureing third Resolution image 11
+2023-01-05 10:33:16 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:33:21 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Captureing third Resolution image 12
+2023-01-05 10:33:23 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:33:29 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Captureing third Resolution image 13
+2023-01-05 10:33:31 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:33:37 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Captureing third Resolution image 14
+2023-01-05 10:33:39 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:33:44 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Captureing third Resolution image 15
+2023-01-05 10:33:46 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:33:51 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Captureing third Resolution image 16
+2023-01-05 10:33:53 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:33:59 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Captureing third Resolution image 17
+2023-01-05 10:34:01 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Select settings option
+2023-01-05 10:34:06 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Select settings option to select resolution
+2023-01-05 10:34:10 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Select Rear camera fourth image resolution (16:9) 12 megapixels
+2023-01-05 10:34:23 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:34:29 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Captureing fourth resolution image 0
+2023-01-05 10:34:31 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:34:36 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Captureing fourth resolution image 1
+2023-01-05 10:34:38 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:34:43 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Captureing fourth resolution image 2
+2023-01-05 10:34:45 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:34:50 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Captureing fourth resolution image 3
+2023-01-05 10:34:52 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:34:58 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Captureing fourth resolution image 4
+2023-01-05 10:35:00 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:35:05 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Captureing fourth resolution image 5
+2023-01-05 10:35:07 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:35:13 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Captureing fourth resolution image 6
+2023-01-05 10:35:15 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:35:20 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Captureing fourth resolution image 7
+2023-01-05 10:35:22 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:35:27 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Captureing fourth resolution image 8
+2023-01-05 10:35:29 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:35:34 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Captureing fourth resolution image 9
+2023-01-05 10:35:36 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:35:41 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Captureing fourth resolution image 10
+2023-01-05 10:35:43 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:35:49 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Captureing fourth resolution image 11
+2023-01-05 10:35:51 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Select settings option
+2023-01-05 10:35:57 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Select settings option to select resolution
+2023-01-05 10:36:00 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Select rear camera fifth image resolution: (16:9) 6 megapixels
+2023-01-05 10:36:14 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:36:19 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture clicking fifth Resolution image 0
+2023-01-05 10:36:21 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:36:26 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture clicking fifth Resolution image 1
+2023-01-05 10:36:28 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:36:33 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture clicking fifth Resolution image 2
+2023-01-05 10:36:35 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:36:41 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture clicking fifth Resolution image 3
+2023-01-05 10:36:43 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:36:48 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture clicking fifth Resolution image 4
+2023-01-05 10:36:50 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:36:55 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture clicking fifth Resolution image 5
+2023-01-05 10:36:57 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:37:03 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture clicking fifth Resolution image 6
+2023-01-05 10:37:05 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:37:11 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture clicking fifth Resolution image 7
+2023-01-05 10:37:13 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:37:18 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture clicking fifth Resolution image 8
+2023-01-05 10:37:20 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:37:25 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture clicking fifth Resolution image 9
+2023-01-05 10:37:27 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:37:32 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture clicking fifth Resolution image 10
+2023-01-05 10:37:34 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:37:39 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture clicking fifth Resolution image 11
+2023-01-05 10:37:41 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Select settings option
+2023-01-05 10:37:47 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Select settings option to select resolution
+2023-01-05 10:37:51 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Select Rear camera fifth image resolution: (16:9) 2 megapixels
+2023-01-05 10:38:05 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:38:10 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture captureing sixth Resolution image 0
+2023-01-05 10:38:12 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:38:17 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture captureing sixth Resolution image 1
+2023-01-05 10:38:19 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:38:24 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture captureing sixth Resolution image 2
+2023-01-05 10:38:26 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:38:32 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture captureing sixth Resolution image 3
+2023-01-05 10:38:34 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:38:39 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture captureing sixth Resolution image 4
+2023-01-05 10:38:41 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:38:46 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture captureing sixth Resolution image 5
+2023-01-05 10:38:48 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:38:53 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture captureing sixth Resolution image 6
+2023-01-05 10:38:55 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:39:00 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture captureing sixth Resolution image 7
+2023-01-05 10:39:02 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:39:08 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture captureing sixth Resolution image 8
+2023-01-05 10:39:10 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:39:16 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture captureing sixth Resolution image 9
+2023-01-05 10:39:18 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:39:23 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture captureing sixth Resolution image 10
+2023-01-05 10:39:25 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:39:30 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture captureing sixth Resolution image 11
+2023-01-05 10:39:32 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Select settings option
+2023-01-05 10:39:38 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Select settings option to select resolution
+2023-01-05 10:39:42 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Select rear camera seventh image resolution: (20:9) 8 megapixels
+2023-01-05 10:39:55 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:40:01 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Capturing seventh Resolution image 0
+2023-01-05 10:40:03 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:40:08 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Capturing seventh Resolution image 1
+2023-01-05 10:40:10 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:40:15 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Capturing seventh Resolution image 2
+2023-01-05 10:40:17 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:40:22 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Capturing seventh Resolution image 3
+2023-01-05 10:40:24 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:40:30 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Capturing seventh Resolution image 4
+2023-01-05 10:40:32 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:40:37 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Capturing seventh Resolution image 5
+2023-01-05 10:40:39 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:40:44 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Capturing seventh Resolution image 6
+2023-01-05 10:40:46 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:40:52 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Capturing seventh Resolution image 7
+2023-01-05 10:40:54 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:40:59 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Capturing seventh Resolution image 8
+2023-01-05 10:41:01 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:41:06 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Capturing seventh Resolution image 9
+2023-01-05 10:41:08 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:41:14 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Capturing seventh Resolution image 10
+2023-01-05 10:41:16 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:41:21 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Capturing seventh Resolution image 11
+2023-01-05 10:41:23 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Select settings option
+2023-01-05 10:41:28 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Select settings option to select resolution
+2023-01-05 10:41:33 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Select rear camera eighth image resolution: (20:9) 5 megapixels
+2023-01-05 10:41:46 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:41:51 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Captureing eight resolution image 0
+2023-01-05 10:41:53 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:41:59 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Captureing eight resolution image 1
+2023-01-05 10:42:01 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:42:06 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Captureing eight resolution image 2
+2023-01-05 10:42:08 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:42:13 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Captureing eight resolution image 3
+2023-01-05 10:42:15 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:42:20 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Captureing eight resolution image 4
+2023-01-05 10:42:22 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:42:27 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Captureing eight resolution image 5
+2023-01-05 10:42:29 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:42:35 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Captureing eight resolution image 6
+2023-01-05 10:42:37 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:42:42 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Captureing eight resolution image 7
+2023-01-05 10:42:44 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:42:49 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Captureing eight resolution image 8
+2023-01-05 10:42:51 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:42:56 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Captureing eight resolution image 9
+2023-01-05 10:42:58 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:43:04 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Captureing eight resolution image 10
+2023-01-05 10:43:06 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:43:12 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Captureing eight resolution image 11
+2023-01-05 10:43:14 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Select settings option
+2023-01-05 10:43:19 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Select settings option to select resolution
+2023-01-05 10:43:24 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Select rear camera ninth image resolution: (20:9) 2 megapixels
+2023-01-05 10:43:37 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:43:39 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Captureing ninth resolution image 0
+2023-01-05 10:43:41 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:43:44 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Captureing ninth resolution image 1
+2023-01-05 10:43:46 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:43:48 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Captureing ninth resolution image 2
+2023-01-05 10:43:50 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:43:52 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Captureing ninth resolution image 3
+2023-01-05 10:43:54 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:43:56 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Captureing ninth resolution image 4
+2023-01-05 10:43:58 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:44:00 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Captureing ninth resolution image 5
+2023-01-05 10:44:02 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:44:05 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Captureing ninth resolution image 6
+2023-01-05 10:44:07 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:44:10 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Captureing ninth resolution image 7
+2023-01-05 10:44:12 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:44:14 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Captureing ninth resolution image 8
+2023-01-05 10:44:16 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:44:19 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Captureing ninth resolution image 9
+2023-01-05 10:44:21 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:44:24 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Captureing ninth resolution image 10
+2023-01-05 10:44:26 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Start image capture
+2023-01-05 10:44:28 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Captureing ninth resolution image 11
+2023-01-05 10:44:30 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Total Count value:126 images to be Captured 
+2023-01-05 10:44:32 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Launch file manager application and verify recorded video present  in uSD Card
+2023-01-05 10:44:49 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture click on browse option
+2023-01-05 10:44:52 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Swipe up to select Internal storage
+2023-01-05 10:44:54 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Select Internal storage
+2023-01-05 10:45:00 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture switch to grid view mode to select DCIM folder
+2023-01-05 10:45:04 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Select DCIM folder
+2023-01-05 10:45:07 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Select camera folder
+2023-01-05 10:45:10 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture switch to list view mode 
+2023-01-05 10:45:13 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Click More options
+2023-01-05 10:45:19 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Click Select all
+2023-01-05 10:45:31 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Pass: Test9_Int pass for rear Image capture
+2023-01-05 10:45:31 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Test9_Int_Bcam_image: 126  images Captured succesfull
+2023-01-05 10:45:31 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-05 10:45:35 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture calling DataMoveOperation() 
+2023-01-05 10:45:35 INFO   UMIDIGI_A11S.Test9_Int DataMoveOperation launch file manager application select uSD card-->DCIM folder-->Camera folder-->Select all back camera front camera videos create Test10 and cut paste all videos in BCFC_Cameravideos folder
+2023-01-05 10:45:41 INFO   UMIDIGI_A11S.Test9_Int DataMoveOperation Swipe up to select uSD card
+2023-01-05 10:45:44 INFO   UMIDIGI_A11S.Test9_Int DataMoveOperation Select SD card
+2023-01-05 10:45:50 INFO   UMIDIGI_A11S.Test9_Int DataMoveOperation Select DCIM folder
+2023-01-05 10:45:53 INFO   UMIDIGI_A11S.Test9_Int DataMoveOperation Select camera folder
+2023-01-05 10:45:56 INFO   UMIDIGI_A11S.Test9_Int DataMoveOperation Click More options
+2023-01-05 10:46:02 INFO   UMIDIGI_A11S.Test9_Int DataMoveOperation Click Select all
+2023-01-05 10:46:06 INFO   UMIDIGI_A11S.Test9_Int DataMoveOperation Click More options
+2023-01-05 10:46:12 INFO   UMIDIGI_A11S.Test9_Int DataMoveOperation Select move to option
+2023-01-05 10:46:19 INFO   UMIDIGI_A11S.Test9_Int DataMoveOperation Select uSD Card
+2023-01-05 10:46:25 INFO   UMIDIGI_A11S.Test9_Int DataMoveOperation Select ADD NEW Folder option
+2023-01-05 10:46:31 INFO   UMIDIGI_A11S.Test9_Int DataMoveOperation Name folder as Test9_Int
+2023-01-05 10:46:38 INFO   UMIDIGI_A11S.Test9_Int DataMoveOperation Accept create folder
+2023-01-05 10:48:40 INFO   UMIDIGI_A11S.Test9_Int DataMoveOperation Cut paste  video files operation completed successfully
+2023-01-05 10:48:43 INFO   UMIDIGI_A11S.Test9_Int DataMoveOperation Pass: Test9_Int Pass for data move operation successfully
+2023-01-05 10:48:43 INFO   UMIDIGI_A11S.Test9_Int DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-05 10:48:43 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Final message: Pass Test9_Int Pass for Rear camera image capture  successfully
+2023-01-05 10:48:43 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture Test: End
+2023-01-05 10:48:43 INFO   UMIDIGI_A11S.Test9_Int RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

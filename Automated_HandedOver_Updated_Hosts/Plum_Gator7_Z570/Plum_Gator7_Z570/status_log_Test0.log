@@ -1,0 +1,163 @@
+2023-03-13 12:18:20 INFO   Plum_Gator7_Z570.Test0 start Test: Start
+2023-03-13 12:18:20 INFO   Plum_Gator7_Z570.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-13 12:18:20 INFO   Plum_Gator7_Z570.Test0 start  Test0 Scenario is as follows 
+2023-03-13 12:18:20 INFO   Plum_Gator7_Z570.Test0 start 1.Unlock phone, clear recent apps, clear internal memory
+2023-03-13 12:18:20 INFO   Plum_Gator7_Z570.Test0 start 2.Call Image() and Capture Rear camera 25 images for default resolution in uSD card and Verify the data capture
+2023-03-13 12:18:20 INFO   Plum_Gator7_Z570.Test0 start 3.Call Video() and record Rear camera video of first 2 resloutions for 2 minutes of duration in uSD Card and verify the same
+2023-03-13 12:18:20 INFO   Plum_Gator7_Z570.Test0 start 4.Call Format() and format uSD card with data and verify the same
+2023-03-13 12:18:20 INFO   Plum_Gator7_Z570.Test0 start Setting up the appium desired capabilities
+2023-03-13 12:18:20 INFO   Plum_Gator7_Z570.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-13 12:18:37 INFO   Plum_Gator7_Z570.Test0 start Clearing Recent Apps
+2023-03-13 12:18:37 INFO   Plum_Gator7_Z570.Test0 start Pass: No recent apps found
+2023-03-13 12:18:42 INFO   Plum_Gator7_Z570.Test0 start Launch File Manager Application and clear internal memory
+2023-03-13 12:18:56 INFO   Plum_Gator7_Z570.Test0 start Select  Internal storage
+2023-03-13 12:19:01 INFO   Plum_Gator7_Z570.Test0 start Select  More options
+2023-03-13 12:19:05 INFO   Plum_Gator7_Z570.Test0 start click on Select all
+2023-03-13 12:19:08 INFO   Plum_Gator7_Z570.Test0 start Select Delete permanently
+2023-03-13 12:19:12 INFO   Plum_Gator7_Z570.Test0 start Select  Delete
+2023-03-13 12:21:12 INFO   Plum_Gator7_Z570.Test0 start Pass: Clearing phone internal memory is successfull
+2023-03-13 12:21:12 INFO   Plum_Gator7_Z570.Test0 start Calling Image() to capture rear camera image in uSD card and verifying the same.
+2023-03-13 12:21:12 INFO   Plum_Gator7_Z570.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-13 12:21:30 INFO   Plum_Gator7_Z570.Test0 Images Launch Camera Application for Rear picture capture
+2023-03-13 12:21:37 INFO   Plum_Gator7_Z570.Test0 Images IF Change to uSD card notification pop-up exists select Cancel Option
+2023-03-13 12:21:48 INFO   Plum_Gator7_Z570.Test0 Images change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-201', ip: '10.65.147.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Z570, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: Z570000000000585}, deviceApiLevel: 30, deviceManufacturer: PLUM, deviceModel: Z570, deviceName: Z570000000000585, deviceScreenDensity: 320, deviceScreenSize: 720x1440, deviceUDID: Z570000000000585, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 48, takesScreenshot: true, udid: Z570000000000585, viewportRect: {height: 1296, left: 0, top: 48, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 2e384c80-7a6b-4acc-ac82-9efe21dfd718
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("DENY")}
+2023-03-13 12:21:48 INFO   Plum_Gator7_Z570.Test0 Images if Location permisson Pop Exists Select Cancel Option
+2023-03-13 12:21:58 INFO   Plum_Gator7_Z570.Test0 Images Location permission access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-201', ip: '10.65.147.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Z570, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: Z570000000000585}, deviceApiLevel: 30, deviceManufacturer: PLUM, deviceModel: Z570, deviceName: Z570000000000585, deviceScreenDensity: 320, deviceScreenSize: 720x1440, deviceUDID: Z570000000000585, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 48, takesScreenshot: true, udid: Z570000000000585, viewportRect: {height: 1296, left: 0, top: 48, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 2e384c80-7a6b-4acc-ac82-9efe21dfd718
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("START CAPTURE")}
+2023-03-13 12:21:58 INFO   Plum_Gator7_Z570.Test0 Images Switch to rear Camera Mode if current Exiting camera is Front camera Mode
+2023-03-13 12:22:00 INFO   Plum_Gator7_Z570.Test0 Images Select settings option
+2023-03-13 12:22:03 INFO   Plum_Gator7_Z570.Test0 Images Search for Storage path option
+2023-03-13 12:22:07 INFO   Plum_Gator7_Z570.Test0 Images Select SD as storage option
+2023-03-13 12:22:16 INFO   Plum_Gator7_Z570.Test0 Images Capture Image of Default Resolution
+2023-03-13 12:22:24 INFO   Plum_Gator7_Z570.Test0 Images clicking Image of Default Resolutions0
+2023-03-13 12:22:31 INFO   Plum_Gator7_Z570.Test0 Images clicking Image of Default Resolutions1
+2023-03-13 12:22:39 INFO   Plum_Gator7_Z570.Test0 Images clicking Image of Default Resolutions2
+2023-03-13 12:22:47 INFO   Plum_Gator7_Z570.Test0 Images clicking Image of Default Resolutions3
+2023-03-13 12:22:55 INFO   Plum_Gator7_Z570.Test0 Images clicking Image of Default Resolutions4
+2023-03-13 12:23:02 INFO   Plum_Gator7_Z570.Test0 Images clicking Image of Default Resolutions5
+2023-03-13 12:23:10 INFO   Plum_Gator7_Z570.Test0 Images clicking Image of Default Resolutions6
+2023-03-13 12:23:17 INFO   Plum_Gator7_Z570.Test0 Images clicking Image of Default Resolutions7
+2023-03-13 12:23:25 INFO   Plum_Gator7_Z570.Test0 Images clicking Image of Default Resolutions8
+2023-03-13 12:23:32 INFO   Plum_Gator7_Z570.Test0 Images clicking Image of Default Resolutions9
+2023-03-13 12:23:39 INFO   Plum_Gator7_Z570.Test0 Images clicking Image of Default Resolutions10
+2023-03-13 12:23:46 INFO   Plum_Gator7_Z570.Test0 Images clicking Image of Default Resolutions11
+2023-03-13 12:23:54 INFO   Plum_Gator7_Z570.Test0 Images clicking Image of Default Resolutions12
+2023-03-13 12:24:02 INFO   Plum_Gator7_Z570.Test0 Images clicking Image of Default Resolutions13
+2023-03-13 12:24:10 INFO   Plum_Gator7_Z570.Test0 Images clicking Image of Default Resolutions14
+2023-03-13 12:24:17 INFO   Plum_Gator7_Z570.Test0 Images clicking Image of Default Resolutions15
+2023-03-13 12:24:26 INFO   Plum_Gator7_Z570.Test0 Images clicking Image of Default Resolutions16
+2023-03-13 12:24:33 INFO   Plum_Gator7_Z570.Test0 Images clicking Image of Default Resolutions17
+2023-03-13 12:24:41 INFO   Plum_Gator7_Z570.Test0 Images clicking Image of Default Resolutions18
+2023-03-13 12:24:48 INFO   Plum_Gator7_Z570.Test0 Images clicking Image of Default Resolutions19
+2023-03-13 12:24:55 INFO   Plum_Gator7_Z570.Test0 Images clicking Image of Default Resolutions20
+2023-03-13 12:25:02 INFO   Plum_Gator7_Z570.Test0 Images clicking Image of Default Resolutions21
+2023-03-13 12:25:10 INFO   Plum_Gator7_Z570.Test0 Images clicking Image of Default Resolutions22
+2023-03-13 12:25:18 INFO   Plum_Gator7_Z570.Test0 Images clicking Image of Default Resolutions23
+2023-03-13 12:25:26 INFO   Plum_Gator7_Z570.Test0 Images clicking Image of Default Resolutions24
+2023-03-13 12:25:34 INFO   Plum_Gator7_Z570.Test0 Images Pass:Total Number Of Image captured 25 is successfull
+2023-03-13 12:25:34 INFO   Plum_Gator7_Z570.Test0 Images ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-13 12:25:34 INFO   Plum_Gator7_Z570.Test0 Images Launch File Manager application to verify  Image capture
+2023-03-13 12:25:41 INFO   Plum_Gator7_Z570.Test0 Images Select browse option
+2023-03-13 12:25:44 INFO   Plum_Gator7_Z570.Test0 Images swipe up and search for sd card option
+2023-03-13 12:25:47 INFO   Plum_Gator7_Z570.Test0 Images Select  SD Card
+2023-03-13 12:25:52 INFO   Plum_Gator7_Z570.Test0 Images switch to grid view mode to select DCIM folder
+2023-03-13 12:25:55 INFO   Plum_Gator7_Z570.Test0 Images Select DCIM folder
+2023-03-13 12:25:58 INFO   Plum_Gator7_Z570.Test0 Images Select camera folder
+2023-03-13 12:26:02 INFO   Plum_Gator7_Z570.Test0 Images switch to list view mode 
+2023-03-13 12:26:05 INFO   Plum_Gator7_Z570.Test0 Images Select moreoptions
+2023-03-13 12:26:10 INFO   Plum_Gator7_Z570.Test0 Images Select select all option
+2023-03-13 12:26:16 INFO   Plum_Gator7_Z570.Test0 Images Check 25 images present or not
+2023-03-13 12:26:16 INFO   Plum_Gator7_Z570.Test0 Images Verifying Image Capture 
+2023-03-13 12:26:21 INFO   Plum_Gator7_Z570.Test0 Images Pass:Total Number Of Image captured 25 is successfull
+2023-03-13 12:26:21 INFO   Plum_Gator7_Z570.Test0 Images Calling video() for rear video recording in USD card and verifying data capture.
+2023-03-13 12:26:21 INFO   Plum_Gator7_Z570.Test0 Images ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-13 12:26:36 INFO   Plum_Gator7_Z570.Test0 Video re-launch camera application for rear camera video recording
+2023-03-13 12:26:43 INFO   Plum_Gator7_Z570.Test0 Video IF Change to uSD card notification pop-up exists select Cancel Option
+2023-03-13 12:26:53 INFO   Plum_Gator7_Z570.Test0 Video change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-201', ip: '10.65.147.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Z570, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: Z570000000000585}, deviceApiLevel: 30, deviceManufacturer: PLUM, deviceModel: Z570, deviceName: Z570000000000585, deviceScreenDensity: 320, deviceScreenSize: 720x1440, deviceUDID: Z570000000000585, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 48, takesScreenshot: true, udid: Z570000000000585, viewportRect: {height: 1296, left: 0, top: 48, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 2e384c80-7a6b-4acc-ac82-9efe21dfd718
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("DENY")}
+2023-03-13 12:26:53 INFO   Plum_Gator7_Z570.Test0 Video if Location permisson Pop Exists Select Cancel Option
+2023-03-13 12:27:03 INFO   Plum_Gator7_Z570.Test0 Video Location permission access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-201', ip: '10.65.147.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Z570, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: Z570000000000585}, deviceApiLevel: 30, deviceManufacturer: PLUM, deviceModel: Z570, deviceName: Z570000000000585, deviceScreenDensity: 320, deviceScreenSize: 720x1440, deviceUDID: Z570000000000585, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 48, takesScreenshot: true, udid: Z570000000000585, viewportRect: {height: 1296, left: 0, top: 48, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 2e384c80-7a6b-4acc-ac82-9efe21dfd718
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("START CAPTURE")}
+2023-03-13 12:27:03 INFO   Plum_Gator7_Z570.Test0 Video Switch to video recording mode
+2023-03-13 12:27:13 INFO   Plum_Gator7_Z570.Test0 Video Select settings option
+2023-03-13 12:27:16 INFO   Plum_Gator7_Z570.Test0 Video Search for Storage path option
+2023-03-13 12:27:20 INFO   Plum_Gator7_Z570.Test0 Video Select SD as storage option
+2023-03-13 12:27:29 INFO   Plum_Gator7_Z570.Test0 Video Select settings option
+2023-03-13 12:27:33 INFO   Plum_Gator7_Z570.Test0 Video Select Video size(Back camera)
+2023-03-13 12:27:34 INFO   Plum_Gator7_Z570.Test0 Video Select 1st Back Video Resolution: 1920x1080
+2023-03-13 12:27:37 INFO   Plum_Gator7_Z570.Test0 Video Start video recording
+2023-03-13 12:29:37 INFO   Plum_Gator7_Z570.Test0 Video Recording Video for 2Minutes of Duration
+2023-03-13 12:29:37 INFO   Plum_Gator7_Z570.Test0 Video Stop video recording
+2023-03-13 12:29:43 INFO   Plum_Gator7_Z570.Test0 Video Select settings option
+2023-03-13 12:29:47 INFO   Plum_Gator7_Z570.Test0 Video Select Video size(Back camera)
+2023-03-13 12:29:48 INFO   Plum_Gator7_Z570.Test0 Video Select 2nd Back Video Resolution: 1280x720
+2023-03-13 12:29:51 INFO   Plum_Gator7_Z570.Test0 Video Start video recording
+2023-03-13 12:31:51 INFO   Plum_Gator7_Z570.Test0 Video Recording Video for 2Minutes of Duration
+2023-03-13 12:31:51 INFO   Plum_Gator7_Z570.Test0 Video Stop video recording
+2023-03-13 12:31:59 INFO   Plum_Gator7_Z570.Test0 Video Select photo mode
+2023-03-13 12:32:07 INFO   Plum_Gator7_Z570.Test0 Video Pass: Rear camera video recording is successfull
+2023-03-13 12:32:07 INFO   Plum_Gator7_Z570.Test0 Video ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-13 12:32:07 INFO   Plum_Gator7_Z570.Test0 Video Verifying Captured Videos
+2023-03-13 12:32:07 INFO   Plum_Gator7_Z570.Test0 Video Launch Home screen and Clear recent Apps
+2023-03-13 12:32:07 INFO   Plum_Gator7_Z570.Test0 Video Launch File Manager Application to verify captured videos
+2023-03-13 12:32:14 INFO   Plum_Gator7_Z570.Test0 Video swipe up and search for sd card option
+2023-03-13 12:32:17 INFO   Plum_Gator7_Z570.Test0 Video Click On SD Card
+2023-03-13 12:32:22 INFO   Plum_Gator7_Z570.Test0 Video switch to grid view mode to select DCIM folder
+2023-03-13 12:32:26 INFO   Plum_Gator7_Z570.Test0 Video Select DCIM folder
+2023-03-13 12:32:29 INFO   Plum_Gator7_Z570.Test0 Video Select camera folder
+2023-03-13 12:32:32 INFO   Plum_Gator7_Z570.Test0 Video switch to list view mode 
+2023-03-13 12:32:35 INFO   Plum_Gator7_Z570.Test0 Video Select moreoptions
+2023-03-13 12:32:40 INFO   Plum_Gator7_Z570.Test0 Video Select select all options
+2023-03-13 12:32:44 INFO   Plum_Gator7_Z570.Test0 Video check videos present or not
+2023-03-13 12:32:49 INFO   Plum_Gator7_Z570.Test0 Video Pass: 2 Videos recorded Successfully
+2023-03-13 12:32:49 INFO   Plum_Gator7_Z570.Test0 Video Pass: A total of 27 files present in uSD card before Format
+2023-03-13 12:32:49 INFO   Plum_Gator7_Z570.Test0 Video calling Format() for format with data scenario
+2023-03-13 12:32:49 INFO   Plum_Gator7_Z570.Test0 Video ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-13 12:32:49 INFO   Plum_Gator7_Z570.Test0 Format Clearing Recent Apps
+2023-03-13 12:32:56 INFO   Plum_Gator7_Z570.Test0 Format Launch Settings application for Format uSD card with Data scenario 
+2023-03-13 12:33:10 INFO   Plum_Gator7_Z570.Test0 Format Select Storage
+2023-03-13 12:33:18 INFO   Plum_Gator7_Z570.Test0 Format Clicking on SD card
+2023-03-13 12:33:29 INFO   Plum_Gator7_Z570.Test0 Format Select uSD card
+2023-03-13 12:33:39 INFO   Plum_Gator7_Z570.Test0 Format Clicking on moreoptions
+2023-03-13 12:33:44 INFO   Plum_Gator7_Z570.Test0 Format Select Storage settings
+2023-03-13 12:33:50 INFO   Plum_Gator7_Z570.Test0 Format Select  format
+2023-03-13 12:33:55 INFO   Plum_Gator7_Z570.Test0 Format Select again formatsdcard
+2023-03-13 12:34:55 INFO   Plum_Gator7_Z570.Test0 Format Accept to Format uSD Card
+2023-03-13 12:34:55 INFO   Plum_Gator7_Z570.Test0 Format Started formatting, waiting till it gets formatted
+2023-03-13 12:35:04 INFO   Plum_Gator7_Z570.Test0 Format Pass: Format uSD with Data is successfull
+2023-03-13 12:35:04 INFO   Plum_Gator7_Z570.Test0 Format ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-13 12:35:11 INFO   Plum_Gator7_Z570.Test0 Format Launch File Manager Application
+2023-03-13 12:35:18 INFO   Plum_Gator7_Z570.Test0 Format select browse option
+2023-03-13 12:35:21 INFO   Plum_Gator7_Z570.Test0 Format Swipe Up and Search for Storage
+2023-03-13 12:35:24 INFO   Plum_Gator7_Z570.Test0 Format Click On SD Card
+2023-03-13 12:35:37 INFO   Plum_Gator7_Z570.Test0 Format Click on DCIM Folder
+2023-03-13 12:35:42 INFO   Plum_Gator7_Z570.Test0 Format Click on camera Folder
+2023-03-13 12:35:52 INFO   Plum_Gator7_Z570.Test0 Format Pass:Images and videos are not present in the DCIM folder, CARD format is successfully completed 
+2023-03-13 12:35:52 INFO   Plum_Gator7_Z570.Test0 Format Final Message: Pass Test0 pass for format Operation
+2023-03-13 12:35:52 INFO   Plum_Gator7_Z570.Test0 Format Test: End
+2023-03-13 12:35:52 INFO   Plum_Gator7_Z570.Test0 Format ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

@@ -1,0 +1,382 @@
+2023-02-22 21:21:30 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Test: Start
+2023-02-22 21:21:30 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-22 21:21:30 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Test9 Scenario is follows:
+2023-02-22 21:21:30 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture 1.Launch camera application, set uSD as a Storage option, start rear camera Image capture for all host resolutions
+2023-02-22 21:21:30 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture 2.Move rear camera image captured files from camera folder to Test9 folder
+2023-02-22 21:21:30 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Setting up the appium desired capabilities
+2023-02-22 21:21:30 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-22 21:21:45 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Launch home screen
+2023-02-22 21:21:55 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Clearing Recent Apps
+2023-02-22 21:21:55 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Pass: No recent apps found
+2023-02-22 21:22:00 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Launch Camera application for rear camera Image capture
+2023-02-22 21:22:07 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Test9_Bcam_res: 4 resolutions supported
+2023-02-22 21:22:07 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture IF Change to uSD card notification pop-up exists select Cancel Option
+2023-02-22 21:22:17 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: K9 Pro, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: OUKITELK9PRO02170}, deviceApiLevel: 30, deviceManufacturer: OUKITEL, deviceModel: K9 Pro, deviceName: OUKITELK9PRO02170, deviceScreenDensity: 320, deviceScreenSize: 720x1640, deviceUDID: OUKITELK9PRO02170, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 80, takesScreenshot: true, udid: OUKITELK9PRO02170, viewportRect: {height: 1450, left: 0, top: 80, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 1e7366ae-1fa4-422b-9cf0-0aa3ba5c59f0
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("DENY")}
+2023-02-22 21:22:17 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture if Location permisson Pop Exists Select Cancel Option
+2023-02-22 21:22:27 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Location permission access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: K9 Pro, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: OUKITELK9PRO02170}, deviceApiLevel: 30, deviceManufacturer: OUKITEL, deviceModel: K9 Pro, deviceName: OUKITELK9PRO02170, deviceScreenDensity: 320, deviceScreenSize: 720x1640, deviceUDID: OUKITELK9PRO02170, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 80, takesScreenshot: true, udid: OUKITELK9PRO02170, viewportRect: {height: 1450, left: 0, top: 80, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 1e7366ae-1fa4-422b-9cf0-0aa3ba5c59f0
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("START CAPTURE")}
+2023-02-22 21:22:27 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Switch to rear Camera Mode if current Exiting camera is Front camera Mode
+2023-02-22 21:22:27 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Currently camera is already in rear camera mode no need to switch
+2023-02-22 21:22:27 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Select settings option
+2023-02-22 21:22:30 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Search for Storage path option
+2023-02-22 21:22:34 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Select SD as storage option
+2023-02-22 21:22:46 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Select settings option
+2023-02-22 21:22:50 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Select settings option to select resolution
+2023-02-22 21:22:54 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Select Rear camera first image resolution: 4160x3120
+2023-02-22 21:23:15 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing first Resolution image 0
+2023-02-22 21:23:23 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing first Resolution image 1
+2023-02-22 21:23:31 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing first Resolution image 2
+2023-02-22 21:23:39 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing first Resolution image 3
+2023-02-22 21:23:47 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing first Resolution image 4
+2023-02-22 21:23:55 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing first Resolution image 5
+2023-02-22 21:24:03 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing first Resolution image 6
+2023-02-22 21:24:11 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing first Resolution image 7
+2023-02-22 21:24:18 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing first Resolution image 8
+2023-02-22 21:24:26 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing first Resolution image 9
+2023-02-22 21:24:34 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing first Resolution image 10
+2023-02-22 21:24:42 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing first Resolution image 11
+2023-02-22 21:24:50 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing first Resolution image 12
+2023-02-22 21:24:57 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing first Resolution image 13
+2023-02-22 21:25:05 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing first Resolution image 14
+2023-02-22 21:25:13 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing first Resolution image 15
+2023-02-22 21:25:21 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing first Resolution image 16
+2023-02-22 21:25:29 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing first Resolution image 17
+2023-02-22 21:25:37 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing first Resolution image 18
+2023-02-22 21:25:45 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing first Resolution image 19
+2023-02-22 21:25:52 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing first Resolution image 20
+2023-02-22 21:26:00 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing first Resolution image 21
+2023-02-22 21:26:08 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing first Resolution image 22
+2023-02-22 21:26:16 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing first Resolution image 23
+2023-02-22 21:26:24 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing first Resolution image 24
+2023-02-22 21:26:32 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing first Resolution image 25
+2023-02-22 21:26:40 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing first Resolution image 26
+2023-02-22 21:26:48 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing first Resolution image 27
+2023-02-22 21:26:55 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing first Resolution image 28
+2023-02-22 21:27:04 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing first Resolution image 29
+2023-02-22 21:27:12 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing first Resolution image 30
+2023-02-22 21:27:20 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing first Resolution image 31
+2023-02-22 21:27:27 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing first Resolution image 32
+2023-02-22 21:27:35 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing first Resolution image 33
+2023-02-22 21:27:43 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing first Resolution image 34
+2023-02-22 21:27:51 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing first Resolution image 35
+2023-02-22 21:27:59 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing first Resolution image 36
+2023-02-22 21:28:07 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing first Resolution image 37
+2023-02-22 21:28:15 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing first Resolution image 38
+2023-02-22 21:28:23 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing first Resolution image 39
+2023-02-22 21:28:31 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing first Resolution image 40
+2023-02-22 21:28:38 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing first Resolution image 41
+2023-02-22 21:28:46 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing first Resolution image 42
+2023-02-22 21:28:54 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing first Resolution image 43
+2023-02-22 21:29:02 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing first Resolution image 44
+2023-02-22 21:29:09 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing first Resolution image 45
+2023-02-22 21:29:17 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing first Resolution image 46
+2023-02-22 21:29:25 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing first Resolution image 47
+2023-02-22 21:29:32 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing first Resolution image 48
+2023-02-22 21:29:40 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing first Resolution image 49
+2023-02-22 21:29:42 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Select settings option
+2023-02-22 21:29:46 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Select settings option to select resolution
+2023-02-22 21:29:49 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Select Rear camera second resolution: 3264x2448
+2023-02-22 21:30:10 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing Second  Resolution image 0
+2023-02-22 21:30:18 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing Second  Resolution image 1
+2023-02-22 21:30:27 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing Second  Resolution image 2
+2023-02-22 21:30:35 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing Second  Resolution image 3
+2023-02-22 21:30:43 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing Second  Resolution image 4
+2023-02-22 21:30:51 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing Second  Resolution image 5
+2023-02-22 21:30:58 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing Second  Resolution image 6
+2023-02-22 21:31:06 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing Second  Resolution image 7
+2023-02-22 21:31:14 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing Second  Resolution image 8
+2023-02-22 21:31:21 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing Second  Resolution image 9
+2023-02-22 21:31:29 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing Second  Resolution image 10
+2023-02-22 21:31:37 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing Second  Resolution image 11
+2023-02-22 21:31:44 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing Second  Resolution image 12
+2023-02-22 21:31:52 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing Second  Resolution image 13
+2023-02-22 21:32:00 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing Second  Resolution image 14
+2023-02-22 21:32:08 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing Second  Resolution image 15
+2023-02-22 21:32:16 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing Second  Resolution image 16
+2023-02-22 21:32:24 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing Second  Resolution image 17
+2023-02-22 21:32:32 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing Second  Resolution image 18
+2023-02-22 21:32:40 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing Second  Resolution image 19
+2023-02-22 21:32:48 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing Second  Resolution image 20
+2023-02-22 21:32:55 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing Second  Resolution image 21
+2023-02-22 21:33:03 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing Second  Resolution image 22
+2023-02-22 21:33:11 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing Second  Resolution image 23
+2023-02-22 21:33:19 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing Second  Resolution image 24
+2023-02-22 21:33:27 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing Second  Resolution image 25
+2023-02-22 21:33:35 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing Second  Resolution image 26
+2023-02-22 21:33:43 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing Second  Resolution image 27
+2023-02-22 21:33:50 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing Second  Resolution image 28
+2023-02-22 21:33:58 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing Second  Resolution image 29
+2023-02-22 21:34:06 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing Second  Resolution image 30
+2023-02-22 21:34:14 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing Second  Resolution image 31
+2023-02-22 21:34:22 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing Second  Resolution image 32
+2023-02-22 21:34:30 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing Second  Resolution image 33
+2023-02-22 21:34:38 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing Second  Resolution image 34
+2023-02-22 21:34:46 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing Second  Resolution image 35
+2023-02-22 21:34:53 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing Second  Resolution image 36
+2023-02-22 21:35:01 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing Second  Resolution image 37
+2023-02-22 21:35:09 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing Second  Resolution image 38
+2023-02-22 21:35:17 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing Second  Resolution image 39
+2023-02-22 21:35:25 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing Second  Resolution image 40
+2023-02-22 21:35:33 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing Second  Resolution image 41
+2023-02-22 21:35:41 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing Second  Resolution image 42
+2023-02-22 21:35:49 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing Second  Resolution image 43
+2023-02-22 21:35:57 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing Second  Resolution image 44
+2023-02-22 21:36:05 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing Second  Resolution image 45
+2023-02-22 21:36:13 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing Second  Resolution image 46
+2023-02-22 21:36:20 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing Second  Resolution image 47
+2023-02-22 21:36:28 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing Second  Resolution image 48
+2023-02-22 21:36:36 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture captureing Second  Resolution image 49
+2023-02-22 21:36:38 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Select settings option
+2023-02-22 21:36:41 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Select settings option to select resolution
+2023-02-22 21:36:45 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Select rear camera third resolution:2560x1920
+2023-02-22 21:37:00 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:37:06 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing third Resolution image 0
+2023-02-22 21:37:08 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:37:14 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing third Resolution image 1
+2023-02-22 21:37:16 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:37:22 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing third Resolution image 2
+2023-02-22 21:37:24 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:37:30 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing third Resolution image 3
+2023-02-22 21:37:32 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:37:38 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing third Resolution image 4
+2023-02-22 21:37:40 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:37:45 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing third Resolution image 5
+2023-02-22 21:37:47 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:37:53 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing third Resolution image 6
+2023-02-22 21:37:55 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:38:01 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing third Resolution image 7
+2023-02-22 21:38:03 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:38:09 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing third Resolution image 8
+2023-02-22 21:38:11 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:38:17 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing third Resolution image 9
+2023-02-22 21:38:19 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:38:24 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing third Resolution image 10
+2023-02-22 21:38:26 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:38:32 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing third Resolution image 11
+2023-02-22 21:38:34 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:38:40 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing third Resolution image 12
+2023-02-22 21:38:42 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:38:47 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing third Resolution image 13
+2023-02-22 21:38:49 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:38:55 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing third Resolution image 14
+2023-02-22 21:38:57 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:39:02 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing third Resolution image 15
+2023-02-22 21:39:04 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:39:10 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing third Resolution image 16
+2023-02-22 21:39:12 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:39:18 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing third Resolution image 17
+2023-02-22 21:39:20 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:39:26 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing third Resolution image 18
+2023-02-22 21:39:28 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:39:34 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing third Resolution image 19
+2023-02-22 21:39:36 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:39:42 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing third Resolution image 20
+2023-02-22 21:39:44 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:39:50 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing third Resolution image 21
+2023-02-22 21:39:52 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:39:58 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing third Resolution image 22
+2023-02-22 21:40:00 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:40:06 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing third Resolution image 23
+2023-02-22 21:40:08 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:40:14 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing third Resolution image 24
+2023-02-22 21:40:16 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:40:22 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing third Resolution image 25
+2023-02-22 21:40:24 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:40:30 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing third Resolution image 26
+2023-02-22 21:40:32 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:40:38 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing third Resolution image 27
+2023-02-22 21:40:40 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:40:46 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing third Resolution image 28
+2023-02-22 21:40:48 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:40:54 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing third Resolution image 29
+2023-02-22 21:40:56 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:41:02 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing third Resolution image 30
+2023-02-22 21:41:04 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:41:09 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing third Resolution image 31
+2023-02-22 21:41:11 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:41:17 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing third Resolution image 32
+2023-02-22 21:41:19 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:41:25 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing third Resolution image 33
+2023-02-22 21:41:27 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:41:33 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing third Resolution image 34
+2023-02-22 21:41:35 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:41:40 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing third Resolution image 35
+2023-02-22 21:41:42 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:41:48 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing third Resolution image 36
+2023-02-22 21:41:50 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:41:56 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing third Resolution image 37
+2023-02-22 21:41:58 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:42:04 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing third Resolution image 38
+2023-02-22 21:42:06 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:42:12 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing third Resolution image 39
+2023-02-22 21:42:14 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:42:19 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing third Resolution image 40
+2023-02-22 21:42:21 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:42:27 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing third Resolution image 41
+2023-02-22 21:42:29 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:42:35 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing third Resolution image 42
+2023-02-22 21:42:37 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:42:42 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing third Resolution image 43
+2023-02-22 21:42:44 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:42:50 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing third Resolution image 44
+2023-02-22 21:42:52 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:42:57 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing third Resolution image 45
+2023-02-22 21:42:59 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:43:06 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing third Resolution image 46
+2023-02-22 21:43:08 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:43:13 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing third Resolution image 47
+2023-02-22 21:43:15 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:43:22 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing third Resolution image 48
+2023-02-22 21:43:24 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:43:29 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing third Resolution image 49
+2023-02-22 21:43:31 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Select settings option
+2023-02-22 21:43:34 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Select settings option to select resolution
+2023-02-22 21:43:38 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Select Rear camera fourth image resolution 5088x2544
+2023-02-22 21:43:53 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:43:59 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing fourth resolution image 0
+2023-02-22 21:44:01 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:44:07 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing fourth resolution image 1
+2023-02-22 21:44:09 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:44:15 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing fourth resolution image 2
+2023-02-22 21:44:17 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:44:23 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing fourth resolution image 3
+2023-02-22 21:44:25 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:44:30 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing fourth resolution image 4
+2023-02-22 21:44:32 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:44:38 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing fourth resolution image 5
+2023-02-22 21:44:40 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:44:46 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing fourth resolution image 6
+2023-02-22 21:44:48 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:44:54 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing fourth resolution image 7
+2023-02-22 21:44:56 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:45:01 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing fourth resolution image 8
+2023-02-22 21:45:03 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:45:09 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing fourth resolution image 9
+2023-02-22 21:45:11 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:45:17 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing fourth resolution image 10
+2023-02-22 21:45:19 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:45:25 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing fourth resolution image 11
+2023-02-22 21:45:27 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:45:33 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing fourth resolution image 12
+2023-02-22 21:45:35 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:45:41 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing fourth resolution image 13
+2023-02-22 21:45:43 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:45:48 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing fourth resolution image 14
+2023-02-22 21:45:50 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:45:55 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing fourth resolution image 15
+2023-02-22 21:45:57 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:46:03 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing fourth resolution image 16
+2023-02-22 21:46:05 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:46:11 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing fourth resolution image 17
+2023-02-22 21:46:13 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:46:19 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing fourth resolution image 18
+2023-02-22 21:46:21 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:46:26 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing fourth resolution image 19
+2023-02-22 21:46:28 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:46:34 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing fourth resolution image 20
+2023-02-22 21:46:36 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:46:42 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing fourth resolution image 21
+2023-02-22 21:46:44 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:46:50 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing fourth resolution image 22
+2023-02-22 21:46:52 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:46:58 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing fourth resolution image 23
+2023-02-22 21:47:00 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:47:05 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing fourth resolution image 24
+2023-02-22 21:47:07 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:47:13 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing fourth resolution image 25
+2023-02-22 21:47:15 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:47:21 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing fourth resolution image 26
+2023-02-22 21:47:23 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:47:29 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing fourth resolution image 27
+2023-02-22 21:47:31 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:47:36 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing fourth resolution image 28
+2023-02-22 21:47:38 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:47:44 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing fourth resolution image 29
+2023-02-22 21:47:46 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:47:52 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing fourth resolution image 30
+2023-02-22 21:47:54 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:48:00 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing fourth resolution image 31
+2023-02-22 21:48:02 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:48:08 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing fourth resolution image 32
+2023-02-22 21:48:10 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:48:16 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing fourth resolution image 33
+2023-02-22 21:48:18 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:48:24 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing fourth resolution image 34
+2023-02-22 21:48:26 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:48:32 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing fourth resolution image 35
+2023-02-22 21:48:34 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:48:40 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing fourth resolution image 36
+2023-02-22 21:48:42 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:48:48 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing fourth resolution image 37
+2023-02-22 21:48:50 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:48:56 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing fourth resolution image 38
+2023-02-22 21:48:58 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:49:04 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing fourth resolution image 39
+2023-02-22 21:49:06 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:49:12 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing fourth resolution image 40
+2023-02-22 21:49:14 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:49:20 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing fourth resolution image 41
+2023-02-22 21:49:22 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:49:28 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing fourth resolution image 42
+2023-02-22 21:49:30 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:49:36 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing fourth resolution image 43
+2023-02-22 21:49:38 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:49:43 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing fourth resolution image 44
+2023-02-22 21:49:45 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:49:51 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing fourth resolution image 45
+2023-02-22 21:49:53 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:49:59 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing fourth resolution image 46
+2023-02-22 21:50:01 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:50:07 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing fourth resolution image 47
+2023-02-22 21:50:09 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:50:15 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing fourth resolution image 48
+2023-02-22 21:50:17 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Start image capture
+2023-02-22 21:50:23 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Captureing fourth resolution image 49
+2023-02-22 21:50:25 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Total Count value:200 images to be Captured 
+2023-02-22 21:50:32 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Launch file manager application and verify recorded video present  in uSD Card
+2023-02-22 21:50:49 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture click on browse option
+2023-02-22 21:50:52 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Swipe up to select uSD card
+2023-02-22 21:50:55 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Select SD card
+2023-02-22 21:51:01 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture switch to grid view mode to select DCIM folder
+2023-02-22 21:51:05 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Select DCIM folder
+2023-02-22 21:51:08 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Select camera folder
+2023-02-22 21:51:11 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture switch to list view mode 
+2023-02-22 21:51:14 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Click More options
+2023-02-22 21:51:21 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Click Select all
+2023-02-22 21:51:33 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Pass: Test9 pass for rear Image capture
+2023-02-22 21:51:33 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Test9_Bcam_image: 200  images Captured succesfull
+2023-02-22 21:51:33 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-22 21:51:49 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture calling DataMoveOperation() 
+2023-02-22 21:51:49 INFO   Oukitel_K9_Pro.Test9 DataMoveOperation launch file manager application select uSD card-->DCIM folder-->Camera folder-->Select all back camera front camera videos create Test10 and cut paste all videos in BCFC_Cameravideos folder
+2023-02-22 21:51:55 INFO   Oukitel_K9_Pro.Test9 DataMoveOperation Swipe up to select uSD card
+2023-02-22 21:51:58 INFO   Oukitel_K9_Pro.Test9 DataMoveOperation Select external storage
+2023-02-22 21:52:04 INFO   Oukitel_K9_Pro.Test9 DataMoveOperation Click More options
+2023-02-22 21:52:10 INFO   Oukitel_K9_Pro.Test9 DataMoveOperation Select add new folder option
+2023-02-22 21:52:18 INFO   Oukitel_K9_Pro.Test9 DataMoveOperation Name folder as Test9
+2023-02-22 21:52:32 INFO   Oukitel_K9_Pro.Test9 DataMoveOperation Select DCIM folder
+2023-02-22 21:52:36 INFO   Oukitel_K9_Pro.Test9 DataMoveOperation Select camera folder
+2023-02-22 21:52:39 INFO   Oukitel_K9_Pro.Test9 DataMoveOperation Click More options
+2023-02-22 21:52:45 INFO   Oukitel_K9_Pro.Test9 DataMoveOperation Click select all option
+2023-02-22 21:52:52 INFO   Oukitel_K9_Pro.Test9 DataMoveOperation Click More options
+2023-02-22 21:52:59 INFO   Oukitel_K9_Pro.Test9 DataMoveOperation Select Move to option
+2023-02-22 21:53:06 INFO   Oukitel_K9_Pro.Test9 DataMoveOperation Select SD card
+2023-02-22 21:53:12 INFO   Oukitel_K9_Pro.Test9 DataMoveOperation Select Test9 folder
+2023-02-22 21:53:18 INFO   Oukitel_K9_Pro.Test9 DataMoveOperation Click move here
+2023-02-22 21:55:28 INFO   Oukitel_K9_Pro.Test9 DataMoveOperation Pass: Test9 Pass for data move operation successfully
+2023-02-22 21:55:28 INFO   Oukitel_K9_Pro.Test9 DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-22 21:55:28 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Final Message: Pass Test9 Pass for Rear camera image capture  successfully
+2023-02-22 21:55:28 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture Test: End
+2023-02-22 21:55:28 INFO   Oukitel_K9_Pro.Test9 RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

@@ -1,0 +1,103 @@
+2023-03-28 11:54:29 INFO   Motorola_Moto_E30_XT21596.Test10 rearVideoRec Test: Start
+2023-03-28 11:54:29 INFO   Motorola_Moto_E30_XT21596.Test10 rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-28 11:54:29 INFO   Motorola_Moto_E30_XT21596.Test10 rearVideoRec Test10 Scenario is as follows
+2023-03-28 11:54:29 INFO   Motorola_Moto_E30_XT21596.Test10 rearVideoRec 1.Launch Camera application and start back camera video recording for all host applicable resolutions in uSD Card
+2023-03-28 11:54:29 INFO   Motorola_Moto_E30_XT21596.Test10 rearVideoRec 2.Playback Highest resolution recorded video from USD Card, fast forward playback and pause video scenario 
+2023-03-28 11:54:29 INFO   Motorola_Moto_E30_XT21596.Test10 rearVideoRec 3.Playback copied videos from Test1 folder, fast forward and pause scenario
+2023-03-28 11:54:29 INFO   Motorola_Moto_E30_XT21596.Test10 rearVideoRec 4.Move recorded videos from Exteranl storage-->DCIM-->Camera folder to Test10 folder in external storage
+2023-03-28 11:54:29 INFO   Motorola_Moto_E30_XT21596.Test10 rearVideoRec Setting up the appium desired capabilities
+2023-03-28 11:54:29 INFO   Motorola_Moto_E30_XT21596.Test10 rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-28 11:54:47 INFO   Motorola_Moto_E30_XT21596.Test10 rearVideoRec Launch home screen
+2023-03-28 11:54:53 INFO   Motorola_Moto_E30_XT21596.Test10 rearVideoRec Launch Camera application for rear camera video recording
+2023-03-28 11:54:53 INFO   Motorola_Moto_E30_XT21596.Test10 rearVideoRec Launch Camera Application for Rear picture capture
+2023-03-28 11:54:58 INFO   Motorola_Moto_E30_XT21596.Test10 rearVideoRec Test10_Bcam_res: 2 resolutions supported
+2023-03-28 11:54:58 INFO   Motorola_Moto_E30_XT21596.Test10 rearVideoRec Switch to video  mode
+2023-03-28 11:55:08 INFO   Motorola_Moto_E30_XT21596.Test10 rearVideoRec Select settings option
+2023-03-28 11:55:13 INFO   Motorola_Moto_E30_XT21596.Test10 rearVideoRec Select  storage option
+2023-03-28 11:55:19 INFO   Motorola_Moto_E30_XT21596.Test10 rearVideoRec Select SD as storage option
+2023-03-28 11:55:27 INFO   Motorola_Moto_E30_XT21596.Test10 rearVideoRec Select settings option
+2023-03-28 11:55:33 INFO   Motorola_Moto_E30_XT21596.Test10 rearVideoRec Select Video size(Back camera)
+2023-03-28 11:55:38 INFO   Motorola_Moto_E30_XT21596.Test10 rearVideoRec Select 1st Back Video Resolution: FHD
+2023-03-28 11:55:50 INFO   Motorola_Moto_E30_XT21596.Test10 rearVideoRec Start video recording
+2023-03-28 12:05:30 INFO   Motorola_Moto_E30_XT21596.Test10 rearVideoRec Stop video recording
+2023-03-28 12:05:38 INFO   Motorola_Moto_E30_XT21596.Test10 rearVideoRec Select settings option
+2023-03-28 12:05:43 INFO   Motorola_Moto_E30_XT21596.Test10 rearVideoRec Select Video size(Back camera)
+2023-03-28 12:05:49 INFO   Motorola_Moto_E30_XT21596.Test10 rearVideoRec Select 2nd Back Video Resolution: HD
+2023-03-28 12:06:01 INFO   Motorola_Moto_E30_XT21596.Test10 rearVideoRec Start video recording
+2023-03-28 12:15:41 INFO   Motorola_Moto_E30_XT21596.Test10 rearVideoRec Stop video recording
+2023-03-28 12:15:49 INFO   Motorola_Moto_E30_XT21596.Test10 rearVideoRec Switch to photo mode
+2023-03-28 12:16:06 INFO   Motorola_Moto_E30_XT21596.Test10 rearVideoRec Pass: Rear video recording is successfull
+2023-03-28 12:16:06 INFO   Motorola_Moto_E30_XT21596.Test10 rearVideoRec Launch File Manager Application to verify captured videos in uSD card
+2023-03-28 12:16:08 INFO   Motorola_Moto_E30_XT21596.Test10 rearVideoRec Swipe up to select uSD card
+2023-03-28 12:16:11 INFO   Motorola_Moto_E30_XT21596.Test10 rearVideoRec Select SD card
+2023-03-28 12:16:17 INFO   Motorola_Moto_E30_XT21596.Test10 rearVideoRec switch to grid view mode to select DCIM folder
+2023-03-28 12:16:20 INFO   Motorola_Moto_E30_XT21596.Test10 rearVideoRec Select DCIM folder
+2023-03-28 12:16:24 INFO   Motorola_Moto_E30_XT21596.Test10 rearVideoRec Select camera folder
+2023-03-28 12:16:27 INFO   Motorola_Moto_E30_XT21596.Test10 rearVideoRec switch to list view mode 
+2023-03-28 12:16:33 INFO   Motorola_Moto_E30_XT21596.Test10 rearVideoRec Click More options
+2023-03-28 12:16:39 INFO   Motorola_Moto_E30_XT21596.Test10 rearVideoRec Click Select all
+2023-03-28 12:16:48 INFO   Motorola_Moto_E30_XT21596.Test10 rearVideoRec Test10_Bcam_video: 2 Videos captured successfull
+2023-03-28 12:16:48 INFO   Motorola_Moto_E30_XT21596.Test10 rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-28 12:16:48 INFO   Motorola_Moto_E30_XT21596.Test10 rearVideoRec Calling RecordedVideoPlayback() for Playing Highest record video, fast forward video play back scenario
+2023-03-28 12:16:48 INFO   Motorola_Moto_E30_XT21596.Test10 RecordedVideoPlayback Launch Camera Application for rear camera video recording
+2023-03-28 12:16:54 INFO   Motorola_Moto_E30_XT21596.Test10 RecordedVideoPlayback Swipe up and select uSD card
+2023-03-28 12:16:57 INFO   Motorola_Moto_E30_XT21596.Test10 RecordedVideoPlayback Select External storage
+2023-03-28 12:17:02 INFO   Motorola_Moto_E30_XT21596.Test10 RecordedVideoPlayback switch to grid view mode 
+2023-03-28 12:17:05 INFO   Motorola_Moto_E30_XT21596.Test10 RecordedVideoPlayback Swipe up and select DCIM folder
+2023-03-28 12:17:05 INFO   Motorola_Moto_E30_XT21596.Test10 RecordedVideoPlayback Select DCIM folder
+2023-03-28 12:17:08 INFO   Motorola_Moto_E30_XT21596.Test10 RecordedVideoPlayback Select Camera folder
+2023-03-28 12:17:11 INFO   Motorola_Moto_E30_XT21596.Test10 RecordedVideoPlayback switch to list view mode 
+2023-03-28 12:17:15 INFO   Motorola_Moto_E30_XT21596.Test10 RecordedVideoPlayback select more options
+2023-03-28 12:17:20 INFO   Motorola_Moto_E30_XT21596.Test10 RecordedVideoPlayback Select Sort BY
+2023-03-28 12:17:24 INFO   Motorola_Moto_E30_XT21596.Test10 RecordedVideoPlayback Select Largest first
+2023-03-28 12:17:27 INFO   Motorola_Moto_E30_XT21596.Test10 RecordedVideoPlayback Click on first file to play highest recorded resolution video file
+2023-03-28 12:17:27 INFO   Motorola_Moto_E30_XT21596.Test10 RecordedVideoPlayback Started video playback
+2023-03-28 12:17:47 INFO   Motorola_Moto_E30_XT21596.Test10 RecordedVideoPlayback Tap Somewhere on Screen for contents to visible on Screen
+2023-03-28 12:17:47 INFO   Motorola_Moto_E30_XT21596.Test10 RecordedVideoPlayback Fast forward video for 10 seconds
+2023-03-28 12:17:48 INFO   Motorola_Moto_E30_XT21596.Test10 RecordedVideoPlayback Continue video playback
+2023-03-28 12:18:15 INFO   Motorola_Moto_E30_XT21596.Test10 RecordedVideoPlayback Pass: Recorded Video playback and fast forward scenario successfull
+2023-03-28 12:18:15 INFO   Motorola_Moto_E30_XT21596.Test10 RecordedVideoPlayback ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-28 12:18:15 INFO   Motorola_Moto_E30_XT21596.Test10 RecordedVideoPlayback Calling DataMovementOperation() to move recorded rear camer videos to Test10 Folder
+2023-03-28 12:18:15 INFO   Motorola_Moto_E30_XT21596.Test10 DataMoveOperation launch file manager application select uSD card-->DCIM folder-->Camera folder-->Select all rear camera videos create Test10 and cut paste all videos in Test10 folder
+2023-03-28 12:18:31 INFO   Motorola_Moto_E30_XT21596.Test10 DataMoveOperation Swipe up to select uSD card
+2023-03-28 12:18:33 INFO   Motorola_Moto_E30_XT21596.Test10 DataMoveOperation Select SD card
+2023-03-28 12:18:40 INFO   Motorola_Moto_E30_XT21596.Test10 DataMoveOperation Select DCIM folder
+2023-03-28 12:18:43 INFO   Motorola_Moto_E30_XT21596.Test10 DataMoveOperation Select DCIM folder
+2023-03-28 12:18:46 INFO   Motorola_Moto_E30_XT21596.Test10 DataMoveOperation Select camera folder
+2023-03-28 12:18:50 INFO   Motorola_Moto_E30_XT21596.Test10 DataMoveOperation Click More options
+2023-03-28 12:18:56 INFO   Motorola_Moto_E30_XT21596.Test10 DataMoveOperation Click Select all
+2023-03-28 12:18:59 INFO   Motorola_Moto_E30_XT21596.Test10 DataMoveOperation Click More options
+2023-03-28 12:19:06 INFO   Motorola_Moto_E30_XT21596.Test10 DataMoveOperation Select move to option
+2023-03-28 12:19:12 INFO   Motorola_Moto_E30_XT21596.Test10 DataMoveOperation Select uSD Card
+2023-03-28 12:19:19 INFO   Motorola_Moto_E30_XT21596.Test10 DataMoveOperation Select ADD NEW Folder option
+2023-03-28 12:19:25 INFO   Motorola_Moto_E30_XT21596.Test10 DataMoveOperation Name folder as Test10
+2023-03-28 12:19:32 INFO   Motorola_Moto_E30_XT21596.Test10 DataMoveOperation Accept create folder
+2023-03-28 12:21:32 INFO   Motorola_Moto_E30_XT21596.Test10 DataMoveOperation Cut paste  video files operation completed successfully
+2023-03-28 12:21:41 INFO   Motorola_Moto_E30_XT21596.Test10 DataMoveOperation Pass: Test10 Pass for data move operation successfully
+2023-03-28 12:21:41 INFO   Motorola_Moto_E30_XT21596.Test10 DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-28 12:21:41 INFO   Motorola_Moto_E30_XT21596.Test10 RecordedVideoPlayback Calling copiedvideosPlayBack() for playing copied video file from Test1 folder
+2023-03-28 12:21:41 INFO   Motorola_Moto_E30_XT21596.Test10 CopiedvideosPlayBack Launch file manager application, select uSD card, select Test1 folder, select Videos folder and Play copied videos and fast forward the same 
+2023-03-28 12:21:50 INFO   Motorola_Moto_E30_XT21596.Test10 CopiedvideosPlayBack Select external storage
+2023-03-28 12:21:55 INFO   Motorola_Moto_E30_XT21596.Test10 CopiedvideosPlayBack switch to gird view mode 
+2023-03-28 12:21:58 INFO   Motorola_Moto_E30_XT21596.Test10 CopiedvideosPlayBack Select Test1 folder
+2023-03-28 12:22:01 INFO   Motorola_Moto_E30_XT21596.Test10 CopiedvideosPlayBack Select test_filefolder
+2023-03-28 12:22:04 INFO   Motorola_Moto_E30_XT21596.Test10 CopiedvideosPlayBack Select OneGB folder
+2023-03-28 12:22:07 INFO   Motorola_Moto_E30_XT21596.Test10 CopiedvideosPlayBack Select video folder
+2023-03-28 12:22:11 INFO   Motorola_Moto_E30_XT21596.Test10 CopiedvideosPlayBack switch to list view mode 
+2023-03-28 12:22:14 INFO   Motorola_Moto_E30_XT21596.Test10 CopiedvideosPlayBack Select LG_4K_DEMO_HDR_2018_(60FPS)_ELBA(480p).mp4 file for video playback
+2023-03-28 12:22:14 INFO   Motorola_Moto_E30_XT21596.Test10 CopiedvideosPlayBack Started video playback
+2023-03-28 12:22:34 INFO   Motorola_Moto_E30_XT21596.Test10 CopiedvideosPlayBack Tap Somewhere on Screen for contents to visible on Screen
+2023-03-28 12:22:34 INFO   Motorola_Moto_E30_XT21596.Test10 CopiedvideosPlayBack Click fast forward button for 10 seconds video forward
+2023-03-28 12:22:58 INFO   Motorola_Moto_E30_XT21596.Test10 CopiedvideosPlayBack Pass: 4K Video play back and fast forward is successful 
+2023-03-28 12:23:01 INFO   Motorola_Moto_E30_XT21596.Test10 CopiedvideosPlayBack Select FHD 5.1 ( 1350 X 2560 ).webm file for video playback
+2023-03-28 12:23:01 INFO   Motorola_Moto_E30_XT21596.Test10 CopiedvideosPlayBack Started video playback
+2023-03-28 12:23:21 INFO   Motorola_Moto_E30_XT21596.Test10 CopiedvideosPlayBack Tap Somewhere on Screen for contents to visible on Screen
+2023-03-28 12:23:21 INFO   Motorola_Moto_E30_XT21596.Test10 CopiedvideosPlayBack Click fast forward button for 10 seconds video forward
+2023-03-28 12:23:22 INFO   Motorola_Moto_E30_XT21596.Test10 CopiedvideosPlayBack Click pause button to stop video
+2023-03-28 12:23:32 INFO   Motorola_Moto_E30_XT21596.Test10 CopiedvideosPlayBack Pass: FHD Video play back and fast forward is successful 
+2023-03-28 12:23:32 INFO   Motorola_Moto_E30_XT21596.Test10 CopiedvideosPlayBack ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-28 12:23:32 INFO   Motorola_Moto_E30_XT21596.Test10 CopiedvideosPlayBack Final Message: Pass Test10 Pass for Playing Copied Video files, recorded video file and fast forward video play back scenario 
+2023-03-28 12:23:32 INFO   Motorola_Moto_E30_XT21596.Test10 CopiedvideosPlayBack Test: End
+2023-03-28 12:23:32 INFO   Motorola_Moto_E30_XT21596.Test10 CopiedvideosPlayBack ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-28 12:23:32 INFO   Motorola_Moto_E30_XT21596.Test10 CopiedvideosPlayBack Test: End
+2023-03-28 12:23:32 INFO   Motorola_Moto_E30_XT21596.Test10 CopiedvideosPlayBack ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

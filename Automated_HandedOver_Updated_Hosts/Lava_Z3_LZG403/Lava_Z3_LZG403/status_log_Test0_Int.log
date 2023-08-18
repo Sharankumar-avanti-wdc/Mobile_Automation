@@ -1,0 +1,144 @@
+2023-03-16 17:24:35 INFO   Lava_Z3_LZG403.Test0_Int start Test: Start
+2023-03-16 17:24:35 INFO   Lava_Z3_LZG403.Test0_Int start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-16 17:24:35 INFO   Lava_Z3_LZG403.Test0_Int start  Test0_Int Scenario is as follows 
+2023-03-16 17:24:35 INFO   Lava_Z3_LZG403.Test0_Int start 1.Unlock phone, clear recent apps, clear internal memory
+2023-03-16 17:24:35 INFO   Lava_Z3_LZG403.Test0_Int start 2.Call Image() and Capture Rear camera 25 images for default resolution in uSD card and Verify the data capture
+2023-03-16 17:24:35 INFO   Lava_Z3_LZG403.Test0_Int start 3.Call Video() and record Rear camera video of first 2 resloutions for 2 minutes of duration in uSD Card and verify the same
+2023-03-16 17:24:35 INFO   Lava_Z3_LZG403.Test0_Int start 4.Call Format() and format uSD card with data and verify the same
+2023-03-16 17:24:35 INFO   Lava_Z3_LZG403.Test0_Int start Setting up the appium desired capabilities
+2023-03-16 17:24:35 INFO   Lava_Z3_LZG403.Test0_Int start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-16 17:24:51 INFO   Lava_Z3_LZG403.Test0_Int FormatAsInternal Formatting uSD card as Internal mount
+2023-03-16 17:24:51 INFO   Lava_Z3_LZG403.Test0_Int FormatAsInternal Launch Settings Application
+2023-03-16 17:24:58 INFO   Lava_Z3_LZG403.Test0_Int FormatAsInternal Scrolling till battery and device care is visible
+2023-03-16 17:25:06 INFO   Lava_Z3_LZG403.Test0_Int FormatAsInternal Clicking on storage
+2023-03-16 17:25:11 INFO   Lava_Z3_LZG403.Test0_Int FormatAsInternal Clicking on SD card
+2023-03-16 17:25:22 INFO   Lava_Z3_LZG403.Test0_Int FormatAsInternal Clicking on more options
+2023-03-16 17:25:27 INFO   Lava_Z3_LZG403.Test0_Int FormatAsInternal Select storage settings
+2023-03-16 17:25:39 INFO   Lava_Z3_LZG403.Test0_Int FormatAsInternal Select format as Internal option
+2023-03-16 17:26:39 INFO   Lava_Z3_LZG403.Test0_Int FormatAsInternal Accept move content  pop-up
+2023-03-16 17:27:43 INFO   Lava_Z3_LZG403.Test0_Int FormatAsInternal Pass: Format as Internal Mount scenario completed Successfull
+2023-03-16 17:27:52 INFO   Lava_Z3_LZG403.Test0_Int start Launch File Manager Application and clear internal memory
+2023-03-16 17:28:07 INFO   Lava_Z3_LZG403.Test0_Int start Select  Internal storage
+2023-03-16 17:28:12 INFO   Lava_Z3_LZG403.Test0_Int start Select  More options
+2023-03-16 17:28:16 INFO   Lava_Z3_LZG403.Test0_Int start click on Select all
+2023-03-16 17:28:20 INFO   Lava_Z3_LZG403.Test0_Int start Select  More options
+2023-03-16 17:28:23 INFO   Lava_Z3_LZG403.Test0_Int start Select Delete permanently
+2023-03-16 17:28:27 INFO   Lava_Z3_LZG403.Test0_Int start Select  Delete
+2023-03-16 17:29:26 INFO   Lava_Z3_LZG403.Test0_Int start Pass: Test0_Int Clearing phone internal memory is successfull
+2023-03-16 17:29:26 INFO   Lava_Z3_LZG403.Test0_Int start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-16 17:29:33 INFO   Lava_Z3_LZG403.Test0_Int Images Launch Camera Application for Rear camera picture capture
+2023-03-16 17:29:41 INFO   Lava_Z3_LZG403.Test0_Int Images IF Change to uSD card notification pop-up exists select Cancel Option
+2023-03-16 17:29:51 INFO   Lava_Z3_LZG403.Test0_Int Images change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: LAVA LZG403, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: Z39G21LB061894}, deviceApiLevel: 30, deviceManufacturer: LAVA, deviceModel: LAVA LZG403, deviceName: Z39G21LB061894, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: Z39G21LB061894, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 45, takesScreenshot: true, udid: Z39G21LB061894, viewportRect: {height: 1414, left: 0, top: 45, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: decf4dcf-5e3b-48d8-b1c4-443854e1b1fb
+*** Element info: {Using=xpath, value=//*[@bounds='[100,869][140,909]']}
+2023-03-16 17:29:53 INFO   Lava_Z3_LZG403.Test0_Int Images Capture Image of Default Resolution
+2023-03-16 17:30:01 INFO   Lava_Z3_LZG403.Test0_Int Images Captureing default resolition image 0
+2023-03-16 17:30:08 INFO   Lava_Z3_LZG403.Test0_Int Images Captureing default resolition image 1
+2023-03-16 17:30:15 INFO   Lava_Z3_LZG403.Test0_Int Images Captureing default resolition image 2
+2023-03-16 17:30:23 INFO   Lava_Z3_LZG403.Test0_Int Images Captureing default resolition image 3
+2023-03-16 17:30:30 INFO   Lava_Z3_LZG403.Test0_Int Images Captureing default resolition image 4
+2023-03-16 17:30:37 INFO   Lava_Z3_LZG403.Test0_Int Images Captureing default resolition image 5
+2023-03-16 17:30:45 INFO   Lava_Z3_LZG403.Test0_Int Images Captureing default resolition image 6
+2023-03-16 17:30:52 INFO   Lava_Z3_LZG403.Test0_Int Images Captureing default resolition image 7
+2023-03-16 17:30:59 INFO   Lava_Z3_LZG403.Test0_Int Images Captureing default resolition image 8
+2023-03-16 17:31:07 INFO   Lava_Z3_LZG403.Test0_Int Images Captureing default resolition image 9
+2023-03-16 17:31:14 INFO   Lava_Z3_LZG403.Test0_Int Images Captureing default resolition image 10
+2023-03-16 17:31:21 INFO   Lava_Z3_LZG403.Test0_Int Images Captureing default resolition image 11
+2023-03-16 17:31:29 INFO   Lava_Z3_LZG403.Test0_Int Images Captureing default resolition image 12
+2023-03-16 17:31:36 INFO   Lava_Z3_LZG403.Test0_Int Images Captureing default resolition image 13
+2023-03-16 17:31:43 INFO   Lava_Z3_LZG403.Test0_Int Images Captureing default resolition image 14
+2023-03-16 17:31:51 INFO   Lava_Z3_LZG403.Test0_Int Images Captureing default resolition image 15
+2023-03-16 17:31:58 INFO   Lava_Z3_LZG403.Test0_Int Images Captureing default resolition image 16
+2023-03-16 17:32:06 INFO   Lava_Z3_LZG403.Test0_Int Images Captureing default resolition image 17
+2023-03-16 17:32:13 INFO   Lava_Z3_LZG403.Test0_Int Images Captureing default resolition image 18
+2023-03-16 17:32:21 INFO   Lava_Z3_LZG403.Test0_Int Images Captureing default resolition image 19
+2023-03-16 17:32:28 INFO   Lava_Z3_LZG403.Test0_Int Images Captureing default resolition image 20
+2023-03-16 17:32:35 INFO   Lava_Z3_LZG403.Test0_Int Images Captureing default resolition image 21
+2023-03-16 17:32:43 INFO   Lava_Z3_LZG403.Test0_Int Images Captureing default resolition image 22
+2023-03-16 17:32:50 INFO   Lava_Z3_LZG403.Test0_Int Images Captureing default resolition image 23
+2023-03-16 17:32:58 INFO   Lava_Z3_LZG403.Test0_Int Images Captureing default resolition image 24
+2023-03-16 17:33:08 INFO   Lava_Z3_LZG403.Test0_Int Images Pass:Total Number Of Image captured 25 is successfull
+2023-03-16 17:33:08 INFO   Lava_Z3_LZG403.Test0_Int Images ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-16 17:33:08 INFO   Lava_Z3_LZG403.Test0_Int Images Launch File Manager application to verify  Image capture
+2023-03-16 17:33:15 INFO   Lava_Z3_LZG403.Test0_Int Images swipe and search for Internal storage
+2023-03-16 17:33:24 INFO   Lava_Z3_LZG403.Test0_Int Images Select Internal storage
+2023-03-16 17:33:29 INFO   Lava_Z3_LZG403.Test0_Int Images Select DCIM Folder
+2023-03-16 17:33:34 INFO   Lava_Z3_LZG403.Test0_Int Images Select Camera Folder
+2023-03-16 17:33:39 INFO   Lava_Z3_LZG403.Test0_Int Images Select more
+2023-03-16 17:33:45 INFO   Lava_Z3_LZG403.Test0_Int Images click on Select 
+2023-03-16 17:33:56 INFO   Lava_Z3_LZG403.Test0_Int Images Pass: Total Number Of Image captured 25 is successfull
+2023-03-16 17:33:56 INFO   Lava_Z3_LZG403.Test0_Int Images Calling video() for rear video recording in USD card and verifying data capture.
+2023-03-16 17:33:56 INFO   Lava_Z3_LZG403.Test0_Int Images ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-16 17:34:11 INFO   Lava_Z3_LZG403.Test0_Int Video re-launch camera application for rear camera video recording
+2023-03-16 17:34:18 INFO   Lava_Z3_LZG403.Test0_Int Video IF Change to uSD card notification pop-up exists select Cancel Option
+2023-03-16 17:34:28 INFO   Lava_Z3_LZG403.Test0_Int Video change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: LAVA LZG403, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: Z39G21LB061894}, deviceApiLevel: 30, deviceManufacturer: LAVA, deviceModel: LAVA LZG403, deviceName: Z39G21LB061894, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: Z39G21LB061894, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 45, takesScreenshot: true, udid: Z39G21LB061894, viewportRect: {height: 1414, left: 0, top: 45, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: decf4dcf-5e3b-48d8-b1c4-443854e1b1fb
+*** Element info: {Using=xpath, value=//*[@bounds='[100,869][140,909]']}
+2023-03-16 17:34:30 INFO   Lava_Z3_LZG403.Test0_Int Video Switch to video recording mode
+2023-03-16 17:34:41 INFO   Lava_Z3_LZG403.Test0_Int Video Select settings option
+2023-03-16 17:34:46 INFO   Lava_Z3_LZG403.Test0_Int Video Select first highest rear camera video resolution: 1080p
+2023-03-16 17:34:49 INFO   Lava_Z3_LZG403.Test0_Int Video Start video recording
+2023-03-16 17:36:49 INFO   Lava_Z3_LZG403.Test0_Int Video Recording Video for 2Minutes of Duration
+2023-03-16 17:36:49 INFO   Lava_Z3_LZG403.Test0_Int Video Stop video recording
+2023-03-16 17:36:55 INFO   Lava_Z3_LZG403.Test0_Int Video Select settings option
+2023-03-16 17:37:01 INFO   Lava_Z3_LZG403.Test0_Int Video Select second highest rear camera video resolution: 720p
+2023-03-16 17:37:03 INFO   Lava_Z3_LZG403.Test0_Int Video Start video recording
+2023-03-16 17:39:03 INFO   Lava_Z3_LZG403.Test0_Int Video Recording Video for 2Minutes of Duration
+2023-03-16 17:39:03 INFO   Lava_Z3_LZG403.Test0_Int Video Stop video recording
+2023-03-16 17:39:09 INFO   Lava_Z3_LZG403.Test0_Int Video Switch to back to photo mode
+2023-03-16 17:39:27 INFO   Lava_Z3_LZG403.Test0_Int Video Pass: Rear camera video recording is successfull
+2023-03-16 17:39:27 INFO   Lava_Z3_LZG403.Test0_Int Video ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-16 17:39:27 INFO   Lava_Z3_LZG403.Test0_Int Video Verifying Captured Videos
+2023-03-16 17:39:27 INFO   Lava_Z3_LZG403.Test0_Int Video Launch Home screen and Clear recent Apps
+2023-03-16 17:39:27 INFO   Lava_Z3_LZG403.Test0_Int Video Launch File Manager Application to verify captured videos
+2023-03-16 17:39:34 INFO   Lava_Z3_LZG403.Test0_Int Video swipe and search for internal storage
+2023-03-16 17:39:42 INFO   Lava_Z3_LZG403.Test0_Int Video Click On internal storage
+2023-03-16 17:39:48 INFO   Lava_Z3_LZG403.Test0_Int Video Select DCIM Folder
+2023-03-16 17:39:53 INFO   Lava_Z3_LZG403.Test0_Int Video Select Camera Folder
+2023-03-16 17:39:58 INFO   Lava_Z3_LZG403.Test0_Int Video Select moreoptions
+2023-03-16 17:40:25 INFO   Lava_Z3_LZG403.Test0_Int Video Pass: 2 Videos recorded Successfully
+2023-03-16 17:40:25 INFO   Lava_Z3_LZG403.Test0_Int Video Pass: A total of 27 files present in uSD card before Format
+2023-03-16 17:40:25 INFO   Lava_Z3_LZG403.Test0_Int Video calling FormatAsExternal() for format with data scenario
+2023-03-16 17:40:25 INFO   Lava_Z3_LZG403.Test0_Int Video ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-16 17:40:25 INFO   Lava_Z3_LZG403.Test0_Int FormatAsExternal Formatting Phone as External MOunt
+2023-03-16 17:40:25 INFO   Lava_Z3_LZG403.Test0_Int FormatAsExternal Launch Settings Application
+2023-03-16 17:40:32 INFO   Lava_Z3_LZG403.Test0_Int FormatAsExternal Scrolling till battery and device care is visible
+2023-03-16 17:40:40 INFO   Lava_Z3_LZG403.Test0_Int FormatAsExternal Clicking on storage
+2023-03-16 17:40:45 INFO   Lava_Z3_LZG403.Test0_Int FormatAsExternal Clicking on SD card
+2023-03-16 17:40:56 INFO   Lava_Z3_LZG403.Test0_Int FormatAsExternal Clicking on more options
+2023-03-16 17:41:01 INFO   Lava_Z3_LZG403.Test0_Int FormatAsExternal Select Format as portable option
+2023-03-16 17:42:08 INFO   Lava_Z3_LZG403.Test0_Int FormatAsExternal Fomratting Phone as External mount
+2023-03-16 17:44:08 INFO   Lava_Z3_LZG403.Test0_Int FormatAsExternal Pass: Fomrat as External Mount is successfull
+2023-03-16 17:44:15 INFO   Lava_Z3_LZG403.Test0_Int Video ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-16 17:44:15 INFO   Lava_Z3_LZG403.Test0_Int Video calling FormatAsInternal() for format with data scenario
+2023-03-16 17:44:15 INFO   Lava_Z3_LZG403.Test0_Int FormatASInternal Formatting uSD card as internal mount
+2023-03-16 17:44:15 INFO   Lava_Z3_LZG403.Test0_Int FormatASInternal Launch Settings Application
+2023-03-16 17:44:21 INFO   Lava_Z3_LZG403.Test0_Int FormatASInternal Scrolling till battery and device care is visible
+2023-03-16 17:44:30 INFO   Lava_Z3_LZG403.Test0_Int FormatASInternal Clicking on storage
+2023-03-16 17:44:35 INFO   Lava_Z3_LZG403.Test0_Int FormatASInternal Clicking on SD card
+2023-03-16 17:44:45 INFO   Lava_Z3_LZG403.Test0_Int FormatASInternal Clicking on more options
+2023-03-16 17:44:50 INFO   Lava_Z3_LZG403.Test0_Int FormatASInternal Select storage settings
+2023-03-16 17:44:56 INFO   Lava_Z3_LZG403.Test0_Int FormatASInternal Fomrat Phone as Internal mount
+2023-03-16 17:45:01 INFO   Lava_Z3_LZG403.Test0_Int FormatASInternal Accept format SD Card pop-up
+2023-03-16 17:47:02 INFO   Lava_Z3_LZG403.Test0_Int FormatASInternal click on movecontent
+2023-03-16 17:48:02 INFO   Lava_Z3_LZG403.Test0_Int FormatASInternal Pass:Format as Internal Mount completed Successfull
+2023-03-16 17:48:06 INFO   Lava_Z3_LZG403.Test0_Int FormatASInternal ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-16 17:48:06 INFO   Lava_Z3_LZG403.Test0_Int FormatASInternal Launch File Manager Application
+2023-03-16 17:48:13 INFO   Lava_Z3_LZG403.Test0_Int FormatASInternal select browse option
+2023-03-16 17:48:16 INFO   Lava_Z3_LZG403.Test0_Int FormatASInternal swipe and search for internal storage
+2023-03-16 17:48:24 INFO   Lava_Z3_LZG403.Test0_Int FormatASInternal Click On internal storage
+2023-03-16 17:48:29 INFO   Lava_Z3_LZG403.Test0_Int FormatASInternal Click on DCIM Folder
+2023-03-16 17:48:39 INFO   Lava_Z3_LZG403.Test0_Int FormatASInternal Pass: Images and videos are not present in the DCIM folder, CARD format is successfully completed 
+2023-03-16 17:48:39 INFO   Lava_Z3_LZG403.Test0_Int FormatASInternal Final Message: Pass Test0_Int Pass for format Operation
+2023-03-16 17:48:39 INFO   Lava_Z3_LZG403.Test0_Int FormatASInternal Test: End
+2023-03-16 17:48:39 INFO   Lava_Z3_LZG403.Test0_Int FormatASInternal ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 6,292.077 s <<< FAILURE! - in TestSuite
+Samsung_Galaxy_A21s.Test9F.frontPictureCapture  Time elapsed: 259.04 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.sec.android.app.launcher' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Error executing adbExec. Original error: 'Command 'C:\\Android\\Android_SDK\\Android-sdk\\platform-tools\\adb.exe -P 5037 -s RZ8NA0LW97D shell am start -W -n com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity -S' exited with code 4294967295'; Stderr: 'error: device 'RZ8NA0LW97D' not found'; Code: '4294967295'
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy A21s, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: RZ8NA0LW97D}, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-A217F, deviceName: RZ8NA0LW97D, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: RZ8NA0LW97D, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 68, takesScreenshot: true, udid: RZ8NA0LW97D, viewportRect: {height: 1380, left: 0, top: 68, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 1ef2c7c1-02b0-466b-b43b-bdaf1df5e30c
+	at Samsung_Galaxy_A21s.Test9F.DataMoveOperation(Test9F.java:545)
+	at Samsung_Galaxy_A21s.Test9F.frontPictureCapture(Test9F.java:528)
+

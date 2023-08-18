@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 6,679.752 s <<< FAILURE! - in TestSuite
+Vivo_iQoo_Z6_12127.Test10.rearVideoRec  Time elapsed: 1,308.178 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RPG-USB-APPS-38', ip: '10.65.145.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: iQOO Z6 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 12, udid: 138119460900083}, deviceApiLevel: 31, deviceManufacturer: vivo, deviceModel: I2127, deviceName: 138119460900083, deviceScreenDensity: 440, deviceScreenSize: 1080x2408, deviceUDID: 138119460900083, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 88, takesScreenshot: true, udid: 138119460900083, viewportRect: {height: 2138, left: 0, top: 88, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: d7bf4f04-0f62-497c-9bd0-d935eb887aef
+*** Element info: {Using=xpath, value=//*[@content-desc='Photo']}
+	at Vivo_iQoo_Z6_12127.Test10.rearVideoRec(Test10.java:292)
+
+Vivo_iQoo_Z6_12127.Test10F.frontVideoRec  Time elapsed: 1,317.986 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RPG-USB-APPS-38', ip: '10.65.145.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: iQOO Z6 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 12, udid: 138119460900083}, deviceApiLevel: 31, deviceManufacturer: vivo, deviceModel: I2127, deviceName: 138119460900083, deviceScreenDensity: 440, deviceScreenSize: 1080x2408, deviceUDID: 138119460900083, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 88, takesScreenshot: true, udid: 138119460900083, viewportRect: {height: 2138, left: 0, top: 88, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 7757c920-dca9-46d2-8e62-d800d5ea9be5
+*** Element info: {Using=xpath, value=//*[@resource-id='com.android.camera:id/camera_switch']}
+	at Vivo_iQoo_Z6_12127.Test10F.frontVideoRec(Test10F.java:288)
+

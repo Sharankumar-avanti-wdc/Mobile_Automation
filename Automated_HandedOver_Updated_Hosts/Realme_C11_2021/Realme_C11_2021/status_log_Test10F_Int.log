@@ -1,0 +1,94 @@
+2023-01-30 19:33:48 INFO   Realme_C11_2021.Test10F_Int frontVideoRec Test:Start
+2023-01-30 19:33:48 INFO   Realme_C11_2021.Test10F_Int frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-30 19:33:48 INFO   Realme_C11_2021.Test10F_Int frontVideoRec Test10F_Int Scenario is as follows
+2023-01-30 19:33:48 INFO   Realme_C11_2021.Test10F_Int frontVideoRec 1.Launch Camera application and start front camera video recording for all host applicable resolutions in Internal mount uSD Card
+2023-01-30 19:33:48 INFO   Realme_C11_2021.Test10F_Int frontVideoRec 2.Playback Highest resolution recorded video from internal mount uSD card, fast forward playback and pause video scenario
+2023-01-30 19:33:48 INFO   Realme_C11_2021.Test10F_Int frontVideoRec 3.Playback copied videos from Test1 folder, fast forward and pause scenario
+2023-01-30 19:33:48 INFO   Realme_C11_2021.Test10F_Int frontVideoRec Setting up the appium desired capabilities
+2023-01-30 19:33:48 INFO   Realme_C11_2021.Test10F_Int frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-30 19:34:02 INFO   Realme_C11_2021.Test10F_Int frontVideoRec Clearing Recent Apps
+2023-01-30 19:34:18 INFO   Realme_C11_2021.Test10F_Int frontVideoRec Pass: Test10F_Int Pass for clearing Recent apps 
+2023-01-30 19:34:22 INFO   Realme_C11_2021.Test10F_Int frontVideoRec Launch Camera Application for front camera video recording
+2023-01-30 19:34:24 INFO   Realme_C11_2021.Test10F_Int frontVideoRec Permission request
+2023-01-30 19:34:34 INFO   Realme_C11_2021.Test10F_Int frontVideoRec change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-201', ip: '10.65.147.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: realme C11 2021, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: 0051716137217082}, deviceApiLevel: 30, deviceManufacturer: realme, deviceModel: RMX3231, deviceName: 0051716137217082, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: 0051716137217082, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 64, takesScreenshot: true, udid: 0051716137217082, viewportRect: {height: 1384, left: 0, top: 64, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: ec0fd41c-fa75-4db2-b3d6-7ecab475c08f
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Agree")}
+2023-01-30 19:34:34 INFO   Realme_C11_2021.Test10F_Int frontVideoRec select WHILE USING THE APP
+2023-01-30 19:34:49 INFO   Realme_C11_2021.Test10F_Int frontVideoRec Test10F_Int_Fcam_res: 3 resolutions supported
+2023-01-30 19:34:49 INFO   Realme_C11_2021.Test10F_Int frontVideoRec Clicking Video Tab
+2023-01-30 19:34:54 INFO   Realme_C11_2021.Test10F_Int frontVideoRec click on front camera
+2023-01-30 19:35:00 INFO   Realme_C11_2021.Test10F_Int frontVideoRec Select settings option
+2023-01-30 19:35:05 INFO   Realme_C11_2021.Test10F_Int frontVideoRec Select Video size(Front camera)
+2023-01-30 19:35:08 INFO   Realme_C11_2021.Test10F_Int frontVideoRec Select First front video Resolution: HD 720p
+2023-01-30 19:35:20 INFO   Realme_C11_2021.Test10F_Int frontVideoRec Start video recording
+2023-01-30 19:35:20 INFO   Realme_C11_2021.Test10F_Int frontVideoRec Stop video recording
+2023-01-30 19:45:04 INFO   Realme_C11_2021.Test10F_Int frontVideoRec Select settings option
+2023-01-30 19:45:09 INFO   Realme_C11_2021.Test10F_Int frontVideoRec Select Video size(Front camera)
+2023-01-30 19:45:13 INFO   Realme_C11_2021.Test10F_Int frontVideoRec Select second front video Resolution:  SD 480p
+2023-01-30 19:45:24 INFO   Realme_C11_2021.Test10F_Int frontVideoRec Start video recording
+2023-01-30 19:45:24 INFO   Realme_C11_2021.Test10F_Int frontVideoRec Stop video recording
+2023-01-30 19:55:06 INFO   Realme_C11_2021.Test10F_Int frontVideoRec Select settings option
+2023-01-30 19:55:11 INFO   Realme_C11_2021.Test10F_Int frontVideoRec Select Video size(Front camera)
+2023-01-30 19:55:15 INFO   Realme_C11_2021.Test10F_Int frontVideoRec Select third front video Resolution:  CIF
+2023-01-30 19:55:26 INFO   Realme_C11_2021.Test10F_Int frontVideoRec Start video recording
+2023-01-30 19:55:26 INFO   Realme_C11_2021.Test10F_Int frontVideoRec Stop video recording
+2023-01-30 20:05:11 INFO   Realme_C11_2021.Test10F_Int frontVideoRec Click On back camera mode
+2023-01-30 20:05:16 INFO   Realme_C11_2021.Test10F_Int frontVideoRec Switch to defalut Photo mode
+2023-01-30 20:05:28 INFO   Realme_C11_2021.Test10F_Int frontVideoRec Launch file manager application and verify recorded video capture uSD Card
+2023-01-30 20:05:48 INFO   Realme_C11_2021.Test10F_Int frontVideoRec Swipe up to select uSD card
+2023-01-30 20:06:04 INFO   Realme_C11_2021.Test10F_Int frontVideoRec Select SD card
+2023-01-30 20:06:10 INFO   Realme_C11_2021.Test10F_Int frontVideoRec switch to grid view mode to select DCIM folder
+2023-01-30 20:06:15 INFO   Realme_C11_2021.Test10F_Int frontVideoRec Select DCIM folder
+2023-01-30 20:06:23 INFO   Realme_C11_2021.Test10F_Int frontVideoRec Select camera folder
+2023-01-30 20:06:26 INFO   Realme_C11_2021.Test10F_Int frontVideoRec switch to list view mode 
+2023-01-30 20:06:29 INFO   Realme_C11_2021.Test10F_Int frontVideoRec Click More options
+2023-01-30 20:06:36 INFO   Realme_C11_2021.Test10F_Int frontVideoRec Click Select all
+2023-01-30 20:06:45 INFO   Realme_C11_2021.Test10F_Int frontVideoRec Test10F_Int_Fcam_video: 3 Videos captured successfull
+2023-01-30 20:06:45 INFO   Realme_C11_2021.Test10F_Int frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-30 20:06:45 INFO   Realme_C11_2021.Test10F_Int frontVideoRec Calling VideoPlayBackForSleepWake()
+2023-01-30 20:06:45 INFO   Realme_C11_2021.Test10F_Int VideoPlayBackForSleepWake Launching file manager application
+2023-01-30 20:06:51 INFO   Realme_C11_2021.Test10F_Int VideoPlayBackForSleepWake Swipe up to select uSD card
+2023-01-30 20:07:04 INFO   Realme_C11_2021.Test10F_Int VideoPlayBackForSleepWake Select internal storage
+2023-01-30 20:07:10 INFO   Realme_C11_2021.Test10F_Int VideoPlayBackForSleepWake switch to grid view mode to select DCIM folder
+2023-01-30 20:07:13 INFO   Realme_C11_2021.Test10F_Int VideoPlayBackForSleepWake Select DCIM folder
+2023-01-30 20:07:16 INFO   Realme_C11_2021.Test10F_Int VideoPlayBackForSleepWake Select Camera folder
+2023-01-30 20:07:20 INFO   Realme_C11_2021.Test10F_Int VideoPlayBackForSleepWake switch to list view mode 
+2023-01-30 20:07:23 INFO   Realme_C11_2021.Test10F_Int VideoPlayBackForSleepWake Select more options
+2023-01-30 20:07:28 INFO   Realme_C11_2021.Test10F_Int VideoPlayBackForSleepWake Select Sort by
+2023-01-30 20:07:32 INFO   Realme_C11_2021.Test10F_Int VideoPlayBackForSleepWake Select Sort by Newest date first
+2023-01-30 20:07:35 INFO   Realme_C11_2021.Test10F_Int VideoPlayBackForSleepWake Click on first file to play highest recorded resolution video file
+2023-01-30 20:07:55 INFO   Realme_C11_2021.Test10F_Int VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-01-30 20:07:55 INFO   Realme_C11_2021.Test10F_Int VideoPlayBackForSleepWake Click pause video button
+2023-01-30 20:07:59 INFO   Realme_C11_2021.Test10F_Int VideoPlayBackForSleepWake Lock Mobile with 30 seconds delay
+2023-01-30 20:08:29 INFO   Realme_C11_2021.Test10F_Int VideoPlayBackForSleepWake Wait For 30Seconds
+2023-01-30 20:08:34 INFO   Realme_C11_2021.Test10F_Int VideoPlayBackForSleepWake Unlock Mobile 
+2023-01-30 20:08:34 INFO   Realme_C11_2021.Test10F_Int VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-01-30 20:08:34 INFO   Realme_C11_2021.Test10F_Int VideoPlayBackForSleepWake Click pause video button
+2023-01-30 20:09:07 INFO   Realme_C11_2021.Test10F_Int VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-01-30 20:09:07 INFO   Realme_C11_2021.Test10F_Int VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-01-30 20:09:08 INFO   Realme_C11_2021.Test10F_Int VideoPlayBackForSleepWake Click pause video button
+2023-01-30 20:09:18 INFO   Realme_C11_2021.Test10F_Int VideoPlayBackForSleepWake Pass: Test10F_Int Pass for Front video play back, Pause,Lock and Unlock Phone Play back from Pause duration Scenario
+2023-01-30 20:09:18 INFO   Realme_C11_2021.Test10F_Int VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-30 20:09:18 INFO   Realme_C11_2021.Test10F_Int VideoPlayBackForSleepWake calling DatamoveOperation() to move front camera recorded videos files to Test10F folder
+2023-01-30 20:09:18 INFO   Realme_C11_2021.Test10F_Int DataMoveOperation launch file manager application select internal storage-->DCIM folder-->Camera folder-->Select all back camera front camera videos create Test10 and cut paste all videos in BCFC_Cameravideos folder
+2023-01-30 20:09:25 INFO   Realme_C11_2021.Test10F_Int DataMoveOperation Swipe up to select uSD card
+2023-01-30 20:09:33 INFO   Realme_C11_2021.Test10F_Int DataMoveOperation Select internal storage
+2023-01-30 20:09:39 INFO   Realme_C11_2021.Test10F_Int DataMoveOperation Select DCIM folder
+2023-01-30 20:09:42 INFO   Realme_C11_2021.Test10F_Int DataMoveOperation Select camera folder
+2023-01-30 20:09:45 INFO   Realme_C11_2021.Test10F_Int DataMoveOperation Click More options
+2023-01-30 20:09:52 INFO   Realme_C11_2021.Test10F_Int DataMoveOperation Click Select all
+2023-01-30 20:09:55 INFO   Realme_C11_2021.Test10F_Int DataMoveOperation Click More options
+2023-01-30 20:10:02 INFO   Realme_C11_2021.Test10F_Int DataMoveOperation Select move to option
+2023-01-30 20:10:09 INFO   Realme_C11_2021.Test10F_Int DataMoveOperation Select uSD Card
+2023-01-30 20:10:15 INFO   Realme_C11_2021.Test10F_Int DataMoveOperation Select ADD NEW Folder option
+2023-01-30 20:10:21 INFO   Realme_C11_2021.Test10F_Int DataMoveOperation Name folder as Test10F_Int
+2023-01-30 20:10:28 INFO   Realme_C11_2021.Test10F_Int DataMoveOperation Accept create folder
+2023-01-30 20:12:30 INFO   Realme_C11_2021.Test10F_Int DataMoveOperation Cut paste  video files operation completed successfully
+2023-01-30 20:12:36 INFO   Realme_C11_2021.Test10F_Int DataMoveOperation Pass: Test10F_Int Pass for data move operation successfully
+2023-01-30 20:12:36 INFO   Realme_C11_2021.Test10F_Int DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-30 20:12:36 INFO   Realme_C11_2021.Test10F_Int VideoPlayBackForSleepWake Final Message: Pass Test10F_Int Pass for front camera  video recording, Pause Video Playback scenario and data move operation scenario

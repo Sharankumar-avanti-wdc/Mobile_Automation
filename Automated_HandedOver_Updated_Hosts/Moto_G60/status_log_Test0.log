@@ -1,0 +1,142 @@
+2022-10-03 18:31:36 INFO   Moto_G60.Test0 start Test: Start
+2022-10-03 18:31:36 INFO   Moto_G60.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-03 18:31:36 INFO   Moto_G60.Test0 start  Test0 Scenario is as follows 
+2022-10-03 18:31:36 INFO   Moto_G60.Test0 start 1.Unlock phone, clear recent apps, clear internal memory
+2022-10-03 18:31:36 INFO   Moto_G60.Test0 start 2.Call Image() and Capture Rear camera 25 images for default resolution in uSD card and Verify the data capture
+2022-10-03 18:31:36 INFO   Moto_G60.Test0 start 3.Call Video() and record Rear camera video of first 2 resloutions for 2 minutes of duration in uSD Card and verify the same
+2022-10-03 18:31:36 INFO   Moto_G60.Test0 start 4.Call Format() and format uSD card with data and verify the same
+2022-10-03 18:31:36 INFO   Moto_G60.Test0 start Setting up the appium desired capabilities
+2022-10-03 18:31:36 INFO   Moto_G60.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-03 18:31:53 INFO   Moto_G60.Test0 start Host does'nt support clear recent apps option! Hence Skiping clear recent apps scenario
+2022-10-03 18:31:53 INFO   Moto_G60.Test0 start Launch File Manager Application and clear internal memory
+2022-10-03 18:31:59 INFO   Moto_G60.Test0 start click on browse option
+2022-10-03 18:32:03 INFO   Moto_G60.Test0 start Swipe up and select Internal storage
+2022-10-03 18:32:05 INFO   Moto_G60.Test0 start Select  Internal storage
+2022-10-03 18:32:10 INFO   Moto_G60.Test0 start Select  MoreOption
+2022-10-03 18:32:14 INFO   Moto_G60.Test0 start Select  SelectAll
+2022-10-03 18:32:18 INFO   Moto_G60.Test0 start Select  MoreOption
+2022-10-03 18:32:25 INFO   Moto_G60.Test0 start Select  Delete
+2022-10-03 18:34:25 INFO   Moto_G60.Test0 start Pass: Clearing phone internal memory is successfull
+2022-10-03 18:34:40 INFO   Moto_G60.Test0 start Calling Image() for rear Image capture in uSD Card and Verify the Captured images
+2022-10-03 18:34:40 INFO   Moto_G60.Test0 Images Launch Camera Application for Rear picture capture
+2022-10-03 18:34:52 INFO   Moto_G60.Test0 Images change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'FJVQ4M2', ip: '192.168.225.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: moto g(60), newCommandTimeout: 600, platformName: android, platformVersion: 11, udid: ZF6526TSRV}, deviceApiLevel: 30, deviceManufacturer: motorola, deviceModel: moto g(60), deviceName: ZF6526TSRV, deviceScreenDensity: 400, deviceScreenSize: 1080x2460, deviceUDID: ZF6526TSRV, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pixelRatio: 2.5, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 115, takesScreenshot: true, udid: ZF6526TSRV, viewportRect: {height: 2170, left: 0, top: 115, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: fdd1d580-914f-4311-9a5f-a8a9084132a0
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2022-10-03 18:34:54 INFO   Moto_G60.Test0 Images if Location permisson Pop Exists Select Cancel Option
+2022-10-03 18:35:04 INFO   Moto_G60.Test0 Images Location  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'FJVQ4M2', ip: '192.168.225.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: moto g(60), newCommandTimeout: 600, platformName: android, platformVersion: 11, udid: ZF6526TSRV}, deviceApiLevel: 30, deviceManufacturer: motorola, deviceModel: moto g(60), deviceName: ZF6526TSRV, deviceScreenDensity: 400, deviceScreenSize: 1080x2460, deviceUDID: ZF6526TSRV, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pixelRatio: 2.5, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 115, takesScreenshot: true, udid: ZF6526TSRV, viewportRect: {height: 2170, left: 0, top: 115, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: fdd1d580-914f-4311-9a5f-a8a9084132a0
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2022-10-03 18:35:14 INFO   Moto_G60.Test0 Images Currently camera is already in rear camera mode no need to switch
+2022-10-03 18:35:14 INFO   Moto_G60.Test0 Images Select settings option
+2022-10-03 18:35:19 INFO   Moto_G60.Test0 Images Search for SD Card option
+2022-10-03 18:35:30 INFO   Moto_G60.Test0 Images Select  storage option
+2022-10-03 18:35:36 INFO   Moto_G60.Test0 Images Select SD as storage option
+2022-10-03 18:35:44 INFO   Moto_G60.Test0 Images Capture Image of Default Resolution
+2022-10-03 18:35:51 INFO   Moto_G60.Test0 Images clicking Image of Default Resolutions0
+2022-10-03 18:35:59 INFO   Moto_G60.Test0 Images clicking Image of Default Resolutions1
+2022-10-03 18:36:06 INFO   Moto_G60.Test0 Images clicking Image of Default Resolutions2
+2022-10-03 18:36:13 INFO   Moto_G60.Test0 Images clicking Image of Default Resolutions3
+2022-10-03 18:36:20 INFO   Moto_G60.Test0 Images clicking Image of Default Resolutions4
+2022-10-03 18:36:27 INFO   Moto_G60.Test0 Images clicking Image of Default Resolutions5
+2022-10-03 18:36:35 INFO   Moto_G60.Test0 Images clicking Image of Default Resolutions6
+2022-10-03 18:36:42 INFO   Moto_G60.Test0 Images clicking Image of Default Resolutions7
+2022-10-03 18:36:49 INFO   Moto_G60.Test0 Images clicking Image of Default Resolutions8
+2022-10-03 18:36:57 INFO   Moto_G60.Test0 Images clicking Image of Default Resolutions9
+2022-10-03 18:37:04 INFO   Moto_G60.Test0 Images clicking Image of Default Resolutions10
+2022-10-03 18:37:12 INFO   Moto_G60.Test0 Images clicking Image of Default Resolutions11
+2022-10-03 18:37:19 INFO   Moto_G60.Test0 Images clicking Image of Default Resolutions12
+2022-10-03 18:37:26 INFO   Moto_G60.Test0 Images clicking Image of Default Resolutions13
+2022-10-03 18:37:33 INFO   Moto_G60.Test0 Images clicking Image of Default Resolutions14
+2022-10-03 18:37:40 INFO   Moto_G60.Test0 Images clicking Image of Default Resolutions15
+2022-10-03 18:37:47 INFO   Moto_G60.Test0 Images clicking Image of Default Resolutions16
+2022-10-03 18:37:55 INFO   Moto_G60.Test0 Images clicking Image of Default Resolutions17
+2022-10-03 18:38:02 INFO   Moto_G60.Test0 Images clicking Image of Default Resolutions18
+2022-10-03 18:38:09 INFO   Moto_G60.Test0 Images clicking Image of Default Resolutions19
+2022-10-03 18:38:16 INFO   Moto_G60.Test0 Images clicking Image of Default Resolutions20
+2022-10-03 18:38:23 INFO   Moto_G60.Test0 Images clicking Image of Default Resolutions21
+2022-10-03 18:38:31 INFO   Moto_G60.Test0 Images clicking Image of Default Resolutions22
+2022-10-03 18:38:38 INFO   Moto_G60.Test0 Images clicking Image of Default Resolutions23
+2022-10-03 18:38:45 INFO   Moto_G60.Test0 Images clicking Image of Default Resolutions24
+2022-10-03 18:38:50 INFO   Moto_G60.Test0 Images 25 Image Capture is successfull
+2022-10-03 18:38:50 INFO   Moto_G60.Test0 Images Launch File Manager application to verify  Image capture
+2022-10-03 18:38:56 INFO   Moto_G60.Test0 Images Select  SD Card
+2022-10-03 18:39:09 INFO   Moto_G60.Test0 Images Select DCIM Folder
+2022-10-03 18:39:19 INFO   Moto_G60.Test0 Images Select Camera Folder
+2022-10-03 18:39:25 INFO   Moto_G60.Test0 Images Select More Options 
+2022-10-03 18:39:35 INFO   Moto_G60.Test0 Images Click On Select All Options
+2022-10-03 18:39:45 INFO   Moto_G60.Test0 Images Pass: Total Number Of Image captured 25 is successfull
+2022-10-03 18:39:45 INFO   Moto_G60.Test0 Images ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-03 18:39:45 INFO   Moto_G60.Test0 Images Calling video() for rear video recording in USD card and verifying data capture.
+2022-10-03 18:39:51 INFO   Moto_G60.Test0 Video Launch Camera Application for Rear video capture
+2022-10-03 18:40:02 INFO   Moto_G60.Test0 Video change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'FJVQ4M2', ip: '192.168.225.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: moto g(60), newCommandTimeout: 600, platformName: android, platformVersion: 11, udid: ZF6526TSRV}, deviceApiLevel: 30, deviceManufacturer: motorola, deviceModel: moto g(60), deviceName: ZF6526TSRV, deviceScreenDensity: 400, deviceScreenSize: 1080x2460, deviceUDID: ZF6526TSRV, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pixelRatio: 2.5, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 115, takesScreenshot: true, udid: ZF6526TSRV, viewportRect: {height: 2170, left: 0, top: 115, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: fdd1d580-914f-4311-9a5f-a8a9084132a0
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2022-10-03 18:40:02 INFO   Moto_G60.Test0 Video If Location Permission Request Pop Exists Click on Cancel Option
+2022-10-03 18:40:12 INFO   Moto_G60.Test0 Video Location access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'FJVQ4M2', ip: '192.168.225.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: moto g(60), newCommandTimeout: 600, platformName: android, platformVersion: 11, udid: ZF6526TSRV}, deviceApiLevel: 30, deviceManufacturer: motorola, deviceModel: moto g(60), deviceName: ZF6526TSRV, deviceScreenDensity: 400, deviceScreenSize: 1080x2460, deviceUDID: ZF6526TSRV, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pixelRatio: 2.5, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 115, takesScreenshot: true, udid: ZF6526TSRV, viewportRect: {height: 2170, left: 0, top: 115, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: fdd1d580-914f-4311-9a5f-a8a9084132a0
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2022-10-03 18:40:23 INFO   Moto_G60.Test0 Video Current Existing Camera is Back Camera
+2022-10-03 18:40:23 INFO   Moto_G60.Test0 Video Clicking Video Tab
+2022-10-03 18:40:33 INFO   Moto_G60.Test0 Video Select settings option
+2022-10-03 18:40:38 INFO   Moto_G60.Test0 Video Search for SD Card option
+2022-10-03 18:40:49 INFO   Moto_G60.Test0 Video Select  storage option
+2022-10-03 18:40:54 INFO   Moto_G60.Test0 Video Select SD as storage option
+2022-10-03 18:41:03 INFO   Moto_G60.Test0 Video Select 1st Back Video Resolution: Resolution 4K UHD
+2022-10-03 18:41:06 INFO   Moto_G60.Test0 Video Start video recording
+2022-10-03 18:43:06 INFO   Moto_G60.Test0 Video Recording Video for 2Minutes of Duration
+2022-10-03 18:43:06 INFO   Moto_G60.Test0 Video Stop video recording
+2022-10-03 18:43:12 INFO   Moto_G60.Test0 Video Select 2nd Back Video Resolution: Resolution FHD
+2022-10-03 18:43:15 INFO   Moto_G60.Test0 Video Start video recording
+2022-10-03 18:45:15 INFO   Moto_G60.Test0 Video Recording Video for 2Minutes of Duration
+2022-10-03 18:45:15 INFO   Moto_G60.Test0 Video Stop video recording
+2022-10-03 18:45:30 INFO   Moto_G60.Test0 Video Clicking photo Tab
+2022-10-03 18:45:46 INFO   Moto_G60.Test0 Video Pass: Rear camera video recording is successfull
+2022-10-03 18:45:46 INFO   Moto_G60.Test0 Video Launch File Manager application to verify  video capture
+2022-10-03 18:45:52 INFO   Moto_G60.Test0 Video Select  SD Card
+2022-10-03 18:46:05 INFO   Moto_G60.Test0 Video Select DCIM Folder
+2022-10-03 18:46:16 INFO   Moto_G60.Test0 Video Select Camera Folder
+2022-10-03 18:46:21 INFO   Moto_G60.Test0 Video Select More Options 
+2022-10-03 18:46:32 INFO   Moto_G60.Test0 Video Click On Select All Options
+2022-10-03 18:46:42 INFO   Moto_G60.Test0 Video Pass: 2 Videos recorded Successfully
+2022-10-03 18:46:42 INFO   Moto_G60.Test0 Video Pass: A total of 27 files present in uSD card before Format
+2022-10-03 18:46:42 INFO   Moto_G60.Test0 Video ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-03 18:46:42 INFO   Moto_G60.Test0 Video calling Format() for format with data scenario
+2022-10-03 18:46:48 INFO   Moto_G60.Test0 Format Launch Settings application for Format uSD card with Data scenario 
+2022-10-03 18:46:55 INFO   Moto_G60.Test0 Format Scrolling till battery and device care is visible
+2022-10-03 18:47:00 INFO   Moto_G60.Test0 Format Clicking on storage
+2022-10-03 18:47:05 INFO   Moto_G60.Test0 Format Clicking on SD card
+2022-10-03 18:47:16 INFO   Moto_G60.Test0 Format Clicking on SD card
+2022-10-03 18:47:21 INFO   Moto_G60.Test0 Format Clicking on more options
+2022-10-03 18:47:26 INFO   Moto_G60.Test0 Format Clicking on Storage settings
+2022-10-03 18:47:32 INFO   Moto_G60.Test0 Format Click Format
+2022-10-03 18:47:38 INFO   Moto_G60.Test0 Format Started formatting, waiting till it gets formatted
+2022-10-03 18:49:16 INFO   Moto_G60.Test0 Format Format uSD with Data is successfull
+2022-10-03 18:49:16 INFO   Moto_G60.Test0 Format Launch File Manager application to verify  Card is fully Formated or not
+2022-10-03 18:49:22 INFO   Moto_G60.Test0 Format Select  SD Card
+2022-10-03 18:49:33 INFO   Moto_G60.Test0 Format Select DCIM Folder
+2022-10-03 18:49:43 INFO   Moto_G60.Test0 Format Click On Camera Folder
+2022-10-03 18:49:53 INFO   Moto_G60.Test0 Format Pass: Images and videos are not present in the DCIM folder, CARD format is successfully completed 
+2022-10-03 18:49:53 INFO   Moto_G60.Test0 Format ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-03 18:49:53 INFO   Moto_G60.Test0 Format Final Message: Pass Test0 pass for format Operation
+2022-10-03 18:49:53 INFO   Moto_G60.Test0 Format Test: End
+2022-10-03 18:49:53 INFO   Moto_G60.Test0 Format ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

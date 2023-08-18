@@ -1,0 +1,74 @@
+2023-03-16 12:52:58 INFO   BLU_C5L_Max.Test10F_Int frontVideoRec Test:Start
+2023-03-16 12:52:58 INFO   BLU_C5L_Max.Test10F_Int frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-16 12:52:58 INFO   BLU_C5L_Max.Test10F_Int frontVideoRec Test10F_Int Scenario is as follows
+2023-03-16 12:52:58 INFO   BLU_C5L_Max.Test10F_Int frontVideoRec 1.Launch Camera application and start front camera video recording for all host applicable resolutions in Internal storage
+2023-03-16 12:52:58 INFO   BLU_C5L_Max.Test10F_Int frontVideoRec 2.Playback front Highest recorded video for 30 seconds, pause video playback, lock mobile and wait 30 seconds, unlock mobile and playback video from pause video duration
+2023-03-16 12:52:58 INFO   BLU_C5L_Max.Test10F_Int frontVideoRec Setting up the appium desired capabilities
+2023-03-16 12:52:58 INFO   BLU_C5L_Max.Test10F_Int frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-16 12:53:18 INFO   BLU_C5L_Max.Test10F_Int frontVideoRec Clearing Recent Apps
+2023-03-16 12:53:18 INFO   BLU_C5L_Max.Test10F_Int frontVideoRec Pass: No recent apps found
+2023-03-16 12:53:22 INFO   BLU_C5L_Max.Test10F_Int frontVideoRec Launch Camera Application for rear camera video recording
+2023-03-16 12:53:28 INFO   BLU_C5L_Max.Test10F_Int frontVideoRec Test10F_Int_Fcam_res: 1 resolutions supported
+2023-03-16 12:53:28 INFO   BLU_C5L_Max.Test10F_Int frontVideoRec Select video tab
+2023-03-16 12:53:33 INFO   BLU_C5L_Max.Test10F_Int frontVideoRec Click On front camera mode
+2023-03-16 12:53:37 INFO   BLU_C5L_Max.Test10F_Int frontVideoRec Select First front video Resolution by default
+2023-03-16 12:53:42 INFO   BLU_C5L_Max.Test10F_Int frontVideoRec Start video recording
+2023-03-16 12:53:42 INFO   BLU_C5L_Max.Test10F_Int frontVideoRec Stop video recording
+2023-03-16 13:03:59 INFO   BLU_C5L_Max.Test10F_Int frontVideoRec Click On back camera mode
+2023-03-16 13:04:04 INFO   BLU_C5L_Max.Test10F_Int frontVideoRec Select photo mode
+2023-03-16 13:04:16 INFO   BLU_C5L_Max.Test10F_Int frontVideoRec Pass: Test10F_Int pass for front camera video recording
+2023-03-16 13:04:16 INFO   BLU_C5L_Max.Test10F_Int frontVideoRec Launch file manager application and verify recorded video capture Internal storage
+2023-03-16 13:04:34 INFO   BLU_C5L_Max.Test10F_Int frontVideoRec Swipe up to select Internal storage
+2023-03-16 13:04:39 INFO   BLU_C5L_Max.Test10F_Int frontVideoRec Select Internal storage
+2023-03-16 13:04:45 INFO   BLU_C5L_Max.Test10F_Int frontVideoRec switch to grid view mode to select DCIM folder
+2023-03-16 13:04:48 INFO   BLU_C5L_Max.Test10F_Int frontVideoRec Select DCIM folder
+2023-03-16 13:04:52 INFO   BLU_C5L_Max.Test10F_Int frontVideoRec Select camera folder
+2023-03-16 13:04:55 INFO   BLU_C5L_Max.Test10F_Int frontVideoRec switch to list view mode 
+2023-03-16 13:04:58 INFO   BLU_C5L_Max.Test10F_Int frontVideoRec Click More options
+2023-03-16 13:05:04 INFO   BLU_C5L_Max.Test10F_Int frontVideoRec Click Select all
+2023-03-16 13:05:20 INFO   BLU_C5L_Max.Test10F_Int frontVideoRec Test10F_Int_Fcam_video: 1 videos captured successfully
+2023-03-16 13:05:20 INFO   BLU_C5L_Max.Test10F_Int frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-16 13:05:20 INFO   BLU_C5L_Max.Test10F_Int frontVideoRec Calling VideoPlayBackForSleepWake()
+2023-03-16 13:05:20 INFO   BLU_C5L_Max.Test10F_Int VideoPlayBackForSleepWake Launch File Manager application and playback front recorded video from Internal for 30 seconds, pause video playback, locking phone and unlock after 30 seconds delay and playback video from pause duration.
+2023-03-16 13:05:27 INFO   BLU_C5L_Max.Test10F_Int VideoPlayBackForSleepWake Select Internal Storage
+2023-03-16 13:05:37 INFO   BLU_C5L_Max.Test10F_Int VideoPlayBackForSleepWake switch to grid view mode to select DCIM folder
+2023-03-16 13:05:40 INFO   BLU_C5L_Max.Test10F_Int VideoPlayBackForSleepWake Select DCIM folder
+2023-03-16 13:05:44 INFO   BLU_C5L_Max.Test10F_Int VideoPlayBackForSleepWake Select camera folder
+2023-03-16 13:05:47 INFO   BLU_C5L_Max.Test10F_Int VideoPlayBackForSleepWake switch to list view mode 
+2023-03-16 13:05:50 INFO   BLU_C5L_Max.Test10F_Int VideoPlayBackForSleepWake Select MoreOptions1
+2023-03-16 13:05:55 INFO   BLU_C5L_Max.Test10F_Int VideoPlayBackForSleepWake Select Sort by
+2023-03-16 13:06:00 INFO   BLU_C5L_Max.Test10F_Int VideoPlayBackForSleepWake Select Sort by Newest date first
+2023-03-16 13:06:03 INFO   BLU_C5L_Max.Test10F_Int VideoPlayBackForSleepWake Click on first file to play highest recorded resolution video file
+2023-03-16 13:06:03 INFO   BLU_C5L_Max.Test10F_Int VideoPlayBackForSleepWake Started video playback
+2023-03-16 13:06:23 INFO   BLU_C5L_Max.Test10F_Int VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-03-16 13:06:26 INFO   BLU_C5L_Max.Test10F_Int VideoPlayBackForSleepWake Click pause video button
+2023-03-16 13:06:29 INFO   BLU_C5L_Max.Test10F_Int VideoPlayBackForSleepWake Lock Mobile with 30 seconds delay
+2023-03-16 13:06:59 INFO   BLU_C5L_Max.Test10F_Int VideoPlayBackForSleepWake Unlock Mobile 
+2023-03-16 13:06:59 INFO   BLU_C5L_Max.Test10F_Int VideoPlayBackForSleepWake Wait For 30Seconds
+2023-03-16 13:07:04 INFO   BLU_C5L_Max.Test10F_Int VideoPlayBackForSleepWake Playback video from pause video duration
+2023-03-16 13:07:35 INFO   BLU_C5L_Max.Test10F_Int VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-03-16 13:07:37 INFO   BLU_C5L_Max.Test10F_Int VideoPlayBackForSleepWake Click pause video button
+2023-03-16 13:07:47 INFO   BLU_C5L_Max.Test10F_Int VideoPlayBackForSleepWake Pass: Test10F_Int Pass for Front video play back, Pause,Lock and Unlock Phone Play back from Pause duration Scenario
+2023-03-16 13:07:47 INFO   BLU_C5L_Max.Test10F_Int VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-16 13:07:47 INFO   BLU_C5L_Max.Test10F_Int VideoPlayBackForSleepWake calling DatamoveOperation() to move front camera recorded videos files to Test10F_Int folder
+2023-03-16 13:07:47 INFO   BLU_C5L_Max.Test10F_Int DataMoveOperation launch file manager application select Internal storage-->DCIM folder-->Camera folder-->Select all Front camera videos create Test10F_Int and cut paste all videos in Test10F_Int folder
+2023-03-16 13:08:04 INFO   BLU_C5L_Max.Test10F_Int DataMoveOperation Swipe up to select Internal storage
+2023-03-16 13:08:09 INFO   BLU_C5L_Max.Test10F_Int DataMoveOperation Select Internal storage
+2023-03-16 13:08:15 INFO   BLU_C5L_Max.Test10F_Int DataMoveOperation switch to grid view mode to select DCIM folder
+2023-03-16 13:08:18 INFO   BLU_C5L_Max.Test10F_Int DataMoveOperation Select DCIM folder
+2023-03-16 13:08:21 INFO   BLU_C5L_Max.Test10F_Int DataMoveOperation Select camera folder
+2023-03-16 13:08:25 INFO   BLU_C5L_Max.Test10F_Int DataMoveOperation switch to list view mode 
+2023-03-16 13:08:28 INFO   BLU_C5L_Max.Test10F_Int DataMoveOperation Click More options
+2023-03-16 13:08:34 INFO   BLU_C5L_Max.Test10F_Int DataMoveOperation Click Select all
+2023-03-16 13:08:38 INFO   BLU_C5L_Max.Test10F_Int DataMoveOperation Click More options
+2023-03-16 13:08:44 INFO   BLU_C5L_Max.Test10F_Int DataMoveOperation Select move to option
+2023-03-16 13:08:51 INFO   BLU_C5L_Max.Test10F_Int DataMoveOperation Select Internal storage
+2023-03-16 13:08:57 INFO   BLU_C5L_Max.Test10F_Int DataMoveOperation Select ADD NEW Folder option
+2023-03-16 13:09:03 INFO   BLU_C5L_Max.Test10F_Int DataMoveOperation Name folder as Test10F_Int
+2023-03-16 13:09:10 INFO   BLU_C5L_Max.Test10F_Int DataMoveOperation Accept create folder
+2023-03-16 13:09:52 INFO   BLU_C5L_Max.Test10F_Int DataMoveOperation Cut paste  video files operation completed successfully
+2023-03-16 13:09:52 INFO   BLU_C5L_Max.Test10F_Int DataMoveOperation Pass: Test10F_Int Pass for data move operation successfully
+2023-03-16 13:09:52 INFO   BLU_C5L_Max.Test10F_Int DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-16 13:10:07 INFO   BLU_C5L_Max.Test10F_Int VideoPlayBackForSleepWake Final Message: Pass Test10F_Int Pass for front camera  video recording, Pause Video Playback scenario and data move operation scenario
+2023-03-16 13:10:07 INFO   BLU_C5L_Max.Test10F_Int VideoPlayBackForSleepWake Test: End
+2023-03-16 13:10:07 INFO   BLU_C5L_Max.Test10F_Int VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

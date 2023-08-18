@@ -1,0 +1,120 @@
+2022-10-31 14:49:31 INFO   OnePlus_Nord_N10_5G.Test10 rearVideoRec Test: Start
+2022-10-31 14:49:31 INFO   OnePlus_Nord_N10_5G.Test10 rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-31 14:49:31 INFO   OnePlus_Nord_N10_5G.Test10 rearVideoRec Test10 Scenario is as follows
+2022-10-31 14:49:31 INFO   OnePlus_Nord_N10_5G.Test10 rearVideoRec 1.Launch Camera application and start back camera video recording for all host applicable resolutions in uSD Card
+2022-10-31 14:49:31 INFO   OnePlus_Nord_N10_5G.Test10 rearVideoRec 2.Playback Highest resolution recorded video from USD Card, fast forward playback and pause video scenario 
+2022-10-31 14:49:31 INFO   OnePlus_Nord_N10_5G.Test10 rearVideoRec 3.Playback copied videos from Test1 folder, fast forward and pause scenario
+2022-10-31 14:49:31 INFO   OnePlus_Nord_N10_5G.Test10 rearVideoRec 4.Move recorded rear camera video files to Test10 folder
+2022-10-31 14:49:31 INFO   OnePlus_Nord_N10_5G.Test10 rearVideoRec Setting up the appium desired capabilities
+2022-10-31 14:49:31 INFO   OnePlus_Nord_N10_5G.Test10 rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-31 14:49:44 INFO   OnePlus_Nord_N10_5G.Test10 rearVideoRec Clearing  Recent Apps
+2022-10-31 14:49:56 INFO   OnePlus_Nord_N10_5G.Test10 rearVideoRec Clearing Recent Apps
+2022-10-31 14:50:07 INFO   OnePlus_Nord_N10_5G.Test10 rearVideoRec clearing Recent apps 
+2022-10-31 14:50:09 INFO   OnePlus_Nord_N10_5G.Test10 rearVideoRec Launch camera application for rear camera video recording
+2022-10-31 14:50:11 INFO   OnePlus_Nord_N10_5G.Test10 rearVideoRec Test10_Bcam_res: 3 resolutions supported
+2022-10-31 14:50:11 INFO   OnePlus_Nord_N10_5G.Test10 rearVideoRec if Location permisson Pop Exists Select Cancel Option
+2022-10-31 14:50:21 INFO   OnePlus_Nord_N10_5G.Test10 rearVideoRec change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: OnePlus Nord N10 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: f0e384e2}, deviceApiLevel: 30, deviceManufacturer: OnePlus, deviceModel: BE2026, deviceName: f0e384e2, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: f0e384e2, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 127, takesScreenshot: true, udid: f0e384e2, viewportRect: {height: 2029, left: 0, top: 127, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 68dc0ea1-e5b7-4f60-85f3-e2de35fc46a4
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("DENY")}
+2022-10-31 14:50:23 INFO   OnePlus_Nord_N10_5G.Test10 rearVideoRec Switch to video mode
+2022-10-31 14:50:33 INFO   OnePlus_Nord_N10_5G.Test10 rearVideoRec Select settings option
+2022-10-31 14:50:38 INFO   OnePlus_Nord_N10_5G.Test10 rearVideoRec Search for SD Card option
+2022-10-31 14:50:38 INFO   OnePlus_Nord_N10_5G.Test10 rearVideoRec Set SD card as storage option
+2022-10-31 14:50:56 INFO   OnePlus_Nord_N10_5G.Test10 rearVideoRec Select first highest rear camera video   Resolution
+2022-10-31 14:51:05 INFO   OnePlus_Nord_N10_5G.Test10 rearVideoRec Start video recording
+2022-10-31 14:54:11 INFO   OnePlus_Nord_N10_5G.Test10 rearVideoRec Stop video recording
+2022-10-31 14:54:19 INFO   OnePlus_Nord_N10_5G.Test10 rearVideoRec Select second highest rear camera video   Resolution
+2022-10-31 14:54:27 INFO   OnePlus_Nord_N10_5G.Test10 rearVideoRec Start video recording
+2022-10-31 14:57:32 INFO   OnePlus_Nord_N10_5G.Test10 rearVideoRec Stop video recording
+2022-10-31 14:57:34 INFO   OnePlus_Nord_N10_5G.Test10 rearVideoRec Select third highest rear camera video   Resolution
+2022-10-31 14:57:41 INFO   OnePlus_Nord_N10_5G.Test10 rearVideoRec Start video recording
+2022-10-31 15:00:46 INFO   OnePlus_Nord_N10_5G.Test10 rearVideoRec Stop video recording
+2022-10-31 15:01:03 INFO   OnePlus_Nord_N10_5G.Test10 rearVideoRec Select settings option
+2022-10-31 15:01:09 INFO   OnePlus_Nord_N10_5G.Test10 rearVideoRec Search for SD Card option
+2022-10-31 15:01:19 INFO   OnePlus_Nord_N10_5G.Test10 rearVideoRec De-select SD cars as storage option
+2022-10-31 15:01:33 INFO   OnePlus_Nord_N10_5G.Test10 rearVideoRec Pass: Rear video recording is successfull
+2022-10-31 15:01:33 INFO   OnePlus_Nord_N10_5G.Test10 rearVideoRec Launch file manager application and verify recorded video present  in uSD Card
+2022-10-31 15:01:50 INFO   OnePlus_Nord_N10_5G.Test10 rearVideoRec Swipe up to select uSD card
+2022-10-31 15:01:52 INFO   OnePlus_Nord_N10_5G.Test10 rearVideoRec Select SD card
+2022-10-31 15:01:58 INFO   OnePlus_Nord_N10_5G.Test10 rearVideoRec switch to grid view mode to select DCIM folder
+2022-10-31 15:02:02 INFO   OnePlus_Nord_N10_5G.Test10 rearVideoRec Select DCIM folder
+2022-10-31 15:02:05 INFO   OnePlus_Nord_N10_5G.Test10 rearVideoRec Select camera folder
+2022-10-31 15:02:08 INFO   OnePlus_Nord_N10_5G.Test10 rearVideoRec switch to list view mode 
+2022-10-31 15:02:11 INFO   OnePlus_Nord_N10_5G.Test10 rearVideoRec Click More options
+2022-10-31 15:02:17 INFO   OnePlus_Nord_N10_5G.Test10 rearVideoRec Click Select all
+2022-10-31 15:02:32 INFO   OnePlus_Nord_N10_5G.Test10 rearVideoRec Test10_Bcam_video: 3 videos captured successfully
+2022-10-31 15:02:32 INFO   OnePlus_Nord_N10_5G.Test10 rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-31 15:02:32 INFO   OnePlus_Nord_N10_5G.Test10 rearVideoRec Calling RecordedVideoPlayback() for Playing Highest record video, fast forward video play back scenario
+2022-10-31 15:02:32 INFO   OnePlus_Nord_N10_5G.Test10 RecordedVideoPlayback Launch Home screen and clear recent apps
+2022-10-31 15:02:40 INFO   OnePlus_Nord_N10_5G.Test10 RecordedVideoPlayback Select External storage
+2022-10-31 15:02:44 INFO   OnePlus_Nord_N10_5G.Test10 RecordedVideoPlayback switch to grid view mode to select DCIM folder
+2022-10-31 15:02:47 INFO   OnePlus_Nord_N10_5G.Test10 RecordedVideoPlayback Select DCIM folder
+2022-10-31 15:02:50 INFO   OnePlus_Nord_N10_5G.Test10 RecordedVideoPlayback Select camera folder
+2022-10-31 15:02:53 INFO   OnePlus_Nord_N10_5G.Test10 RecordedVideoPlayback switch to list view mode 
+2022-10-31 15:02:57 INFO   OnePlus_Nord_N10_5G.Test10 RecordedVideoPlayback Click More options
+2022-10-31 15:03:02 INFO   OnePlus_Nord_N10_5G.Test10 RecordedVideoPlayback Select External Storage
+2022-10-31 15:03:02 INFO   OnePlus_Nord_N10_5G.Test10 RecordedVideoPlayback Select sort by largest file first
+2022-10-31 15:03:10 INFO   OnePlus_Nord_N10_5G.Test10 RecordedVideoPlayback Click on first file to play highest recorded resolution video file from uSD card
+2022-10-31 15:03:10 INFO   OnePlus_Nord_N10_5G.Test10 RecordedVideoPlayback Started video playback
+2022-10-31 15:03:40 INFO   OnePlus_Nord_N10_5G.Test10 RecordedVideoPlayback Tap Somewhere on Screen for contents to visible on Screen
+2022-10-31 15:03:40 INFO   OnePlus_Nord_N10_5G.Test10 RecordedVideoPlayback Fast forward video for 10 seconds
+2022-10-31 15:04:01 INFO   OnePlus_Nord_N10_5G.Test10 RecordedVideoPlayback Continue video playback
+2022-10-31 15:04:01 INFO   OnePlus_Nord_N10_5G.Test10 RecordedVideoPlayback Tap Somewhere on Screen for contents to visible on Screen
+2022-10-31 15:04:01 INFO   OnePlus_Nord_N10_5G.Test10 RecordedVideoPlayback Pause video playback
+2022-10-31 15:04:11 INFO   OnePlus_Nord_N10_5G.Test10 RecordedVideoPlayback Pass: Recorded Video play back and fast forward successfull 
+2022-10-31 15:04:11 INFO   OnePlus_Nord_N10_5G.Test10 RecordedVideoPlayback Pass: Recorded Video play back and fast forward successfull 
+2022-10-31 15:04:11 INFO   OnePlus_Nord_N10_5G.Test10 RecordedVideoPlayback ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-31 15:04:11 INFO   OnePlus_Nord_N10_5G.Test10 RecordedVideoPlayback Calling DataMovementOperation() to move recorded rear camer videos to Test10 Folder
+2022-10-31 15:04:11 INFO   OnePlus_Nord_N10_5G.Test10 DataMoveOperation Re-launch file manager application and select external storage for data move operation, select all rear camera videos present in camera folder and move to Test10 folder
+2022-10-31 15:04:17 INFO   OnePlus_Nord_N10_5G.Test10 DataMoveOperation Launching file manager application
+2022-10-31 15:04:20 INFO   OnePlus_Nord_N10_5G.Test10 DataMoveOperation Select external storage
+2022-10-31 15:04:25 INFO   OnePlus_Nord_N10_5G.Test10 DataMoveOperation switch to grid view mode and select DCIM  folder
+2022-10-31 15:04:28 INFO   OnePlus_Nord_N10_5G.Test10 DataMoveOperation Select DCIM folder
+2022-10-31 15:04:32 INFO   OnePlus_Nord_N10_5G.Test10 DataMoveOperation Select camera  folder
+2022-10-31 15:04:35 INFO   OnePlus_Nord_N10_5G.Test10 DataMoveOperation switch to list view mode 
+2022-10-31 15:04:38 INFO   OnePlus_Nord_N10_5G.Test10 DataMoveOperation Click More options
+2022-10-31 15:04:44 INFO   OnePlus_Nord_N10_5G.Test10 DataMoveOperation Click Select all
+2022-10-31 15:04:48 INFO   OnePlus_Nord_N10_5G.Test10 DataMoveOperation Click More options
+2022-10-31 15:04:54 INFO   OnePlus_Nord_N10_5G.Test10 DataMoveOperation Select move to option
+2022-10-31 15:05:01 INFO   OnePlus_Nord_N10_5G.Test10 DataMoveOperation Select uSD Card
+2022-10-31 15:05:08 INFO   OnePlus_Nord_N10_5G.Test10 DataMoveOperation Select ADD NEW Folder option
+2022-10-31 15:05:14 INFO   OnePlus_Nord_N10_5G.Test10 DataMoveOperation Name folder as Test10
+2022-10-31 15:05:21 INFO   OnePlus_Nord_N10_5G.Test10 DataMoveOperation Accept create folder
+2022-10-31 15:05:53 INFO   OnePlus_Nord_N10_5G.Test10 DataMoveOperation Cut paste  video files operation completed successfully
+2022-10-31 15:05:57 INFO   OnePlus_Nord_N10_5G.Test10 DataMoveOperation Test10: Data move operation completed successfully
+2022-10-31 15:06:07 INFO   OnePlus_Nord_N10_5G.Test10 DataMoveOperation Pass: Test10 Pass for data move operation successfully
+2022-10-31 15:06:07 INFO   OnePlus_Nord_N10_5G.Test10 RecordedVideoPlayback ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-31 15:06:07 INFO   OnePlus_Nord_N10_5G.Test10 RecordedVideoPlayback Calling copiedvideosPlayBack() for playing copied video file from Test1 folder
+2022-10-31 15:06:07 INFO   OnePlus_Nord_N10_5G.Test10 CopiedvideosPlayBack launch  Home screen and clear recent apps
+2022-10-31 15:06:19 INFO   OnePlus_Nord_N10_5G.Test10 CopiedvideosPlayBack Clearing Recent Apps
+2022-10-31 15:06:30 INFO   OnePlus_Nord_N10_5G.Test10 CopiedvideosPlayBack clearing Recent apps 
+2022-10-31 15:06:32 INFO   OnePlus_Nord_N10_5G.Test10 CopiedvideosPlayBack Re-launch file manager application and select external storage for playing copied video files
+2022-10-31 15:06:38 INFO   OnePlus_Nord_N10_5G.Test10 CopiedvideosPlayBack Launching file manager application
+2022-10-31 15:06:41 INFO   OnePlus_Nord_N10_5G.Test10 CopiedvideosPlayBack Select external storage
+2022-10-31 15:06:44 INFO   OnePlus_Nord_N10_5G.Test10 CopiedvideosPlayBack switch to grid view mode to select Test1 folder
+2022-10-31 15:06:47 INFO   OnePlus_Nord_N10_5G.Test10 CopiedvideosPlayBack Select Test1 folder
+2022-10-31 15:06:50 INFO   OnePlus_Nord_N10_5G.Test10 CopiedvideosPlayBack Select tes_file folder
+2022-10-31 15:06:54 INFO   OnePlus_Nord_N10_5G.Test10 CopiedvideosPlayBack Select 1GB folder
+2022-10-31 15:06:57 INFO   OnePlus_Nord_N10_5G.Test10 CopiedvideosPlayBack Select video folder
+2022-10-31 15:07:00 INFO   OnePlus_Nord_N10_5G.Test10 CopiedvideosPlayBack switch to list view mode to select Test1 folder
+2022-10-31 15:07:04 INFO   OnePlus_Nord_N10_5G.Test10 CopiedvideosPlayBack Started video playback
+2022-10-31 15:07:24 INFO   OnePlus_Nord_N10_5G.Test10 CopiedvideosPlayBack Tap Somewhere on Screen for contents to visible on Screen
+2022-10-31 15:07:24 INFO   OnePlus_Nord_N10_5G.Test10 CopiedvideosPlayBack Click fast forward button for 10 seconds video forward
+2022-10-31 15:07:45 INFO   OnePlus_Nord_N10_5G.Test10 CopiedvideosPlayBack Pause video playback
+2022-10-31 15:07:48 INFO   OnePlus_Nord_N10_5G.Test10 CopiedvideosPlayBack Pass: 4K Video play back and fast forward is successful 
+2022-10-31 15:07:51 INFO   OnePlus_Nord_N10_5G.Test10 CopiedvideosPlayBack Select FHD 5.1 ( 1350 X 2560 ).webm file for video playback from uSD card(Test-->Videos)
+2022-10-31 15:07:51 INFO   OnePlus_Nord_N10_5G.Test10 CopiedvideosPlayBack Started video playback
+2022-10-31 15:08:11 INFO   OnePlus_Nord_N10_5G.Test10 CopiedvideosPlayBack Tap Somewhere on Screen for contents to visible on Screen
+2022-10-31 15:08:11 INFO   OnePlus_Nord_N10_5G.Test10 CopiedvideosPlayBack Click fast forward button for 10 seconds video forward
+2022-10-31 15:08:33 INFO   OnePlus_Nord_N10_5G.Test10 CopiedvideosPlayBack Continue video playback
+2022-10-31 15:08:33 INFO   OnePlus_Nord_N10_5G.Test10 CopiedvideosPlayBack Pause video playback
+2022-10-31 15:08:38 INFO   OnePlus_Nord_N10_5G.Test10 CopiedvideosPlayBack Pass: FHD Video play back and fast forward is successful 
+2022-10-31 15:08:38 INFO   OnePlus_Nord_N10_5G.Test10 CopiedvideosPlayBack ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-31 15:08:38 INFO   OnePlus_Nord_N10_5G.Test10 CopiedvideosPlayBack Final message: Pass Test10 Pass for rear camera  video recording, playback and fast forward highest resolution recorded video and playback and fast forward copied video files from Test1 folder and data move operation scenario
+2022-10-31 15:08:38 INFO   OnePlus_Nord_N10_5G.Test10 CopiedvideosPlayBack Test:End
+2022-10-31 15:08:38 INFO   OnePlus_Nord_N10_5G.Test10 CopiedvideosPlayBack ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

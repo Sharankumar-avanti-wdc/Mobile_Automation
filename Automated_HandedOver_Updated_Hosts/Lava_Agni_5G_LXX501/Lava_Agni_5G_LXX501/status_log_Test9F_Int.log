@@ -1,0 +1,531 @@
+2023-03-21 21:37:27 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Test: Start
+2023-03-21 21:37:27 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-21 21:37:27 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Test9F_Int Scenario is as follows:
+2023-03-21 21:37:27 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture 1.Launch camera application, set Internal as a Storage option, start Front camera image picture capture for all Host front resolutions
+2023-03-21 21:37:27 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Setting up the appium desired capabilities
+2023-03-21 21:37:27 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-21 21:37:41 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Launch home screen
+2023-03-21 21:37:50 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Clearing Recent Apps
+2023-03-21 21:37:51 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Pass: No recent apps found
+2023-03-21 21:37:55 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Launch Camera Application for Rear picture capture
+2023-03-21 21:38:16 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Select App info
+2023-03-21 21:38:23 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture IF Change to uInternal storage notification pop-up exists select Cancel Option
+2023-03-21 21:38:33 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture change to Internal storage element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: LAVA  LXX501, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: AG5GAO21KB000842}, deviceApiLevel: 30, deviceManufacturer: LAVA, deviceModel: LAVA LXX501, deviceName: AG5GAO21KB000842, deviceScreenDensity: 480, deviceScreenSize: 1080x2460, deviceUDID: AG5GAO21KB000842, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 108, takesScreenshot: true, udid: AG5GAO21KB000842, viewportRect: {height: 2102, left: 0, top: 108, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: f8c7b8de-b3a0-46b5-8d67-b2c5bc1c7f5c
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("DENY")}
+2023-03-21 21:38:33 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture if Location permisson Pop Exists Select Cancel Option
+2023-03-21 21:38:43 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Location permission access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: LAVA  LXX501, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: AG5GAO21KB000842}, deviceApiLevel: 30, deviceManufacturer: LAVA, deviceModel: LAVA LXX501, deviceName: AG5GAO21KB000842, deviceScreenDensity: 480, deviceScreenSize: 1080x2460, deviceUDID: AG5GAO21KB000842, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 108, takesScreenshot: true, udid: AG5GAO21KB000842, viewportRect: {height: 2102, left: 0, top: 108, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: f8c7b8de-b3a0-46b5-8d67-b2c5bc1c7f5c
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("START CAPTURE")}
+2023-03-21 21:38:43 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Test9F_Int_Fcam_res: 4 resolutions supported
+2023-03-21 21:38:43 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Switch to front  camera mode
+2023-03-21 21:38:46 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Select settings option
+2023-03-21 21:38:49 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Select settings option to select resolution
+2023-03-21 21:38:53 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Select front camera front image resolution: 16M
+2023-03-21 21:39:09 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 0
+2023-03-21 21:39:16 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 1
+2023-03-21 21:39:23 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 2
+2023-03-21 21:39:30 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 3
+2023-03-21 21:39:37 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 4
+2023-03-21 21:39:45 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 5
+2023-03-21 21:39:52 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 6
+2023-03-21 21:39:59 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 7
+2023-03-21 21:40:06 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 8
+2023-03-21 21:40:14 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 9
+2023-03-21 21:40:21 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 10
+2023-03-21 21:40:28 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 11
+2023-03-21 21:40:35 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 12
+2023-03-21 21:40:43 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 13
+2023-03-21 21:40:50 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 14
+2023-03-21 21:40:58 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 15
+2023-03-21 21:41:06 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 16
+2023-03-21 21:41:13 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 17
+2023-03-21 21:41:21 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 18
+2023-03-21 21:41:28 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 19
+2023-03-21 21:41:35 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 20
+2023-03-21 21:41:42 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 21
+2023-03-21 21:41:51 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 22
+2023-03-21 21:41:58 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 23
+2023-03-21 21:42:05 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 24
+2023-03-21 21:42:13 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 25
+2023-03-21 21:42:21 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 26
+2023-03-21 21:42:28 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 27
+2023-03-21 21:42:35 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 28
+2023-03-21 21:42:42 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 29
+2023-03-21 21:42:50 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 30
+2023-03-21 21:42:57 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 31
+2023-03-21 21:43:04 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 32
+2023-03-21 21:43:11 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 33
+2023-03-21 21:43:20 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 34
+2023-03-21 21:43:27 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 35
+2023-03-21 21:43:34 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 36
+2023-03-21 21:43:41 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 37
+2023-03-21 21:43:48 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 38
+2023-03-21 21:43:56 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 39
+2023-03-21 21:44:03 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 40
+2023-03-21 21:44:10 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 41
+2023-03-21 21:44:17 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 42
+2023-03-21 21:44:24 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 43
+2023-03-21 21:44:32 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 44
+2023-03-21 21:44:39 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 45
+2023-03-21 21:44:46 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 46
+2023-03-21 21:44:53 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 47
+2023-03-21 21:45:01 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 48
+2023-03-21 21:45:08 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 49
+2023-03-21 21:45:15 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 50
+2023-03-21 21:45:22 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 51
+2023-03-21 21:45:29 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 52
+2023-03-21 21:45:37 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 53
+2023-03-21 21:45:44 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 54
+2023-03-21 21:45:51 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 55
+2023-03-21 21:45:58 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 56
+2023-03-21 21:46:06 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 57
+2023-03-21 21:46:14 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 58
+2023-03-21 21:46:21 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 59
+2023-03-21 21:46:28 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 60
+2023-03-21 21:46:35 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 61
+2023-03-21 21:46:43 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 62
+2023-03-21 21:46:50 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 63
+2023-03-21 21:46:57 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 64
+2023-03-21 21:47:05 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 65
+2023-03-21 21:47:12 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 66
+2023-03-21 21:47:20 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 67
+2023-03-21 21:47:27 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 68
+2023-03-21 21:47:34 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 69
+2023-03-21 21:47:41 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 70
+2023-03-21 21:47:48 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 71
+2023-03-21 21:47:56 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 72
+2023-03-21 21:48:03 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 73
+2023-03-21 21:48:10 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing first resolution image 74
+2023-03-21 21:48:12 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Select settings option
+2023-03-21 21:48:15 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Select settings option to select resolution
+2023-03-21 21:48:19 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Select front camera second image resolution: 9M
+2023-03-21 21:48:36 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 0
+2023-03-21 21:48:43 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 1
+2023-03-21 21:48:50 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 2
+2023-03-21 21:48:57 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 3
+2023-03-21 21:49:05 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 4
+2023-03-21 21:49:12 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 5
+2023-03-21 21:49:19 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 6
+2023-03-21 21:49:26 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 7
+2023-03-21 21:49:33 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 8
+2023-03-21 21:49:41 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 9
+2023-03-21 21:49:48 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 10
+2023-03-21 21:49:55 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 11
+2023-03-21 21:50:02 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 12
+2023-03-21 21:50:09 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 13
+2023-03-21 21:50:17 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 14
+2023-03-21 21:50:24 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 15
+2023-03-21 21:50:31 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 16
+2023-03-21 21:50:38 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 17
+2023-03-21 21:50:45 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 18
+2023-03-21 21:50:54 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 19
+2023-03-21 21:51:01 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 20
+2023-03-21 21:51:08 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 21
+2023-03-21 21:51:16 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 22
+2023-03-21 21:51:23 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 23
+2023-03-21 21:51:30 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 24
+2023-03-21 21:51:37 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 25
+2023-03-21 21:51:44 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 26
+2023-03-21 21:51:51 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 27
+2023-03-21 21:51:59 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 28
+2023-03-21 21:52:06 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 29
+2023-03-21 21:52:13 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 30
+2023-03-21 21:52:20 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 31
+2023-03-21 21:52:27 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 32
+2023-03-21 21:52:35 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 33
+2023-03-21 21:52:42 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 34
+2023-03-21 21:52:49 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 35
+2023-03-21 21:52:56 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 36
+2023-03-21 21:53:03 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 37
+2023-03-21 21:53:11 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 38
+2023-03-21 21:53:18 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 39
+2023-03-21 21:53:25 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 40
+2023-03-21 21:53:32 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 41
+2023-03-21 21:53:39 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 42
+2023-03-21 21:53:47 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 43
+2023-03-21 21:53:54 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 44
+2023-03-21 21:54:01 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 45
+2023-03-21 21:54:08 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 46
+2023-03-21 21:54:15 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 47
+2023-03-21 21:54:23 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 48
+2023-03-21 21:54:30 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 49
+2023-03-21 21:54:37 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 50
+2023-03-21 21:54:44 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 51
+2023-03-21 21:54:51 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 52
+2023-03-21 21:54:59 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 53
+2023-03-21 21:55:06 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 54
+2023-03-21 21:55:13 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 55
+2023-03-21 21:55:20 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 56
+2023-03-21 21:55:27 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 57
+2023-03-21 21:55:34 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 58
+2023-03-21 21:55:42 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 59
+2023-03-21 21:55:49 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 60
+2023-03-21 21:55:56 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 61
+2023-03-21 21:56:03 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 62
+2023-03-21 21:56:11 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 63
+2023-03-21 21:56:18 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 64
+2023-03-21 21:56:25 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 65
+2023-03-21 21:56:32 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 66
+2023-03-21 21:56:41 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 67
+2023-03-21 21:56:48 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 68
+2023-03-21 21:56:55 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 69
+2023-03-21 21:57:02 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 70
+2023-03-21 21:57:09 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 71
+2023-03-21 21:57:18 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 72
+2023-03-21 21:57:25 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 73
+2023-03-21 21:57:32 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing second resolution image 74
+2023-03-21 21:57:34 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Select settings option
+2023-03-21 21:57:37 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Select settings option to select resolution
+2023-03-21 21:57:41 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Select front camera third image resolution: 4M
+2023-03-21 21:57:51 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 21:57:57 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 0
+2023-03-21 21:57:59 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 21:58:04 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 1
+2023-03-21 21:58:06 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 21:58:11 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 2
+2023-03-21 21:58:13 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 21:58:18 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 3
+2023-03-21 21:58:20 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 21:58:25 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 4
+2023-03-21 21:58:27 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 21:58:33 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 5
+2023-03-21 21:58:35 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 21:58:40 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 6
+2023-03-21 21:58:42 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 21:58:47 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 7
+2023-03-21 21:58:49 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 21:58:54 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 8
+2023-03-21 21:58:56 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 21:59:01 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 9
+2023-03-21 21:59:03 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 21:59:09 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 10
+2023-03-21 21:59:11 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 21:59:16 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 11
+2023-03-21 21:59:18 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 21:59:23 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 12
+2023-03-21 21:59:25 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 21:59:30 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 13
+2023-03-21 21:59:32 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 21:59:37 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 14
+2023-03-21 21:59:39 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 21:59:45 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 15
+2023-03-21 21:59:47 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 21:59:52 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 16
+2023-03-21 21:59:54 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 21:59:59 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 17
+2023-03-21 22:00:01 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:00:06 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 18
+2023-03-21 22:00:08 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:00:14 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 19
+2023-03-21 22:00:16 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:00:22 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 20
+2023-03-21 22:00:24 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:00:29 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 21
+2023-03-21 22:00:31 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:00:36 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 22
+2023-03-21 22:00:38 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:00:43 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 23
+2023-03-21 22:00:45 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:00:50 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 24
+2023-03-21 22:00:52 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:00:59 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 25
+2023-03-21 22:01:01 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:01:07 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 26
+2023-03-21 22:01:09 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:01:14 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 27
+2023-03-21 22:01:16 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:01:21 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 28
+2023-03-21 22:01:23 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:01:29 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 29
+2023-03-21 22:01:31 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:01:36 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 30
+2023-03-21 22:01:38 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:01:43 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 31
+2023-03-21 22:01:45 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:01:50 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 32
+2023-03-21 22:01:52 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:01:58 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 33
+2023-03-21 22:02:01 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:02:06 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 34
+2023-03-21 22:02:08 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:02:13 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 35
+2023-03-21 22:02:15 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:02:20 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 36
+2023-03-21 22:02:22 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:02:27 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 37
+2023-03-21 22:02:29 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:02:34 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 38
+2023-03-21 22:02:36 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:02:43 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 39
+2023-03-21 22:02:45 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:02:50 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 40
+2023-03-21 22:02:52 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:02:57 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 41
+2023-03-21 22:02:59 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:03:04 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 42
+2023-03-21 22:03:06 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:03:12 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 43
+2023-03-21 22:03:14 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:03:19 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 44
+2023-03-21 22:03:21 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:03:26 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 45
+2023-03-21 22:03:28 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:03:33 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 46
+2023-03-21 22:03:35 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:03:41 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 47
+2023-03-21 22:03:43 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:03:49 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 48
+2023-03-21 22:03:51 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:03:56 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 49
+2023-03-21 22:03:58 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:04:03 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 50
+2023-03-21 22:04:05 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:04:10 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 51
+2023-03-21 22:04:12 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:04:18 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 52
+2023-03-21 22:04:20 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:04:25 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 53
+2023-03-21 22:04:27 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:04:32 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 54
+2023-03-21 22:04:34 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:04:39 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 55
+2023-03-21 22:04:41 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:04:46 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 56
+2023-03-21 22:04:48 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:04:54 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 57
+2023-03-21 22:04:56 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:05:01 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 58
+2023-03-21 22:05:03 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:05:09 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 59
+2023-03-21 22:05:11 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:05:16 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 60
+2023-03-21 22:05:18 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:05:23 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 61
+2023-03-21 22:05:25 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:05:31 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 62
+2023-03-21 22:05:33 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:05:39 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 63
+2023-03-21 22:05:41 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:05:46 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 64
+2023-03-21 22:05:48 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:05:54 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 65
+2023-03-21 22:05:56 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:06:03 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 66
+2023-03-21 22:06:05 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:06:10 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 67
+2023-03-21 22:06:12 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:06:17 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 68
+2023-03-21 22:06:19 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:06:24 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 69
+2023-03-21 22:06:26 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:06:33 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 70
+2023-03-21 22:06:35 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:06:40 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 71
+2023-03-21 22:06:42 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:06:47 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 72
+2023-03-21 22:06:49 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:06:54 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 73
+2023-03-21 22:06:56 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:07:01 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing third resolution image 74
+2023-03-21 22:07:03 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Select settings option
+2023-03-21 22:07:07 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Select settings option to select resolution
+2023-03-21 22:07:10 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Select front camera fourth image resolution: 2M
+2023-03-21 22:07:21 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:07:26 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 0
+2023-03-21 22:07:28 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:07:33 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 1
+2023-03-21 22:07:35 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:07:41 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 2
+2023-03-21 22:07:43 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:07:48 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 3
+2023-03-21 22:07:50 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:07:56 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 4
+2023-03-21 22:07:58 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:08:03 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 5
+2023-03-21 22:08:05 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:08:10 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 6
+2023-03-21 22:08:12 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:08:17 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 7
+2023-03-21 22:08:19 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:08:24 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 8
+2023-03-21 22:08:26 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:08:32 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 9
+2023-03-21 22:08:34 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:08:39 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 10
+2023-03-21 22:08:41 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:08:46 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 11
+2023-03-21 22:08:48 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:08:53 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 12
+2023-03-21 22:08:55 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:09:00 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 13
+2023-03-21 22:09:02 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:09:09 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 14
+2023-03-21 22:09:11 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:09:16 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 15
+2023-03-21 22:09:18 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:09:23 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 16
+2023-03-21 22:09:25 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:09:30 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 17
+2023-03-21 22:09:32 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:09:38 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 18
+2023-03-21 22:09:40 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:09:46 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 19
+2023-03-21 22:09:48 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:09:53 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 20
+2023-03-21 22:09:55 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:10:01 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 21
+2023-03-21 22:10:03 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:10:09 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 22
+2023-03-21 22:10:11 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:10:16 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 23
+2023-03-21 22:10:18 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:10:23 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 24
+2023-03-21 22:10:25 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:10:31 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 25
+2023-03-21 22:10:33 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:10:39 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 26
+2023-03-21 22:10:41 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:10:46 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 27
+2023-03-21 22:10:48 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:10:53 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 28
+2023-03-21 22:10:55 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:11:00 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 29
+2023-03-21 22:11:02 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:11:07 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 30
+2023-03-21 22:11:09 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:11:15 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 31
+2023-03-21 22:11:17 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:11:22 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 32
+2023-03-21 22:11:24 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:11:29 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 33
+2023-03-21 22:11:31 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:11:36 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 34
+2023-03-21 22:11:38 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:11:43 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 35
+2023-03-21 22:11:45 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:11:51 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 36
+2023-03-21 22:11:53 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:11:58 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 37
+2023-03-21 22:12:00 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:12:05 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 38
+2023-03-21 22:12:07 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:12:12 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 39
+2023-03-21 22:12:14 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:12:19 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 40
+2023-03-21 22:12:21 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:12:27 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 41
+2023-03-21 22:12:29 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:12:34 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 42
+2023-03-21 22:12:36 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:12:41 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 43
+2023-03-21 22:12:43 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:12:48 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 44
+2023-03-21 22:12:50 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:12:55 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 45
+2023-03-21 22:12:57 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:13:03 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 46
+2023-03-21 22:13:05 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:13:11 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 47
+2023-03-21 22:13:13 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:13:18 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 48
+2023-03-21 22:13:20 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:13:25 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 49
+2023-03-21 22:13:27 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:13:32 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 50
+2023-03-21 22:13:34 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:13:40 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 51
+2023-03-21 22:13:42 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:13:47 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 52
+2023-03-21 22:13:49 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:13:54 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 53
+2023-03-21 22:13:56 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:14:01 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 54
+2023-03-21 22:14:03 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:14:08 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 55
+2023-03-21 22:14:10 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:14:16 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 56
+2023-03-21 22:14:18 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:14:23 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 57
+2023-03-21 22:14:25 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:14:30 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 58
+2023-03-21 22:14:32 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:14:37 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 59
+2023-03-21 22:14:39 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:14:44 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 60
+2023-03-21 22:14:46 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:14:51 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 61
+2023-03-21 22:14:53 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:14:59 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 62
+2023-03-21 22:15:01 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:15:06 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 63
+2023-03-21 22:15:08 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:15:13 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 64
+2023-03-21 22:15:15 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:15:20 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 65
+2023-03-21 22:15:22 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:15:27 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 66
+2023-03-21 22:15:29 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:15:35 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 67
+2023-03-21 22:15:37 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:15:42 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 68
+2023-03-21 22:15:44 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:15:49 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 69
+2023-03-21 22:15:51 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:15:56 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 70
+2023-03-21 22:15:58 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:16:03 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 71
+2023-03-21 22:16:05 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:16:11 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 72
+2023-03-21 22:16:13 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:16:18 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 73
+2023-03-21 22:16:20 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Start image capture
+2023-03-21 22:16:25 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Captureing fourth resolution image 74
+2023-03-21 22:16:27 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Switch to back camera mode
+2023-03-21 22:16:29 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Total Count value:300 images to be Captured 
+2023-03-21 22:16:36 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Launch file manager application and verify captured images present  in Internal storage
+2023-03-21 22:16:53 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Swipe up to select Internal storage
+2023-03-21 22:16:55 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Select Internal storage
+2023-03-21 22:17:02 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture switch to grid view mode to select DCIM folder
+2023-03-21 22:17:05 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Select DCIM folder
+2023-03-21 22:17:08 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Select camera folder
+2023-03-21 22:17:11 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture switch to list view mode 
+2023-03-21 22:17:15 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Click More options
+2023-03-21 22:17:21 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Click Select all
+2023-03-21 22:17:25 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Total Image captured
+2023-03-21 22:17:33 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Pass: Test9F_Int pass for front Image capture
+2023-03-21 22:17:33 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Test9F_Int_Fcam_image: 300  images Captured succesfull
+2023-03-21 22:17:33 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-21 22:17:40 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture calling DataMoveOperation() 
+2023-03-21 22:17:40 INFO   Lava_Agni_5G_LXX501.Test9F_Int DataMoveOperation Re-launch file manager application and select Internal storage for data move operation, select all front camera images files present in camera folder and move to Test9F_Int folder
+2023-03-21 22:17:46 INFO   Lava_Agni_5G_LXX501.Test9F_Int DataMoveOperation Swipe up to select Internal storage
+2023-03-21 22:17:49 INFO   Lava_Agni_5G_LXX501.Test9F_Int DataMoveOperation Select Internal storage
+2023-03-21 22:17:55 INFO   Lava_Agni_5G_LXX501.Test9F_Int DataMoveOperation Click More options
+2023-03-21 22:18:01 INFO   Lava_Agni_5G_LXX501.Test9F_Int DataMoveOperation Select add new folder option
+2023-03-21 22:18:09 INFO   Lava_Agni_5G_LXX501.Test9F_Int DataMoveOperation Name folder as Test9F_Int
+2023-03-21 22:18:22 INFO   Lava_Agni_5G_LXX501.Test9F_Int DataMoveOperation Select DCIM folder
+2023-03-21 22:18:25 INFO   Lava_Agni_5G_LXX501.Test9F_Int DataMoveOperation Select camera folder
+2023-03-21 22:18:29 INFO   Lava_Agni_5G_LXX501.Test9F_Int DataMoveOperation Click More options
+2023-03-21 22:18:35 INFO   Lava_Agni_5G_LXX501.Test9F_Int DataMoveOperation Click select all option
+2023-03-21 22:18:42 INFO   Lava_Agni_5G_LXX501.Test9F_Int DataMoveOperation Click More options
+2023-03-21 22:18:48 INFO   Lava_Agni_5G_LXX501.Test9F_Int DataMoveOperation Select Move to option
+2023-03-21 22:18:55 INFO   Lava_Agni_5G_LXX501.Test9F_Int DataMoveOperation Select Internal storage
+2023-03-21 22:19:01 INFO   Lava_Agni_5G_LXX501.Test9F_Int DataMoveOperation switch to grid view mode to select Test9F_Int folder
+2023-03-21 22:19:05 INFO   Lava_Agni_5G_LXX501.Test9F_Int DataMoveOperation Select Test9F_Int folder
+2023-03-21 22:19:12 INFO   Lava_Agni_5G_LXX501.Test9F_Int DataMoveOperation switch to list view mode 
+2023-03-21 22:19:15 INFO   Lava_Agni_5G_LXX501.Test9F_Int DataMoveOperation Click move here
+2023-03-21 22:21:22 INFO   Lava_Agni_5G_LXX501.Test9F_Int DataMoveOperation Pass: Test9F_Int Pass for data move operation successfully
+2023-03-21 22:21:22 INFO   Lava_Agni_5G_LXX501.Test9F_Int DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-21 22:21:22 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Final Message: Pass Test9F_Int Pass for front Camera image capture
+2023-03-21 22:21:22 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture Test: End
+2023-03-21 22:21:22 INFO   Lava_Agni_5G_LXX501.Test9F_Int RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

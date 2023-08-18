@@ -1,0 +1,94 @@
+2023-01-24 15:28:41 INFO   BlackView_Tab10.Test10_Int rearVideoRec Test: Start
+2023-01-24 15:28:41 INFO   BlackView_Tab10.Test10_Int rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-24 15:28:41 INFO   BlackView_Tab10.Test10_Int rearVideoRec Test10_Int Scenario is as follows
+2023-01-24 15:28:41 INFO   BlackView_Tab10.Test10_Int rearVideoRec 1.Launch Camera application and start back camera video recording for all host applicable resolutions in Internal mount uSD card storage
+2023-01-24 15:28:41 INFO   BlackView_Tab10.Test10_Int rearVideoRec 2.Playback Highest resolution recorded video from Internal mount uSD card storage, fast forward playback and pause video scenario 
+2023-01-24 15:28:41 INFO   BlackView_Tab10.Test10_Int rearVideoRec 3.Playback copied videos from Test1 folder, fast forward and pause scenario
+2023-01-24 15:28:41 INFO   BlackView_Tab10.Test10_Int rearVideoRec 4.Move recorded videos from internal mount storage-->DCIM-->Camera folder to Test10_Int folder in internal mount storage
+2023-01-24 15:28:41 INFO   BlackView_Tab10.Test10_Int rearVideoRec Setting up the appium desired capabilities
+2023-01-24 15:28:41 INFO   BlackView_Tab10.Test10_Int rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-24 15:29:03 INFO   BlackView_Tab10.Test10_Int rearVideoRec Launch home screen
+2023-01-24 15:29:08 INFO   BlackView_Tab10.Test10_Int rearVideoRec Launch Camera application for rear camera video recording
+2023-01-24 15:29:16 INFO   BlackView_Tab10.Test10_Int rearVideoRec Test10_Int_Bcam_res: 3 resolutions supported
+2023-01-24 15:29:16 INFO   BlackView_Tab10.Test10_Int rearVideoRec Switch to video recording mode
+2023-01-24 15:29:26 INFO   BlackView_Tab10.Test10_Int rearVideoRec Select settings option
+2023-01-24 15:29:32 INFO   BlackView_Tab10.Test10_Int rearVideoRec Select Video size option
+2023-01-24 15:29:38 INFO   BlackView_Tab10.Test10_Int rearVideoRec Select rear camera first video resolution: FHD
+2023-01-24 15:29:47 INFO   BlackView_Tab10.Test10_Int rearVideoRec Start video recording
+2023-01-24 15:32:48 INFO   BlackView_Tab10.Test10_Int rearVideoRec Stop video recording
+2023-01-24 15:32:53 INFO   BlackView_Tab10.Test10_Int rearVideoRec Select settings option
+2023-01-24 15:32:58 INFO   BlackView_Tab10.Test10_Int rearVideoRec Select Video size option
+2023-01-24 15:33:04 INFO   BlackView_Tab10.Test10_Int rearVideoRec Select rear camera second video reslotion: HD
+2023-01-24 15:33:14 INFO   BlackView_Tab10.Test10_Int rearVideoRec Start video recording
+2023-01-24 15:36:14 INFO   BlackView_Tab10.Test10_Int rearVideoRec Stop video recording
+2023-01-24 15:36:19 INFO   BlackView_Tab10.Test10_Int rearVideoRec Select settings option
+2023-01-24 15:36:25 INFO   BlackView_Tab10.Test10_Int rearVideoRec Select Video size option
+2023-01-24 15:36:31 INFO   BlackView_Tab10.Test10_Int rearVideoRec Select rear camera third video resolution: VGA
+2023-01-24 15:36:40 INFO   BlackView_Tab10.Test10_Int rearVideoRec Start video recording
+2023-01-24 15:39:40 INFO   BlackView_Tab10.Test10_Int rearVideoRec Stop video recording
+2023-01-24 15:39:46 INFO   BlackView_Tab10.Test10_Int rearVideoRec Switch to photo mode
+2023-01-24 15:40:01 INFO   BlackView_Tab10.Test10_Int rearVideoRec Pass: Rear video recording is successfull
+2023-01-24 15:40:01 INFO   BlackView_Tab10.Test10_Int rearVideoRec Launch File Manager Application to verify captured videos in internal mount storage
+2023-01-24 15:40:01 INFO   BlackView_Tab10.Test10_Int rearVideoRec Launch File Manager application to verify  Image capture
+2023-01-24 15:40:13 INFO   BlackView_Tab10.Test10_Int rearVideoRec switch to grid view mode to select DCIM folder
+2023-01-24 15:40:17 INFO   BlackView_Tab10.Test10_Int rearVideoRec Select DCIM folder
+2023-01-24 15:40:20 INFO   BlackView_Tab10.Test10_Int rearVideoRec Select camera folder
+2023-01-24 15:40:23 INFO   BlackView_Tab10.Test10_Int rearVideoRec switch to list view mode 
+2023-01-24 15:40:29 INFO   BlackView_Tab10.Test10_Int rearVideoRec Click More options
+2023-01-24 15:40:35 INFO   BlackView_Tab10.Test10_Int rearVideoRec Click Select all
+2023-01-24 15:40:45 INFO   BlackView_Tab10.Test10_Int rearVideoRec Test10_Int_Bcam_video: 3 Videos captured successfull
+2023-01-24 15:40:45 INFO   BlackView_Tab10.Test10_Int rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-24 15:40:45 INFO   BlackView_Tab10.Test10_Int rearVideoRec Calling RecordedVideoPlayback() for Playing Highest record video, fast forward video play back scenario
+2023-01-24 15:40:51 INFO   BlackView_Tab10.Test10_Int RecordedVideoPlayback Launch File Manager application to verify  Image capture
+2023-01-24 15:41:03 INFO   BlackView_Tab10.Test10_Int RecordedVideoPlayback switch to grid view mode 
+2023-01-24 15:41:06 INFO   BlackView_Tab10.Test10_Int RecordedVideoPlayback Select DCIM folder
+2023-01-24 15:41:09 INFO   BlackView_Tab10.Test10_Int RecordedVideoPlayback Select Camera folder
+2023-01-24 15:41:13 INFO   BlackView_Tab10.Test10_Int RecordedVideoPlayback switch to list view mode 
+2023-01-24 15:41:16 INFO   BlackView_Tab10.Test10_Int RecordedVideoPlayback select more options
+2023-01-24 15:41:22 INFO   BlackView_Tab10.Test10_Int RecordedVideoPlayback Select Sort BY
+2023-01-24 15:41:26 INFO   BlackView_Tab10.Test10_Int RecordedVideoPlayback Select Largest first
+2023-01-24 15:41:29 INFO   BlackView_Tab10.Test10_Int RecordedVideoPlayback Click on first file to play highest recorded resolution video file
+2023-01-24 15:41:29 INFO   BlackView_Tab10.Test10_Int RecordedVideoPlayback Started video playback
+2023-01-24 15:41:49 INFO   BlackView_Tab10.Test10_Int RecordedVideoPlayback Tap Somewhere on Screen for contents to visible on Screen
+2023-01-24 15:41:49 INFO   BlackView_Tab10.Test10_Int RecordedVideoPlayback Fast forward video for 10 seconds
+2023-01-24 15:41:50 INFO   BlackView_Tab10.Test10_Int RecordedVideoPlayback Continue video playback
+2023-01-24 15:42:22 INFO   BlackView_Tab10.Test10_Int RecordedVideoPlayback Pass: Recorded Video playback and fast forward scenario successfull
+2023-01-24 15:42:22 INFO   BlackView_Tab10.Test10_Int RecordedVideoPlayback ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-24 15:42:22 INFO   BlackView_Tab10.Test10_Int RecordedVideoPlayback Calling DataMovementOperation() to move recorded rear camer videos to Test10_Int Folder
+2023-01-24 15:42:22 INFO   BlackView_Tab10.Test10_Int DataMoveOperation launch file manager application select internal storage-->DCIM folder-->Camera folder-->Select all back camera front camera videos create Test10_Int and cut paste all videos in BCFC_Cameravideos folder
+2023-01-24 15:42:22 INFO   BlackView_Tab10.Test10_Int DataMoveOperation Launch File Manager application
+2023-01-24 15:42:34 INFO   BlackView_Tab10.Test10_Int DataMoveOperation Select DCIM folder
+2023-01-24 15:42:34 INFO   BlackView_Tab10.Test10_Int DataMoveOperation Select DCIM folder
+2023-01-24 15:42:37 INFO   BlackView_Tab10.Test10_Int DataMoveOperation Select camera folder
+2023-01-24 15:42:40 INFO   BlackView_Tab10.Test10_Int DataMoveOperation Click More options
+2023-01-24 15:42:46 INFO   BlackView_Tab10.Test10_Int DataMoveOperation Click Select all
+2023-01-24 15:42:50 INFO   BlackView_Tab10.Test10_Int DataMoveOperation Click More options
+2023-01-24 15:42:57 INFO   BlackView_Tab10.Test10_Int DataMoveOperation Select move to option
+2023-01-24 15:43:03 INFO   BlackView_Tab10.Test10_Int DataMoveOperation Select internal storage
+2023-01-24 15:43:14 INFO   BlackView_Tab10.Test10_Int DataMoveOperation Fail: Test10_Int Fail for data move operation 
+2023-01-24 15:43:14 INFO   BlackView_Tab10.Test10_Int DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-24 15:43:14 INFO   BlackView_Tab10.Test10_Int RecordedVideoPlayback Calling copiedvideosPlayBack() for playing copied video file from Test1 folder
+2023-01-24 15:43:14 INFO   BlackView_Tab10.Test10_Int CopiedvideosPlayBack Launch File Manager application
+2023-01-24 15:43:25 INFO   BlackView_Tab10.Test10_Int CopiedvideosPlayBack switch to gird view mode 
+2023-01-24 15:43:29 INFO   BlackView_Tab10.Test10_Int CopiedvideosPlayBack Select Test1 folder
+2023-01-24 15:43:32 INFO   BlackView_Tab10.Test10_Int CopiedvideosPlayBack Select test_filefolder
+2023-01-24 15:43:35 INFO   BlackView_Tab10.Test10_Int CopiedvideosPlayBack Select OneGB folder
+2023-01-24 15:43:38 INFO   BlackView_Tab10.Test10_Int CopiedvideosPlayBack Select video folder
+2023-01-24 15:43:42 INFO   BlackView_Tab10.Test10_Int CopiedvideosPlayBack switch to list view mode 
+2023-01-24 15:43:45 INFO   BlackView_Tab10.Test10_Int CopiedvideosPlayBack Select LG_4K_DEMO_HDR_2018_(60FPS)_ELBA(480p).mp4 file for video playback
+2023-01-24 15:43:45 INFO   BlackView_Tab10.Test10_Int CopiedvideosPlayBack Started video playback
+2023-01-24 15:44:05 INFO   BlackView_Tab10.Test10_Int CopiedvideosPlayBack Tap Somewhere on Screen for contents to visible on Screen
+2023-01-24 15:44:05 INFO   BlackView_Tab10.Test10_Int CopiedvideosPlayBack Click fast forward button for 10 seconds video forward
+2023-01-24 15:44:29 INFO   BlackView_Tab10.Test10_Int CopiedvideosPlayBack Pass: 4K Video play back and fast forward is successful 
+2023-01-24 15:44:32 INFO   BlackView_Tab10.Test10_Int CopiedvideosPlayBack Select FHD 5.1 ( 1350 X 2560 ).webm file for video playback
+2023-01-24 15:44:32 INFO   BlackView_Tab10.Test10_Int CopiedvideosPlayBack Started video playback
+2023-01-24 15:44:52 INFO   BlackView_Tab10.Test10_Int CopiedvideosPlayBack Tap Somewhere on Screen for contents to visible on Screen
+2023-01-24 15:44:52 INFO   BlackView_Tab10.Test10_Int CopiedvideosPlayBack Click fast forward button for 10 seconds video forward
+2023-01-24 15:44:53 INFO   BlackView_Tab10.Test10_Int CopiedvideosPlayBack Click pause button to stop video
+2023-01-24 15:45:04 INFO   BlackView_Tab10.Test10_Int CopiedvideosPlayBack Pass: FHD Video play back and fast forward is successful 
+2023-01-24 15:45:04 INFO   BlackView_Tab10.Test10_Int CopiedvideosPlayBack ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-24 15:45:04 INFO   BlackView_Tab10.Test10_Int CopiedvideosPlayBack Final Message: Pass Test10_Int Pass for Playing Copied Video files, recorded video file and fast forward video play back scenario 
+2023-01-24 15:45:04 INFO   BlackView_Tab10.Test10_Int CopiedvideosPlayBack Test: End
+2023-01-24 15:45:04 INFO   BlackView_Tab10.Test10_Int CopiedvideosPlayBack ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-24 15:45:04 INFO   BlackView_Tab10.Test10_Int CopiedvideosPlayBack Test: End
+2023-01-24 15:45:04 INFO   BlackView_Tab10.Test10_Int CopiedvideosPlayBack ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

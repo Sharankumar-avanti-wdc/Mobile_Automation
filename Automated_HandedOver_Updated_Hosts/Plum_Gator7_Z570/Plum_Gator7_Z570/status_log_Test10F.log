@@ -1,0 +1,117 @@
+2023-03-13 13:50:22 INFO   Plum_Gator7_Z570.Test10F rearVideoRec Test: Start
+2023-03-13 13:50:22 INFO   Plum_Gator7_Z570.Test10F rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-13 13:50:22 INFO   Plum_Gator7_Z570.Test10F rearVideoRec Test10F Scenario is as follows
+2023-03-13 13:50:22 INFO   Plum_Gator7_Z570.Test10F rearVideoRec 1.Launch Camera application and start back camera video recording for all host applicable resolutions in uSD Card
+2023-03-13 13:50:22 INFO   Plum_Gator7_Z570.Test10F rearVideoRec 2.Playback Highest resolution recorded video from USD Card, fast forward playback and pause video scenario 
+2023-03-13 13:50:22 INFO   Plum_Gator7_Z570.Test10F rearVideoRec 3.Playback copied videos from Test1 folder, fast forward and pause scenario
+2023-03-13 13:50:22 INFO   Plum_Gator7_Z570.Test10F rearVideoRec Setting up the appium desired capabilities
+2023-03-13 13:50:22 INFO   Plum_Gator7_Z570.Test10F rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-13 13:50:39 INFO   Plum_Gator7_Z570.Test10F rearVideoRec Launch home screen
+2023-03-13 13:50:50 INFO   Plum_Gator7_Z570.Test10F rearVideoRec Clearing Recent Apps
+2023-03-13 13:50:50 INFO   Plum_Gator7_Z570.Test10F rearVideoRec Pass: No recent apps found
+2023-03-13 13:50:54 INFO   Plum_Gator7_Z570.Test10F rearVideoRec Launch Camera application for front camera video recording
+2023-03-13 13:51:01 INFO   Plum_Gator7_Z570.Test10F rearVideoRec IF Change to uSD card notification pop-up exists select Cancel Option
+2023-03-13 13:51:11 INFO   Plum_Gator7_Z570.Test10F rearVideoRec change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-201', ip: '10.65.147.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Z570, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: Z570000000000585}, deviceApiLevel: 30, deviceManufacturer: PLUM, deviceModel: Z570, deviceName: Z570000000000585, deviceScreenDensity: 320, deviceScreenSize: 720x1440, deviceUDID: Z570000000000585, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 48, takesScreenshot: true, udid: Z570000000000585, viewportRect: {height: 1296, left: 0, top: 48, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: efc9729f-e5b6-4361-9388-90e33988cb7e
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("DENY")}
+2023-03-13 13:51:11 INFO   Plum_Gator7_Z570.Test10F rearVideoRec if Location permisson Pop Exists Select Cancel Option
+2023-03-13 13:51:21 INFO   Plum_Gator7_Z570.Test10F rearVideoRec Location permission access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-201', ip: '10.65.147.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Z570, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: Z570000000000585}, deviceApiLevel: 30, deviceManufacturer: PLUM, deviceModel: Z570, deviceName: Z570000000000585, deviceScreenDensity: 320, deviceScreenSize: 720x1440, deviceUDID: Z570000000000585, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 48, takesScreenshot: true, udid: Z570000000000585, viewportRect: {height: 1296, left: 0, top: 48, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: efc9729f-e5b6-4361-9388-90e33988cb7e
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("START CAPTURE")}
+2023-03-13 13:51:21 INFO   Plum_Gator7_Z570.Test10F rearVideoRec Switch to video recording mode
+2023-03-13 13:51:31 INFO   Plum_Gator7_Z570.Test10F rearVideoRec Test10F_Fcam_res: 4 resolutions supported
+2023-03-13 13:51:31 INFO   Plum_Gator7_Z570.Test10F rearVideoRec Switch to front video camera mode
+2023-03-13 13:51:34 INFO   Plum_Gator7_Z570.Test10F rearVideoRec Select settings option
+2023-03-13 13:51:38 INFO   Plum_Gator7_Z570.Test10F rearVideoRec Search for Storage path option
+2023-03-13 13:51:42 INFO   Plum_Gator7_Z570.Test10F rearVideoRec Select SD as storage option
+2023-03-13 13:51:51 INFO   Plum_Gator7_Z570.Test10F rearVideoRec Select settings option
+2023-03-13 13:51:54 INFO   Plum_Gator7_Z570.Test10F rearVideoRec Select Video size option
+2023-03-13 13:52:01 INFO   Plum_Gator7_Z570.Test10F rearVideoRec Select front camera first video resolution: 1920x1080
+2023-03-13 13:52:11 INFO   Plum_Gator7_Z570.Test10F rearVideoRec Start video recording
+2023-03-13 14:01:51 INFO   Plum_Gator7_Z570.Test10F rearVideoRec Stop video recording
+2023-03-13 14:01:57 INFO   Plum_Gator7_Z570.Test10F rearVideoRec Select settings option
+2023-03-13 14:02:00 INFO   Plum_Gator7_Z570.Test10F rearVideoRec Select Video size option
+2023-03-13 14:02:06 INFO   Plum_Gator7_Z570.Test10F rearVideoRec Select front camera second video resolution : 1280x720
+2023-03-13 14:02:16 INFO   Plum_Gator7_Z570.Test10F rearVideoRec Start video recording
+2023-03-13 14:11:57 INFO   Plum_Gator7_Z570.Test10F rearVideoRec Stop video recording
+2023-03-13 14:12:03 INFO   Plum_Gator7_Z570.Test10F rearVideoRec Select settings option
+2023-03-13 14:12:06 INFO   Plum_Gator7_Z570.Test10F rearVideoRec Select Video size option
+2023-03-13 14:12:12 INFO   Plum_Gator7_Z570.Test10F rearVideoRec Select front camera 3rd video resolution : 640x480
+2023-03-13 14:12:22 INFO   Plum_Gator7_Z570.Test10F rearVideoRec Start video recording
+2023-03-13 14:22:03 INFO   Plum_Gator7_Z570.Test10F rearVideoRec Stop video recording
+2023-03-13 14:22:09 INFO   Plum_Gator7_Z570.Test10F rearVideoRec Select settings option
+2023-03-13 14:22:13 INFO   Plum_Gator7_Z570.Test10F rearVideoRec Select Video size option
+2023-03-13 14:22:19 INFO   Plum_Gator7_Z570.Test10F rearVideoRec Select front camera second video resolution : 352x288
+2023-03-13 14:22:29 INFO   Plum_Gator7_Z570.Test10F rearVideoRec Start video recording
+2023-03-13 14:32:09 INFO   Plum_Gator7_Z570.Test10F rearVideoRec Stop video recording
+2023-03-13 14:32:15 INFO   Plum_Gator7_Z570.Test10F rearVideoRec Switch to rear video camera mode
+2023-03-13 14:32:18 INFO   Plum_Gator7_Z570.Test10F rearVideoRec Clicking photo Tab
+2023-03-13 14:32:30 INFO   Plum_Gator7_Z570.Test10F rearVideoRec Pass: Test10F Pass for front camera video recording
+2023-03-13 14:32:30 INFO   Plum_Gator7_Z570.Test10F rearVideoRec Launch file manager application and verify recorded video capture uSD Card
+2023-03-13 14:32:47 INFO   Plum_Gator7_Z570.Test10F rearVideoRec Swipe up to select uSD card
+2023-03-13 14:32:50 INFO   Plum_Gator7_Z570.Test10F rearVideoRec Select SD card
+2023-03-13 14:32:57 INFO   Plum_Gator7_Z570.Test10F rearVideoRec switch to grid view mode to select DCIM folder
+2023-03-13 14:33:00 INFO   Plum_Gator7_Z570.Test10F rearVideoRec Select DCIM folder
+2023-03-13 14:33:03 INFO   Plum_Gator7_Z570.Test10F rearVideoRec Select camera folder
+2023-03-13 14:33:06 INFO   Plum_Gator7_Z570.Test10F rearVideoRec switch to list view mode 
+2023-03-13 14:33:09 INFO   Plum_Gator7_Z570.Test10F rearVideoRec Click More options
+2023-03-13 14:33:16 INFO   Plum_Gator7_Z570.Test10F rearVideoRec Click Select all
+2023-03-13 14:33:25 INFO   Plum_Gator7_Z570.Test10F rearVideoRec Test10F_Fcam_video: 4 Videos captured successfull
+2023-03-13 14:33:25 INFO   Plum_Gator7_Z570.Test10F rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-13 14:33:25 INFO   Plum_Gator7_Z570.Test10F rearVideoRec Calling VideoPlayBackForSleepWake()
+2023-03-13 14:33:31 INFO   Plum_Gator7_Z570.Test10F VideoPlayBackForSleepWake Launching file manager application
+2023-03-13 14:33:33 INFO   Plum_Gator7_Z570.Test10F VideoPlayBackForSleepWake Swipe up to select uSD card
+2023-03-13 14:33:37 INFO   Plum_Gator7_Z570.Test10F VideoPlayBackForSleepWake Select SD card
+2023-03-13 14:33:43 INFO   Plum_Gator7_Z570.Test10F VideoPlayBackForSleepWake switch to grid view mode to select DCIM folder
+2023-03-13 14:33:46 INFO   Plum_Gator7_Z570.Test10F VideoPlayBackForSleepWake Select DCIM folder
+2023-03-13 14:33:50 INFO   Plum_Gator7_Z570.Test10F VideoPlayBackForSleepWake Select Camera folder
+2023-03-13 14:33:53 INFO   Plum_Gator7_Z570.Test10F VideoPlayBackForSleepWake switch to list view mode 
+2023-03-13 14:33:56 INFO   Plum_Gator7_Z570.Test10F VideoPlayBackForSleepWake Select more options
+2023-03-13 14:34:01 INFO   Plum_Gator7_Z570.Test10F VideoPlayBackForSleepWake Select Sort By option
+2023-03-13 14:34:05 INFO   Plum_Gator7_Z570.Test10F VideoPlayBackForSleepWake Select Sort by Newest date first
+2023-03-13 14:34:08 INFO   Plum_Gator7_Z570.Test10F VideoPlayBackForSleepWake Click on first file to play highest recorded resolution video file
+2023-03-13 14:34:08 INFO   Plum_Gator7_Z570.Test10F VideoPlayBackForSleepWake Started video playback
+2023-03-13 14:34:28 INFO   Plum_Gator7_Z570.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-03-13 14:34:28 INFO   Plum_Gator7_Z570.Test10F VideoPlayBackForSleepWake Click pause video button
+2023-03-13 14:34:33 INFO   Plum_Gator7_Z570.Test10F VideoPlayBackForSleepWake Lock Mobile with 30 seconds delay
+2023-03-13 14:36:33 INFO   Plum_Gator7_Z570.Test10F VideoPlayBackForSleepWake Wait For 30Seconds
+2023-03-13 14:36:38 INFO   Plum_Gator7_Z570.Test10F VideoPlayBackForSleepWake Unlock Mobile 
+2023-03-13 14:36:38 INFO   Plum_Gator7_Z570.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-03-13 14:36:38 INFO   Plum_Gator7_Z570.Test10F VideoPlayBackForSleepWake Click pause video button
+2023-03-13 14:37:11 INFO   Plum_Gator7_Z570.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-03-13 14:37:11 INFO   Plum_Gator7_Z570.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-03-13 14:37:11 INFO   Plum_Gator7_Z570.Test10F VideoPlayBackForSleepWake Click pause video button
+2023-03-13 14:37:22 INFO   Plum_Gator7_Z570.Test10F VideoPlayBackForSleepWake Pass: Test10F Pass for Front video play back, Pause,Lock and Unlock Phone Play back from Pause duration Scenario
+2023-03-13 14:37:22 INFO   Plum_Gator7_Z570.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-13 14:37:22 INFO   Plum_Gator7_Z570.Test10F VideoPlayBackForSleepWake calling DatamoveOperation() to move front camera recorded videos files to Test10F folder
+2023-03-13 14:37:22 INFO   Plum_Gator7_Z570.Test10F DataMoveOperation launch file manager application select uSD card-->DCIM folder-->Camera folder-->Select all front camera videos create Test10F and cut paste all videos in Test10F folder
+2023-03-13 14:37:29 INFO   Plum_Gator7_Z570.Test10F DataMoveOperation Swipe up to select uSD card
+2023-03-13 14:37:32 INFO   Plum_Gator7_Z570.Test10F DataMoveOperation Select SD card
+2023-03-13 14:37:38 INFO   Plum_Gator7_Z570.Test10F DataMoveOperation switch to grid view mode to select DCIM folder
+2023-03-13 14:37:41 INFO   Plum_Gator7_Z570.Test10F DataMoveOperation Select DCIM folder
+2023-03-13 14:37:44 INFO   Plum_Gator7_Z570.Test10F DataMoveOperation Select Camera folder
+2023-03-13 14:37:47 INFO   Plum_Gator7_Z570.Test10F DataMoveOperation switch to list view mode 
+2023-03-13 14:37:51 INFO   Plum_Gator7_Z570.Test10F DataMoveOperation Click More options
+2023-03-13 14:37:57 INFO   Plum_Gator7_Z570.Test10F DataMoveOperation Click Select all
+2023-03-13 14:38:01 INFO   Plum_Gator7_Z570.Test10F DataMoveOperation Click More options
+2023-03-13 14:38:07 INFO   Plum_Gator7_Z570.Test10F DataMoveOperation Select move to option
+2023-03-13 14:38:14 INFO   Plum_Gator7_Z570.Test10F DataMoveOperation Select uSD Card
+2023-03-13 14:38:20 INFO   Plum_Gator7_Z570.Test10F DataMoveOperation Select ADD NEW Folder option
+2023-03-13 14:38:26 INFO   Plum_Gator7_Z570.Test10F DataMoveOperation Name folder as Test10F
+2023-03-13 14:38:33 INFO   Plum_Gator7_Z570.Test10F DataMoveOperation Accept create folder
+2023-03-13 14:40:33 INFO   Plum_Gator7_Z570.Test10F DataMoveOperation Cut paste  video files operation completed successfully
+2023-03-13 14:40:41 INFO   Plum_Gator7_Z570.Test10F DataMoveOperation Pass: Test10F Pass for data move operation successfully
+2023-03-13 14:40:41 INFO   Plum_Gator7_Z570.Test10F DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-13 14:40:41 INFO   Plum_Gator7_Z570.Test10F VideoPlayBackForSleepWake Final Message: Pass Test10F Pass for front camera  video recording, Pause Video Playback scenario and data move operation scenario
+2023-03-13 14:40:41 INFO   Plum_Gator7_Z570.Test10F VideoPlayBackForSleepWake Test: End
+2023-03-13 14:40:41 INFO   Plum_Gator7_Z570.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

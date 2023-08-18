@@ -1,0 +1,80 @@
+2023-07-17 13:51:25 INFO   Nokia_5_3.Test9 RearPictureCapture Test: Start
+2023-07-17 13:51:25 INFO   Nokia_5_3.Test9 RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-07-17 13:51:25 INFO   Nokia_5_3.Test9 RearPictureCapture Test9 Scenario is follows:
+2023-07-17 13:51:25 INFO   Nokia_5_3.Test9 RearPictureCapture 1.Launch camera application, set uSD as a Storage option, start rear camera Image capture for all host resolutions
+2023-07-17 13:51:25 INFO   Nokia_5_3.Test9 RearPictureCapture 2.Move Captured Rear camera images to Test9 folder
+2023-07-17 13:51:25 INFO   Nokia_5_3.Test9 RearPictureCapture Setting up the appium desired capabilities
+2023-07-17 13:51:25 INFO   Nokia_5_3.Test9 RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-07-17 13:51:34 INFO   Nokia_5_3.Test9 RearPictureCapture Unlocking Phone
+2023-07-17 13:51:36 INFO   Nokia_5_3.Test9 RearPictureCapture Launch home screen
+2023-07-17 13:51:42 INFO   Nokia_5_3.Test9 RearPictureCapture Launch Camera application for rear Picture capture for all host resolution
+2023-07-17 13:51:56 INFO   Nokia_5_3.Test9 RearPictureCapture change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '5CG01821WY', ip: '10.113.95.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Nokia 5.3, newCommandTimeout: 600, platformName: android, platformVersion: 11, udid: N0AA003791K52000302}, deviceApiLevel: 30, deviceManufacturer: HMD Global, deviceModel: Nokia 5.3, deviceName: N0AA003791K52000302, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: N0AA003791K52000302, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pixelRatio: 1.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 56, takesScreenshot: true, udid: N0AA003791K52000302, viewportRect: {height: 1405, left: 0, top: 56, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: ba25d018-0b22-4429-a52a-676012d89f8a
+*** Element info: {Using=xpath, value=//*[@resource-id='com.android.permissioncontroller:id/permission_deny_button']}
+2023-07-17 13:51:58 INFO   Nokia_5_3.Test9 RearPictureCapture Test9_Bcam_res: 3 resolutions supported
+2023-07-17 13:51:58 INFO   Nokia_5_3.Test9 RearPictureCapture Click Settings option
+2023-07-17 13:52:02 INFO   Nokia_5_3.Test9 RearPictureCapture Select Data storage
+2023-07-17 13:52:06 INFO   Nokia_5_3.Test9 RearPictureCapture Select SD as storage option
+2023-07-17 13:52:12 INFO   Nokia_5_3.Test9 RearPictureCapture Click On Settings option to select rear video resolution
+2023-07-17 13:52:16 INFO   Nokia_5_3.Test9 RearPictureCapture Swipe Up and select Video Resolution option
+2023-07-17 13:52:16 INFO   Nokia_5_3.Test9 RearPictureCapture Select photo Resolution
+2023-07-17 13:52:20 INFO   Nokia_5_3.Test9 RearPictureCapture Select Rear photo size
+2023-07-17 13:52:24 INFO   Nokia_5_3.Test9 RearPictureCapture Select first Image Resoution: (4:3) 13MP
+2023-07-17 13:52:39 INFO   Nokia_5_3.Test9 RearPictureCapture clicking Image first Resolutions image0
+2023-07-17 13:52:43 INFO   Nokia_5_3.Test9 RearPictureCapture clicking Image first Resolutions image1
+2023-07-17 13:52:45 INFO   Nokia_5_3.Test9 RearPictureCapture Rear camera first resolution:2 images Captured succesfull
+2023-07-17 13:52:45 INFO   Nokia_5_3.Test9 RearPictureCapture Click On Settings option to select rear video resolution
+2023-07-17 13:52:49 INFO   Nokia_5_3.Test9 RearPictureCapture Swipe Up and select Video Resolution option
+2023-07-17 13:52:49 INFO   Nokia_5_3.Test9 RearPictureCapture Select photo Resolution
+2023-07-17 13:52:53 INFO   Nokia_5_3.Test9 RearPictureCapture Select Rear photo size
+2023-07-17 13:52:56 INFO   Nokia_5_3.Test9 RearPictureCapture Select second Image Resoution: (16:9) 10MP 
+2023-07-17 13:53:13 INFO   Nokia_5_3.Test9 RearPictureCapture clicking second  Resolution image0
+2023-07-17 13:53:17 INFO   Nokia_5_3.Test9 RearPictureCapture clicking second  Resolution image1
+2023-07-17 13:53:17 INFO   Nokia_5_3.Test9 RearPictureCapture Rear camera second resolution:2 images Captured succesfull
+2023-07-17 13:53:19 INFO   Nokia_5_3.Test9 RearPictureCapture Click On Settings option to select rear video resolution
+2023-07-17 13:53:22 INFO   Nokia_5_3.Test9 RearPictureCapture Swipe Up and select Video Resolution option
+2023-07-17 13:53:23 INFO   Nokia_5_3.Test9 RearPictureCapture Select photo Resolution
+2023-07-17 13:53:26 INFO   Nokia_5_3.Test9 RearPictureCapture Select Rear photo size
+2023-07-17 13:53:30 INFO   Nokia_5_3.Test9 RearPictureCapture Select third Image Resoution:(Full) 8MP
+2023-07-17 13:53:47 INFO   Nokia_5_3.Test9 RearPictureCapture clicking third Resolution image0
+2023-07-17 13:53:51 INFO   Nokia_5_3.Test9 RearPictureCapture clicking third Resolution image1
+2023-07-17 13:53:51 INFO   Nokia_5_3.Test9 RearPictureCapture Rear camera third resolution:2 images Captured succesfull
+2023-07-17 13:53:53 INFO   Nokia_5_3.Test9 RearPictureCapture Total Count value: 6 images to be Captured 
+2023-07-17 13:54:02 INFO   Nokia_5_3.Test9 RearPictureCapture Launch file manager application and verify recorded video present  in uSD Card
+2023-07-17 13:54:19 INFO   Nokia_5_3.Test9 RearPictureCapture Swipe up to select uSD card
+2023-07-17 13:54:21 INFO   Nokia_5_3.Test9 RearPictureCapture Select SD card
+2023-07-17 13:54:27 INFO   Nokia_5_3.Test9 RearPictureCapture switch to grid view mode to select DCIM folder
+2023-07-17 13:54:31 INFO   Nokia_5_3.Test9 RearPictureCapture Select DCIM folder
+2023-07-17 13:54:34 INFO   Nokia_5_3.Test9 RearPictureCapture Select camera folder
+2023-07-17 13:54:37 INFO   Nokia_5_3.Test9 RearPictureCapture switch to list view mode 
+2023-07-17 13:54:41 INFO   Nokia_5_3.Test9 RearPictureCapture Click More options
+2023-07-17 13:54:47 INFO   Nokia_5_3.Test9 RearPictureCapture Click Select all
+2023-07-17 13:55:04 INFO   Nokia_5_3.Test9 RearPictureCapture Pass: Test9 pass for rear Image capture
+2023-07-17 13:55:04 INFO   Nokia_5_3.Test9 RearPictureCapture Test9_Bcam_image: 6  images Captured succesfull
+2023-07-17 13:55:04 INFO   Nokia_5_3.Test9 RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-07-17 13:55:08 INFO   Nokia_5_3.Test9 RearPictureCapture calling DataMoveOperation() 
+2023-07-17 13:55:08 INFO   Nokia_5_3.Test9 DataMoveOperation Re-launch file manager application and select external storage for data move operation, select all rear camera images files present in camera folder and move to Test9 folder
+2023-07-17 13:55:17 INFO   Nokia_5_3.Test9 DataMoveOperation Select external storage
+2023-07-17 13:55:22 INFO   Nokia_5_3.Test9 DataMoveOperation switch to grid view mode and select DCIM  folder
+2023-07-17 13:55:26 INFO   Nokia_5_3.Test9 DataMoveOperation Select DCIM folder
+2023-07-17 13:55:29 INFO   Nokia_5_3.Test9 DataMoveOperation Select camera  folder
+2023-07-17 13:55:32 INFO   Nokia_5_3.Test9 DataMoveOperation switch to list view mode 
+2023-07-17 13:55:35 INFO   Nokia_5_3.Test9 DataMoveOperation Click More options
+2023-07-17 13:55:41 INFO   Nokia_5_3.Test9 DataMoveOperation Click Select all
+2023-07-17 13:55:45 INFO   Nokia_5_3.Test9 DataMoveOperation Click More options
+2023-07-17 13:55:52 INFO   Nokia_5_3.Test9 DataMoveOperation Select move to option
+2023-07-17 13:55:58 INFO   Nokia_5_3.Test9 DataMoveOperation Select uSD Card
+2023-07-17 13:56:05 INFO   Nokia_5_3.Test9 DataMoveOperation Select ADD NEW Folder option
+2023-07-17 13:56:12 INFO   Nokia_5_3.Test9 DataMoveOperation Name folder as Test9
+2023-07-17 13:56:19 INFO   Nokia_5_3.Test9 DataMoveOperation Accept create folder
+2023-07-17 13:56:49 INFO   Nokia_5_3.Test9 DataMoveOperation Cut paste  operation completed successfully
+2023-07-17 13:56:58 INFO   Nokia_5_3.Test9 DataMoveOperation Pass: Test9 Pass for data move operation successfully
+2023-07-17 13:56:58 INFO   Nokia_5_3.Test9 DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-07-17 13:56:58 INFO   Nokia_5_3.Test9 RearPictureCapture Final message: Pass Test9 Pass for rear Camera image capture
+2023-07-17 13:56:58 INFO   Nokia_5_3.Test9 RearPictureCapture Test: End
+2023-07-17 13:56:58 INFO   Nokia_5_3.Test9 RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

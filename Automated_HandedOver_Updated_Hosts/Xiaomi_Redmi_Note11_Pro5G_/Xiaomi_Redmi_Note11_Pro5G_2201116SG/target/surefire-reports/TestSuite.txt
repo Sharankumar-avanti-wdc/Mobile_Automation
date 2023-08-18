@@ -1,0 +1,89 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 4, Errors: 0, Skipped: 3, Time elapsed: 2,957.211 s <<< FAILURE! - in TestSuite
+Xiaomi_Redmi_Note11_Pro5G_2201116SG.Test10.rearVideoRec  Time elapsed: 22.76 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: 'POST /appium/device/press_keycode' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RPG-USB-APPS-38', ip: '10.65.145.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Redmi Note 11 Pro 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: d57a3ea93209}, deviceApiLevel: 30, deviceManufacturer: Xiaomi, deviceModel: 2201116SG, deviceName: d57a3ea93209, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: d57a3ea93209, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 90, takesScreenshot: true, udid: d57a3ea93209, viewportRect: {height: 2090, left: 0, top: 90, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: bca48067-33b4-4f5f-b3c1-c2fc350c59f3
+	at Xiaomi_Redmi_Note11_Pro5G_2201116SG.Test10.rearVideoRec(Test10.java:118)
+
+Xiaomi_Redmi_Note11_Pro5G_2201116SG.Test10F.SetUp  Time elapsed: 22.869 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Device d57a3ea93209 was not in the list of connected devices
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RPG-USB-APPS-38', ip: '10.65.145.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Device d57a3ea93209 was not in the list of connected devices
+    at getResponseForW3CError (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RPG-USB-APPS-38', ip: '10.65.145.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: AndroidDriver
+	at Xiaomi_Redmi_Note11_Pro5G_2201116SG.Test10F.SetUp(Test10F.java:55)
+Caused by: java.lang.reflect.InvocationTargetException
+	at Xiaomi_Redmi_Note11_Pro5G_2201116SG.Test10F.SetUp(Test10F.java:55)
+Caused by: org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Device d57a3ea93209 was not in the list of connected devices
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RPG-USB-APPS-38', ip: '10.65.145.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Device d57a3ea93209 was not in the list of connected devices
+    at getResponseForW3CError (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+	at Xiaomi_Redmi_Note11_Pro5G_2201116SG.Test10F.SetUp(Test10F.java:55)
+
+Xiaomi_Redmi_Note11_Pro5G_2201116SG.Test9.SetUp  Time elapsed: 0.1 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Device d57a3ea93209 was not in the list of connected devices
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RPG-USB-APPS-38', ip: '10.65.145.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Device d57a3ea93209 was not in the list of connected devices
+    at getResponseForW3CError (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RPG-USB-APPS-38', ip: '10.65.145.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: AndroidDriver
+	at Xiaomi_Redmi_Note11_Pro5G_2201116SG.Test9.SetUp(Test9.java:58)
+Caused by: java.lang.reflect.InvocationTargetException
+	at Xiaomi_Redmi_Note11_Pro5G_2201116SG.Test9.SetUp(Test9.java:58)
+Caused by: org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Device d57a3ea93209 was not in the list of connected devices
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RPG-USB-APPS-38', ip: '10.65.145.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Device d57a3ea93209 was not in the list of connected devices
+    at getResponseForW3CError (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+	at Xiaomi_Redmi_Note11_Pro5G_2201116SG.Test9.SetUp(Test9.java:58)
+
+Xiaomi_Redmi_Note11_Pro5G_2201116SG.Test9F.SetUp  Time elapsed: 0.096 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Device d57a3ea93209 was not in the list of connected devices
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RPG-USB-APPS-38', ip: '10.65.145.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Device d57a3ea93209 was not in the list of connected devices
+    at getResponseForW3CError (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RPG-USB-APPS-38', ip: '10.65.145.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: AndroidDriver
+	at Xiaomi_Redmi_Note11_Pro5G_2201116SG.Test9F.SetUp(Test9F.java:58)
+Caused by: java.lang.reflect.InvocationTargetException
+	at Xiaomi_Redmi_Note11_Pro5G_2201116SG.Test9F.SetUp(Test9F.java:58)
+Caused by: org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Device d57a3ea93209 was not in the list of connected devices
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RPG-USB-APPS-38', ip: '10.65.145.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Device d57a3ea93209 was not in the list of connected devices
+    at getResponseForW3CError (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+	at Xiaomi_Redmi_Note11_Pro5G_2201116SG.Test9F.SetUp(Test9F.java:58)
+

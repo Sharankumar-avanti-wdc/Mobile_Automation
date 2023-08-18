@@ -1,0 +1,1311 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --< Com.Samsung_Galaxy_A33_5G_SMA336EDS.test:Samsung_Galaxy_A33_5G_SMA336EDS >--
+[INFO] Building Samsung_Galaxy_A33_5G_SMA336EDS 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ Samsung_Galaxy_A33_5G_SMA336EDS ---
+[INFO] Deleting C:\Users\sandisk\Android11\Eclipse_Workspace\Samsung_Galaxy_A33_5G_SMA336EDS\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Samsung_Galaxy_A33_5G_SMA336EDS ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ Samsung_Galaxy_A33_5G_SMA336EDS ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ Samsung_Galaxy_A33_5G_SMA336EDS ---
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ Samsung_Galaxy_A33_5G_SMA336EDS ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 8 source files to C:\Users\sandisk\Android11\Eclipse_Workspace\Samsung_Galaxy_A33_5G_SMA336EDS\target\test-classes
+[WARNING] /C:/Users/sandisk/Android11/Eclipse_Workspace/Samsung_Galaxy_A33_5G_SMA336EDS/src/test/java/Samsung_Galaxy_A33_5G_SMA336EDS/Test8.java: Some input files use or override a deprecated API.
+[WARNING] /C:/Users/sandisk/Android11/Eclipse_Workspace/Samsung_Galaxy_A33_5G_SMA336EDS/src/test/java/Samsung_Galaxy_A33_5G_SMA336EDS/Test8.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ Samsung_Galaxy_A33_5G_SMA336EDS ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running TestSuite
+Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+ Test0 Scenario is as follows 
+1.Unlock phone, clear recent apps, clear internal memory
+2.Call Image() and Capture Rear camera 25 images for default resolution in uSD card and Verify the data capture
+3.Call Video() and record Rear camera video of first 2 resloutions for 2 minutes of duration in uSD Card and verify the same
+4.Call Format() and format uSD card with data and verify the same
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Setting up the appium desired capabilities
+Unlock phone if locked
+launch home screen
+Clearing Recent Apps
+Pass: No recent apps found
+Launch file manager application for clearing phone internal memory
+Swipe up
+Select Internal storage
+Click More options
+Click select all
+Click More options
+Select delete permanently option
+Accept allow delete pop-up
+Pass: Clearing phone internal memory is successfull
+===============================================================================================================================================
+Calling Image() for rear Image capture in uSD Card and Verify the Captured images
+Launch Camera Application for Rear picture capture
+If change to uSD card permisssion pop-up exists during camera application launch select cancel option
+change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy A33 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 13, udid: RZCT30ZLPDL}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-A336E, deviceName: RZCT30ZLPDL, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RZCT30ZLPDL, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 65, takesScreenshot: true, udid: RZCT30ZLPDL, viewportRect: {height: 2120, left: 0, top: 65, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 4244f303-fa5f-4f0a-b9e0-cfc0e9d0d179
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+if Location permisson Pop Exists during camera application launch select cancel option Select Cancel Option
+Location access permission pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy A33 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 13, udid: RZCT30ZLPDL}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-A336E, deviceName: RZCT30ZLPDL, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RZCT30ZLPDL, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 65, takesScreenshot: true, udid: RZCT30ZLPDL, viewportRect: {height: 2120, left: 0, top: 65, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 4244f303-fa5f-4f0a-b9e0-cfc0e9d0d179
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+Switch To rear Camera Mode if current Exiting camera is Front camera Mode
+Currently camera is already in rear camera mode no need to switch
+Select settings option
+Search for SD Card option
+Select SD as storage option
+Captures default resolution image 0
+Captures default resolution image 1
+Captures default resolution image 2
+Captures default resolution image 3
+Captures default resolution image 4
+Captures default resolution image 5
+Captures default resolution image 6
+Captures default resolution image 7
+Captures default resolution image 8
+Captures default resolution image 9
+Captures default resolution image 10
+Captures default resolution image 11
+Captures default resolution image 12
+Captures default resolution image 13
+Captures default resolution image 14
+Captures default resolution image 15
+Captures default resolution image 16
+Captures default resolution image 17
+Captures default resolution image 18
+Captures default resolution image 19
+Captures default resolution image 20
+Captures default resolution image 21
+Captures default resolution image 22
+Captures default resolution image 23
+Captures default resolution image 24
+Pass:Total Number Of Image captured 25 is successfull
+Launch file manager application and verify image capture in uSD card
+Select SD card
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+Select camera folder
+switch to list view mode to select DCIM folder
+Click More options
+Click select all
+Pass:Total Number Of Image captured 25 in uSD card is successfull
+===============================================================================================================================================
+Calling video() for rear video recording in uSD card and verifying data capture.
+Clear recent apps
+Launch Camera Application for rear camera video recording
+If Change to SD Card notification pop-up exists during camear application launch select Cancel Option
+change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy A33 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 13, udid: RZCT30ZLPDL}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-A336E, deviceName: RZCT30ZLPDL, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RZCT30ZLPDL, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 65, takesScreenshot: true, udid: RZCT30ZLPDL, viewportRect: {height: 2120, left: 0, top: 65, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 4244f303-fa5f-4f0a-b9e0-cfc0e9d0d179
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+If Location Permission Request Pop Exists select  Cancel Option
+Location access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy A33 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 13, udid: RZCT30ZLPDL}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-A336E, deviceName: RZCT30ZLPDL, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RZCT30ZLPDL, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 65, takesScreenshot: true, udid: RZCT30ZLPDL, viewportRect: {height: 2120, left: 0, top: 65, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 4244f303-fa5f-4f0a-b9e0-cfc0e9d0d179
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+Switch To rear Camera mode if current Exiting camera is Front camera
+Curent camera existing camera mode is rear camera mode no need switch camera
+Switch to video mode
+Select settings option
+Click on settings option
+Search for SD Card option
+Select SD as storage option
+select rear video size option
+Select 1st Back Video Resolution:BACK_CAMCORDER_RESOLUTION_FHD_30
+Start video recording
+Stop video recording
+select rear video size option
+Start video recording
+Stop video recording
+Pass: Rear camera video recording is successfull
+Launch file manager application and verify video capture in uSD card
+Swipe up
+Select SD card
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+Select camera folder
+switch to list view mode to select DCIM folder
+Click More options
+Click select all
+Pass: 2 Videos recorded Successfully
+Pass: A total of 27 files present in uSD card before Format
+===============================================================================================================================================
+calling Format() for format with data scenario
+Launch Settings application for Format uSD card with Data 
+Scroll up and select Battery and device care option
+Select battery and device care
+Select storage
+Select Format option
+Started formatting, waiting till it gets formatted
+Format uSD is successfull
+Pass: Format uSD with Data is successfull
+Launch file manager application and Verify data format
+Select SD card
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+switch to list view mode to select DCIM folder
+Pass:Images and videos are not present in the DCIM folder, CARD format is successfully completed 
+Final Message: Pass Test0 pass for format uSd card with data scenario Operation
+Test:End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test3 Scenario is as follows
+1.Unmount,mount, Format uSD card for specified number of times and verify data format 
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch Homescreen and clear recent apps
+Clear recent apps is successfull
+Number of Unmount,mount and Format cycles = 1
+Launch  setting application to format uSD card
+Scroll up and select Battery and device care option
+Select battery and device care
+Select storag
+Select more options
+Select Unmount option
+Select mount option
+Select more options
+Select Format option
+Unmount, mount and Format uSD card cycle:01 completed succesfully
+Pass: Test3 Pass for MOunt,unmount and Formating the uSD Card
+Launch file manager application and verify data format
+Select SD card
+switch to gird view mode
+Check for camera folder. If present print check for video and image files if video and images file present print fail message
+Pass: Images and videos are not present in the DCIM folder, CARD format is successfully completed 
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Final Message: Pass Test3 Pass for Unmount,Mount and Formattig uSD Card
+Test:End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test18 Scenario is as follows
+1.Pushing 1GB zip File to Host Internal Memory via server folder named as Test1 
+2.Extracting zip file in Host internal memory
+3.Copy Paste 1GB file (Test1) from host internal memory to uSD Card, Create a folder named Test2 in uSD Card, Copy paste 1GB Folder(Test1) From internal to external inside folder Test2 and Vice versa
+4.Create folder name(New_Scenario in External memory, select folder name(Test2) from internal memory and perform cut paste operation from internla to external memory
+Setting up the appium desired capabilities
+Launch Home Screen application and clear recent apps
+Pushing zip file to host internal memory
+Push file is successfull
+Pushing 1GB zip File to Host internal storage via appium server is successfull
+Launching file manager application to extract zip and perform copy paste, cut paste operation from internal memory to external memory
+Select Internal storage
+Select Test1 Folder internal storage
+Select  zip file
+Select Extract option
+Extracting Push zip file as Folder named Test1
+Extracting Complete
+Select Test1 folder from internal storage
+Select More Options
+Select Copy to
+Select uSD Card
+Select Copy here
+Copy paste Test1 folder from Internal to external storage is successfull
+Select More Options
+Select create folder option
+Name folder as Test2
+Test2 folder created successfully in external storage
+Select Test1 Folder from external storage
+Select More Options
+Select Copy to
+Select uSD Card
+Select Test2 Folder
+Select Copy here
+Copy paste Test1 folder data to Test2 folder within external storage is successfull
+Select More Options
+Select create folder option
+Name folder as New_Scenario
+Select Test2 Folder from External Storage
+Select More Options
+Select Copy to
+Select internal storage
+Select Copy here
+Pass: Test18 Pass copy paste operation from Internal to external and Vice-versa scenario
+Select Test2 Folder from internal Storage
+Select More Options
+Select Move to
+Select uSD Card
+Select New_scenario folder
+Select Move here
+Cut paste Operation Completed Successfully
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Final message: Pass Test18 pass for copy paste & cut paste operation
+Test:End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test8 scenario is as follows
+1.Launch mobile default voice recording application and set uSD card storage option, record audio file for 2 minutes duration
+2.Launch file manager application and playback recorded audio file from external storage, fast forward audio file and pause
+3.Launch file manager application and playback copied audio files from external storage the files are placed in the Test1 folder
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch Home screen application and clear recent apps
+Launch Voice recorder application for Audio recording
+ No Launch permission Pop-up  found
+If save to uSD card pop-up exists select Save to SD card option
+Select More options and Set uSD card as storage option
+Select settings option
+Clicking on more options
+Select uSD card
+Start Recording
+Stop Recording
+Stop and Save Recording
+Pass: Test8 pass for recording an audio file
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Calling PlayRecordedAudio() for Audio play back and fast forward scenario
+Launch home screen
+Clearing recent apps
+Launch File Manager Application and verfify recorded audio file in uSD card, and perform audio playback fastforward scenario
+Select external storage
+switch to grid view mode to select Test1 folder
+Select Music Folder
+switch to list view mode
+Select Voice recorder
+Recorded audio file present in uSD card succesfully
+Click Audio file for playback and fast forward
+Playing audio playback
+Fast Forwarding audio playback for 10 sceonds duration
+Continue audio playback
+Pause Audio playback
+Pass: Test8 Pass for playing, fast forward, and pause recorded audio file scenario
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Calling PlayCopiedAudioFile() for copied audio files from Test1 folder
+Launch home screen and clear recent apps
+Launch File Manager Application and select SD card
+Select external storage
+switch to grid view mode to select Test1 folder
+Select Test1 folder from external storage
+Select test_file folder
+Select 1GB folder
+switch back to list  view mode
+Select MP3 files folder from uSD card
+Select First audio file for playback
+Playing audio playback
+Fast forwarding audio for 30 seconds
+Continue audio playback
+Pause audio playback
+Pass: First Audio Playback is Successfull 
+Select second audio file for playback
+Playing audio playback
+Fast forwarding audio for 30 seconds
+Fail: Test8 Fail for Copied audio file playback,fast forward scenario
+Final message: Fail Test8 Fail for copied audio file playback,fast forwward scenario
+Select third audio file for playback
+Fail: Test8 Fail for Copied audio file playback,fast forward scenario
+Final message: Fail Test8 Fail for copied audio file playback,fast forwward scenario
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Pass: Test8 Pass for Recorded and copied audio play back and fast forward scenario 
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Final Message: Pass Test8 Pass for playing recorded audio playback and  copied audio playback and fast forward scenario
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test10 Scenario is as follows
+1.Launch Camera application and start rear camera video recording for all host applicable resolutions in uSD Card and verify recorded data
+2.Playback Highest resolution recorded video from uSD Card, fast forward playback and pause video playback scenario 
+3.Playback copied videos from Test1 folder, fast forward and pause video playback scenario
+4.Move rear camera recorded videos from camera folder to Test10 folder
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch home screen
+Clearing Recent Apps
+Launch Camera Application for rear camera video recording
+Test10_Bcam_res: 1 resolutions supported
+If change to uSD card pop-up exists select cancel
+change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy A33 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 13, udid: RZCT30ZLPDL}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-A336E, deviceName: RZCT30ZLPDL, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RZCT30ZLPDL, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 65, takesScreenshot: true, udid: RZCT30ZLPDL, viewportRect: {height: 2120, left: 0, top: 65, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 53083ba9-3977-483b-aaee-2a11dca0a54e
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+If Location access Permission Request Pop Exists Click on Cancel. 
+Location access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy A33 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 13, udid: RZCT30ZLPDL}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-A336E, deviceName: RZCT30ZLPDL, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RZCT30ZLPDL, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 65, takesScreenshot: true, udid: RZCT30ZLPDL, viewportRect: {height: 2120, left: 0, top: 65, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 53083ba9-3977-483b-aaee-2a11dca0a54e
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+Switch to rear Camera mode if current Exiting camera is Front camera mode
+Current camera mode is rear camera mode no need switch
+Switch to video mode
+Click On Settings and set uSD card as storage option
+Swipe Up and select storage location option
+Select SD as storage option
+Select Rear video size
+Host unable to select video resolutions during automation. !Hence recording only default video resolution
+recordingDurationRear = 580 Seconds
+Start video recording
+Stop video recording
+launch file manager application and verify data
+Swipe up to select uSD card
+Select SD card
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Test10_Bcam_video: 1 video captured successfully
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Calling RecordedVideoPlayback() for Playing Highest record video, fast forward video play back scenario
+Launch Home screen and clear recent apps
+Launch file manager application for rear camera video play back
+Swipe up and select uSD card
+Select External storage
+switch to gird view mode
+Swipe up and select DCIM folder
+Select DCIM folder
+Select Camera folder
+switch to list view mode
+select more options
+Select Sort BY
+Select Largest first
+Playing higest resolution recorded video file from external storage
+Started video playback
+Tap Somewhere on Screen for contents to visible on Screen
+Fast forward video for 10 seconds
+Continue video playback
+Pause video playback
+Pass: Recorded Video play back and fast forward successfull
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Calling DataMovementOperation() to move recorded rear camer videos to Test10 Folder 
+Re-launch file manager application and select external storage for data move operation, select all rear camera videos present in camera folder and move to Test10 folder
+Select external storage
+switch to grid view mode and select DCIM folder
+Select DCIM folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Click More options
+select move to option
+select uSD Card
+Select ADD NEW Folder option
+Name folder as Test10
+Accept create folder
+Cut paste  video files operation completed successfully
+Test10: Data move operation completed successfully
+Pass: Test10 Pass for data move operation successfully
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Calling copiedvideosPlayBack() for playing copied video file from Test1 folder
+launch  Home screen and clear recent apps
+Launch file manager application, select uSD card, select Test1 folder, select Videos folder and Play copied videos and fast forward the same 
+Select external storage
+switch to gird view mode
+Select Test1 folder from external storage
+Select Test1 folder
+Select OneGB folder
+Select video folder
+switch to list view mode
+Select LG_4K_DEMO_HDR_2018_(60FPS)_ELBA(480p).mp4 file for video playback
+Started video playback
+Tap Somewhere on Screen for contents to visible on Screen
+Click fast forward button for 10 seconds video forward
+Continue video playback
+Pause video playback
+Pass: 4K Video play back and fast forward is successful 
+Select FHD 5.1 ( 1350 X 2560 ).webm file for video playback
+Started video playback
+Started video playback
+Tap Somewhere on Screen for contents to visible on Screen
+Click fast forward button for 10 seconds video forward
+Continue video playback
+Pause video playback
+Pass: FHD Video play back and fast forward is successful 
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Final message: Pass Test10 Pass for Playing Copied Video files, recorded video file and fast forward video play back scenario and Data move operation
+Test:End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test:Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test10F Scenario is as follows
+1.Launch Camera application and start front camera video recording for all host applicable resolutions in uSD Card
+2.Playback front Highest recorded video from uSD card for 30 seconds, pause video playback, lock mobile and wait 30 seconds, unlock mobile and playback video from pause video duration
+3.Move front camera recorded videos from Camera folder to Test10F folder
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch Home screen and clear recent AppsClearing Recent Apps
+Launch Camera Application for rear camera video recording
+Test10F_Fcam_res: 1 resolutions supported
+If change to uSD card pop-up exists select Cancel
+change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy A33 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 13, udid: RZCT30ZLPDL}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-A336E, deviceName: RZCT30ZLPDL, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RZCT30ZLPDL, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 65, takesScreenshot: true, udid: RZCT30ZLPDL, viewportRect: {height: 2120, left: 0, top: 65, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: d3d11cb5-8072-4a30-87c8-e6a7490cf581
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+If Location access Permission Request Pop Exists Click on Cancel. 
+Switch To front Camera mode if current Exiting camera is rear camera mode
+Switch to video mode
+Select settings option
+Swipe up and Select Storage location
+Select uSD card as Storage option
+Click on front video size and select resolution
+Host does not support front camera video resolution during automation. !Hence recording only default front video resolution.
+recordingDurationfront = 580 Seconds
+Start front video recodring
+Stop Recording
+Pass: Test10F pass for front camera video recording
+Launch file manager application and verify recorded video capture uSD Card
+Swipe up to select uSD card
+Select SD card
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Test10F_Fcam_video: 1 videos captured successfully
+Pass: Test10F pass for front camera video recording
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Calling VideoPlayBackForSleepWake()
+Launch File Manager application and playback front recorded video from USD for 30 seconds, pause video playback, locking phone and unlock after 30 seconds delay and playback video from pause duration.
+Launching file manager application
+Swipe up to select uSD card
+Select SD card
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+Select Camera folder
+switch to list view mode
+Select more options
+Select Sort by Newest date first
+Click on first file to play highest recorded resolution video file
+Tap Somewhere on Screen for contents to visible on Screen
+Click pause video button
+Lock Mobile with 30 seconds delay
+Unlock Mobile
+PlayBack Video from Pause duartion
+Tap Somewhere on Screen for contents to visible on Screen
+Fast forward video play back for 10 seconds
+Pause video play back
+Pass: Pass Test10F Pass for Pause Video Playback scenario
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+calling DatamoveOperation() to move front camera recorded videos files to Test10F folder
+Re-launch file manager application and select external storage for data move operation, select all rear camera videos present in camera folder and move to Test10 folder
+Select external storage
+switch to grid view mode and select DCIM folder
+Select DCIM folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Click More options
+select move to option
+select uSD Card
+Select ADD NEW Folder option
+Name folder as Test10F
+Accept create folder
+Cut paste  video files operation completed successfully
+Test10F: Data move operation completed successfully
+Pass: Test10F Pass for data move operation successfully
+Final message: Pass Test10F Pass for front camera  video recording, Pause Video Playback scenario and data move operation scenario
+Test:End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test9 Scenario is follows:
+1.Launch camera application, set uSD as a Storage option, start rear camera Image capture for all host resolutions
+2.Move rear camera  captured image files from camera folder to Test9 folder
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch Home Screen and Clear recent
+Launch Home screen and clear recent apps
+Launch Camera application for rear Picture capture for all host resolution
+Test9_Bcam_res: 1 resolutions supported
+If change to uSD card pop-up exists select Cancel
+change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy A33 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 13, udid: RZCT30ZLPDL}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-A336E, deviceName: RZCT30ZLPDL, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RZCT30ZLPDL, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 65, takesScreenshot: true, udid: RZCT30ZLPDL, viewportRect: {height: 2120, left: 0, top: 65, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 2844b4dc-3087-4757-9752-f8b3e534e638
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+If Location access Permission Request Pop Exists Click on Cancel. 
+If Location access Permission Request Pop Exists Click on Cancel. 
+Location access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy A33 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 13, udid: RZCT30ZLPDL}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-A336E, deviceName: RZCT30ZLPDL, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RZCT30ZLPDL, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 65, takesScreenshot: true, udid: RZCT30ZLPDL, viewportRect: {height: 2120, left: 0, top: 65, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 2844b4dc-3087-4757-9752-f8b3e534e638
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+Switch To Rear Camera mode if current Exiting camera is Front camera mode
+Click Settings option
+Search for Storage location
+Select SD as storage option
+Select Rear Image Size
+Host unable to select Rear camera image resolutions during automation. !Hence captureing images with default resolution.
+totalPictureCountRear = 300
+clicking First   Resolution Image0
+clicking First   Resolution Image1
+clicking First   Resolution Image2
+clicking First   Resolution Image3
+clicking First   Resolution Image4
+clicking First   Resolution Image5
+clicking First   Resolution Image6
+clicking First   Resolution Image7
+clicking First   Resolution Image8
+clicking First   Resolution Image9
+clicking First   Resolution Image10
+clicking First   Resolution Image11
+clicking First   Resolution Image12
+clicking First   Resolution Image13
+clicking First   Resolution Image14
+clicking First   Resolution Image15
+clicking First   Resolution Image16
+clicking First   Resolution Image17
+clicking First   Resolution Image18
+clicking First   Resolution Image19
+clicking First   Resolution Image20
+clicking First   Resolution Image21
+clicking First   Resolution Image22
+clicking First   Resolution Image23
+clicking First   Resolution Image24
+clicking First   Resolution Image25
+clicking First   Resolution Image26
+clicking First   Resolution Image27
+clicking First   Resolution Image28
+clicking First   Resolution Image29
+clicking First   Resolution Image30
+clicking First   Resolution Image31
+clicking First   Resolution Image32
+clicking First   Resolution Image33
+clicking First   Resolution Image34
+clicking First   Resolution Image35
+clicking First   Resolution Image36
+clicking First   Resolution Image37
+clicking First   Resolution Image38
+clicking First   Resolution Image39
+clicking First   Resolution Image40
+clicking First   Resolution Image41
+clicking First   Resolution Image42
+clicking First   Resolution Image43
+clicking First   Resolution Image44
+clicking First   Resolution Image45
+clicking First   Resolution Image46
+clicking First   Resolution Image47
+clicking First   Resolution Image48
+clicking First   Resolution Image49
+clicking First   Resolution Image50
+clicking First   Resolution Image51
+clicking First   Resolution Image52
+clicking First   Resolution Image53
+clicking First   Resolution Image54
+clicking First   Resolution Image55
+clicking First   Resolution Image56
+clicking First   Resolution Image57
+clicking First   Resolution Image58
+clicking First   Resolution Image59
+clicking First   Resolution Image60
+clicking First   Resolution Image61
+clicking First   Resolution Image62
+clicking First   Resolution Image63
+clicking First   Resolution Image64
+clicking First   Resolution Image65
+clicking First   Resolution Image66
+clicking First   Resolution Image67
+clicking First   Resolution Image68
+clicking First   Resolution Image69
+clicking First   Resolution Image70
+clicking First   Resolution Image71
+clicking First   Resolution Image72
+clicking First   Resolution Image73
+clicking First   Resolution Image74
+clicking First   Resolution Image75
+clicking First   Resolution Image76
+clicking First   Resolution Image77
+clicking First   Resolution Image78
+clicking First   Resolution Image79
+clicking First   Resolution Image80
+clicking First   Resolution Image81
+clicking First   Resolution Image82
+clicking First   Resolution Image83
+clicking First   Resolution Image84
+clicking First   Resolution Image85
+clicking First   Resolution Image86
+clicking First   Resolution Image87
+clicking First   Resolution Image88
+clicking First   Resolution Image89
+clicking First   Resolution Image90
+clicking First   Resolution Image91
+clicking First   Resolution Image92
+clicking First   Resolution Image93
+clicking First   Resolution Image94
+clicking First   Resolution Image95
+clicking First   Resolution Image96
+clicking First   Resolution Image97
+clicking First   Resolution Image98
+clicking First   Resolution Image99
+clicking First   Resolution Image100
+clicking First   Resolution Image101
+clicking First   Resolution Image102
+clicking First   Resolution Image103
+clicking First   Resolution Image104
+clicking First   Resolution Image105
+clicking First   Resolution Image106
+clicking First   Resolution Image107
+clicking First   Resolution Image108
+clicking First   Resolution Image109
+clicking First   Resolution Image110
+clicking First   Resolution Image111
+clicking First   Resolution Image112
+clicking First   Resolution Image113
+clicking First   Resolution Image114
+clicking First   Resolution Image115
+clicking First   Resolution Image116
+clicking First   Resolution Image117
+clicking First   Resolution Image118
+clicking First   Resolution Image119
+clicking First   Resolution Image120
+clicking First   Resolution Image121
+clicking First   Resolution Image122
+clicking First   Resolution Image123
+clicking First   Resolution Image124
+clicking First   Resolution Image125
+clicking First   Resolution Image126
+clicking First   Resolution Image127
+clicking First   Resolution Image128
+clicking First   Resolution Image129
+clicking First   Resolution Image130
+clicking First   Resolution Image131
+clicking First   Resolution Image132
+clicking First   Resolution Image133
+clicking First   Resolution Image134
+clicking First   Resolution Image135
+clicking First   Resolution Image136
+clicking First   Resolution Image137
+clicking First   Resolution Image138
+clicking First   Resolution Image139
+clicking First   Resolution Image140
+clicking First   Resolution Image141
+clicking First   Resolution Image142
+clicking First   Resolution Image143
+clicking First   Resolution Image144
+clicking First   Resolution Image145
+clicking First   Resolution Image146
+clicking First   Resolution Image147
+clicking First   Resolution Image148
+clicking First   Resolution Image149
+clicking First   Resolution Image150
+clicking First   Resolution Image151
+clicking First   Resolution Image152
+clicking First   Resolution Image153
+clicking First   Resolution Image154
+clicking First   Resolution Image155
+clicking First   Resolution Image156
+clicking First   Resolution Image157
+clicking First   Resolution Image158
+clicking First   Resolution Image159
+clicking First   Resolution Image160
+clicking First   Resolution Image161
+clicking First   Resolution Image162
+clicking First   Resolution Image163
+clicking First   Resolution Image164
+clicking First   Resolution Image165
+clicking First   Resolution Image166
+clicking First   Resolution Image167
+clicking First   Resolution Image168
+clicking First   Resolution Image169
+clicking First   Resolution Image170
+clicking First   Resolution Image171
+clicking First   Resolution Image172
+clicking First   Resolution Image173
+clicking First   Resolution Image174
+clicking First   Resolution Image175
+clicking First   Resolution Image176
+clicking First   Resolution Image177
+clicking First   Resolution Image178
+clicking First   Resolution Image179
+clicking First   Resolution Image180
+clicking First   Resolution Image181
+clicking First   Resolution Image182
+clicking First   Resolution Image183
+clicking First   Resolution Image184
+clicking First   Resolution Image185
+clicking First   Resolution Image186
+clicking First   Resolution Image187
+clicking First   Resolution Image188
+clicking First   Resolution Image189
+clicking First   Resolution Image190
+clicking First   Resolution Image191
+clicking First   Resolution Image192
+clicking First   Resolution Image193
+clicking First   Resolution Image194
+clicking First   Resolution Image195
+clicking First   Resolution Image196
+clicking First   Resolution Image197
+clicking First   Resolution Image198
+clicking First   Resolution Image199
+clicking First   Resolution Image200
+clicking First   Resolution Image201
+clicking First   Resolution Image202
+clicking First   Resolution Image203
+clicking First   Resolution Image204
+clicking First   Resolution Image205
+clicking First   Resolution Image206
+clicking First   Resolution Image207
+clicking First   Resolution Image208
+clicking First   Resolution Image209
+clicking First   Resolution Image210
+clicking First   Resolution Image211
+clicking First   Resolution Image212
+clicking First   Resolution Image213
+clicking First   Resolution Image214
+clicking First   Resolution Image215
+clicking First   Resolution Image216
+clicking First   Resolution Image217
+clicking First   Resolution Image218
+clicking First   Resolution Image219
+clicking First   Resolution Image220
+clicking First   Resolution Image221
+clicking First   Resolution Image222
+clicking First   Resolution Image223
+clicking First   Resolution Image224
+clicking First   Resolution Image225
+clicking First   Resolution Image226
+clicking First   Resolution Image227
+clicking First   Resolution Image228
+clicking First   Resolution Image229
+clicking First   Resolution Image230
+clicking First   Resolution Image231
+clicking First   Resolution Image232
+clicking First   Resolution Image233
+clicking First   Resolution Image234
+clicking First   Resolution Image235
+clicking First   Resolution Image236
+clicking First   Resolution Image237
+clicking First   Resolution Image238
+clicking First   Resolution Image239
+clicking First   Resolution Image240
+clicking First   Resolution Image241
+clicking First   Resolution Image242
+clicking First   Resolution Image243
+clicking First   Resolution Image244
+clicking First   Resolution Image245
+clicking First   Resolution Image246
+clicking First   Resolution Image247
+clicking First   Resolution Image248
+clicking First   Resolution Image249
+clicking First   Resolution Image250
+clicking First   Resolution Image251
+clicking First   Resolution Image252
+clicking First   Resolution Image253
+clicking First   Resolution Image254
+clicking First   Resolution Image255
+clicking First   Resolution Image256
+clicking First   Resolution Image257
+clicking First   Resolution Image258
+clicking First   Resolution Image259
+clicking First   Resolution Image260
+clicking First   Resolution Image261
+clicking First   Resolution Image262
+clicking First   Resolution Image263
+clicking First   Resolution Image264
+clicking First   Resolution Image265
+clicking First   Resolution Image266
+clicking First   Resolution Image267
+clicking First   Resolution Image268
+clicking First   Resolution Image269
+clicking First   Resolution Image270
+clicking First   Resolution Image271
+clicking First   Resolution Image272
+clicking First   Resolution Image273
+clicking First   Resolution Image274
+clicking First   Resolution Image275
+clicking First   Resolution Image276
+clicking First   Resolution Image277
+clicking First   Resolution Image278
+clicking First   Resolution Image279
+clicking First   Resolution Image280
+clicking First   Resolution Image281
+clicking First   Resolution Image282
+clicking First   Resolution Image283
+clicking First   Resolution Image284
+clicking First   Resolution Image285
+clicking First   Resolution Image286
+clicking First   Resolution Image287
+clicking First   Resolution Image288
+clicking First   Resolution Image289
+clicking First   Resolution Image290
+clicking First   Resolution Image291
+clicking First   Resolution Image292
+clicking First   Resolution Image293
+clicking First   Resolution Image294
+clicking First   Resolution Image295
+clicking First   Resolution Image296
+clicking First   Resolution Image297
+clicking First   Resolution Image298
+clicking First   Resolution Image299
+Rear camera first resolution:300 images Captured succesfull
+Total Count value:300 images to be Captured 
+Launch file manager application and verify captured rear camera images present  in uSD Card
+Swipe up to select uSD card
+Select SD card
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Total: 300 selected images Captured succesfull
+Actual Value:300 selected
+Interger value:300
+Tolerance_Level = 75
+
+Pass: Test9 pass for rear Image capture
+Test9_Bcam_image: 300  images Captured succesfull
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+calling DataMoveOperation()
+Re-launch file manager application and select external storage for data move operation, select all rear camera images files present in camera folder and move to Test9 folder
+Select external storage
+switch to grid view mode and select DCIM folder
+Select DCIM folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Click More options
+select move to option
+select uSD Card
+Select ADD NEW Folder option
+Name folder as Test9
+Accept create folder
+Cut paste  video files operation completed successfully
+Test9: Data move operation completed successfully
+Pass: Test9 Pass for data move operation successfully
+Final message: Pass Test9 Pass for rear Camera image capture
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test9F Scenario is as follows:
+1.Launch camera application, set uSD as a Storage option, start Front camera image picture capture for all Host front resolutions
+2.Move captured front images from camera folder to Test9F folder
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch Home screen and clear recent apps
+Launch Camera Application for Front camera picture Capture for all Host resolutions
+Test9F_Fcam_res: 1 resolutions supported
+If change to uSD card pop-up exists select Cancel
+change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy A33 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 13, udid: RZCT30ZLPDL}, deviceApiLevel: 33, deviceManufacturer: samsung, deviceModel: SM-A336E, deviceName: RZCT30ZLPDL, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RZCT30ZLPDL, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 65, takesScreenshot: true, udid: RZCT30ZLPDL, viewportRect: {height: 2120, left: 0, top: 65, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: b3f826a6-e769-4dcb-95e5-5ff34397a48d
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+If Location access Permission Request Pop Exists Click on Cancel. 
+Switch To front Camera if current Exiting camera is in Back camera mode
+Click Settings option
+Swipe up and select storage location option
+Select SD as storage option
+Select Front Image size
+Host unable to select Rear camera image resolutions during automation. !Hence captureing images with default resolution.
+totalPictureCountFront = 300
+clicking First resolution Image0
+clicking First resolution Image1
+clicking First resolution Image2
+clicking First resolution Image3
+clicking First resolution Image4
+clicking First resolution Image5
+clicking First resolution Image6
+clicking First resolution Image7
+clicking First resolution Image8
+clicking First resolution Image9
+clicking First resolution Image10
+clicking First resolution Image11
+clicking First resolution Image12
+clicking First resolution Image13
+clicking First resolution Image14
+clicking First resolution Image15
+clicking First resolution Image16
+clicking First resolution Image17
+clicking First resolution Image18
+clicking First resolution Image19
+clicking First resolution Image20
+clicking First resolution Image21
+clicking First resolution Image22
+clicking First resolution Image23
+clicking First resolution Image24
+clicking First resolution Image25
+clicking First resolution Image26
+clicking First resolution Image27
+clicking First resolution Image28
+clicking First resolution Image29
+clicking First resolution Image30
+clicking First resolution Image31
+clicking First resolution Image32
+clicking First resolution Image33
+clicking First resolution Image34
+clicking First resolution Image35
+clicking First resolution Image36
+clicking First resolution Image37
+clicking First resolution Image38
+clicking First resolution Image39
+clicking First resolution Image40
+clicking First resolution Image41
+clicking First resolution Image42
+clicking First resolution Image43
+clicking First resolution Image44
+clicking First resolution Image45
+clicking First resolution Image46
+clicking First resolution Image47
+clicking First resolution Image48
+clicking First resolution Image49
+clicking First resolution Image50
+clicking First resolution Image51
+clicking First resolution Image52
+clicking First resolution Image53
+clicking First resolution Image54
+clicking First resolution Image55
+clicking First resolution Image56
+clicking First resolution Image57
+clicking First resolution Image58
+clicking First resolution Image59
+clicking First resolution Image60
+clicking First resolution Image61
+clicking First resolution Image62
+clicking First resolution Image63
+clicking First resolution Image64
+clicking First resolution Image65
+clicking First resolution Image66
+clicking First resolution Image67
+clicking First resolution Image68
+clicking First resolution Image69
+clicking First resolution Image70
+clicking First resolution Image71
+clicking First resolution Image72
+clicking First resolution Image73
+clicking First resolution Image74
+clicking First resolution Image75
+clicking First resolution Image76
+clicking First resolution Image77
+clicking First resolution Image78
+clicking First resolution Image79
+clicking First resolution Image80
+clicking First resolution Image81
+clicking First resolution Image82
+clicking First resolution Image83
+clicking First resolution Image84
+clicking First resolution Image85
+clicking First resolution Image86
+clicking First resolution Image87
+clicking First resolution Image88
+clicking First resolution Image89
+clicking First resolution Image90
+clicking First resolution Image91
+clicking First resolution Image92
+clicking First resolution Image93
+clicking First resolution Image94
+clicking First resolution Image95
+clicking First resolution Image96
+clicking First resolution Image97
+clicking First resolution Image98
+clicking First resolution Image99
+clicking First resolution Image100
+clicking First resolution Image101
+clicking First resolution Image102
+clicking First resolution Image103
+clicking First resolution Image104
+clicking First resolution Image105
+clicking First resolution Image106
+clicking First resolution Image107
+clicking First resolution Image108
+clicking First resolution Image109
+clicking First resolution Image110
+clicking First resolution Image111
+clicking First resolution Image112
+clicking First resolution Image113
+clicking First resolution Image114
+clicking First resolution Image115
+clicking First resolution Image116
+clicking First resolution Image117
+clicking First resolution Image118
+clicking First resolution Image119
+clicking First resolution Image120
+clicking First resolution Image121
+clicking First resolution Image122
+clicking First resolution Image123
+clicking First resolution Image124
+clicking First resolution Image125
+clicking First resolution Image126
+clicking First resolution Image127
+clicking First resolution Image128
+clicking First resolution Image129
+clicking First resolution Image130
+clicking First resolution Image131
+clicking First resolution Image132
+clicking First resolution Image133
+clicking First resolution Image134
+clicking First resolution Image135
+clicking First resolution Image136
+clicking First resolution Image137
+clicking First resolution Image138
+clicking First resolution Image139
+clicking First resolution Image140
+clicking First resolution Image141
+clicking First resolution Image142
+clicking First resolution Image143
+clicking First resolution Image144
+clicking First resolution Image145
+clicking First resolution Image146
+clicking First resolution Image147
+clicking First resolution Image148
+clicking First resolution Image149
+clicking First resolution Image150
+clicking First resolution Image151
+clicking First resolution Image152
+clicking First resolution Image153
+clicking First resolution Image154
+clicking First resolution Image155
+clicking First resolution Image156
+clicking First resolution Image157
+clicking First resolution Image158
+clicking First resolution Image159
+clicking First resolution Image160
+clicking First resolution Image161
+clicking First resolution Image162
+clicking First resolution Image163
+clicking First resolution Image164
+clicking First resolution Image165
+clicking First resolution Image166
+clicking First resolution Image167
+clicking First resolution Image168
+clicking First resolution Image169
+clicking First resolution Image170
+clicking First resolution Image171
+clicking First resolution Image172
+clicking First resolution Image173
+clicking First resolution Image174
+clicking First resolution Image175
+clicking First resolution Image176
+clicking First resolution Image177
+clicking First resolution Image178
+clicking First resolution Image179
+clicking First resolution Image180
+clicking First resolution Image181
+clicking First resolution Image182
+clicking First resolution Image183
+clicking First resolution Image184
+clicking First resolution Image185
+clicking First resolution Image186
+clicking First resolution Image187
+clicking First resolution Image188
+clicking First resolution Image189
+clicking First resolution Image190
+clicking First resolution Image191
+clicking First resolution Image192
+clicking First resolution Image193
+clicking First resolution Image194
+clicking First resolution Image195
+clicking First resolution Image196
+clicking First resolution Image197
+clicking First resolution Image198
+clicking First resolution Image199
+clicking First resolution Image200
+clicking First resolution Image201
+clicking First resolution Image202
+clicking First resolution Image203
+clicking First resolution Image204
+clicking First resolution Image205
+clicking First resolution Image206
+clicking First resolution Image207
+clicking First resolution Image208
+clicking First resolution Image209
+clicking First resolution Image210
+clicking First resolution Image211
+clicking First resolution Image212
+clicking First resolution Image213
+clicking First resolution Image214
+clicking First resolution Image215
+clicking First resolution Image216
+clicking First resolution Image217
+clicking First resolution Image218
+clicking First resolution Image219
+clicking First resolution Image220
+clicking First resolution Image221
+clicking First resolution Image222
+clicking First resolution Image223
+clicking First resolution Image224
+clicking First resolution Image225
+clicking First resolution Image226
+clicking First resolution Image227
+clicking First resolution Image228
+clicking First resolution Image229
+clicking First resolution Image230
+clicking First resolution Image231
+clicking First resolution Image232
+clicking First resolution Image233
+clicking First resolution Image234
+clicking First resolution Image235
+clicking First resolution Image236
+clicking First resolution Image237
+clicking First resolution Image238
+clicking First resolution Image239
+clicking First resolution Image240
+clicking First resolution Image241
+clicking First resolution Image242
+clicking First resolution Image243
+clicking First resolution Image244
+clicking First resolution Image245
+clicking First resolution Image246
+clicking First resolution Image247
+clicking First resolution Image248
+clicking First resolution Image249
+clicking First resolution Image250
+clicking First resolution Image251
+clicking First resolution Image252
+clicking First resolution Image253
+clicking First resolution Image254
+clicking First resolution Image255
+clicking First resolution Image256
+clicking First resolution Image257
+clicking First resolution Image258
+clicking First resolution Image259
+clicking First resolution Image260
+clicking First resolution Image261
+clicking First resolution Image262
+clicking First resolution Image263
+clicking First resolution Image264
+clicking First resolution Image265
+clicking First resolution Image266
+clicking First resolution Image267
+clicking First resolution Image268
+clicking First resolution Image269
+clicking First resolution Image270
+clicking First resolution Image271
+clicking First resolution Image272
+clicking First resolution Image273
+clicking First resolution Image274
+clicking First resolution Image275
+clicking First resolution Image276
+clicking First resolution Image277
+clicking First resolution Image278
+clicking First resolution Image279
+clicking First resolution Image280
+clicking First resolution Image281
+clicking First resolution Image282
+clicking First resolution Image283
+clicking First resolution Image284
+clicking First resolution Image285
+clicking First resolution Image286
+clicking First resolution Image287
+clicking First resolution Image288
+clicking First resolution Image289
+clicking First resolution Image290
+clicking First resolution Image291
+clicking First resolution Image292
+clicking First resolution Image293
+clicking First resolution Image294
+clicking First resolution Image295
+clicking First resolution Image296
+clicking First resolution Image297
+clicking First resolution Image298
+clicking First resolution Image299
+Total Count value:300 images to be Captured 
+Launch file manager application and verify captured images present in uSD Card
+Swipe up to select uSD card
+Select SD card
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Total Image
+Test9F_Fcam_image: 300 selected images Captured succesfull
+Actual Value:300 selected
+Interger value:300
+Tolerance_Level = 75
+
+Pass: Test9F pass for front Image capture
+Test9F_Fcam_image: 300  images Captured succesfull
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+calling DataMoveOperation()
+Re-launch file manager application and select external storage for data move operation, select all front camera images files present in camera folder and move to Test9F folder
+Select external storage
+switch to grid view mode and select DCIM folder
+Select DCIM folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Click More options
+select move to option
+select uSD Card
+Select ADD NEW Folder option
+Name folder as Test9F
+Accept create folder
+Cut paste   operation completed successfully
+Test9F: Data move operation completed successfully
+Pass: Test9F Pass for data move operation successfully
+Final message: Pass Test9F Pass for front Camera image capture
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9,802.766 s - in TestSuite
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ Samsung_Galaxy_A33_5G_SMA336EDS ---
+[INFO] Building jar: C:\Users\sandisk\Android11\Eclipse_Workspace\Samsung_Galaxy_A33_5G_SMA336EDS\target\Samsung_Galaxy_A33_5G_SMA336EDS-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ Samsung_Galaxy_A33_5G_SMA336EDS ---
+[INFO] Installing C:\Users\sandisk\Android11\Eclipse_Workspace\Samsung_Galaxy_A33_5G_SMA336EDS\target\Samsung_Galaxy_A33_5G_SMA336EDS-0.0.1-SNAPSHOT.jar to C:\Users\sandisk\.m2\repository\Com\Samsung_Galaxy_A33_5G_SMA336EDS\test\Samsung_Galaxy_A33_5G_SMA336EDS\0.0.1-SNAPSHOT\Samsung_Galaxy_A33_5G_SMA336EDS-0.0.1-SNAPSHOT.jar
+[INFO] Installing C:\Users\sandisk\Android11\Eclipse_Workspace\Samsung_Galaxy_A33_5G_SMA336EDS\pom.xml to C:\Users\sandisk\.m2\repository\Com\Samsung_Galaxy_A33_5G_SMA336EDS\test\Samsung_Galaxy_A33_5G_SMA336EDS\0.0.1-SNAPSHOT\Samsung_Galaxy_A33_5G_SMA336EDS-0.0.1-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  02:43 h
+[INFO] Finished at: 2022-12-05T15:47:55+05:30
+[INFO] ------------------------------------------------------------------------

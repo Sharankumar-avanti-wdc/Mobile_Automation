@@ -1,0 +1,134 @@
+2023-02-09 11:07:05 INFO   BlackView_Tab12.Test0 start Test: Start
+2023-02-09 11:07:05 INFO   BlackView_Tab12.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-09 11:07:05 INFO   BlackView_Tab12.Test0 start  Test0 Scenario is as follows 
+2023-02-09 11:07:05 INFO   BlackView_Tab12.Test0 start 1.Unlock phone, clear recent apps, clear internal memory
+2023-02-09 11:07:05 INFO   BlackView_Tab12.Test0 start 2.Call Image() and Capture Rear camera 25 images for default resolution in uSD card and Verify the data capture
+2023-02-09 11:07:05 INFO   BlackView_Tab12.Test0 start 3.Call Video() and record Rear camera video of first 2 resloutions for 2 minutes of duration in uSD Card and verify the same
+2023-02-09 11:07:05 INFO   BlackView_Tab12.Test0 start 4.Call Format() and format uSD card with data and verify the same
+2023-02-09 11:07:05 INFO   BlackView_Tab12.Test0 start Setting up the appium desired capabilities
+2023-02-09 11:07:05 INFO   BlackView_Tab12.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-09 11:07:13 INFO   BlackView_Tab12.Test0 start Launch Home screen
+2023-02-09 11:07:23 INFO   BlackView_Tab12.Test0 start Clearing Recent Apps
+2023-02-09 11:07:34 INFO   BlackView_Tab12.Test0 start Pass: Test0 Pass for clearing Recent apps 
+2023-02-09 11:07:36 INFO   BlackView_Tab12.Test0 start Launch File Manager Application and clear internal memory
+2023-02-09 11:07:42 INFO   BlackView_Tab12.Test0 start Swipe up and select uSD card
+2023-02-09 11:07:42 INFO   BlackView_Tab12.Test0 start Select  Internal storage
+2023-02-09 11:07:48 INFO   BlackView_Tab12.Test0 start Click on more options
+2023-02-09 11:07:51 INFO   BlackView_Tab12.Test0 start Click select all
+2023-02-09 11:07:55 INFO   BlackView_Tab12.Test0 start Click on more options
+2023-02-09 11:07:58 INFO   BlackView_Tab12.Test0 start Select delete option
+2023-02-09 11:08:02 INFO   BlackView_Tab12.Test0 start Accept delete pop-up
+2023-02-09 11:10:02 INFO   BlackView_Tab12.Test0 start Pass: Clearing phone internal memory is successfull
+2023-02-09 11:10:15 INFO   BlackView_Tab12.Test0 start Calling Image() for rear Image capture in uSD Card and Verify the Captured images
+2023-02-09 11:10:15 INFO   BlackView_Tab12.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-09 11:10:15 INFO   BlackView_Tab12.Test0 Images Launch Camera Application for Rear camera picture capture
+2023-02-09 11:10:16 INFO   BlackView_Tab12.Test0 Images IF Change to uSD card notification pop-up exists select Cancel Option
+2023-02-09 11:10:27 INFO   BlackView_Tab12.Test0 Images change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Tab 12, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: TAB12NEU000024483}, deviceApiLevel: 30, deviceManufacturer: Blackview, deviceModel: Tab 12, deviceName: TAB12NEU000024483, deviceScreenDensity: 240, deviceScreenSize: 1200x1920, deviceUDID: TAB12NEU000024483, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 36, takesScreenshot: true, udid: TAB12NEU000024483, viewportRect: {height: 1815, left: 0, top: 36, width: 1200}, warnings: {}, webStorageEnabled: false}
+Session ID: 42aa95da-6c79-417b-afca-146aae8a6f94
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("DENY")}
+2023-02-09 11:10:27 INFO   BlackView_Tab12.Test0 Images Switch to rear Camera Mode if current Exiting camera is Front camera Mode
+2023-02-09 11:10:37 INFO   BlackView_Tab12.Test0 Images Currently camera is already in rear camera mode no need to switch
+2023-02-09 11:10:37 INFO   BlackView_Tab12.Test0 Images Select settings option
+2023-02-09 11:10:42 INFO   BlackView_Tab12.Test0 Images Select Storagepath option
+2023-02-09 11:10:48 INFO   BlackView_Tab12.Test0 Images Select SD as storage option
+2023-02-09 11:10:56 INFO   BlackView_Tab12.Test0 Images Capture Image of Default Resolution
+2023-02-09 11:11:04 INFO   BlackView_Tab12.Test0 Images Captureing default resolition image 0
+2023-02-09 11:11:11 INFO   BlackView_Tab12.Test0 Images Captureing default resolition image 1
+2023-02-09 11:11:18 INFO   BlackView_Tab12.Test0 Images Captureing default resolition image 2
+2023-02-09 11:11:26 INFO   BlackView_Tab12.Test0 Images Captureing default resolition image 3
+2023-02-09 11:11:33 INFO   BlackView_Tab12.Test0 Images Captureing default resolition image 4
+2023-02-09 11:11:40 INFO   BlackView_Tab12.Test0 Images Captureing default resolition image 5
+2023-02-09 11:11:48 INFO   BlackView_Tab12.Test0 Images Captureing default resolition image 6
+2023-02-09 11:11:55 INFO   BlackView_Tab12.Test0 Images Captureing default resolition image 7
+2023-02-09 11:12:03 INFO   BlackView_Tab12.Test0 Images Captureing default resolition image 8
+2023-02-09 11:12:10 INFO   BlackView_Tab12.Test0 Images Captureing default resolition image 9
+2023-02-09 11:12:17 INFO   BlackView_Tab12.Test0 Images Captureing default resolition image 10
+2023-02-09 11:12:24 INFO   BlackView_Tab12.Test0 Images Captureing default resolition image 11
+2023-02-09 11:12:32 INFO   BlackView_Tab12.Test0 Images Captureing default resolition image 12
+2023-02-09 11:12:39 INFO   BlackView_Tab12.Test0 Images Captureing default resolition image 13
+2023-02-09 11:12:46 INFO   BlackView_Tab12.Test0 Images Captureing default resolition image 14
+2023-02-09 11:12:53 INFO   BlackView_Tab12.Test0 Images Captureing default resolition image 15
+2023-02-09 11:13:01 INFO   BlackView_Tab12.Test0 Images Captureing default resolition image 16
+2023-02-09 11:13:09 INFO   BlackView_Tab12.Test0 Images Captureing default resolition image 17
+2023-02-09 11:13:16 INFO   BlackView_Tab12.Test0 Images Captureing default resolition image 18
+2023-02-09 11:13:23 INFO   BlackView_Tab12.Test0 Images Captureing default resolition image 19
+2023-02-09 11:13:30 INFO   BlackView_Tab12.Test0 Images Captureing default resolition image 20
+2023-02-09 11:13:37 INFO   BlackView_Tab12.Test0 Images Captureing default resolition image 21
+2023-02-09 11:13:45 INFO   BlackView_Tab12.Test0 Images Captureing default resolition image 22
+2023-02-09 11:13:52 INFO   BlackView_Tab12.Test0 Images Captureing default resolition image 23
+2023-02-09 11:13:59 INFO   BlackView_Tab12.Test0 Images Captureing default resolition image 24
+2023-02-09 11:14:03 INFO   BlackView_Tab12.Test0 Images 25 image capture is successfull
+2023-02-09 11:14:03 INFO   BlackView_Tab12.Test0 Images Launch File Manager application to verify  Image capture
+2023-02-09 11:14:10 INFO   BlackView_Tab12.Test0 Images Select  SD Card
+2023-02-09 11:14:15 INFO   BlackView_Tab12.Test0 Images Select DCIM Folder
+2023-02-09 11:14:25 INFO   BlackView_Tab12.Test0 Images Select Camera Folder
+2023-02-09 11:14:30 INFO   BlackView_Tab12.Test0 Images Select More Options 
+2023-02-09 11:14:41 INFO   BlackView_Tab12.Test0 Images Click On Select All Options
+2023-02-09 11:14:51 INFO   BlackView_Tab12.Test0 Images Pass:Total Number Of Image captured 25 is successfull
+2023-02-09 11:15:02 INFO   BlackView_Tab12.Test0 Images Calling video() for rear video recording in USD card and verifying data capture.
+2023-02-09 11:15:02 INFO   BlackView_Tab12.Test0 Images ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-09 11:15:02 INFO   BlackView_Tab12.Test0 Video Launch home screen and clear recent apps
+2023-02-09 11:15:17 INFO   BlackView_Tab12.Test0 Video re-launch camera application for rear camera video recording
+2023-02-09 11:15:18 INFO   BlackView_Tab12.Test0 Video IF Change to uSD card notification pop-up exists select Cancel Option
+2023-02-09 11:15:28 INFO   BlackView_Tab12.Test0 Video change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Tab 12, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: TAB12NEU000024483}, deviceApiLevel: 30, deviceManufacturer: Blackview, deviceModel: Tab 12, deviceName: TAB12NEU000024483, deviceScreenDensity: 240, deviceScreenSize: 1200x1920, deviceUDID: TAB12NEU000024483, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 36, takesScreenshot: true, udid: TAB12NEU000024483, viewportRect: {height: 1815, left: 0, top: 36, width: 1200}, warnings: {}, webStorageEnabled: false}
+Session ID: 42aa95da-6c79-417b-afca-146aae8a6f94
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("DON’T ALLOW")}
+2023-02-09 11:15:28 INFO   BlackView_Tab12.Test0 Video Switch to rear Camera Mode if current Exiting camera is Front camera Mode
+2023-02-09 11:15:38 INFO   BlackView_Tab12.Test0 Video Currently camera is already in rear camera mode no need to switch
+2023-02-09 11:15:38 INFO   BlackView_Tab12.Test0 Video Select settings option
+2023-02-09 11:15:43 INFO   BlackView_Tab12.Test0 Video Select Storagepath option
+2023-02-09 11:15:49 INFO   BlackView_Tab12.Test0 Video Select SD as storage option
+2023-02-09 11:15:57 INFO   BlackView_Tab12.Test0 Video Switch to video recording mode
+2023-02-09 11:16:08 INFO   BlackView_Tab12.Test0 Video Select settings option
+2023-02-09 11:16:13 INFO   BlackView_Tab12.Test0 Video Select Video size option
+2023-02-09 11:16:19 INFO   BlackView_Tab12.Test0 Video Select first highest rear camera video resolution: HD 720p
+2023-02-09 11:16:24 INFO   BlackView_Tab12.Test0 Video Start video recording
+2023-02-09 11:18:24 INFO   BlackView_Tab12.Test0 Video Recording Video for 2Minutes of Duration
+2023-02-09 11:18:24 INFO   BlackView_Tab12.Test0 Video Stop video recording
+2023-02-09 11:18:30 INFO   BlackView_Tab12.Test0 Video Select settings option
+2023-02-09 11:18:35 INFO   BlackView_Tab12.Test0 Video Select Video size option
+2023-02-09 11:18:41 INFO   BlackView_Tab12.Test0 Video Select second highest rear camera video resolution: SD 480p
+2023-02-09 11:18:46 INFO   BlackView_Tab12.Test0 Video Start video recording
+2023-02-09 11:20:46 INFO   BlackView_Tab12.Test0 Video Recording Video for 2Minutes of Duration
+2023-02-09 11:20:46 INFO   BlackView_Tab12.Test0 Video Stop video recording
+2023-02-09 11:20:52 INFO   BlackView_Tab12.Test0 Video Switch to back to photo mode
+2023-02-09 11:21:06 INFO   BlackView_Tab12.Test0 Video Rear camera video recording is successfull
+2023-02-09 11:21:06 INFO   BlackView_Tab12.Test0 Video Launch file manager application to verify recorded videos in uSD card
+2023-02-09 11:21:13 INFO   BlackView_Tab12.Test0 Video Select  SD Card
+2023-02-09 11:21:18 INFO   BlackView_Tab12.Test0 Video Select DCIM Folder
+2023-02-09 11:21:28 INFO   BlackView_Tab12.Test0 Video Select Camera Folder
+2023-02-09 11:21:33 INFO   BlackView_Tab12.Test0 Video Select More Options 
+2023-02-09 11:21:44 INFO   BlackView_Tab12.Test0 Video Click On Select All Options
+2023-02-09 11:21:54 INFO   BlackView_Tab12.Test0 Video Pass: 2 Videos recorded Successfully
+2023-02-09 11:21:54 INFO   BlackView_Tab12.Test0 Video Pass: A total of 27 files present in uSD card before Format
+2023-02-09 11:21:59 INFO   BlackView_Tab12.Test0 Video calling Format() for format with data scenario
+2023-02-09 11:21:59 INFO   BlackView_Tab12.Test0 Video ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-09 11:21:59 INFO   BlackView_Tab12.Test0 Format Launch home screen and clear recent apps
+2023-02-09 11:22:09 INFO   BlackView_Tab12.Test0 Format Clearing recent apps
+2023-02-09 11:22:18 INFO   BlackView_Tab12.Test0 Format Launch Settings application for Format uSD card with Data scenario 
+2023-02-09 11:22:19 INFO   BlackView_Tab12.Test0 Format Clicking on storage
+2023-02-09 11:22:25 INFO   BlackView_Tab12.Test0 Format Clicking on SD card
+2023-02-09 11:22:35 INFO   BlackView_Tab12.Test0 Format Clicking on SD card
+2023-02-09 11:22:41 INFO   BlackView_Tab12.Test0 Format Clicking on more options
+2023-02-09 11:22:46 INFO   BlackView_Tab12.Test0 Format Clicking on Storage settings
+2023-02-09 11:22:52 INFO   BlackView_Tab12.Test0 Format Click Format
+2023-02-09 11:22:57 INFO   BlackView_Tab12.Test0 Format Started formatting, waiting till it gets formatted
+2023-02-09 11:24:34 INFO   BlackView_Tab12.Test0 Format Format uSD with Data is successfull
+2023-02-09 11:24:34 INFO   BlackView_Tab12.Test0 Format Launch File Manager application to verify  Image capture
+2023-02-09 11:24:40 INFO   BlackView_Tab12.Test0 Format Select  SD Card
+2023-02-09 11:24:46 INFO   BlackView_Tab12.Test0 Format Select DCIM Folder
+2023-02-09 11:24:56 INFO   BlackView_Tab12.Test0 Format Click On Camera Folder
+2023-02-09 11:25:06 INFO   BlackView_Tab12.Test0 Format Pass: Images and videos are not present in the DCIM folder, CARD format is successfully completed 
+2023-02-09 11:25:06 INFO   BlackView_Tab12.Test0 Format Final Message: Pass Test0 pass for format Operation
+2023-02-09 11:25:06 INFO   BlackView_Tab12.Test0 Format Test: End
+2023-02-09 11:25:06 INFO   BlackView_Tab12.Test0 Format ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

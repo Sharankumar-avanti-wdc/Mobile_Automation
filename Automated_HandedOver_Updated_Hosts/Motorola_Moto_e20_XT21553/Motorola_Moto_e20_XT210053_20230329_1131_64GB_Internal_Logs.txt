@@ -1,0 +1,969 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----< Com.Motorola_Moto_e20_XT21553.test:Motorola_Moto_e20_XT21553 >----
+[INFO] Building Motorola_Moto_e20_XT21553 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ Motorola_Moto_e20_XT21553 ---
+[INFO] Deleting C:\Users\sandisk\Android11\Motorola_Moto_e20_XT21553\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Motorola_Moto_e20_XT21553 ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ Motorola_Moto_e20_XT21553 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ Motorola_Moto_e20_XT21553 ---
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ Motorola_Moto_e20_XT21553 ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 16 source files to C:\Users\sandisk\Android11\Motorola_Moto_e20_XT21553\target\test-classes
+[WARNING] /C:/Users/sandisk/Android11/Motorola_Moto_e20_XT21553/src/test/java/Motorola_Moto_e20_XT21553/Test8.java: Some input files use or override a deprecated API.
+[WARNING] /C:/Users/sandisk/Android11/Motorola_Moto_e20_XT21553/src/test/java/Motorola_Moto_e20_XT21553/Test8.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ Motorola_Moto_e20_XT21553 ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running TestSuite
+Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test0_Int Scenario is as follows 
+1.Unlock phone, clear recent apps,Format uSD as Internal mount and Clear internal mount memory
+2.Call Image() and Capture Rear camera 25 images with default resolution in internal mount uSD card and Verify the data capture
+3.Call Video() and record Rear camera video of first 2 resloutions for 2 minutes of duration in internal mount uSD Card and verify the same
+4.Call Format() Format uSD as External mount,Format back to internal mount, Verify with data format status.
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch home screen
+Calling FormatAsInternal() to format uSD card as internal mount
+Formatting uSD as Internal mount
+Launch settings application
+Select Storage
+Clicking on SD card
+Click more options
+select storage settings
+Select format as Internal options
+Accept Format SD card pop-up
+Accept move content  pop-up
+Pass: Format as Internal Mount scenario completed Successfull
+Launch File Manager Application and clear internal memory
+Select  Internal storage
+Select More options
+click on Select all
+Select  Delete permanently
+Select  Delete
+Pass: Clearing phone internal memory is successfull
+Final Message: Pass Test0_Int Pass Clearing phone internal memory, Host format with data scenario NA because While card formatted as an internal recorded videos are not showing in internal 
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test3_Int Scenario is as follows
+1.Mount,Unmount uSD Card and Format uSD card as Internal mount for specified number of times
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch home screen
+Number of Unmount,mount and Format cycles = 1
+Select Storage
+Clicking on SD card
+Select uSD card
+Click more options
+If format as portable option exists? call formatAsExternal()
+Phone current status is internal mount, performing external mount
+Calling FormatAsExternal() to format as SD as external mount
+Launch settings application and perform external storage mount
+Select Storage
+Clicking on SD card
+Select uSD card
+select more options
+Select format as Portable option
+select format option
+Formatting as external mount
+Formatting as external mount is successfull
+Calling FormatAsInternal()
+Launch settings option and perform Internal storage mount scenario
+Select Storage
+Clicking on SD card
+Click more options
+select storage settings
+Select format as Internal options
+Accept Format SD card pop-up
+Accept move content  pop-up
+Pass:Format as Internal Mount completed Successfull
+Launch file manager
+Click On Internal storage
+Select DCIM folder
+Pass: Test3_Int format as internal mount is Successfull
+Final Message: Pass Test3_Int Pass for internal mount is successfull
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+1.Pushing 1GB zip File to Host Internal Memory via server folder named as Test1 
+2.Extracting zip file in Host internal memory
+3.Copy  1GB file (Test1) from host internal memory,Create a folder named Test2 in Internal storage paste Test1 folder in Test2
+4.Create folder name(New_Scenario in internal memory, select folder name(Test2) from internal memory and perform cut paste operation
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Pushing zip file to host internal memory
+Push file is successfull
+Launch File Manager Application and clear internal memory
+Select  Internal storage
+Select Test1 Folder internal storage
+Select  zip file
+Select Extract option
+Extracting Push zip file as Folder named Test1
+Extracting Complete
+Select More Options
+Select create folder option
+Name folder as Test2
+Click Create option
+Test2 folder created successfully in external storage
+Select Test1 Folder from external storage
+Select More Options
+Select Copy to
+Select Internal storage
+Swipe up and select test2 folder
+Select Test2 Folder
+Select Copy here
+Copy paste Test1 folder data to Test2 folder within external storage is successfull
+Select More Options
+Select create folder option
+Name folder as New_Scenario
+Accept create folder
+Select Test2 Folder from internal Storage
+Select More Options
+Select Move to
+Select Internal storage
+Select New_scenario folder
+Select Move here
+Pass: Test18_Int Pass for Cut paste Operation
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Final Message: Pass Test18_Int Pass for copy paste & cut paste operation
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test8_Int scenario is as follows
+1.Launch mobile default voice recording application and set internal mount as storage option, record audio file for 2 minutes duration
+2.Launch file manager application and playback recorded audio file from internal mount storage storage, fast forward audio file and pause
+3.Launch file manager application and playback copied audio files from internal mount storage the files are placed in the Test1 folder
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch Home screen application and clear recent apps
+Launch Voice recorder application for Audio recording
+Start Recording
+Stop Recording
+Stop and Save Recording
+Pass: Test8_Int pass for recording an audio file
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Calling PlayRecordedAudio() for Audio play back and fast forward scenario
+Launch File Manager Application
+Click On internal storage
+Click On internal storage
+switch to grid view mode to select Music folder
+Select Music Folder
+Select Recorders Folder
+switch to list view mode
+Click first audio file for audio playback and fast forward scenario
+Fast Forwarding Audio for 10 Seconds
+Continue audio playback
+Pause audio playback
+Pass: Test8_Int Pass for playing, fast forward, and pause recorded audio file scenario
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Calling PlayCopiedAudioFile() for copied audio files from Test1 folder
+Launch File Manager Application
+Select  Internal storage
+Select Test1 folder
+Select Test_file folder
+Select 1GB folder
+Select MP3 files Folder
+Playing first audio file from Test1 folder
+Fast Forwarding Audio for 10 Seconds
+Pause Audio
+Pass: first audio file palyback and fast forward scenario is successfull
+Playing second audio file from Test1 folder
+Fast Forwarding Audio for 10 Seconds
+Continue audio playback
+Pause Audio
+Pass: Second audio file palyback and fast forward scenario is successfull
+Playing third audio file from Test1 folder
+Fast Forwarding Audio for 10 Seconds
+Continue audio playback
+Pause Audio
+Pass: Third audio file palyback and fast forward scenario is successfull
+Pass: Test8_Int Pass for Recorded and copied audio play back and fast forward scenario 
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Final Message: Pass Test8_Int Pass for Recorded and copied audio play back and fast forward scenario
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test10_Int Scenario is as follows
+1.Launch Camera application and start back camera video recording for all host applicable resolutions in Internal storage
+2.Playback Highest resolution recorded video from Internal storage, fast forward playback and pause video scenario 
+3.Playback copied videos from Test1 folder, fast forward and pause scenario
+4.Move recorded videos from Internal storage-->DCIM-->Camera folder to Test10_Int folder in Internal storage
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch home screen
+Calling copiedvideosPlayBack() for playing copied video file from Test1 folder
+Launch file manager application, select Internal storage, select Test1 folder, select Videos folder and Play copied videos and fast forward the same 
+Select Internal storage
+switch to gird view mode
+Select Test1 folder
+Select test_file folder
+Select OneGB folder
+Select video folder
+switch to list view mode
+Select LG_4K_DEMO_HDR_2018_(60FPS)_ELBA(480p).mp4 file for video playback
+Started video playback
+Tap Somewhere on Screen for contents to visible on Screen
+Click fast forward button for 10 seconds video forward
+Pass: 4K Video play back and fast forward is successful 
+Select FHD 5.1 ( 1350 X 2560 ).webm file for video playback
+Started video playback
+Tap Somewhere on Screen for contents to visible on Screen
+Click fast forward button for 10 seconds video forward
+Click pause button to stop video
+Pass: FHD Video play back and fast forward is successful 
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Final Message: Pass Test10_Int Pass for Playing Copied Video files, recorded video file and fast forward video play back scenario 
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test9_Int Scenario is follows:
+1.Launch camera application, set Internal as a Storage option, start rear camera Image capture for all host resolutions
+2.Move rear camera  captured image files from camera folder to Test9_Int folder
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch home screen
+Launch Camera Application for Rear picture capture
+Test9_Int_Bcam_res: 3 resolutions supported
+Select settings option to select resolution
+Select Rear camera first image resolution: 1:1
+totalPictureCountRear = 300 Images to be captured
+captureing first Resolution image 0
+captureing first Resolution image 1
+captureing first Resolution image 2
+captureing first Resolution image 3
+captureing first Resolution image 4
+captureing first Resolution image 5
+captureing first Resolution image 6
+captureing first Resolution image 7
+captureing first Resolution image 8
+captureing first Resolution image 9
+captureing first Resolution image 10
+captureing first Resolution image 11
+captureing first Resolution image 12
+captureing first Resolution image 13
+captureing first Resolution image 14
+captureing first Resolution image 15
+captureing first Resolution image 16
+captureing first Resolution image 17
+captureing first Resolution image 18
+captureing first Resolution image 19
+captureing first Resolution image 20
+captureing first Resolution image 21
+captureing first Resolution image 22
+captureing first Resolution image 23
+captureing first Resolution image 24
+captureing first Resolution image 25
+captureing first Resolution image 26
+captureing first Resolution image 27
+captureing first Resolution image 28
+captureing first Resolution image 29
+captureing first Resolution image 30
+captureing first Resolution image 31
+captureing first Resolution image 32
+captureing first Resolution image 33
+captureing first Resolution image 34
+captureing first Resolution image 35
+captureing first Resolution image 36
+captureing first Resolution image 37
+captureing first Resolution image 38
+captureing first Resolution image 39
+captureing first Resolution image 40
+captureing first Resolution image 41
+captureing first Resolution image 42
+captureing first Resolution image 43
+captureing first Resolution image 44
+captureing first Resolution image 45
+captureing first Resolution image 46
+captureing first Resolution image 47
+captureing first Resolution image 48
+captureing first Resolution image 49
+captureing first Resolution image 50
+captureing first Resolution image 51
+captureing first Resolution image 52
+captureing first Resolution image 53
+captureing first Resolution image 54
+captureing first Resolution image 55
+captureing first Resolution image 56
+captureing first Resolution image 57
+captureing first Resolution image 58
+captureing first Resolution image 59
+captureing first Resolution image 60
+captureing first Resolution image 61
+captureing first Resolution image 62
+captureing first Resolution image 63
+captureing first Resolution image 64
+captureing first Resolution image 65
+captureing first Resolution image 66
+captureing first Resolution image 67
+captureing first Resolution image 68
+captureing first Resolution image 69
+captureing first Resolution image 70
+captureing first Resolution image 71
+captureing first Resolution image 72
+captureing first Resolution image 73
+captureing first Resolution image 74
+captureing first Resolution image 75
+captureing first Resolution image 76
+captureing first Resolution image 77
+captureing first Resolution image 78
+captureing first Resolution image 79
+captureing first Resolution image 80
+captureing first Resolution image 81
+captureing first Resolution image 82
+captureing first Resolution image 83
+captureing first Resolution image 84
+captureing first Resolution image 85
+captureing first Resolution image 86
+captureing first Resolution image 87
+captureing first Resolution image 88
+captureing first Resolution image 89
+captureing first Resolution image 90
+captureing first Resolution image 91
+captureing first Resolution image 92
+captureing first Resolution image 93
+captureing first Resolution image 94
+captureing first Resolution image 95
+captureing first Resolution image 96
+captureing first Resolution image 97
+captureing first Resolution image 98
+captureing first Resolution image 99
+captureing first Resolution image 100
+captureing first Resolution image 101
+captureing first Resolution image 102
+captureing first Resolution image 103
+captureing first Resolution image 104
+captureing first Resolution image 105
+captureing first Resolution image 106
+captureing first Resolution image 107
+captureing first Resolution image 108
+captureing first Resolution image 109
+captureing first Resolution image 110
+captureing first Resolution image 111
+captureing first Resolution image 112
+captureing first Resolution image 113
+captureing first Resolution image 114
+captureing first Resolution image 115
+captureing first Resolution image 116
+captureing first Resolution image 117
+captureing first Resolution image 118
+captureing first Resolution image 119
+captureing first Resolution image 120
+captureing first Resolution image 121
+captureing first Resolution image 122
+captureing first Resolution image 123
+captureing first Resolution image 124
+captureing first Resolution image 125
+captureing first Resolution image 126
+captureing first Resolution image 127
+captureing first Resolution image 128
+captureing first Resolution image 129
+captureing first Resolution image 130
+captureing first Resolution image 131
+captureing first Resolution image 132
+captureing first Resolution image 133
+captureing first Resolution image 134
+captureing first Resolution image 135
+captureing first Resolution image 136
+captureing first Resolution image 137
+captureing first Resolution image 138
+captureing first Resolution image 139
+captureing first Resolution image 140
+captureing first Resolution image 141
+captureing first Resolution image 142
+captureing first Resolution image 143
+captureing first Resolution image 144
+captureing first Resolution image 145
+captureing first Resolution image 146
+captureing first Resolution image 147
+captureing first Resolution image 148
+captureing first Resolution image 149
+captureing first Resolution image 150
+captureing first Resolution image 151
+captureing first Resolution image 152
+captureing first Resolution image 153
+captureing first Resolution image 154
+captureing first Resolution image 155
+captureing first Resolution image 156
+captureing first Resolution image 157
+captureing first Resolution image 158
+captureing first Resolution image 159
+captureing first Resolution image 160
+captureing first Resolution image 161
+captureing first Resolution image 162
+captureing first Resolution image 163
+captureing first Resolution image 164
+captureing first Resolution image 165
+captureing first Resolution image 166
+captureing first Resolution image 167
+captureing first Resolution image 168
+captureing first Resolution image 169
+captureing first Resolution image 170
+captureing first Resolution image 171
+captureing first Resolution image 172
+captureing first Resolution image 173
+captureing first Resolution image 174
+captureing first Resolution image 175
+captureing first Resolution image 176
+captureing first Resolution image 177
+captureing first Resolution image 178
+captureing first Resolution image 179
+captureing first Resolution image 180
+captureing first Resolution image 181
+captureing first Resolution image 182
+captureing first Resolution image 183
+captureing first Resolution image 184
+captureing first Resolution image 185
+captureing first Resolution image 186
+captureing first Resolution image 187
+captureing first Resolution image 188
+captureing first Resolution image 189
+captureing first Resolution image 190
+captureing first Resolution image 191
+captureing first Resolution image 192
+captureing first Resolution image 193
+captureing first Resolution image 194
+captureing first Resolution image 195
+captureing first Resolution image 196
+captureing first Resolution image 197
+captureing first Resolution image 198
+captureing first Resolution image 199
+captureing first Resolution image 200
+captureing first Resolution image 201
+captureing first Resolution image 202
+captureing first Resolution image 203
+captureing first Resolution image 204
+captureing first Resolution image 205
+captureing first Resolution image 206
+captureing first Resolution image 207
+captureing first Resolution image 208
+captureing first Resolution image 209
+captureing first Resolution image 210
+captureing first Resolution image 211
+captureing first Resolution image 212
+captureing first Resolution image 213
+captureing first Resolution image 214
+captureing first Resolution image 215
+captureing first Resolution image 216
+captureing first Resolution image 217
+captureing first Resolution image 218
+captureing first Resolution image 219
+captureing first Resolution image 220
+captureing first Resolution image 221
+captureing first Resolution image 222
+captureing first Resolution image 223
+captureing first Resolution image 224
+captureing first Resolution image 225
+captureing first Resolution image 226
+captureing first Resolution image 227
+captureing first Resolution image 228
+captureing first Resolution image 229
+captureing first Resolution image 230
+captureing first Resolution image 231
+captureing first Resolution image 232
+captureing first Resolution image 233
+captureing first Resolution image 234
+captureing first Resolution image 235
+captureing first Resolution image 236
+captureing first Resolution image 237
+captureing first Resolution image 238
+captureing first Resolution image 239
+captureing first Resolution image 240
+captureing first Resolution image 241
+captureing first Resolution image 242
+captureing first Resolution image 243
+captureing first Resolution image 244
+captureing first Resolution image 245
+captureing first Resolution image 246
+captureing first Resolution image 247
+captureing first Resolution image 248
+captureing first Resolution image 249
+captureing first Resolution image 250
+captureing first Resolution image 251
+captureing first Resolution image 252
+captureing first Resolution image 253
+captureing first Resolution image 254
+captureing first Resolution image 255
+captureing first Resolution image 256
+captureing first Resolution image 257
+captureing first Resolution image 258
+captureing first Resolution image 259
+captureing first Resolution image 260
+captureing first Resolution image 261
+captureing first Resolution image 262
+captureing first Resolution image 263
+captureing first Resolution image 264
+captureing first Resolution image 265
+captureing first Resolution image 266
+captureing first Resolution image 267
+captureing first Resolution image 268
+captureing first Resolution image 269
+captureing first Resolution image 270
+captureing first Resolution image 271
+captureing first Resolution image 272
+captureing first Resolution image 273
+captureing first Resolution image 274
+captureing first Resolution image 275
+captureing first Resolution image 276
+captureing first Resolution image 277
+captureing first Resolution image 278
+captureing first Resolution image 279
+captureing first Resolution image 280
+captureing first Resolution image 281
+captureing first Resolution image 282
+captureing first Resolution image 283
+captureing first Resolution image 284
+captureing first Resolution image 285
+captureing first Resolution image 286
+captureing first Resolution image 287
+captureing first Resolution image 288
+captureing first Resolution image 289
+captureing first Resolution image 290
+captureing first Resolution image 291
+captureing first Resolution image 292
+captureing first Resolution image 293
+captureing first Resolution image 294
+captureing first Resolution image 295
+captureing first Resolution image 296
+captureing first Resolution image 297
+captureing first Resolution image 298
+captureing first Resolution image 299
+Total Count value:300 images to be Captured 
+Launch file manager application and verify recorded video present in Internal storage
+Swipe up to select Internal storage
+Select Internal storage
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Test9_Int_Bcam_image: 300 selected images Captured succesfull
+Interger value:300
+Tolerance_Level = 75
+
+Pass: Test9_Int pass for rear Image capture
+Test9_Int_Bcam_image: 300  images Captured succesfull
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+calling DataMoveOperation()
+launch file manager application select Internal storage-->DCIM folder-->Camera folder-->Select all rear camera images create Test9_Int folder and cut paste all images in Test9_Int folder
+Swipe up to select Internal storage
+Select Internal storage
+Click More options
+Select add new folder option
+Name folder as Test9_Int
+Select DCIM Folder
+Select camera folder
+Click More options
+Click select all option
+Click More options
+Select Move to option
+Select Internal storage
+switch to grid view mode to select Test9_Int folder
+Select Test9_Int folder
+switch to list view mode
+Click move here
+Pass: Test9_Int Pass for data move operation successfully
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Final Message: Pass Test9_Int Pass for Rear camera image capture  successfully
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test9F_Int Scenario is as follows:
+1.Launch camera application, set uSD as a Storage option, start Front camera image picture capture for all Host front resolutions
+2.Move captured front images from camera folder to Test9F_Int folder
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test9F_Int_Fcam_res: 1 resolutions supported
+Switch to front video camera mode
+Select settings option to select resolution
+Select front camera front image resolution: 9:16
+totalPictureCountFront = 300
+Captureing first resolution image 0
+Captureing first resolution image 1
+Captureing first resolution image 2
+Captureing first resolution image 3
+Captureing first resolution image 4
+Captureing first resolution image 5
+Captureing first resolution image 6
+Captureing first resolution image 7
+Captureing first resolution image 8
+Captureing first resolution image 9
+Captureing first resolution image 10
+Captureing first resolution image 11
+Captureing first resolution image 12
+Captureing first resolution image 13
+Captureing first resolution image 14
+Captureing first resolution image 15
+Captureing first resolution image 16
+Captureing first resolution image 17
+Captureing first resolution image 18
+Captureing first resolution image 19
+Captureing first resolution image 20
+Captureing first resolution image 21
+Captureing first resolution image 22
+Captureing first resolution image 23
+Captureing first resolution image 24
+Captureing first resolution image 25
+Captureing first resolution image 26
+Captureing first resolution image 27
+Captureing first resolution image 28
+Captureing first resolution image 29
+Captureing first resolution image 30
+Captureing first resolution image 31
+Captureing first resolution image 32
+Captureing first resolution image 33
+Captureing first resolution image 34
+Captureing first resolution image 35
+Captureing first resolution image 36
+Captureing first resolution image 37
+Captureing first resolution image 38
+Captureing first resolution image 39
+Captureing first resolution image 40
+Captureing first resolution image 41
+Captureing first resolution image 42
+Captureing first resolution image 43
+Captureing first resolution image 44
+Captureing first resolution image 45
+Captureing first resolution image 46
+Captureing first resolution image 47
+Captureing first resolution image 48
+Captureing first resolution image 49
+Captureing first resolution image 50
+Captureing first resolution image 51
+Captureing first resolution image 52
+Captureing first resolution image 53
+Captureing first resolution image 54
+Captureing first resolution image 55
+Captureing first resolution image 56
+Captureing first resolution image 57
+Captureing first resolution image 58
+Captureing first resolution image 59
+Captureing first resolution image 60
+Captureing first resolution image 61
+Captureing first resolution image 62
+Captureing first resolution image 63
+Captureing first resolution image 64
+Captureing first resolution image 65
+Captureing first resolution image 66
+Captureing first resolution image 67
+Captureing first resolution image 68
+Captureing first resolution image 69
+Captureing first resolution image 70
+Captureing first resolution image 71
+Captureing first resolution image 72
+Captureing first resolution image 73
+Captureing first resolution image 74
+Captureing first resolution image 75
+Captureing first resolution image 76
+Captureing first resolution image 77
+Captureing first resolution image 78
+Captureing first resolution image 79
+Captureing first resolution image 80
+Captureing first resolution image 81
+Captureing first resolution image 82
+Captureing first resolution image 83
+Captureing first resolution image 84
+Captureing first resolution image 85
+Captureing first resolution image 86
+Captureing first resolution image 87
+Captureing first resolution image 88
+Captureing first resolution image 89
+Captureing first resolution image 90
+Captureing first resolution image 91
+Captureing first resolution image 92
+Captureing first resolution image 93
+Captureing first resolution image 94
+Captureing first resolution image 95
+Captureing first resolution image 96
+Captureing first resolution image 97
+Captureing first resolution image 98
+Captureing first resolution image 99
+Captureing first resolution image 100
+Captureing first resolution image 101
+Captureing first resolution image 102
+Captureing first resolution image 103
+Captureing first resolution image 104
+Captureing first resolution image 105
+Captureing first resolution image 106
+Captureing first resolution image 107
+Captureing first resolution image 108
+Captureing first resolution image 109
+Captureing first resolution image 110
+Captureing first resolution image 111
+Captureing first resolution image 112
+Captureing first resolution image 113
+Captureing first resolution image 114
+Captureing first resolution image 115
+Captureing first resolution image 116
+Captureing first resolution image 117
+Captureing first resolution image 118
+Captureing first resolution image 119
+Captureing first resolution image 120
+Captureing first resolution image 121
+Captureing first resolution image 122
+Captureing first resolution image 123
+Captureing first resolution image 124
+Captureing first resolution image 125
+Captureing first resolution image 126
+Captureing first resolution image 127
+Captureing first resolution image 128
+Captureing first resolution image 129
+Captureing first resolution image 130
+Captureing first resolution image 131
+Captureing first resolution image 132
+Captureing first resolution image 133
+Captureing first resolution image 134
+Captureing first resolution image 135
+Captureing first resolution image 136
+Captureing first resolution image 137
+Captureing first resolution image 138
+Captureing first resolution image 139
+Captureing first resolution image 140
+Captureing first resolution image 141
+Captureing first resolution image 142
+Captureing first resolution image 143
+Captureing first resolution image 144
+Captureing first resolution image 145
+Captureing first resolution image 146
+Captureing first resolution image 147
+Captureing first resolution image 148
+Captureing first resolution image 149
+Captureing first resolution image 150
+Captureing first resolution image 151
+Captureing first resolution image 152
+Captureing first resolution image 153
+Captureing first resolution image 154
+Captureing first resolution image 155
+Captureing first resolution image 156
+Captureing first resolution image 157
+Captureing first resolution image 158
+Captureing first resolution image 159
+Captureing first resolution image 160
+Captureing first resolution image 161
+Captureing first resolution image 162
+Captureing first resolution image 163
+Captureing first resolution image 164
+Captureing first resolution image 165
+Captureing first resolution image 166
+Captureing first resolution image 167
+Captureing first resolution image 168
+Captureing first resolution image 169
+Captureing first resolution image 170
+Captureing first resolution image 171
+Captureing first resolution image 172
+Captureing first resolution image 173
+Captureing first resolution image 174
+Captureing first resolution image 175
+Captureing first resolution image 176
+Captureing first resolution image 177
+Captureing first resolution image 178
+Captureing first resolution image 179
+Captureing first resolution image 180
+Captureing first resolution image 181
+Captureing first resolution image 182
+Captureing first resolution image 183
+Captureing first resolution image 184
+Captureing first resolution image 185
+Captureing first resolution image 186
+Captureing first resolution image 187
+Captureing first resolution image 188
+Captureing first resolution image 189
+Captureing first resolution image 190
+Captureing first resolution image 191
+Captureing first resolution image 192
+Captureing first resolution image 193
+Captureing first resolution image 194
+Captureing first resolution image 195
+Captureing first resolution image 196
+Captureing first resolution image 197
+Captureing first resolution image 198
+Captureing first resolution image 199
+Captureing first resolution image 200
+Captureing first resolution image 201
+Captureing first resolution image 202
+Captureing first resolution image 203
+Captureing first resolution image 204
+Captureing first resolution image 205
+Captureing first resolution image 206
+Captureing first resolution image 207
+Captureing first resolution image 208
+Captureing first resolution image 209
+Captureing first resolution image 210
+Captureing first resolution image 211
+Captureing first resolution image 212
+Captureing first resolution image 213
+Captureing first resolution image 214
+Captureing first resolution image 215
+Captureing first resolution image 216
+Captureing first resolution image 217
+Captureing first resolution image 218
+Captureing first resolution image 219
+Captureing first resolution image 220
+Captureing first resolution image 221
+Captureing first resolution image 222
+Captureing first resolution image 223
+Captureing first resolution image 224
+Captureing first resolution image 225
+Captureing first resolution image 226
+Captureing first resolution image 227
+Captureing first resolution image 228
+Captureing first resolution image 229
+Captureing first resolution image 230
+Captureing first resolution image 231
+Captureing first resolution image 232
+Captureing first resolution image 233
+Captureing first resolution image 234
+Captureing first resolution image 235
+Captureing first resolution image 236
+Captureing first resolution image 237
+Captureing first resolution image 238
+Captureing first resolution image 239
+Captureing first resolution image 240
+Captureing first resolution image 241
+Captureing first resolution image 242
+Captureing first resolution image 243
+Captureing first resolution image 244
+Captureing first resolution image 245
+Captureing first resolution image 246
+Captureing first resolution image 247
+Captureing first resolution image 248
+Captureing first resolution image 249
+Captureing first resolution image 250
+Captureing first resolution image 251
+Captureing first resolution image 252
+Captureing first resolution image 253
+Captureing first resolution image 254
+Captureing first resolution image 255
+Captureing first resolution image 256
+Captureing first resolution image 257
+Captureing first resolution image 258
+Captureing first resolution image 259
+Captureing first resolution image 260
+Captureing first resolution image 261
+Captureing first resolution image 262
+Captureing first resolution image 263
+Captureing first resolution image 264
+Captureing first resolution image 265
+Captureing first resolution image 266
+Captureing first resolution image 267
+Captureing first resolution image 268
+Captureing first resolution image 269
+Captureing first resolution image 270
+Captureing first resolution image 271
+Captureing first resolution image 272
+Captureing first resolution image 273
+Captureing first resolution image 274
+Captureing first resolution image 275
+Captureing first resolution image 276
+Captureing first resolution image 277
+Captureing first resolution image 278
+Captureing first resolution image 279
+Captureing first resolution image 280
+Captureing first resolution image 281
+Captureing first resolution image 282
+Captureing first resolution image 283
+Captureing first resolution image 284
+Captureing first resolution image 285
+Captureing first resolution image 286
+Captureing first resolution image 287
+Captureing first resolution image 288
+Captureing first resolution image 289
+Captureing first resolution image 290
+Captureing first resolution image 291
+Captureing first resolution image 292
+Captureing first resolution image 293
+Captureing first resolution image 294
+Captureing first resolution image 295
+Captureing first resolution image 296
+Captureing first resolution image 297
+Captureing first resolution image 298
+Captureing first resolution image 299
+Switch to back camera mode
+Total Count value:300 images to be Captured 
+Launch file manager application and verify captured images present in Internal storage
+Swipe up to select Internal storage
+Select Internal storage
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Total Image
+Test9F_Int_Fcam_image: 300 selected images Captured succesfull
+Actual Value:300 selected
+Interger value:300
+Tolerance_Level = 75
+
+Pass: Test9F_Int pass for front Image capture
+Test9F_Int_Fcam_image: 300  images Captured succesfull
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+calling DataMoveOperation()
+Re-launch file manager application and select Internal storage for data move operation, select all front camera images files present in camera folder and move to Test9F_Int folder
+Swipe up to select Internal storage
+Select Internal storage
+Click More options
+Select add new folder option
+Name folder as Test9F_Int
+Select DCIM Folder
+Select camera folder
+Click More options
+Click select all option
+Click More options
+Select Move to option
+Select Internal storage
+switch to grid view mode to select Test9F_Int folder
+Select Test9F_Int folder
+switch to list view mode
+Click move here
+Pass: Test9F_Int Pass for data move operation successfully
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Final Message: Pass Test9F_Int Pass for front Camera image capture
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9,166.093 s - in TestSuite
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ Motorola_Moto_e20_XT21553 ---
+[INFO] Building jar: C:\Users\sandisk\Android11\Motorola_Moto_e20_XT21553\target\Motorola_Moto_e20_XT21553-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ Motorola_Moto_e20_XT21553 ---
+[INFO] Installing C:\Users\sandisk\Android11\Motorola_Moto_e20_XT21553\target\Motorola_Moto_e20_XT21553-0.0.1-SNAPSHOT.jar to C:\Users\sandisk\.m2\repository\Com\Motorola_Moto_e20_XT21553\test\Motorola_Moto_e20_XT21553\0.0.1-SNAPSHOT\Motorola_Moto_e20_XT21553-0.0.1-SNAPSHOT.jar
+[INFO] Installing C:\Users\sandisk\Android11\Motorola_Moto_e20_XT21553\pom.xml to C:\Users\sandisk\.m2\repository\Com\Motorola_Moto_e20_XT21553\test\Motorola_Moto_e20_XT21553\0.0.1-SNAPSHOT\Motorola_Moto_e20_XT21553-0.0.1-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  02:32 h
+[INFO] Finished at: 2023-03-30T14:04:03+05:30
+[INFO] ------------------------------------------------------------------------

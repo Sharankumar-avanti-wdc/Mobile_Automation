@@ -1,0 +1,93 @@
+2022-11-14 15:53:09 INFO   RealMeC21Y.Test10F frontVideoRec Test:Start
+2022-11-14 15:53:09 INFO   RealMeC21Y.Test10F frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-11-14 15:53:09 INFO   RealMeC21Y.Test10F frontVideoRec Test10F Scenario is as follows
+2022-11-14 15:53:09 INFO   RealMeC21Y.Test10F frontVideoRec 1.Launch Camera application and start front camera video recording for all host applicable resolutions in uSD Card
+2022-11-14 15:53:09 INFO   RealMeC21Y.Test10F frontVideoRec 2.Playback front Highest recorded video for 30 seconds, pause video playback, lock mobile and wait 30 seconds, unlock mobile and playback video from pause video duration
+2022-11-14 15:53:09 INFO   RealMeC21Y.Test10F frontVideoRec Setting up the appium desired capabilities
+2022-11-14 15:53:09 INFO   RealMeC21Y.Test10F frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-11-14 15:53:23 INFO   RealMeC21Y.Test10F frontVideoRec Launch home screen and clear recent apps
+2022-11-14 15:53:37 INFO   RealMeC21Y.Test10F frontVideoRec Clearing Recent Apps
+2022-11-14 15:53:42 INFO   RealMeC21Y.Test10F frontVideoRec Clearing Recent Apss
+2022-11-14 15:53:44 INFO   RealMeC21Y.Test10F frontVideoRec Launch camera application for front camera video recording
+2022-11-14 15:53:46 INFO   RealMeC21Y.Test10F frontVideoRec Test10F_FCam_res: 2 resolutions supported
+2022-11-14 15:53:56 INFO   RealMeC21Y.Test10F frontVideoRec Notifcation Pop up not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: realme C21Y, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: 1825264110BA062U}, deviceApiLevel: 30, deviceManufacturer: realme, deviceModel: RMX3261, deviceName: 1825264110BA062U, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: 1825264110BA062U, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 64, takesScreenshot: true, udid: 1825264110BA062U, viewportRect: {height: 1384, left: 0, top: 64, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 94c50f23-5af9-48b3-9ac8-28a10fde2e94
+*** Element info: {Using=xpath, value=//*[@resource-id='com.android.camera2:id/positiveTextView']}
+2022-11-14 15:53:58 INFO   RealMeC21Y.Test10F frontVideoRec Switch to video mode
+2022-11-14 15:54:08 INFO   RealMeC21Y.Test10F frontVideoRec Switch to front camera mode
+2022-11-14 15:54:20 INFO   RealMeC21Y.Test10F frontVideoRec select settings option
+2022-11-14 15:54:23 INFO   RealMeC21Y.Test10F frontVideoRec Click settings option
+2022-11-14 15:54:23 INFO   RealMeC21Y.Test10F frontVideoRec select storage path option
+2022-11-14 15:54:27 INFO   RealMeC21Y.Test10F frontVideoRec Select uSD Card as Storage option
+2022-11-14 15:54:31 INFO   RealMeC21Y.Test10F frontVideoRec select settings option
+2022-11-14 15:54:35 INFO   RealMeC21Y.Test10F frontVideoRec select video size front camera option
+2022-11-14 15:54:41 INFO   RealMeC21Y.Test10F frontVideoRec select front camera first resolution
+2022-11-14 15:54:52 INFO   RealMeC21Y.Test10F frontVideoRec Start recording
+2022-11-14 15:57:52 INFO   RealMeC21Y.Test10F frontVideoRec Stop recording
+2022-11-14 15:57:53 INFO   RealMeC21Y.Test10F frontVideoRec Stop Recording
+2022-11-14 15:57:53 INFO   RealMeC21Y.Test10F frontVideoRec Select settings option
+2022-11-14 15:57:56 INFO   RealMeC21Y.Test10F frontVideoRec Select video size  option
+2022-11-14 15:58:03 INFO   RealMeC21Y.Test10F frontVideoRec Select second resolution option
+2022-11-14 15:58:14 INFO   RealMeC21Y.Test10F frontVideoRec Start recording
+2022-11-14 16:01:14 INFO   RealMeC21Y.Test10F frontVideoRec Stop recording
+2022-11-14 16:01:22 INFO   RealMeC21Y.Test10F frontVideoRec Launch file manager application and verify recorded video capture uSD Card
+2022-11-14 16:01:40 INFO   RealMeC21Y.Test10F frontVideoRec Swipe up to select uSD card
+2022-11-14 16:01:44 INFO   RealMeC21Y.Test10F frontVideoRec Select SD card
+2022-11-14 16:01:50 INFO   RealMeC21Y.Test10F frontVideoRec switch to grid view mode to select DCIM folder
+2022-11-14 16:01:53 INFO   RealMeC21Y.Test10F frontVideoRec Select DCIM folder
+2022-11-14 16:01:56 INFO   RealMeC21Y.Test10F frontVideoRec Select camera folder
+2022-11-14 16:01:59 INFO   RealMeC21Y.Test10F frontVideoRec switch to list view mode 
+2022-11-14 16:02:03 INFO   RealMeC21Y.Test10F frontVideoRec Click More options
+2022-11-14 16:02:11 INFO   RealMeC21Y.Test10F frontVideoRec Click Select all
+2022-11-14 16:02:26 INFO   RealMeC21Y.Test10F frontVideoRec Test10F_Fcam_video: 2 videos captured successfully
+2022-11-14 16:02:26 INFO   RealMeC21Y.Test10F frontVideoRec Pass: Test10F pass for front camera video recording
+2022-11-14 16:02:26 INFO   RealMeC21Y.Test10F frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-11-14 16:02:36 INFO   RealMeC21Y.Test10F frontVideoRec Calling VideoPlayBackForSleepWake()
+2022-11-14 16:02:36 INFO   RealMeC21Y.Test10F VideoPlayBackForSleepWake Launch File Manager application and playback front recorded video from USD for 30 seconds, pause video playback, locking phone and unlock after 30 seconds delay and playback video from pause duration.
+2022-11-14 16:02:44 INFO   RealMeC21Y.Test10F VideoPlayBackForSleepWake Launching file manager application
+2022-11-14 16:02:47 INFO   RealMeC21Y.Test10F VideoPlayBackForSleepWake Select External Storage
+2022-11-14 16:02:52 INFO   RealMeC21Y.Test10F VideoPlayBackForSleepWake switch to grid view mode to select DCIM folder
+2022-11-14 16:02:56 INFO   RealMeC21Y.Test10F VideoPlayBackForSleepWake Select DCIM folder
+2022-11-14 16:03:00 INFO   RealMeC21Y.Test10F VideoPlayBackForSleepWake Select Camera folder
+2022-11-14 16:03:03 INFO   RealMeC21Y.Test10F VideoPlayBackForSleepWake switch to list view mode 
+2022-11-14 16:03:06 INFO   RealMeC21Y.Test10F VideoPlayBackForSleepWake Select more options
+2022-11-14 16:03:15 INFO   RealMeC21Y.Test10F VideoPlayBackForSleepWake Select Sort by Newest date first
+2022-11-14 16:03:20 INFO   RealMeC21Y.Test10F VideoPlayBackForSleepWake Click on first file to play highest recorded resolution video file from uSD card
+2022-11-14 16:03:21 INFO   RealMeC21Y.Test10F VideoPlayBackForSleepWake Started video playback
+2022-11-14 16:03:41 INFO   RealMeC21Y.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2022-11-14 16:03:41 INFO   RealMeC21Y.Test10F VideoPlayBackForSleepWake Click pause video button
+2022-11-14 16:03:45 INFO   RealMeC21Y.Test10F VideoPlayBackForSleepWake Lock Mobile with 30 seconds delay
+2022-11-14 16:04:15 INFO   RealMeC21Y.Test10F VideoPlayBackForSleepWake Unlock Mobile 
+2022-11-14 16:04:15 INFO   RealMeC21Y.Test10F VideoPlayBackForSleepWake PlayBack Video from Pause duartion
+2022-11-14 16:04:15 INFO   RealMeC21Y.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2022-11-14 16:04:15 INFO   RealMeC21Y.Test10F VideoPlayBackForSleepWake Fast forward video play back for 10 seconds
+2022-11-14 16:04:15 INFO   RealMeC21Y.Test10F VideoPlayBackForSleepWake Pause video play back
+2022-11-14 16:04:36 INFO   RealMeC21Y.Test10F VideoPlayBackForSleepWake Pass: Pass Test10F Pass for Pause Video Playback scenario
+2022-11-14 16:04:36 INFO   RealMeC21Y.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-11-14 16:04:36 INFO   RealMeC21Y.Test10F VideoPlayBackForSleepWake calling DatamoveOperation() to move front camera recorded videos files to Test10F folder
+2022-11-14 16:04:36 INFO   RealMeC21Y.Test10F DataMoveOperation Re-launch file manager application and select external storage for data move operation, select all rear camera videos present in camera folder and move to Test10 folder
+2022-11-14 16:04:43 INFO   RealMeC21Y.Test10F DataMoveOperation Launching file manager application
+2022-11-14 16:04:47 INFO   RealMeC21Y.Test10F DataMoveOperation Select external storage
+2022-11-14 16:04:52 INFO   RealMeC21Y.Test10F DataMoveOperation switch to grid view mode and select DCIM  folder
+2022-11-14 16:04:55 INFO   RealMeC21Y.Test10F DataMoveOperation Select DCIM folder
+2022-11-14 16:04:59 INFO   RealMeC21Y.Test10F DataMoveOperation Select camera  folder
+2022-11-14 16:05:02 INFO   RealMeC21Y.Test10F DataMoveOperation switch to list view mode 
+2022-11-14 16:05:05 INFO   RealMeC21Y.Test10F DataMoveOperation Click More options
+2022-11-14 16:05:11 INFO   RealMeC21Y.Test10F DataMoveOperation Click Select all
+2022-11-14 16:05:15 INFO   RealMeC21Y.Test10F DataMoveOperation Click More options
+2022-11-14 16:05:21 INFO   RealMeC21Y.Test10F DataMoveOperation Select move to option
+2022-11-14 16:05:28 INFO   RealMeC21Y.Test10F DataMoveOperation Select uSD Card
+2022-11-14 16:05:34 INFO   RealMeC21Y.Test10F DataMoveOperation Select ADD NEW Folder option
+2022-11-14 16:05:41 INFO   RealMeC21Y.Test10F DataMoveOperation Name folder as Test10F
+2022-11-14 16:05:48 INFO   RealMeC21Y.Test10F DataMoveOperation Accept create folder
+2022-11-14 16:06:19 INFO   RealMeC21Y.Test10F DataMoveOperation Cut paste  video files operation completed successfully
+2022-11-14 16:06:24 INFO   RealMeC21Y.Test10F DataMoveOperation Test10F: Data move operation completed successfully
+2022-11-14 16:06:33 INFO   RealMeC21Y.Test10F DataMoveOperation Pass: Test10F Pass for data move operation successfully
+2022-11-14 16:06:33 INFO   RealMeC21Y.Test10F VideoPlayBackForSleepWake Final message: Pass Test10F Pass for front camera  video recording, Pause Video Playback scenario and data move operation scenario
+2022-11-14 16:06:33 INFO   RealMeC21Y.Test10F VideoPlayBackForSleepWake Test:End
+2022-11-14 16:06:33 INFO   RealMeC21Y.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

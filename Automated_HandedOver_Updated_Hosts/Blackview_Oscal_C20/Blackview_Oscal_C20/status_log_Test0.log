@@ -1,0 +1,149 @@
+2023-01-20 17:19:31 INFO   Blackview_Oscal_C20.Test0 start Test: Start
+2023-01-20 17:19:31 INFO   Blackview_Oscal_C20.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-20 17:19:31 INFO   Blackview_Oscal_C20.Test0 start  Test0 Scenario is as follows 
+2023-01-20 17:19:31 INFO   Blackview_Oscal_C20.Test0 start 1.Unlock phone, clear recent apps, clear internal memory
+2023-01-20 17:19:31 INFO   Blackview_Oscal_C20.Test0 start 2.Call Image() and Capture Rear camera 25 images for default resolution in uSD card and Verify the data capture
+2023-01-20 17:19:31 INFO   Blackview_Oscal_C20.Test0 start 3.Call Video() and record Rear camera video of first 2 resloutions for 2 minutes of duration in uSD Card and verify the same
+2023-01-20 17:19:31 INFO   Blackview_Oscal_C20.Test0 start 4.Call Format() and format uSD card with data and verify the same
+2023-01-20 17:19:31 INFO   Blackview_Oscal_C20.Test0 start Setting up the appium desired capabilities
+2023-01-20 17:19:31 INFO   Blackview_Oscal_C20.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-20 17:19:55 INFO   Blackview_Oscal_C20.Test0 start Clearing Recent Apps
+2023-01-20 17:20:06 INFO   Blackview_Oscal_C20.Test0 start Pass: Test0 Pass for clearing Recent apps 
+2023-01-20 17:20:08 INFO   Blackview_Oscal_C20.Test0 start Launch File Manager Application and clear internal memory
+2023-01-20 17:20:16 INFO   Blackview_Oscal_C20.Test0 start Swipe up and select uSD card
+2023-01-20 17:20:19 INFO   Blackview_Oscal_C20.Test0 start Select  Internal storage
+2023-01-20 17:20:24 INFO   Blackview_Oscal_C20.Test0 start Click on more options
+2023-01-20 17:20:27 INFO   Blackview_Oscal_C20.Test0 start Click select all
+2023-01-20 17:20:31 INFO   Blackview_Oscal_C20.Test0 start Click on more options
+2023-01-20 17:20:35 INFO   Blackview_Oscal_C20.Test0 start Select delete option
+2023-01-20 17:20:45 INFO   Blackview_Oscal_C20.Test0 start No data found to clear internal memory
+2023-01-20 17:20:45 INFO   Blackview_Oscal_C20.Test0 start Pass: Clearing phone internal memory is successfull
+2023-01-20 17:20:59 INFO   Blackview_Oscal_C20.Test0 start Calling Image() for rear Image capture in uSD Card and Verify the Captured images
+2023-01-20 17:20:59 INFO   Blackview_Oscal_C20.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-20 17:20:59 INFO   Blackview_Oscal_C20.Test0 Images Launch Camera Application for Rear camera picture capture
+2023-01-20 17:21:01 INFO   Blackview_Oscal_C20.Test0 Images IF Change to uSD card notification pop-up exists select Cancel Option
+2023-01-20 17:21:11 INFO   Blackview_Oscal_C20.Test0 Images change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: C20, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: C20EEA000011548}, deviceApiLevel: 30, deviceManufacturer: Chinoe, deviceModel: C20, deviceName: C20EEA000011548, deviceScreenDensity: 320, deviceScreenSize: 720x1560, deviceUDID: C20EEA000011548, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 48, takesScreenshot: true, udid: C20EEA000011548, viewportRect: {height: 1360, left: 0, top: 48, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: b8e2fe1f-9cde-4e4b-a846-05ffbd385f6f
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("DENY")}
+2023-01-20 17:21:11 INFO   Blackview_Oscal_C20.Test0 Images if Location permisson Pop Exists Select Cancel Option
+2023-01-20 17:21:21 INFO   Blackview_Oscal_C20.Test0 Images Location permission access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: C20, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: C20EEA000011548}, deviceApiLevel: 30, deviceManufacturer: Chinoe, deviceModel: C20, deviceName: C20EEA000011548, deviceScreenDensity: 320, deviceScreenSize: 720x1560, deviceUDID: C20EEA000011548, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 48, takesScreenshot: true, udid: C20EEA000011548, viewportRect: {height: 1360, left: 0, top: 48, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: b8e2fe1f-9cde-4e4b-a846-05ffbd385f6f
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("START CAPTURE")}
+2023-01-20 17:21:21 INFO   Blackview_Oscal_C20.Test0 Images Switch to rear Camera Mode if current Exiting camera is Front camera Mode
+2023-01-20 17:21:23 INFO   Blackview_Oscal_C20.Test0 Images Select settings option
+2023-01-20 17:21:30 INFO   Blackview_Oscal_C20.Test0 Images Select Storagepath option
+2023-01-20 17:21:36 INFO   Blackview_Oscal_C20.Test0 Images Select SD as storage option
+2023-01-20 17:21:44 INFO   Blackview_Oscal_C20.Test0 Images Capture Image of Default Resolution
+2023-01-20 17:21:52 INFO   Blackview_Oscal_C20.Test0 Images Captureing default resolition image 0
+2023-01-20 17:22:00 INFO   Blackview_Oscal_C20.Test0 Images Captureing default resolition image 1
+2023-01-20 17:22:08 INFO   Blackview_Oscal_C20.Test0 Images Captureing default resolition image 2
+2023-01-20 17:22:16 INFO   Blackview_Oscal_C20.Test0 Images Captureing default resolition image 3
+2023-01-20 17:22:23 INFO   Blackview_Oscal_C20.Test0 Images Captureing default resolition image 4
+2023-01-20 17:22:31 INFO   Blackview_Oscal_C20.Test0 Images Captureing default resolition image 5
+2023-01-20 17:22:39 INFO   Blackview_Oscal_C20.Test0 Images Captureing default resolition image 6
+2023-01-20 17:22:46 INFO   Blackview_Oscal_C20.Test0 Images Captureing default resolition image 7
+2023-01-20 17:22:54 INFO   Blackview_Oscal_C20.Test0 Images Captureing default resolition image 8
+2023-01-20 17:23:01 INFO   Blackview_Oscal_C20.Test0 Images Captureing default resolition image 9
+2023-01-20 17:23:08 INFO   Blackview_Oscal_C20.Test0 Images Captureing default resolition image 10
+2023-01-20 17:23:16 INFO   Blackview_Oscal_C20.Test0 Images Captureing default resolition image 11
+2023-01-20 17:23:24 INFO   Blackview_Oscal_C20.Test0 Images Captureing default resolition image 12
+2023-01-20 17:23:32 INFO   Blackview_Oscal_C20.Test0 Images Captureing default resolition image 13
+2023-01-20 17:23:40 INFO   Blackview_Oscal_C20.Test0 Images Captureing default resolition image 14
+2023-01-20 17:23:48 INFO   Blackview_Oscal_C20.Test0 Images Captureing default resolition image 15
+2023-01-20 17:23:56 INFO   Blackview_Oscal_C20.Test0 Images Captureing default resolition image 16
+2023-01-20 17:24:04 INFO   Blackview_Oscal_C20.Test0 Images Captureing default resolition image 17
+2023-01-20 17:24:12 INFO   Blackview_Oscal_C20.Test0 Images Captureing default resolition image 18
+2023-01-20 17:24:20 INFO   Blackview_Oscal_C20.Test0 Images Captureing default resolition image 19
+2023-01-20 17:24:28 INFO   Blackview_Oscal_C20.Test0 Images Captureing default resolition image 20
+2023-01-20 17:24:36 INFO   Blackview_Oscal_C20.Test0 Images Captureing default resolition image 21
+2023-01-20 17:24:44 INFO   Blackview_Oscal_C20.Test0 Images Captureing default resolition image 22
+2023-01-20 17:24:52 INFO   Blackview_Oscal_C20.Test0 Images Captureing default resolition image 23
+2023-01-20 17:25:00 INFO   Blackview_Oscal_C20.Test0 Images Captureing default resolition image 24
+2023-01-20 17:25:05 INFO   Blackview_Oscal_C20.Test0 Images 25 image capture is successfull
+2023-01-20 17:25:05 INFO   Blackview_Oscal_C20.Test0 Images Launch File Manager application to verify  Image capture
+2023-01-20 17:25:12 INFO   Blackview_Oscal_C20.Test0 Images Select  SD Card
+2023-01-20 17:25:21 INFO   Blackview_Oscal_C20.Test0 Images Select DCIM Folder
+2023-01-20 17:25:32 INFO   Blackview_Oscal_C20.Test0 Images Select Camera Folder
+2023-01-20 17:25:37 INFO   Blackview_Oscal_C20.Test0 Images Select More Options 
+2023-01-20 17:25:48 INFO   Blackview_Oscal_C20.Test0 Images Click On Select All Options
+2023-01-20 17:25:59 INFO   Blackview_Oscal_C20.Test0 Images Pass:Total Number Of Image captured 25 is successfull
+2023-01-20 17:26:10 INFO   Blackview_Oscal_C20.Test0 Images Calling video() for rear video recording in USD card and verifying data capture.
+2023-01-20 17:26:10 INFO   Blackview_Oscal_C20.Test0 Images ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-20 17:26:10 INFO   Blackview_Oscal_C20.Test0 Video Launch home screen and clear recent apps
+2023-01-20 17:26:25 INFO   Blackview_Oscal_C20.Test0 Video re-launch camera application for rear camera video recording
+2023-01-20 17:26:27 INFO   Blackview_Oscal_C20.Test0 Video IF Change to uSD card notification pop-up exists select Cancel Option
+2023-01-20 17:26:37 INFO   Blackview_Oscal_C20.Test0 Video change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: C20, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: C20EEA000011548}, deviceApiLevel: 30, deviceManufacturer: Chinoe, deviceModel: C20, deviceName: C20EEA000011548, deviceScreenDensity: 320, deviceScreenSize: 720x1560, deviceUDID: C20EEA000011548, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 48, takesScreenshot: true, udid: C20EEA000011548, viewportRect: {height: 1360, left: 0, top: 48, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: b8e2fe1f-9cde-4e4b-a846-05ffbd385f6f
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("DENY")}
+2023-01-20 17:26:37 INFO   Blackview_Oscal_C20.Test0 Video if Location permisson Pop Exists Select Cancel Option
+2023-01-20 17:26:47 INFO   Blackview_Oscal_C20.Test0 Video Location permission access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: C20, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: C20EEA000011548}, deviceApiLevel: 30, deviceManufacturer: Chinoe, deviceModel: C20, deviceName: C20EEA000011548, deviceScreenDensity: 320, deviceScreenSize: 720x1560, deviceUDID: C20EEA000011548, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 48, takesScreenshot: true, udid: C20EEA000011548, viewportRect: {height: 1360, left: 0, top: 48, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: b8e2fe1f-9cde-4e4b-a846-05ffbd385f6f
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("START CAPTURE")}
+2023-01-20 17:26:47 INFO   Blackview_Oscal_C20.Test0 Video Switch to video recording mode
+2023-01-20 17:26:58 INFO   Blackview_Oscal_C20.Test0 Video Select settings option
+2023-01-20 17:27:03 INFO   Blackview_Oscal_C20.Test0 Video Select Storagepath option
+2023-01-20 17:27:09 INFO   Blackview_Oscal_C20.Test0 Video Select SD as storage option
+2023-01-20 17:27:17 INFO   Blackview_Oscal_C20.Test0 Video Select settings option
+2023-01-20 17:27:23 INFO   Blackview_Oscal_C20.Test0 Video Select Video size option
+2023-01-20 17:27:30 INFO   Blackview_Oscal_C20.Test0 Video Select first highest rear camera video resolution: HD 720p
+2023-01-20 17:27:35 INFO   Blackview_Oscal_C20.Test0 Video Start video recording
+2023-01-20 17:29:35 INFO   Blackview_Oscal_C20.Test0 Video Recording Video for 2Minutes of Duration
+2023-01-20 17:29:35 INFO   Blackview_Oscal_C20.Test0 Video Stop video recording
+2023-01-20 17:29:41 INFO   Blackview_Oscal_C20.Test0 Video Select settings option
+2023-01-20 17:29:47 INFO   Blackview_Oscal_C20.Test0 Video Select Video size option
+2023-01-20 17:29:53 INFO   Blackview_Oscal_C20.Test0 Video Select second highest rear camera video resolution: SD 480p
+2023-01-20 17:29:59 INFO   Blackview_Oscal_C20.Test0 Video Start video recording
+2023-01-20 17:31:59 INFO   Blackview_Oscal_C20.Test0 Video Recording Video for 2Minutes of Duration
+2023-01-20 17:31:59 INFO   Blackview_Oscal_C20.Test0 Video Stop video recording
+2023-01-20 17:32:04 INFO   Blackview_Oscal_C20.Test0 Video Switch to back to photo mode
+2023-01-20 17:32:20 INFO   Blackview_Oscal_C20.Test0 Video Rear camera video recording is successfull
+2023-01-20 17:32:20 INFO   Blackview_Oscal_C20.Test0 Video Launch file manager application to verify recorded videos in uSD card
+2023-01-20 17:32:27 INFO   Blackview_Oscal_C20.Test0 Video Select  SD Card
+2023-01-20 17:32:36 INFO   Blackview_Oscal_C20.Test0 Video Select DCIM Folder
+2023-01-20 17:32:46 INFO   Blackview_Oscal_C20.Test0 Video Select Camera Folder
+2023-01-20 17:32:51 INFO   Blackview_Oscal_C20.Test0 Video Select More Options 
+2023-01-20 17:33:02 INFO   Blackview_Oscal_C20.Test0 Video Click On Select All Options
+2023-01-20 17:33:12 INFO   Blackview_Oscal_C20.Test0 Video Pass: 2 Videos recorded Successfully
+2023-01-20 17:33:12 INFO   Blackview_Oscal_C20.Test0 Video Pass: A total of 27 files present in uSD card before Format
+2023-01-20 17:33:18 INFO   Blackview_Oscal_C20.Test0 Video calling Format() for format with data scenario
+2023-01-20 17:33:18 INFO   Blackview_Oscal_C20.Test0 Video ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-20 17:33:18 INFO   Blackview_Oscal_C20.Test0 Format Launch home screen and clear recent apps
+2023-01-20 17:33:29 INFO   Blackview_Oscal_C20.Test0 Format Clearing recent apps
+2023-01-20 17:33:36 INFO   Blackview_Oscal_C20.Test0 Format Launch Settings application for Format uSD card with Data scenario 
+2023-01-20 17:33:44 INFO   Blackview_Oscal_C20.Test0 Format Scrolling till battery and device care is visible
+2023-01-20 17:33:49 INFO   Blackview_Oscal_C20.Test0 Format Clicking on storage
+2023-01-20 17:33:55 INFO   Blackview_Oscal_C20.Test0 Format Clicking on SD card
+2023-01-20 17:34:05 INFO   Blackview_Oscal_C20.Test0 Format Clicking on SD card
+2023-01-20 17:34:10 INFO   Blackview_Oscal_C20.Test0 Format Clicking on more options
+2023-01-20 17:34:15 INFO   Blackview_Oscal_C20.Test0 Format Clicking on Storage settings
+2023-01-20 17:34:21 INFO   Blackview_Oscal_C20.Test0 Format Click Format
+2023-01-20 17:34:27 INFO   Blackview_Oscal_C20.Test0 Format Started formatting, waiting till it gets formatted
+2023-01-20 17:36:06 INFO   Blackview_Oscal_C20.Test0 Format Format uSD with Data is successfull
+2023-01-20 17:36:06 INFO   Blackview_Oscal_C20.Test0 Format Launch File Manager application to verify  Image capture
+2023-01-20 17:36:13 INFO   Blackview_Oscal_C20.Test0 Format Select  SD Card
+2023-01-20 17:36:21 INFO   Blackview_Oscal_C20.Test0 Format Select DCIM Folder
+2023-01-20 17:36:31 INFO   Blackview_Oscal_C20.Test0 Format Click On Camera Folder
+2023-01-20 17:36:42 INFO   Blackview_Oscal_C20.Test0 Format Pass: Images and videos are not present in the DCIM folder, CARD format is successfully completed 
+2023-01-20 17:36:42 INFO   Blackview_Oscal_C20.Test0 Format Final Message: Pass Test0 pass for format Operation
+2023-01-20 17:36:42 INFO   Blackview_Oscal_C20.Test0 Format Test: End
+2023-01-20 17:36:42 INFO   Blackview_Oscal_C20.Test0 Format ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

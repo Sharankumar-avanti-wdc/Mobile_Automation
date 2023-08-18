@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 11,285.409 s <<< FAILURE! - in TestSuite
+Motorola_Moto_E30_XT21596.Test10_Int.rearVideoRec  Time elapsed: 1,268.602 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: connect ECONNREFUSED 127.0.0.1:8203
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-201', ip: '10.65.147.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: moto e30, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: ZY32DKLV9L}, deviceApiLevel: 30, deviceManufacturer: motorola, deviceModel: moto e30, deviceName: ZY32DKLV9L, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: ZY32DKLV9L, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 77, takesScreenshot: true, udid: ZY32DKLV9L, viewportRect: {height: 1364, left: 0, top: 77, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: d1e20fee-80c7-4c66-b7d1-5410cd0c063d
+	at Motorola_Moto_E30_XT21596.Test10_Int.rearVideoRec(Test10_Int.java:295)
+
+Motorola_Moto_E30_XT21596.Test10F_Int.rearVideoRec  Time elapsed: 1,355.6 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-201', ip: '10.65.147.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: moto e30, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: ZY32DKLV9L}, deviceApiLevel: 30, deviceManufacturer: motorola, deviceModel: moto e30, deviceName: ZY32DKLV9L, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: ZY32DKLV9L, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 77, takesScreenshot: true, udid: ZY32DKLV9L, viewportRect: {height: 1364, left: 0, top: 77, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 50799e92-c4dc-41d5-9052-e94ad1dc64c5
+*** Element info: {Using=xpath, value=//*[@resource-id='com.ontim.camera2:id/camera_switcher']}
+	at Motorola_Moto_E30_XT21596.Test10F_Int.rearVideoRec(Test10F_Int.java:303)
+

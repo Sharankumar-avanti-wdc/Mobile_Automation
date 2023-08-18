@@ -1,0 +1,478 @@
+2023-03-13 15:25:11 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Test: Start
+2023-03-13 15:25:11 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-13 15:25:11 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Test9F Scenario is as follows:
+2023-03-13 15:25:11 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture 1.Launch camera application, set uSD as a Storage option, start Front camera image picture capture for all Host front resolutions
+2023-03-13 15:25:11 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Setting up the appium desired capabilities
+2023-03-13 15:25:11 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-13 15:25:23 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Launch home screen
+2023-03-13 15:25:33 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Clearing Recent Apps
+2023-03-13 15:25:33 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Pass: No recent apps found
+2023-03-13 15:25:37 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Launch Camera application for front camera Image capture
+2023-03-13 15:25:44 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture IF Change to uSD card notification pop-up exists select Cancel Option
+2023-03-13 15:25:54 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-201', ip: '10.65.147.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Z570, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: Z570000000000585}, deviceApiLevel: 30, deviceManufacturer: PLUM, deviceModel: Z570, deviceName: Z570000000000585, deviceScreenDensity: 320, deviceScreenSize: 720x1440, deviceUDID: Z570000000000585, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 48, takesScreenshot: true, udid: Z570000000000585, viewportRect: {height: 1296, left: 0, top: 48, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: ddfafd7c-40a2-4045-a661-a2d2d2992397
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("DENY")}
+2023-03-13 15:25:54 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture if Location permisson Pop Exists Select Cancel Option
+2023-03-13 15:26:04 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Location permission access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-201', ip: '10.65.147.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Z570, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: Z570000000000585}, deviceApiLevel: 30, deviceManufacturer: PLUM, deviceModel: Z570, deviceName: Z570000000000585, deviceScreenDensity: 320, deviceScreenSize: 720x1440, deviceUDID: Z570000000000585, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 48, takesScreenshot: true, udid: Z570000000000585, viewportRect: {height: 1296, left: 0, top: 48, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: ddfafd7c-40a2-4045-a661-a2d2d2992397
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("START CAPTURE")}
+2023-03-13 15:26:04 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Test9F_Fcam_res: 3 resolutions supported
+2023-03-13 15:26:04 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Switch to front  camera mode
+2023-03-13 15:26:07 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Select settings option
+2023-03-13 15:26:10 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Search for Storage path option
+2023-03-13 15:26:14 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Select SD as storage option
+2023-03-13 15:26:24 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Select settings option
+2023-03-13 15:26:27 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Select settings option to select resolution
+2023-03-13 15:26:31 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Select front camera front image resolution: 2560x1920
+2023-03-13 15:26:50 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 0
+2023-03-13 15:26:57 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 1
+2023-03-13 15:27:05 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 2
+2023-03-13 15:27:13 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 3
+2023-03-13 15:27:21 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 4
+2023-03-13 15:27:28 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 5
+2023-03-13 15:27:35 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 6
+2023-03-13 15:27:42 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 7
+2023-03-13 15:27:50 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 8
+2023-03-13 15:27:57 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 9
+2023-03-13 15:28:04 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 10
+2023-03-13 15:28:11 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 11
+2023-03-13 15:28:19 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 12
+2023-03-13 15:28:27 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 13
+2023-03-13 15:28:34 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 14
+2023-03-13 15:28:41 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 15
+2023-03-13 15:28:49 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 16
+2023-03-13 15:28:56 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 17
+2023-03-13 15:29:04 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 18
+2023-03-13 15:29:12 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 19
+2023-03-13 15:29:19 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 20
+2023-03-13 15:29:26 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 21
+2023-03-13 15:29:34 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 22
+2023-03-13 15:29:41 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 23
+2023-03-13 15:29:49 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 24
+2023-03-13 15:29:56 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 25
+2023-03-13 15:30:03 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 26
+2023-03-13 15:30:10 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 27
+2023-03-13 15:30:18 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 28
+2023-03-13 15:30:25 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 29
+2023-03-13 15:30:32 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 30
+2023-03-13 15:30:39 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 31
+2023-03-13 15:30:46 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 32
+2023-03-13 15:30:54 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 33
+2023-03-13 15:31:03 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 34
+2023-03-13 15:31:10 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 35
+2023-03-13 15:31:18 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 36
+2023-03-13 15:31:25 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 37
+2023-03-13 15:31:32 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 38
+2023-03-13 15:31:39 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 39
+2023-03-13 15:31:47 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 40
+2023-03-13 15:31:54 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 41
+2023-03-13 15:32:01 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 42
+2023-03-13 15:32:08 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 43
+2023-03-13 15:32:16 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 44
+2023-03-13 15:32:24 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 45
+2023-03-13 15:32:32 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 46
+2023-03-13 15:32:40 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 47
+2023-03-13 15:32:48 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 48
+2023-03-13 15:32:56 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 49
+2023-03-13 15:33:03 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 50
+2023-03-13 15:33:10 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 51
+2023-03-13 15:33:17 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 52
+2023-03-13 15:33:25 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 53
+2023-03-13 15:33:32 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 54
+2023-03-13 15:33:39 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 55
+2023-03-13 15:33:47 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 56
+2023-03-13 15:33:54 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 57
+2023-03-13 15:34:03 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 58
+2023-03-13 15:34:10 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 59
+2023-03-13 15:34:17 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 60
+2023-03-13 15:34:25 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 61
+2023-03-13 15:34:33 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 62
+2023-03-13 15:34:40 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 63
+2023-03-13 15:34:48 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 64
+2023-03-13 15:34:55 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 65
+2023-03-13 15:35:02 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 66
+2023-03-13 15:35:09 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 67
+2023-03-13 15:35:16 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 68
+2023-03-13 15:35:24 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 69
+2023-03-13 15:35:31 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 70
+2023-03-13 15:35:38 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 71
+2023-03-13 15:35:46 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 72
+2023-03-13 15:35:54 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 73
+2023-03-13 15:36:01 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 74
+2023-03-13 15:36:09 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 75
+2023-03-13 15:36:17 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 76
+2023-03-13 15:36:25 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 77
+2023-03-13 15:36:32 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 78
+2023-03-13 15:36:39 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 79
+2023-03-13 15:36:46 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 80
+2023-03-13 15:36:53 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 81
+2023-03-13 15:37:01 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 82
+2023-03-13 15:37:09 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 83
+2023-03-13 15:37:16 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 84
+2023-03-13 15:37:23 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 85
+2023-03-13 15:37:30 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 86
+2023-03-13 15:37:37 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 87
+2023-03-13 15:37:45 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 88
+2023-03-13 15:37:53 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 89
+2023-03-13 15:38:00 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 90
+2023-03-13 15:38:08 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 91
+2023-03-13 15:38:16 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 92
+2023-03-13 15:38:23 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 93
+2023-03-13 15:38:30 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 94
+2023-03-13 15:38:37 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 95
+2023-03-13 15:38:44 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 96
+2023-03-13 15:38:52 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 97
+2023-03-13 15:39:00 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 98
+2023-03-13 15:39:07 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing first resolution image 99
+2023-03-13 15:39:09 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Select settings option
+2023-03-13 15:39:12 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Select settings option to select resolution
+2023-03-13 15:39:16 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Select front camera second image resolution: 2464x1232
+2023-03-13 15:39:34 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 0
+2023-03-13 15:39:42 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 1
+2023-03-13 15:39:49 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 2
+2023-03-13 15:39:57 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 3
+2023-03-13 15:40:04 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 4
+2023-03-13 15:40:11 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 5
+2023-03-13 15:40:19 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 6
+2023-03-13 15:40:26 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 7
+2023-03-13 15:40:33 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 8
+2023-03-13 15:40:40 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 9
+2023-03-13 15:40:47 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 10
+2023-03-13 15:40:55 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 11
+2023-03-13 15:41:03 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 12
+2023-03-13 15:41:10 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 13
+2023-03-13 15:41:17 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 14
+2023-03-13 15:41:24 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 15
+2023-03-13 15:41:32 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 16
+2023-03-13 15:41:39 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 17
+2023-03-13 15:41:47 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 18
+2023-03-13 15:41:55 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 19
+2023-03-13 15:42:02 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 20
+2023-03-13 15:42:10 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 21
+2023-03-13 15:42:18 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 22
+2023-03-13 15:42:25 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 23
+2023-03-13 15:42:32 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 24
+2023-03-13 15:42:40 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 25
+2023-03-13 15:42:48 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 26
+2023-03-13 15:42:55 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 27
+2023-03-13 15:43:02 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 28
+2023-03-13 15:43:09 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 29
+2023-03-13 15:43:17 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 30
+2023-03-13 15:43:25 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 31
+2023-03-13 15:43:32 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 32
+2023-03-13 15:43:40 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 33
+2023-03-13 15:43:47 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 34
+2023-03-13 15:43:54 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 35
+2023-03-13 15:44:01 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 36
+2023-03-13 15:44:09 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 37
+2023-03-13 15:44:17 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 38
+2023-03-13 15:44:24 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 39
+2023-03-13 15:44:31 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 40
+2023-03-13 15:44:38 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 41
+2023-03-13 15:44:45 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 42
+2023-03-13 15:44:53 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 43
+2023-03-13 15:45:01 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 44
+2023-03-13 15:45:08 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 45
+2023-03-13 15:45:15 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 46
+2023-03-13 15:45:22 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 47
+2023-03-13 15:45:29 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 48
+2023-03-13 15:45:37 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 49
+2023-03-13 15:45:45 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 50
+2023-03-13 15:45:53 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 51
+2023-03-13 15:46:00 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 52
+2023-03-13 15:46:07 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 53
+2023-03-13 15:46:14 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 54
+2023-03-13 15:46:21 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 55
+2023-03-13 15:46:28 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 56
+2023-03-13 15:46:36 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 57
+2023-03-13 15:46:43 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 58
+2023-03-13 15:46:50 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 59
+2023-03-13 15:46:58 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 60
+2023-03-13 15:47:05 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 61
+2023-03-13 15:47:12 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 62
+2023-03-13 15:47:20 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 63
+2023-03-13 15:47:27 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 64
+2023-03-13 15:47:34 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 65
+2023-03-13 15:47:41 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 66
+2023-03-13 15:47:48 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 67
+2023-03-13 15:47:56 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 68
+2023-03-13 15:48:03 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 69
+2023-03-13 15:48:10 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 70
+2023-03-13 15:48:17 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 71
+2023-03-13 15:48:24 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 72
+2023-03-13 15:48:32 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 73
+2023-03-13 15:48:39 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 74
+2023-03-13 15:48:47 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 75
+2023-03-13 15:48:54 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 76
+2023-03-13 15:49:01 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 77
+2023-03-13 15:49:08 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 78
+2023-03-13 15:49:15 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 79
+2023-03-13 15:49:23 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 80
+2023-03-13 15:49:31 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 81
+2023-03-13 15:49:38 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 82
+2023-03-13 15:49:45 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 83
+2023-03-13 15:49:52 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 84
+2023-03-13 15:49:59 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 85
+2023-03-13 15:50:06 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 86
+2023-03-13 15:50:14 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 87
+2023-03-13 15:50:22 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 88
+2023-03-13 15:50:29 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 89
+2023-03-13 15:50:36 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 90
+2023-03-13 15:50:43 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 91
+2023-03-13 15:50:50 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 92
+2023-03-13 15:50:58 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 93
+2023-03-13 15:51:06 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 94
+2023-03-13 15:51:13 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 95
+2023-03-13 15:51:20 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 96
+2023-03-13 15:51:27 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 97
+2023-03-13 15:51:34 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 98
+2023-03-13 15:51:41 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing second resolution image 99
+2023-03-13 15:51:43 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Select settings option
+2023-03-13 15:51:47 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Select settings option to select resolution
+2023-03-13 15:51:51 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Select front camera third image resolution: 2304x1296
+2023-03-13 15:52:04 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:52:09 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 0
+2023-03-13 15:52:11 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:52:17 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 1
+2023-03-13 15:52:19 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:52:24 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 2
+2023-03-13 15:52:26 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:52:32 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 3
+2023-03-13 15:52:34 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:52:39 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 4
+2023-03-13 15:52:41 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:52:47 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 5
+2023-03-13 15:52:49 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:52:54 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 6
+2023-03-13 15:52:56 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:53:02 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 7
+2023-03-13 15:53:04 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:53:09 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 8
+2023-03-13 15:53:11 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:53:16 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 9
+2023-03-13 15:53:18 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:53:24 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 10
+2023-03-13 15:53:26 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:53:32 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 11
+2023-03-13 15:53:34 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:53:40 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 12
+2023-03-13 15:53:42 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:53:47 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 13
+2023-03-13 15:53:49 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:53:55 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 14
+2023-03-13 15:53:57 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:54:02 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 15
+2023-03-13 15:54:04 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:54:09 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 16
+2023-03-13 15:54:11 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:54:17 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 17
+2023-03-13 15:54:19 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:54:24 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 18
+2023-03-13 15:54:26 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:54:31 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 19
+2023-03-13 15:54:33 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:54:39 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 20
+2023-03-13 15:54:41 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:54:46 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 21
+2023-03-13 15:54:48 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:54:53 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 22
+2023-03-13 15:54:55 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:55:01 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 23
+2023-03-13 15:55:03 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:55:09 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 24
+2023-03-13 15:55:11 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:55:16 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 25
+2023-03-13 15:55:18 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:55:23 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 26
+2023-03-13 15:55:25 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:55:31 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 27
+2023-03-13 15:55:33 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:55:38 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 28
+2023-03-13 15:55:40 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:55:45 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 29
+2023-03-13 15:55:47 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:55:52 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 30
+2023-03-13 15:55:54 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:55:59 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 31
+2023-03-13 15:56:01 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:56:06 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 32
+2023-03-13 15:56:08 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:56:14 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 33
+2023-03-13 15:56:16 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:56:21 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 34
+2023-03-13 15:56:23 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:56:29 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 35
+2023-03-13 15:56:31 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:56:37 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 36
+2023-03-13 15:56:39 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:56:44 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 37
+2023-03-13 15:56:46 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:56:52 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 38
+2023-03-13 15:56:54 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:57:00 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 39
+2023-03-13 15:57:02 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:57:07 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 40
+2023-03-13 15:57:09 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:57:15 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 41
+2023-03-13 15:57:17 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:57:22 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 42
+2023-03-13 15:57:24 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:57:29 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 43
+2023-03-13 15:57:31 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:57:36 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 44
+2023-03-13 15:57:38 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:57:44 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 45
+2023-03-13 15:57:46 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:57:51 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 46
+2023-03-13 15:57:53 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:57:58 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 47
+2023-03-13 15:58:00 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:58:05 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 48
+2023-03-13 15:58:07 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:58:12 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 49
+2023-03-13 15:58:14 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:58:20 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 50
+2023-03-13 15:58:22 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:58:27 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 51
+2023-03-13 15:58:29 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:58:34 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 52
+2023-03-13 15:58:36 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:58:41 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 53
+2023-03-13 15:58:43 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:58:48 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 54
+2023-03-13 15:58:50 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:58:55 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 55
+2023-03-13 15:58:57 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:59:03 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 56
+2023-03-13 15:59:05 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:59:11 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 57
+2023-03-13 15:59:13 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:59:18 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 58
+2023-03-13 15:59:20 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:59:26 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 59
+2023-03-13 15:59:28 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:59:33 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 60
+2023-03-13 15:59:35 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:59:41 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 61
+2023-03-13 15:59:43 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:59:48 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 62
+2023-03-13 15:59:50 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 15:59:55 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 63
+2023-03-13 15:59:57 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 16:00:03 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 64
+2023-03-13 16:00:05 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 16:00:10 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 65
+2023-03-13 16:00:12 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 16:00:17 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 66
+2023-03-13 16:00:19 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 16:00:25 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 67
+2023-03-13 16:00:27 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 16:00:32 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 68
+2023-03-13 16:00:34 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 16:00:40 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 69
+2023-03-13 16:00:42 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 16:00:47 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 70
+2023-03-13 16:00:49 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 16:00:54 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 71
+2023-03-13 16:00:56 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 16:01:02 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 72
+2023-03-13 16:01:04 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 16:01:09 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 73
+2023-03-13 16:01:11 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 16:01:16 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 74
+2023-03-13 16:01:18 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 16:01:23 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 75
+2023-03-13 16:01:25 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 16:01:30 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 76
+2023-03-13 16:01:32 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 16:01:37 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 77
+2023-03-13 16:01:40 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 16:01:45 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 78
+2023-03-13 16:01:47 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 16:01:52 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 79
+2023-03-13 16:01:54 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 16:01:59 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 80
+2023-03-13 16:02:01 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 16:02:06 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 81
+2023-03-13 16:02:08 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 16:02:13 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 82
+2023-03-13 16:02:15 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 16:02:21 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 83
+2023-03-13 16:02:23 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 16:02:28 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 84
+2023-03-13 16:02:30 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 16:02:36 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 85
+2023-03-13 16:02:38 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 16:02:43 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 86
+2023-03-13 16:02:45 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 16:02:50 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 87
+2023-03-13 16:02:52 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 16:02:57 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 88
+2023-03-13 16:02:59 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 16:03:05 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 89
+2023-03-13 16:03:07 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 16:03:12 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 90
+2023-03-13 16:03:14 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 16:03:20 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 91
+2023-03-13 16:03:22 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 16:03:27 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 92
+2023-03-13 16:03:29 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 16:03:34 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 93
+2023-03-13 16:03:36 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 16:03:41 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 94
+2023-03-13 16:03:43 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 16:03:48 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 95
+2023-03-13 16:03:50 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 16:03:55 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 96
+2023-03-13 16:03:57 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 16:04:03 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 97
+2023-03-13 16:04:05 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 16:04:10 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 98
+2023-03-13 16:04:12 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Start image capture
+2023-03-13 16:04:18 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Captureing third resolution image 99
+2023-03-13 16:04:20 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Switch to back camera mode
+2023-03-13 16:04:22 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Total Count value:300 images to be Captured 
+2023-03-13 16:04:29 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Launch file manager application and verify captured images present  in uSD Card
+2023-03-13 16:04:46 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Swipe up to select uSD card
+2023-03-13 16:04:50 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Select SD card
+2023-03-13 16:04:56 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture switch to grid view mode to select DCIM folder
+2023-03-13 16:04:59 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Select DCIM folder
+2023-03-13 16:05:02 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Select camera folder
+2023-03-13 16:05:05 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture switch to list view mode 
+2023-03-13 16:05:09 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Click More options
+2023-03-13 16:05:15 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Click Select all
+2023-03-13 16:05:19 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Total Image captured
+2023-03-13 16:05:27 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Pass: Test9F pass for front Image capture
+2023-03-13 16:05:27 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Test9F_Fcam_image: 300  images Captured succesfull
+2023-03-13 16:05:27 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-13 16:05:34 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture calling DataMoveOperation() 
+2023-03-13 16:05:34 INFO   Plum_Gator7_Z570.Test9F DataMoveOperation Re-launch file manager application and select external storage for data move operation, select all front camera images files present in camera folder and move to Test9F folder
+2023-03-13 16:05:40 INFO   Plum_Gator7_Z570.Test9F DataMoveOperation Swipe up to select uSD card
+2023-03-13 16:05:43 INFO   Plum_Gator7_Z570.Test9F DataMoveOperation Select external storage
+2023-03-13 16:05:50 INFO   Plum_Gator7_Z570.Test9F DataMoveOperation Click More options
+2023-03-13 16:05:56 INFO   Plum_Gator7_Z570.Test9F DataMoveOperation Select add new folder option
+2023-03-13 16:06:03 INFO   Plum_Gator7_Z570.Test9F DataMoveOperation Name folder as Test9F
+2023-03-13 16:06:16 INFO   Plum_Gator7_Z570.Test9F DataMoveOperation Select DCIM folder
+2023-03-13 16:06:19 INFO   Plum_Gator7_Z570.Test9F DataMoveOperation Select camera folder
+2023-03-13 16:06:23 INFO   Plum_Gator7_Z570.Test9F DataMoveOperation Click More options
+2023-03-13 16:06:29 INFO   Plum_Gator7_Z570.Test9F DataMoveOperation Click select all option
+2023-03-13 16:06:36 INFO   Plum_Gator7_Z570.Test9F DataMoveOperation Click More options
+2023-03-13 16:06:42 INFO   Plum_Gator7_Z570.Test9F DataMoveOperation Select Move to option
+2023-03-13 16:06:49 INFO   Plum_Gator7_Z570.Test9F DataMoveOperation Select SD card
+2023-03-13 16:06:55 INFO   Plum_Gator7_Z570.Test9F DataMoveOperation Select Test9 folder
+2023-03-13 16:07:01 INFO   Plum_Gator7_Z570.Test9F DataMoveOperation Click move here
+2023-03-13 16:09:08 INFO   Plum_Gator7_Z570.Test9F DataMoveOperation Pass: Test9 Pass for data move operation successfully
+2023-03-13 16:09:08 INFO   Plum_Gator7_Z570.Test9F DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-13 16:09:08 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Final Message: Pass Test9F Pass for front Camera image capture
+2023-03-13 16:09:08 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture Test: End
+2023-03-13 16:09:08 INFO   Plum_Gator7_Z570.Test9F RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

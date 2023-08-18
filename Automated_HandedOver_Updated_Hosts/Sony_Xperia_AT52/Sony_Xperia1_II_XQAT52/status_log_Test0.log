@@ -1,0 +1,121 @@
+2023-01-09 18:47:15 INFO   Sony_Xperia1_II_XQAT52.Test0 start Test: Start
+2023-01-09 18:47:15 INFO   Sony_Xperia1_II_XQAT52.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-09 18:47:15 INFO   Sony_Xperia1_II_XQAT52.Test0 start  Test0 Scenario is as follows 
+2023-01-09 18:47:15 INFO   Sony_Xperia1_II_XQAT52.Test0 start 1.Unlock phone, clear recent apps, clear internal memory
+2023-01-09 18:47:15 INFO   Sony_Xperia1_II_XQAT52.Test0 start 2.Call Image() and Capture Rear camera 25 images for default resolution in uSD card and Verify the data capture
+2023-01-09 18:47:15 INFO   Sony_Xperia1_II_XQAT52.Test0 start 3.Call Video() and record Rear camera video of first 2 resloutions for 2 minutes of duration in uSD Card and verify the same
+2023-01-09 18:47:15 INFO   Sony_Xperia1_II_XQAT52.Test0 start 4.Call Format() and format uSD card with data and verify the same
+2023-01-09 18:47:15 INFO   Sony_Xperia1_II_XQAT52.Test0 start Setting up the appium desired capabilities
+2023-01-09 18:47:15 INFO   Sony_Xperia1_II_XQAT52.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-09 18:47:35 INFO   Sony_Xperia1_II_XQAT52.Test0 start Clearing Recent Apps
+2023-01-09 18:47:45 INFO   Sony_Xperia1_II_XQAT52.Test0 start Pass: Test0 Pass for clearing Recent apps 
+2023-01-09 18:47:47 INFO   Sony_Xperia1_II_XQAT52.Test0 start Launch File Manager Application and clear internal memory
+2023-01-09 18:47:53 INFO   Sony_Xperia1_II_XQAT52.Test0 start Select  Internal storage
+2023-01-09 18:47:53 INFO   Sony_Xperia1_II_XQAT52.Test0 start Swipe up and select uSD card
+2023-01-09 18:47:56 INFO   Sony_Xperia1_II_XQAT52.Test0 start Select Internal storage
+2023-01-09 18:48:41 INFO   Sony_Xperia1_II_XQAT52.Test0 start Pass: Clearing phone internal memory is successfull
+2023-01-09 18:48:41 INFO   Sony_Xperia1_II_XQAT52.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-09 18:48:54 INFO   Sony_Xperia1_II_XQAT52.Test0 start Calling Image() for rear Image capture in uSD Card and Verify the Captured images
+2023-01-09 18:48:54 INFO   Sony_Xperia1_II_XQAT52.Test0 Images Launch Camera Application for Rear picture capture
+2023-01-09 18:48:56 INFO   Sony_Xperia1_II_XQAT52.Test0 Images if Location permisson Pop Exists Select Cancel Option
+2023-01-09 18:49:06 INFO   Sony_Xperia1_II_XQAT52.Test0 Images change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: XQ-AT52, newCommandTimeout: 600, platformName: android, platformVersion: 11, udid: QV710PLJ3F}, deviceApiLevel: 30, deviceManufacturer: Sony, deviceModel: XQ-AT52, deviceName: QV710PLJ3F, deviceScreenDensity: 420, deviceScreenSize: 1096x2560, deviceUDID: QV710PLJ3F, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 63, takesScreenshot: true, udid: QV710PLJ3F, viewportRect: {height: 2371, left: 0, top: 63, width: 1096}, warnings: {}, webStorageEnabled: false}
+Session ID: 4bc3ac91-111d-4e09-9e0e-47128e9bc22b
+*** Element info: {Using=xpath, value=//*[@text='NO']}
+2023-01-09 18:49:16 INFO   Sony_Xperia1_II_XQAT52.Test0 Images Currently camera is already in rear camera mode no need to switch
+2023-01-09 18:49:19 INFO   Sony_Xperia1_II_XQAT52.Test0 Images Select settings option
+2023-01-09 18:49:24 INFO   Sony_Xperia1_II_XQAT52.Test0 Images Search for Data storage option
+2023-01-09 18:49:38 INFO   Sony_Xperia1_II_XQAT52.Test0 Images Select SD as storage option
+2023-01-09 18:49:47 INFO   Sony_Xperia1_II_XQAT52.Test0 Images Capture Image of Default Resolution
+2023-01-09 18:49:56 INFO   Sony_Xperia1_II_XQAT52.Test0 Images clicking Image of Default Resolutions0
+2023-01-09 18:50:04 INFO   Sony_Xperia1_II_XQAT52.Test0 Images clicking Image of Default Resolutions1
+2023-01-09 18:50:14 INFO   Sony_Xperia1_II_XQAT52.Test0 Images clicking Image of Default Resolutions2
+2023-01-09 18:50:23 INFO   Sony_Xperia1_II_XQAT52.Test0 Images clicking Image of Default Resolutions3
+2023-01-09 18:50:31 INFO   Sony_Xperia1_II_XQAT52.Test0 Images clicking Image of Default Resolutions4
+2023-01-09 18:50:41 INFO   Sony_Xperia1_II_XQAT52.Test0 Images clicking Image of Default Resolutions5
+2023-01-09 18:50:49 INFO   Sony_Xperia1_II_XQAT52.Test0 Images clicking Image of Default Resolutions6
+2023-01-09 18:50:58 INFO   Sony_Xperia1_II_XQAT52.Test0 Images clicking Image of Default Resolutions7
+2023-01-09 18:51:07 INFO   Sony_Xperia1_II_XQAT52.Test0 Images clicking Image of Default Resolutions8
+2023-01-09 18:51:16 INFO   Sony_Xperia1_II_XQAT52.Test0 Images clicking Image of Default Resolutions9
+2023-01-09 18:51:25 INFO   Sony_Xperia1_II_XQAT52.Test0 Images clicking Image of Default Resolutions10
+2023-01-09 18:51:33 INFO   Sony_Xperia1_II_XQAT52.Test0 Images clicking Image of Default Resolutions11
+2023-01-09 18:51:43 INFO   Sony_Xperia1_II_XQAT52.Test0 Images clicking Image of Default Resolutions12
+2023-01-09 18:51:53 INFO   Sony_Xperia1_II_XQAT52.Test0 Images clicking Image of Default Resolutions13
+2023-01-09 18:52:02 INFO   Sony_Xperia1_II_XQAT52.Test0 Images clicking Image of Default Resolutions14
+2023-01-09 18:52:13 INFO   Sony_Xperia1_II_XQAT52.Test0 Images clicking Image of Default Resolutions15
+2023-01-09 18:52:23 INFO   Sony_Xperia1_II_XQAT52.Test0 Images clicking Image of Default Resolutions16
+2023-01-09 18:52:32 INFO   Sony_Xperia1_II_XQAT52.Test0 Images clicking Image of Default Resolutions17
+2023-01-09 18:52:41 INFO   Sony_Xperia1_II_XQAT52.Test0 Images clicking Image of Default Resolutions18
+2023-01-09 18:52:51 INFO   Sony_Xperia1_II_XQAT52.Test0 Images clicking Image of Default Resolutions19
+2023-01-09 18:53:01 INFO   Sony_Xperia1_II_XQAT52.Test0 Images clicking Image of Default Resolutions20
+2023-01-09 18:53:10 INFO   Sony_Xperia1_II_XQAT52.Test0 Images clicking Image of Default Resolutions21
+2023-01-09 18:53:19 INFO   Sony_Xperia1_II_XQAT52.Test0 Images clicking Image of Default Resolutions22
+2023-01-09 18:53:29 INFO   Sony_Xperia1_II_XQAT52.Test0 Images clicking Image of Default Resolutions23
+2023-01-09 18:53:38 INFO   Sony_Xperia1_II_XQAT52.Test0 Images clicking Image of Default Resolutions24
+2023-01-09 18:53:43 INFO   Sony_Xperia1_II_XQAT52.Test0 Images Pass:Total Number Of Image captured 25 is successfull
+2023-01-09 18:53:43 INFO   Sony_Xperia1_II_XQAT52.Test0 Images Launch File Manager application to verify  Image capture
+2023-01-09 18:53:52 INFO   Sony_Xperia1_II_XQAT52.Test0 Images Select  SD Card
+2023-01-09 18:53:57 INFO   Sony_Xperia1_II_XQAT52.Test0 Images Select DCIM Folder
+2023-01-09 18:54:02 INFO   Sony_Xperia1_II_XQAT52.Test0 Images Select Camera Folder
+2023-01-09 18:54:07 INFO   Sony_Xperia1_II_XQAT52.Test0 Images Select More Options 
+2023-01-09 18:54:13 INFO   Sony_Xperia1_II_XQAT52.Test0 Images Click On Select All Options
+2023-01-09 18:54:24 INFO   Sony_Xperia1_II_XQAT52.Test0 Images Pass:Total Number Of Image captured 25 is successfull
+2023-01-09 18:54:24 INFO   Sony_Xperia1_II_XQAT52.Test0 Images ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-09 18:54:42 INFO   Sony_Xperia1_II_XQAT52.Test0 Images Calling video() for rear video recording in USD card and verifying data capture.
+2023-01-09 18:54:42 INFO   Sony_Xperia1_II_XQAT52.Test0 Video if Location permisson Pop Exists Select Cancel Option
+2023-01-09 18:54:52 INFO   Sony_Xperia1_II_XQAT52.Test0 Video change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: XQ-AT52, newCommandTimeout: 600, platformName: android, platformVersion: 11, udid: QV710PLJ3F}, deviceApiLevel: 30, deviceManufacturer: Sony, deviceModel: XQ-AT52, deviceName: QV710PLJ3F, deviceScreenDensity: 420, deviceScreenSize: 1096x2560, deviceUDID: QV710PLJ3F, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 63, takesScreenshot: true, udid: QV710PLJ3F, viewportRect: {height: 2371, left: 0, top: 63, width: 1096}, warnings: {}, webStorageEnabled: false}
+Session ID: 4bc3ac91-111d-4e09-9e0e-47128e9bc22b
+*** Element info: {Using=xpath, value=//*[@text='NO']}
+2023-01-09 18:55:02 INFO   Sony_Xperia1_II_XQAT52.Test0 Video Currently camera is already in rear camera mode no need to switch
+2023-01-09 18:55:02 INFO   Sony_Xperia1_II_XQAT52.Test0 Video Switch to Video Mode
+2023-01-09 18:55:06 INFO   Sony_Xperia1_II_XQAT52.Test0 Video Select settings option
+2023-01-09 18:55:11 INFO   Sony_Xperia1_II_XQAT52.Test0 Video Search for Data storage option
+2023-01-09 18:55:25 INFO   Sony_Xperia1_II_XQAT52.Test0 Video Select SD as storage option
+2023-01-09 18:55:40 INFO   Sony_Xperia1_II_XQAT52.Test0 Video Select 1st Back Video Resolution:4K
+2023-01-09 18:55:47 INFO   Sony_Xperia1_II_XQAT52.Test0 Video Start video recording
+2023-01-09 18:56:49 INFO   Sony_Xperia1_II_XQAT52.Test0 Video Recording Video for 2Minutes of Duration
+2023-01-09 18:56:49 INFO   Sony_Xperia1_II_XQAT52.Test0 Video Stop video recording
+2023-01-09 18:56:55 INFO   Sony_Xperia1_II_XQAT52.Test0 Video Select settings option to select second resolution
+2023-01-09 18:57:01 INFO   Sony_Xperia1_II_XQAT52.Test0 Video Select 1st Back Video Resolution:Full HD
+2023-01-09 18:57:08 INFO   Sony_Xperia1_II_XQAT52.Test0 Video Start video recording
+2023-01-09 18:58:10 INFO   Sony_Xperia1_II_XQAT52.Test0 Video Recording Video for 2Minutes of Duration
+2023-01-09 18:58:10 INFO   Sony_Xperia1_II_XQAT52.Test0 Video Stop video recording
+2023-01-09 18:58:21 INFO   Sony_Xperia1_II_XQAT52.Test0 Video Pass: Rear camera video recording is successfull
+2023-01-09 18:58:21 INFO   Sony_Xperia1_II_XQAT52.Test0 Video Verifying Captured Videos
+2023-01-09 18:58:21 INFO   Sony_Xperia1_II_XQAT52.Test0 Video Launch Home screen and Clear recent Apps
+2023-01-09 18:58:21 INFO   Sony_Xperia1_II_XQAT52.Test0 Video Launch File Manager application to verify  Image capture
+2023-01-09 18:58:29 INFO   Sony_Xperia1_II_XQAT52.Test0 Video Select  SD Card
+2023-01-09 18:58:35 INFO   Sony_Xperia1_II_XQAT52.Test0 Video Select DCIM Folder
+2023-01-09 18:58:40 INFO   Sony_Xperia1_II_XQAT52.Test0 Video Select Camera Folder
+2023-01-09 18:58:45 INFO   Sony_Xperia1_II_XQAT52.Test0 Video Select More Options 
+2023-01-09 18:58:51 INFO   Sony_Xperia1_II_XQAT52.Test0 Video Click On Select All Options
+2023-01-09 18:59:02 INFO   Sony_Xperia1_II_XQAT52.Test0 Video Pass: 2 Videos recorded Successfully
+2023-01-09 18:59:02 INFO   Sony_Xperia1_II_XQAT52.Test0 Video Pass: A total of 27 files present in uSD card before Format
+2023-01-09 18:59:02 INFO   Sony_Xperia1_II_XQAT52.Test0 Video ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-09 18:59:19 INFO   Sony_Xperia1_II_XQAT52.Test0 Video calling Format() for format with data scenario
+2023-01-09 18:59:19 INFO   Sony_Xperia1_II_XQAT52.Test0 Format Launch Settings application for Format uSD card with Data scenario 
+2023-01-09 18:59:25 INFO   Sony_Xperia1_II_XQAT52.Test0 Format Scrolling till battery and device care is visible
+2023-01-09 18:59:33 INFO   Sony_Xperia1_II_XQAT52.Test0 Format Clicking on Storage care
+2023-01-09 18:59:43 INFO   Sony_Xperia1_II_XQAT52.Test0 Format Clicking on More Options
+2023-01-09 18:59:49 INFO   Sony_Xperia1_II_XQAT52.Test0 Format Clicking on more options
+2023-01-09 18:59:54 INFO   Sony_Xperia1_II_XQAT52.Test0 Format Clicking on SD card
+2023-01-09 19:00:05 INFO   Sony_Xperia1_II_XQAT52.Test0 Format Click Format
+2023-01-09 19:00:10 INFO   Sony_Xperia1_II_XQAT52.Test0 Format Started formatting, waiting till it gets formatted
+2023-01-09 19:01:57 INFO   Sony_Xperia1_II_XQAT52.Test0 Format Pass: Format uSD with Data is successfull
+2023-01-09 19:02:06 INFO   Sony_Xperia1_II_XQAT52.Test0 Format Select  SD Card
+2023-01-09 19:02:11 INFO   Sony_Xperia1_II_XQAT52.Test0 Format Select DCIM Folder
+2023-01-09 19:02:16 INFO   Sony_Xperia1_II_XQAT52.Test0 Format Select Camera Folder
+2023-01-09 19:02:31 INFO   Sony_Xperia1_II_XQAT52.Test0 Format Pass:Images and videos are not present in the DCIM folder, CARD format is successfully completed 
+2023-01-09 19:02:31 INFO   Sony_Xperia1_II_XQAT52.Test0 Format ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-09 19:02:31 INFO   Sony_Xperia1_II_XQAT52.Test0 Format Final Message: Pass Test0 pass for format Operation
+2023-01-09 19:02:31 INFO   Sony_Xperia1_II_XQAT52.Test0 Format Test:End
+2023-01-09 19:02:31 INFO   Sony_Xperia1_II_XQAT52.Test0 Format ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

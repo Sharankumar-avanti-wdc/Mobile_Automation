@@ -1,0 +1,78 @@
+2023-01-05 20:03:43 INFO   LG_G8s_ThinQ.Test8 recordAudio Test: Start
+2023-01-05 20:03:43 INFO   LG_G8s_ThinQ.Test8 recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-05 20:03:43 INFO   LG_G8s_ThinQ.Test8 recordAudio Test8 scenario is as follows
+2023-01-05 20:03:43 INFO   LG_G8s_ThinQ.Test8 recordAudio 1.Launch mobile default voice recording application and set uSD card storage option, record audio file for 2 minutes duration
+2023-01-05 20:03:43 INFO   LG_G8s_ThinQ.Test8 recordAudio 2.Launch file manager application and playback recorded audio file from external storage, fast forward audio file and pause
+2023-01-05 20:03:43 INFO   LG_G8s_ThinQ.Test8 recordAudio 3.Launch file manager application and playback copied audio files from external storage the files are placed in the Test1 folder
+2023-01-05 20:03:43 INFO   LG_G8s_ThinQ.Test8 recordAudio Setting up the appium desired capabilities
+2023-01-05 20:03:43 INFO   LG_G8s_ThinQ.Test8 recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-05 20:04:01 INFO   LG_G8s_ThinQ.Test8 recordAudio Clearing Recent Apps
+2023-01-05 20:04:11 INFO   LG_G8s_ThinQ.Test8 recordAudio Pass: Test0 Pass for clearing Recent apps 
+2023-01-05 20:04:13 INFO   LG_G8s_ThinQ.Test8 recordAudio Launch Voice recorder application
+2023-01-05 20:04:17 INFO   LG_G8s_ThinQ.Test8 recordAudio Clicking on Smore options
+2023-01-05 20:04:21 INFO   LG_G8s_ThinQ.Test8 recordAudio Clicking on Settings Tab
+2023-01-05 20:04:24 INFO   LG_G8s_ThinQ.Test8 recordAudio Clicking on save to 
+2023-01-05 20:04:32 INFO   LG_G8s_ThinQ.Test8 recordAudio Select uSD Card save location
+2023-01-05 20:04:35 INFO   LG_G8s_ThinQ.Test8 recordAudio Start Recording
+2023-01-05 20:07:11 INFO   LG_G8s_ThinQ.Test8 recordAudio Recording Completed
+2023-01-05 20:07:26 INFO   LG_G8s_ThinQ.Test8 recordAudio Pass: Test8 pass for audio recording in uSD Card
+2023-01-05 20:07:26 INFO   LG_G8s_ThinQ.Test8 recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-05 20:07:26 INFO   LG_G8s_ThinQ.Test8 recordAudio Launch File Manager Application to verify recorded audio
+2023-01-05 20:07:27 INFO   LG_G8s_ThinQ.Test8 recordAudio swipe up and search for sd card
+2023-01-05 20:07:32 INFO   LG_G8s_ThinQ.Test8 recordAudio Select  SD Card
+2023-01-05 20:07:37 INFO   LG_G8s_ThinQ.Test8 recordAudio switch to grid view mode and select AudioRecorder  folder
+2023-01-05 20:07:40 INFO   LG_G8s_ThinQ.Test8 recordAudio Select AudioRecorder Folder
+2023-01-05 20:07:45 INFO   LG_G8s_ThinQ.Test8 recordAudio Select my_sounds Folder
+2023-01-05 20:07:50 INFO   LG_G8s_ThinQ.Test8 recordAudio switch to list view mode 
+2023-01-05 20:07:54 INFO   LG_G8s_ThinQ.Test8 recordAudio Select More Options 
+2023-01-05 20:07:59 INFO   LG_G8s_ThinQ.Test8 recordAudio Click On Select All Options
+2023-01-05 20:08:08 INFO   LG_G8s_ThinQ.Test8 recordAudio Test8: 1 Audio file recorded  sucessfully
+2023-01-05 20:08:08 INFO   LG_G8s_ThinQ.Test8 recordAudio Pass: Test8 pass for audio recording in uSD Card
+2023-01-05 20:08:08 INFO   LG_G8s_ThinQ.Test8 recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-05 20:08:08 INFO   LG_G8s_ThinQ.Test8 recordAudio Calling PlayRecordedAudio() to play back recorded file
+2023-01-05 20:08:13 INFO   LG_G8s_ThinQ.Test8 PlayRecordedAudio Clearing Recent Apps
+2023-01-05 20:08:24 INFO   LG_G8s_ThinQ.Test8 PlayRecordedAudio Clearing Recent Apps
+2023-01-05 20:08:34 INFO   LG_G8s_ThinQ.Test8 PlayRecordedAudio Pass: Test0 Pass for clearing Recent apps 
+2023-01-05 20:08:42 INFO   LG_G8s_ThinQ.Test8 PlayRecordedAudio Launching file manager application
+2023-01-05 20:08:42 INFO   LG_G8s_ThinQ.Test8 PlayRecordedAudio swipe up and search for sd card
+2023-01-05 20:08:45 INFO   LG_G8s_ThinQ.Test8 PlayRecordedAudio Select  SD Card
+2023-01-05 20:08:50 INFO   LG_G8s_ThinQ.Test8 PlayRecordedAudio switch to grid view mode and select AudioRecorder  folder
+2023-01-05 20:08:57 INFO   LG_G8s_ThinQ.Test8 PlayRecordedAudio clicking AudioRecorder folder
+2023-01-05 20:09:00 INFO   LG_G8s_ThinQ.Test8 PlayRecordedAudio Clicking recordings folder
+2023-01-05 20:09:00 INFO   LG_G8s_ThinQ.Test8 PlayRecordedAudio switch to list view mode 
+2023-01-05 20:09:04 INFO   LG_G8s_ThinQ.Test8 PlayRecordedAudio Started Audio playback
+2023-01-05 20:09:24 INFO   LG_G8s_ThinQ.Test8 PlayRecordedAudio Fast Forwarding Audio for 10 Seconds
+2023-01-05 20:09:44 INFO   LG_G8s_ThinQ.Test8 PlayRecordedAudio click on pause
+2023-01-05 20:09:48 INFO   LG_G8s_ThinQ.Test8 PlayRecordedAudio Pass: Test8 Pass for playing recorded Audio file
+2023-01-05 20:09:58 INFO   LG_G8s_ThinQ.Test8 PlayRecordedAudio Pass: Test8 Pass for playing, fast forward, and pause recorded audio file scenario
+2023-01-05 20:09:58 INFO   LG_G8s_ThinQ.Test8 PlayRecordedAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-05 20:09:58 INFO   LG_G8s_ThinQ.Test8 PlayRecordedAudio Calling PlayCopiedAudioFile() for copied audio files from Test1 folder
+2023-01-05 20:10:15 INFO   LG_G8s_ThinQ.Test8 PlayCopiedAudioFile Clearing Recent Apps
+2023-01-05 20:10:23 INFO   LG_G8s_ThinQ.Test8 PlayCopiedAudioFile Pass: Test0 Pass for clearing Recent apps 
+2023-01-05 20:10:31 INFO   LG_G8s_ThinQ.Test8 PlayCopiedAudioFile Launching file manager application
+2023-01-05 20:10:31 INFO   LG_G8s_ThinQ.Test8 PlayCopiedAudioFile swipe up and search for sd card
+2023-01-05 20:10:34 INFO   LG_G8s_ThinQ.Test8 PlayCopiedAudioFile Select  SD Card
+2023-01-05 20:10:40 INFO   LG_G8s_ThinQ.Test8 PlayCopiedAudioFile Select test1
+2023-01-05 20:10:43 INFO   LG_G8s_ThinQ.Test8 PlayCopiedAudioFile Select testfile
+2023-01-05 20:10:46 INFO   LG_G8s_ThinQ.Test8 PlayCopiedAudioFile Select 1GB
+2023-01-05 20:10:49 INFO   LG_G8s_ThinQ.Test8 PlayCopiedAudioFile Select MP3 Files
+2023-01-05 20:10:53 INFO   LG_G8s_ThinQ.Test8 PlayCopiedAudioFile Select Laahe.Mp3.mp3
+2023-01-05 20:10:53 INFO   LG_G8s_ThinQ.Test8 PlayCopiedAudioFile Started video playback
+2023-01-05 20:11:13 INFO   LG_G8s_ThinQ.Test8 PlayCopiedAudioFile Fast Forwarding Audio for 10 Seconds
+2023-01-05 20:11:24 INFO   LG_G8s_ThinQ.Test8 PlayCopiedAudioFile Pause audio playback
+2023-01-05 20:11:28 INFO   LG_G8s_ThinQ.Test8 PlayCopiedAudioFile Pass: 1st Copied Audio play back and fast forward is successfull
+2023-01-05 20:11:30 INFO   LG_G8s_ThinQ.Test8 PlayCopiedAudioFile select 11 Rob Thomas - Lonely No More.mp3
+2023-01-05 20:11:30 INFO   LG_G8s_ThinQ.Test8 PlayCopiedAudioFile Started audio playback
+2023-01-05 20:11:50 INFO   LG_G8s_ThinQ.Test8 PlayCopiedAudioFile Fast Forwarding Audio for 10 Seconds
+2023-01-05 20:12:01 INFO   LG_G8s_ThinQ.Test8 PlayCopiedAudioFile Pause audio playback
+2023-01-05 20:12:04 INFO   LG_G8s_ThinQ.Test8 PlayCopiedAudioFile Pass: 2nd Copied Audio play back and fast forward is successfull
+2023-01-05 20:12:07 INFO   LG_G8s_ThinQ.Test8 PlayCopiedAudioFile select file_example_MP3_5MG.mp3
+2023-01-05 20:12:07 INFO   LG_G8s_ThinQ.Test8 PlayCopiedAudioFile Started audio playback
+2023-01-05 20:12:27 INFO   LG_G8s_ThinQ.Test8 PlayCopiedAudioFile Fast Forwarding Audio for 10 Seconds
+2023-01-05 20:12:38 INFO   LG_G8s_ThinQ.Test8 PlayCopiedAudioFile Pause audio playback
+2023-01-05 20:12:45 INFO   LG_G8s_ThinQ.Test8 PlayCopiedAudioFile Pass: 3rd Copied Audio play back and fast forward is successfull
+2023-01-05 20:12:45 INFO   LG_G8s_ThinQ.Test8 PlayCopiedAudioFile Pass: Test8 Pass for Recorded and copied audio play back and fast forward scenario
+2023-01-05 20:12:45 INFO   LG_G8s_ThinQ.Test8 PlayCopiedAudioFile ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-05 20:12:45 INFO   LG_G8s_ThinQ.Test8 PlayCopiedAudioFile Final Message: Pass Test8 Pass for Recorded and copied audio play back and fast forward scenario
+2023-01-05 20:12:45 INFO   LG_G8s_ThinQ.Test8 PlayCopiedAudioFile Test: End
+2023-01-05 20:12:45 INFO   LG_G8s_ThinQ.Test8 PlayCopiedAudioFile ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

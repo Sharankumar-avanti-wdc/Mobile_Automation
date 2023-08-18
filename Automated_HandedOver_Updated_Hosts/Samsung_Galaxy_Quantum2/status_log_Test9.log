@@ -1,0 +1,337 @@
+2022-10-14 16:25:47 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture Test: Start
+2022-10-14 16:25:47 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-14 16:25:47 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture Test9 Scenario is follows:
+2022-10-14 16:25:47 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture 1.Launch camera application, set uSD as a Storage option, start rear camera Image capture for all host resolutions
+2022-10-14 16:25:47 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture Setting up the appium desired capabilities
+2022-10-14 16:25:47 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-14 16:25:56 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture Launch Home Screen and Clear recent
+2022-10-14 16:26:15 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture Launch Camera application for rear Picture capture for all host resolution
+2022-10-14 16:26:16 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture If change to uSD card pop-up exists select Cancel
+2022-10-14 16:26:26 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy Quantum2, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: R5CR315JDCJ}, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-A826S, deviceName: R5CR315JDCJ, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: R5CR315JDCJ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 73, takesScreenshot: true, udid: R5CR315JDCJ, viewportRect: {height: 2119, left: 0, top: 73, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: e7701fa2-14fe-48e3-8e22-f6b7a2d6cf50
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2022-10-14 16:26:26 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture If Location access Permission Request Pop Exists Click on Cancel. 
+2022-10-14 16:26:37 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture Location access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy Quantum2, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: R5CR315JDCJ}, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-A826S, deviceName: R5CR315JDCJ, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: R5CR315JDCJ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 73, takesScreenshot: true, udid: R5CR315JDCJ, viewportRect: {height: 2119, left: 0, top: 73, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: e7701fa2-14fe-48e3-8e22-f6b7a2d6cf50
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2022-10-14 16:26:37 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture Switch To Rear Camera mode if current Exiting camera is Front camera mode
+2022-10-14 16:26:47 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture Current Existing Camera is Rear Camera mode.
+2022-10-14 16:26:47 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture Test9_Bcam_res: 5 resolutions supported
+2022-10-14 16:26:47 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture Click Settings option
+2022-10-14 16:26:52 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture Search for Storage location
+2022-10-14 16:27:08 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture Select SD as storage option
+2022-10-14 16:27:16 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture Select Rear Image Size
+2022-10-14 16:27:16 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture Select first Image Resoution: 3:4 64MP
+2022-10-14 16:27:24 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture Capture Images
+2022-10-14 16:27:32 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking First  Resolution Image0
+2022-10-14 16:27:40 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking First  Resolution Image1
+2022-10-14 16:27:49 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking First  Resolution Image2
+2022-10-14 16:27:57 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking First  Resolution Image3
+2022-10-14 16:28:05 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking First  Resolution Image4
+2022-10-14 16:28:13 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking First  Resolution Image5
+2022-10-14 16:28:21 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking First  Resolution Image6
+2022-10-14 16:28:29 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking First  Resolution Image7
+2022-10-14 16:28:37 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking First  Resolution Image8
+2022-10-14 16:28:46 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking First  Resolution Image9
+2022-10-14 16:28:54 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking First  Resolution Image10
+2022-10-14 16:29:02 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking First  Resolution Image11
+2022-10-14 16:29:10 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking First  Resolution Image12
+2022-10-14 16:29:18 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking First  Resolution Image13
+2022-10-14 16:29:26 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking First  Resolution Image14
+2022-10-14 16:29:35 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking First  Resolution Image15
+2022-10-14 16:29:43 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking First  Resolution Image16
+2022-10-14 16:29:51 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking First  Resolution Image17
+2022-10-14 16:29:59 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking First  Resolution Image18
+2022-10-14 16:30:07 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking First  Resolution Image19
+2022-10-14 16:30:15 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking First  Resolution Image20
+2022-10-14 16:30:23 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking First  Resolution Image21
+2022-10-14 16:30:32 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking First  Resolution Image22
+2022-10-14 16:30:40 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking First  Resolution Image23
+2022-10-14 16:30:48 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking First  Resolution Image24
+2022-10-14 16:30:56 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking First  Resolution Image25
+2022-10-14 16:31:04 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking First  Resolution Image26
+2022-10-14 16:31:12 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking First  Resolution Image27
+2022-10-14 16:31:21 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking First  Resolution Image28
+2022-10-14 16:31:29 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking First  Resolution Image29
+2022-10-14 16:31:37 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking First  Resolution Image30
+2022-10-14 16:31:45 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking First  Resolution Image31
+2022-10-14 16:31:53 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking First  Resolution Image32
+2022-10-14 16:32:01 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking First  Resolution Image33
+2022-10-14 16:32:09 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking First  Resolution Image34
+2022-10-14 16:32:18 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking First  Resolution Image35
+2022-10-14 16:32:26 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking First  Resolution Image36
+2022-10-14 16:32:34 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking First  Resolution Image37
+2022-10-14 16:32:42 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking First  Resolution Image38
+2022-10-14 16:32:50 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking First  Resolution Image39
+2022-10-14 16:32:58 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking First  Resolution Image40
+2022-10-14 16:33:06 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking First  Resolution Image41
+2022-10-14 16:33:15 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking First  Resolution Image42
+2022-10-14 16:33:23 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking First  Resolution Image43
+2022-10-14 16:33:31 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking First  Resolution Image44
+2022-10-14 16:33:39 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking First  Resolution Image45
+2022-10-14 16:33:47 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking First  Resolution Image46
+2022-10-14 16:33:55 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking First  Resolution Image47
+2022-10-14 16:34:04 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking First  Resolution Image48
+2022-10-14 16:34:12 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking First  Resolution Image49
+2022-10-14 16:34:14 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture Back camera first resolution:50 images Captured succesfull
+2022-10-14 16:34:14 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture Select Rear Image Size
+2022-10-14 16:34:14 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture Select second Image Resoution: 3:4 
+2022-10-14 16:34:22 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture Capture Images
+2022-10-14 16:34:30 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Second  Resolution Image0
+2022-10-14 16:34:38 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Second  Resolution Image1
+2022-10-14 16:34:46 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Second  Resolution Image2
+2022-10-14 16:34:55 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Second  Resolution Image3
+2022-10-14 16:35:03 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Second  Resolution Image4
+2022-10-14 16:35:11 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Second  Resolution Image5
+2022-10-14 16:35:19 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Second  Resolution Image6
+2022-10-14 16:35:27 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Second  Resolution Image7
+2022-10-14 16:35:35 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Second  Resolution Image8
+2022-10-14 16:35:43 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Second  Resolution Image9
+2022-10-14 16:35:52 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Second  Resolution Image10
+2022-10-14 16:36:00 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Second  Resolution Image11
+2022-10-14 16:36:08 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Second  Resolution Image12
+2022-10-14 16:36:16 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Second  Resolution Image13
+2022-10-14 16:36:24 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Second  Resolution Image14
+2022-10-14 16:36:32 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Second  Resolution Image15
+2022-10-14 16:36:41 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Second  Resolution Image16
+2022-10-14 16:36:49 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Second  Resolution Image17
+2022-10-14 16:36:57 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Second  Resolution Image18
+2022-10-14 16:37:05 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Second  Resolution Image19
+2022-10-14 16:37:13 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Second  Resolution Image20
+2022-10-14 16:37:21 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Second  Resolution Image21
+2022-10-14 16:37:29 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Second  Resolution Image22
+2022-10-14 16:37:37 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Second  Resolution Image23
+2022-10-14 16:37:46 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Second  Resolution Image24
+2022-10-14 16:37:54 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Second  Resolution Image25
+2022-10-14 16:38:02 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Second  Resolution Image26
+2022-10-14 16:38:10 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Second  Resolution Image27
+2022-10-14 16:38:18 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Second  Resolution Image28
+2022-10-14 16:38:26 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Second  Resolution Image29
+2022-10-14 16:38:35 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Second  Resolution Image30
+2022-10-14 16:38:43 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Second  Resolution Image31
+2022-10-14 16:38:51 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Second  Resolution Image32
+2022-10-14 16:38:59 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Second  Resolution Image33
+2022-10-14 16:39:07 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Second  Resolution Image34
+2022-10-14 16:39:15 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Second  Resolution Image35
+2022-10-14 16:39:24 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Second  Resolution Image36
+2022-10-14 16:39:32 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Second  Resolution Image37
+2022-10-14 16:39:40 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Second  Resolution Image38
+2022-10-14 16:39:48 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Second  Resolution Image39
+2022-10-14 16:39:56 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Second  Resolution Image40
+2022-10-14 16:40:04 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Second  Resolution Image41
+2022-10-14 16:40:12 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Second  Resolution Image42
+2022-10-14 16:40:21 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Second  Resolution Image43
+2022-10-14 16:40:29 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Second  Resolution Image44
+2022-10-14 16:40:37 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Second  Resolution Image45
+2022-10-14 16:40:45 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Second  Resolution Image46
+2022-10-14 16:40:53 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Second  Resolution Image47
+2022-10-14 16:41:01 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Second  Resolution Image48
+2022-10-14 16:41:09 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Second  Resolution Image49
+2022-10-14 16:41:11 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture Back camera second resolution:50 images Captured succesfull
+2022-10-14 16:41:11 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture Select Rear Image Size
+2022-10-14 16:41:12 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture Select third Image Resoution: 9:16
+2022-10-14 16:41:23 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture Capture Images
+2022-10-14 16:41:28 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking third  Resolution Image0
+2022-10-14 16:41:32 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking third  Resolution Image1
+2022-10-14 16:41:36 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking third  Resolution Image2
+2022-10-14 16:41:40 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking third  Resolution Image3
+2022-10-14 16:41:44 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking third  Resolution Image4
+2022-10-14 16:41:48 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking third  Resolution Image5
+2022-10-14 16:41:53 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking third  Resolution Image6
+2022-10-14 16:41:57 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking third  Resolution Image7
+2022-10-14 16:42:01 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking third  Resolution Image8
+2022-10-14 16:42:05 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking third  Resolution Image9
+2022-10-14 16:42:09 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking third  Resolution Image10
+2022-10-14 16:42:13 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking third  Resolution Image11
+2022-10-14 16:42:17 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking third  Resolution Image12
+2022-10-14 16:42:22 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking third  Resolution Image13
+2022-10-14 16:42:26 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking third  Resolution Image14
+2022-10-14 16:42:30 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking third  Resolution Image15
+2022-10-14 16:42:34 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking third  Resolution Image16
+2022-10-14 16:42:38 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking third  Resolution Image17
+2022-10-14 16:42:42 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking third  Resolution Image18
+2022-10-14 16:42:47 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking third  Resolution Image19
+2022-10-14 16:42:51 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking third  Resolution Image20
+2022-10-14 16:42:55 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking third  Resolution Image21
+2022-10-14 16:42:59 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking third  Resolution Image22
+2022-10-14 16:43:03 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking third  Resolution Image23
+2022-10-14 16:43:07 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking third  Resolution Image24
+2022-10-14 16:43:11 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking third  Resolution Image25
+2022-10-14 16:43:16 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking third  Resolution Image26
+2022-10-14 16:43:20 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking third  Resolution Image27
+2022-10-14 16:43:24 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking third  Resolution Image28
+2022-10-14 16:43:28 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking third  Resolution Image29
+2022-10-14 16:43:32 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking third  Resolution Image30
+2022-10-14 16:43:36 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking third  Resolution Image31
+2022-10-14 16:43:41 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking third  Resolution Image32
+2022-10-14 16:43:45 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking third  Resolution Image33
+2022-10-14 16:43:49 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking third  Resolution Image34
+2022-10-14 16:43:53 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking third  Resolution Image35
+2022-10-14 16:43:57 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking third  Resolution Image36
+2022-10-14 16:44:01 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking third  Resolution Image37
+2022-10-14 16:44:05 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking third  Resolution Image38
+2022-10-14 16:44:10 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking third  Resolution Image39
+2022-10-14 16:44:14 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking third  Resolution Image40
+2022-10-14 16:44:18 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking third  Resolution Image41
+2022-10-14 16:44:22 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking third  Resolution Image42
+2022-10-14 16:44:26 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking third  Resolution Image43
+2022-10-14 16:44:30 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking third  Resolution Image44
+2022-10-14 16:44:34 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking third  Resolution Image45
+2022-10-14 16:44:39 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking third  Resolution Image46
+2022-10-14 16:44:43 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking third  Resolution Image47
+2022-10-14 16:44:47 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking third  Resolution Image48
+2022-10-14 16:44:51 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking third  Resolution Image49
+2022-10-14 16:44:53 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture Back camera third resolution:50 images Captured succesfull
+2022-10-14 16:44:53 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture Select Rear Image Size
+2022-10-14 16:44:53 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture Select Fourth Image Resoution: 1:1
+2022-10-14 16:45:01 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture Capture Images
+2022-10-14 16:45:09 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fourth  Resolution Image0
+2022-10-14 16:45:17 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fourth  Resolution Image1
+2022-10-14 16:45:26 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fourth  Resolution Image2
+2022-10-14 16:45:34 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fourth  Resolution Image3
+2022-10-14 16:45:42 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fourth  Resolution Image4
+2022-10-14 16:45:50 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fourth  Resolution Image5
+2022-10-14 16:45:58 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fourth  Resolution Image6
+2022-10-14 16:46:06 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fourth  Resolution Image7
+2022-10-14 16:46:15 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fourth  Resolution Image8
+2022-10-14 16:46:23 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fourth  Resolution Image9
+2022-10-14 16:46:31 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fourth  Resolution Image10
+2022-10-14 16:46:39 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fourth  Resolution Image11
+2022-10-14 16:46:47 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fourth  Resolution Image12
+2022-10-14 16:46:55 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fourth  Resolution Image13
+2022-10-14 16:47:03 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fourth  Resolution Image14
+2022-10-14 16:47:12 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fourth  Resolution Image15
+2022-10-14 16:47:20 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fourth  Resolution Image16
+2022-10-14 16:47:28 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fourth  Resolution Image17
+2022-10-14 16:47:36 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fourth  Resolution Image18
+2022-10-14 16:47:44 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fourth  Resolution Image19
+2022-10-14 16:47:54 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fourth  Resolution Image20
+2022-10-14 16:48:02 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fourth  Resolution Image21
+2022-10-14 16:48:10 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fourth  Resolution Image22
+2022-10-14 16:48:18 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fourth  Resolution Image23
+2022-10-14 16:48:26 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fourth  Resolution Image24
+2022-10-14 16:48:34 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fourth  Resolution Image25
+2022-10-14 16:48:43 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fourth  Resolution Image26
+2022-10-14 16:48:51 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fourth  Resolution Image27
+2022-10-14 16:48:59 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fourth  Resolution Image28
+2022-10-14 16:49:07 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fourth  Resolution Image29
+2022-10-14 16:49:15 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fourth  Resolution Image30
+2022-10-14 16:49:23 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fourth  Resolution Image31
+2022-10-14 16:49:31 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fourth  Resolution Image32
+2022-10-14 16:49:40 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fourth  Resolution Image33
+2022-10-14 16:49:48 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fourth  Resolution Image34
+2022-10-14 16:49:56 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fourth  Resolution Image35
+2022-10-14 16:50:04 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fourth  Resolution Image36
+2022-10-14 16:50:12 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fourth  Resolution Image37
+2022-10-14 16:50:20 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fourth  Resolution Image38
+2022-10-14 16:50:29 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fourth  Resolution Image39
+2022-10-14 16:50:37 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fourth  Resolution Image40
+2022-10-14 16:50:45 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fourth  Resolution Image41
+2022-10-14 16:50:53 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fourth  Resolution Image42
+2022-10-14 16:51:01 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fourth  Resolution Image43
+2022-10-14 16:51:09 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fourth  Resolution Image44
+2022-10-14 16:51:17 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fourth  Resolution Image45
+2022-10-14 16:51:25 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fourth  Resolution Image46
+2022-10-14 16:51:34 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fourth  Resolution Image47
+2022-10-14 16:51:42 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fourth  Resolution Image48
+2022-10-14 16:51:50 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fourth  Resolution Image49
+2022-10-14 16:51:52 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture Back camera fourth resolution:50 images Captured succesfull
+2022-10-14 16:51:52 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture Select Rear Image Size
+2022-10-14 16:51:52 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture Select fifth Resolution: Full
+2022-10-14 16:52:00 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture Capture Images
+2022-10-14 16:52:08 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fifth  Resolution Image0
+2022-10-14 16:52:16 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fifth  Resolution Image1
+2022-10-14 16:52:24 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fifth  Resolution Image2
+2022-10-14 16:52:33 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fifth  Resolution Image3
+2022-10-14 16:52:41 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fifth  Resolution Image4
+2022-10-14 16:52:49 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fifth  Resolution Image5
+2022-10-14 16:52:57 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fifth  Resolution Image6
+2022-10-14 16:53:05 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fifth  Resolution Image7
+2022-10-14 16:53:13 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fifth  Resolution Image8
+2022-10-14 16:53:21 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fifth  Resolution Image9
+2022-10-14 16:53:30 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fifth  Resolution Image10
+2022-10-14 16:53:38 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fifth  Resolution Image11
+2022-10-14 16:53:46 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fifth  Resolution Image12
+2022-10-14 16:53:54 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fifth  Resolution Image13
+2022-10-14 16:54:02 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fifth  Resolution Image14
+2022-10-14 16:54:10 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fifth  Resolution Image15
+2022-10-14 16:54:19 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fifth  Resolution Image16
+2022-10-14 16:54:27 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fifth  Resolution Image17
+2022-10-14 16:54:35 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fifth  Resolution Image18
+2022-10-14 16:54:43 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fifth  Resolution Image19
+2022-10-14 16:54:51 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fifth  Resolution Image20
+2022-10-14 16:54:59 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fifth  Resolution Image21
+2022-10-14 16:55:07 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fifth  Resolution Image22
+2022-10-14 16:55:16 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fifth  Resolution Image23
+2022-10-14 16:55:24 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fifth  Resolution Image24
+2022-10-14 16:55:32 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fifth  Resolution Image25
+2022-10-14 16:55:40 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fifth  Resolution Image26
+2022-10-14 16:55:48 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fifth  Resolution Image27
+2022-10-14 16:55:56 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fifth  Resolution Image28
+2022-10-14 16:56:04 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fifth  Resolution Image29
+2022-10-14 16:56:13 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fifth  Resolution Image30
+2022-10-14 16:56:21 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fifth  Resolution Image31
+2022-10-14 16:56:29 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fifth  Resolution Image32
+2022-10-14 16:56:37 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fifth  Resolution Image33
+2022-10-14 16:56:45 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fifth  Resolution Image34
+2022-10-14 16:56:53 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fifth  Resolution Image35
+2022-10-14 16:57:01 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fifth  Resolution Image36
+2022-10-14 16:57:10 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fifth  Resolution Image37
+2022-10-14 16:57:18 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fifth  Resolution Image38
+2022-10-14 16:57:26 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fifth  Resolution Image39
+2022-10-14 16:57:34 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fifth  Resolution Image40
+2022-10-14 16:57:42 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fifth  Resolution Image41
+2022-10-14 16:57:50 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fifth  Resolution Image42
+2022-10-14 16:57:58 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fifth  Resolution Image43
+2022-10-14 16:58:07 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fifth  Resolution Image44
+2022-10-14 16:58:15 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fifth  Resolution Image45
+2022-10-14 16:58:23 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fifth  Resolution Image46
+2022-10-14 16:58:31 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fifth  Resolution Image47
+2022-10-14 16:58:39 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fifth  Resolution Image48
+2022-10-14 16:58:47 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture clicking Fifth  Resolution Image49
+2022-10-14 16:58:49 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture Back camera fifth resolution:50 images Captured succesfull
+2022-10-14 16:58:49 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture Total Count value:250 images to be Captured 
+2022-10-14 16:58:57 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture Launch file manager application and verify recorded video present  in uSD Card
+2022-10-14 16:59:13 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture click on browse option
+2022-10-14 16:59:16 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture Swipe up to select uSD card
+2022-10-14 16:59:20 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture Select SD card
+2022-10-14 16:59:26 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture switch to grid view mode to select DCIM folder
+2022-10-14 16:59:29 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture Select DCIM folder
+2022-10-14 16:59:32 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture Select camera folder
+2022-10-14 16:59:35 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture switch to list view mode 
+2022-10-14 16:59:38 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture Click More options
+2022-10-14 16:59:45 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture Click Select all
+2022-10-14 16:59:57 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture Pass: Test9 pass for rear Image capture
+2022-10-14 16:59:57 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture Test9 Bcam_image: 246  images Captured succesfull
+2022-10-14 16:59:57 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-14 17:00:00 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture calling DataMoveOperation() 
+2022-10-14 17:00:06 INFO   Samsung_Galaxy_Quantum2.Test9 DataMoveOperation launch file manager application select uSD card-->DCIM folder-->Camera folder-->Select all back camera front camera videos create Test10 and cut paste all videos in BCFC_Cameravideos folder
+2022-10-14 17:00:22 INFO   Samsung_Galaxy_Quantum2.Test9 DataMoveOperation click on browse option
+2022-10-14 17:00:25 INFO   Samsung_Galaxy_Quantum2.Test9 DataMoveOperation Swipe up to select uSD card
+2022-10-14 17:00:29 INFO   Samsung_Galaxy_Quantum2.Test9 DataMoveOperation Select SD card
+2022-10-14 17:00:35 INFO   Samsung_Galaxy_Quantum2.Test9 DataMoveOperation Select DCIM folder
+2022-10-14 17:00:38 INFO   Samsung_Galaxy_Quantum2.Test9 DataMoveOperation Select camera folder
+2022-10-14 17:00:41 INFO   Samsung_Galaxy_Quantum2.Test9 DataMoveOperation Click More options
+2022-10-14 17:00:47 INFO   Samsung_Galaxy_Quantum2.Test9 DataMoveOperation Click Select all
+2022-10-14 17:00:51 INFO   Samsung_Galaxy_Quantum2.Test9 DataMoveOperation Click More options
+2022-10-14 17:00:57 INFO   Samsung_Galaxy_Quantum2.Test9 DataMoveOperation Select move to option
+2022-10-14 17:01:04 INFO   Samsung_Galaxy_Quantum2.Test9 DataMoveOperation Select uSD Card
+2022-10-14 17:01:11 INFO   Samsung_Galaxy_Quantum2.Test9 DataMoveOperation Select ADD NEW Folder option
+2022-10-14 17:01:18 INFO   Samsung_Galaxy_Quantum2.Test9 DataMoveOperation Name folder as Test9
+2022-10-14 17:01:24 INFO   Samsung_Galaxy_Quantum2.Test9 DataMoveOperation Accept create folder
+2022-10-14 17:03:24 INFO   Samsung_Galaxy_Quantum2.Test9 DataMoveOperation Cut paste  video files operation completed successfully
+2022-10-14 17:03:28 INFO   Samsung_Galaxy_Quantum2.Test9 DataMoveOperation Pass: Test9 Pass for data move operation successfully
+2022-10-14 17:03:28 INFO   Samsung_Galaxy_Quantum2.Test9 DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-14 17:03:28 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture Final message: Pass Test9 Pass for Rear camera image capture  successfully
+2022-10-14 17:03:28 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture Test: End
+2022-10-14 17:03:28 INFO   Samsung_Galaxy_Quantum2.Test9 RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

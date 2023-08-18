@@ -1,0 +1,89 @@
+2022-10-03 17:47:15 INFO   Motorola_Edge20_Fusion.Test10F frontVideoRec Test: Start
+2022-10-03 17:47:15 INFO   Motorola_Edge20_Fusion.Test10F frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-03 17:47:15 INFO   Motorola_Edge20_Fusion.Test10F frontVideoRec Test10F Scenario is as follows
+2022-10-03 17:47:15 INFO   Motorola_Edge20_Fusion.Test10F frontVideoRec 1.Launch Camera application and start front camera video recording for all host applicable resolutions in uSD Card
+2022-10-03 17:47:15 INFO   Motorola_Edge20_Fusion.Test10F frontVideoRec 2.Playback front Highest recorded video for 30 seconds, pause video playback, lock mobile and wait 30 seconds, unlock mobile and playback video from pause video duration
+2022-10-03 17:47:15 INFO   Motorola_Edge20_Fusion.Test10F frontVideoRec Setting up the appium desired capabilities
+2022-10-03 17:47:15 INFO   Motorola_Edge20_Fusion.Test10F frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-03 17:47:31 INFO   Motorola_Edge20_Fusion.Test10F frontVideoRec Launch  Home screen
+2022-10-03 17:47:37 INFO   Motorola_Edge20_Fusion.Test10F frontVideoRec Launch appium permission access pop-up
+2022-10-03 17:47:48 INFO   Motorola_Edge20_Fusion.Test10F frontVideoRec No permission access pop-up found
+2022-10-03 17:47:48 INFO   Motorola_Edge20_Fusion.Test10F frontVideoRec Launch Camera application for front camera video recording
+2022-10-03 17:48:05 INFO   Motorola_Edge20_Fusion.Test10F frontVideoRec No location permission access pop-up found: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'FJVQ4M2', ip: '192.168.225.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: motorola edge 20 fusion, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: ZD2222DYHB}, deviceApiLevel: 30, deviceManufacturer: motorola, deviceModel: motorola edge 20 fusion, deviceName: ZD2222DYHB, deviceScreenDensity: 400, deviceScreenSize: 1080x2400, deviceUDID: ZD2222DYHB, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.5, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 100, takesScreenshot: true, udid: ZD2222DYHB, viewportRect: {height: 2140, left: 0, top: 100, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 2544e972-2770-492a-a5ad-e2831b743405
+*** Element info: {Using=xpath, value=//*[@resource-id='android:id/button2']}
+2022-10-03 17:48:07 INFO   Motorola_Edge20_Fusion.Test10F frontVideoRec Test10F_Fcam_res: 2 resolutions supported
+2022-10-03 17:48:07 INFO   Motorola_Edge20_Fusion.Test10F frontVideoRec Switch to video tab
+2022-10-03 17:48:11 INFO   Motorola_Edge20_Fusion.Test10F frontVideoRec Switch to front video camera mode
+2022-10-03 17:48:14 INFO   Motorola_Edge20_Fusion.Test10F frontVideoRec Select settings option
+2022-10-03 17:48:50 INFO   Motorola_Edge20_Fusion.Test10F frontVideoRec Search for SD Card option
+2022-10-03 17:49:00 INFO   Motorola_Edge20_Fusion.Test10F frontVideoRec Select  storage option
+2022-10-03 17:49:05 INFO   Motorola_Edge20_Fusion.Test10F frontVideoRec Select SD as storage option
+2022-10-03 17:49:14 INFO   Motorola_Edge20_Fusion.Test10F frontVideoRec Select settings option to select resolution
+2022-10-03 17:49:57 INFO   Motorola_Edge20_Fusion.Test10F frontVideoRec Select first video resolution: Aspect ratio Full
+2022-10-03 17:50:43 INFO   Motorola_Edge20_Fusion.Test10F frontVideoRec Start video recording for specified duration time
+2022-10-03 17:51:36 INFO   Motorola_Edge20_Fusion.Test10F frontVideoRec Stop video recording
+2022-10-03 17:51:36 INFO   Motorola_Edge20_Fusion.Test10F frontVideoRec click setting option to select second highest video resolution
+2022-10-03 17:52:19 INFO   Motorola_Edge20_Fusion.Test10F frontVideoRec Select second highest resolution: Aspect ratio 9:16
+2022-10-03 17:53:07 INFO   Motorola_Edge20_Fusion.Test10F frontVideoRec Start Recording second resolution video for specified duration time
+2022-10-03 17:55:40 INFO   Motorola_Edge20_Fusion.Test10F frontVideoRec Stop Recording
+2022-10-03 17:55:45 INFO   Motorola_Edge20_Fusion.Test10F frontVideoRec Switch from Front Mode to rear camera mode
+2022-10-03 17:56:21 INFO   Motorola_Edge20_Fusion.Test10F frontVideoRec Clicking photo Tab
+2022-10-03 17:56:37 INFO   Motorola_Edge20_Fusion.Test10F frontVideoRec Pass: pass for front camera video recording
+2022-10-03 17:56:37 INFO   Motorola_Edge20_Fusion.Test10F frontVideoRec Launch File Manager Application to verify captured videos
+2022-10-03 17:56:38 INFO   Motorola_Edge20_Fusion.Test10F frontVideoRec click on browse option
+2022-10-03 17:56:41 INFO   Motorola_Edge20_Fusion.Test10F frontVideoRec Select  SD Card
+2022-10-03 17:56:48 INFO   Motorola_Edge20_Fusion.Test10F frontVideoRec Select DCIM Folder
+2022-10-03 17:57:02 INFO   Motorola_Edge20_Fusion.Test10F frontVideoRec Select Camera Folder
+2022-10-03 17:57:07 INFO   Motorola_Edge20_Fusion.Test10F frontVideoRec Select More Options 
+2022-10-03 17:57:18 INFO   Motorola_Edge20_Fusion.Test10F frontVideoRec Click On Select All Options
+2022-10-03 17:57:28 INFO   Motorola_Edge20_Fusion.Test10F frontVideoRec Test10F_Fcam_video: 2 Videos captured successfull
+2022-10-03 17:57:28 INFO   Motorola_Edge20_Fusion.Test10F frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-03 17:57:28 INFO   Motorola_Edge20_Fusion.Test10F frontVideoRec Calling VideoPlayBackForSleepWake()
+2022-10-03 17:57:28 INFO   Motorola_Edge20_Fusion.Test10F VideoPlayBackForSleepWake Launch  Home screen
+2022-10-03 17:57:33 INFO   Motorola_Edge20_Fusion.Test10F VideoPlayBackForSleepWake Launch File Manager application and playback front recorded video from USD for 30 seconds, pause video playback, locking phone and unlock after 30 seconds delay and playback video from pause duration.
+2022-10-03 17:57:41 INFO   Motorola_Edge20_Fusion.Test10F VideoPlayBackForSleepWake Select External Storage
+2022-10-03 17:57:49 INFO   Motorola_Edge20_Fusion.Test10F VideoPlayBackForSleepWake Select DCIM Folder
+2022-10-03 17:57:52 INFO   Motorola_Edge20_Fusion.Test10F VideoPlayBackForSleepWake Select Camera
+2022-10-03 17:57:56 INFO   Motorola_Edge20_Fusion.Test10F VideoPlayBackForSleepWake select more options
+2022-10-03 17:58:01 INFO   Motorola_Edge20_Fusion.Test10F VideoPlayBackForSleepWake Select Sort BY
+2022-10-03 17:58:06 INFO   Motorola_Edge20_Fusion.Test10F VideoPlayBackForSleepWake Select Newest date first
+2022-10-03 17:58:09 INFO   Motorola_Edge20_Fusion.Test10F VideoPlayBackForSleepWake Click on first file to play highest recorded resolution video file
+2022-10-03 17:58:10 INFO   Motorola_Edge20_Fusion.Test10F VideoPlayBackForSleepWake Started video playback
+2022-10-03 17:58:30 INFO   Motorola_Edge20_Fusion.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2022-10-03 17:58:30 INFO   Motorola_Edge20_Fusion.Test10F VideoPlayBackForSleepWake Click pause video button
+2022-10-03 17:58:35 INFO   Motorola_Edge20_Fusion.Test10F VideoPlayBackForSleepWake Lock Mobile with 30 seconds delay
+2022-10-03 17:59:05 INFO   Motorola_Edge20_Fusion.Test10F VideoPlayBackForSleepWake Wait For 30Seconds
+2022-10-03 17:59:10 INFO   Motorola_Edge20_Fusion.Test10F VideoPlayBackForSleepWake Unlock Mobile 
+2022-10-03 17:59:10 INFO   Motorola_Edge20_Fusion.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2022-10-03 17:59:10 INFO   Motorola_Edge20_Fusion.Test10F VideoPlayBackForSleepWake Click pause video button
+2022-10-03 17:59:43 INFO   Motorola_Edge20_Fusion.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2022-10-03 17:59:43 INFO   Motorola_Edge20_Fusion.Test10F VideoPlayBackForSleepWake Click pause video button
+2022-10-03 17:59:55 INFO   Motorola_Edge20_Fusion.Test10F VideoPlayBackForSleepWake Pass: Test10F Pass for Front video play back, Pause,Lock and Unlock Phone Play back from Pause duration Scenario
+2022-10-03 17:59:55 INFO   Motorola_Edge20_Fusion.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-03 17:59:55 INFO   Motorola_Edge20_Fusion.Test10F VideoPlayBackForSleepWake calling DatamoveOperation() to move front camera recorded videos files to Test10F folder
+2022-10-03 18:00:00 INFO   Motorola_Edge20_Fusion.Test10F DataMoveOperation launch file manager application select uSD card-->DCIM folder-->Camera folder-->Select all back camera front camera videos create Test10 and cut paste all videos in BCFC_Cameravideos folder
+2022-10-03 18:00:17 INFO   Motorola_Edge20_Fusion.Test10F DataMoveOperation click on browse option
+2022-10-03 18:00:20 INFO   Motorola_Edge20_Fusion.Test10F DataMoveOperation Swipe up to select uSD card
+2022-10-03 18:00:22 INFO   Motorola_Edge20_Fusion.Test10F DataMoveOperation Select SD card
+2022-10-03 18:00:28 INFO   Motorola_Edge20_Fusion.Test10F DataMoveOperation Select DCIM folder
+2022-10-03 18:00:32 INFO   Motorola_Edge20_Fusion.Test10F DataMoveOperation Select camera folder
+2022-10-03 18:00:36 INFO   Motorola_Edge20_Fusion.Test10F DataMoveOperation Click More options
+2022-10-03 18:00:43 INFO   Motorola_Edge20_Fusion.Test10F DataMoveOperation Click Select all
+2022-10-03 18:00:47 INFO   Motorola_Edge20_Fusion.Test10F DataMoveOperation Click More options
+2022-10-03 18:00:53 INFO   Motorola_Edge20_Fusion.Test10F DataMoveOperation Select move to option
+2022-10-03 18:01:00 INFO   Motorola_Edge20_Fusion.Test10F DataMoveOperation Select uSD Card
+2022-10-03 18:01:06 INFO   Motorola_Edge20_Fusion.Test10F DataMoveOperation Select ADD NEW Folder option
+2022-10-03 18:01:13 INFO   Motorola_Edge20_Fusion.Test10F DataMoveOperation Name folder as Test10F
+2022-10-03 18:01:20 INFO   Motorola_Edge20_Fusion.Test10F DataMoveOperation Accept create folder
+2022-10-03 18:03:20 INFO   Motorola_Edge20_Fusion.Test10F DataMoveOperation Cut paste  video files operation completed successfully
+2022-10-03 18:03:24 INFO   Motorola_Edge20_Fusion.Test10F DataMoveOperation Pass: Test10F Pass for data move operation successfully
+2022-10-03 18:03:24 INFO   Motorola_Edge20_Fusion.Test10F DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-03 18:03:24 INFO   Motorola_Edge20_Fusion.Test10F VideoPlayBackForSleepWake Final Message: Pass Test10F Pass for front camera  video recording, Pause Video Playback scenario and data move operation scenario
+2022-10-03 18:03:24 INFO   Motorola_Edge20_Fusion.Test10F VideoPlayBackForSleepWake Test: End
+2022-10-03 18:03:24 INFO   Motorola_Edge20_Fusion.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

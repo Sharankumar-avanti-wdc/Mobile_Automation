@@ -1,0 +1,1374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="6,738.236" tests="8" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="fileName" value="testngMain.xml"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="totalPictureCountRear" value="6"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="totalPictureCountFront" value="6"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\7336135\Android11\eclipse-workspace\Realme_Pad_RMP2102\target\test-classes;C:\Users\7336135\Android11\eclipse-workspace\Realme_Pad_RMP2102\target\classes;C:\Users\7336135\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\7336135\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\7336135\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\7336135\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\7336135\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\7336135\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\7336135\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\7336135\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\7336135\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\7336135\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\7336135\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\7336135\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\7336135\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\7336135\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\7336135\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\7336135\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\7336135\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\7336135\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\7336135\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\7336135\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\7336135\.m2\repository\org\seleniumhq\selenium\selenium-android-driver\2.39.0\selenium-android-driver-2.39.0.jar;C:\Users\7336135\.m2\repository\io\appium\java-client\7.0.0\java-client-7.0.0.jar;C:\Users\7336135\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\7336135\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\7336135\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\7336135\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\7336135\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\7336135\.m2\repository\cglib\cglib\3.2.8\cglib-3.2.8.jar;C:\Users\7336135\.m2\repository\org\ow2\asm\asm\6.2.1\asm-6.2.1.jar;C:\Users\7336135\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\7336135\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\7336135\.m2\repository\commons-validator\commons-validator\1.6\commons-validator-1.6.jar;C:\Users\7336135\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\7336135\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\7336135\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\7336135\.m2\repository\org\apache\commons\commons-lang3\3.8\commons-lang3-3.8.jar;C:\Users\7336135\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\7336135\.m2\repository\org\springframework\spring-context\5.1.0.RELEASE\spring-context-5.1.0.RELEASE.jar;C:\Users\7336135\.m2\repository\org\springframework\spring-aop\5.1.0.RELEASE\spring-aop-5.1.0.RELEASE.jar;C:\Users\7336135\.m2\repository\org\springframework\spring-beans\5.1.0.RELEASE\spring-beans-5.1.0.RELEASE.jar;C:\Users\7336135\.m2\repository\org\springframework\spring-core\5.1.0.RELEASE\spring-core-5.1.0.RELEASE.jar;C:\Users\7336135\.m2\repository\org\springframework\spring-jcl\5.1.0.RELEASE\spring-jcl-5.1.0.RELEASE.jar;C:\Users\7336135\.m2\repository\org\springframework\spring-expression\5.1.0.RELEASE\spring-expression-5.1.0.RELEASE.jar;C:\Users\7336135\.m2\repository\org\aspectj\aspectjweaver\1.9.1\aspectjweaver-1.9.1.jar;C:\Users\7336135\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\7336135\.m2\repository\org\testng\testng\6.1.1\testng-6.1.1.jar;C:\Users\7336135\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\7336135\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\7336135\.m2\repository\com\beust\jcommander\1.12\jcommander-1.12.jar;C:\Users\7336135\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
+    <property name="recordingDurationRear1" value="180"/>
+    <property name="recordingDurationRear2" value="180"/>
+    <property name="sun.java.command" value="C:\Users\7336135\AppData\Local\Temp\surefire6528079703403786583\surefirebooter7099208765249757458.jar C:\Users\7336135\AppData\Local\Temp\surefire6528079703403786583 2023-03-27T18-58-38_575-jvmRun1 surefire8212176774429440108tmp surefire_01651357259106372854tmp"/>
+    <property name="recordingDurationfront1" value="180"/>
+    <property name="surefire.test.class.path" value="C:\Users\7336135\Android11\eclipse-workspace\Realme_Pad_RMP2102\target\test-classes;C:\Users\7336135\Android11\eclipse-workspace\Realme_Pad_RMP2102\target\classes;C:\Users\7336135\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\7336135\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\7336135\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\7336135\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\7336135\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\7336135\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\7336135\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\7336135\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\7336135\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\7336135\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\7336135\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\7336135\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\7336135\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\7336135\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\7336135\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\7336135\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\7336135\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\7336135\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\7336135\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\7336135\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\7336135\.m2\repository\org\seleniumhq\selenium\selenium-android-driver\2.39.0\selenium-android-driver-2.39.0.jar;C:\Users\7336135\.m2\repository\io\appium\java-client\7.0.0\java-client-7.0.0.jar;C:\Users\7336135\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\7336135\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\7336135\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\7336135\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\7336135\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\7336135\.m2\repository\cglib\cglib\3.2.8\cglib-3.2.8.jar;C:\Users\7336135\.m2\repository\org\ow2\asm\asm\6.2.1\asm-6.2.1.jar;C:\Users\7336135\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\7336135\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\7336135\.m2\repository\commons-validator\commons-validator\1.6\commons-validator-1.6.jar;C:\Users\7336135\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\7336135\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\7336135\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\7336135\.m2\repository\org\apache\commons\commons-lang3\3.8\commons-lang3-3.8.jar;C:\Users\7336135\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\7336135\.m2\repository\org\springframework\spring-context\5.1.0.RELEASE\spring-context-5.1.0.RELEASE.jar;C:\Users\7336135\.m2\repository\org\springframework\spring-aop\5.1.0.RELEASE\spring-aop-5.1.0.RELEASE.jar;C:\Users\7336135\.m2\repository\org\springframework\spring-beans\5.1.0.RELEASE\spring-beans-5.1.0.RELEASE.jar;C:\Users\7336135\.m2\repository\org\springframework\spring-core\5.1.0.RELEASE\spring-core-5.1.0.RELEASE.jar;C:\Users\7336135\.m2\repository\org\springframework\spring-jcl\5.1.0.RELEASE\spring-jcl-5.1.0.RELEASE.jar;C:\Users\7336135\.m2\repository\org\springframework\spring-expression\5.1.0.RELEASE\spring-expression-5.1.0.RELEASE.jar;C:\Users\7336135\.m2\repository\org\aspectj\aspectjweaver\1.9.1\aspectjweaver-1.9.1.jar;C:\Users\7336135\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\7336135\.m2\repository\org\testng\testng\6.1.1\testng-6.1.1.jar;C:\Users\7336135\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\7336135\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\7336135\.m2\repository\com\beust\jcommander\1.12\jcommander-1.12.jar;C:\Users\7336135\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\7336135"/>
+    <property name="recordingDurationfront2" value="180"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_202\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\7336135\Android11\eclipse-workspace\Realme_Pad_RMP2102"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="mountUnmountCycle" value="1"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\7336135\AppData\Local\Temp\surefire6528079703403786583\surefirebooter7099208765249757458.jar"/>
+    <property name="recordingDurationRear" value="180"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_202-b08"/>
+    <property name="totalPictureCountFront3" value="6"/>
+    <property name="user.name" value="7336135"/>
+    <property name="totalPictureCountFront2" value="6"/>
+    <property name="totalPictureCountFront1" value="6"/>
+    <property name="totalPictureCountRear5" value="6"/>
+    <property name="path.separator" value=";"/>
+    <property name="recordingDurationfront" value="180"/>
+    <property name="totalPictureCountRear3" value="6"/>
+    <property name="totalPictureCountRear4" value="6"/>
+    <property name="totalPictureCountRear1" value="6"/>
+    <property name="os.version" value="10.0"/>
+    <property name="totalPictureCountRear2" value="6"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\7336135\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\7336135\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_202"/>
+    <property name="user.dir" value="C:\Users\7336135\Android11\eclipse-workspace\Realme_Pad_RMP2102"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.util.logging.SimpleFormatter.format" value="%1$tY-%1$tm-%1$td %1$tH:%1$tM:%1$tS %4$-6s %2$s %5$s%6$s%n"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="Tolerance_Level" value="75"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Webex\Plugins;C:\Program Files (x86)\Box\Box Edit\;C:\WINDOWS\system32\config\systemprofile\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Symantec Corporation\Information Centric Tagging CLI;C:\ant\apache-ant-1.9.15\bin;C:\Android\Android-sdk\bin;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Users\7336135\android-sdks\tools\;C:\Users\7336135\android-sdks\platform-tools\;C:\Android\Android-Sdk\tools\;C:\Android\Android-Sdk\platform-tools\;C:\Program Files\Symantec Corporation\Infor;C:\Program Files (x86)\Sennheiser\SenncomSDK\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\7336135\Maven\apache-maven-3.8.4\bin;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Python\Scripts\;C:\Python\;C:\Users\7336135\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\PyCharm 2022.3.2\bin;;C:\Program Files\JetBrains\PyCharm Community Edition 2022.3.3\bin;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="25.202-b08"/>
+    <property name="totalPictureCountFront5" value="6"/>
+    <property name="totalPictureCountFront4" value="6"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="start" classname="Realme_Pad_RMP2102.Test0" time="1,061.599">
+    <system-out><![CDATA[===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test0 Scenario is as follows 
+1.Unlock phone, clear recent apps, clear internal memory
+2.Call Image() and Capture Rear camera 25 images for default resolution in uSD card and Verify the data capture
+3.Call Video() and record Rear camera video of first 2 resloutions for 2 minutes of duration in uSD Card and verify the same
+4.Call Format() and format uSD card with data and verify the same
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch Home screen
+Host does not support clear recent apps scenario during automation!
+Clearing Recent Apps
+Pass: Test0 Pass for clearing Recent apps 
+Launch File Manager Application and clear internal memory
+Swipe up and select uSD card
+Select  Internal storage
+Click more options
+Click select all
+Select delete option
+Accept delete pop-up
+Pass: Clearing phone internal memory is successfull
+Calling Image() for rear Image capture in uSD Card and Verify the Captured images
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch Camera Application for Rear camera picture capture
+Select settings option
+Select Storagepath option
+Select SD as storage option
+Captureing default resolition image 0
+Captureing default resolition image 1
+Captureing default resolition image 2
+Captureing default resolition image 3
+Captureing default resolition image 4
+Captureing default resolition image 5
+Captureing default resolition image 6
+Captureing default resolition image 7
+Captureing default resolition image 8
+Captureing default resolition image 9
+Captureing default resolition image 10
+Captureing default resolition image 11
+Captureing default resolition image 12
+Captureing default resolition image 13
+Captureing default resolition image 14
+Captureing default resolition image 15
+Captureing default resolition image 16
+Captureing default resolition image 17
+Captureing default resolition image 18
+Captureing default resolition image 19
+Captureing default resolition image 20
+Captureing default resolition image 21
+Captureing default resolition image 22
+Captureing default resolition image 23
+Captureing default resolition image 24
+25 image capture is successfull 
+Launch File Manager application to verify  Image capture
+Select  SD Card
+Select DCIM Folder
+Select Camera Folder
+Select More Options 
+Click On Select All Options
+Pass:Total Number Of Image captured 25 is successfull
+Calling video() for rear video recording in USD card and verifying data capture.
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch home screen and clear recent apps
+re-launch camera application for rear camera video recording
+IF Change to uSD card notification pop-up exists select Cancel Option
+change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: realme Pad, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: ZLJRS4I7E6L7B6NB}, deviceApiLevel: 30, deviceManufacturer: realme, deviceModel: RMP2102, deviceName: ZLJRS4I7E6L7B6NB, deviceScreenDensity: 240, deviceScreenSize: 1200x2000, deviceUDID: ZLJRS4I7E6L7B6NB, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 54, takesScreenshot: true, udid: ZLJRS4I7E6L7B6NB, viewportRect: {height: 1874, left: 0, top: 54, width: 1200}, warnings: {}, webStorageEnabled: false}
+Session ID: 4c7a108a-c7e6-4f2c-a75b-4a5d4e84874b
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Agree")}
+IF Change to uSD card notification pop-up exists select Cancel Option
+change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: realme Pad, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: ZLJRS4I7E6L7B6NB}, deviceApiLevel: 30, deviceManufacturer: realme, deviceModel: RMP2102, deviceName: ZLJRS4I7E6L7B6NB, deviceScreenDensity: 240, deviceScreenSize: 1200x2000, deviceUDID: ZLJRS4I7E6L7B6NB, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 54, takesScreenshot: true, udid: ZLJRS4I7E6L7B6NB, viewportRect: {height: 1874, left: 0, top: 54, width: 1200}, warnings: {}, webStorageEnabled: false}
+Session ID: 4c7a108a-c7e6-4f2c-a75b-4a5d4e84874b
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Agree")}
+If allow location pop exists select Dont allow option
+Location access pop-up  element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: realme Pad, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: ZLJRS4I7E6L7B6NB}, deviceApiLevel: 30, deviceManufacturer: realme, deviceModel: RMP2102, deviceName: ZLJRS4I7E6L7B6NB, deviceScreenDensity: 240, deviceScreenSize: 1200x2000, deviceUDID: ZLJRS4I7E6L7B6NB, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 54, takesScreenshot: true, udid: ZLJRS4I7E6L7B6NB, viewportRect: {height: 1874, left: 0, top: 54, width: 1200}, warnings: {}, webStorageEnabled: false}
+Session ID: 4c7a108a-c7e6-4f2c-a75b-4a5d4e84874b
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("DON’T ALLOW")}
+If start capture pop exists select Start capture option
+Start capture  element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: realme Pad, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: ZLJRS4I7E6L7B6NB}, deviceApiLevel: 30, deviceManufacturer: realme, deviceModel: RMP2102, deviceName: ZLJRS4I7E6L7B6NB, deviceScreenDensity: 240, deviceScreenSize: 1200x2000, deviceUDID: ZLJRS4I7E6L7B6NB, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 54, takesScreenshot: true, udid: ZLJRS4I7E6L7B6NB, viewportRect: {height: 1874, left: 0, top: 54, width: 1200}, warnings: {}, webStorageEnabled: false}
+Session ID: 4c7a108a-c7e6-4f2c-a75b-4a5d4e84874b
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("START CAPTURE")}
+Switch to video recording mode
+Select settings option
+Select Video size(Back camera) option
+Select first highest rear camera video resolution: HD 1080P
+RE-Launch Camera application for rear camera video recording
+Switch to video recording mode
+Start video recording
+Stop video recording
+Select settings option
+Select Video size(Back camera) option
+Select second highest rear camera video resolution: HD 720P
+Start video recording
+Stop video recording
+Switch to back to photo mode
+Rear camera video recording is successfull
+Launch File Manager application to verify  Image capture
+Select  SD Card
+Select DCIM Folder
+Select Camera Folder
+Select More Options 
+Click On Select All Options
+Pass: 2 Videos recorded Successfully
+Pass: A total of 27 files present in uSD card before Format
+calling Format() for format with data scenario
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch home screen and clear recent apps
+Launch Settings application for Format uSD card with Data scenario 
+Clicking on storage
+Clicking on SD card
+Clicking on SD card
+Clicking on more options
+Clicking on Storage settings
+Click Format
+Started formatting, waiting till it gets formatted
+Format uSD with Data is successfull
+Launch File Manager application to verify  Image capture
+Select  SD Card
+Select DCIM Folder
+Pass: Images and videos are not present in the DCIM folder, CARD format is successfully completed 
+Final Message: Pass Test0 Pass for format Operation
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+]]></system-out>
+    <system-err><![CDATA[2023-03-27 18:58:48 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+2023-03-27 18:58:56 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: realme Pad, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: ZLJRS4I7E6L7B6NB}, deviceApiLevel: 30, deviceManufacturer: realme, deviceModel: RMP2102, deviceName: ZLJRS4I7E6L7B6NB, deviceScreenDensity: 240, deviceScreenSize: 1200x2000, deviceUDID: ZLJRS4I7E6L7B6NB, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 54, takesScreenshot: true, udid: ZLJRS4I7E6L7B6NB, viewportRect: {height: 1874, left: 0, top: 54, width: 1200}, warnings: {}, webStorageEnabled: false}
+Session ID: 4c7a108a-c7e6-4f2c-a75b-4a5d4e84874b
+*** Element info: {Using=xpath, value=//android.widget.ImageView[@content-desc="More options , New content available"]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at Realme_Pad_RMP2102.Test0.Images(Test0.java:308)
+	at Realme_Pad_RMP2102.Test0.start(Test0.java:212)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:673)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:842)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1166)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1178)
+	at org.testng.TestRunner.privateRun(TestRunner.java:757)
+	at org.testng.TestRunner.run(TestRunner.java:608)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1158)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1154)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1083)
+	at org.testng.TestNG.run(TestNG.java:999)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: realme Pad, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: ZLJRS4I7E6L7B6NB}, deviceApiLevel: 30, deviceManufacturer: realme, deviceModel: RMP2102, deviceName: ZLJRS4I7E6L7B6NB, deviceScreenDensity: 240, deviceScreenSize: 1200x2000, deviceUDID: ZLJRS4I7E6L7B6NB, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 54, takesScreenshot: true, udid: ZLJRS4I7E6L7B6NB, viewportRect: {height: 1874, left: 0, top: 54, width: 1200}, warnings: {}, webStorageEnabled: false}
+Session ID: 4c7a108a-c7e6-4f2c-a75b-4a5d4e84874b
+*** Element info: {Using=xpath, value=//android.widget.ImageView[@content-desc="More options , New content available"]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at Realme_Pad_RMP2102.Test0.Video(Test0.java:597)
+	at Realme_Pad_RMP2102.Test0.Images(Test0.java:350)
+	at Realme_Pad_RMP2102.Test0.start(Test0.java:212)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:673)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:842)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1166)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1178)
+	at org.testng.TestRunner.privateRun(TestRunner.java:757)
+	at org.testng.TestRunner.run(TestRunner.java:608)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1158)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1154)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1083)
+	at org.testng.TestNG.run(TestNG.java:999)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: realme Pad, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: ZLJRS4I7E6L7B6NB}, deviceApiLevel: 30, deviceManufacturer: realme, deviceModel: RMP2102, deviceName: ZLJRS4I7E6L7B6NB, deviceScreenDensity: 240, deviceScreenSize: 1200x2000, deviceUDID: ZLJRS4I7E6L7B6NB, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 54, takesScreenshot: true, udid: ZLJRS4I7E6L7B6NB, viewportRect: {height: 1874, left: 0, top: 54, width: 1200}, warnings: {}, webStorageEnabled: false}
+Session ID: 4c7a108a-c7e6-4f2c-a75b-4a5d4e84874b
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Camera")}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.FindsByAndroidUIAutomator.findElementByAndroidUIAutomator(FindsByAndroidUIAutomator.java:38)
+	at Realme_Pad_RMP2102.Test0.Format(Test0.java:781)
+	at Realme_Pad_RMP2102.Test0.Video(Test0.java:637)
+	at Realme_Pad_RMP2102.Test0.Images(Test0.java:350)
+	at Realme_Pad_RMP2102.Test0.start(Test0.java:212)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:673)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:842)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1166)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1178)
+	at org.testng.TestRunner.privateRun(TestRunner.java:757)
+	at org.testng.TestRunner.run(TestRunner.java:608)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1158)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1154)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1083)
+	at org.testng.TestNG.run(TestNG.java:999)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]></system-err>
+  </testcase>
+  <testcase name="Format" classname="Realme_Pad_RMP2102.Test3" time="263.53">
+    <system-out><![CDATA[===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test3 Scenario is as follows
+1.Unmount uSD Card and Format card for specified number of times
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch home screen
+Launch  setting application and mount,unmount and Format USD card
+Number of Unmount,mount and Format cycles = 1
+Clicking on storage
+Select eject option
+Eject SD card is successfull
+Click SD Card
+Select mount option
+Mount SD card is successfull
+Clicking on SD card
+Clicking on SD card
+Clicking on more options
+Clicking on Storage settings
+Click Format
+Unmount, mount and Format uSD card cycle:01 completed succesfully
+Pass: Test3 Pass for MOunt,unmount and Formating the uSD Card
+Launch file manager application and verify data format
+Launch File Manager application to verify data format
+Select  SD Card
+Select DCIM Folder
+Pass: Images and videos are not present in the DCIM folder, CARD format is successfully completed 
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Final Message: Pass Test3 Pass for Unmount,Mount and Formattig uSD Card
+Test:End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+]]></system-out>
+    <system-err><![CDATA[2023-03-27 19:16:39 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+2023-03-27 19:16:48 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: realme Pad, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: ZLJRS4I7E6L7B6NB}, deviceApiLevel: 30, deviceManufacturer: realme, deviceModel: RMP2102, deviceName: ZLJRS4I7E6L7B6NB, deviceScreenDensity: 240, deviceScreenSize: 1200x2000, deviceUDID: ZLJRS4I7E6L7B6NB, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 54, takesScreenshot: true, udid: ZLJRS4I7E6L7B6NB, viewportRect: {height: 1874, left: 0, top: 54, width: 1200}, warnings: {}, webStorageEnabled: false}
+Session ID: e58716fd-2da4-48d0-97ed-a10d5fb9eaf7
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Camera")}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.FindsByAndroidUIAutomator.findElementByAndroidUIAutomator(FindsByAndroidUIAutomator.java:38)
+	at Realme_Pad_RMP2102.Test3.Format(Test3.java:230)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:673)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:842)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1166)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1178)
+	at org.testng.TestRunner.privateRun(TestRunner.java:757)
+	at org.testng.TestRunner.run(TestRunner.java:608)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1158)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1154)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1083)
+	at org.testng.TestNG.run(TestNG.java:999)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]></system-err>
+  </testcase>
+  <testcase name="CopyPaste" classname="Realme_Pad_RMP2102.Test18" time="1,297.197">
+    <system-out><![CDATA[Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test18 Scenario is as follows
+1.Pushing 1GB zip File to Host Internal Memory via server folder named as Test1 
+2.Extracting zip file in Host internal memory
+3.Copy Paste 1GB file (Test1) from host internal memory to uSD Card, Create a folder named Test2 in uSD Card, Copy paste 1GB Folder(Test1) From internal to external inside folder Test2 and Vice versa
+4.Create folder name(New_Scenario in External memory, select folder name(Test2) from internal memory and perform cut paste operation from internla to external memory
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Unlocking Phone
+Launch home screen
+Pushing File from Laptop to Mobile
+Launching file manager application to extract zip and perform copy paste, cut paste operation from internal memory to external memory
+click on browse option
+Select Internal storage
+Search for Test1 Folder
+Search for TestFile  Folder
+Extracting Push zip file as Folder named Test1
+Extracting Zip file
+1GB File Extration completed
+Extracting Complete
+Launching file manager application
+Select Internal storage
+Select Test1 folder from internal storage
+Select Moreoptions
+Select Copy option
+Select External Storage
+Select Paste option for copy paste Test1 folder from Internal to external storage
+Select Internal storage
+Long Press and select and Test1 Folder
+Select Moreoptions
+Select Copy option
+Select External storage
+Select create folder option
+Name folder as Test2
+Copy paste Test1 folder inside Test2 folder
+Select External Storage
+Long Press and select and Test2 Folder from External storage
+Select Moreoptions
+Select Copy option
+Select Internal storage
+click on copy here
+Select Internal storage
+Long Press and select and Test2 Folder from internal storage
+Select Moreoptions
+Select Move to option
+Select External storage
+click on create folder and create folder name folder name New_Scenario
+Select Move to folder option
+Paste Test2 folder inside New_Scenario folder
+Pass: Cut paste Operation Completed Successfully
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Final message: Pass Test18 Pass for copy paste & cut paste operation
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+]]></system-out>
+    <system-err><![CDATA[2023-03-27 19:21:11 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+2023-03-27 19:21:25 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="recordAudio" classname="Realme_Pad_RMP2102.Test8" time="287.646">
+    <system-out><![CDATA[Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test8 scenario is as follows
+1.Launch mobile default voice recording application and set  storage option, record audio file for 2 minutes duration
+2.Launch file manager application and playback recorded audio file from external storage, fast forward audio file and pause
+3.Launch file manager application and playback copied audio files from external storage the files are placed in the Test1 folder
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch home screen
+Clearing Recent Apps
+Host does not support audio recording for external mount. Hence skipping audio recording and recorded audio playback scenario
+Calling PlayCopiedAudioFile() for Audio play back and fast forward scenario
+Launch home screen
+Launch File Manager Application
+Select  SD card
+Select Test1 folder
+Select Test_file folder
+Select 1GB folder
+Select MP3 files Folder
+Playing first audio file from Test1 folder
+Fast Forwarding Audio for 10 Seconds
+Continue audio playback
+Pause Audio
+Pass: first audio file palyback and fast forward scenario is successfull
+Playing second audio file from Test1 folder
+Fast Forwarding Audio for 10 Seconds
+Continue audio playback
+Pause Audio
+Pass: Second audio file palyback and fast forward scenario is successfull
+Playing third audio file from Test1 folder
+Fast Forwarding Audio for 10 Seconds
+Continue audio playback
+Pause Audio
+Pass: Third audio file palyback and fast forward scenario is successfull
+Pass: Test8 Pass for Recorded and copied audio play back and fast forward scenario 
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Final Message: Pass Test8 Pass for Recorded and copied audio play back and fast forward scenario
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+]]></system-out>
+    <system-err><![CDATA[2023-03-27 19:42:58 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+2023-03-27 19:43:12 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: realme Pad, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: ZLJRS4I7E6L7B6NB}, deviceApiLevel: 30, deviceManufacturer: realme, deviceModel: RMP2102, deviceName: ZLJRS4I7E6L7B6NB, deviceScreenDensity: 240, deviceScreenSize: 1200x2000, deviceUDID: ZLJRS4I7E6L7B6NB, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 54, takesScreenshot: true, udid: ZLJRS4I7E6L7B6NB, viewportRect: {height: 1874, left: 0, top: 54, width: 1200}, warnings: {}, webStorageEnabled: false}
+Session ID: c0a4d206-ba78-4eff-b74c-e6a865e98d96
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Files by Google")}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.FindsByAndroidUIAutomator.findElementByAndroidUIAutomator(FindsByAndroidUIAutomator.java:38)
+	at Realme_Pad_RMP2102.Test8.PlayCopiedAudioFile(Test8.java:438)
+	at Realme_Pad_RMP2102.Test8.recordAudio(Test8.java:217)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:673)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:842)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1166)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1178)
+	at org.testng.TestRunner.privateRun(TestRunner.java:757)
+	at org.testng.TestRunner.run(TestRunner.java:608)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1158)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1154)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1083)
+	at org.testng.TestNG.run(TestNG.java:999)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: realme Pad, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: ZLJRS4I7E6L7B6NB}, deviceApiLevel: 30, deviceManufacturer: realme, deviceModel: RMP2102, deviceName: ZLJRS4I7E6L7B6NB, deviceScreenDensity: 240, deviceScreenSize: 1200x2000, deviceUDID: ZLJRS4I7E6L7B6NB, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 54, takesScreenshot: true, udid: ZLJRS4I7E6L7B6NB, viewportRect: {height: 1874, left: 0, top: 54, width: 1200}, warnings: {}, webStorageEnabled: false}
+Session ID: c0a4d206-ba78-4eff-b74c-e6a865e98d96
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Files by Google")}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.FindsByAndroidUIAutomator.findElementByAndroidUIAutomator(FindsByAndroidUIAutomator.java:38)
+	at Realme_Pad_RMP2102.Test8.PlayCopiedAudioFile(Test8.java:486)
+	at Realme_Pad_RMP2102.Test8.recordAudio(Test8.java:217)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:673)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:842)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1166)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1178)
+	at org.testng.TestRunner.privateRun(TestRunner.java:757)
+	at org.testng.TestRunner.run(TestRunner.java:608)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1158)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1154)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1083)
+	at org.testng.TestNG.run(TestNG.java:999)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: realme Pad, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: ZLJRS4I7E6L7B6NB}, deviceApiLevel: 30, deviceManufacturer: realme, deviceModel: RMP2102, deviceName: ZLJRS4I7E6L7B6NB, deviceScreenDensity: 240, deviceScreenSize: 1200x2000, deviceUDID: ZLJRS4I7E6L7B6NB, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 54, takesScreenshot: true, udid: ZLJRS4I7E6L7B6NB, viewportRect: {height: 1874, left: 0, top: 54, width: 1200}, warnings: {}, webStorageEnabled: false}
+Session ID: c0a4d206-ba78-4eff-b74c-e6a865e98d96
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Files by Google")}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.FindsByAndroidUIAutomator.findElementByAndroidUIAutomator(FindsByAndroidUIAutomator.java:38)
+	at Realme_Pad_RMP2102.Test8.PlayCopiedAudioFile(Test8.java:533)
+	at Realme_Pad_RMP2102.Test8.recordAudio(Test8.java:217)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:673)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:842)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1166)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1178)
+	at org.testng.TestRunner.privateRun(TestRunner.java:757)
+	at org.testng.TestRunner.run(TestRunner.java:608)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1158)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1154)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1083)
+	at org.testng.TestNG.run(TestNG.java:999)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]></system-err>
+  </testcase>
+  <testcase name="rearVideoRec" classname="Realme_Pad_RMP2102.Test10" time="1,179.69">
+    <system-out><![CDATA[===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test10 Scenario is as follows
+1.Launch Camera application and start back camera video recording for all host applicable resolutions in uSD Card
+2.Playback Highest resolution recorded video from uSD Card, fast forward playback and pause video scenario 
+3.Playback copied videos from Test1 folder, fast forward and pause scenario
+4.Move recorded videos from Exteranl storage-->DCIM-->Camera folder to Test10 folder in external storage
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch home screen
+Clearing Recent Apps
+Launch Camera application for rear camera video recording
+Test10_Bcam_res: 3 resolutions supported
+Switch to video recording mode
+Select settings option
+Select Video size(Back camera) option
+Select first highest rear camera video resolution: HD 1080P
+RE-Launch Camera application for rear camera video recording
+Switch to video recording mode
+recordingDurationRear = 180 Seconds
+Start video recording
+Stop video recording
+Select settings option
+Select Video size(Back camera) option
+Select second highest rear camera video resolution: HD 720P
+recordingDurationRear1 = 180 Seconds
+Start video recording
+Stop video recording
+Select settings option
+Select Video size(Back camera) option
+Select third highest rear camera video resolution: SD 480P
+recordingDurationRear2 = 180 Seconds
+Start video recording
+Stop video recording
+Switch to photo mode
+Pass: Rear video recording is successfull
+Launch File Manager Application to verify captured videos in uSD card
+Swipe up to select uSD card
+Select SD card
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Test10_Bcam_video: 3 Videos captured successfull
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Calling RecordedVideoPlayback() for Playing Highest record video, fast forward video play back scenario
+Launch Camera Application for rear camera video recording
+Swipe up and select uSD card
+Select External storage
+switch to gird view mode
+Swipe up and select DCIM folder
+Select DCIM folder
+Select Camera folder
+switch to list view mode
+select more options
+Select Sort BY
+Select Largest first
+Click on first file to play highest recorded resolution video file
+Started video playback
+Tap Somewhere on Screen for contents to visible on Screen
+Fast forward video for 10 seconds
+Continue video playback
+Pass: Recorded Video playback and fast forward scenario successfull
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Calling DataMovementOperation() to move recorded rear camer videos to Test10 Folder 
+launch file manager application select uSD card-->DCIM folder-->Camera folder-->Select all rear camera images create Test10 folder and cut paste all videos in Test10 folder
+click on browse option
+Swipe up to select uSD card
+Select SD card
+Select DCIM folder
+Select DCIM Folder
+Select camera folder
+Click More options
+Click select all
+Click More options
+select move to option
+select uSD Card
+Select ADD NEW Folder option
+Name folder as Test10
+Accept create folder
+Cut paste  video files operation completed successfully
+Pass: Test10 Pass for data move operation successfully
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Calling copiedvideosPlayBack() for playing copied video file from Test1 folder
+Launch file manager application, select uSD card, select Test1 folder, select Videos folder and Play copied videos and fast forward the same 
+Select external storage
+switch to gird view mode
+Select Test1 folder
+Select test_file folder
+Select OneGB folder
+Select video folder
+switch to list view mode
+Select LG_4K_DEMO_HDR_2018_(60FPS)_ELBA(480p).mp4 file for video playback
+Started video playback
+Tap Somewhere on Screen for contents to visible on Screen
+Click fast forward button for 10 seconds video forward
+Pass: 4K Video play back and fast forward is successful 
+Select FHD 5.1 ( 1350 X 2560 ).webm file for video playback
+Started video playback
+Tap Somewhere on Screen for contents to visible on Screen
+Click fast forward button for 10 seconds video forward
+Click pause button to stop video
+Pass: FHD Video play back and fast forward is successful 
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Final Message: Pass Test10 Pass for Playing Copied Video files, recorded video file and fast forward video play back scenario 
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+]]></system-out>
+    <system-err><![CDATA[2023-03-27 19:47:54 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+2023-03-27 19:48:03 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: realme Pad, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: ZLJRS4I7E6L7B6NB}, deviceApiLevel: 30, deviceManufacturer: realme, deviceModel: RMP2102, deviceName: ZLJRS4I7E6L7B6NB, deviceScreenDensity: 240, deviceScreenSize: 1200x2000, deviceUDID: ZLJRS4I7E6L7B6NB, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 54, takesScreenshot: true, udid: ZLJRS4I7E6L7B6NB, viewportRect: {height: 1874, left: 0, top: 54, width: 1200}, warnings: {}, webStorageEnabled: false}
+Session ID: b7eb6739-8b0f-4ed6-ae3b-fcbb68f1f6fc
+*** Element info: {Using=xpath, value=//*[@resource-id='com.google.android.apps.nbu.files:id/agree_button']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at Realme_Pad_RMP2102.Test10.DataMoveOperation(Test10.java:715)
+	at Realme_Pad_RMP2102.Test10.RecordedVideoPlayback(Test10.java:501)
+	at Realme_Pad_RMP2102.Test10.rearVideoRec(Test10.java:365)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:673)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:842)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1166)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1178)
+	at org.testng.TestRunner.privateRun(TestRunner.java:757)
+	at org.testng.TestRunner.run(TestRunner.java:608)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1158)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1154)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1083)
+	at org.testng.TestNG.run(TestNG.java:999)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]></system-err>
+  </testcase>
+  <testcase name="rearVideoRec" classname="Realme_Pad_RMP2102.Test10F" time="1,173.149">
+    <system-out><![CDATA[===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test10F Scenario is as follows
+1.Launch Camera application and start back camera video recording for all host applicable resolutions in uSD Card
+2.Playback Highest resolution recorded video from USD Card, fast forward playback and pause video scenario 
+3.Move front camera recorded videos from uSD card to Test10 folder in uSD card
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch home screen
+Clearing Recent Apps
+Launch Camera application for front camera video recording
+Test10F_Fcam_res: 3 resolutions supported
+Switch to video recording mode
+Switch to front Camera Mode if current Exiting camera is Front camera Mode
+Select settings option
+Select Video size(Front camera) option
+Select first highest front camera video resolution: HD 1080P
+recordingDurationfront = 180 Seconds
+Start video recording
+Stop video recording
+Select settings option
+Select Video size option
+Select second highest front camera video resolution: HD 720P
+recordingDurationfront1 = 180 Seconds
+Start video recording
+Stop video recording
+Select settings option
+Select Video size option
+Select third highest front camera video resolution: SD 480P
+recordingDurationfront2 = 180 Seconds
+Start video recording
+Stop video recording
+Switch to rear video camera mode
+Clicking photo Tab
+Pass: Test10F Pass for front camera video recording
+Launch file manager application and verify recorded video capture uSD Card
+Swipe up to select uSD card
+Select SD card
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Test10F_Fcam_video: 3 Videos captured successfull
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Calling VideoPlayBackForSleepWake()
+Launching file manager application
+Swipe up to select uSD card
+Select SD card
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+Select Camera folder
+switch to list view mode
+Select more options
+Select Sort By option
+Select Sort by Newest date first
+Click on first file to play highest recorded resolution video file
+Tap Somewhere on Screen for contents to visible on Screen
+Click pause video button
+Lock Mobile with 30 seconds delay
+Wait For 30Seconds
+Unlock Mobile
+Tap Somewhere on Screen for contents to visible on Screen
+Click pause video button
+Tap Somewhere on Screen for contents to visible on Screen
+Tap Somewhere on Screen for contents to visible on Screen
+Click pause video button
+Pass: Test10F Pass for Front video play back, Pause,Lock and Unlock Phone Play back from Pause duration Scenario
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+calling DatamoveOperation() to move front camera recorded videos files to Test10F folder
+Launch home screen
+launch file manager application select uSD card-->DCIM folder-->Camera folder-->Select all rear camera images create Test10F folder and cut paste all videos in Test10F folder
+Swipe up to select uSD card
+Select SD card
+Select DCIM Folder
+Select camera folder
+Click More options
+Click select all
+Click More options
+select move to option
+select uSD Card
+Select ADD NEW Folder option
+Name folder as Test10F
+Accept create folder
+Cut paste  video files operation completed successfully
+Pass: Test10F Pass for data move operation successfully
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Final Message: Pass Test10F Pass for front camera  video recording, Pause Video Playback scenario and data move operation scenario
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+]]></system-out>
+    <system-err><![CDATA[2023-03-27 20:07:43 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+2023-03-27 20:07:52 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: realme Pad, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: ZLJRS4I7E6L7B6NB}, deviceApiLevel: 30, deviceManufacturer: realme, deviceModel: RMP2102, deviceName: ZLJRS4I7E6L7B6NB, deviceScreenDensity: 240, deviceScreenSize: 1200x2000, deviceUDID: ZLJRS4I7E6L7B6NB, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 54, takesScreenshot: true, udid: ZLJRS4I7E6L7B6NB, viewportRect: {height: 1874, left: 0, top: 54, width: 1200}, warnings: {}, webStorageEnabled: false}
+Session ID: c5a6ecae-c1cf-4f84-ab50-6d209a8cf946
+*** Element info: {Using=xpath, value=//*[@resource-id='com.google.android.apps.nbu.files:id/agree_button']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at Realme_Pad_RMP2102.Test10F.rearVideoRec(Test10F.java:312)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:673)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:842)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1166)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1178)
+	at org.testng.TestRunner.privateRun(TestRunner.java:757)
+	at org.testng.TestRunner.run(TestRunner.java:608)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1158)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1154)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1083)
+	at org.testng.TestNG.run(TestNG.java:999)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]></system-err>
+  </testcase>
+  <testcase name="RearPictureCapture" classname="Realme_Pad_RMP2102.Test9" time="692.324">
+    <system-out><![CDATA[Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test9 Scenario is follows:
+1.Launch camera application, set uSD as a Storage option, start rear camera Image capture for all host resolutions
+2.Move rear camera  captured image files from camera folder to Test9 folder
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch home screen
+Clearing Recent Apps
+Launch Camera application for rear camera Image capture
+Test9_Bcam_res: 6 resolutions supported
+Select settings option
+Select Photo aspect ratio (Rear camera) option to select resolution
+Select Rear camera first image resolution: (4:3) 4.0 MP
+totalPictureCountRear = 6 Images to be captured
+captureing first Resolution image 0
+captureing first Resolution image 1
+captureing first Resolution image 2
+captureing first Resolution image 3
+captureing first Resolution image 4
+captureing first Resolution image 5
+Select settings option
+Select Picture size(Back camera) option to select resolution
+Select Rear camera second resolution: (4:3) 8.0 MP
+totalPictureCountRear1 = 6 Imgaes to be captured
+captureing Second  Resolution image 0
+captureing Second  Resolution image 1
+captureing Second  Resolution image 2
+captureing Second  Resolution image 3
+captureing Second  Resolution image 4
+captureing Second  Resolution image 5
+Select settings option
+Select Picture size(Back camera) option to select resolution
+Select Rear camera third resolution: (4:3) 1.9 MP
+totalPictureCountRear2 = 6 Imgaes to be captured
+captureing third  Resolution image 0
+captureing third  Resolution image 1
+captureing third  Resolution image 2
+captureing third  Resolution image 3
+captureing third  Resolution image 4
+captureing third  Resolution image 5
+Select settings option
+Select Picture size(Back camera) option to select resolution
+Select Rear camera fourth resolution: (16:9) 6.0 MP
+totalPictureCountRear3 = 6 Imgaes to be captured
+captureing fourth  Resolution image 0
+captureing fourth  Resolution image 1
+captureing fourth  Resolution image 2
+captureing fourth  Resolution image 3
+captureing fourth  Resolution image 4
+captureing fourth  Resolution image 5
+Select settings option
+Select Picture size(Back camera) option to select resolution
+Select Rear camera fifth resolution: (16:9) 2.4 MP
+totalPictureCountRear4 = 6 Imgaes to be captured
+captureing fifth  Resolution image 0
+captureing fifth  Resolution image 1
+captureing fifth  Resolution image 2
+captureing fifth  Resolution image 3
+captureing fifth  Resolution image 4
+captureing fifth  Resolution image 5
+Select settings option
+Select Picture size(Back camera) option to select resolution
+Select Rear camera sixth resolution: (16:9) 2.1 MP
+totalPictureCountRear5 = 6 Imgaes to be captured
+captureing sixth  Resolution image 0
+captureing sixth  Resolution image 1
+captureing sixth  Resolution image 2
+captureing sixth  Resolution image 3
+captureing sixth  Resolution image 4
+captureing sixth  Resolution image 5
+Total Count value:36 images to be Captured 
+Launch file manager application and verify recorded video present in uSD Card
+Swipe up to select uSD card
+Select SD card
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Test9_Bcam_image: 36 selected images Captured succesfull
+Interger value:36
+Tolerance_Level = 75
+
+Pass: Test9 pass for rear Image capture
+Test9_Bcam_image: 36  images Captured succesfull
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+calling DataMoveOperation()
+launch file manager application select uSD card-->DCIM folder-->Camera folder-->Select all rear camera images create Test9 folder and cut paste all videos in Test9 folder
+Swipe up to select uSD card
+Select external storage
+Click More options
+Select add new folder option
+Name folder as Test9
+Select DCIM Folder
+Select camera folder
+Click More options
+Click select all option
+Click More options
+Select Move to option
+Select SD card
+Select Test9 folder
+Click move here
+Pass: Test9 Pass for data move operation successfully
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Final Message: Pass Test9 Pass for Rear camera image capture  successfully
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+]]></system-out>
+    <system-err><![CDATA[2023-03-27 20:27:25 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+2023-03-27 20:27:39 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="RearPictureCapture" classname="Realme_Pad_RMP2102.Test9F" time="710.012">
+    <system-out><![CDATA[Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test9F Scenario is as follows:
+1.Launch camera application, set uSD as a Storage option, start Front camera image picture capture for all Host front resolutions
+2.Move captured front images from camera folder to Test9F folder
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch home screen
+Clearing Recent Apps
+Launch Camera application for front camera Image capture
+Test9F_Fcam_res: 6 resolutions supported
+Switch to front Camera Mode if current Exiting camera is Front camera Mode
+Select settings option
+Select Photo aspect ratio (Front camera) option to select resolution
+Select front camera front image resolution: (4:3) 4.0M
+totalPictureCountFront = 6
+Captureing first resolution image 0
+Captureing first resolution image 1
+Captureing first resolution image 2
+Captureing first resolution image 3
+Captureing first resolution image 4
+Captureing first resolution image 5
+Select settings option
+Select Picture size(Front camera) option to select resolution
+Select front camera second image resolution: (4:3) 8.0M
+totalPictureCountFront1 = 6
+Captureing second resolution image 0
+Captureing second resolution image 1
+Captureing second resolution image 2
+Captureing second resolution image 3
+Captureing second resolution image 4
+Captureing second resolution image 5
+Select settings option
+Select Picture size(Front camera) option to select resolution
+Select front camera third image resolution: (4:3) 1.9M
+totalPictureCountFront2 = 6
+Captureing third resolution image 0
+Captureing third resolution image 1
+Captureing third resolution image 2
+Captureing third resolution image 3
+Captureing third resolution image 4
+Captureing third resolution image 5
+Select settings option
+Select Picture size(Front camera) option to select resolution
+Select front camera fourth image resolution: (16:9) 6.0M
+totalPictureCountFront3 = 6
+Captureing fourth resolution image 0
+Captureing fourth resolution image 1
+Captureing fourth resolution image 2
+Captureing fourth resolution image 3
+Captureing fourth resolution image 4
+Captureing fourth resolution image 5
+Select settings option
+Select Picture size(Front camera) option to select resolution
+Select front camera fifth image resolution: (16:9) 2.4M
+totalPictureCountFront4 = 6
+Captureing fifth resolution image 0
+Captureing fifth resolution image 1
+Captureing fifth resolution image 2
+Captureing fifth resolution image 3
+Captureing fifth resolution image 4
+Captureing fifth resolution image 5
+Select settings option
+Select Picture size(Front camera) option to select resolution
+Select front camera sixth image resolution: (16:9) 2.1M
+totalPictureCountFront5 = 6
+Captureing sixth resolution image 0
+Captureing sixth resolution image 1
+Captureing sixth resolution image 2
+Captureing sixth resolution image 3
+Captureing sixth resolution image 4
+Captureing sixth resolution image 5
+Switch to back camera mode
+Total Count value:36 images to be Captured 
+Launch file manager application and verify captured images present in uSD Card
+Swipe up to select uSD card
+Select SD card
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Total Image
+Test9F_Fcam_image: 36 selected images Captured succesfull
+Actual Value:36 selected
+Interger value:36
+Tolerance_Level = 75
+
+Pass: Test9F pass for front Image capture
+Test9F_Fcam_image: 36  images Captured succesfull
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+calling DataMoveOperation()
+Re-launch file manager application and select external storage for data move operation, select all front camera images files present in camera folder and move to Test9F folder
+Swipe up to select uSD card
+Select external storage
+Click More options
+Select add new folder option
+Name folder as Test9F
+Select DCIM Folder
+Select camera folder
+Click More options
+Click select all option
+Click More options
+Select Move to option
+Select SD card
+Select Test9F folder
+Click move here
+Pass: Test9F Pass for data move operation successfully
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Final Message: Pass Test9F Pass for front Camera image capture
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+]]></system-out>
+    <system-err><![CDATA[2023-03-27 20:39:06 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+2023-03-27 20:39:20 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

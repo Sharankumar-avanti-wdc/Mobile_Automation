@@ -1,0 +1,95 @@
+2022-12-23 11:03:07 INFO   Vivo_V19_1933.Test10F frontVideoRec Test: Start
+2022-12-23 11:03:07 INFO   Vivo_V19_1933.Test10F frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-12-23 11:03:07 INFO   Vivo_V19_1933.Test10F frontVideoRec Test10F Scenario is as follows
+2022-12-23 11:03:07 INFO   Vivo_V19_1933.Test10F frontVideoRec 1.Launch Camera application and start front camera video recording for all host applicable resolutions in uSD Card
+2022-12-23 11:03:07 INFO   Vivo_V19_1933.Test10F frontVideoRec 2.Playback front Highest recorded video for 30 seconds, pause video playback, lock mobile and wait 30 seconds, unlock mobile and playback video from pause video duration
+2022-12-23 11:03:07 INFO   Vivo_V19_1933.Test10F frontVideoRec Setting up the appium desired capabilities
+2022-12-23 11:03:07 INFO   Vivo_V19_1933.Test10F frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-12-23 11:03:16 INFO   Vivo_V19_1933.Test10F frontVideoRec Unlocking Phone 
+2022-12-23 11:03:21 INFO   Vivo_V19_1933.Test10F frontVideoRec Launch home screen
+2022-12-23 11:03:36 INFO   Vivo_V19_1933.Test10F frontVideoRec Launch Camera application for rear camera video recording
+2022-12-23 11:03:43 INFO   Vivo_V19_1933.Test10F frontVideoRec Test10F_Fcam_res: 3 resolutions supported
+2022-12-23 11:03:43 INFO   Vivo_V19_1933.Test10F frontVideoRec If location permission access pop-up exists select Dont Allow option
+2022-12-23 11:03:53 INFO   Vivo_V19_1933.Test10F frontVideoRec change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: vivo 1933, newCommandTimeout: 1200, platformName: android, platformVersion: 12, udid: 39a79e47}, deviceApiLevel: 30, deviceManufacturer: vivo, deviceModel: vivo 1933, deviceName: 39a79e47, deviceScreenDensity: 480, deviceScreenSize: 1080x2400, deviceUDID: 39a79e47, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 123, takesScreenshot: true, udid: 39a79e47, viewportRect: {height: 2028, left: 0, top: 123, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 521a7ac8-42d3-40eb-a019-a466466a9eb7
+*** Element info: {Using=xpath, value=//*[@text='Cancel']}
+2022-12-23 11:03:53 INFO   Vivo_V19_1933.Test10F frontVideoRec Select settings option
+2022-12-23 11:04:04 INFO   Vivo_V19_1933.Test10F frontVideoRec Select SD as storage option
+2022-12-23 11:04:12 INFO   Vivo_V19_1933.Test10F frontVideoRec Switch to video mode
+2022-12-23 11:04:18 INFO   Vivo_V19_1933.Test10F frontVideoRec Select settings option
+2022-12-23 11:04:23 INFO   Vivo_V19_1933.Test10F frontVideoRec Select settings option
+2022-12-23 11:04:35 INFO   Vivo_V19_1933.Test10F frontVideoRec Select first highest front camera video resolution: 1080p
+2022-12-23 11:04:48 INFO   Vivo_V19_1933.Test10F frontVideoRec Start Recording second first resolution video for specified duration time
+2022-12-23 11:07:54 INFO   Vivo_V19_1933.Test10F frontVideoRec Stop video recording
+2022-12-23 11:07:59 INFO   Vivo_V19_1933.Test10F frontVideoRec Select settings option
+2022-12-23 11:08:10 INFO   Vivo_V19_1933.Test10F frontVideoRec Select second highest front camera video resolution: 720p
+2022-12-23 11:08:23 INFO   Vivo_V19_1933.Test10F frontVideoRec Start Recording second resolution video for specified duration time
+2022-12-23 11:11:30 INFO   Vivo_V19_1933.Test10F frontVideoRec Stop Recording
+2022-12-23 11:11:30 INFO   Vivo_V19_1933.Test10F frontVideoRec Select settings option
+2022-12-23 11:11:30 INFO   Vivo_V19_1933.Test10F frontVideoRec Select settings option
+2022-12-23 11:11:42 INFO   Vivo_V19_1933.Test10F frontVideoRec Select third highest front camera video resolution: 480p
+2022-12-23 11:11:54 INFO   Vivo_V19_1933.Test10F frontVideoRec Start Recording third resolution video for specified duration time
+2022-12-23 11:14:59 INFO   Vivo_V19_1933.Test10F frontVideoRec Stop Recording
+2022-12-23 11:14:59 INFO   Vivo_V19_1933.Test10F frontVideoRec Switch from Front Mode to rear camera mode
+2022-12-23 11:15:04 INFO   Vivo_V19_1933.Test10F frontVideoRec Switch to photo mode
+2022-12-23 11:15:16 INFO   Vivo_V19_1933.Test10F frontVideoRec Pass: pass for front camera video recording
+2022-12-23 11:15:16 INFO   Vivo_V19_1933.Test10F frontVideoRec Launch file manager application and verify recorded video capture uSD Card
+2022-12-23 11:15:34 INFO   Vivo_V19_1933.Test10F frontVideoRec Swipe up to select uSD card
+2022-12-23 11:15:38 INFO   Vivo_V19_1933.Test10F frontVideoRec Select SD card
+2022-12-23 11:15:44 INFO   Vivo_V19_1933.Test10F frontVideoRec switch to grid view mode to select DCIM folder
+2022-12-23 11:15:48 INFO   Vivo_V19_1933.Test10F frontVideoRec Select DCIM folder
+2022-12-23 11:15:51 INFO   Vivo_V19_1933.Test10F frontVideoRec Select camera folder
+2022-12-23 11:15:54 INFO   Vivo_V19_1933.Test10F frontVideoRec switch to list view mode 
+2022-12-23 11:15:57 INFO   Vivo_V19_1933.Test10F frontVideoRec Click More options
+2022-12-23 11:16:04 INFO   Vivo_V19_1933.Test10F frontVideoRec Click Select all
+2022-12-23 11:16:13 INFO   Vivo_V19_1933.Test10F frontVideoRec Test10F_Fcam_video: 3 Videos captured successfull
+2022-12-23 11:16:13 INFO   Vivo_V19_1933.Test10F frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-12-23 11:16:13 INFO   Vivo_V19_1933.Test10F frontVideoRec Calling VideoPlayBackForSleepWake()
+2022-12-23 11:16:20 INFO   Vivo_V19_1933.Test10F VideoPlayBackForSleepWake Launching file manager application
+2022-12-23 11:16:22 INFO   Vivo_V19_1933.Test10F VideoPlayBackForSleepWake Swipe up to select uSD card
+2022-12-23 11:16:27 INFO   Vivo_V19_1933.Test10F VideoPlayBackForSleepWake Select SD card
+2022-12-23 11:16:38 INFO   Vivo_V19_1933.Test10F VideoPlayBackForSleepWake switch to grid view mode to select DCIM folder
+2022-12-23 11:16:41 INFO   Vivo_V19_1933.Test10F VideoPlayBackForSleepWake Select DCIM folder
+2022-12-23 11:16:44 INFO   Vivo_V19_1933.Test10F VideoPlayBackForSleepWake Select Camera folder
+2022-12-23 11:16:48 INFO   Vivo_V19_1933.Test10F VideoPlayBackForSleepWake switch to list view mode 
+2022-12-23 11:16:51 INFO   Vivo_V19_1933.Test10F VideoPlayBackForSleepWake Select more options
+2022-12-23 11:17:02 INFO   Vivo_V19_1933.Test10F VideoPlayBackForSleepWake Select Sort by Newest date first
+2022-12-23 11:17:05 INFO   Vivo_V19_1933.Test10F VideoPlayBackForSleepWake Click on first file to play highest recorded resolution video file
+2022-12-23 11:17:05 INFO   Vivo_V19_1933.Test10F VideoPlayBackForSleepWake Started video playback
+2022-12-23 11:17:25 INFO   Vivo_V19_1933.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2022-12-23 11:17:25 INFO   Vivo_V19_1933.Test10F VideoPlayBackForSleepWake Click pause video button
+2022-12-23 11:17:30 INFO   Vivo_V19_1933.Test10F VideoPlayBackForSleepWake Lock Mobile with 30 seconds delay
+2022-12-23 11:19:30 INFO   Vivo_V19_1933.Test10F VideoPlayBackForSleepWake Wait For 30Seconds
+2022-12-23 11:19:35 INFO   Vivo_V19_1933.Test10F VideoPlayBackForSleepWake Unlock Mobile 
+2022-12-23 11:19:35 INFO   Vivo_V19_1933.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2022-12-23 11:19:35 INFO   Vivo_V19_1933.Test10F VideoPlayBackForSleepWake Click pause video button
+2022-12-23 11:20:08 INFO   Vivo_V19_1933.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2022-12-23 11:20:08 INFO   Vivo_V19_1933.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2022-12-23 11:20:08 INFO   Vivo_V19_1933.Test10F VideoPlayBackForSleepWake Click pause video button
+2022-12-23 11:20:20 INFO   Vivo_V19_1933.Test10F VideoPlayBackForSleepWake Pass: Test10F Pass for Front video play back, Pause,Lock and Unlock Phone Play back from Pause duration Scenario
+2022-12-23 11:20:20 INFO   Vivo_V19_1933.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-12-23 11:20:20 INFO   Vivo_V19_1933.Test10F VideoPlayBackForSleepWake calling DatamoveOperation() to move front camera recorded videos files to Test10F folder
+2022-12-23 11:20:26 INFO   Vivo_V19_1933.Test10F DataMoveOperation launch file manager application select uSD card-->DCIM folder-->Camera folder-->Select all back camera front camera videos create Test10 and cut paste all videos in BCFC_Cameravideos folder
+2022-12-23 11:20:33 INFO   Vivo_V19_1933.Test10F DataMoveOperation Swipe up to select uSD card
+2022-12-23 11:20:37 INFO   Vivo_V19_1933.Test10F DataMoveOperation Select SD card
+2022-12-23 11:20:44 INFO   Vivo_V19_1933.Test10F DataMoveOperation Select DCIM folder
+2022-12-23 11:20:47 INFO   Vivo_V19_1933.Test10F DataMoveOperation Select camera folder
+2022-12-23 11:20:51 INFO   Vivo_V19_1933.Test10F DataMoveOperation Click More options
+2022-12-23 11:20:57 INFO   Vivo_V19_1933.Test10F DataMoveOperation Click Select all
+2022-12-23 11:21:01 INFO   Vivo_V19_1933.Test10F DataMoveOperation Click More options
+2022-12-23 11:21:07 INFO   Vivo_V19_1933.Test10F DataMoveOperation Select move to option
+2022-12-23 11:21:15 INFO   Vivo_V19_1933.Test10F DataMoveOperation Select uSD Card
+2022-12-23 11:21:21 INFO   Vivo_V19_1933.Test10F DataMoveOperation Select ADD NEW Folder option
+2022-12-23 11:21:27 INFO   Vivo_V19_1933.Test10F DataMoveOperation Name folder as Test10F
+2022-12-23 11:21:33 INFO   Vivo_V19_1933.Test10F DataMoveOperation Accept create folder
+2022-12-23 11:23:35 INFO   Vivo_V19_1933.Test10F DataMoveOperation Cut paste  video files operation completed successfully
+2022-12-23 11:23:39 INFO   Vivo_V19_1933.Test10F DataMoveOperation Pass: Test10F Pass for data move operation successfully
+2022-12-23 11:23:39 INFO   Vivo_V19_1933.Test10F DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-12-23 11:23:39 INFO   Vivo_V19_1933.Test10F VideoPlayBackForSleepWake Final Message: Pass Test10F Pass for front camera  video recording, Pause Video Playback scenario and data move operation scenario
+2022-12-23 11:23:39 INFO   Vivo_V19_1933.Test10F VideoPlayBackForSleepWake Test: End
+2022-12-23 11:23:39 INFO   Vivo_V19_1933.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

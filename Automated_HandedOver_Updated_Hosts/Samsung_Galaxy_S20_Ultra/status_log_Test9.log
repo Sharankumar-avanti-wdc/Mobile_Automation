@@ -1,0 +1,157 @@
+2022-11-09 16:18:41 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture Test: Start
+2022-11-09 16:18:41 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-11-09 16:18:41 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture Test9 Scenario is follows:
+2022-11-09 16:18:41 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture 1.Launch camera application, set uSD as a Storage option, start rear camera Image capture for all host resolutions
+2022-11-09 16:18:41 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture 2.Move rear camera image captured files from camera folder to Test9 folder
+2022-11-09 16:18:41 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture Setting up the appium desired capabilities
+2022-11-09 16:18:49 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture Launch Home Screen and Clear recent
+2022-11-09 16:18:49 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture Launch Home screen and clear recent apps
+2022-11-09 16:19:09 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture Launch Camera application for rear Picture capture for all host resolution
+2022-11-09 16:19:10 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture Test9_Bcam_res: 5 resolutions supported
+2022-11-09 16:19:10 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture If change to uSD card pop-up exists select Cancel
+2022-11-09 16:19:20 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy S20 Ultra LTE, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: R5CN317QZVF}, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-G988B, deviceName: R5CN317QZVF, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: R5CN317QZVF, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 74, takesScreenshot: true, udid: R5CN317QZVF, viewportRect: {height: 2126, left: 0, top: 74, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 7dd601ca-abcd-472a-abf0-2c897dec1345
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2022-11-09 16:19:20 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture If Location access Permission Request Pop Exists Click on Cancel. 
+2022-11-09 16:19:20 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture If Location access Permission Request Pop Exists Click on Cancel. 
+2022-11-09 16:19:30 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture Location access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy S20 Ultra LTE, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: R5CN317QZVF}, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-G988B, deviceName: R5CN317QZVF, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: R5CN317QZVF, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 74, takesScreenshot: true, udid: R5CN317QZVF, viewportRect: {height: 2126, left: 0, top: 74, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 7dd601ca-abcd-472a-abf0-2c897dec1345
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2022-11-09 16:19:30 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture Switch To Rear Camera mode if current Exiting camera is Front camera mode
+2022-11-09 16:19:40 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture Current Existing Camera is Rear Camera mode.
+2022-11-09 16:19:40 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture Click Settings option
+2022-11-09 16:19:45 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture Search for Storage location
+2022-11-09 16:20:02 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture Select SD as storage option
+2022-11-09 16:20:10 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture Select Rear Image Size
+2022-11-09 16:20:11 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture Select first Image Resoution: 3:4 64MP
+2022-11-09 16:20:27 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking First  Resolution Image0
+2022-11-09 16:20:36 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking First  Resolution Image1
+2022-11-09 16:20:44 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking First  Resolution Image2
+2022-11-09 16:20:53 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking First  Resolution Image3
+2022-11-09 16:21:01 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking First  Resolution Image4
+2022-11-09 16:21:09 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking First  Resolution Image5
+2022-11-09 16:21:17 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking First  Resolution Image6
+2022-11-09 16:21:26 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking First  Resolution Image7
+2022-11-09 16:21:34 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking First  Resolution Image8
+2022-11-09 16:21:43 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking First  Resolution Image9
+2022-11-09 16:21:52 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking First  Resolution Image10
+2022-11-09 16:22:00 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking First  Resolution Image11
+2022-11-09 16:22:08 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking First  Resolution Image12
+2022-11-09 16:22:16 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking First  Resolution Image13
+2022-11-09 16:22:24 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking First  Resolution Image14
+2022-11-09 16:22:32 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking First  Resolution Image15
+2022-11-09 16:22:41 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking First  Resolution Image16
+2022-11-09 16:22:49 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking First  Resolution Image17
+2022-11-09 16:22:58 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking First  Resolution Image18
+2022-11-09 16:23:06 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking First  Resolution Image19
+2022-11-09 16:23:08 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture Rear camera first resolution:20 images Captured succesfull
+2022-11-09 16:23:08 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture Select Rear Image Size
+2022-11-09 16:23:08 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture Select second Image Resoution: 3:4 
+2022-11-09 16:23:24 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Second  Resolution Image0
+2022-11-09 16:23:32 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Second  Resolution Image1
+2022-11-09 16:23:40 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Second  Resolution Image2
+2022-11-09 16:23:49 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Second  Resolution Image3
+2022-11-09 16:23:57 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Second  Resolution Image4
+2022-11-09 16:24:05 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Second  Resolution Image5
+2022-11-09 16:24:13 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Second  Resolution Image6
+2022-11-09 16:24:21 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Second  Resolution Image7
+2022-11-09 16:24:29 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Second  Resolution Image8
+2022-11-09 16:24:38 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Second  Resolution Image9
+2022-11-09 16:24:47 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Second  Resolution Image10
+2022-11-09 16:24:55 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Second  Resolution Image11
+2022-11-09 16:25:03 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Second  Resolution Image12
+2022-11-09 16:25:11 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Second  Resolution Image13
+2022-11-09 16:25:20 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Second  Resolution Image14
+2022-11-09 16:25:28 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Second  Resolution Image15
+2022-11-09 16:25:36 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Second  Resolution Image16
+2022-11-09 16:25:44 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Second  Resolution Image17
+2022-11-09 16:25:52 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Second  Resolution Image18
+2022-11-09 16:26:01 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Second  Resolution Image19
+2022-11-09 16:26:03 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture Rear camera second resolution:20 images Captured succesfull
+2022-11-09 16:26:03 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture Select third Image Resoution: 9:16
+2022-11-09 16:26:23 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking third  Resolution Image0
+2022-11-09 16:26:31 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking third  Resolution Image1
+2022-11-09 16:26:40 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking third  Resolution Image2
+2022-11-09 16:26:49 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking third  Resolution Image3
+2022-11-09 16:26:57 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking third  Resolution Image4
+2022-11-09 16:27:05 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking third  Resolution Image5
+2022-11-09 16:27:14 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking third  Resolution Image6
+2022-11-09 16:27:22 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking third  Resolution Image7
+2022-11-09 16:27:31 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking third  Resolution Image8
+2022-11-09 16:27:39 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking third  Resolution Image9
+2022-11-09 16:27:47 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking third  Resolution Image10
+2022-11-09 16:27:55 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking third  Resolution Image11
+2022-11-09 16:28:03 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking third  Resolution Image12
+2022-11-09 16:28:11 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking third  Resolution Image13
+2022-11-09 16:28:20 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking third  Resolution Image14
+2022-11-09 16:28:28 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking third  Resolution Image15
+2022-11-09 16:28:37 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking third  Resolution Image16
+2022-11-09 16:28:45 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking third  Resolution Image17
+2022-11-09 16:28:53 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking third  Resolution Image18
+2022-11-09 16:29:01 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking third  Resolution Image19
+2022-11-09 16:29:03 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture Rear camera third resolution:20 images Captured succesfull
+2022-11-09 16:29:03 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture Select Fourth Image Resoution: 1:1
+2022-11-09 16:29:12 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture Capture Images
+2022-11-09 16:29:20 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Fourth  Resolution Image0
+2022-11-09 16:29:28 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Fourth  Resolution Image1
+2022-11-09 16:29:36 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Fourth  Resolution Image2
+2022-11-09 16:29:44 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Fourth  Resolution Image3
+2022-11-09 16:29:53 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Fourth  Resolution Image4
+2022-11-09 16:30:01 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Fourth  Resolution Image5
+2022-11-09 16:30:09 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Fourth  Resolution Image6
+2022-11-09 16:30:17 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Fourth  Resolution Image7
+2022-11-09 16:30:25 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Fourth  Resolution Image8
+2022-11-09 16:30:34 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Fourth  Resolution Image9
+2022-11-09 16:30:42 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Fourth  Resolution Image10
+2022-11-09 16:30:51 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Fourth  Resolution Image11
+2022-11-09 16:30:59 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Fourth  Resolution Image12
+2022-11-09 16:31:07 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Fourth  Resolution Image13
+2022-11-09 16:31:15 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Fourth  Resolution Image14
+2022-11-09 16:31:23 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Fourth  Resolution Image15
+2022-11-09 16:31:31 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Fourth  Resolution Image16
+2022-11-09 16:31:40 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Fourth  Resolution Image17
+2022-11-09 16:31:48 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Fourth  Resolution Image18
+2022-11-09 16:31:57 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Fourth  Resolution Image19
+2022-11-09 16:31:59 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture Rear camera fourth resolution:20 images Captured succesfull
+2022-11-09 16:31:59 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture Select fifth Resolution: Full
+2022-11-09 16:32:07 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture Capture Images
+2022-11-09 16:32:15 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Fifth  Resolution Image0
+2022-11-09 16:32:24 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Fifth  Resolution Image1
+2022-11-09 16:32:32 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Fifth  Resolution Image2
+2022-11-09 16:32:40 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Fifth  Resolution Image3
+2022-11-09 16:32:48 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Fifth  Resolution Image4
+2022-11-09 16:32:57 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Fifth  Resolution Image5
+2022-11-09 16:33:05 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Fifth  Resolution Image6
+2022-11-09 16:33:14 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Fifth  Resolution Image7
+2022-11-09 16:33:22 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Fifth  Resolution Image8
+2022-11-09 16:33:30 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Fifth  Resolution Image9
+2022-11-09 16:33:38 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Fifth  Resolution Image10
+2022-11-09 16:33:46 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Fifth  Resolution Image11
+2022-11-09 16:33:55 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Fifth  Resolution Image12
+2022-11-09 16:34:03 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Fifth  Resolution Image13
+2022-11-09 16:34:11 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Fifth  Resolution Image14
+2022-11-09 16:34:19 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Fifth  Resolution Image15
+2022-11-09 16:34:28 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Fifth  Resolution Image16
+2022-11-09 16:34:36 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Fifth  Resolution Image17
+2022-11-09 16:34:44 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Fifth  Resolution Image18
+2022-11-09 16:34:53 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture clicking Fifth  Resolution Image19
+2022-11-09 16:34:55 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture Rear camera fifth resolution:20 images Captured succesfull
+2022-11-09 16:35:03 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture Total Count value:100 images to be Captured 
+2022-11-09 16:35:12 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture Launch file manager application and verify captured rear camera images present  in uSD Card
+2022-11-09 16:35:13 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture Fail: Test9 fail for Fail Count Issue
+2022-11-09 16:35:13 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture calling DataMoveOperation() 
+2022-11-09 16:35:13 INFO   Samsung_Galaxy_S20_Ultra.Test9 DataMoveOperation Re-launch file manager application and select external storage for data move operation, select all rear camera images files present in camera folder and move to Test9 folder
+2022-11-09 16:35:14 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-11-09 16:35:14 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture Final message: Fail Test9 for rear camera image capture
+2022-11-09 16:35:14 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture Test: End
+2022-11-09 16:35:14 INFO   Samsung_Galaxy_S20_Ultra.Test9 RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

@@ -1,0 +1,231 @@
+2023-01-22 20:23:28 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Test: Start
+2023-01-22 20:23:28 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-22 20:23:28 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Test9F Scenario is as follows:
+2023-01-22 20:23:28 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture 1.Launch camera application, set uSD as a Storage option, start Front camera image picture capture for all Host front resolutions
+2023-01-22 20:23:28 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Setting up the appium desired capabilities
+2023-01-22 20:23:28 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-22 20:23:45 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Launch home screen
+2023-01-22 20:23:51 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Clearing Recent Apps
+2023-01-22 20:24:03 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Launch Camera application for front camera Image capture
+2023-01-22 20:24:11 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Test9F_Fcam_res: 6 resolutions supported
+2023-01-22 20:24:11 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture IF Change to uSD card notification pop-up exists select Cancel Option
+2023-01-22 20:24:22 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '172.20.10.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: C20, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: C20EEA000011548}, deviceApiLevel: 30, deviceManufacturer: Chinoe, deviceModel: C20, deviceName: C20EEA000011548, deviceScreenDensity: 320, deviceScreenSize: 720x1560, deviceUDID: C20EEA000011548, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 48, takesScreenshot: true, udid: C20EEA000011548, viewportRect: {height: 1360, left: 0, top: 48, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 2dc33463-dd4d-4bc2-8134-ae8ac3c3fb2d
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("DENY")}
+2023-01-22 20:24:22 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture if Location permisson Pop Exists Select Cancel Option
+2023-01-22 20:24:32 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Location permission access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '172.20.10.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: C20, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: C20EEA000011548}, deviceApiLevel: 30, deviceManufacturer: Chinoe, deviceModel: C20, deviceName: C20EEA000011548, deviceScreenDensity: 320, deviceScreenSize: 720x1560, deviceUDID: C20EEA000011548, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 48, takesScreenshot: true, udid: C20EEA000011548, viewportRect: {height: 1360, left: 0, top: 48, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 2dc33463-dd4d-4bc2-8134-ae8ac3c3fb2d
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("START CAPTURE")}
+2023-01-22 20:24:32 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Select photo mode option
+2023-01-22 20:24:32 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Switch to front  camera mode
+2023-01-22 20:24:36 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Select settings option
+2023-01-22 20:25:22 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Select Storagepath option
+2023-01-22 20:25:59 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Select SD as storage option
+2023-01-22 20:26:26 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Select settings option
+2023-01-22 20:27:12 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Select settings option to select resolution
+2023-01-22 20:27:47 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Select front camera front image resolution: (4:3) 1.9 megapixels
+2023-01-22 20:29:05 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing first resolution image 0
+2023-01-22 20:29:53 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing first resolution image 1
+2023-01-22 20:30:41 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing first resolution image 2
+2023-01-22 20:31:29 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing first resolution image 3
+2023-01-22 20:32:17 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing first resolution image 4
+2023-01-22 20:33:05 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing first resolution image 5
+2023-01-22 20:33:52 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing first resolution image 6
+2023-01-22 20:34:40 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing first resolution image 7
+2023-01-22 20:35:27 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing first resolution image 8
+2023-01-22 20:36:15 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing first resolution image 9
+2023-01-22 20:37:03 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing first resolution image 10
+2023-01-22 20:37:51 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing first resolution image 11
+2023-01-22 20:38:39 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing first resolution image 12
+2023-01-22 20:39:26 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing first resolution image 13
+2023-01-22 20:40:14 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing first resolution image 14
+2023-01-22 20:41:02 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing first resolution image 15
+2023-01-22 20:41:49 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing first resolution image 16
+2023-01-22 20:42:37 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing first resolution image 17
+2023-01-22 20:42:39 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Select settings option
+2023-01-22 20:43:25 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Select settings option to select resolution
+2023-01-22 20:44:00 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Select front camera second image resolution: (4:3) 0.7 megapixels
+2023-01-22 20:45:18 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing second resolution image 0
+2023-01-22 20:46:06 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing second resolution image 1
+2023-01-22 20:46:53 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing second resolution image 2
+2023-01-22 20:47:41 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing second resolution image 3
+2023-01-22 20:48:29 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing second resolution image 4
+2023-01-22 20:49:16 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing second resolution image 5
+2023-01-22 20:50:04 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing second resolution image 6
+2023-01-22 20:50:52 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing second resolution image 7
+2023-01-22 20:51:39 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing second resolution image 8
+2023-01-22 20:52:27 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing second resolution image 9
+2023-01-22 20:53:15 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing second resolution image 10
+2023-01-22 20:54:02 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing second resolution image 11
+2023-01-22 20:54:26 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing second resolution image 12
+2023-01-22 20:55:01 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing second resolution image 13
+2023-01-22 20:55:10 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing second resolution image 14
+2023-01-22 20:55:18 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing second resolution image 15
+2023-01-22 20:55:26 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing second resolution image 16
+2023-01-22 20:55:34 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing second resolution image 17
+2023-01-22 20:55:36 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Select settings option
+2023-01-22 20:55:41 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Select settings option to select resolution
+2023-01-22 20:55:46 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Select front camera third image resolution: (4:3) 0.4 megapixels
+2023-01-22 20:55:59 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Start image capture
+2023-01-22 20:56:05 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing third resolution image 0
+2023-01-22 20:56:07 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Start image capture
+2023-01-22 20:56:12 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing third resolution image 1
+2023-01-22 20:56:14 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Start image capture
+2023-01-22 20:56:22 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing third resolution image 2
+2023-01-22 20:56:24 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Start image capture
+2023-01-22 20:56:30 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing third resolution image 3
+2023-01-22 20:56:32 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Start image capture
+2023-01-22 20:56:38 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing third resolution image 4
+2023-01-22 20:56:40 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Start image capture
+2023-01-22 20:56:45 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing third resolution image 5
+2023-01-22 20:56:47 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Start image capture
+2023-01-22 20:56:53 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing third resolution image 6
+2023-01-22 20:56:55 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Start image capture
+2023-01-22 20:57:05 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing third resolution image 7
+2023-01-22 20:57:07 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Start image capture
+2023-01-22 20:57:14 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing third resolution image 8
+2023-01-22 20:57:16 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Start image capture
+2023-01-22 20:57:22 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing third resolution image 9
+2023-01-22 20:57:24 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Start image capture
+2023-01-22 20:57:31 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing third resolution image 10
+2023-01-22 20:57:33 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Start image capture
+2023-01-22 20:57:38 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing third resolution image 11
+2023-01-22 20:57:40 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Start image capture
+2023-01-22 20:57:46 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing third resolution image 12
+2023-01-22 20:57:48 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Start image capture
+2023-01-22 20:57:54 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing third resolution image 13
+2023-01-22 20:57:56 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Start image capture
+2023-01-22 20:58:01 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing third resolution image 14
+2023-01-22 20:58:03 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Start image capture
+2023-01-22 20:58:09 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing third resolution image 15
+2023-01-22 20:58:11 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Start image capture
+2023-01-22 20:58:17 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing third resolution image 16
+2023-01-22 20:58:19 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Start image capture
+2023-01-22 20:58:25 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing third resolution image 17
+2023-01-22 20:58:27 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Select settings option
+2023-01-22 20:58:33 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Select settings option to select resolution
+2023-01-22 20:58:38 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Select front camera fourth image resolution: (16:9) 0.9 megapixels
+2023-01-22 20:58:51 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Start image capture
+2023-01-22 20:58:57 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing fourth resolution image 0
+2023-01-22 20:58:59 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Start image capture
+2023-01-22 20:59:04 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing fourth resolution image 1
+2023-01-22 20:59:06 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Start image capture
+2023-01-22 20:59:12 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing fourth resolution image 2
+2023-01-22 20:59:14 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Start image capture
+2023-01-22 20:59:19 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing fourth resolution image 3
+2023-01-22 20:59:21 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Start image capture
+2023-01-22 20:59:27 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing fourth resolution image 4
+2023-01-22 20:59:29 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Start image capture
+2023-01-22 20:59:35 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing fourth resolution image 5
+2023-01-22 20:59:37 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Start image capture
+2023-01-22 20:59:43 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing fourth resolution image 6
+2023-01-22 20:59:45 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Start image capture
+2023-01-22 20:59:51 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing fourth resolution image 7
+2023-01-22 20:59:53 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Start image capture
+2023-01-22 20:59:59 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing fourth resolution image 8
+2023-01-22 21:00:01 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Start image capture
+2023-01-22 21:00:07 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing fourth resolution image 9
+2023-01-22 21:00:09 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Start image capture
+2023-01-22 21:00:16 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing fourth resolution image 10
+2023-01-22 21:00:18 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Start image capture
+2023-01-22 21:00:23 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing fourth resolution image 11
+2023-01-22 21:00:25 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Select settings option
+2023-01-22 21:00:31 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Select settings option to select resolution
+2023-01-22 21:00:36 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Select front camera fifth image resolution (16:9) 0.4 megapixels
+2023-01-22 21:00:49 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Start image capture
+2023-01-22 21:00:55 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing fifth resolution image 0
+2023-01-22 21:00:57 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Start image capture
+2023-01-22 21:01:04 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing fifth resolution image 1
+2023-01-22 21:01:06 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Start image capture
+2023-01-22 21:01:12 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing fifth resolution image 2
+2023-01-22 21:01:14 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Start image capture
+2023-01-22 21:01:20 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing fifth resolution image 3
+2023-01-22 21:01:22 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Start image capture
+2023-01-22 21:01:28 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing fifth resolution image 4
+2023-01-22 21:01:30 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Start image capture
+2023-01-22 21:01:36 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing fifth resolution image 5
+2023-01-22 21:01:38 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Start image capture
+2023-01-22 21:01:44 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing fifth resolution image 6
+2023-01-22 21:01:46 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Start image capture
+2023-01-22 21:01:52 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing fifth resolution image 7
+2023-01-22 21:01:54 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Start image capture
+2023-01-22 21:01:59 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing fifth resolution image 8
+2023-01-22 21:02:01 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Start image capture
+2023-01-22 21:02:07 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing fifth resolution image 9
+2023-01-22 21:02:09 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Start image capture
+2023-01-22 21:02:15 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing fifth resolution image 10
+2023-01-22 21:02:17 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Start image capture
+2023-01-22 21:02:22 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing fifth resolution image 11
+2023-01-22 21:02:24 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Select settings option
+2023-01-22 21:02:32 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Select settings option to select resolution
+2023-01-22 21:02:37 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Select front camera sixth image resolution: (16:9) 0.2 megapixels
+2023-01-22 21:02:51 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Start image capture
+2023-01-22 21:02:56 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing sixth resolution image 0
+2023-01-22 21:02:58 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Start image capture
+2023-01-22 21:03:04 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing sixth resolution image 1
+2023-01-22 21:03:06 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Start image capture
+2023-01-22 21:03:12 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing sixth resolution image 2
+2023-01-22 21:03:14 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Start image capture
+2023-01-22 21:03:20 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing sixth resolution image 3
+2023-01-22 21:03:22 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Start image capture
+2023-01-22 21:03:28 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing sixth resolution image 4
+2023-01-22 21:03:30 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Start image capture
+2023-01-22 21:03:36 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing sixth resolution image 5
+2023-01-22 21:03:38 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Start image capture
+2023-01-22 21:03:43 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing sixth resolution image 6
+2023-01-22 21:03:45 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Start image capture
+2023-01-22 21:03:51 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing sixth resolution image 7
+2023-01-22 21:03:53 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Start image capture
+2023-01-22 21:03:59 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing sixth resolution image 8
+2023-01-22 21:04:01 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Start image capture
+2023-01-22 21:04:07 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing sixth resolution image 9
+2023-01-22 21:04:09 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Start image capture
+2023-01-22 21:04:14 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing sixth resolution image 10
+2023-01-22 21:04:16 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Start image capture
+2023-01-22 21:04:22 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Captureing sixth resolution image 11
+2023-01-22 21:04:24 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Switch to back camera mode
+2023-01-22 21:04:32 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Total Count value:90 images to be Captured 
+2023-01-22 21:04:34 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Launch file manager application and verify captured images present  in uSD Card
+2023-01-22 21:04:53 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Swipe up to select uSD card
+2023-01-22 21:04:56 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Select SD card
+2023-01-22 21:05:03 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture switch to grid view mode to select DCIM folder
+2023-01-22 21:05:06 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Select DCIM folder
+2023-01-22 21:05:09 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Select camera folder
+2023-01-22 21:05:13 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture switch to list view mode 
+2023-01-22 21:05:16 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Click More options
+2023-01-22 21:05:23 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Click Select all
+2023-01-22 21:05:27 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Total Image captured
+2023-01-22 21:05:35 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Pass: Test9F pass for front Image capture
+2023-01-22 21:05:35 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Test9F_Fcam_image: 90  images Captured succesfull
+2023-01-22 21:05:35 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-22 21:05:40 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture calling DataMoveOperation() 
+2023-01-22 21:05:40 INFO   Blackview_Oscal_C20.Test9F DataMoveOperation Re-launch file manager application and select external storage for data move operation, select all front camera images files present in camera folder and move to Test9F folder
+2023-01-22 21:05:50 INFO   Blackview_Oscal_C20.Test9F DataMoveOperation Select external storage
+2023-01-22 21:05:56 INFO   Blackview_Oscal_C20.Test9F DataMoveOperation switch to grid view mode and select DCIM  folder
+2023-01-22 21:06:00 INFO   Blackview_Oscal_C20.Test9F DataMoveOperation Select DCIM folder
+2023-01-22 21:06:03 INFO   Blackview_Oscal_C20.Test9F DataMoveOperation Select camera  folder
+2023-01-22 21:06:06 INFO   Blackview_Oscal_C20.Test9F DataMoveOperation switch to list view mode 
+2023-01-22 21:06:09 INFO   Blackview_Oscal_C20.Test9F DataMoveOperation Click More options
+2023-01-22 21:06:16 INFO   Blackview_Oscal_C20.Test9F DataMoveOperation Click Select all
+2023-01-22 21:06:20 INFO   Blackview_Oscal_C20.Test9F DataMoveOperation Click More options
+2023-01-22 21:06:26 INFO   Blackview_Oscal_C20.Test9F DataMoveOperation Select move to option
+2023-01-22 21:06:33 INFO   Blackview_Oscal_C20.Test9F DataMoveOperation Select uSD Card
+2023-01-22 21:06:39 INFO   Blackview_Oscal_C20.Test9F DataMoveOperation Select ADD NEW Folder option
+2023-01-22 21:06:46 INFO   Blackview_Oscal_C20.Test9F DataMoveOperation Name folder as Test9F
+2023-01-22 21:06:53 INFO   Blackview_Oscal_C20.Test9F DataMoveOperation Accept create folder
+2023-01-22 21:07:23 INFO   Blackview_Oscal_C20.Test9F DataMoveOperation Cut paste   operation completed successfully
+2023-01-22 21:07:27 INFO   Blackview_Oscal_C20.Test9F DataMoveOperation Test9F: Data move operation completed successfully
+2023-01-22 21:07:36 INFO   Blackview_Oscal_C20.Test9F DataMoveOperation Pass: Test9F Pass for data move operation successfully
+2023-01-22 21:07:36 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Final Message: Pass Test9F Pass for front Camera image capture
+2023-01-22 21:07:36 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture Test: End
+2023-01-22 21:07:36 INFO   Blackview_Oscal_C20.Test9F RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

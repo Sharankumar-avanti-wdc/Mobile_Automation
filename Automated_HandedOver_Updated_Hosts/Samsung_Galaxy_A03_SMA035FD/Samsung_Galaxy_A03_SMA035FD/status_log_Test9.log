@@ -1,0 +1,370 @@
+2023-01-11 19:37:58 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture Test: Start
+2023-01-11 19:37:58 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-11 19:37:58 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture Test9 Scenario is follows:
+2023-01-11 19:37:58 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture 1.Launch camera application, set uSD as a Storage option, start rear camera Image capture for all host resolutions
+2023-01-11 19:37:58 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture 2.Move rear camera image captured files from camera folder to Test9 folder
+2023-01-11 19:37:58 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture Setting up the appium desired capabilities
+2023-01-11 19:37:58 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-11 19:38:05 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture Launch Home Screen and Clear recent
+2023-01-11 19:38:05 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture Launch Home screen and clear recent apps
+2023-01-11 19:38:25 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture Launch Camera application for rear Picture capture for all host resolution
+2023-01-11 19:38:27 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture Test9_Bcam_res: 1 resolutions supported
+2023-01-11 19:38:27 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture If change to uSD card pop-up exists select Cancel
+2023-01-11 19:38:47 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy A03, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: R9ZT30JQMVY}, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-A035F, deviceName: R9ZT30JQMVY, deviceScreenDensity: 300, deviceScreenSize: 720x1600, deviceUDID: R9ZT30JQMVY, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.875, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 45, takesScreenshot: true, udid: R9ZT30JQMVY, viewportRect: {height: 1420, left: 0, top: 45, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: e9b22db9-0627-416f-a192-29a5b300c22f
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2023-01-11 19:38:47 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture If Location access Permission Request Pop Exists Click on Cancel. 
+2023-01-11 19:38:47 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture If Location access Permission Request Pop Exists Click on Cancel. 
+2023-01-11 19:39:08 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture Location access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy A03, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: R9ZT30JQMVY}, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-A035F, deviceName: R9ZT30JQMVY, deviceScreenDensity: 300, deviceScreenSize: 720x1600, deviceUDID: R9ZT30JQMVY, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.875, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 45, takesScreenshot: true, udid: R9ZT30JQMVY, viewportRect: {height: 1420, left: 0, top: 45, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: e9b22db9-0627-416f-a192-29a5b300c22f
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2023-01-11 19:39:08 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture Switch To Rear Camera mode if current Exiting camera is Front camera mode
+2023-01-11 19:39:18 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture Current Existing Camera is Rear Camera mode.
+2023-01-11 19:39:18 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture Host unable to select Rear camera image resolutions during automation. !Hence captureing images with default resolution.
+2023-01-11 19:40:10 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image0
+2023-01-11 19:40:56 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image1
+2023-01-11 19:41:42 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image2
+2023-01-11 19:42:27 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image3
+2023-01-11 19:43:13 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image4
+2023-01-11 19:43:58 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image5
+2023-01-11 19:44:43 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image6
+2023-01-11 19:45:29 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image7
+2023-01-11 19:46:14 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image8
+2023-01-11 19:46:59 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image9
+2023-01-11 19:47:45 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image10
+2023-01-11 19:48:30 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image11
+2023-01-11 19:49:16 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image12
+2023-01-11 19:50:01 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image13
+2023-01-11 19:50:46 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image14
+2023-01-11 19:51:32 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image15
+2023-01-11 19:52:18 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image16
+2023-01-11 19:53:03 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image17
+2023-01-11 19:53:48 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image18
+2023-01-11 19:54:34 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image19
+2023-01-11 19:55:19 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image20
+2023-01-11 19:56:05 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image21
+2023-01-11 19:56:50 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image22
+2023-01-11 19:57:35 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image23
+2023-01-11 19:58:21 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image24
+2023-01-11 19:59:06 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image25
+2023-01-11 19:59:51 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image26
+2023-01-11 20:00:37 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image27
+2023-01-11 20:01:22 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image28
+2023-01-11 20:02:07 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image29
+2023-01-11 20:02:53 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image30
+2023-01-11 20:03:38 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image31
+2023-01-11 20:04:23 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image32
+2023-01-11 20:05:09 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image33
+2023-01-11 20:05:54 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image34
+2023-01-11 20:06:39 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image35
+2023-01-11 20:07:25 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image36
+2023-01-11 20:08:10 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image37
+2023-01-11 20:08:55 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image38
+2023-01-11 20:09:41 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image39
+2023-01-11 20:10:26 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image40
+2023-01-11 20:11:12 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image41
+2023-01-11 20:11:57 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image42
+2023-01-11 20:12:42 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image43
+2023-01-11 20:13:28 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image44
+2023-01-11 20:14:13 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image45
+2023-01-11 20:14:58 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image46
+2023-01-11 20:15:44 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image47
+2023-01-11 20:16:29 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image48
+2023-01-11 20:17:15 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image49
+2023-01-11 20:18:00 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image50
+2023-01-11 20:18:45 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image51
+2023-01-11 20:19:31 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image52
+2023-01-11 20:20:16 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image53
+2023-01-11 20:21:01 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image54
+2023-01-11 20:21:47 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image55
+2023-01-11 20:22:32 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image56
+2023-01-11 20:23:18 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image57
+2023-01-11 20:24:03 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image58
+2023-01-11 20:24:48 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image59
+2023-01-11 20:25:34 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image60
+2023-01-11 20:26:19 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image61
+2023-01-11 20:27:04 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image62
+2023-01-11 20:27:50 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image63
+2023-01-11 20:28:35 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image64
+2023-01-11 20:29:20 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image65
+2023-01-11 20:30:06 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image66
+2023-01-11 20:30:51 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image67
+2023-01-11 20:31:36 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image68
+2023-01-11 20:32:22 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image69
+2023-01-11 20:33:07 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image70
+2023-01-11 20:33:52 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image71
+2023-01-11 20:34:38 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image72
+2023-01-11 20:35:23 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image73
+2023-01-11 20:36:08 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image74
+2023-01-11 20:36:54 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image75
+2023-01-11 20:37:39 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image76
+2023-01-11 20:38:24 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image77
+2023-01-11 20:39:10 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image78
+2023-01-11 20:39:55 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image79
+2023-01-11 20:40:41 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image80
+2023-01-11 20:41:26 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image81
+2023-01-11 20:42:11 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image82
+2023-01-11 20:42:57 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image83
+2023-01-11 20:43:42 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image84
+2023-01-11 20:44:28 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image85
+2023-01-11 20:45:13 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image86
+2023-01-11 20:45:58 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image87
+2023-01-11 20:46:44 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image88
+2023-01-11 20:47:29 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image89
+2023-01-11 20:48:14 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image90
+2023-01-11 20:49:00 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image91
+2023-01-11 20:49:45 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image92
+2023-01-11 20:50:30 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image93
+2023-01-11 20:51:16 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image94
+2023-01-11 20:52:01 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image95
+2023-01-11 20:52:47 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image96
+2023-01-11 20:53:32 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image97
+2023-01-11 20:54:17 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image98
+2023-01-11 20:55:03 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image99
+2023-01-11 20:55:48 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image100
+2023-01-11 20:56:33 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image101
+2023-01-11 20:57:19 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image102
+2023-01-11 20:58:04 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image103
+2023-01-11 20:58:50 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image104
+2023-01-11 20:59:35 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image105
+2023-01-11 21:00:20 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image106
+2023-01-11 21:01:06 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image107
+2023-01-11 21:01:51 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image108
+2023-01-11 21:02:36 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image109
+2023-01-11 21:03:22 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image110
+2023-01-11 21:04:07 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image111
+2023-01-11 21:04:52 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image112
+2023-01-11 21:05:38 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image113
+2023-01-11 21:06:23 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image114
+2023-01-11 21:07:08 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image115
+2023-01-11 21:07:54 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image116
+2023-01-11 21:08:39 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image117
+2023-01-11 21:09:25 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image118
+2023-01-11 21:10:10 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image119
+2023-01-11 21:10:55 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image120
+2023-01-11 21:11:41 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image121
+2023-01-11 21:12:26 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image122
+2023-01-11 21:13:11 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image123
+2023-01-11 21:13:57 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image124
+2023-01-11 21:14:42 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image125
+2023-01-11 21:15:27 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image126
+2023-01-11 21:16:13 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image127
+2023-01-11 21:16:58 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image128
+2023-01-11 21:17:43 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image129
+2023-01-11 21:18:29 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image130
+2023-01-11 21:19:14 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image131
+2023-01-11 21:19:59 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image132
+2023-01-11 21:20:45 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image133
+2023-01-11 21:21:30 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image134
+2023-01-11 21:22:16 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image135
+2023-01-11 21:23:01 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image136
+2023-01-11 21:23:46 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image137
+2023-01-11 21:24:32 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image138
+2023-01-11 21:25:17 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image139
+2023-01-11 21:26:02 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image140
+2023-01-11 21:26:48 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image141
+2023-01-11 21:27:33 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image142
+2023-01-11 21:28:19 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image143
+2023-01-11 21:29:04 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image144
+2023-01-11 21:29:49 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image145
+2023-01-11 21:30:35 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image146
+2023-01-11 21:31:20 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image147
+2023-01-11 21:32:05 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image148
+2023-01-11 21:32:51 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image149
+2023-01-11 21:33:36 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image150
+2023-01-11 21:34:21 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image151
+2023-01-11 21:35:07 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image152
+2023-01-11 21:35:52 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image153
+2023-01-11 21:36:37 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image154
+2023-01-11 21:37:23 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image155
+2023-01-11 21:38:08 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image156
+2023-01-11 21:38:53 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image157
+2023-01-11 21:39:39 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image158
+2023-01-11 21:40:24 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image159
+2023-01-11 21:41:10 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image160
+2023-01-11 21:41:55 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image161
+2023-01-11 21:42:40 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image162
+2023-01-11 21:43:26 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image163
+2023-01-11 21:44:11 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image164
+2023-01-11 21:44:56 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image165
+2023-01-11 21:45:42 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image166
+2023-01-11 21:46:27 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image167
+2023-01-11 21:47:13 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image168
+2023-01-11 21:47:58 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image169
+2023-01-11 21:48:43 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image170
+2023-01-11 21:49:29 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image171
+2023-01-11 21:50:14 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image172
+2023-01-11 21:50:59 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image173
+2023-01-11 21:51:45 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image174
+2023-01-11 21:52:30 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image175
+2023-01-11 21:53:15 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image176
+2023-01-11 21:54:01 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image177
+2023-01-11 21:54:46 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image178
+2023-01-11 21:55:31 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image179
+2023-01-11 21:56:17 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image180
+2023-01-11 21:57:02 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image181
+2023-01-11 21:57:47 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image182
+2023-01-11 21:58:33 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image183
+2023-01-11 21:59:18 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image184
+2023-01-11 22:00:03 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image185
+2023-01-11 22:00:49 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image186
+2023-01-11 22:01:34 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image187
+2023-01-11 22:02:20 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image188
+2023-01-11 22:03:05 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image189
+2023-01-11 22:03:50 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image190
+2023-01-11 22:04:36 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image191
+2023-01-11 22:05:21 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image192
+2023-01-11 22:06:06 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image193
+2023-01-11 22:06:52 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image194
+2023-01-11 22:07:37 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image195
+2023-01-11 22:08:23 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image196
+2023-01-11 22:09:08 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image197
+2023-01-11 22:09:53 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image198
+2023-01-11 22:10:39 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image199
+2023-01-11 22:11:24 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image200
+2023-01-11 22:12:09 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image201
+2023-01-11 22:12:55 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image202
+2023-01-11 22:13:40 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image203
+2023-01-11 22:14:25 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image204
+2023-01-11 22:15:11 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image205
+2023-01-11 22:15:56 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image206
+2023-01-11 22:16:41 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image207
+2023-01-11 22:17:27 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image208
+2023-01-11 22:18:12 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image209
+2023-01-11 22:18:57 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image210
+2023-01-11 22:19:43 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image211
+2023-01-11 22:20:28 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image212
+2023-01-11 22:21:14 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image213
+2023-01-11 22:21:59 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image214
+2023-01-11 22:22:44 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image215
+2023-01-11 22:23:30 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image216
+2023-01-11 22:24:15 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image217
+2023-01-11 22:25:00 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image218
+2023-01-11 22:25:46 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image219
+2023-01-11 22:26:31 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image220
+2023-01-11 22:27:16 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image221
+2023-01-11 22:28:02 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image222
+2023-01-11 22:28:47 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image223
+2023-01-11 22:29:32 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image224
+2023-01-11 22:30:18 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image225
+2023-01-11 22:31:03 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image226
+2023-01-11 22:31:48 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image227
+2023-01-11 22:32:34 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image228
+2023-01-11 22:33:19 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image229
+2023-01-11 22:34:04 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image230
+2023-01-11 22:34:50 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image231
+2023-01-11 22:35:35 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image232
+2023-01-11 22:36:20 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image233
+2023-01-11 22:37:06 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image234
+2023-01-11 22:37:51 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image235
+2023-01-11 22:38:37 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image236
+2023-01-11 22:39:22 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image237
+2023-01-11 22:40:07 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image238
+2023-01-11 22:40:53 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image239
+2023-01-11 22:41:38 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image240
+2023-01-11 22:42:23 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image241
+2023-01-11 22:43:09 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image242
+2023-01-11 22:43:54 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image243
+2023-01-11 22:44:39 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image244
+2023-01-11 22:45:25 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image245
+2023-01-11 22:46:10 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image246
+2023-01-11 22:46:55 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image247
+2023-01-11 22:47:41 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image248
+2023-01-11 22:48:26 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image249
+2023-01-11 22:49:11 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image250
+2023-01-11 22:49:57 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image251
+2023-01-11 22:50:42 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image252
+2023-01-11 22:51:28 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image253
+2023-01-11 22:52:13 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image254
+2023-01-11 22:52:58 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image255
+2023-01-11 22:53:44 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image256
+2023-01-11 22:54:29 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image257
+2023-01-11 22:55:14 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image258
+2023-01-11 22:56:00 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image259
+2023-01-11 22:56:45 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image260
+2023-01-11 22:57:30 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image261
+2023-01-11 22:58:16 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image262
+2023-01-11 22:59:01 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image263
+2023-01-11 22:59:46 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image264
+2023-01-11 23:00:32 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image265
+2023-01-11 23:01:17 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image266
+2023-01-11 23:02:03 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image267
+2023-01-11 23:02:48 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image268
+2023-01-11 23:03:33 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image269
+2023-01-11 23:04:19 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image270
+2023-01-11 23:05:04 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image271
+2023-01-11 23:05:49 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image272
+2023-01-11 23:06:35 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image273
+2023-01-11 23:07:20 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image274
+2023-01-11 23:08:05 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image275
+2023-01-11 23:08:51 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image276
+2023-01-11 23:09:36 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image277
+2023-01-11 23:10:21 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image278
+2023-01-11 23:11:07 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image279
+2023-01-11 23:11:52 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image280
+2023-01-11 23:12:37 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image281
+2023-01-11 23:13:23 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image282
+2023-01-11 23:14:08 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image283
+2023-01-11 23:14:53 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image284
+2023-01-11 23:15:39 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image285
+2023-01-11 23:16:24 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image286
+2023-01-11 23:17:09 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image287
+2023-01-11 23:17:55 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image288
+2023-01-11 23:18:40 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image289
+2023-01-11 23:19:26 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image290
+2023-01-11 23:20:11 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image291
+2023-01-11 23:20:56 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image292
+2023-01-11 23:21:42 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image293
+2023-01-11 23:22:27 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image294
+2023-01-11 23:23:12 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image295
+2023-01-11 23:23:58 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image296
+2023-01-11 23:24:43 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image297
+2023-01-11 23:25:28 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image298
+2023-01-11 23:26:14 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture clicking default  Resolution Image299
+2023-01-11 23:26:16 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture Rear camera :300 images Captured succesfull
+2023-01-11 23:26:16 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture Total Count value:300 images to be Captured 
+2023-01-11 23:26:35 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture Launch file manager application and verify recorded video present  in uSD Card
+2023-01-11 23:26:52 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture Swipe up to select uSD card
+2023-01-11 23:26:55 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture Select SD card
+2023-01-11 23:27:01 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture switch to grid view mode to select DCIM folder
+2023-01-11 23:27:05 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture Select DCIM folder
+2023-01-11 23:27:08 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture Select camera folder
+2023-01-11 23:27:11 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture switch to list view mode 
+2023-01-11 23:27:14 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture Click More options
+2023-01-11 23:27:20 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture Click Select all
+2023-01-11 23:27:24 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture Total Image captured
+2023-01-11 23:27:27 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture Pass: Test9 pass for rear Image capture
+2023-01-11 23:27:27 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture Test9_Bcam_image: 300  images Captured succesfull
+2023-01-11 23:27:27 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-11 23:27:30 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture calling DataMoveOperation() 
+2023-01-11 23:27:30 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 DataMoveOperation Re-launch file manager application and select external storage for data move operation, select all rear camera images files present in camera folder and move to Test9 folder
+2023-01-11 23:27:40 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 DataMoveOperation Select external storage
+2023-01-11 23:27:45 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 DataMoveOperation switch to grid view mode and select DCIM  folder
+2023-01-11 23:27:48 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 DataMoveOperation Select DCIM folder
+2023-01-11 23:27:51 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 DataMoveOperation Select camera  folder
+2023-01-11 23:27:55 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 DataMoveOperation switch to list view mode 
+2023-01-11 23:27:58 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 DataMoveOperation Click More options
+2023-01-11 23:28:04 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 DataMoveOperation Click Select all
+2023-01-11 23:28:08 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 DataMoveOperation Click More options
+2023-01-11 23:28:14 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 DataMoveOperation Select move to option
+2023-01-11 23:28:21 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 DataMoveOperation Select uSD Card
+2023-01-11 23:28:27 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 DataMoveOperation Select ADD NEW Folder option
+2023-01-11 23:28:33 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 DataMoveOperation Name folder as Test9
+2023-01-11 23:28:40 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 DataMoveOperation Accept create folder
+2023-01-11 23:29:12 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 DataMoveOperation Cut paste  operation completed successfully
+2023-01-11 23:29:15 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 DataMoveOperation Test9: Data move operation completed successfully
+2023-01-11 23:29:24 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 DataMoveOperation Pass: Test9 Pass for data move operation successfully
+2023-01-11 23:29:24 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-11 23:29:24 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture Final message: Pass Test9 Pass for Rear camera image capture  successfully
+2023-01-11 23:29:24 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture Test: End
+2023-01-11 23:29:24 INFO   Samsung_Galaxy_A03_SMA035FD.Test9 RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

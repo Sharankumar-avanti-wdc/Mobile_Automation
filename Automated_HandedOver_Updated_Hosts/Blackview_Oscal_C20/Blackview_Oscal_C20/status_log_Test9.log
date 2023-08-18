@@ -1,0 +1,57 @@
+2023-01-22 20:18:57 INFO   Blackview_Oscal_C20.Test9 RearPictureCapture Test: Start
+2023-01-22 20:18:57 INFO   Blackview_Oscal_C20.Test9 RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-22 20:18:57 INFO   Blackview_Oscal_C20.Test9 RearPictureCapture Test9 Scenario is follows:
+2023-01-22 20:18:57 INFO   Blackview_Oscal_C20.Test9 RearPictureCapture 1.Launch camera application, set uSD as a Storage option, start rear camera Image capture for all host resolutions
+2023-01-22 20:18:57 INFO   Blackview_Oscal_C20.Test9 RearPictureCapture 2.Move rear camera image captured files from camera folder to Test9 folder
+2023-01-22 20:18:57 INFO   Blackview_Oscal_C20.Test9 RearPictureCapture Setting up the appium desired capabilities
+2023-01-22 20:18:57 INFO   Blackview_Oscal_C20.Test9 RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-22 20:19:13 INFO   Blackview_Oscal_C20.Test9 RearPictureCapture Launch home screen
+2023-01-22 20:19:19 INFO   Blackview_Oscal_C20.Test9 RearPictureCapture Clearing Recent Apps
+2023-01-22 20:19:31 INFO   Blackview_Oscal_C20.Test9 RearPictureCapture Launch Camera application for rear camera Image capture
+2023-01-22 20:19:39 INFO   Blackview_Oscal_C20.Test9 RearPictureCapture Test9_Bcam_res: 6 resolutions supported
+2023-01-22 20:19:39 INFO   Blackview_Oscal_C20.Test9 RearPictureCapture IF Change to uSD card notification pop-up exists select Cancel Option
+2023-01-22 20:19:50 INFO   Blackview_Oscal_C20.Test9 RearPictureCapture change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '172.20.10.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: C20, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: C20EEA000011548}, deviceApiLevel: 30, deviceManufacturer: Chinoe, deviceModel: C20, deviceName: C20EEA000011548, deviceScreenDensity: 320, deviceScreenSize: 720x1560, deviceUDID: C20EEA000011548, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 48, takesScreenshot: true, udid: C20EEA000011548, viewportRect: {height: 1360, left: 0, top: 48, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 7ac7396a-6fc0-404d-b3c4-b096868d58e2
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("DENY")}
+2023-01-22 20:19:50 INFO   Blackview_Oscal_C20.Test9 RearPictureCapture if Location permisson Pop Exists Select Cancel Option
+2023-01-22 20:20:00 INFO   Blackview_Oscal_C20.Test9 RearPictureCapture Location permission access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '172.20.10.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: C20, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: C20EEA000011548}, deviceApiLevel: 30, deviceManufacturer: Chinoe, deviceModel: C20, deviceName: C20EEA000011548, deviceScreenDensity: 320, deviceScreenSize: 720x1560, deviceUDID: C20EEA000011548, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 48, takesScreenshot: true, udid: C20EEA000011548, viewportRect: {height: 1360, left: 0, top: 48, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 7ac7396a-6fc0-404d-b3c4-b096868d58e2
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("START CAPTURE")}
+2023-01-22 20:20:00 INFO   Blackview_Oscal_C20.Test9 RearPictureCapture Switch to rear Camera Mode if current Exiting camera is Front camera Mode
+2023-01-22 20:20:00 INFO   Blackview_Oscal_C20.Test9 RearPictureCapture Currently camera is already in rear camera mode no need to switch
+2023-01-22 20:20:00 INFO   Blackview_Oscal_C20.Test9 RearPictureCapture Select photo mode option
+2023-01-22 20:20:01 INFO   Blackview_Oscal_C20.Test9 RearPictureCapture Select settings option
+2023-01-22 20:20:07 INFO   Blackview_Oscal_C20.Test9 RearPictureCapture Select Storagepath option
+2023-01-22 20:20:13 INFO   Blackview_Oscal_C20.Test9 RearPictureCapture Select SD as storage option
+2023-01-22 20:20:22 INFO   Blackview_Oscal_C20.Test9 RearPictureCapture Select settings option
+2023-01-22 20:20:28 INFO   Blackview_Oscal_C20.Test9 RearPictureCapture Select settings option to select resolution
+2023-01-22 20:20:32 INFO   Blackview_Oscal_C20.Test9 RearPictureCapture Select Rear camera first image resolution: (4:3) 5.0 megapixels
+2023-01-22 20:20:43 INFO   Blackview_Oscal_C20.Test9 RearPictureCapture Fail: Test9 fail for Fail Count Issue
+2023-01-22 20:20:43 INFO   Blackview_Oscal_C20.Test9 RearPictureCapture Fail: Test9 fail for rear Image capture
+2023-01-22 20:20:43 INFO   Blackview_Oscal_C20.Test9 RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-22 20:20:43 INFO   Blackview_Oscal_C20.Test9 RearPictureCapture Calling DataMoveOperation
+2023-01-22 20:20:43 INFO   Blackview_Oscal_C20.Test9 DataMoveOperation launch file manager application select uSD card-->DCIM folder-->Camera folder-->Select all back camera front camera videos create Test10 and cut paste all videos in BCFC_Cameravideos folder
+2023-01-22 20:21:02 INFO   Blackview_Oscal_C20.Test9 DataMoveOperation click on browse option
+2023-01-22 20:21:06 INFO   Blackview_Oscal_C20.Test9 DataMoveOperation Swipe up to select uSD card
+2023-01-22 20:21:09 INFO   Blackview_Oscal_C20.Test9 DataMoveOperation Select SD card
+2023-01-22 20:21:15 INFO   Blackview_Oscal_C20.Test9 DataMoveOperation Select DCIM folder
+2023-01-22 20:21:18 INFO   Blackview_Oscal_C20.Test9 DataMoveOperation Select camera folder
+2023-01-22 20:21:22 INFO   Blackview_Oscal_C20.Test9 DataMoveOperation Click More options
+2023-01-22 20:21:28 INFO   Blackview_Oscal_C20.Test9 DataMoveOperation Click Select all
+2023-01-22 20:21:32 INFO   Blackview_Oscal_C20.Test9 DataMoveOperation Click More options
+2023-01-22 20:21:38 INFO   Blackview_Oscal_C20.Test9 DataMoveOperation Select move to option
+2023-01-22 20:21:48 INFO   Blackview_Oscal_C20.Test9 DataMoveOperation Fail: Test9 Fail for data move operation 
+2023-01-22 20:21:48 INFO   Blackview_Oscal_C20.Test9 DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-22 20:21:48 INFO   Blackview_Oscal_C20.Test9 RearPictureCapture Final Message: Fail Test9 for rear camera image capture
+2023-01-22 20:21:48 INFO   Blackview_Oscal_C20.Test9 RearPictureCapture Test: End
+2023-01-22 20:21:48 INFO   Blackview_Oscal_C20.Test9 RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

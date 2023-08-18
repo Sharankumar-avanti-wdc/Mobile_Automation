@@ -1,0 +1,1189 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< Com.BlackView_A55_Pro.test:BlackView_A55_Pro >------------
+[INFO] Building BlackView_A55_Pro 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ BlackView_A55_Pro ---
+[INFO] Deleting C:\Users\sandisk\Android11\Eclipse_Workspace\BlackView_A55_Pro\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ BlackView_A55_Pro ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ BlackView_A55_Pro ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ BlackView_A55_Pro ---
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ BlackView_A55_Pro ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 8 source files to C:\Users\sandisk\Android11\Eclipse_Workspace\BlackView_A55_Pro\target\test-classes
+[WARNING] /C:/Users/sandisk/Android11/Eclipse_Workspace/BlackView_A55_Pro/src/test/java/BlackView_A55_Pro/Test9F.java: Some input files use or override a deprecated API.
+[WARNING] /C:/Users/sandisk/Android11/Eclipse_Workspace/BlackView_A55_Pro/src/test/java/BlackView_A55_Pro/Test9F.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ BlackView_A55_Pro ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running TestSuite
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test0 Scenario is as follows 
+1.Unlock phone, clear recent apps, clear internal memory
+2.Call Image() and Capture Rear camera 25 images for default resolution in uSD card and Verify the data capture
+3.Call Video() and record Rear camera video of first 2 resloutions for 2 minutes of duration in uSD Card and verify the same
+4.Call Format() and format uSD card with data and verify the same
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch Home screen
+Host does not support clear recent apps during automation.
+Launch File Manager Application and clear internal memory
+Swipe up and select uSD card
+Select  Internal storage
+Click more options
+Click select all
+Click more options
+Select delete option
+Accept delete pop-up
+Pass: Clearing phone internal memory is successfull
+Calling Image() for rear Image capture in uSD Card and Verify the Captured images
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch Camera Application for Rear camera picture capture
+Select settings option
+Select Storagepath option
+Select SD as storage option
+Captureing default resolition image 0
+Captureing default resolition image 1
+Captureing default resolition image 2
+Captureing default resolition image 3
+Captureing default resolition image 4
+Captureing default resolition image 5
+Captureing default resolition image 6
+Captureing default resolition image 7
+Captureing default resolition image 8
+Captureing default resolition image 9
+Captureing default resolition image 10
+Captureing default resolition image 11
+Captureing default resolition image 12
+Captureing default resolition image 13
+Captureing default resolition image 14
+Captureing default resolition image 15
+Captureing default resolition image 16
+Captureing default resolition image 17
+Captureing default resolition image 18
+Captureing default resolition image 19
+Captureing default resolition image 20
+Captureing default resolition image 21
+Captureing default resolition image 22
+Captureing default resolition image 23
+Captureing default resolition image 24
+25 image capture is successfull 
+Launch File Manager application to verify  Image capture
+Select  SD Card
+Select DCIM Folder
+Select Camera Folder
+Select More Options 
+Click On Select All Options
+Pass:Total Number Of Image captured 25 is successfull
+Calling video() for rear video recording in USD card and verifying data capture.
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch home screen and clear recent apps
+re-launch camera application for rear camera video recording
+Select settings option
+Select Storagepath option
+Select SD as storage option
+Switch to video recording mode
+Select settings option
+Select Video size option
+Select first highest rear camera video resolution: FHD
+Start video recording
+Stop video recording
+Select settings option
+Select Video size option
+Select second highest rear camera video resolution: HD
+Start video recording
+Stop video recording
+Switch to back to photo mode
+Rear camera video recording is successfull
+Launch File Manager application to verify  Image capture
+Select  SD Card
+Select DCIM Folder
+Select Camera Folder
+Select More Options 
+Click On Select All Options
+Pass: 2 Videos recorded Successfully
+Pass: A total of 27 files present in uSD card before Format
+calling Format() for format with data scenario
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch home screen and clear recent apps
+Launch Settings application for Format uSD card with Data 
+Scrolling till battery and device care is visible
+Clicking on storage
+Clicking on SD card
+Clicking on more options
+Clicking on Storage settings
+Click Format
+Started formatting, waiting till it gets formatted
+Format uSD with Data is successfull
+Launch File Manager application to verify  Image capture
+Select  SD Card
+Select DCIM Folder
+Pass: Images and videos are not present in the DCIM folder, CARD format is successfully completed 
+Final Message: Pass Test0 Pass for format Operation
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test3 Scenario is as follows
+1.Unmount uSD Card and Format card for specified number of times
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch home screen
+Launch  setting application and mount,unmount and Format USD card
+Number of Unmount,mount and Format cycles = mountUnmountCycle
+Fail: Test3 fail during Fomrat uSD card operation
+Final Message: Fail Test3 Fail for Unmount,Mount and Formattig uSD Card
+Test End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test18 Scenario is as follows
+1.Pushing 1GB zip File to Host Internal Memory via server folder named as Test1 
+2.Extracting zip file in Host internal memory
+3.Copy Paste 1GB file (Test1) from host internal memory to uSD Card, Create a folder named Test2 in uSD Card, Copy paste 1GB Folder(Test1) From internal to external inside folder Test2 and Vice versa
+4.Create folder name(New_Scenario in External memory, select folder name(Test2) from internal memory and perform cut paste operation from internla to external memory
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Unlocking Phone
+Launch home screen
+Pushing File from Laptop to Mobile
+Launching file manager application to extract zip and perform copy paste, cut paste operation from internal memory to external memory
+click on browse option
+Select Internal storage
+Search for Test1 Folder
+Search for TestFile  Folder
+Extracting Push zip file as Folder named Test1
+Extracting Zip file
+1GB File Extration completed
+Extracting Complete
+Launching file manager application
+Select Internal storage
+Select Test1 folder from internal storage
+Select Moreoptions
+Select Copy option
+Select External Storage
+Select Paste option for copy paste Test1 folder from Internal to external storage
+Select Internal storage
+Long Press and select and Test1 Folder
+Select Moreoptions
+Select Copy option
+Select External storage
+Select create folder option
+Name folder as Test2
+Copy paste Test1 folder inside Test2 folder
+Select External Storage
+Long Press and select and Test2 Folder from External storage
+Select Moreoptions
+Select Copy option
+Select Internal storage
+click on copy here
+Select Internal storage
+Long Press and select and Test2 Folder from internal storage
+Select Moreoptions
+Select Move to option
+Select External storage
+click on create folder and create folder name folder name New_Scenario
+Select Move to folder option
+Paste Test2 folder inside New_Scenario folder
+Pass: Cut paste Operation Completed Successfully
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Final message: Pass Test18 Pass for copy paste & cut paste operation
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test8 scenario is as follows
+1.Launch mobile default voice recording application and set  storage option, record audio file for 2 minutes duration
+2.Launch file manager application and playback recorded audio file from external storage, fast forward audio file and pause
+3.Launch file manager application and playback copied audio files from external storage the files are placed in the Test1 folder
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch home screen
+Host does not support audio recording to external storage. Hence skipping audio recording and recorded audio playback scenario
+Launch home screen
+Launch File Manager Application
+Select  SD card
+Select Test1 folder
+Select Test_file folder
+Select 1GB folder
+Select MP3 files Folder
+Playing first audio file from Test1 folder
+Fast Forwarding Audio for 10 Seconds
+Continue audio playback
+Pause Audio
+Pass: first audio file palyback and fast forward scenario is successfull
+Playing second audio file from Test1 folder
+Fast Forwarding Audio for 10 Seconds
+Continue audio playback
+Pause Audio
+Pass: Second audio file palyback and fast forward scenario is successfull
+Playing third audio file from Test1 folder
+Fast Forwarding Audio for 10 Seconds
+Continue audio playback
+Pause Audio
+Pass: Third audio file palyback and fast forward scenario is successfull
+Pass: Test8 Pass for Recorded and copied audio play back and fast forward scenario 
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Final Message: Pass Test8 Pass for Recorded and copied audio play back and fast forward scenario
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test10 Scenario is as follows
+1.Launch Camera application and start back camera video recording for all host applicable resolutions in uSD Card
+2.Playback Highest resolution recorded video from uSD Card, fast forward playback and pause video scenario 
+3.Playback copied videos from Test1 folder, fast forward and pause scenario
+4.Move recorded videos from Exteranl storage-->DCIM-->Camera folder to Test10 folder in external storage
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch home screen
+Launch Camera application for rear camera video recording
+Test10_Bcam_res: 2 resolutions supported
+Select settings option
+Select Storagepath option
+Select SD as storage option
+Switch to video recording mode
+Select settings option
+Select Video size option
+Select first highest rear camera video resolution: FHD
+recordingDurationRear = 580 Seconds
+Start video recording
+Stop video recording
+Select settings option
+Select Video size option
+Select second highest rear camera video resolution: HD
+recordingDurationRear1 = 580 Seconds
+Start video recording
+Stop video recording
+Switch to photo mode
+Pass: Rear video recording is successfull
+Launch File Manager Application to verify captured videos in uSD card
+Swipe up to select uSD card
+Select SD card
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Test10_Bcam_video: 2 Videos captured successfull
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Calling RecordedVideoPlayback() for Playing Highest record video, fast forward video play back scenario
+Launch Camera Application for rear camera video recording
+Swipe up and select uSD card
+Select External storage
+switch to gird view mode
+Swipe up and select DCIM folder
+Select DCIM folder
+Select Camera folder
+switch to list view mode
+select more options
+Select Sort BY
+Select Largest first
+Click on first file to play highest recorded resolution video file
+Started video playback
+Tap Somewhere on Screen for contents to visible on Screen
+Fast forward video for 10 seconds
+Continue video playback
+Pass: Recorded Video playback and fast forward scenario successfull
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Calling DataMovementOperation() to move recorded rear camer videos to Test10 Folder 
+launch file manager application select uSD card-->DCIM folder-->Camera folder-->Select all rear camera images create Test10 folder and cut paste all videos in Test10 folder
+click on browse option
+Swipe up to select uSD card
+Select SD card
+Select DCIM folder
+Select DCIM Folder
+Select camera folder
+Click More options
+Click select all
+Click More options
+select move to option
+select uSD Card
+Select ADD NEW Folder option
+Name folder as Test10
+Accept create folder
+Cut paste  video files operation completed successfully
+Pass: Test10 Pass for data move operation successfully
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Calling copiedvideosPlayBack() for playing copied video file from Test1 folder
+Launch file manager application, select uSD card, select Test1 folder, select Videos folder and Play copied videos and fast forward the same 
+Select external storage
+switch to gird view mode
+Select Test1 folder
+Select test_file folder
+Select OneGB folder
+Select video folder
+switch to list view mode
+Select LG_4K_DEMO_HDR_2018_(60FPS)_ELBA(480p).mp4 file for video playback
+Started video playback
+Tap Somewhere on Screen for contents to visible on Screen
+Click fast forward button for 10 seconds video forward
+Pass: 4K Video play back and fast forward is successful 
+Select FHD 5.1 ( 1350 X 2560 ).webm file for video playback
+Started video playback
+Tap Somewhere on Screen for contents to visible on Screen
+Click fast forward button for 10 seconds video forward
+Click pause button to stop video
+Pass: FHD Video play back and fast forward is successful 
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Final Message: Pass Test10 Pass for Playing Copied Video files, recorded video file and fast forward video play back scenario 
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test10F Scenario is as follows
+1.Launch Camera application and start back camera video recording for all host applicable resolutions in uSD Card
+2.Playback Highest resolution recorded video from USD Card, fast forward playback and pause video scenario 
+3.Move front camera recorded videos from uSD card to Test10 folder in uSD card
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch home screen
+Launch Camera application for front camera video recording
+Test10F_Fcam_res: 2 resolutions supported
+Switch to video recording mode
+Switch to front video camera mode
+Select settings option
+Select Storagepath option
+Select SD as storage option
+Select settings option
+Select Video size option
+Select first highest front camera video resolution: FHD
+recordingDurationfront = 580 Seconds
+Start video recording
+Stop video recording
+Select settings option
+Select Video size option
+Select second highest front camera video resolution: HD
+recordingDurationfront1 = 580 Seconds
+Start video recording
+Stop video recording
+Switch to rear video camera mode
+Clicking photo Tab
+Pass: Test10F Pass for front camera video recording
+Launch file manager application and verify recorded video capture uSD Card
+Swipe up to select uSD card
+Select SD card
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Test10F_Fcam_video: 2 Videos captured successfull
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Calling VideoPlayBackForSleepWake()
+Launching file manager application
+Swipe up to select uSD card
+Select SD card
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+Select Camera folder
+switch to list view mode
+Select more options
+Select Sort By option
+Select Sort by Newest date first
+Click on first file to play highest recorded resolution video file
+Tap Somewhere on Screen for contents to visible on Screen
+Click pause video button
+Lock Mobile with 30 seconds delay
+Wait For 30Seconds
+Unlock Mobile
+Tap Somewhere on Screen for contents to visible on Screen
+Click pause video button
+Tap Somewhere on Screen for contents to visible on Screen
+Tap Somewhere on Screen for contents to visible on Screen
+Click pause video button
+Pass: Test10F Pass for Front video play back, Pause,Lock and Unlock Phone Play back from Pause duration Scenario
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+calling DatamoveOperation() to move front camera recorded videos files to Test10F folder
+Launch home screen
+launch file manager application select uSD card-->DCIM folder-->Camera folder-->Select all rear camera images create Test10F folder and cut paste all videos in Test10F folder
+Swipe up to select uSD card
+Select SD card
+Select DCIM Folder
+Select camera folder
+Click More options
+Click select all
+Click More options
+select move to option
+select uSD Card
+Select ADD NEW Folder option
+Name folder as Test10F
+Accept create folder
+Cut paste  video files operation completed successfully
+Pass: Test10F Pass for data move operation successfully
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Final Message: Pass Test10F Pass for front camera  video recording, Pause Video Playback scenario and data move operation scenario
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test9 Scenario is follows:
+1.Launch camera application, set uSD as a Storage option, start rear camera Image capture for all host resolutions
+2.Move rear camera  captured image files from camera folder to Test9 folder
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch home screen
+Launch Camera application for rear camera Image capture
+Test9_Bcam_res: 4 resolutions supported
+Select settings option
+Select Storagepath option
+Select SD as storage option
+Select settings option
+Select settings option to select resolution
+Select Rear camera first image resolution: 13M(4:3)
+totalPictureCountRear = 75 Images to be captured
+captureing first Resolution image 0
+captureing first Resolution image 1
+captureing first Resolution image 2
+captureing first Resolution image 3
+captureing first Resolution image 4
+captureing first Resolution image 5
+captureing first Resolution image 6
+captureing first Resolution image 7
+captureing first Resolution image 8
+captureing first Resolution image 9
+captureing first Resolution image 10
+captureing first Resolution image 11
+captureing first Resolution image 12
+captureing first Resolution image 13
+captureing first Resolution image 14
+captureing first Resolution image 15
+captureing first Resolution image 16
+captureing first Resolution image 17
+captureing first Resolution image 18
+captureing first Resolution image 19
+captureing first Resolution image 20
+captureing first Resolution image 21
+captureing first Resolution image 22
+captureing first Resolution image 23
+captureing first Resolution image 24
+captureing first Resolution image 25
+captureing first Resolution image 26
+captureing first Resolution image 27
+captureing first Resolution image 28
+captureing first Resolution image 29
+captureing first Resolution image 30
+captureing first Resolution image 31
+captureing first Resolution image 32
+captureing first Resolution image 33
+captureing first Resolution image 34
+captureing first Resolution image 35
+captureing first Resolution image 36
+captureing first Resolution image 37
+captureing first Resolution image 38
+captureing first Resolution image 39
+captureing first Resolution image 40
+captureing first Resolution image 41
+captureing first Resolution image 42
+captureing first Resolution image 43
+captureing first Resolution image 44
+captureing first Resolution image 45
+captureing first Resolution image 46
+captureing first Resolution image 47
+captureing first Resolution image 48
+captureing first Resolution image 49
+captureing first Resolution image 50
+captureing first Resolution image 51
+captureing first Resolution image 52
+captureing first Resolution image 53
+captureing first Resolution image 54
+captureing first Resolution image 55
+captureing first Resolution image 56
+captureing first Resolution image 57
+captureing first Resolution image 58
+captureing first Resolution image 59
+captureing first Resolution image 60
+captureing first Resolution image 61
+captureing first Resolution image 62
+captureing first Resolution image 63
+captureing first Resolution image 64
+captureing first Resolution image 65
+captureing first Resolution image 66
+captureing first Resolution image 67
+captureing first Resolution image 68
+captureing first Resolution image 69
+captureing first Resolution image 70
+captureing first Resolution image 71
+captureing first Resolution image 72
+captureing first Resolution image 73
+captureing first Resolution image 74
+Select settings option
+Select settings option to select resolution
+Select Rear camera second resolution: 10M(16:9)
+totalPictureCountRear1 = 75 Imgaes to be captured
+captureing Second  Resolution image 0
+captureing Second  Resolution image 1
+captureing Second  Resolution image 2
+captureing Second  Resolution image 3
+captureing Second  Resolution image 4
+captureing Second  Resolution image 5
+captureing Second  Resolution image 6
+captureing Second  Resolution image 7
+captureing Second  Resolution image 8
+captureing Second  Resolution image 9
+captureing Second  Resolution image 10
+captureing Second  Resolution image 11
+captureing Second  Resolution image 12
+captureing Second  Resolution image 13
+captureing Second  Resolution image 14
+captureing Second  Resolution image 15
+captureing Second  Resolution image 16
+captureing Second  Resolution image 17
+captureing Second  Resolution image 18
+captureing Second  Resolution image 19
+captureing Second  Resolution image 20
+captureing Second  Resolution image 21
+captureing Second  Resolution image 22
+captureing Second  Resolution image 23
+captureing Second  Resolution image 24
+captureing Second  Resolution image 25
+captureing Second  Resolution image 26
+captureing Second  Resolution image 27
+captureing Second  Resolution image 28
+captureing Second  Resolution image 29
+captureing Second  Resolution image 30
+captureing Second  Resolution image 31
+captureing Second  Resolution image 32
+captureing Second  Resolution image 33
+captureing Second  Resolution image 34
+captureing Second  Resolution image 35
+captureing Second  Resolution image 36
+captureing Second  Resolution image 37
+captureing Second  Resolution image 38
+captureing Second  Resolution image 39
+captureing Second  Resolution image 40
+captureing Second  Resolution image 41
+captureing Second  Resolution image 42
+captureing Second  Resolution image 43
+captureing Second  Resolution image 44
+captureing Second  Resolution image 45
+captureing Second  Resolution image 46
+captureing Second  Resolution image 47
+captureing Second  Resolution image 48
+captureing Second  Resolution image 49
+captureing Second  Resolution image 50
+captureing Second  Resolution image 51
+captureing Second  Resolution image 52
+captureing Second  Resolution image 53
+captureing Second  Resolution image 54
+captureing Second  Resolution image 55
+captureing Second  Resolution image 56
+captureing Second  Resolution image 57
+captureing Second  Resolution image 58
+captureing Second  Resolution image 59
+captureing Second  Resolution image 60
+captureing Second  Resolution image 61
+captureing Second  Resolution image 62
+captureing Second  Resolution image 63
+captureing Second  Resolution image 64
+captureing Second  Resolution image 65
+captureing Second  Resolution image 66
+captureing Second  Resolution image 67
+captureing Second  Resolution image 68
+captureing Second  Resolution image 69
+captureing Second  Resolution image 70
+captureing Second  Resolution image 71
+captureing Second  Resolution image 72
+captureing Second  Resolution image 73
+captureing Second  Resolution image 74
+Select settings option
+Select settings option to select resolution
+Select Rear camera third resolution: 10M(1:1)
+totalPictureCountRear2 = 75 Imgaes to be captured
+captureing third  Resolution image 0
+captureing third  Resolution image 1
+captureing third  Resolution image 2
+captureing third  Resolution image 3
+captureing third  Resolution image 4
+captureing third  Resolution image 5
+captureing third  Resolution image 6
+captureing third  Resolution image 7
+captureing third  Resolution image 8
+captureing third  Resolution image 9
+captureing third  Resolution image 10
+captureing third  Resolution image 11
+captureing third  Resolution image 12
+captureing third  Resolution image 13
+captureing third  Resolution image 14
+captureing third  Resolution image 15
+captureing third  Resolution image 16
+captureing third  Resolution image 17
+captureing third  Resolution image 18
+captureing third  Resolution image 19
+captureing third  Resolution image 20
+captureing third  Resolution image 21
+captureing third  Resolution image 22
+captureing third  Resolution image 23
+captureing third  Resolution image 24
+captureing third  Resolution image 25
+captureing third  Resolution image 26
+captureing third  Resolution image 27
+captureing third  Resolution image 28
+captureing third  Resolution image 29
+captureing third  Resolution image 30
+captureing third  Resolution image 31
+captureing third  Resolution image 32
+captureing third  Resolution image 33
+captureing third  Resolution image 34
+captureing third  Resolution image 35
+captureing third  Resolution image 36
+captureing third  Resolution image 37
+captureing third  Resolution image 38
+captureing third  Resolution image 39
+captureing third  Resolution image 40
+captureing third  Resolution image 41
+captureing third  Resolution image 42
+captureing third  Resolution image 43
+captureing third  Resolution image 44
+captureing third  Resolution image 45
+captureing third  Resolution image 46
+captureing third  Resolution image 47
+captureing third  Resolution image 48
+captureing third  Resolution image 49
+captureing third  Resolution image 50
+captureing third  Resolution image 51
+captureing third  Resolution image 52
+captureing third  Resolution image 53
+captureing third  Resolution image 54
+captureing third  Resolution image 55
+captureing third  Resolution image 56
+captureing third  Resolution image 57
+captureing third  Resolution image 58
+captureing third  Resolution image 59
+captureing third  Resolution image 60
+captureing third  Resolution image 61
+captureing third  Resolution image 62
+captureing third  Resolution image 63
+captureing third  Resolution image 64
+captureing third  Resolution image 65
+captureing third  Resolution image 66
+captureing third  Resolution image 67
+captureing third  Resolution image 68
+captureing third  Resolution image 69
+captureing third  Resolution image 70
+captureing third  Resolution image 71
+captureing third  Resolution image 72
+captureing third  Resolution image 73
+captureing third  Resolution image 74
+Select settings option
+Select settings option to select resolution
+Select Rear camera second resolution: 10M(1:1)
+totalPictureCountRear3 = 75 Imgaes to be captured
+captureing fourth  Resolution image 0
+captureing fourth  Resolution image 1
+captureing fourth  Resolution image 2
+captureing fourth  Resolution image 3
+captureing fourth  Resolution image 4
+captureing fourth  Resolution image 5
+captureing fourth  Resolution image 6
+captureing fourth  Resolution image 7
+captureing fourth  Resolution image 8
+captureing fourth  Resolution image 9
+captureing fourth  Resolution image 10
+captureing fourth  Resolution image 11
+captureing fourth  Resolution image 12
+captureing fourth  Resolution image 13
+captureing fourth  Resolution image 14
+captureing fourth  Resolution image 15
+captureing fourth  Resolution image 16
+captureing fourth  Resolution image 17
+captureing fourth  Resolution image 18
+captureing fourth  Resolution image 19
+captureing fourth  Resolution image 20
+captureing fourth  Resolution image 21
+captureing fourth  Resolution image 22
+captureing fourth  Resolution image 23
+captureing fourth  Resolution image 24
+captureing fourth  Resolution image 25
+captureing fourth  Resolution image 26
+captureing fourth  Resolution image 27
+captureing fourth  Resolution image 28
+captureing fourth  Resolution image 29
+captureing fourth  Resolution image 30
+captureing fourth  Resolution image 31
+captureing fourth  Resolution image 32
+captureing fourth  Resolution image 33
+captureing fourth  Resolution image 34
+captureing fourth  Resolution image 35
+captureing fourth  Resolution image 36
+captureing fourth  Resolution image 37
+captureing fourth  Resolution image 38
+captureing fourth  Resolution image 39
+captureing fourth  Resolution image 40
+captureing fourth  Resolution image 41
+captureing fourth  Resolution image 42
+captureing fourth  Resolution image 43
+captureing fourth  Resolution image 44
+captureing fourth  Resolution image 45
+captureing fourth  Resolution image 46
+captureing fourth  Resolution image 47
+captureing fourth  Resolution image 48
+captureing fourth  Resolution image 49
+captureing fourth  Resolution image 50
+captureing fourth  Resolution image 51
+captureing fourth  Resolution image 52
+captureing fourth  Resolution image 53
+captureing fourth  Resolution image 54
+captureing fourth  Resolution image 55
+captureing fourth  Resolution image 56
+captureing fourth  Resolution image 57
+captureing fourth  Resolution image 58
+captureing fourth  Resolution image 59
+captureing fourth  Resolution image 60
+captureing fourth  Resolution image 61
+captureing fourth  Resolution image 62
+captureing fourth  Resolution image 63
+captureing fourth  Resolution image 64
+captureing fourth  Resolution image 65
+captureing fourth  Resolution image 66
+captureing fourth  Resolution image 67
+captureing fourth  Resolution image 68
+captureing fourth  Resolution image 69
+captureing fourth  Resolution image 70
+captureing fourth  Resolution image 71
+captureing fourth  Resolution image 72
+captureing fourth  Resolution image 73
+captureing fourth  Resolution image 74
+Total Count value:300 images to be Captured 
+Launch file manager application and verify recorded video present in uSD Card
+click on browse option
+Swipe up to select uSD card
+Select SD card
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Test9_Bcam_image: 300 selected images Captured succesfull
+Interger value:300
+Tolerance_Level = 75
+
+Pass: Test9 pass for rear Image capture
+Test9_Bcam_image: 300  images Captured succesfull
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+calling DataMoveOperation()
+launch file manager application select uSD card-->DCIM folder-->Camera folder-->Select all rear camera images create Test9 folder and cut paste all videos in Test9 folder
+Swipe up to select uSD card
+Select external storage
+Click More options
+Select add new folder option
+Name folder as Test9
+Select DCIM Folder
+Select camera folder
+Click More options
+Click select all option
+Click More options
+Select Move to option
+Select SD card
+Select Test9 folder
+Click move here
+Pass: Test9 Pass for data move operation successfully
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Final Message: Pass Test9 Pass for Rear camera image capture  successfully
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test9F Scenario is as follows:
+1.Launch camera application, set uSD as a Storage option, start Front camera image picture capture for all Host front resolutions
+2.Move captured front images from camera folder to Test9F folder
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch home screen
+Launch Camera application for front camera Image capture
+Test9F_Fcam_res: 4 resolutions supported
+Switch to front video camera mode
+Select settings option
+Select Storagepath option
+Select SD as storage option
+Select settings option
+Select settings option to select resolution
+Select front camera first image resolution: 5M(4:3)
+totalPictureCountFront = 75
+Captureing first resolution image 0
+Captureing first resolution image 1
+Captureing first resolution image 2
+Captureing first resolution image 3
+Captureing first resolution image 4
+Captureing first resolution image 5
+Captureing first resolution image 6
+Captureing first resolution image 7
+Captureing first resolution image 8
+Captureing first resolution image 9
+Captureing first resolution image 10
+Captureing first resolution image 11
+Captureing first resolution image 12
+Captureing first resolution image 13
+Captureing first resolution image 14
+Captureing first resolution image 15
+Captureing first resolution image 16
+Captureing first resolution image 17
+Captureing first resolution image 18
+Captureing first resolution image 19
+Captureing first resolution image 20
+Captureing first resolution image 21
+Captureing first resolution image 22
+Captureing first resolution image 23
+Captureing first resolution image 24
+Captureing first resolution image 25
+Captureing first resolution image 26
+Captureing first resolution image 27
+Captureing first resolution image 28
+Captureing first resolution image 29
+Captureing first resolution image 30
+Captureing first resolution image 31
+Captureing first resolution image 32
+Captureing first resolution image 33
+Captureing first resolution image 34
+Captureing first resolution image 35
+Captureing first resolution image 36
+Captureing first resolution image 37
+Captureing first resolution image 38
+Captureing first resolution image 39
+Captureing first resolution image 40
+Captureing first resolution image 41
+Captureing first resolution image 42
+Captureing first resolution image 43
+Captureing first resolution image 44
+Captureing first resolution image 45
+Captureing first resolution image 46
+Captureing first resolution image 47
+Captureing first resolution image 48
+Captureing first resolution image 49
+Captureing first resolution image 50
+Captureing first resolution image 51
+Captureing first resolution image 52
+Captureing first resolution image 53
+Captureing first resolution image 54
+Captureing first resolution image 55
+Captureing first resolution image 56
+Captureing first resolution image 57
+Captureing first resolution image 58
+Captureing first resolution image 59
+Captureing first resolution image 60
+Captureing first resolution image 61
+Captureing first resolution image 62
+Captureing first resolution image 63
+Captureing first resolution image 64
+Captureing first resolution image 65
+Captureing first resolution image 66
+Captureing first resolution image 67
+Captureing first resolution image 68
+Captureing first resolution image 69
+Captureing first resolution image 70
+Captureing first resolution image 71
+Captureing first resolution image 72
+Captureing first resolution image 73
+Captureing first resolution image 74
+Select settings option
+Select settings option to select resolution
+Select  front second resolution: 3M(16:9)
+totalPictureCountFront1 = 75
+Captureing second resolution image 0
+Captureing second resolution image 1
+Captureing second resolution image 2
+Captureing second resolution image 3
+Captureing second resolution image 4
+Captureing second resolution image 5
+Captureing second resolution image 6
+Captureing second resolution image 7
+Captureing second resolution image 8
+Captureing second resolution image 9
+Captureing second resolution image 10
+Captureing second resolution image 11
+Captureing second resolution image 12
+Captureing second resolution image 13
+Captureing second resolution image 14
+Captureing second resolution image 15
+Captureing second resolution image 16
+Captureing second resolution image 17
+Captureing second resolution image 18
+Captureing second resolution image 19
+Captureing second resolution image 20
+Captureing second resolution image 21
+Captureing second resolution image 22
+Captureing second resolution image 23
+Captureing second resolution image 24
+Captureing second resolution image 25
+Captureing second resolution image 26
+Captureing second resolution image 27
+Captureing second resolution image 28
+Captureing second resolution image 29
+Captureing second resolution image 30
+Captureing second resolution image 31
+Captureing second resolution image 32
+Captureing second resolution image 33
+Captureing second resolution image 34
+Captureing second resolution image 35
+Captureing second resolution image 36
+Captureing second resolution image 37
+Captureing second resolution image 38
+Captureing second resolution image 39
+Captureing second resolution image 40
+Captureing second resolution image 41
+Captureing second resolution image 42
+Captureing second resolution image 43
+Captureing second resolution image 44
+Captureing second resolution image 45
+Captureing second resolution image 46
+Captureing second resolution image 47
+Captureing second resolution image 48
+Captureing second resolution image 49
+Captureing second resolution image 50
+Captureing second resolution image 51
+Captureing second resolution image 52
+Captureing second resolution image 53
+Captureing second resolution image 54
+Captureing second resolution image 55
+Captureing second resolution image 56
+Captureing second resolution image 57
+Captureing second resolution image 58
+Captureing second resolution image 59
+Captureing second resolution image 60
+Captureing second resolution image 61
+Captureing second resolution image 62
+Captureing second resolution image 63
+Captureing second resolution image 64
+Captureing second resolution image 65
+Captureing second resolution image 66
+Captureing second resolution image 67
+Captureing second resolution image 68
+Captureing second resolution image 69
+Captureing second resolution image 70
+Captureing second resolution image 71
+Captureing second resolution image 72
+Captureing second resolution image 73
+Captureing second resolution image 74
+Select settings option
+Select settings option to select resolution
+Select front camera third resolution: 1M(18:9)
+totalPictureCountFront2 = 75
+Captureing second resolution image 0
+Captureing second resolution image 1
+Captureing second resolution image 2
+Captureing second resolution image 3
+Captureing second resolution image 4
+Captureing second resolution image 5
+Captureing second resolution image 6
+Captureing second resolution image 7
+Captureing second resolution image 8
+Captureing second resolution image 9
+Captureing second resolution image 10
+Captureing second resolution image 11
+Captureing second resolution image 12
+Captureing second resolution image 13
+Captureing second resolution image 14
+Captureing second resolution image 15
+Captureing second resolution image 16
+Captureing second resolution image 17
+Captureing second resolution image 18
+Captureing second resolution image 19
+Captureing second resolution image 20
+Captureing second resolution image 21
+Captureing second resolution image 22
+Captureing second resolution image 23
+Captureing second resolution image 24
+Captureing second resolution image 25
+Captureing second resolution image 26
+Captureing second resolution image 27
+Captureing second resolution image 28
+Captureing second resolution image 29
+Captureing second resolution image 30
+Captureing second resolution image 31
+Captureing second resolution image 32
+Captureing second resolution image 33
+Captureing second resolution image 34
+Captureing second resolution image 35
+Captureing second resolution image 36
+Captureing second resolution image 37
+Captureing second resolution image 38
+Captureing second resolution image 39
+Captureing second resolution image 40
+Captureing second resolution image 41
+Captureing second resolution image 42
+Captureing second resolution image 43
+Captureing second resolution image 44
+Captureing second resolution image 45
+Captureing second resolution image 46
+Captureing second resolution image 47
+Captureing second resolution image 48
+Captureing second resolution image 49
+Captureing second resolution image 50
+Captureing second resolution image 51
+Captureing second resolution image 52
+Captureing second resolution image 53
+Captureing second resolution image 54
+Captureing second resolution image 55
+Captureing second resolution image 56
+Captureing second resolution image 57
+Captureing second resolution image 58
+Captureing second resolution image 59
+Captureing second resolution image 60
+Captureing second resolution image 61
+Captureing second resolution image 62
+Captureing second resolution image 63
+Captureing second resolution image 64
+Captureing second resolution image 65
+Captureing second resolution image 66
+Captureing second resolution image 67
+Captureing second resolution image 68
+Captureing second resolution image 69
+Captureing second resolution image 70
+Captureing second resolution image 71
+Captureing second resolution image 72
+Captureing second resolution image 73
+Captureing second resolution image 74
+Select settings option
+Select settings option to select resolution
+Select front camera fourth resolution: 1M(1:1)
+totalPictureCountFront3 = 75
+Captureing second resolution image 0
+Captureing second resolution image 1
+Captureing second resolution image 2
+Captureing second resolution image 3
+Captureing second resolution image 4
+Captureing second resolution image 5
+Captureing second resolution image 6
+Captureing second resolution image 7
+Captureing second resolution image 8
+Captureing second resolution image 9
+Captureing second resolution image 10
+Captureing second resolution image 11
+Captureing second resolution image 12
+Captureing second resolution image 13
+Captureing second resolution image 14
+Captureing second resolution image 15
+Captureing second resolution image 16
+Captureing second resolution image 17
+Captureing second resolution image 18
+Captureing second resolution image 19
+Captureing second resolution image 20
+Captureing second resolution image 21
+Captureing second resolution image 22
+Captureing second resolution image 23
+Captureing second resolution image 24
+Captureing second resolution image 25
+Captureing second resolution image 26
+Captureing second resolution image 27
+Captureing second resolution image 28
+Captureing second resolution image 29
+Captureing second resolution image 30
+Captureing second resolution image 31
+Captureing second resolution image 32
+Captureing second resolution image 33
+Captureing second resolution image 34
+Captureing second resolution image 35
+Captureing second resolution image 36
+Captureing second resolution image 37
+Captureing second resolution image 38
+Captureing second resolution image 39
+Captureing second resolution image 40
+Captureing second resolution image 41
+Captureing second resolution image 42
+Captureing second resolution image 43
+Captureing second resolution image 44
+Captureing second resolution image 45
+Captureing second resolution image 46
+Captureing second resolution image 47
+Captureing second resolution image 48
+Captureing second resolution image 49
+Captureing second resolution image 50
+Captureing second resolution image 51
+Captureing second resolution image 52
+Captureing second resolution image 53
+Captureing second resolution image 54
+Captureing second resolution image 55
+Captureing second resolution image 56
+Captureing second resolution image 57
+Captureing second resolution image 58
+Captureing second resolution image 59
+Captureing second resolution image 60
+Captureing second resolution image 61
+Captureing second resolution image 62
+Captureing second resolution image 63
+Captureing second resolution image 64
+Captureing second resolution image 65
+Captureing second resolution image 66
+Captureing second resolution image 67
+Captureing second resolution image 68
+Captureing second resolution image 69
+Captureing second resolution image 70
+Captureing second resolution image 71
+Captureing second resolution image 72
+Captureing second resolution image 73
+Captureing second resolution image 74
+Switch to back camera mode
+Total Count value:300 images to be Captured 
+Launch file manager application and verify captured images present in uSD Card
+Swipe up to select uSD card
+Select SD card
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Total Image
+Test9F_Fcam_image: 300 selected images Captured succesfull
+Actual Value:300 selected
+Interger value:300
+Tolerance_Level = 75
+
+Pass: Test9F pass for front Image capture
+Test9F_Fcam_image: 300  images Captured succesfull
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+calling DataMoveOperation()
+Re-launch file manager application and select external storage for data move operation, select all front camera images files present in camera folder and move to Test9F folder
+Swipe up to select uSD card
+Select external storage
+Click More options
+Select add new folder option
+Name folder as Test9F
+Select DCIM Folder
+Select camera folder
+Click More options
+Click select all option
+Click More options
+Select Move to option
+Select SD card
+Select Test9 folder
+Click move here
+Pass: Test9 Pass for data move operation successfully
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Final Message: Pass Test9F Pass for front Camera image capture
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11,589.346 s - in TestSuite
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ BlackView_A55_Pro ---
+[INFO] Building jar: C:\Users\sandisk\Android11\Eclipse_Workspace\BlackView_A55_Pro\target\BlackView_A55_Pro-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ BlackView_A55_Pro ---
+[INFO] Installing C:\Users\sandisk\Android11\Eclipse_Workspace\BlackView_A55_Pro\target\BlackView_A55_Pro-0.0.1-SNAPSHOT.jar to C:\Users\sandisk\.m2\repository\Com\BlackView_A55_Pro\test\BlackView_A55_Pro\0.0.1-SNAPSHOT\BlackView_A55_Pro-0.0.1-SNAPSHOT.jar
+[INFO] Installing C:\Users\sandisk\Android11\Eclipse_Workspace\BlackView_A55_Pro\pom.xml to C:\Users\sandisk\.m2\repository\Com\BlackView_A55_Pro\test\BlackView_A55_Pro\0.0.1-SNAPSHOT\BlackView_A55_Pro-0.0.1-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  03:13 h
+[INFO] Finished at: 2023-02-07T14:57:48+05:30
+[INFO] ------------------------------------------------------------------------

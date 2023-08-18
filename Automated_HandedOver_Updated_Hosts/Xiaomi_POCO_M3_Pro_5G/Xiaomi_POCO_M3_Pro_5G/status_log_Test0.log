@@ -1,0 +1,44 @@
+2022-09-29 14:37:24 INFO   Xiaomi_POCO_M3_Pro_5G.Test0 start Test: Start
+2022-09-29 14:37:24 INFO   Xiaomi_POCO_M3_Pro_5G.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-09-29 14:37:24 INFO   Xiaomi_POCO_M3_Pro_5G.Test0 start  Test0 Scenario is as follows 
+2022-09-29 14:37:24 INFO   Xiaomi_POCO_M3_Pro_5G.Test0 start 1.Unlock phone, clear recent apps, clear internal memory
+2022-09-29 14:37:24 INFO   Xiaomi_POCO_M3_Pro_5G.Test0 start 2.Call Image() and Capture Rear camera 25 images for default resolution in uSD card and Verify the data capture
+2022-09-29 14:37:24 INFO   Xiaomi_POCO_M3_Pro_5G.Test0 start 3.Call Video() and record Rear camera video of first 2 resloutions for 2 minutes of duration in uSD Card and verify the same
+2022-09-29 14:37:24 INFO   Xiaomi_POCO_M3_Pro_5G.Test0 start 4.Call Format() and format uSD card with data and verify the same
+2022-09-29 14:37:24 INFO   Xiaomi_POCO_M3_Pro_5G.Test0 start Setting up the appium desired capabilities
+2022-09-29 14:37:24 INFO   Xiaomi_POCO_M3_Pro_5G.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-09-29 14:37:34 INFO   Xiaomi_POCO_M3_Pro_5G.Test0 start Unlock Phone
+2022-09-29 14:37:39 INFO   Xiaomi_POCO_M3_Pro_5G.Test0 start Launch home screen
+2022-09-29 14:37:46 INFO   Xiaomi_POCO_M3_Pro_5G.Test0 start if appium application permission request pop-up exists? then accept allow option 
+2022-09-29 14:37:57 INFO   Xiaomi_POCO_M3_Pro_5G.Test0 start No appium launch access permission  found
+2022-09-29 14:37:57 INFO   Xiaomi_POCO_M3_Pro_5G.Test0 start Clearing Recent Apps
+2022-09-29 14:38:12 INFO   Xiaomi_POCO_M3_Pro_5G.Test0 start Pass: No recent pass found in background
+2022-09-29 14:38:14 INFO   Xiaomi_POCO_M3_Pro_5G.Test0 start Launch File manager and Clear internal memory
+2022-09-29 14:38:33 INFO   Xiaomi_POCO_M3_Pro_5G.Test0 start Select Internal storage
+2022-09-29 14:38:39 INFO   Xiaomi_POCO_M3_Pro_5G.Test0 start Click More options
+2022-09-29 14:38:46 INFO   Xiaomi_POCO_M3_Pro_5G.Test0 start Click Select all
+2022-09-29 14:38:49 INFO   Xiaomi_POCO_M3_Pro_5G.Test0 start undo select Test1 folder
+2022-09-29 14:38:53 INFO   Xiaomi_POCO_M3_Pro_5G.Test0 start Click More options
+2022-09-29 14:38:59 INFO   Xiaomi_POCO_M3_Pro_5G.Test0 start Click Delete Option
+2022-09-29 14:39:50 INFO   Xiaomi_POCO_M3_Pro_5G.Test0 start Pass: Clearing phone internal memory is successfull
+2022-09-29 14:39:50 INFO   Xiaomi_POCO_M3_Pro_5G.Test0 start ===============================================================================================================================================
+2022-09-29 14:39:50 INFO   Xiaomi_POCO_M3_Pro_5G.Test0 start Calling Image() to capture rear image in uSD card and verifying the same.
+2022-09-29 14:39:50 INFO   Xiaomi_POCO_M3_Pro_5G.Test0 Images Launching settings application, set uSD as Storage option for Image capture
+2022-09-29 14:39:57 INFO   Xiaomi_POCO_M3_Pro_5G.Test0 Images select about phone
+2022-09-29 14:40:00 INFO   Xiaomi_POCO_M3_Pro_5G.Test0 Images select storage option
+2022-09-29 14:40:06 INFO   Xiaomi_POCO_M3_Pro_5G.Test0 Images Select storage settings option
+2022-09-29 14:40:09 INFO   Xiaomi_POCO_M3_Pro_5G.Test0 Images Select Camera option
+2022-09-29 14:40:13 INFO   Xiaomi_POCO_M3_Pro_5G.Test0 Images Select Exteranl stoarge as storage option
+2022-09-29 14:40:34 INFO   Xiaomi_POCO_M3_Pro_5G.Test0 Images Launch camera application
+2022-09-29 14:40:41 INFO   Xiaomi_POCO_M3_Pro_5G.Test0 Images if location permission access pop-up exists select Deny option 
+2022-09-29 14:40:51 INFO   Xiaomi_POCO_M3_Pro_5G.Test0 Images No location access permission pop-up found: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: POCO M3 Pro 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: 7l9twofy8xwobqi7}, deviceApiLevel: 30, deviceManufacturer: Xiaomi, deviceModel: M2103K19PG, deviceName: 7l9twofy8xwobqi7, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 7l9twofy8xwobqi7, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 103, takesScreenshot: true, udid: 7l9twofy8xwobqi7, viewportRect: {height: 2064, left: 0, top: 103, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 81d0e070-bc35-4586-9119-bfc168bbf099
+*** Element info: {Using=xpath, value=//*[@resource-id='android:id/button2']}
+2022-09-29 14:40:51 INFO   Xiaomi_POCO_M3_Pro_5G.Test0 Images Switch to photo mode
+2022-09-29 14:40:54 INFO   Xiaomi_POCO_M3_Pro_5G.Test0 Images Capturing default resolution image
+2022-09-29 14:41:01 INFO   Xiaomi_POCO_M3_Pro_5G.Test0 Images capturing default resolution image0

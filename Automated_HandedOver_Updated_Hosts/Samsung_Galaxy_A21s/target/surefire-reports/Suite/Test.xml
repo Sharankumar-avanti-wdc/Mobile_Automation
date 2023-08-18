@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="SD-APPS-200" name="Samsung_Galaxy_A21s.Test9F" tests="1" failures="1" timestamp="16 Jan 2023 15:47:44 GMT" time="267.61" errors="0">
+  <testcase name="frontPictureCapture" time="259.033" classname="Samsung_Galaxy_A21s.Test9F">
+    <failure type="org.openqa.selenium.WebDriverException" message="An unknown server-side error occurred while processing the command. Original error: Cannot start the &amp;apos;com.sec.android.app.launcher&amp;apos; application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Error executing adbExec. Original error: &amp;apos;Command &amp;apos;C:\\Android\\Android_SDK\\Android-sdk\\platform-tools\\adb.exe -P 5037 -s RZ8NA0LW97D shell am start -W -n com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity -S&amp;apos; exited with code 4294967295&amp;apos;; Stderr: &amp;apos;error: device &amp;apos;RZ8NA0LW97D&amp;apos; not found&amp;apos;; Code: &amp;apos;4294967295&amp;apos;
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:17:03&amp;apos;
+System info: host: &amp;apos;SD-APPS-200&amp;apos;, ip: &amp;apos;10.65.150.243&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;1.8.0_202&amp;apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy A21s, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: RZ8NA0LW97D}, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-A217F, deviceName: RZ8NA0LW97D, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: RZ8NA0LW97D, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 68, takesScreenshot: true, udid: RZ8NA0LW97D, viewportRect: {height: 1380, left: 0, top: 68, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 1ef2c7c1-02b0-466b-b43b-bdaf1df5e30c">
+      <![CDATA[org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: Cannot start the 'com.sec.android.app.launcher' application. Visit https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/android/activity-startup.md for troubleshooting. Original error: Error executing adbExec. Original error: 'Command 'C:\\Android\\Android_SDK\\Android-sdk\\platform-tools\\adb.exe -P 5037 -s RZ8NA0LW97D shell am start -W -n com.sec.android.app.launcher/com.sec.android.app.launcher.activities.LauncherActivity -S' exited with code 4294967295'; Stderr: 'error: device 'RZ8NA0LW97D' not found'; Code: '4294967295'
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy A21s, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: RZ8NA0LW97D}, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-A217F, deviceName: RZ8NA0LW97D, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: RZ8NA0LW97D, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 68, takesScreenshot: true, udid: RZ8NA0LW97D, viewportRect: {height: 1380, left: 0, top: 68, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 1ef2c7c1-02b0-466b-b43b-bdaf1df5e30c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at io.appium.java_client.CommandExecutionHelper.execute(CommandExecutionHelper.java:27)
+	at io.appium.java_client.android.StartsActivity.startActivity(StartsActivity.java:45)
+	at Samsung_Galaxy_A21s.Test9F.DataMoveOperation(Test9F.java:545)
+	at Samsung_Galaxy_A21s.Test9F.frontPictureCapture(Test9F.java:528)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+... Removed 27 stack frames]]>
+    </failure>
+  </testcase>
+</testsuite>

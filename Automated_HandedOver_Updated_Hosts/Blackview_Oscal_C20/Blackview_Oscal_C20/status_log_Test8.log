@@ -1,0 +1,65 @@
+2023-01-22 13:19:05 INFO   Blackview_Oscal_C20.Test8 recordAudio Test: Start
+2023-01-22 13:19:05 INFO   Blackview_Oscal_C20.Test8 recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-22 13:19:05 INFO   Blackview_Oscal_C20.Test8 recordAudio Test8 scenario is as follows
+2023-01-22 13:19:05 INFO   Blackview_Oscal_C20.Test8 recordAudio 1.Launch mobile default voice recording application and set  storage option, record audio file for 2 minutes duration
+2023-01-22 13:19:05 INFO   Blackview_Oscal_C20.Test8 recordAudio 2.Launch file manager application and playback recorded audio file from external storage, fast forward audio file and pause
+2023-01-22 13:19:05 INFO   Blackview_Oscal_C20.Test8 recordAudio 3.Launch file manager application and playback copied audio files from external storage the files are placed in the Test1 folder
+2023-01-22 13:19:05 INFO   Blackview_Oscal_C20.Test8 recordAudio Setting up the appium desired capabilities
+2023-01-22 13:19:05 INFO   Blackview_Oscal_C20.Test8 recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-22 13:19:16 INFO   Blackview_Oscal_C20.Test8 recordAudio Launch home screen
+2023-01-22 13:19:27 INFO   Blackview_Oscal_C20.Test8 recordAudio Clearing Recent Apps
+2023-01-22 13:19:32 INFO   Blackview_Oscal_C20.Test8 recordAudio clearing Recent apps 
+2023-01-22 13:19:34 INFO   Blackview_Oscal_C20.Test8 recordAudio Launch Voice recorder application for Audio recording
+2023-01-22 13:19:36 INFO   Blackview_Oscal_C20.Test8 recordAudio If application launch permission pop-up exists accept allow permission to launch application
+2023-01-22 13:19:51 INFO   Blackview_Oscal_C20.Test8 recordAudio  No Launch permission Pop-up  found
+2023-01-22 13:19:56 INFO   Blackview_Oscal_C20.Test8 recordAudio Select settings option
+2023-01-22 13:20:01 INFO   Blackview_Oscal_C20.Test8 recordAudio Select Save location option
+2023-01-22 13:20:07 INFO   Blackview_Oscal_C20.Test8 recordAudio Select SD card option
+2023-01-22 13:20:16 INFO   Blackview_Oscal_C20.Test8 recordAudio Start Recording
+2023-01-22 13:22:26 INFO   Blackview_Oscal_C20.Test8 recordAudio Stop Recording
+2023-01-22 13:23:03 INFO   Blackview_Oscal_C20.Test8 recordAudio Stop and Save Recording
+2023-01-22 13:23:09 INFO   Blackview_Oscal_C20.Test8 recordAudio Pass: Test8 pass for recording  audio file
+2023-01-22 13:23:09 INFO   Blackview_Oscal_C20.Test8 recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-22 13:23:09 INFO   Blackview_Oscal_C20.Test8 recordAudio Calling PlayRecordedAudio() for Audio play back and fast forward scenario
+2023-01-22 13:23:14 INFO   Blackview_Oscal_C20.Test8 PlayRecordedAudio Launch home screen and clear recent apps
+2023-01-22 13:23:35 INFO   Blackview_Oscal_C20.Test8 PlayRecordedAudio No recent apps found
+2023-01-22 13:23:37 INFO   Blackview_Oscal_C20.Test8 PlayRecordedAudio Launch File Manager Application
+2023-01-22 13:23:48 INFO   Blackview_Oscal_C20.Test8 PlayRecordedAudio Launch File Manager Application
+2023-01-22 13:23:54 INFO   Blackview_Oscal_C20.Test8 PlayRecordedAudio Select Music Folder
+2023-01-22 13:23:59 INFO   Blackview_Oscal_C20.Test8 PlayRecordedAudio Select recordings Folder
+2023-01-22 13:24:02 INFO   Blackview_Oscal_C20.Test8 PlayRecordedAudio Click first audio file for audio playback and fast forward scenario
+2023-01-22 13:24:43 INFO   Blackview_Oscal_C20.Test8 PlayRecordedAudio Fast Forwarding Audio for 10 Seconds
+2023-01-22 13:24:54 INFO   Blackview_Oscal_C20.Test8 PlayRecordedAudio Continue audio playback
+2023-01-22 13:25:24 INFO   Blackview_Oscal_C20.Test8 PlayRecordedAudio Pause audio playback
+2023-01-22 13:25:35 INFO   Blackview_Oscal_C20.Test8 PlayRecordedAudio Pass: Test8 Pass for playing, fast forward, and pause recorded audio file scenario
+2023-01-22 13:25:35 INFO   Blackview_Oscal_C20.Test8 PlayRecordedAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-22 13:25:35 INFO   Blackview_Oscal_C20.Test8 PlayRecordedAudio Calling PlayCopiedAudioFile() for copied audio files from Test1 folder
+2023-01-22 13:25:40 INFO   Blackview_Oscal_C20.Test8 PlayCopiedAudioFile Launch home screen
+2023-01-22 13:25:53 INFO   Blackview_Oscal_C20.Test8 PlayCopiedAudioFile clearing Recent apps 
+2023-01-22 13:26:03 INFO   Blackview_Oscal_C20.Test8 PlayCopiedAudioFile No recent apps found
+2023-01-22 13:26:05 INFO   Blackview_Oscal_C20.Test8 PlayCopiedAudioFile Launch File Manager Application
+2023-01-22 13:26:16 INFO   Blackview_Oscal_C20.Test8 PlayCopiedAudioFile Select  SD card
+2023-01-22 13:26:26 INFO   Blackview_Oscal_C20.Test8 PlayCopiedAudioFile Select Test1 folder
+2023-01-22 13:26:37 INFO   Blackview_Oscal_C20.Test8 PlayCopiedAudioFile Select Test_file folder
+2023-01-22 13:26:42 INFO   Blackview_Oscal_C20.Test8 PlayCopiedAudioFile Select 1GB folder
+2023-01-22 13:26:45 INFO   Blackview_Oscal_C20.Test8 PlayCopiedAudioFile Select MP3 files Folder
+2023-01-22 13:26:50 INFO   Blackview_Oscal_C20.Test8 PlayCopiedAudioFile Playing first audio file from Test1 folder
+2023-01-22 13:27:31 INFO   Blackview_Oscal_C20.Test8 PlayCopiedAudioFile Fast Forwarding Audio for 10 Seconds
+2023-01-22 13:27:42 INFO   Blackview_Oscal_C20.Test8 PlayCopiedAudioFile Continue audio playback
+2023-01-22 13:27:52 INFO   Blackview_Oscal_C20.Test8 PlayCopiedAudioFile Pause Audio
+2023-01-22 13:27:55 INFO   Blackview_Oscal_C20.Test8 PlayCopiedAudioFile Pass: first audio file palyback and fast forward scenario is successfull
+2023-01-22 13:27:58 INFO   Blackview_Oscal_C20.Test8 PlayCopiedAudioFile Playing second audio file from Test1 folder
+2023-01-22 13:28:38 INFO   Blackview_Oscal_C20.Test8 PlayCopiedAudioFile Fast Forwarding Audio for 10 Seconds
+2023-01-22 13:28:49 INFO   Blackview_Oscal_C20.Test8 PlayCopiedAudioFile Continue audio playback
+2023-01-22 13:28:59 INFO   Blackview_Oscal_C20.Test8 PlayCopiedAudioFile Pause Audio
+2023-01-22 13:29:02 INFO   Blackview_Oscal_C20.Test8 PlayCopiedAudioFile Pass: Seond audio file palyback and fast forward scenario is successfull
+2023-01-22 13:29:05 INFO   Blackview_Oscal_C20.Test8 PlayCopiedAudioFile Playing third audio file from Test1 folder
+2023-01-22 13:29:45 INFO   Blackview_Oscal_C20.Test8 PlayCopiedAudioFile Fast Forwarding Audio for 10 Seconds
+2023-01-22 13:29:56 INFO   Blackview_Oscal_C20.Test8 PlayCopiedAudioFile Continue audio playback
+2023-01-22 13:30:06 INFO   Blackview_Oscal_C20.Test8 PlayCopiedAudioFile Pause Audio
+2023-01-22 13:30:10 INFO   Blackview_Oscal_C20.Test8 PlayCopiedAudioFile Pass: Third audio file palyback and fast forward scenario is successfull
+2023-01-22 13:30:10 INFO   Blackview_Oscal_C20.Test8 PlayCopiedAudioFile Pass: Test8 Pass for Recorded and copied audio play back and fast forward scenario
+2023-01-22 13:30:10 INFO   Blackview_Oscal_C20.Test8 PlayCopiedAudioFile ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-22 13:30:10 INFO   Blackview_Oscal_C20.Test8 PlayCopiedAudioFile Final Message: Pass Test8 Pass for Recorded and copied audio play back and fast forward scenario
+2023-01-22 13:30:10 INFO   Blackview_Oscal_C20.Test8 PlayCopiedAudioFile Test: End
+2023-01-22 13:30:10 INFO   Blackview_Oscal_C20.Test8 PlayCopiedAudioFile ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

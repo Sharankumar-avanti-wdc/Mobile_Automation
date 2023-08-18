@@ -1,0 +1,109 @@
+2023-01-06 18:31:48 INFO   UMIDIGI_A11S.Test10F rearVideoRec Test: Start
+2023-01-06 18:31:48 INFO   UMIDIGI_A11S.Test10F rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-06 18:31:48 INFO   UMIDIGI_A11S.Test10F rearVideoRec Test10F Scenario is as follows
+2023-01-06 18:31:48 INFO   UMIDIGI_A11S.Test10F rearVideoRec 1.Launch Camera application and start back camera video recording for all host applicable resolutions in uSD Card
+2023-01-06 18:31:48 INFO   UMIDIGI_A11S.Test10F rearVideoRec 2.Playback Highest resolution recorded video from USD Card, fast forward playback and pause video scenario 
+2023-01-06 18:31:48 INFO   UMIDIGI_A11S.Test10F rearVideoRec 3.Playback copied videos from Test1 folder, fast forward and pause scenario
+2023-01-06 18:31:48 INFO   UMIDIGI_A11S.Test10F rearVideoRec Setting up the appium desired capabilities
+2023-01-06 18:31:48 INFO   UMIDIGI_A11S.Test10F rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-06 18:32:06 INFO   UMIDIGI_A11S.Test10F rearVideoRec Launch home screen
+2023-01-06 18:32:12 INFO   UMIDIGI_A11S.Test10F rearVideoRec Clearing Recent Apps
+2023-01-06 18:32:35 INFO   UMIDIGI_A11S.Test10F rearVideoRec Launch Camera application for front camera video recording
+2023-01-06 18:32:42 INFO   UMIDIGI_A11S.Test10F rearVideoRec Test10F_Fcam_res: 3 resolutions supported
+2023-01-06 18:32:42 INFO   UMIDIGI_A11S.Test10F rearVideoRec IF Change to uSD card notification pop-up exists select Cancel Option
+2023-01-06 18:33:02 INFO   UMIDIGI_A11S.Test10F rearVideoRec change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: A11S, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: A11S432621112305514}, deviceApiLevel: 30, deviceManufacturer: HXY, deviceModel: MP01, deviceName: A11S432621112305514, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: A11S432621112305514, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 60, takesScreenshot: true, udid: A11S432621112305514, viewportRect: {height: 1396, left: 0, top: 60, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 980d4545-2bdb-4fa9-a94c-067e47268c4f
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2023-01-06 18:33:04 INFO   UMIDIGI_A11S.Test10F rearVideoRec if Location permisson Pop Exists Select Cancel Option
+2023-01-06 18:33:25 INFO   UMIDIGI_A11S.Test10F rearVideoRec Location permission access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: A11S, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: A11S432621112305514}, deviceApiLevel: 30, deviceManufacturer: HXY, deviceModel: MP01, deviceName: A11S432621112305514, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: A11S432621112305514, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 60, takesScreenshot: true, udid: A11S432621112305514, viewportRect: {height: 1396, left: 0, top: 60, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 980d4545-2bdb-4fa9-a94c-067e47268c4f
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2023-01-06 18:33:25 INFO   UMIDIGI_A11S.Test10F rearVideoRec Switch to video recording mode
+2023-01-06 18:34:06 INFO   UMIDIGI_A11S.Test10F rearVideoRec Switch to front video camera mode
+2023-01-06 18:34:09 INFO   UMIDIGI_A11S.Test10F rearVideoRec Switching to Front Video capture
+2023-01-06 18:34:09 INFO   UMIDIGI_A11S.Test10F rearVideoRec Select settings option
+2023-01-06 18:34:15 INFO   UMIDIGI_A11S.Test10F rearVideoRec Select Storagepath option
+2023-01-06 18:34:21 INFO   UMIDIGI_A11S.Test10F rearVideoRec Select SD as storage option
+2023-01-06 18:34:29 INFO   UMIDIGI_A11S.Test10F rearVideoRec Select settings option
+2023-01-06 18:34:35 INFO   UMIDIGI_A11S.Test10F rearVideoRec Select Video size option
+2023-01-06 18:34:41 INFO   UMIDIGI_A11S.Test10F rearVideoRec Select front camera first video resolution: HD 1080p
+2023-01-06 18:34:51 INFO   UMIDIGI_A11S.Test10F rearVideoRec Start video recording
+2023-01-06 18:36:31 INFO   UMIDIGI_A11S.Test10F rearVideoRec Stop video recording
+2023-01-06 18:36:36 INFO   UMIDIGI_A11S.Test10F rearVideoRec Select settings option
+2023-01-06 18:36:41 INFO   UMIDIGI_A11S.Test10F rearVideoRec Select Video size option
+2023-01-06 18:36:47 INFO   UMIDIGI_A11S.Test10F rearVideoRec Select front camera second video resolution : HD 720p
+2023-01-06 18:36:57 INFO   UMIDIGI_A11S.Test10F rearVideoRec Start video recording
+2023-01-06 18:38:38 INFO   UMIDIGI_A11S.Test10F rearVideoRec Stop video recording
+2023-01-06 18:38:43 INFO   UMIDIGI_A11S.Test10F rearVideoRec Select settings option
+2023-01-06 18:38:49 INFO   UMIDIGI_A11S.Test10F rearVideoRec Select Video size option
+2023-01-06 18:38:55 INFO   UMIDIGI_A11S.Test10F rearVideoRec Select Front camera third video resolution: SD 480p
+2023-01-06 18:39:05 INFO   UMIDIGI_A11S.Test10F rearVideoRec Start video recording
+2023-01-06 18:40:45 INFO   UMIDIGI_A11S.Test10F rearVideoRec Stop video recording
+2023-01-06 18:40:51 INFO   UMIDIGI_A11S.Test10F rearVideoRec Switch to rear video camera mode
+2023-01-06 18:40:51 INFO   UMIDIGI_A11S.Test10F rearVideoRec Clicking photo Tab
+2023-01-06 18:41:15 INFO   UMIDIGI_A11S.Test10F rearVideoRec Pass: Test10F pass for front camera video recording
+2023-01-06 18:41:15 INFO   UMIDIGI_A11S.Test10F rearVideoRec Launch file manager application and verify recorded video capture uSD Card
+2023-01-06 18:41:32 INFO   UMIDIGI_A11S.Test10F rearVideoRec Swipe up to select uSD card
+2023-01-06 18:41:34 INFO   UMIDIGI_A11S.Test10F rearVideoRec Select SD card
+2023-01-06 18:41:41 INFO   UMIDIGI_A11S.Test10F rearVideoRec switch to grid view mode to select DCIM folder
+2023-01-06 18:41:44 INFO   UMIDIGI_A11S.Test10F rearVideoRec Select DCIM folder
+2023-01-06 18:41:47 INFO   UMIDIGI_A11S.Test10F rearVideoRec Select camera folder
+2023-01-06 18:41:50 INFO   UMIDIGI_A11S.Test10F rearVideoRec switch to list view mode 
+2023-01-06 18:41:53 INFO   UMIDIGI_A11S.Test10F rearVideoRec Click More options
+2023-01-06 18:42:00 INFO   UMIDIGI_A11S.Test10F rearVideoRec Click Select all
+2023-01-06 18:42:09 INFO   UMIDIGI_A11S.Test10F rearVideoRec Test10F_Fcam_video: 3 Videos captured successfull
+2023-01-06 18:42:09 INFO   UMIDIGI_A11S.Test10F rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-06 18:42:09 INFO   UMIDIGI_A11S.Test10F rearVideoRec Calling VideoPlayBackForSleepWake()
+2023-01-06 18:42:15 INFO   UMIDIGI_A11S.Test10F VideoPlayBackForSleepWake Launching file manager application
+2023-01-06 18:42:16 INFO   UMIDIGI_A11S.Test10F VideoPlayBackForSleepWake Swipe up to select uSD card
+2023-01-06 18:42:20 INFO   UMIDIGI_A11S.Test10F VideoPlayBackForSleepWake Select SD card
+2023-01-06 18:42:26 INFO   UMIDIGI_A11S.Test10F VideoPlayBackForSleepWake switch to grid view mode to select DCIM folder
+2023-01-06 18:42:29 INFO   UMIDIGI_A11S.Test10F VideoPlayBackForSleepWake Select DCIM folder
+2023-01-06 18:42:32 INFO   UMIDIGI_A11S.Test10F VideoPlayBackForSleepWake Select Camera folder
+2023-01-06 18:42:35 INFO   UMIDIGI_A11S.Test10F VideoPlayBackForSleepWake switch to list view mode 
+2023-01-06 18:42:38 INFO   UMIDIGI_A11S.Test10F VideoPlayBackForSleepWake Select more options
+2023-01-06 18:42:44 INFO   UMIDIGI_A11S.Test10F VideoPlayBackForSleepWake Select Sort By option
+2023-01-06 18:42:48 INFO   UMIDIGI_A11S.Test10F VideoPlayBackForSleepWake Select Sort by Newest date first
+2023-01-06 18:42:51 INFO   UMIDIGI_A11S.Test10F VideoPlayBackForSleepWake Click on first file to play highest recorded resolution video file
+2023-01-06 18:42:51 INFO   UMIDIGI_A11S.Test10F VideoPlayBackForSleepWake Started video playback
+2023-01-06 18:43:11 INFO   UMIDIGI_A11S.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-01-06 18:43:11 INFO   UMIDIGI_A11S.Test10F VideoPlayBackForSleepWake Click pause video button
+2023-01-06 18:43:15 INFO   UMIDIGI_A11S.Test10F VideoPlayBackForSleepWake Lock Mobile with 30 seconds delay
+2023-01-06 18:45:15 INFO   UMIDIGI_A11S.Test10F VideoPlayBackForSleepWake Wait For 30Seconds
+2023-01-06 18:45:20 INFO   UMIDIGI_A11S.Test10F VideoPlayBackForSleepWake Unlock Mobile 
+2023-01-06 18:45:20 INFO   UMIDIGI_A11S.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-01-06 18:45:21 INFO   UMIDIGI_A11S.Test10F VideoPlayBackForSleepWake Click pause video button
+2023-01-06 18:45:54 INFO   UMIDIGI_A11S.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-01-06 18:45:54 INFO   UMIDIGI_A11S.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-01-06 18:45:54 INFO   UMIDIGI_A11S.Test10F VideoPlayBackForSleepWake Click pause video button
+2023-01-06 18:46:05 INFO   UMIDIGI_A11S.Test10F VideoPlayBackForSleepWake Pass: Test10F Pass for Front video play back, Pause,Lock and Unlock Phone Play back from Pause duration Scenario
+2023-01-06 18:46:05 INFO   UMIDIGI_A11S.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-06 18:46:05 INFO   UMIDIGI_A11S.Test10F VideoPlayBackForSleepWake calling DatamoveOperation() to move front camera recorded videos files to Test10F folder
+2023-01-06 18:46:05 INFO   UMIDIGI_A11S.Test10F DataMoveOperation Launch home screen
+2023-01-06 18:46:11 INFO   UMIDIGI_A11S.Test10F DataMoveOperation launch file manager application select uSD card-->DCIM folder-->Camera folder-->Select all back camera front camera videos create Test10 and cut paste all videos in BCFC_Cameravideos folder
+2023-01-06 18:46:17 INFO   UMIDIGI_A11S.Test10F DataMoveOperation Swipe up to select uSD card
+2023-01-06 18:46:20 INFO   UMIDIGI_A11S.Test10F DataMoveOperation Select SD card
+2023-01-06 18:46:26 INFO   UMIDIGI_A11S.Test10F DataMoveOperation Select DCIM folder
+2023-01-06 18:46:29 INFO   UMIDIGI_A11S.Test10F DataMoveOperation Select camera folder
+2023-01-06 18:46:32 INFO   UMIDIGI_A11S.Test10F DataMoveOperation Click More options
+2023-01-06 18:46:38 INFO   UMIDIGI_A11S.Test10F DataMoveOperation Click Select all
+2023-01-06 18:46:42 INFO   UMIDIGI_A11S.Test10F DataMoveOperation Click More options
+2023-01-06 18:46:48 INFO   UMIDIGI_A11S.Test10F DataMoveOperation Select move to option
+2023-01-06 18:46:55 INFO   UMIDIGI_A11S.Test10F DataMoveOperation Select uSD Card
+2023-01-06 18:47:01 INFO   UMIDIGI_A11S.Test10F DataMoveOperation Select ADD NEW Folder option
+2023-01-06 18:47:08 INFO   UMIDIGI_A11S.Test10F DataMoveOperation Name folder as Test10F
+2023-01-06 18:47:15 INFO   UMIDIGI_A11S.Test10F DataMoveOperation Accept create folder
+2023-01-06 18:49:16 INFO   UMIDIGI_A11S.Test10F DataMoveOperation Cut paste  video files operation completed successfully
+2023-01-06 18:49:19 INFO   UMIDIGI_A11S.Test10F DataMoveOperation Pass: Test10F Pass for data move operation successfully
+2023-01-06 18:49:19 INFO   UMIDIGI_A11S.Test10F DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-06 18:49:19 INFO   UMIDIGI_A11S.Test10F VideoPlayBackForSleepWake Final Message: Pass Test10F Pass for front camera  video recording, Pause Video Playback scenario and data move operation scenario

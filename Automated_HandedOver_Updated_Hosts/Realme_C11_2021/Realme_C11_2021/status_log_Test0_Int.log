@@ -1,0 +1,144 @@
+2023-01-30 17:52:28 INFO   Realme_C11_2021.Test0_Int start Test: Start
+2023-01-30 17:52:28 INFO   Realme_C11_2021.Test0_Int start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-30 17:52:28 INFO   Realme_C11_2021.Test0_Int start  Test0_Int Scenario is as follows  
+2023-01-30 17:52:28 INFO   Realme_C11_2021.Test0_Int start 1.Unlock phone, clear recent apps,Format uSD as Internal mount and Clear internal mount memory
+2023-01-30 17:52:28 INFO   Realme_C11_2021.Test0_Int start 2.Call Image() and Capture Rear camera 25 images with default resolution in internal mount uSD card and Verify the data capture
+2023-01-30 17:52:28 INFO   Realme_C11_2021.Test0_Int start 3.Call Video() and record Rear camera video of first 2 resloutions for 2 minutes of duration in internal mount uSD Card and verify the same
+2023-01-30 17:52:28 INFO   Realme_C11_2021.Test0_Int start 4.Call Format() Format uSD as External mount,Format back to internal mount, Verify with data format status.
+2023-01-30 17:52:28 INFO   Realme_C11_2021.Test0_Int start Setting up the appium desired capabilities
+2023-01-30 17:52:28 INFO   Realme_C11_2021.Test0_Int start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-30 17:52:41 INFO   Realme_C11_2021.Test0_Int start Clearing Recent Apps
+2023-01-30 17:53:02 INFO   Realme_C11_2021.Test0_Int start Pass: No recent apps found
+2023-01-30 17:53:06 INFO   Realme_C11_2021.Test0_Int start Calling FormatAsInternal() to format the Card Internal Mount
+2023-01-30 17:53:06 INFO   Realme_C11_2021.Test0_Int FormatAsInternal Formatting uSD card as Internal mount
+2023-01-30 17:53:06 INFO   Realme_C11_2021.Test0_Int FormatAsInternal Launch Settings Application
+2023-01-30 17:53:13 INFO   Realme_C11_2021.Test0_Int FormatAsInternal Swipe Up and Search for Storage
+2023-01-30 17:53:23 INFO   Realme_C11_2021.Test0_Int FormatAsInternal Select Storage
+2023-01-30 17:53:29 INFO   Realme_C11_2021.Test0_Int FormatAsInternal Clicking on more options
+2023-01-30 17:53:34 INFO   Realme_C11_2021.Test0_Int FormatAsInternal Select storage settings
+2023-01-30 17:53:45 INFO   Realme_C11_2021.Test0_Int FormatAsInternal Select format as Internal option
+2023-01-30 17:54:45 INFO   Realme_C11_2021.Test0_Int FormatAsInternal Accept move content  pop-up
+2023-01-30 17:55:46 INFO   Realme_C11_2021.Test0_Int FormatAsInternal click on done
+2023-01-30 17:55:50 INFO   Realme_C11_2021.Test0_Int FormatAsInternal Pass: Format as Internal Mount scenario completed Successfull
+2023-01-30 17:55:57 INFO   Realme_C11_2021.Test0_Int start Launch File Manager Application and clear internal memory
+2023-01-30 17:56:20 INFO   Realme_C11_2021.Test0_Int start Select  Internal storage
+2023-01-30 17:56:25 INFO   Realme_C11_2021.Test0_Int start Select  More options
+2023-01-30 17:56:28 INFO   Realme_C11_2021.Test0_Int start click on Select all
+2023-01-30 17:56:37 INFO   Realme_C11_2021.Test0_Int start Select Delete permanently
+2023-01-30 17:56:47 INFO   Realme_C11_2021.Test0_Int start Select  More options
+2023-01-30 17:56:52 INFO   Realme_C11_2021.Test0_Int start Select Delete permanently
+2023-01-30 17:56:58 INFO   Realme_C11_2021.Test0_Int start Select  Delete
+2023-01-30 17:58:58 INFO   Realme_C11_2021.Test0_Int start Pass: Clearing phone internal memory is successfull
+2023-01-30 17:58:58 INFO   Realme_C11_2021.Test0_Int start Calling Image() to capture rear camera image in uSD card and verifying the same.
+2023-01-30 17:58:58 INFO   Realme_C11_2021.Test0_Int start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-30 17:59:10 INFO   Realme_C11_2021.Test0_Int Images Clearing Recent Apps
+2023-01-30 17:59:21 INFO   Realme_C11_2021.Test0_Int Images Pass: Test0 Pass for clearing Recent apps 
+2023-01-30 17:59:25 INFO   Realme_C11_2021.Test0_Int Images Launch Camera Application for Rear picture capture
+2023-01-30 17:59:32 INFO   Realme_C11_2021.Test0_Int Images Permission request
+2023-01-30 17:59:47 INFO   Realme_C11_2021.Test0_Int Images Allow Camera to access this device�s location?
+2023-01-30 18:00:02 INFO   Realme_C11_2021.Test0_Int Images Capture Image of Default Resolution
+2023-01-30 18:00:09 INFO   Realme_C11_2021.Test0_Int Images Captureing default resolution image 0
+2023-01-30 18:00:16 INFO   Realme_C11_2021.Test0_Int Images Captureing default resolution image 1
+2023-01-30 18:00:24 INFO   Realme_C11_2021.Test0_Int Images Captureing default resolution image 2
+2023-01-30 18:00:31 INFO   Realme_C11_2021.Test0_Int Images Captureing default resolution image 3
+2023-01-30 18:00:38 INFO   Realme_C11_2021.Test0_Int Images Captureing default resolution image 4
+2023-01-30 18:00:45 INFO   Realme_C11_2021.Test0_Int Images Captureing default resolution image 5
+2023-01-30 18:00:52 INFO   Realme_C11_2021.Test0_Int Images Captureing default resolution image 6
+2023-01-30 18:01:00 INFO   Realme_C11_2021.Test0_Int Images Captureing default resolution image 7
+2023-01-30 18:01:07 INFO   Realme_C11_2021.Test0_Int Images Captureing default resolution image 8
+2023-01-30 18:01:14 INFO   Realme_C11_2021.Test0_Int Images Captureing default resolution image 9
+2023-01-30 18:01:21 INFO   Realme_C11_2021.Test0_Int Images Captureing default resolution image 10
+2023-01-30 18:01:29 INFO   Realme_C11_2021.Test0_Int Images Captureing default resolution image 11
+2023-01-30 18:01:36 INFO   Realme_C11_2021.Test0_Int Images Captureing default resolution image 12
+2023-01-30 18:01:43 INFO   Realme_C11_2021.Test0_Int Images Captureing default resolution image 13
+2023-01-30 18:01:50 INFO   Realme_C11_2021.Test0_Int Images Captureing default resolution image 14
+2023-01-30 18:01:58 INFO   Realme_C11_2021.Test0_Int Images Captureing default resolution image 15
+2023-01-30 18:02:05 INFO   Realme_C11_2021.Test0_Int Images Captureing default resolution image 16
+2023-01-30 18:02:12 INFO   Realme_C11_2021.Test0_Int Images Captureing default resolution image 17
+2023-01-30 18:02:19 INFO   Realme_C11_2021.Test0_Int Images Captureing default resolution image 18
+2023-01-30 18:02:26 INFO   Realme_C11_2021.Test0_Int Images Captureing default resolution image 19
+2023-01-30 18:02:34 INFO   Realme_C11_2021.Test0_Int Images Captureing default resolution image 20
+2023-01-30 18:02:41 INFO   Realme_C11_2021.Test0_Int Images Captureing default resolution image 21
+2023-01-30 18:02:48 INFO   Realme_C11_2021.Test0_Int Images Captureing default resolution image 22
+2023-01-30 18:02:55 INFO   Realme_C11_2021.Test0_Int Images Captureing default resolution image 23
+2023-01-30 18:03:03 INFO   Realme_C11_2021.Test0_Int Images Captureing default resolution image 24
+2023-01-30 18:03:07 INFO   Realme_C11_2021.Test0_Int Images Pass:Total Number Of Image captured 25 is successfull
+2023-01-30 18:03:07 INFO   Realme_C11_2021.Test0_Int Images ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-30 18:03:07 INFO   Realme_C11_2021.Test0_Int Images Launch File Manager application to verify  Image capture
+2023-01-30 18:03:13 INFO   Realme_C11_2021.Test0_Int Images Select browse
+2023-01-30 18:03:17 INFO   Realme_C11_2021.Test0_Int Images swipe and search for Internal storage
+2023-01-30 18:03:26 INFO   Realme_C11_2021.Test0_Int Images Select Internal storage
+2023-01-30 18:03:31 INFO   Realme_C11_2021.Test0_Int Images Select DCIM Folder
+2023-01-30 18:03:36 INFO   Realme_C11_2021.Test0_Int Images Select Camera Folder
+2023-01-30 18:03:41 INFO   Realme_C11_2021.Test0_Int Images Select more
+2023-01-30 18:03:46 INFO   Realme_C11_2021.Test0_Int Images click on Select 
+2023-01-30 18:03:57 INFO   Realme_C11_2021.Test0_Int Images Pass:Total Number Of Image captured 25 is successfull
+2023-01-30 18:03:57 INFO   Realme_C11_2021.Test0_Int Images Calling video() for rear video recording in USD card and verifying data capture.
+2023-01-30 18:03:57 INFO   Realme_C11_2021.Test0_Int Images ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-30 18:04:12 INFO   Realme_C11_2021.Test0_Int Video Launch Camera Application
+2023-01-30 18:04:13 INFO   Realme_C11_2021.Test0_Int Video Permission request
+2023-01-30 18:04:29 INFO   Realme_C11_2021.Test0_Int Video Allow Camera to access this device�s location?
+2023-01-30 18:04:44 INFO   Realme_C11_2021.Test0_Int Video Clicking Video Tab
+2023-01-30 18:04:49 INFO   Realme_C11_2021.Test0_Int Video Select settings option
+2023-01-30 18:04:54 INFO   Realme_C11_2021.Test0_Int Video Select VideoResolution
+2023-01-30 18:04:57 INFO   Realme_C11_2021.Test0_Int Video Select 1st rear Video Resolution:HD 1080p
+2023-01-30 18:05:05 INFO   Realme_C11_2021.Test0_Int Video Start video recording
+2023-01-30 18:07:05 INFO   Realme_C11_2021.Test0_Int Video Recording Video for 2Minutes of Duration
+2023-01-30 18:07:05 INFO   Realme_C11_2021.Test0_Int Video Stop video recording
+2023-01-30 18:07:11 INFO   Realme_C11_2021.Test0_Int Video Select settings option
+2023-01-30 18:07:16 INFO   Realme_C11_2021.Test0_Int Video Select VideoResolution
+2023-01-30 18:07:19 INFO   Realme_C11_2021.Test0_Int Video Select 2nd rear Video Resolution:HD 720P
+2023-01-30 18:07:26 INFO   Realme_C11_2021.Test0_Int Video Start video recording
+2023-01-30 18:09:26 INFO   Realme_C11_2021.Test0_Int Video Recording Video for 2Minutes of Duration
+2023-01-30 18:09:26 INFO   Realme_C11_2021.Test0_Int Video Stop video recording
+2023-01-30 18:09:30 INFO   Realme_C11_2021.Test0_Int Video select photo mode
+2023-01-30 18:09:40 INFO   Realme_C11_2021.Test0_Int Video Pass: Rear camera video recording is successfull
+2023-01-30 18:09:40 INFO   Realme_C11_2021.Test0_Int Video ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-30 18:09:40 INFO   Realme_C11_2021.Test0_Int Video Verifying Captured Videos
+2023-01-30 18:09:40 INFO   Realme_C11_2021.Test0_Int Video Launch Home screen and Clear recent Apps
+2023-01-30 18:09:40 INFO   Realme_C11_2021.Test0_Int Video Launch File Manager Application to verify captured videos
+2023-01-30 18:09:47 INFO   Realme_C11_2021.Test0_Int Video Click On browse
+2023-01-30 18:09:50 INFO   Realme_C11_2021.Test0_Int Video swipe and search for internal storage
+2023-01-30 18:09:58 INFO   Realme_C11_2021.Test0_Int Video Click On internal storage
+2023-01-30 18:10:03 INFO   Realme_C11_2021.Test0_Int Video Select DCIM Folder
+2023-01-30 18:10:08 INFO   Realme_C11_2021.Test0_Int Video Select Camera Folder
+2023-01-30 18:10:13 INFO   Realme_C11_2021.Test0_Int Video Select moreoptions
+2023-01-30 18:10:40 INFO   Realme_C11_2021.Test0_Int Video Pass: 2 Videos recorded Successfully
+2023-01-30 18:10:40 INFO   Realme_C11_2021.Test0_Int Video Pass: A total of 27 files present in uSD card before Format
+2023-01-30 18:10:40 INFO   Realme_C11_2021.Test0_Int Video calling FormatAsExternal() for format with data scenario
+2023-01-30 18:10:40 INFO   Realme_C11_2021.Test0_Int Video ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-30 18:10:40 INFO   Realme_C11_2021.Test0_Int FormatAsExternal Formatting Phone as External MOunt
+2023-01-30 18:10:40 INFO   Realme_C11_2021.Test0_Int FormatAsExternal Launch Settings Application
+2023-01-30 18:10:47 INFO   Realme_C11_2021.Test0_Int FormatAsExternal Swipe Up and Search for Storage
+2023-01-30 18:10:52 INFO   Realme_C11_2021.Test0_Int FormatAsExternal Select Storage
+2023-01-30 18:10:57 INFO   Realme_C11_2021.Test0_Int FormatAsExternal Clicking on sd card
+2023-01-30 18:11:02 INFO   Realme_C11_2021.Test0_Int FormatAsExternal Clicking on more options
+2023-01-30 18:11:07 INFO   Realme_C11_2021.Test0_Int FormatAsExternal Select Format as portable option
+2023-01-30 18:12:14 INFO   Realme_C11_2021.Test0_Int FormatAsExternal Fomratting Phone as External mount
+2023-01-30 18:14:14 INFO   Realme_C11_2021.Test0_Int FormatAsExternal Pass: Fomrat as External Mount is successfull
+2023-01-30 18:14:22 INFO   Realme_C11_2021.Test0_Int Video ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-30 18:14:22 INFO   Realme_C11_2021.Test0_Int Video calling FormatAsInternal() for format with data scenario
+2023-01-30 18:14:22 INFO   Realme_C11_2021.Test0_Int FormatASInternal Formatting uSD card as internal mount
+2023-01-30 18:14:22 INFO   Realme_C11_2021.Test0_Int FormatASInternal Launch Settings Application
+2023-01-30 18:14:28 INFO   Realme_C11_2021.Test0_Int FormatASInternal Swipe Up and Search for Storage
+2023-01-30 18:14:33 INFO   Realme_C11_2021.Test0_Int FormatASInternal Select Storage
+2023-01-30 18:14:38 INFO   Realme_C11_2021.Test0_Int FormatASInternal Clicking on sdcard
+2023-01-30 18:14:44 INFO   Realme_C11_2021.Test0_Int FormatASInternal Clicking on more options
+2023-01-30 18:14:49 INFO   Realme_C11_2021.Test0_Int FormatASInternal Select storage settings
+2023-01-30 18:14:55 INFO   Realme_C11_2021.Test0_Int FormatASInternal Fomrat Phone as Internal mount
+2023-01-30 18:15:00 INFO   Realme_C11_2021.Test0_Int FormatASInternal Accept format SD Card pop-up
+2023-01-30 18:17:00 INFO   Realme_C11_2021.Test0_Int FormatASInternal click on movecontent
+2023-01-30 18:18:00 INFO   Realme_C11_2021.Test0_Int FormatASInternal click on done
+2023-01-30 18:18:05 INFO   Realme_C11_2021.Test0_Int FormatASInternal Pass:Format as Internal Mount completed Successfull
+2023-01-30 18:18:12 INFO   Realme_C11_2021.Test0_Int FormatASInternal ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-30 18:18:12 INFO   Realme_C11_2021.Test0_Int FormatASInternal Clearing Recent Apps
+2023-01-30 18:18:30 INFO   Realme_C11_2021.Test0_Int FormatASInternal Pass: Test0 Pass for clearing Recent apps 
+2023-01-30 18:18:34 INFO   Realme_C11_2021.Test0_Int FormatASInternal Launch File Manager Application
+2023-01-30 18:18:46 INFO   Realme_C11_2021.Test0_Int FormatASInternal select browse option
+2023-01-30 18:18:51 INFO   Realme_C11_2021.Test0_Int FormatASInternal swipe and search for internal storage
+2023-01-30 18:18:58 INFO   Realme_C11_2021.Test0_Int FormatASInternal Click On internal storage
+2023-01-30 18:19:18 INFO   Realme_C11_2021.Test0_Int FormatASInternal Click on DCIM Folder
+2023-01-30 18:19:28 INFO   Realme_C11_2021.Test0_Int FormatASInternal Pass:Images and videos are not present in the DCIM folder, CARD format is successfully completed 
+2023-01-30 18:19:28 INFO   Realme_C11_2021.Test0_Int FormatASInternal Final Message: Pass Test0_Int Pass for format Operation
+2023-01-30 18:19:28 INFO   Realme_C11_2021.Test0_Int FormatASInternal Test: End
+2023-01-30 18:19:28 INFO   Realme_C11_2021.Test0_Int FormatASInternal ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

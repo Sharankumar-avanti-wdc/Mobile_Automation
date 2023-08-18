@@ -1,0 +1,1221 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< Com.BLU_C5L_Max.test:BLU_C5L_Max >------------------
+[INFO] Building BLU_C5L_Max 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ BLU_C5L_Max ---
+[INFO] Deleting C:\Users\sandisk\Android11\BLU_C5L_Max\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ BLU_C5L_Max ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ BLU_C5L_Max ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ BLU_C5L_Max ---
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ BLU_C5L_Max ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 16 source files to C:\Users\sandisk\Android11\BLU_C5L_Max\target\test-classes
+[WARNING] /C:/Users/sandisk/Android11/BLU_C5L_Max/src/test/java/BLU_C5L_Max/Test10.java: Some input files use or override a deprecated API.
+[WARNING] /C:/Users/sandisk/Android11/BLU_C5L_Max/src/test/java/BLU_C5L_Max/Test10.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ BLU_C5L_Max ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running TestSuite
+Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+ Test0 Scenario is as follows 
+Unlock phone, clear recent apps, clear internal memory
+Call Image() and Capture Rear camera 25 images for default resolution in uSD card and Verify the data capture
+Call Video() and record Rear camera video of first 2 resloutions for 2 minutes of duration in uSD Card and verify the same
+Call Format() and format uSD card with data and verify the same
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch File Manager Application and clear internal memory
+Select  Internal storage
+Select More options
+click on Select all
+Select More options
+Select  Delete permanently
+Select  Delete
+Pass: Clearing phone internal memory is successfull
+Calling Image() to capture rear camera image in uSD card and verifying the same.
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch Camera Application for Rear picture capture
+Select settings option
+Search for Storage path option
+Capture Image of Default Resolution
+clicking Image of Default Resolutions0
+clicking Image of Default Resolutions1
+clicking Image of Default Resolutions2
+clicking Image of Default Resolutions3
+clicking Image of Default Resolutions4
+clicking Image of Default Resolutions5
+clicking Image of Default Resolutions6
+clicking Image of Default Resolutions7
+clicking Image of Default Resolutions8
+clicking Image of Default Resolutions9
+clicking Image of Default Resolutions10
+clicking Image of Default Resolutions11
+clicking Image of Default Resolutions12
+clicking Image of Default Resolutions13
+clicking Image of Default Resolutions14
+clicking Image of Default Resolutions15
+clicking Image of Default Resolutions16
+clicking Image of Default Resolutions17
+clicking Image of Default Resolutions18
+clicking Image of Default Resolutions19
+clicking Image of Default Resolutions20
+clicking Image of Default Resolutions21
+clicking Image of Default Resolutions22
+clicking Image of Default Resolutions23
+clicking Image of Default Resolutions24
+Pass:Total Number Of Image captured 25 is successfull
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch File Manager application to verify  Image capture
+Select browse option
+swipe up and search for sd card option
+Select  SD Card
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+Select camera folder
+switch to list view mode
+Select moreoptions
+Select select all option
+Check 25 images present or not
+Pass:Total Number Of Image captured 25 is successfull
+Calling video() for rear video recording in USD card and verifying data capture.
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch Camera Application
+Select settings option
+Search for Storage path option
+Select video tab
+Select 1st Back Video Resolution by default resolution
+Start video recording
+Recording Video for 2Minutes of Duration
+Stop video recording
+Select 2nd Back Video Resolution by default resolution
+Start video recording
+Recording Video for 2Minutes of Duration
+Stop video recording
+Select photo mode
+Pass: Rear camera video recording is successfull
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Verifying Captured Videos
+Launch Home screen and Clear recent Apps
+Launch File Manager Application to verify captured videos
+select Browse option
+swipe up and search for sd card option
+Click On SD Card
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+Select camera folder
+switch to list view mode
+Select moreoptions
+Select select all options
+check videos present or not
+Pass: 2 Videos recorded Successfully
+Pass: A total of 27 files present in uSD card before Format
+calling Format() for format with data scenario
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch Settings application for Format uSD card with Data 
+Swipe Up and Search for Storage
+Select Storage
+Clicking on SD card
+Clicking on moreoptions
+Select Storage settings
+Select  format
+Select again formatsdcard
+Accept to Format uSD Card
+Started formatting, waiting till it gets formatted
+Pass: Format uSD with Data is successfull
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch File Manager Application
+select browse option
+Swipe Up and Search for sdcard
+Click On SD Card
+Click on DCIM Folder
+Click on camera Folder
+Pass:Images and videos are not present in the DCIM folder, CARD format is successfully completed 
+Final Message: Pass Test0 pass for format Operation
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test3 Scenario is as follows
+ Unmount uSD Card and Format card for specified number of times
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Number of Unmount,mount and Format cycles = 1
+Launch Settings application for Format uSD card with Data 
+Swipe Up and Search for Storage
+Select Storage
+Clicking on SD card
+Clicking on moreoptions
+Select Storage settings
+Select EJECT
+Clicking on SD card
+Select MOUNT
+Clicking on SD card
+Clicking on moreoptions
+Select Storage settings
+Select  format
+Select again formatsdcard
+Accept to Format uSD Card
+Started formatting, waiting till it gets formatted
+Format uSD card cycle:01 completed succesfully
+Launch File Manager application to verify  Card is fully Formated or not
+Select SD card
+Select DCIM Folder
+Pass: Images and videos are not present in the DCIM folder, CARD format is successfully completed 
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Final Message: Pass Test3 Pass for mount,unmount & Formattig uSD Card and verify data format
+Test:End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test18 Scenario is as follows
+Pushing 1GB zip File to Host Internal Memory via server folder named as Test1 
+Extracting zip file in Host internal memory
+Copy Paste 1GB file (Test1) from host internal memory to uSD Card, Create a folder named Test2 in uSD Card, Copy paste 1GB Folder(Test1) From internal to external inside folder Test2 and Vice versa
+Create folder name(New_Scenario in External memory, select folder name(Test2) from internal memory and perform cut paste operation from internla to external memory
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Pushing zip file to host internal memory
+Push file is successfull
+Launching file manager application to extract zip and perform copy paste, cut paste operation from internal memory to external memory
+clcik on ok
+click on browse option
+swipe up and search for sd card
+Select Internal storage
+select Test1 folder from internal storage
+Unzip folder name test_file
+Extracting Push zip file as Folder named Test1
+Extracting Complete
+click on done
+Launching file manager application
+swipe up and search for internal storage
+Select Internal storage
+Select Test1 folder from internal storage
+Select more options
+Select Copy option
+Select External Storage
+Select Paste option for copy paste Test1 folder from Internal to external storage
+Copy paste 1GB folder from Internal to external storage is successfull
+swipe up and search for internal storage
+Select Internal storage
+Long Press and select and Test1 Folder
+Select more options
+Select Copy option
+Select External storage
+Creating folder name Test2 in uSD card
+Select create new folder option
+Name folder as Test2
+Copy paste Test1 folder inside Test2 folder
+Copy paste Test1 folder inside Test2 folder in uSD card completed successfully
+swipe up and search for sd card
+Select External Storage
+Select list view
+Long Press and select and Test2 Folder 
+Select Test2 folder and perform copy paste operation from external to internal memory
+Select more options
+Select Copy option
+Select Internal storage
+click on copy here
+Pass: Test18 Pass for Copy paste operation from internal memory to external memory and vice versa scenario completed successfully
+swipe up and search for internal storage
+Select Internal storage
+Long Press and select and Test2 Folder
+Creating Folder Name New_Scenario in External Storage and perform Cut paste operation from Internal to external storage
+Select move option
+Select External storage
+click on create folder and create  folder name New_Scenario in sd card
+Select Move to option
+Move to Test1 folder inside New_Scenario folder
+switch to list view mode
+Pass: Cut paste Operation Completed Successfully
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Final Message: Pass Test18 pass for copy paste & cut paste operation
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test8 scenario is as follows
+1.Launch mobile default voice recording application and set uSD card storage option, record audio file for 2 minutes duration
+2.Launch file manager application and playback recorded audio file from external storage, fast forward audio file and pause
+3.Launch file manager application and playback copied audio files from external storage the files are placed in the Test1 folder
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Clearing Recent Apps
+Pass: No recent apps found
+Launch Voice recorder application for Audio recording
+If application launch permission pop-up exists accept allow permission to launch application
+ No Launch permission Pop-up  found
+Select settings option
+Select Storage location
+Select uSD card
+Start Recording
+Stop Recording
+Pass: Test8 pass for recording an audio file
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch File Manager Application to verify recorded audio
+swipe up and search for sd card
+Select  SD Card
+Select list view
+Select Music Folder
+Select Voice recorder
+switch to list view mode
+Select More Options 
+Click On Select All Options
+Test8: 1 Audio file recorded  sucessfully
+Pass: Test8 pass for audio recording in uSD Card
+Calling PlayRecordedAudio() to play back recorded file
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch File Manager Application
+Select  SD Card
+Select list view
+Select Music Folder
+Select Voice recorder
+switch to list view mode
+Click Audio file for play back and fast forward
+Started Audio playback
+click on fastforward  10 seconds
+click on pause
+Pass: Test8 Pass for playing recorded Audio file
+Pass: Test8 Pass for playing, fast forward, and pause recorded audio file scenario
+Calling PlayCopiedAudioFile() for copied audio files from Test1 folder
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launching file manager application
+Select  SD Card
+Select test1
+Select testfile
+Select 1GB
+Select MP3Files
+Select Laahe.Mp3.mp3
+Started video playback
+Click fast forward button for 10 seconds audio forward
+Pause audio playback
+Pass: 1st Copied Audio play back and fast forward is successfull
+ select 11 Rob Thomas - Lonely No More.mp3
+Started audio playback
+Click fast forward button for 10 seconds audio forward
+Pause audio playback
+Pass: 2nd Copied Audio play back and fast forward is successfull
+select file_example_MP3_5MG.mp3
+Started audio playback
+Click fast forward button for 10 seconds audio forward
+Pause audio playback
+Pass: 3rd Copied Audio play back and fast forward is successfull
+Pass: Test8 Pass for Recorded and copied audio play back and fast forward scenario 
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Final Message: Pass Test8 Pass for Recorded and copied audio play back and fast forward scenario
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test10 Scenario is as follows
+1.Launch Camera application and start rear camera video recording for all host applicable resolutions in uSD Card
+2.Playback Highest resolution recorded video from USD Card, fast forward playback and pause video scenario 
+3.Playback copied videos from Test1 folder, fast forward and pause scenario
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Clearing Recent Apps
+Pass: No recent apps found
+Launch Camera Application for rear camera video recording
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test10_Bcam_res: 1 resolutions supported
+Select settings option
+Search for Storage path option
+Select video tab
+Select 1st Back Video Resolution by default
+recordingDurationRear = 580sec
+Start video recording
+Stop video recording
+Select photo mode
+Pass: Rear video recording is successfull
+Launch File Manager Application to verify captured videos
+Select  SD Card
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+Select camera folder
+switch to list view mode
+Select More Options 
+Click On Select All Options
+Test10_Bcam_video: 1 Videos captured successfully
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Calling RecordedVideoPlayback() for Playing Highest record video, fast forward video play back scenario
+Launch File Manager for playing highest resolution recorded video from USD, fast forward and pause scenario
+Select External storage
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+Select camera folder
+switch to list view mode
+Select more options and sort by largest file first
+Click on first file to play highest recorded resolution video file
+Tap Somewhere on Screen for contents to visible on Screen
+Fast forward video for 10 seconds
+Pass: Recorded Video play back and fast forward successfull 
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Calling DataMovementOperation() to move recorded rear camer videos to Test10 Folder 
+launch file manager application select uSD card-->DCIM folder-->Camera folder-->Select all rear camera videos create Test10 and cut paste all videos in Test10 folder
+click on browse option
+Swipe up to select uSD card
+Select SD card
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Click More options
+select move to option
+select uSD Card
+Select ADD NEW Folder option
+Name folder as Test10
+Accept create folder
+Cut paste  video files operation completed successfully
+Pass: Test10 Pass for data move operation successfully
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Calling copiedvideosPlayBack() for playing copied video file from Test1 folder
+Re-launch file manager application and select external storage for playing copied video files
+Select external storage
+switch to grid view mode to select Test1 folder
+Select Test1 folder
+Select TestFile folder
+Select OneGB folder
+Select video folder
+switch to list view mode
+Select LG_4K_DEMO_HDR_2018_(60FPS)_ELBA(480p).mp4 file for video playback
+Started video playback
+Tap Somewhere on Screen for contents to visible on Screen
+Click fast forward button for 10 seconds video forward
+click press back stop video
+Pass: 4K Video play back and fast forward is successful 
+Select FHD 5.1 ( 1350 X 2560 ).webm file for video playback
+Started video playback
+Tap Somewhere on Screen for contents to visible on Screen
+Click fast forward button for 10 seconds video forward
+click press back stop video
+Pass: FHD Video play back and fast forward is successful 
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Final Message: Pass Test10 Pass for Playing Copied Video files, recorded video file and fast forward video play back scenario 
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test:Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test10F Scenario is as follows
+Launch Camera application and start front camera video recording for all host applicable resolutions in uSD Card
+Playback front Highest recorded video from uSD card for 30 seconds, pause video playback, lock mobile and wait 30 seconds, unlock mobile and playback video from pause video duration
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Clearing Recent Apps
+Pass: No recent apps found
+Launch Camera Application for rear camera video recording
+Select settings option
+Search for Storage path option
+Test10F_Fcam_res: 1 resolutions supported
+Select video tab
+Click On front camera mode
+Select First front video resolution by default
+recordingDurationFront = 580sec
+Start video recording
+Stop video recording
+Click On back camera mode
+Select photo mode
+Pass: Test10F pass for front camera video recording
+Launch file manager application and verify recorded video capture uSD Card
+Swipe up to select uSD card
+Select SD card
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Test10F_Fcam_video: 1 videos captured successfully
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Calling VideoPlayBackForSleepWake()
+Launch File Manager application and playback front recorded video from USD for 30 seconds, pause video playback, locking phone and unlock after 30 seconds delay and playback video from pause duration.
+Select External Storage
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+Select camera folder
+switch to list view mode
+Select MoreOptions1
+Select Sort by
+Select Sort by Newest date first
+Click on first file to play highest recorded resolution video file
+Tap Somewhere on Screen for contents to visible on Screen
+Click pause video button
+Lock Mobile with 30 seconds delay
+Unlock Mobile
+Playback video from pause video duration
+Tap Somewhere on Screen for contents to visible on Screen
+Click pause video button
+Pass: Test10F Pass for Front video play back, Pause,Lock and Unlock Phone Play back from Pause duration Scenario
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+calling DatamoveOperation() to move front camera recorded videos files to Test10F folder
+launch file manager application select uSD card-->DCIM folder-->Camera folder-->Select all Front camera Videos create Test10F folder and cut paste all videos in Test10F folder
+click on browse option
+Swipe up to select uSD card
+Select SD card
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Click More options
+select move to option
+select uSD Card
+Select ADD NEW Folder option
+Name folder as Test10F
+Accept create folder
+Cut paste  video files operation completed successfully
+Pass: Test10F Pass for data move operation successfully
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Final Message: Pass Test10F Pass for front camera  video recording, Pause Video Playback scenario and data move operation scenario
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test9 Scenario is follows:
+Launch camera application, set USD as a Storage option, start rear camera Image capture for all host resolutions
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Clearing Recent Apps
+Pass: No recent apps found
+Launch Camera application for rear Picture capture for all host resolution
+Test9_Bcam_res: 1 resolutions supported
+Select settings option
+Search for Storage path option
+Select default camera resolution
+totalPictureCountRear = 300
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 0
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 1
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 2
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 3
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 4
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 5
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 6
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 7
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 8
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 9
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 10
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 11
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 12
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 13
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 14
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 15
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 16
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 17
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 18
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 19
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 20
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 21
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 22
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 23
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 24
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 25
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 26
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 27
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 28
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 29
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 30
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 31
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 32
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 33
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 34
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 35
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 36
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 37
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 38
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 39
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 40
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 41
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 42
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 43
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 44
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 45
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 46
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 47
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 48
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 49
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 50
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 51
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 52
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 53
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 54
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 55
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 56
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 57
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 58
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 59
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 60
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 61
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 62
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 63
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 64
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 65
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 66
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 67
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 68
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 69
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 70
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 71
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 72
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 73
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 74
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 75
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 76
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 77
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 78
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 79
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 80
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 81
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 82
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 83
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 84
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 85
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 86
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 87
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 88
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 89
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 90
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 91
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 92
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 93
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 94
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 95
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 96
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 97
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 98
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 99
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 100
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 101
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 102
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 103
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 104
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 105
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 106
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 107
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 108
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 109
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 110
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 111
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 112
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 113
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 114
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 115
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 116
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 117
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 118
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 119
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 120
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 121
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 122
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 123
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 124
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 125
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 126
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 127
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 128
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 129
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 130
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 131
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 132
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 133
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 134
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 135
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 136
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 137
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 138
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 139
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 140
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 141
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 142
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 143
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 144
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 145
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 146
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 147
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 148
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 149
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 150
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 151
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 152
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 153
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 154
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 155
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 156
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 157
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 158
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 159
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 160
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 161
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 162
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 163
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 164
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 165
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 166
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 167
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 168
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 169
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 170
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 171
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 172
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 173
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 174
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 175
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 176
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 177
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 178
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 179
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 180
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 181
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 182
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 183
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 184
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 185
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 186
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 187
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 188
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 189
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 190
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 191
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 192
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 193
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 194
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 195
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 196
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 197
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 198
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 199
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 200
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 201
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 202
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 203
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 204
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 205
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 206
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 207
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 208
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 209
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 210
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 211
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 212
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 213
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 214
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 215
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 216
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 217
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 218
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 219
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 220
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 221
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 222
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 223
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 224
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 225
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 226
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 227
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 228
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 229
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 230
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 231
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 232
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 233
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 234
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 235
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 236
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 237
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 238
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 239
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 240
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 241
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 242
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 243
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 244
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 245
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 246
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 247
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 248
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 249
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 250
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 251
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 252
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 253
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 254
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 255
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 256
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 257
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 258
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 259
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 260
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 261
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 262
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 263
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 264
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 265
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 266
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 267
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 268
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 269
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 270
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 271
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 272
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 273
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 274
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 275
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 276
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 277
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 278
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 279
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 280
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 281
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 282
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 283
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 284
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 285
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 286
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 287
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 288
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 289
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 290
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 291
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 292
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 293
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 294
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 295
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 296
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 297
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 298
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels: 299
+Rear camera first resolution:300 images Captured succesfull
+Total Count value: 300 images to be Captured 
+Launch file manager application and verify recorded video present in uSD Card
+Swipe up to select uSD card
+Select SD card
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Total Image
+Test9_Bcam_image: 300 selected images Captured succesfull
+Actual Value:300 selected
+Interger value:300
+Tolerance_Level = 75
+
+Pass: Test9 pass for rear Image capture
+Test9 Bcam_image: 300  images Captured succesfull
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+calling DataMoveOperation()
+Re-launch file manager application and select external storage for data move operation, select all rear camera images files present in camera folder and move to Test9 folder
+Select external storage
+switch to grid view mode and select DCIM folder
+Select DCIM folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Click More options
+select move to option
+select uSD Card
+Select ADD NEW Folder option
+Name folder as Test9
+Accept create folder
+Cut paste  operation completed successfully
+Test9: Data move operation completed successfully
+Pass: Test9 Pass for data move operation successfully
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Final Message: Pass Test9 Pass for Rear camera image capture  successfully
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test9F Scenario is as follows:
+Launch camera application, set uSD as a Storage option, start Front camera image picture capture for all Host front resolutions
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Clearing Recent Apps
+Pass: No recent apps found
+Launch Camera Application for Front camera picture Capture for all Host resolutions
+Test9F_Fcam_res: 1 resolutions supported
+Select settings option
+Search for Storage path option
+click on front camera
+Select default camera resolution
+totalPictureCountFront= 300
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 0
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 1
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 2
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 3
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 4
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 5
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 6
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 7
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 8
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 9
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 10
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 11
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 12
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 13
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 14
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 15
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 16
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 17
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 18
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 19
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 20
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 21
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 22
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 23
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 24
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 25
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 26
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 27
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 28
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 29
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 30
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 31
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 32
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 33
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 34
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 35
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 36
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 37
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 38
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 39
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 40
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 41
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 42
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 43
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 44
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 45
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 46
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 47
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 48
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 49
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 50
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 51
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 52
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 53
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 54
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 55
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 56
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 57
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 58
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 59
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 60
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 61
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 62
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 63
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 64
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 65
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 66
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 67
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 68
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 69
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 70
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 71
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 72
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 73
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 74
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 75
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 76
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 77
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 78
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 79
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 80
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 81
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 82
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 83
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 84
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 85
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 86
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 87
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 88
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 89
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 90
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 91
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 92
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 93
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 94
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 95
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 96
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 97
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 98
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 99
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 100
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 101
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 102
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 103
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 104
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 105
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 106
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 107
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 108
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 109
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 110
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 111
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 112
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 113
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 114
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 115
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 116
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 117
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 118
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 119
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 120
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 121
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 122
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 123
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 124
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 125
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 126
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 127
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 128
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 129
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 130
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 131
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 132
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 133
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 134
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 135
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 136
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 137
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 138
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 139
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 140
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 141
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 142
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 143
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 144
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 145
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 146
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 147
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 148
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 149
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 150
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 151
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 152
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 153
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 154
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 155
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 156
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 157
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 158
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 159
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 160
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 161
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 162
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 163
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 164
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 165
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 166
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 167
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 168
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 169
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 170
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 171
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 172
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 173
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 174
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 175
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 176
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 177
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 178
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 179
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 180
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 181
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 182
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 183
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 184
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 185
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 186
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 187
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 188
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 189
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 190
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 191
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 192
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 193
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 194
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 195
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 196
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 197
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 198
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 199
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 200
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 201
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 202
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 203
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 204
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 205
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 206
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 207
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 208
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 209
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 210
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 211
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 212
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 213
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 214
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 215
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 216
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 217
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 218
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 219
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 220
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 221
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 222
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 223
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 224
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 225
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 226
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 227
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 228
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 229
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 230
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 231
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 232
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 233
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 234
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 235
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 236
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 237
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 238
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 239
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 240
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 241
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 242
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 243
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 244
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 245
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 246
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 247
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 248
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 249
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 250
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 251
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 252
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 253
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 254
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 255
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 256
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 257
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 258
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 259
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 260
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 261
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 262
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 263
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 264
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 265
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 266
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 267
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 268
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 269
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 270
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 271
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 272
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 273
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 274
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 275
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 276
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 277
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 278
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 279
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 280
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 281
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 282
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 283
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 284
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 285
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 286
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 287
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 288
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 289
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 290
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 291
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 292
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 293
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 294
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 295
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 296
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 297
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 298
+clicking Image of 1st Resolutions (4:3) 8.0 megapixels : 299
+front camera first resolution:300 images Captured succesfull
+click on back camera
+Total Count value:300 images to be Captured 
+Launch file manager application and verify captured images present in uSD Card
+Swipe up to select uSD card
+Select SD card
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+Select camera folder
+switch to list view mode 
+Click More options
+Click select all
+Test9F_Fcam_image: 300 selected images Captured succesfull
+Tolerance_Level = 75
+
+Pass: Test9F pass for front Image capture
+Test9F Fcam_image: 300  images Captured succesfull
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+calling DataMoveOperation()
+launch file manager application select uSD card-->DCIM folder-->Camera folder-->Select all front camera images Test9F and cut paste all images in test9F folder
+click on browse option
+Swipe up to select uSD card
+Select SD card
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+Select camera folder
+switch to list view mode 
+Click More options
+Click select all
+Click More options
+select move to option
+select uSD Card
+Select ADD NEW Folder option
+Name folder as Test9F
+Accept create folder
+Cut paste  video files operation completed successfully
+Pass: Test9F Pass for data move operation successfully
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Final Message: Pass Test9F Pass for Front camera image capture  successfully
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10,355.417 s - in TestSuite
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ BLU_C5L_Max ---
+[INFO] Building jar: C:\Users\sandisk\Android11\BLU_C5L_Max\target\BLU_C5L_Max-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ BLU_C5L_Max ---
+[INFO] Installing C:\Users\sandisk\Android11\BLU_C5L_Max\target\BLU_C5L_Max-0.0.1-SNAPSHOT.jar to C:\Users\sandisk\.m2\repository\Com\BLU_C5L_Max\test\BLU_C5L_Max\0.0.1-SNAPSHOT\BLU_C5L_Max-0.0.1-SNAPSHOT.jar
+[INFO] Installing C:\Users\sandisk\Android11\BLU_C5L_Max\pom.xml to C:\Users\sandisk\.m2\repository\Com\BLU_C5L_Max\test\BLU_C5L_Max\0.0.1-SNAPSHOT\BLU_C5L_Max-0.0.1-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  02:52 h
+[INFO] Finished at: 2023-03-14T20:59:16+05:30
+[INFO] ------------------------------------------------------------------------

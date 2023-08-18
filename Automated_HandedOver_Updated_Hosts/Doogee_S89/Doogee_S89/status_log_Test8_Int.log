@@ -1,0 +1,60 @@
+2023-02-24 16:13:30 INFO   Doogee_S89.Test8_Int recordAudio Test: Start
+2023-02-24 16:13:30 INFO   Doogee_S89.Test8_Int recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-24 16:13:30 INFO   Doogee_S89.Test8_Int recordAudio Test8_Int scenario is as follows
+2023-02-24 16:13:30 INFO   Doogee_S89.Test8_Int recordAudio 1.Launch mobile default voice recording application and set  storage option, record audio file for 2 minutes duration
+2023-02-24 16:13:30 INFO   Doogee_S89.Test8_Int recordAudio 2.Launch file manager application and playback recorded audio file from internal storage, fast forward audio file and pause
+2023-02-24 16:13:30 INFO   Doogee_S89.Test8_Int recordAudio 3.Launch file manager application and playback copied audio files from internal storage the files are placed in the Test1 folder
+2023-02-24 16:13:30 INFO   Doogee_S89.Test8_Int recordAudio Setting up the appium desired capabilities
+2023-02-24 16:13:30 INFO   Doogee_S89.Test8_Int recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-24 16:13:43 INFO   Doogee_S89.Test8_Int recordAudio Clear Recent Apps
+2023-02-24 16:13:52 INFO   Doogee_S89.Test8_Int recordAudio Clearing Recent Apps
+2023-02-24 16:13:52 INFO   Doogee_S89.Test8_Int recordAudio Pass: No recent apps found
+2023-02-24 16:13:56 INFO   Doogee_S89.Test8_Int recordAudio Launch Voice recorder application for Audio recording
+2023-02-24 16:14:03 INFO   Doogee_S89.Test8_Int recordAudio Launch Voice recorder application for Audio recording
+2023-02-24 16:14:13 INFO   Doogee_S89.Test8_Int recordAudio Start Recording
+2023-02-24 16:16:13 INFO   Doogee_S89.Test8_Int recordAudio Stop Recording
+2023-02-24 16:17:06 INFO   Doogee_S89.Test8_Int recordAudio click on ok
+2023-02-24 16:17:28 INFO   Doogee_S89.Test8_Int recordAudio Pass: Test8_Int pass for recording  audio file
+2023-02-24 16:17:28 INFO   Doogee_S89.Test8_Int recordAudio Calling PlayRecordedAudio() for Audio play back and fast forward scenario
+2023-02-24 16:17:28 INFO   Doogee_S89.Test8_Int recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-24 16:17:45 INFO   Doogee_S89.Test8_Int PlayRecordedAudio Clearing Recent Apps
+2023-02-24 16:17:55 INFO   Doogee_S89.Test8_Int PlayRecordedAudio Pass: No recent apps found
+2023-02-24 16:17:59 INFO   Doogee_S89.Test8_Int PlayRecordedAudio Launch File Manager Application
+2023-02-24 16:18:13 INFO   Doogee_S89.Test8_Int PlayRecordedAudio Click On internal storage
+2023-02-24 16:18:19 INFO   Doogee_S89.Test8_Int PlayRecordedAudio Select gird view
+2023-02-24 16:18:27 INFO   Doogee_S89.Test8_Int PlayRecordedAudio Select recordings
+2023-02-24 16:18:30 INFO   Doogee_S89.Test8_Int PlayRecordedAudio switch to list view mode
+2023-02-24 16:18:33 INFO   Doogee_S89.Test8_Int PlayRecordedAudio Select mp3 audio-file
+2023-02-24 16:18:54 INFO   Doogee_S89.Test8_Int PlayRecordedAudio Select files by goggle
+2023-02-24 16:19:04 INFO   Doogee_S89.Test8_Int PlayRecordedAudio Fast Forwarding Audio for 10 Seconds
+2023-02-24 16:19:07 INFO   Doogee_S89.Test8_Int PlayRecordedAudio click on pause button
+2023-02-24 16:19:17 INFO   Doogee_S89.Test8_Int PlayRecordedAudio Pass: Test8_Int Pass for playing, fast forward, and pause recorded audio file scenario
+2023-02-24 16:19:17 INFO   Doogee_S89.Test8_Int PlayRecordedAudio Calling PlayCopiedAudioFile() for copied audio files from Test1 folder
+2023-02-24 16:19:17 INFO   Doogee_S89.Test8_Int PlayRecordedAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-24 16:19:22 INFO   Doogee_S89.Test8_Int PlayCopiedAudioFile Launch File Manager Application
+2023-02-24 16:19:28 INFO   Doogee_S89.Test8_Int PlayCopiedAudioFile Swipe up and select uSD card
+2023-02-24 16:19:36 INFO   Doogee_S89.Test8_Int PlayCopiedAudioFile Select  Internal storage
+2023-02-24 16:19:46 INFO   Doogee_S89.Test8_Int PlayCopiedAudioFile Select Test1 folder
+2023-02-24 16:19:52 INFO   Doogee_S89.Test8_Int PlayCopiedAudioFile Select Test_file folder
+2023-02-24 16:19:57 INFO   Doogee_S89.Test8_Int PlayCopiedAudioFile Select 1GB folder
+2023-02-24 16:20:00 INFO   Doogee_S89.Test8_Int PlayCopiedAudioFile Select MP3 files Folder
+2023-02-24 16:20:05 INFO   Doogee_S89.Test8_Int PlayCopiedAudioFile Playing first audio file from Test1 folder
+2023-02-24 16:20:45 INFO   Doogee_S89.Test8_Int PlayCopiedAudioFile Fast Forwarding Audio for 10 Seconds
+2023-02-24 16:20:56 INFO   Doogee_S89.Test8_Int PlayCopiedAudioFile Continue audio playback
+2023-02-24 16:21:06 INFO   Doogee_S89.Test8_Int PlayCopiedAudioFile Pause Audio
+2023-02-24 16:21:09 INFO   Doogee_S89.Test8_Int PlayCopiedAudioFile Pass: first audio file palyback and fast forward scenario is successfull
+2023-02-24 16:21:12 INFO   Doogee_S89.Test8_Int PlayCopiedAudioFile Playing second audio file from Test1 folder
+2023-02-24 16:21:52 INFO   Doogee_S89.Test8_Int PlayCopiedAudioFile Fast Forwarding Audio for 10 Seconds
+2023-02-24 16:22:03 INFO   Doogee_S89.Test8_Int PlayCopiedAudioFile Continue audio playback
+2023-02-24 16:22:13 INFO   Doogee_S89.Test8_Int PlayCopiedAudioFile Pause Audio
+2023-02-24 16:22:16 INFO   Doogee_S89.Test8_Int PlayCopiedAudioFile Pass: Seond audio file palyback and fast forward scenario is successfull
+2023-02-24 16:22:19 INFO   Doogee_S89.Test8_Int PlayCopiedAudioFile Playing third audio file from Test1 folder
+2023-02-24 16:22:59 INFO   Doogee_S89.Test8_Int PlayCopiedAudioFile Fast Forwarding Audio for 10 Seconds
+2023-02-24 16:23:10 INFO   Doogee_S89.Test8_Int PlayCopiedAudioFile Continue audio playback
+2023-02-24 16:23:20 INFO   Doogee_S89.Test8_Int PlayCopiedAudioFile Pause Audio
+2023-02-24 16:23:23 INFO   Doogee_S89.Test8_Int PlayCopiedAudioFile Pass: Third audio file palyback and fast forward scenario is successfull
+2023-02-24 16:23:23 INFO   Doogee_S89.Test8_Int PlayCopiedAudioFile Pass: Test8_Int Pass for Recorded and copied audio play back and fast forward scenario
+2023-02-24 16:23:23 INFO   Doogee_S89.Test8_Int PlayCopiedAudioFile ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-24 16:23:23 INFO   Doogee_S89.Test8_Int PlayCopiedAudioFile Final Message: Pass Test8_Int Pass for Recorded and copied audio play back and fast forward scenario
+2023-02-24 16:23:23 INFO   Doogee_S89.Test8_Int PlayCopiedAudioFile Test: End
+2023-02-24 16:23:23 INFO   Doogee_S89.Test8_Int PlayCopiedAudioFile ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

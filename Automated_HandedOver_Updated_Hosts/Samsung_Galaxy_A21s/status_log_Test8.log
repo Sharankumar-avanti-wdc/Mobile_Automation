@@ -1,0 +1,65 @@
+2023-01-16 20:15:20 INFO   Samsung_Galaxy_A21s.Test8 recordAudio Test: Start
+2023-01-16 20:15:20 INFO   Samsung_Galaxy_A21s.Test8 recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-16 20:15:20 INFO   Samsung_Galaxy_A21s.Test8 recordAudio Test8 scenario is as follows
+2023-01-16 20:15:20 INFO   Samsung_Galaxy_A21s.Test8 recordAudio 1.Launch mobile default voice recording application and set uSD card storage option, record audio file for 2 minutes duration
+2023-01-16 20:15:20 INFO   Samsung_Galaxy_A21s.Test8 recordAudio 2.Launch file manager application and playback recorded audio file from external storage, fast forward audio file and pause
+2023-01-16 20:15:20 INFO   Samsung_Galaxy_A21s.Test8 recordAudio 3.Launch file manager application and playback copied audio files from external storage the files are placed in the Test1 folder
+2023-01-16 20:15:20 INFO   Samsung_Galaxy_A21s.Test8 recordAudio Setting up the appium desired capabilities
+2023-01-16 20:15:20 INFO   Samsung_Galaxy_A21s.Test8 recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-16 20:15:28 INFO   Samsung_Galaxy_A21s.Test8 recordAudio Launch Home screen application and clear recent apps
+2023-01-16 20:15:46 INFO   Samsung_Galaxy_A21s.Test8 recordAudio Launch Voice recorder application for Audio recording
+2023-01-16 20:15:47 INFO   Samsung_Galaxy_A21s.Test8 recordAudio If application launch permission pop-up exists accept allow permission to launch application
+2023-01-16 20:16:03 INFO   Samsung_Galaxy_A21s.Test8 recordAudio  No Launch permission Pop-up  found
+2023-01-16 20:16:08 INFO   Samsung_Galaxy_A21s.Test8 recordAudio If save to uSD card pop-up exists select Save to SD card option
+2023-01-16 20:16:18 INFO   Samsung_Galaxy_A21s.Test8 recordAudio Select More options and Set uSD card as storage option
+2023-01-16 20:16:23 INFO   Samsung_Galaxy_A21s.Test8 recordAudio Select settings option
+2023-01-16 20:16:29 INFO   Samsung_Galaxy_A21s.Test8 recordAudio Select Storage location
+2023-01-16 20:16:34 INFO   Samsung_Galaxy_A21s.Test8 recordAudio Select uSD card
+2023-01-16 20:16:43 INFO   Samsung_Galaxy_A21s.Test8 recordAudio Start Recording
+2023-01-16 20:18:43 INFO   Samsung_Galaxy_A21s.Test8 recordAudio Stop Recording
+2023-01-16 20:19:30 INFO   Samsung_Galaxy_A21s.Test8 recordAudio Stop and Save Recording
+2023-01-16 20:19:37 INFO   Samsung_Galaxy_A21s.Test8 recordAudio Launch File Manager Application and select uSD card for playing recorded audio playback
+2023-01-16 20:19:43 INFO   Samsung_Galaxy_A21s.Test8 recordAudio select SD card
+2023-01-16 20:19:48 INFO   Samsung_Galaxy_A21s.Test8 recordAudio Switch Grid view mode from list view mode
+2023-01-16 20:19:58 INFO   Samsung_Galaxy_A21s.Test8 recordAudio Select Music Folder
+2023-01-16 20:20:09 INFO   Samsung_Galaxy_A21s.Test8 recordAudio Select Voice recorder
+2023-01-16 20:20:14 INFO   Samsung_Galaxy_A21s.Test8 recordAudio Select More Options 
+2023-01-16 20:20:24 INFO   Samsung_Galaxy_A21s.Test8 recordAudio Select edit option
+2023-01-16 20:20:31 INFO   Samsung_Galaxy_A21s.Test8 recordAudio Click On Select All Options
+2023-01-16 20:20:38 INFO   Samsung_Galaxy_A21s.Test8 recordAudio Switch list view mode 
+2023-01-16 20:20:48 INFO   Samsung_Galaxy_A21s.Test8 recordAudio Pass: Test8 pass for recording  audio file
+2023-01-16 20:20:48 INFO   Samsung_Galaxy_A21s.Test8 recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-16 20:20:48 INFO   Samsung_Galaxy_A21s.Test8 recordAudio Calling PlayRecordedAudio() for Audio play back and fast forward scenario
+2023-01-16 20:20:53 INFO   Samsung_Galaxy_A21s.Test8 PlayRecordedAudio Clearing Recent Apps
+2023-01-16 20:21:12 INFO   Samsung_Galaxy_A21s.Test8 PlayRecordedAudio Launch File Manager Application and select uSD card for playing recorded audio playback
+2023-01-16 20:21:18 INFO   Samsung_Galaxy_A21s.Test8 PlayRecordedAudio Click On SD Card
+2023-01-16 20:21:24 INFO   Samsung_Galaxy_A21s.Test8 PlayRecordedAudio Select Music Folder
+2023-01-16 20:21:34 INFO   Samsung_Galaxy_A21s.Test8 PlayRecordedAudio Select Voice recorder
+2023-01-16 20:21:39 INFO   Samsung_Galaxy_A21s.Test8 PlayRecordedAudio Click Audio file for play back and fast forward
+2023-01-16 20:22:10 INFO   Samsung_Galaxy_A21s.Test8 PlayRecordedAudio Playing recorded audio file from uSD card
+2023-01-16 20:22:29 INFO   Samsung_Galaxy_A21s.Test8 PlayRecordedAudio Pass: Test8 Pass for playing, fast forward, and pause recorded audio file scenario
+2023-01-16 20:22:29 INFO   Samsung_Galaxy_A21s.Test8 PlayRecordedAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-16 20:22:29 INFO   Samsung_Galaxy_A21s.Test8 PlayRecordedAudio Calling PlayCopiedAudioFile() for copied audio files from Test1 folder
+2023-01-16 20:22:34 INFO   Samsung_Galaxy_A21s.Test8 PlayCopiedAudioFile Clear Recent Apps
+2023-01-16 20:22:53 INFO   Samsung_Galaxy_A21s.Test8 PlayCopiedAudioFile Launch File Manager Application for playing copied audio files from uSD card
+2023-01-16 20:22:59 INFO   Samsung_Galaxy_A21s.Test8 PlayCopiedAudioFile Click On SD Card
+2023-01-16 20:23:04 INFO   Samsung_Galaxy_A21s.Test8 PlayCopiedAudioFile Clicking Test1 Folder from External storage
+2023-01-16 20:23:23 INFO   Samsung_Galaxy_A21s.Test8 PlayCopiedAudioFile click on 1 GB Folder
+2023-01-16 20:23:28 INFO   Samsung_Galaxy_A21s.Test8 PlayCopiedAudioFile Select MP3 files Folder
+2023-01-16 20:23:34 INFO   Samsung_Galaxy_A21s.Test8 PlayCopiedAudioFile select first mp3/audio file from uSD card(Test1-->MP3) for playback and fast forward scenario
+2023-01-16 20:24:17 INFO   Samsung_Galaxy_A21s.Test8 PlayCopiedAudioFile Fast Forwarding Video for 10 Seconds
+2023-01-16 20:24:17 INFO   Samsung_Galaxy_A21s.Test8 PlayCopiedAudioFile Pause Audio
+2023-01-16 20:24:20 INFO   Samsung_Galaxy_A21s.Test8 PlayCopiedAudioFile Pass: 1st Audio Play Back Successfull 
+2023-01-16 20:24:23 INFO   Samsung_Galaxy_A21s.Test8 PlayCopiedAudioFile select second audio/mp3 file from uSD card(Test1-->MP3) for playback and fast forward scenario
+2023-01-16 20:25:06 INFO   Samsung_Galaxy_A21s.Test8 PlayCopiedAudioFile Fast Forwarding Video for 10 Seconds
+2023-01-16 20:25:06 INFO   Samsung_Galaxy_A21s.Test8 PlayCopiedAudioFile Pause Audio
+2023-01-16 20:25:06 INFO   Samsung_Galaxy_A21s.Test8 PlayCopiedAudioFile Pass: 2nd Audio Play back succssfull
+2023-01-16 20:25:09 INFO   Samsung_Galaxy_A21s.Test8 PlayCopiedAudioFile select third audio/mp3 file from uSD card(Test1-->MP3) for playback and fast forward scenario
+2023-01-16 20:25:52 INFO   Samsung_Galaxy_A21s.Test8 PlayCopiedAudioFile Fast Forwarding Video for 10 Seconds
+2023-01-16 20:25:52 INFO   Samsung_Galaxy_A21s.Test8 PlayCopiedAudioFile Pause Audio
+2023-01-16 20:25:52 INFO   Samsung_Galaxy_A21s.Test8 PlayCopiedAudioFile Pass: 3rd Audio Play Back Successfull 
+2023-01-16 20:25:52 INFO   Samsung_Galaxy_A21s.Test8 PlayCopiedAudioFile Pass: Test8 Pass for Recorded and copied audio play back and fast forward scenario
+2023-01-16 20:25:52 INFO   Samsung_Galaxy_A21s.Test8 PlayCopiedAudioFile ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-16 20:25:52 INFO   Samsung_Galaxy_A21s.Test8 PlayCopiedAudioFile Final Message: Pass Test8 Pass for Recorded and copied audio play back and fast forward scenario
+2023-01-16 20:25:52 INFO   Samsung_Galaxy_A21s.Test8 PlayCopiedAudioFile Test: End
+2023-01-16 20:25:52 INFO   Samsung_Galaxy_A21s.Test8 PlayCopiedAudioFile ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

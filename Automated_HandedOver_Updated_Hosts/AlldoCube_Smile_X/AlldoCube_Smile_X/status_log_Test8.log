@@ -1,0 +1,63 @@
+2023-03-10 14:34:56 INFO   AlldoCube_Smile_X.Test8 recordAudio Test: Start
+2023-03-10 14:34:56 INFO   AlldoCube_Smile_X.Test8 recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-10 14:34:56 INFO   AlldoCube_Smile_X.Test8 recordAudio Test8 scenario is as follows
+2023-03-10 14:34:56 INFO   AlldoCube_Smile_X.Test8 recordAudio 1.Launch mobile default voice recording application and set  storage option, record audio file for 2 minutes duration
+2023-03-10 14:34:56 INFO   AlldoCube_Smile_X.Test8 recordAudio 2.Launch file manager application and playback recorded audio file from external storage, fast forward audio file and pause
+2023-03-10 14:34:56 INFO   AlldoCube_Smile_X.Test8 recordAudio 3.Launch file manager application and playback copied audio files from external storage the files are placed in the Test1 folder
+2023-03-10 14:34:56 INFO   AlldoCube_Smile_X.Test8 recordAudio Setting up the appium desired capabilities
+2023-03-10 14:34:56 INFO   AlldoCube_Smile_X.Test8 recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-10 14:35:03 INFO   AlldoCube_Smile_X.Test8 recordAudio Launch home screen
+2023-03-10 14:35:14 INFO   AlldoCube_Smile_X.Test8 recordAudio Clearing Recent Apps
+2023-03-10 14:35:23 INFO   AlldoCube_Smile_X.Test8 recordAudio Launch Voice recorder application for Audio recording
+2023-03-10 14:35:23 INFO   AlldoCube_Smile_X.Test8 recordAudio If application launch permission pop-up exists accept allow permission to launch application
+2023-03-10 14:35:38 INFO   AlldoCube_Smile_X.Test8 recordAudio  No Launch permission Pop-up  found
+2023-03-10 14:35:43 INFO   AlldoCube_Smile_X.Test8 recordAudio Select settings option
+2023-03-10 14:35:49 INFO   AlldoCube_Smile_X.Test8 recordAudio Select Save location option
+2023-03-10 14:35:55 INFO   AlldoCube_Smile_X.Test8 recordAudio Select SD card option
+2023-03-10 14:36:03 INFO   AlldoCube_Smile_X.Test8 recordAudio Start Recording
+2023-03-10 14:38:04 INFO   AlldoCube_Smile_X.Test8 recordAudio Stop Recording
+2023-03-10 14:38:39 INFO   AlldoCube_Smile_X.Test8 recordAudio Stop and Save Recording
+2023-03-10 14:38:46 INFO   AlldoCube_Smile_X.Test8 recordAudio Pass: Test8 pass for recording  audio file
+2023-03-10 14:38:46 INFO   AlldoCube_Smile_X.Test8 recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-10 14:38:46 INFO   AlldoCube_Smile_X.Test8 recordAudio Calling PlayRecordedAudio() for Audio play back and fast forward scenario
+2023-03-10 14:38:51 INFO   AlldoCube_Smile_X.Test8 PlayRecordedAudio Launch home screen and clear recent apps
+2023-03-10 14:39:06 INFO   AlldoCube_Smile_X.Test8 PlayRecordedAudio clearing Recent apps 
+2023-03-10 14:39:08 INFO   AlldoCube_Smile_X.Test8 PlayRecordedAudio Launch File Manager Application
+2023-03-10 14:39:17 INFO   AlldoCube_Smile_X.Test8 PlayRecordedAudio Launch File Manager Application
+2023-03-10 14:39:22 INFO   AlldoCube_Smile_X.Test8 PlayRecordedAudio Select Music Folder
+2023-03-10 14:39:27 INFO   AlldoCube_Smile_X.Test8 PlayRecordedAudio Select recordings Folder
+2023-03-10 14:39:31 INFO   AlldoCube_Smile_X.Test8 PlayRecordedAudio Click first audio file for audio playback and fast forward scenario
+2023-03-10 14:40:11 INFO   AlldoCube_Smile_X.Test8 PlayRecordedAudio Fast Forwarding Audio for 10 Seconds
+2023-03-10 14:40:22 INFO   AlldoCube_Smile_X.Test8 PlayRecordedAudio Continue audio playback
+2023-03-10 14:40:52 INFO   AlldoCube_Smile_X.Test8 PlayRecordedAudio Pause audio playback
+2023-03-10 14:41:02 INFO   AlldoCube_Smile_X.Test8 PlayRecordedAudio Pass: Test8 Pass for playing, fast forward, and pause recorded audio file scenario
+2023-03-10 14:41:02 INFO   AlldoCube_Smile_X.Test8 PlayRecordedAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-10 14:41:02 INFO   AlldoCube_Smile_X.Test8 PlayRecordedAudio Calling PlayCopiedAudioFile() for copied audio files from Test1 folder
+2023-03-10 14:41:07 INFO   AlldoCube_Smile_X.Test8 PlayCopiedAudioFile Launch home screen
+2023-03-10 14:41:18 INFO   AlldoCube_Smile_X.Test8 PlayCopiedAudioFile clearing Recent apps 
+2023-03-10 14:41:28 INFO   AlldoCube_Smile_X.Test8 PlayCopiedAudioFile Launch File Manager Application
+2023-03-10 14:41:37 INFO   AlldoCube_Smile_X.Test8 PlayCopiedAudioFile Select  SD card
+2023-03-10 14:41:51 INFO   AlldoCube_Smile_X.Test8 PlayCopiedAudioFile Select Test1 folder
+2023-03-10 14:42:01 INFO   AlldoCube_Smile_X.Test8 PlayCopiedAudioFile Select Test_file folder
+2023-03-10 14:42:06 INFO   AlldoCube_Smile_X.Test8 PlayCopiedAudioFile Select 1GB folder
+2023-03-10 14:42:09 INFO   AlldoCube_Smile_X.Test8 PlayCopiedAudioFile Select MP3 files Folder
+2023-03-10 14:42:14 INFO   AlldoCube_Smile_X.Test8 PlayCopiedAudioFile Playing first audio file from Test1 folder
+2023-03-10 14:42:55 INFO   AlldoCube_Smile_X.Test8 PlayCopiedAudioFile Fast Forwarding Audio for 10 Seconds
+2023-03-10 14:43:05 INFO   AlldoCube_Smile_X.Test8 PlayCopiedAudioFile Continue audio playback
+2023-03-10 14:43:15 INFO   AlldoCube_Smile_X.Test8 PlayCopiedAudioFile Pause Audio
+2023-03-10 14:43:19 INFO   AlldoCube_Smile_X.Test8 PlayCopiedAudioFile Pass: first audio file palyback and fast forward scenario is successfull
+2023-03-10 14:43:21 INFO   AlldoCube_Smile_X.Test8 PlayCopiedAudioFile Playing second audio file from Test1 folder
+2023-03-10 14:44:01 INFO   AlldoCube_Smile_X.Test8 PlayCopiedAudioFile Fast Forwarding Audio for 10 Seconds
+2023-03-10 14:44:12 INFO   AlldoCube_Smile_X.Test8 PlayCopiedAudioFile Continue audio playback
+2023-03-10 14:44:22 INFO   AlldoCube_Smile_X.Test8 PlayCopiedAudioFile Pause Audio
+2023-03-10 14:44:25 INFO   AlldoCube_Smile_X.Test8 PlayCopiedAudioFile Pass: Seond audio file palyback and fast forward scenario is successfull
+2023-03-10 14:44:28 INFO   AlldoCube_Smile_X.Test8 PlayCopiedAudioFile Playing third audio file from Test1 folder
+2023-03-10 14:45:08 INFO   AlldoCube_Smile_X.Test8 PlayCopiedAudioFile Fast Forwarding Audio for 10 Seconds
+2023-03-10 14:45:19 INFO   AlldoCube_Smile_X.Test8 PlayCopiedAudioFile Continue audio playback
+2023-03-10 14:45:29 INFO   AlldoCube_Smile_X.Test8 PlayCopiedAudioFile Pause Audio
+2023-03-10 14:45:32 INFO   AlldoCube_Smile_X.Test8 PlayCopiedAudioFile Pass: Third audio file palyback and fast forward scenario is successfull
+2023-03-10 14:45:32 INFO   AlldoCube_Smile_X.Test8 PlayCopiedAudioFile Pass: Test8 Pass for Recorded and copied audio play back and fast forward scenario
+2023-03-10 14:45:32 INFO   AlldoCube_Smile_X.Test8 PlayCopiedAudioFile ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-10 14:45:32 INFO   AlldoCube_Smile_X.Test8 PlayCopiedAudioFile Final Message: Pass Test8 Pass for Recorded and copied audio play back and fast forward scenario
+2023-03-10 14:45:32 INFO   AlldoCube_Smile_X.Test8 PlayCopiedAudioFile Test: End
+2023-03-10 14:45:32 INFO   AlldoCube_Smile_X.Test8 PlayCopiedAudioFile ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

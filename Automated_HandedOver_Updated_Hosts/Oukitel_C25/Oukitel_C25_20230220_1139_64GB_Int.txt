@@ -1,0 +1,1319 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------------< Com.Oukitel_C25.test:Oukitel_C25 >------------------
+[INFO] Building Oukitel_C25 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ Oukitel_C25 ---
+[INFO] Deleting C:\Users\sandisk\eclipse-workspace\Oukitel_C25\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Oukitel_C25 ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ Oukitel_C25 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ Oukitel_C25 ---
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ Oukitel_C25 ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 16 source files to C:\Users\sandisk\eclipse-workspace\Oukitel_C25\target\test-classes
+[WARNING] /C:/Users/sandisk/eclipse-workspace/Oukitel_C25/src/test/java/Oukitel_C25/Test18.java: Some input files use or override a deprecated API.
+[WARNING] /C:/Users/sandisk/eclipse-workspace/Oukitel_C25/src/test/java/Oukitel_C25/Test18.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ Oukitel_C25 ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running TestSuite
+Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test0_Int Scenario is as follows 
+1.Unlock phone, clear recent apps,Format uSD as Internal mount and Clear internal mount memory
+2.Call Image() and Capture Rear camera 25 images with default resolution in internal mount uSD card and Verify the data capture
+3.Call Video() and record Rear camera video of first 2 resloutions for 2 minutes of duration in internal mount uSD Card and verify the same
+4.Call Format() Format uSD as External mount,Format back to internal mount, Verify with data format status.
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch home screen
+Clearing Recent Apps
+Pass: No recent apps found
+Calling FormatAsInternal() to format uSD card as internal mount
+Formatting uSD as Internal mount
+Launch settings application
+Swipe up and select storage option
+Select Storage option
+Clicking on SD card
+Clicking on SD card
+Click more options
+select storage settings
+Select format as Internal options
+Accept Format SD card pop-up
+Accept move content  pop-up
+Pass: Format as Internal Mount scenario completed Successfull
+Launch File Manager Application and clear internal memory
+Select  Internal storage
+Select More options
+click on Select all
+Select  Delete permanently
+Select  Delete
+Pass: Clearing phone internal memory is successfull
+Calling Image() to capture rear camera image in Internal storage and verifying the same.
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch Camera Application for Rear picture capture
+While camera permissions
+While using the app
+START CAPTURE
+Capture Image of Default Resolution
+clicking Image of Default Resolutions0
+clicking Image of Default Resolutions1
+clicking Image of Default Resolutions2
+clicking Image of Default Resolutions3
+clicking Image of Default Resolutions4
+clicking Image of Default Resolutions5
+clicking Image of Default Resolutions6
+clicking Image of Default Resolutions7
+clicking Image of Default Resolutions8
+clicking Image of Default Resolutions9
+clicking Image of Default Resolutions10
+clicking Image of Default Resolutions11
+clicking Image of Default Resolutions12
+clicking Image of Default Resolutions13
+clicking Image of Default Resolutions14
+clicking Image of Default Resolutions15
+clicking Image of Default Resolutions16
+clicking Image of Default Resolutions17
+clicking Image of Default Resolutions18
+clicking Image of Default Resolutions19
+clicking Image of Default Resolutions20
+clicking Image of Default Resolutions21
+clicking Image of Default Resolutions22
+clicking Image of Default Resolutions23
+clicking Image of Default Resolutions24
+Pass:Total Number Of Image captured 25 is successfull
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch File Manager application to verify  Image capture
+Select browse option
+swipe up and search for Internal storage option
+Select  Internal storage
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+Select camera folder
+switch to list view mode
+Select moreoptions
+Select select all option
+Check 25 images present or not
+Pass:Total Number Of Image captured 25 is successfull
+Calling video() for rear video recording in USD card and verifying data capture.
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch Camera Application
+While camera permissions
+While using the app
+START CAPTURE
+Select video tab
+Select settings option
+Select Video size(Back camera)
+Select 1st Back Video Resolution: HD 1080p
+Start video recording
+Recording Video for 2Minutes of Duration
+Stop video recording
+Select settings option
+Select Video size(Back camera)
+Select 2nd Back Video Resolution:  HD 720p
+Start video recording
+Recording Video for 2Minutes of Duration
+Stop video recording
+Select photo mode
+Pass: Rear camera video recording is successfull
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch File Manager application to verify  Image capture
+Select Internal storage
+Select DCIM Folder
+Select Camera Folder
+Select More Options 
+Click On Select All Options
+Pass: 2 Videos recorded Successfully
+Pass: A total of 27 files present in Internal storage before Format
+calling FormatAsInternal() for format with data scenario
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Formatting uSD as External format
+Launch Settings Application
+Swipe Up and Search for Storage
+Select storage option
+Clicking on SD card
+Click more options
+Select Storage settings option
+Select Format as portable option
+Accept format pop-up
+Pass: Fomrat as External Mount is successfull
+Formatting uSD card as internal mount
+Launch settings application
+Swipe up and select storage option
+Clicking on SD card
+Clicking on SD card
+Click more options
+Select storage settings option
+Select Format as Internal option
+Accept format SD Card pop-up
+Accept move content pop-up
+Pass:Format as Internal Mount completed Successfull
+Launch file manager
+Select  Internal storage
+Click on DCIM
+Pass:Images and videos are not present in the DCIM folder, CARD format is successfully completed 
+Final Message: Pass Test0_Int pass for format Operation
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test3_Int Scenario is as follows
+1.Mount,Unmount uSD Card and Format uSD card as Internal mount for specified number of times
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch home screen
+Number of Unmount,mount and Format cycles = 1
+Swipe Up and Search for Storage
+Select uSD card
+Clicking on SD card
+Click more options
+If format as portable option exists? call formatAsExternal()
+Phone current status is internal mount, performing external mount
+Calling FormatAsExternal() to format as SD as external mount
+Launch settings application and perform external storage mount
+Select storage option
+Select exteranal storage
+Clicking on SD card
+select more options
+Select format as Portable option
+select format option
+Formatting as external mount
+Formatting as external mount is successfull
+Calling FormatAsInternal()
+Launch settings option and perform Internal storage mount scenario
+Select storage option
+Select external storage
+Clicking on SD card
+Clicking on SD card
+Select more options
+Select storage settings
+Fomratting Phone as Internal mount
+Pass:Format as Internal Mount completed Successfull
+Launch file manager
+Click On Internal storage
+Click on DCIM
+Pass: Test3_Int format as internal mount is Successfull
+Final Message: Pass Test3_Int Pass for internal mount is successfull
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+1.Pushing 1GB zip File to Host Internal Memory via server folder named as Test1 
+2.Extracting zip file in Host internal memory
+3.Copy  1GB file (Test1) from host internal memory,Create a folder named Test2 in Internal storage paste Test1 folder in Test2
+4.Create folder name(New_Scenario in internal memory, select folder name(Test2) from internal memory and perform cut paste operation
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Pushing zip file to host internal memory
+Push file is successfull
+Launch File Manager Application and clear internal memory
+Select  Internal storage
+Select Test1 Folder internal storage
+Select  zip file
+Select Extract option
+Extracting Push zip file as Folder named Test1
+Extracting Complete
+Select More Options
+Select create folder option
+Name folder as Test2
+Click Create option
+Test2 folder created successfully in external storage
+Select Test1 Folder from external storage
+Select More Options
+Select Copy to
+Select Internal storage
+Swipe up and select test2 folder
+Select Test2 Folder
+Select Copy here
+Copy paste Test1 folder data to Test2 folder within external storage is successfull
+Select More Options
+Select create folder option
+Name folder as New_Scenario
+Accept create folder
+Select Test2 Folder from internal Storage
+Select More Options
+Select Copy to
+Select Internal storage
+Select New_scenario folder
+Select Move here
+Pass: Test18_Int Pass for Cut paste Operation
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Final Message: Pass Test18_Int Pass for copy paste & cut paste operation
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test8_Int scenario is as follows
+1.Launch mobile default voice recording application and set Internal storage storage option, record audio file for 2 minutes duration
+2.Launch file manager application and playback recorded audio file from Internal storage, fast forward audio file and pause
+3.Launch file manager application and playback copied audio files from Internal storage the files are placed in the Test1 folder
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Clearing Recent Apps
+Pass: No recent apps found
+Launch Voice recorder application for Audio recording
+If application launch permission pop-up exists accept allow permission to launch application
+ No Launch permission Pop-up  found
+Start Recording
+Stop Recording
+Pass: Test8_Int pass for recording an audio file
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch File Manager Application to verify recorded audio
+swipe up and search for Internal storage
+Select  Internal storage
+Select list view
+Select Music Folder
+Select Voice recorder
+switch to list view mode
+Select More Options 
+Click On Select All Options
+Test8_Int: 1 Audio file recorded  sucessfully
+Pass: Test8_Int pass for audio recording in uInternal storage
+Calling PlayRecordedAudio() to play back recorded file
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch File Manager Application
+Select  Internal storage
+Select list view
+Select Music Folder
+Select Voice recorder
+switch to list view mode
+Click Audio file for play back and fast forward
+Started Audio playback
+click on fastforward  10 seconds
+click on pause
+Pass: Test8_Int Pass for playing recorded Audio file
+Pass: Test8_Int Pass for playing, fast forward, and pause recorded audio file scenario
+Calling PlayCopiedAudioFile() for copied audio files from Test1 folder
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launching file manager application
+Select  Internal storage
+Select test1
+Select testfile
+Select 1GB
+Select MP3Files
+Select Laahe.Mp3.mp3
+Started video playback
+Click fast forward button for 10 seconds audio forward
+Pause audio playback
+Pass: 1st Copied Audio play back and fast forward is successfull
+ select 11 Rob Thomas - Lonely No More.mp3
+Started audio playback
+Click fast forward button for 10 seconds audio forward
+Pause audio playback
+Pass: 2nd Copied Audio play back and fast forward is successfull
+select file_example_MP3_5MG.mp3
+Started audio playback
+Click fast forward button for 10 seconds audio forward
+Pause audio playback
+Pass: 3rd Copied Audio play back and fast forward is successfull
+Pass: Test8_Int Pass for Recorded and copied audio play back and fast forward scenario 
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Final Message: Pass Test8_Int Pass for Recorded and copied audio play back and fast forward scenario
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test10_Int Scenario is as follows
+1.Launch Camera application and start rear camera video recording for all host applicable resolutions in Internal storage
+2.Playback Highest resolution recorded video from Internal storage, fast forward playback and pause video scenario 
+3.Playback copied videos from Test1 folder, fast forward and pause scenario
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Clearing Recent Apps
+Pass: No recent apps found
+Launch Camera Application for rear camera video recording
+Select camera permissions
+While using the app
+START CAPTURE
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test10_Int_Bcam_res: 3 resolutions supported
+Select video tab
+Select settings option
+Select Video quality
+Select 1st Rear Video Resolution: HD 1080p
+recordingDurationRear_Int = 580sec
+Start video recording
+Stop video recording
+Select settings option
+Select Video quality
+Select 2nd Rear Video Resolution:  HD 720p
+recordingDurationRear_Int1 = 580sec
+Start video recording
+Stop video recording
+Select settings option
+Select Video quality
+Select 3rd Rear Video Resolution:  SD 480p
+recordingDurationRear_Int2 = 580sec
+Start video recording
+Stop video recording
+Select photo mode
+Pass: Rear video recording is successfull
+Launch File Manager Application to verify captured videos
+Select  Internal storage
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+Select camera folder
+switch to list view mode
+Select More Options 
+Click On Select All Options
+Test10_Int_Bcam_video: 3 Videos captured successfully
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Calling RecordedVideoPlayback() for Playing Highest record video, fast forward video play back scenario
+Launch File Manager for playing highest resolution recorded video from Internal, fast forward and pause scenario
+Select External storage
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+Select camera folder
+switch to list view mode
+Select more options and sort by largest file first
+Click on first file to play highest recorded resolution video file
+Tap Somewhere on Screen for contents to visible on Screen
+Fast forward video for 10 seconds
+Pass: Recorded Video play back and fast forward successfull 
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Calling DataMovementOperation() to move recorded rear camer videos to Test10_Int Folder 
+launch file manager application select Internal storage-->DCIM folder-->Camera folder-->Select all rear camera videos create Test10_Int and cut paste all videos in Test10_Int folder
+click on browse option
+Swipe up to select Internal storage
+Select Internal storage
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Click More options
+select move to option
+select Internal storage
+Select ADD NEW Folder option
+Name folder as Test10_Int
+Accept create folder
+Cut paste  video files operation completed successfully
+Pass: Test10_Int Pass for data move operation successfully
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Calling copiedvideosPlayBack() for playing copied video file from Test1 folder
+Re-launch file manager application and select Internal storage for playing copied video files
+Select Internal storage
+Select Test1 folder
+Select TestFile folder
+Select OneGB folder
+Select video folder
+Select LG_4K_DEMO_HDR_2018_(60FPS)_ELBA(480p).mp4 file for video playback
+Started video playback
+Tap Somewhere on Screen for contents to visible on Screen
+Click fast forward button for 10 seconds video forward
+click press back stop video
+Pass: 4K Video play back and fast forward is successful 
+Select FHD 5.1 ( 1350 X 2560 ).webm file for video playback
+Started video playback
+Tap Somewhere on Screen for contents to visible on Screen
+Click fast forward button for 10 seconds video forward
+click press back stop video
+Pass: FHD Video play back and fast forward is successful 
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Final Message: Pass Test10_Int Pass for Playing Copied Video files, recorded video file and fast forward video play back scenario 
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test:Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test10F_Int Scenario is as follows
+Launch Camera application and start front camera video recording for all host applicable resolutions in  Internal storage
+Playback front Highest recorded video from Internal storage for 30 seconds, pause video playback, lock mobile and wait 30 seconds, unlock mobile and playback video from pause video duration
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Clearing Recent Apps
+Pass: No recent apps found
+Launch Camera Application for rear camera video recording
+Select camera permissions
+While using the app
+START CAPTURE
+Test10F_Int_Fcam_res: 3 resolutions supported
+Select video tab
+Click On front camera mode
+Select settings option
+Select Video quality
+Select First front video resolution: HD 1080p
+recordingDurationFront_Int = 580sec
+Start video recording
+Stop video recording
+Select settings option
+Select Video quality
+Select First front video resolution:  HD 720p
+recordingDurationFront_Int1 = 580sec
+Start video recording
+Stop video recording
+Select settings option
+Select Video quality
+Select third front video resolution: SD 480p
+recordingDurationFront_Int2 = 580sec
+Start video recording
+Stop video recording
+Click On back camera mode
+Select photo mode
+Pass: Test10F_Int pass for front camera video recording
+Launch file manager application and verify recorded video capture uInternal storage
+Swipe up to select Internal storage
+Select Internal storage
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Test10F_Int_Fcam_video: 3 videos captured successfully
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Calling VideoPlayBackForSleepWake()
+Launch File Manager application and playback front recorded video from Internal for 30 seconds, pause video playback, locking phone and unlock after 30 seconds delay and playback video from pause duration.
+Select Internal Storage
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+Select camera folder
+switch to list view mode
+Select MoreOptions1
+Select Sort by
+Select Sort by Newest date first
+Click on first file to play highest recorded resolution video file
+Tap Somewhere on Screen for contents to visible on Screen
+Click pause video button
+Lock Mobile with 30 seconds delay
+Unlock Mobile
+Playback video from pause video duration
+Tap Somewhere on Screen for contents to visible on Screen
+Click pause video button
+Pass: Test10F_Int Pass for Front video play back, Pause,Lock and Unlock Phone Play back from Pause duration Scenario
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+calling DatamoveOperation() to move front camera recorded videos files to Test10F_Int folder
+launch file manager application select Internal storage-->DCIM folder-->Camera folder-->Select all Front camera Videos create Test10F_Int folder and cut paste all videos in Test10F_Int folder
+click on browse option
+Swipe up to select Internal storage
+Select Internal storage
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Click More options
+select move to option
+select Internal storage
+Select ADD NEW Folder option
+Name folder as Test10F_Int
+Accept create folder
+Cut paste  video files operation completed successfully
+Pass: Test10F_Int Pass for data move operation successfully
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Final Message: Pass Test10F_Int Pass for front camera  video recording, Pause Video Playback scenario and data move operation scenario
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test9_Int Scenario is follows:
+Launch camera application, set Internal as a Storage option, start rear camera Image capture for all host resolutions
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch Home Screen and Clear recent
+Clearing Recent Apps
+Pass: No recent apps found
+Launch Camera application for rear Picture capture for all host resolution
+Select camera permissions
+While using the app
+START CAPTURE
+Test9_Int_Bcam_res: 6 resolutions supported
+Select settings
+Select  picture size
+Select first Image Resoution: (4:3) 13 megapixels 
+totalPictureCountRear_Int = 50
+clicking Image of 1st Resolutions (4:3) 13 megapixels: 0
+clicking Image of 1st Resolutions (4:3) 13 megapixels: 1
+clicking Image of 1st Resolutions (4:3) 13 megapixels: 2
+clicking Image of 1st Resolutions (4:3) 13 megapixels: 3
+clicking Image of 1st Resolutions (4:3) 13 megapixels: 4
+clicking Image of 1st Resolutions (4:3) 13 megapixels: 5
+clicking Image of 1st Resolutions (4:3) 13 megapixels: 6
+clicking Image of 1st Resolutions (4:3) 13 megapixels: 7
+clicking Image of 1st Resolutions (4:3) 13 megapixels: 8
+clicking Image of 1st Resolutions (4:3) 13 megapixels: 9
+clicking Image of 1st Resolutions (4:3) 13 megapixels: 10
+clicking Image of 1st Resolutions (4:3) 13 megapixels: 11
+clicking Image of 1st Resolutions (4:3) 13 megapixels: 12
+clicking Image of 1st Resolutions (4:3) 13 megapixels: 13
+clicking Image of 1st Resolutions (4:3) 13 megapixels: 14
+clicking Image of 1st Resolutions (4:3) 13 megapixels: 15
+clicking Image of 1st Resolutions (4:3) 13 megapixels: 16
+clicking Image of 1st Resolutions (4:3) 13 megapixels: 17
+clicking Image of 1st Resolutions (4:3) 13 megapixels: 18
+clicking Image of 1st Resolutions (4:3) 13 megapixels: 19
+clicking Image of 1st Resolutions (4:3) 13 megapixels: 20
+clicking Image of 1st Resolutions (4:3) 13 megapixels: 21
+clicking Image of 1st Resolutions (4:3) 13 megapixels: 22
+clicking Image of 1st Resolutions (4:3) 13 megapixels: 23
+clicking Image of 1st Resolutions (4:3) 13 megapixels: 24
+clicking Image of 1st Resolutions (4:3) 13 megapixels: 25
+clicking Image of 1st Resolutions (4:3) 13 megapixels: 26
+clicking Image of 1st Resolutions (4:3) 13 megapixels: 27
+clicking Image of 1st Resolutions (4:3) 13 megapixels: 28
+clicking Image of 1st Resolutions (4:3) 13 megapixels: 29
+clicking Image of 1st Resolutions (4:3) 13 megapixels: 30
+clicking Image of 1st Resolutions (4:3) 13 megapixels: 31
+clicking Image of 1st Resolutions (4:3) 13 megapixels: 32
+clicking Image of 1st Resolutions (4:3) 13 megapixels: 33
+clicking Image of 1st Resolutions (4:3) 13 megapixels: 34
+clicking Image of 1st Resolutions (4:3) 13 megapixels: 35
+clicking Image of 1st Resolutions (4:3) 13 megapixels: 36
+clicking Image of 1st Resolutions (4:3) 13 megapixels: 37
+clicking Image of 1st Resolutions (4:3) 13 megapixels: 38
+clicking Image of 1st Resolutions (4:3) 13 megapixels: 39
+clicking Image of 1st Resolutions (4:3) 13 megapixels: 40
+clicking Image of 1st Resolutions (4:3) 13 megapixels: 41
+clicking Image of 1st Resolutions (4:3) 13 megapixels: 42
+clicking Image of 1st Resolutions (4:3) 13 megapixels: 43
+clicking Image of 1st Resolutions (4:3) 13 megapixels: 44
+clicking Image of 1st Resolutions (4:3) 13 megapixels: 45
+clicking Image of 1st Resolutions (4:3) 13 megapixels: 46
+clicking Image of 1st Resolutions (4:3) 13 megapixels: 47
+clicking Image of 1st Resolutions (4:3) 13 megapixels: 48
+clicking Image of 1st Resolutions (4:3) 13 megapixels: 49
+Back camera first resolution:50 images Captured succesfull
+Select settings
+Select  picture size
+Select 2nd Image Resoution: (4:3) 7 megapixels 
+totalPictureCountRear_Int1 = 50
+clicking Image  Resolution (4:3) 7 megapixels: 0
+clicking Image  Resolution (4:3) 7 megapixels: 1
+clicking Image  Resolution (4:3) 7 megapixels: 2
+clicking Image  Resolution (4:3) 7 megapixels: 3
+clicking Image  Resolution (4:3) 7 megapixels: 4
+clicking Image  Resolution (4:3) 7 megapixels: 5
+clicking Image  Resolution (4:3) 7 megapixels: 6
+clicking Image  Resolution (4:3) 7 megapixels: 7
+clicking Image  Resolution (4:3) 7 megapixels: 8
+clicking Image  Resolution (4:3) 7 megapixels: 9
+clicking Image  Resolution (4:3) 7 megapixels: 10
+clicking Image  Resolution (4:3) 7 megapixels: 11
+clicking Image  Resolution (4:3) 7 megapixels: 12
+clicking Image  Resolution (4:3) 7 megapixels: 13
+clicking Image  Resolution (4:3) 7 megapixels: 14
+clicking Image  Resolution (4:3) 7 megapixels: 15
+clicking Image  Resolution (4:3) 7 megapixels: 16
+clicking Image  Resolution (4:3) 7 megapixels: 17
+clicking Image  Resolution (4:3) 7 megapixels: 18
+clicking Image  Resolution (4:3) 7 megapixels: 19
+clicking Image  Resolution (4:3) 7 megapixels: 20
+clicking Image  Resolution (4:3) 7 megapixels: 21
+clicking Image  Resolution (4:3) 7 megapixels: 22
+clicking Image  Resolution (4:3) 7 megapixels: 23
+clicking Image  Resolution (4:3) 7 megapixels: 24
+clicking Image  Resolution (4:3) 7 megapixels: 25
+clicking Image  Resolution (4:3) 7 megapixels: 26
+clicking Image  Resolution (4:3) 7 megapixels: 27
+clicking Image  Resolution (4:3) 7 megapixels: 28
+clicking Image  Resolution (4:3) 7 megapixels: 29
+clicking Image  Resolution (4:3) 7 megapixels: 30
+clicking Image  Resolution (4:3) 7 megapixels: 31
+clicking Image  Resolution (4:3) 7 megapixels: 32
+clicking Image  Resolution (4:3) 7 megapixels: 33
+clicking Image  Resolution (4:3) 7 megapixels: 34
+clicking Image  Resolution (4:3) 7 megapixels: 35
+clicking Image  Resolution (4:3) 7 megapixels: 36
+clicking Image  Resolution (4:3) 7 megapixels: 37
+clicking Image  Resolution (4:3) 7 megapixels: 38
+clicking Image  Resolution (4:3) 7 megapixels: 39
+clicking Image  Resolution (4:3) 7 megapixels: 40
+clicking Image  Resolution (4:3) 7 megapixels: 41
+clicking Image  Resolution (4:3) 7 megapixels: 42
+clicking Image  Resolution (4:3) 7 megapixels: 43
+clicking Image  Resolution (4:3) 7 megapixels: 44
+clicking Image  Resolution (4:3) 7 megapixels: 45
+clicking Image  Resolution (4:3) 7 megapixels: 46
+clicking Image  Resolution (4:3) 7 megapixels: 47
+clicking Image  Resolution (4:3) 7 megapixels: 48
+clicking Image  Resolution (4:3) 7 megapixels: 49
+Back camera second resolution:50 images Captured succesfull
+Select settings
+Select  picture size
+Select third Image Resoution: (4:3) 3 megapixels 
+totalPictureCountRear_Int2 = 50
+clicking Image of 3rd Resolutions (4:3) 3 megapixels: 0
+clicking Image of 3rd Resolutions (4:3) 3 megapixels: 1
+clicking Image of 3rd Resolutions (4:3) 3 megapixels: 2
+clicking Image of 3rd Resolutions (4:3) 3 megapixels: 3
+clicking Image of 3rd Resolutions (4:3) 3 megapixels: 4
+clicking Image of 3rd Resolutions (4:3) 3 megapixels: 5
+clicking Image of 3rd Resolutions (4:3) 3 megapixels: 6
+clicking Image of 3rd Resolutions (4:3) 3 megapixels: 7
+clicking Image of 3rd Resolutions (4:3) 3 megapixels: 8
+clicking Image of 3rd Resolutions (4:3) 3 megapixels: 9
+clicking Image of 3rd Resolutions (4:3) 3 megapixels: 10
+clicking Image of 3rd Resolutions (4:3) 3 megapixels: 11
+clicking Image of 3rd Resolutions (4:3) 3 megapixels: 12
+clicking Image of 3rd Resolutions (4:3) 3 megapixels: 13
+clicking Image of 3rd Resolutions (4:3) 3 megapixels: 14
+clicking Image of 3rd Resolutions (4:3) 3 megapixels: 15
+clicking Image of 3rd Resolutions (4:3) 3 megapixels: 16
+clicking Image of 3rd Resolutions (4:3) 3 megapixels: 17
+clicking Image of 3rd Resolutions (4:3) 3 megapixels: 18
+clicking Image of 3rd Resolutions (4:3) 3 megapixels: 19
+clicking Image of 3rd Resolutions (4:3) 3 megapixels: 20
+clicking Image of 3rd Resolutions (4:3) 3 megapixels: 21
+clicking Image of 3rd Resolutions (4:3) 3 megapixels: 22
+clicking Image of 3rd Resolutions (4:3) 3 megapixels: 23
+clicking Image of 3rd Resolutions (4:3) 3 megapixels: 24
+clicking Image of 3rd Resolutions (4:3) 3 megapixels: 25
+clicking Image of 3rd Resolutions (4:3) 3 megapixels: 26
+clicking Image of 3rd Resolutions (4:3) 3 megapixels: 27
+clicking Image of 3rd Resolutions (4:3) 3 megapixels: 28
+clicking Image of 3rd Resolutions (4:3) 3 megapixels: 29
+clicking Image of 3rd Resolutions (4:3) 3 megapixels: 30
+clicking Image of 3rd Resolutions (4:3) 3 megapixels: 31
+clicking Image of 3rd Resolutions (4:3) 3 megapixels: 32
+clicking Image of 3rd Resolutions (4:3) 3 megapixels: 33
+clicking Image of 3rd Resolutions (4:3) 3 megapixels: 34
+clicking Image of 3rd Resolutions (4:3) 3 megapixels: 35
+clicking Image of 3rd Resolutions (4:3) 3 megapixels: 36
+clicking Image of 3rd Resolutions (4:3) 3 megapixels: 37
+clicking Image of 3rd Resolutions (4:3) 3 megapixels: 38
+clicking Image of 3rd Resolutions (4:3) 3 megapixels: 39
+clicking Image of 3rd Resolutions (4:3) 3 megapixels: 40
+clicking Image of 3rd Resolutions (4:3) 3 megapixels: 41
+clicking Image of 3rd Resolutions (4:3) 3 megapixels: 42
+clicking Image of 3rd Resolutions (4:3) 3 megapixels: 43
+clicking Image of 3rd Resolutions (4:3) 3 megapixels: 44
+clicking Image of 3rd Resolutions (4:3) 3 megapixels: 45
+clicking Image of 3rd Resolutions (4:3) 3 megapixels: 46
+clicking Image of 3rd Resolutions (4:3) 3 megapixels: 47
+clicking Image of 3rd Resolutions (4:3) 3 megapixels: 48
+clicking Image of 3rd Resolutions (4:3) 3 megapixels: 49
+Back camera third resolution:50 images Captured succesfull
+Select settings
+Select  picture size
+Select 4TH Image Resoution: (16:9) 10 megapixels 
+totalPictureCountRear_Int3 = 50
+clicking Image of 4TH Resolutions (16:9) 10 megapixels: 0
+clicking Image of 4TH Resolutions (16:9) 10 megapixels: 1
+clicking Image of 4TH Resolutions (16:9) 10 megapixels: 2
+clicking Image of 4TH Resolutions (16:9) 10 megapixels: 3
+clicking Image of 4TH Resolutions (16:9) 10 megapixels: 4
+clicking Image of 4TH Resolutions (16:9) 10 megapixels: 5
+clicking Image of 4TH Resolutions (16:9) 10 megapixels: 6
+clicking Image of 4TH Resolutions (16:9) 10 megapixels: 7
+clicking Image of 4TH Resolutions (16:9) 10 megapixels: 8
+clicking Image of 4TH Resolutions (16:9) 10 megapixels: 9
+clicking Image of 4TH Resolutions (16:9) 10 megapixels: 10
+clicking Image of 4TH Resolutions (16:9) 10 megapixels: 11
+clicking Image of 4TH Resolutions (16:9) 10 megapixels: 12
+clicking Image of 4TH Resolutions (16:9) 10 megapixels: 13
+clicking Image of 4TH Resolutions (16:9) 10 megapixels: 14
+clicking Image of 4TH Resolutions (16:9) 10 megapixels: 15
+clicking Image of 4TH Resolutions (16:9) 10 megapixels: 16
+clicking Image of 4TH Resolutions (16:9) 10 megapixels: 17
+clicking Image of 4TH Resolutions (16:9) 10 megapixels: 18
+clicking Image of 4TH Resolutions (16:9) 10 megapixels: 19
+clicking Image of 4TH Resolutions (16:9) 10 megapixels: 20
+clicking Image of 4TH Resolutions (16:9) 10 megapixels: 21
+clicking Image of 4TH Resolutions (16:9) 10 megapixels: 22
+clicking Image of 4TH Resolutions (16:9) 10 megapixels: 23
+clicking Image of 4TH Resolutions (16:9) 10 megapixels: 24
+clicking Image of 4TH Resolutions (16:9) 10 megapixels: 25
+clicking Image of 4TH Resolutions (16:9) 10 megapixels: 26
+clicking Image of 4TH Resolutions (16:9) 10 megapixels: 27
+clicking Image of 4TH Resolutions (16:9) 10 megapixels: 28
+clicking Image of 4TH Resolutions (16:9) 10 megapixels: 29
+clicking Image of 4TH Resolutions (16:9) 10 megapixels: 30
+clicking Image of 4TH Resolutions (16:9) 10 megapixels: 31
+clicking Image of 4TH Resolutions (16:9) 10 megapixels: 32
+clicking Image of 4TH Resolutions (16:9) 10 megapixels: 33
+clicking Image of 4TH Resolutions (16:9) 10 megapixels: 34
+clicking Image of 4TH Resolutions (16:9) 10 megapixels: 35
+clicking Image of 4TH Resolutions (16:9) 10 megapixels: 36
+clicking Image of 4TH Resolutions (16:9) 10 megapixels: 37
+clicking Image of 4TH Resolutions (16:9) 10 megapixels: 38
+clicking Image of 4TH Resolutions (16:9) 10 megapixels: 39
+clicking Image of 4TH Resolutions (16:9) 10 megapixels: 40
+clicking Image of 4TH Resolutions (16:9) 10 megapixels: 41
+clicking Image of 4TH Resolutions (16:9) 10 megapixels: 42
+clicking Image of 4TH Resolutions (16:9) 10 megapixels: 43
+clicking Image of 4TH Resolutions (16:9) 10 megapixels: 44
+clicking Image of 4TH Resolutions (16:9) 10 megapixels: 45
+clicking Image of 4TH Resolutions (16:9) 10 megapixels: 46
+clicking Image of 4TH Resolutions (16:9) 10 megapixels: 47
+clicking Image of 4TH Resolutions (16:9) 10 megapixels: 48
+clicking Image of 4TH Resolutions (16:9) 10 megapixels: 49
+Back camera 4TH resolution:50 images Captured succesfull
+Select settings
+Select  picture size
+Select tTH Image Resoution: (16:9) 4 megapixels 
+totalPictureCountRear_Int4 = 50
+clicking Image of 5TH Resolutions (16:9) 4 megapixels: 0
+clicking Image of 5TH Resolutions (16:9) 4 megapixels: 1
+clicking Image of 5TH Resolutions (16:9) 4 megapixels: 2
+clicking Image of 5TH Resolutions (16:9) 4 megapixels: 3
+clicking Image of 5TH Resolutions (16:9) 4 megapixels: 4
+clicking Image of 5TH Resolutions (16:9) 4 megapixels: 5
+clicking Image of 5TH Resolutions (16:9) 4 megapixels: 6
+clicking Image of 5TH Resolutions (16:9) 4 megapixels: 7
+clicking Image of 5TH Resolutions (16:9) 4 megapixels: 8
+clicking Image of 5TH Resolutions (16:9) 4 megapixels: 9
+clicking Image of 5TH Resolutions (16:9) 4 megapixels: 10
+clicking Image of 5TH Resolutions (16:9) 4 megapixels: 11
+clicking Image of 5TH Resolutions (16:9) 4 megapixels: 12
+clicking Image of 5TH Resolutions (16:9) 4 megapixels: 13
+clicking Image of 5TH Resolutions (16:9) 4 megapixels: 14
+clicking Image of 5TH Resolutions (16:9) 4 megapixels: 15
+clicking Image of 5TH Resolutions (16:9) 4 megapixels: 16
+clicking Image of 5TH Resolutions (16:9) 4 megapixels: 17
+clicking Image of 5TH Resolutions (16:9) 4 megapixels: 18
+clicking Image of 5TH Resolutions (16:9) 4 megapixels: 19
+clicking Image of 5TH Resolutions (16:9) 4 megapixels: 20
+clicking Image of 5TH Resolutions (16:9) 4 megapixels: 21
+clicking Image of 5TH Resolutions (16:9) 4 megapixels: 22
+clicking Image of 5TH Resolutions (16:9) 4 megapixels: 23
+clicking Image of 5TH Resolutions (16:9) 4 megapixels: 24
+clicking Image of 5TH Resolutions (16:9) 4 megapixels: 25
+clicking Image of 5TH Resolutions (16:9) 4 megapixels: 26
+clicking Image of 5TH Resolutions (16:9) 4 megapixels: 27
+clicking Image of 5TH Resolutions (16:9) 4 megapixels: 28
+clicking Image of 5TH Resolutions (16:9) 4 megapixels: 29
+clicking Image of 5TH Resolutions (16:9) 4 megapixels: 30
+clicking Image of 5TH Resolutions (16:9) 4 megapixels: 31
+clicking Image of 5TH Resolutions (16:9) 4 megapixels: 32
+clicking Image of 5TH Resolutions (16:9) 4 megapixels: 33
+clicking Image of 5TH Resolutions (16:9) 4 megapixels: 34
+clicking Image of 5TH Resolutions (16:9) 4 megapixels: 35
+clicking Image of 5TH Resolutions (16:9) 4 megapixels: 36
+clicking Image of 5TH Resolutions (16:9) 4 megapixels: 37
+clicking Image of 5TH Resolutions (16:9) 4 megapixels: 38
+clicking Image of 5TH Resolutions (16:9) 4 megapixels: 39
+clicking Image of 5TH Resolutions (16:9) 4 megapixels: 40
+clicking Image of 5TH Resolutions (16:9) 4 megapixels: 41
+clicking Image of 5TH Resolutions (16:9) 4 megapixels: 42
+clicking Image of 5TH Resolutions (16:9) 4 megapixels: 43
+clicking Image of 5TH Resolutions (16:9) 4 megapixels: 44
+clicking Image of 5TH Resolutions (16:9) 4 megapixels: 45
+clicking Image of 5TH Resolutions (16:9) 4 megapixels: 46
+clicking Image of 5TH Resolutions (16:9) 4 megapixels: 47
+clicking Image of 5TH Resolutions (16:9) 4 megapixels: 48
+clicking Image of 5TH Resolutions (16:9) 4 megapixels: 49
+Back camera 5TH resolution:50 images Captured succesfull
+Select settings
+Select  picture size
+Select 6TH Image Resoution: (16:9) 2 megapixels 
+totalPictureCountRear_Int5 = 50
+clicking Image of 6TH Resolutions (16:9) 2 megapixels: 0
+clicking Image of 6TH Resolutions (16:9) 2 megapixels: 1
+clicking Image of 6TH Resolutions (16:9) 2 megapixels: 2
+clicking Image of 6TH Resolutions (16:9) 2 megapixels: 3
+clicking Image of 6TH Resolutions (16:9) 2 megapixels: 4
+clicking Image of 6TH Resolutions (16:9) 2 megapixels: 5
+clicking Image of 6TH Resolutions (16:9) 2 megapixels: 6
+clicking Image of 6TH Resolutions (16:9) 2 megapixels: 7
+clicking Image of 6TH Resolutions (16:9) 2 megapixels: 8
+clicking Image of 6TH Resolutions (16:9) 2 megapixels: 9
+clicking Image of 6TH Resolutions (16:9) 2 megapixels: 10
+clicking Image of 6TH Resolutions (16:9) 2 megapixels: 11
+clicking Image of 6TH Resolutions (16:9) 2 megapixels: 12
+clicking Image of 6TH Resolutions (16:9) 2 megapixels: 13
+clicking Image of 6TH Resolutions (16:9) 2 megapixels: 14
+clicking Image of 6TH Resolutions (16:9) 2 megapixels: 15
+clicking Image of 6TH Resolutions (16:9) 2 megapixels: 16
+clicking Image of 6TH Resolutions (16:9) 2 megapixels: 17
+clicking Image of 6TH Resolutions (16:9) 2 megapixels: 18
+clicking Image of 6TH Resolutions (16:9) 2 megapixels: 19
+clicking Image of 6TH Resolutions (16:9) 2 megapixels: 20
+clicking Image of 6TH Resolutions (16:9) 2 megapixels: 21
+clicking Image of 6TH Resolutions (16:9) 2 megapixels: 22
+clicking Image of 6TH Resolutions (16:9) 2 megapixels: 23
+clicking Image of 6TH Resolutions (16:9) 2 megapixels: 24
+clicking Image of 6TH Resolutions (16:9) 2 megapixels: 25
+clicking Image of 6TH Resolutions (16:9) 2 megapixels: 26
+clicking Image of 6TH Resolutions (16:9) 2 megapixels: 27
+clicking Image of 6TH Resolutions (16:9) 2 megapixels: 28
+clicking Image of 6TH Resolutions (16:9) 2 megapixels: 29
+clicking Image of 6TH Resolutions (16:9) 2 megapixels: 30
+clicking Image of 6TH Resolutions (16:9) 2 megapixels: 31
+clicking Image of 6TH Resolutions (16:9) 2 megapixels: 32
+clicking Image of 6TH Resolutions (16:9) 2 megapixels: 33
+clicking Image of 6TH Resolutions (16:9) 2 megapixels: 34
+clicking Image of 6TH Resolutions (16:9) 2 megapixels: 35
+clicking Image of 6TH Resolutions (16:9) 2 megapixels: 36
+clicking Image of 6TH Resolutions (16:9) 2 megapixels: 37
+clicking Image of 6TH Resolutions (16:9) 2 megapixels: 38
+clicking Image of 6TH Resolutions (16:9) 2 megapixels: 39
+clicking Image of 6TH Resolutions (16:9) 2 megapixels: 40
+clicking Image of 6TH Resolutions (16:9) 2 megapixels: 41
+clicking Image of 6TH Resolutions (16:9) 2 megapixels: 42
+clicking Image of 6TH Resolutions (16:9) 2 megapixels: 43
+clicking Image of 6TH Resolutions (16:9) 2 megapixels: 44
+clicking Image of 6TH Resolutions (16:9) 2 megapixels: 45
+clicking Image of 6TH Resolutions (16:9) 2 megapixels: 46
+clicking Image of 6TH Resolutions (16:9) 2 megapixels: 47
+clicking Image of 6TH Resolutions (16:9) 2 megapixels: 48
+clicking Image of 6TH Resolutions (16:9) 2 megapixels: 49
+Back camera 6TH resolution:50 images Captured succesfull
+Total Count value: 300 images to be Captured 
+Launch file manager application and verify captured images present in uInternal storage
+Swipe up to select Internal storage
+Select Internal storage
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Total Image
+Test9_Int_Bcam_image: 300 selected images Captured succesfull
+Actual Value:300 selected
+Interger value:300
+Tolerance_Level = 75
+
+Pass: Test9_Int pass for rear Image capture
+Test9_Int Bcam_image: 300  images Captured succesfull
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+calling DataMoveOperation()
+Re-launch file manager application and select Internal storage for data move operation, select all rear camera images files present in camera folder and move to Test9_Int folder
+Select Internal storage
+Click More options
+Select ADD NEW Folder option
+Name folder as Test9_Int
+Select ADD NEW Folder option
+switch to grid view mode and select DCIM folder
+Select DCIM folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Click More options
+select move to option
+select Internal storage
+select Test9_Int
+Accept Move here
+Cut paste  operation completed successfully
+Test9_Int: Data move operation completed successfully
+Pass: Test9_Int Pass for data move operation successfully
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Final message: Pass Test9_Int Pass for Rear camera image capture  successfully
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test9F_Int Scenario is as follows:
+Launch camera application, set Internal as a Storage option, start Front camera image picture capture for all Host front resolutions
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch Home Screen and Clear recent
+Clearing Recent Apps
+Pass: No recent apps found
+Launch Camera Application for Front camera picture Capture for all Host resolutions
+Select camera permissions
+While using the app
+START CAPTURE
+Test9F_Int_Fcam_res: 6 resolutions supported
+Click On front camera mode
+Select settings
+Select  picture size
+Select first Image Resoution: (4:3) 8 megapixels
+totalPictureCountFront_Int = 50
+clicking Image of 1st Resolutions (4:3) 8 megapixels : 0
+clicking Image of 1st Resolutions (4:3) 8 megapixels : 1
+clicking Image of 1st Resolutions (4:3) 8 megapixels : 2
+clicking Image of 1st Resolutions (4:3) 8 megapixels : 3
+clicking Image of 1st Resolutions (4:3) 8 megapixels : 4
+clicking Image of 1st Resolutions (4:3) 8 megapixels : 5
+clicking Image of 1st Resolutions (4:3) 8 megapixels : 6
+clicking Image of 1st Resolutions (4:3) 8 megapixels : 7
+clicking Image of 1st Resolutions (4:3) 8 megapixels : 8
+clicking Image of 1st Resolutions (4:3) 8 megapixels : 9
+clicking Image of 1st Resolutions (4:3) 8 megapixels : 10
+clicking Image of 1st Resolutions (4:3) 8 megapixels : 11
+clicking Image of 1st Resolutions (4:3) 8 megapixels : 12
+clicking Image of 1st Resolutions (4:3) 8 megapixels : 13
+clicking Image of 1st Resolutions (4:3) 8 megapixels : 14
+clicking Image of 1st Resolutions (4:3) 8 megapixels : 15
+clicking Image of 1st Resolutions (4:3) 8 megapixels : 16
+clicking Image of 1st Resolutions (4:3) 8 megapixels : 17
+clicking Image of 1st Resolutions (4:3) 8 megapixels : 18
+clicking Image of 1st Resolutions (4:3) 8 megapixels : 19
+clicking Image of 1st Resolutions (4:3) 8 megapixels : 20
+clicking Image of 1st Resolutions (4:3) 8 megapixels : 21
+clicking Image of 1st Resolutions (4:3) 8 megapixels : 22
+clicking Image of 1st Resolutions (4:3) 8 megapixels : 23
+clicking Image of 1st Resolutions (4:3) 8 megapixels : 24
+clicking Image of 1st Resolutions (4:3) 8 megapixels : 25
+clicking Image of 1st Resolutions (4:3) 8 megapixels : 26
+clicking Image of 1st Resolutions (4:3) 8 megapixels : 27
+clicking Image of 1st Resolutions (4:3) 8 megapixels : 28
+clicking Image of 1st Resolutions (4:3) 8 megapixels : 29
+clicking Image of 1st Resolutions (4:3) 8 megapixels : 30
+clicking Image of 1st Resolutions (4:3) 8 megapixels : 31
+clicking Image of 1st Resolutions (4:3) 8 megapixels : 32
+clicking Image of 1st Resolutions (4:3) 8 megapixels : 33
+clicking Image of 1st Resolutions (4:3) 8 megapixels : 34
+clicking Image of 1st Resolutions (4:3) 8 megapixels : 35
+clicking Image of 1st Resolutions (4:3) 8 megapixels : 36
+clicking Image of 1st Resolutions (4:3) 8 megapixels : 37
+clicking Image of 1st Resolutions (4:3) 8 megapixels : 38
+clicking Image of 1st Resolutions (4:3) 8 megapixels : 39
+clicking Image of 1st Resolutions (4:3) 8 megapixels : 40
+clicking Image of 1st Resolutions (4:3) 8 megapixels : 41
+clicking Image of 1st Resolutions (4:3) 8 megapixels : 42
+clicking Image of 1st Resolutions (4:3) 8 megapixels : 43
+clicking Image of 1st Resolutions (4:3) 8 megapixels : 44
+clicking Image of 1st Resolutions (4:3) 8 megapixels : 45
+clicking Image of 1st Resolutions (4:3) 8 megapixels : 46
+clicking Image of 1st Resolutions (4:3) 8 megapixels : 47
+clicking Image of 1st Resolutions (4:3) 8 megapixels : 48
+clicking Image of 1st Resolutions (4:3) 8 megapixels : 49
+front camera first resolution:50 images Captured succesfull
+Select settings
+Select  picture size
+Select second Image Resoution: (4:3) 4 megapixels
+totalPictureCountFront_Int1 = 50
+clicking Image of 2nd Resolutions (4:3) 4 megapixels : 0
+clicking Image of 2nd Resolutions (4:3) 4 megapixels : 1
+clicking Image of 2nd Resolutions (4:3) 4 megapixels : 2
+clicking Image of 2nd Resolutions (4:3) 4 megapixels : 3
+clicking Image of 2nd Resolutions (4:3) 4 megapixels : 4
+clicking Image of 2nd Resolutions (4:3) 4 megapixels : 5
+clicking Image of 2nd Resolutions (4:3) 4 megapixels : 6
+clicking Image of 2nd Resolutions (4:3) 4 megapixels : 7
+clicking Image of 2nd Resolutions (4:3) 4 megapixels : 8
+clicking Image of 2nd Resolutions (4:3) 4 megapixels : 9
+clicking Image of 2nd Resolutions (4:3) 4 megapixels : 10
+clicking Image of 2nd Resolutions (4:3) 4 megapixels : 11
+clicking Image of 2nd Resolutions (4:3) 4 megapixels : 12
+clicking Image of 2nd Resolutions (4:3) 4 megapixels : 13
+clicking Image of 2nd Resolutions (4:3) 4 megapixels : 14
+clicking Image of 2nd Resolutions (4:3) 4 megapixels : 15
+clicking Image of 2nd Resolutions (4:3) 4 megapixels : 16
+clicking Image of 2nd Resolutions (4:3) 4 megapixels : 17
+clicking Image of 2nd Resolutions (4:3) 4 megapixels : 18
+clicking Image of 2nd Resolutions (4:3) 4 megapixels : 19
+clicking Image of 2nd Resolutions (4:3) 4 megapixels : 20
+clicking Image of 2nd Resolutions (4:3) 4 megapixels : 21
+clicking Image of 2nd Resolutions (4:3) 4 megapixels : 22
+clicking Image of 2nd Resolutions (4:3) 4 megapixels : 23
+clicking Image of 2nd Resolutions (4:3) 4 megapixels : 24
+clicking Image of 2nd Resolutions (4:3) 4 megapixels : 25
+clicking Image of 2nd Resolutions (4:3) 4 megapixels : 26
+clicking Image of 2nd Resolutions (4:3) 4 megapixels : 27
+clicking Image of 2nd Resolutions (4:3) 4 megapixels : 28
+clicking Image of 2nd Resolutions (4:3) 4 megapixels : 29
+clicking Image of 2nd Resolutions (4:3) 4 megapixels : 30
+clicking Image of 2nd Resolutions (4:3) 4 megapixels : 31
+clicking Image of 2nd Resolutions (4:3) 4 megapixels : 32
+clicking Image of 2nd Resolutions (4:3) 4 megapixels : 33
+clicking Image of 2nd Resolutions (4:3) 4 megapixels : 34
+clicking Image of 2nd Resolutions (4:3) 4 megapixels : 35
+clicking Image of 2nd Resolutions (4:3) 4 megapixels : 36
+clicking Image of 2nd Resolutions (4:3) 4 megapixels : 37
+clicking Image of 2nd Resolutions (4:3) 4 megapixels : 38
+clicking Image of 2nd Resolutions (4:3) 4 megapixels : 39
+clicking Image of 2nd Resolutions (4:3) 4 megapixels : 40
+clicking Image of 2nd Resolutions (4:3) 4 megapixels : 41
+clicking Image of 2nd Resolutions (4:3) 4 megapixels : 42
+clicking Image of 2nd Resolutions (4:3) 4 megapixels : 43
+clicking Image of 2nd Resolutions (4:3) 4 megapixels : 44
+clicking Image of 2nd Resolutions (4:3) 4 megapixels : 45
+clicking Image of 2nd Resolutions (4:3) 4 megapixels : 46
+clicking Image of 2nd Resolutions (4:3) 4 megapixels : 47
+clicking Image of 2nd Resolutions (4:3) 4 megapixels : 48
+clicking Image of 2nd Resolutions (4:3) 4 megapixels : 49
+front camera second resolution:50 images Captured succesfull
+Select settings
+Select  picture size
+Select third Image Resoution: (4:3) 2 megapixels
+totalPictureCountFront_Int2 = 50
+clicking Image of 3rd Resolutions (4:3) 2 megapixels: 0
+clicking Image of 3rd Resolutions (4:3) 2 megapixels: 1
+clicking Image of 3rd Resolutions (4:3) 2 megapixels: 2
+clicking Image of 3rd Resolutions (4:3) 2 megapixels: 3
+clicking Image of 3rd Resolutions (4:3) 2 megapixels: 4
+clicking Image of 3rd Resolutions (4:3) 2 megapixels: 5
+clicking Image of 3rd Resolutions (4:3) 2 megapixels: 6
+clicking Image of 3rd Resolutions (4:3) 2 megapixels: 7
+clicking Image of 3rd Resolutions (4:3) 2 megapixels: 8
+clicking Image of 3rd Resolutions (4:3) 2 megapixels: 9
+clicking Image of 3rd Resolutions (4:3) 2 megapixels: 10
+clicking Image of 3rd Resolutions (4:3) 2 megapixels: 11
+clicking Image of 3rd Resolutions (4:3) 2 megapixels: 12
+clicking Image of 3rd Resolutions (4:3) 2 megapixels: 13
+clicking Image of 3rd Resolutions (4:3) 2 megapixels: 14
+clicking Image of 3rd Resolutions (4:3) 2 megapixels: 15
+clicking Image of 3rd Resolutions (4:3) 2 megapixels: 16
+clicking Image of 3rd Resolutions (4:3) 2 megapixels: 17
+clicking Image of 3rd Resolutions (4:3) 2 megapixels: 18
+clicking Image of 3rd Resolutions (4:3) 2 megapixels: 19
+clicking Image of 3rd Resolutions (4:3) 2 megapixels: 20
+clicking Image of 3rd Resolutions (4:3) 2 megapixels: 21
+clicking Image of 3rd Resolutions (4:3) 2 megapixels: 22
+clicking Image of 3rd Resolutions (4:3) 2 megapixels: 23
+clicking Image of 3rd Resolutions (4:3) 2 megapixels: 24
+clicking Image of 3rd Resolutions (4:3) 2 megapixels: 25
+clicking Image of 3rd Resolutions (4:3) 2 megapixels: 26
+clicking Image of 3rd Resolutions (4:3) 2 megapixels: 27
+clicking Image of 3rd Resolutions (4:3) 2 megapixels: 28
+clicking Image of 3rd Resolutions (4:3) 2 megapixels: 29
+clicking Image of 3rd Resolutions (4:3) 2 megapixels: 30
+clicking Image of 3rd Resolutions (4:3) 2 megapixels: 31
+clicking Image of 3rd Resolutions (4:3) 2 megapixels: 32
+clicking Image of 3rd Resolutions (4:3) 2 megapixels: 33
+clicking Image of 3rd Resolutions (4:3) 2 megapixels: 34
+clicking Image of 3rd Resolutions (4:3) 2 megapixels: 35
+clicking Image of 3rd Resolutions (4:3) 2 megapixels: 36
+clicking Image of 3rd Resolutions (4:3) 2 megapixels: 37
+clicking Image of 3rd Resolutions (4:3) 2 megapixels: 38
+clicking Image of 3rd Resolutions (4:3) 2 megapixels: 39
+clicking Image of 3rd Resolutions (4:3) 2 megapixels: 40
+clicking Image of 3rd Resolutions (4:3) 2 megapixels: 41
+clicking Image of 3rd Resolutions (4:3) 2 megapixels: 42
+clicking Image of 3rd Resolutions (4:3) 2 megapixels: 43
+clicking Image of 3rd Resolutions (4:3) 2 megapixels: 44
+clicking Image of 3rd Resolutions (4:3) 2 megapixels: 45
+clicking Image of 3rd Resolutions (4:3) 2 megapixels: 46
+clicking Image of 3rd Resolutions (4:3) 2 megapixels: 47
+clicking Image of 3rd Resolutions (4:3) 2 megapixels: 48
+clicking Image of 3rd Resolutions (4:3) 2 megapixels: 49
+front camera third resolution:50 images Captured succesfull
+Select settings
+Select  picture size
+Select 4TH Image Resoution: (16:9) 6 megapixels
+totalPictureCountFront_Int3 = 50
+clicking Image of 4th Resolutions (16:9) 6 megapixels: 0
+clicking Image of 4th Resolutions (16:9) 6 megapixels: 1
+clicking Image of 4th Resolutions (16:9) 6 megapixels: 2
+clicking Image of 4th Resolutions (16:9) 6 megapixels: 3
+clicking Image of 4th Resolutions (16:9) 6 megapixels: 4
+clicking Image of 4th Resolutions (16:9) 6 megapixels: 5
+clicking Image of 4th Resolutions (16:9) 6 megapixels: 6
+clicking Image of 4th Resolutions (16:9) 6 megapixels: 7
+clicking Image of 4th Resolutions (16:9) 6 megapixels: 8
+clicking Image of 4th Resolutions (16:9) 6 megapixels: 9
+clicking Image of 4th Resolutions (16:9) 6 megapixels: 10
+clicking Image of 4th Resolutions (16:9) 6 megapixels: 11
+clicking Image of 4th Resolutions (16:9) 6 megapixels: 12
+clicking Image of 4th Resolutions (16:9) 6 megapixels: 13
+clicking Image of 4th Resolutions (16:9) 6 megapixels: 14
+clicking Image of 4th Resolutions (16:9) 6 megapixels: 15
+clicking Image of 4th Resolutions (16:9) 6 megapixels: 16
+clicking Image of 4th Resolutions (16:9) 6 megapixels: 17
+clicking Image of 4th Resolutions (16:9) 6 megapixels: 18
+clicking Image of 4th Resolutions (16:9) 6 megapixels: 19
+clicking Image of 4th Resolutions (16:9) 6 megapixels: 20
+clicking Image of 4th Resolutions (16:9) 6 megapixels: 21
+clicking Image of 4th Resolutions (16:9) 6 megapixels: 22
+clicking Image of 4th Resolutions (16:9) 6 megapixels: 23
+clicking Image of 4th Resolutions (16:9) 6 megapixels: 24
+clicking Image of 4th Resolutions (16:9) 6 megapixels: 25
+clicking Image of 4th Resolutions (16:9) 6 megapixels: 26
+clicking Image of 4th Resolutions (16:9) 6 megapixels: 27
+clicking Image of 4th Resolutions (16:9) 6 megapixels: 28
+clicking Image of 4th Resolutions (16:9) 6 megapixels: 29
+clicking Image of 4th Resolutions (16:9) 6 megapixels: 30
+clicking Image of 4th Resolutions (16:9) 6 megapixels: 31
+clicking Image of 4th Resolutions (16:9) 6 megapixels: 32
+clicking Image of 4th Resolutions (16:9) 6 megapixels: 33
+clicking Image of 4th Resolutions (16:9) 6 megapixels: 34
+clicking Image of 4th Resolutions (16:9) 6 megapixels: 35
+clicking Image of 4th Resolutions (16:9) 6 megapixels: 36
+clicking Image of 4th Resolutions (16:9) 6 megapixels: 37
+clicking Image of 4th Resolutions (16:9) 6 megapixels: 38
+clicking Image of 4th Resolutions (16:9) 6 megapixels: 39
+clicking Image of 4th Resolutions (16:9) 6 megapixels: 40
+clicking Image of 4th Resolutions (16:9) 6 megapixels: 41
+clicking Image of 4th Resolutions (16:9) 6 megapixels: 42
+clicking Image of 4th Resolutions (16:9) 6 megapixels: 43
+clicking Image of 4th Resolutions (16:9) 6 megapixels: 44
+clicking Image of 4th Resolutions (16:9) 6 megapixels: 45
+clicking Image of 4th Resolutions (16:9) 6 megapixels: 46
+clicking Image of 4th Resolutions (16:9) 6 megapixels: 47
+clicking Image of 4th Resolutions (16:9) 6 megapixels: 48
+clicking Image of 4th Resolutions (16:9) 6 megapixels: 49
+front camera 4th resolution:50 images Captured succesfull
+Select settings
+Select  picture size
+Select 5th Image Resoution: (16:9) 2 megapixels
+totalPictureCountFront_Int4 = 50
+clicking Image of 5th Resolutions (16:9) 2 megapixels: 0
+clicking Image of 5th Resolutions (16:9) 2 megapixels: 1
+clicking Image of 5th Resolutions (16:9) 2 megapixels: 2
+clicking Image of 5th Resolutions (16:9) 2 megapixels: 3
+clicking Image of 5th Resolutions (16:9) 2 megapixels: 4
+clicking Image of 5th Resolutions (16:9) 2 megapixels: 5
+clicking Image of 5th Resolutions (16:9) 2 megapixels: 6
+clicking Image of 5th Resolutions (16:9) 2 megapixels: 7
+clicking Image of 5th Resolutions (16:9) 2 megapixels: 8
+clicking Image of 5th Resolutions (16:9) 2 megapixels: 9
+clicking Image of 5th Resolutions (16:9) 2 megapixels: 10
+clicking Image of 5th Resolutions (16:9) 2 megapixels: 11
+clicking Image of 5th Resolutions (16:9) 2 megapixels: 12
+clicking Image of 5th Resolutions (16:9) 2 megapixels: 13
+clicking Image of 5th Resolutions (16:9) 2 megapixels: 14
+clicking Image of 5th Resolutions (16:9) 2 megapixels: 15
+clicking Image of 5th Resolutions (16:9) 2 megapixels: 16
+clicking Image of 5th Resolutions (16:9) 2 megapixels: 17
+clicking Image of 5th Resolutions (16:9) 2 megapixels: 18
+clicking Image of 5th Resolutions (16:9) 2 megapixels: 19
+clicking Image of 5th Resolutions (16:9) 2 megapixels: 20
+clicking Image of 5th Resolutions (16:9) 2 megapixels: 21
+clicking Image of 5th Resolutions (16:9) 2 megapixels: 22
+clicking Image of 5th Resolutions (16:9) 2 megapixels: 23
+clicking Image of 5th Resolutions (16:9) 2 megapixels: 24
+clicking Image of 5th Resolutions (16:9) 2 megapixels: 25
+clicking Image of 5th Resolutions (16:9) 2 megapixels: 26
+clicking Image of 5th Resolutions (16:9) 2 megapixels: 27
+clicking Image of 5th Resolutions (16:9) 2 megapixels: 28
+clicking Image of 5th Resolutions (16:9) 2 megapixels: 29
+clicking Image of 5th Resolutions (16:9) 2 megapixels: 30
+clicking Image of 5th Resolutions (16:9) 2 megapixels: 31
+clicking Image of 5th Resolutions (16:9) 2 megapixels: 32
+clicking Image of 5th Resolutions (16:9) 2 megapixels: 33
+clicking Image of 5th Resolutions (16:9) 2 megapixels: 34
+clicking Image of 5th Resolutions (16:9) 2 megapixels: 35
+clicking Image of 5th Resolutions (16:9) 2 megapixels: 36
+clicking Image of 5th Resolutions (16:9) 2 megapixels: 37
+clicking Image of 5th Resolutions (16:9) 2 megapixels: 38
+clicking Image of 5th Resolutions (16:9) 2 megapixels: 39
+clicking Image of 5th Resolutions (16:9) 2 megapixels: 40
+clicking Image of 5th Resolutions (16:9) 2 megapixels: 41
+clicking Image of 5th Resolutions (16:9) 2 megapixels: 42
+clicking Image of 5th Resolutions (16:9) 2 megapixels: 43
+clicking Image of 5th Resolutions (16:9) 2 megapixels: 44
+clicking Image of 5th Resolutions (16:9) 2 megapixels: 45
+clicking Image of 5th Resolutions (16:9) 2 megapixels: 46
+clicking Image of 5th Resolutions (16:9) 2 megapixels: 47
+clicking Image of 5th Resolutions (16:9) 2 megapixels: 48
+clicking Image of 5th Resolutions (16:9) 2 megapixels: 49
+front camera 5th resolution:50 images Captured succesfull
+Select settings
+Select  picture size
+Select 6TH Image Resoution: (16:9) 2 megapixels
+totalPictureCountFront_Int5 = 50
+clicking Image of 6th Resolutions (16:9) 2 megapixels: 0
+clicking Image of 6th Resolutions (16:9) 2 megapixels: 1
+clicking Image of 6th Resolutions (16:9) 2 megapixels: 2
+clicking Image of 6th Resolutions (16:9) 2 megapixels: 3
+clicking Image of 6th Resolutions (16:9) 2 megapixels: 4
+clicking Image of 6th Resolutions (16:9) 2 megapixels: 5
+clicking Image of 6th Resolutions (16:9) 2 megapixels: 6
+clicking Image of 6th Resolutions (16:9) 2 megapixels: 7
+clicking Image of 6th Resolutions (16:9) 2 megapixels: 8
+clicking Image of 6th Resolutions (16:9) 2 megapixels: 9
+clicking Image of 6th Resolutions (16:9) 2 megapixels: 10
+clicking Image of 6th Resolutions (16:9) 2 megapixels: 11
+clicking Image of 6th Resolutions (16:9) 2 megapixels: 12
+clicking Image of 6th Resolutions (16:9) 2 megapixels: 13
+clicking Image of 6th Resolutions (16:9) 2 megapixels: 14
+clicking Image of 6th Resolutions (16:9) 2 megapixels: 15
+clicking Image of 6th Resolutions (16:9) 2 megapixels: 16
+clicking Image of 6th Resolutions (16:9) 2 megapixels: 17
+clicking Image of 6th Resolutions (16:9) 2 megapixels: 18
+clicking Image of 6th Resolutions (16:9) 2 megapixels: 19
+clicking Image of 6th Resolutions (16:9) 2 megapixels: 20
+clicking Image of 6th Resolutions (16:9) 2 megapixels: 21
+clicking Image of 6th Resolutions (16:9) 2 megapixels: 22
+clicking Image of 6th Resolutions (16:9) 2 megapixels: 23
+clicking Image of 6th Resolutions (16:9) 2 megapixels: 24
+clicking Image of 6th Resolutions (16:9) 2 megapixels: 25
+clicking Image of 6th Resolutions (16:9) 2 megapixels: 26
+clicking Image of 6th Resolutions (16:9) 2 megapixels: 27
+clicking Image of 6th Resolutions (16:9) 2 megapixels: 28
+clicking Image of 6th Resolutions (16:9) 2 megapixels: 29
+clicking Image of 6th Resolutions (16:9) 2 megapixels: 30
+clicking Image of 6th Resolutions (16:9) 2 megapixels: 31
+clicking Image of 6th Resolutions (16:9) 2 megapixels: 32
+clicking Image of 6th Resolutions (16:9) 2 megapixels: 33
+clicking Image of 6th Resolutions (16:9) 2 megapixels: 34
+clicking Image of 6th Resolutions (16:9) 2 megapixels: 35
+clicking Image of 6th Resolutions (16:9) 2 megapixels: 36
+clicking Image of 6th Resolutions (16:9) 2 megapixels: 37
+clicking Image of 6th Resolutions (16:9) 2 megapixels: 38
+clicking Image of 6th Resolutions (16:9) 2 megapixels: 39
+clicking Image of 6th Resolutions (16:9) 2 megapixels: 40
+clicking Image of 6th Resolutions (16:9) 2 megapixels: 41
+clicking Image of 6th Resolutions (16:9) 2 megapixels: 42
+clicking Image of 6th Resolutions (16:9) 2 megapixels: 43
+clicking Image of 6th Resolutions (16:9) 2 megapixels: 44
+clicking Image of 6th Resolutions (16:9) 2 megapixels: 45
+clicking Image of 6th Resolutions (16:9) 2 megapixels: 46
+clicking Image of 6th Resolutions (16:9) 2 megapixels: 47
+clicking Image of 6th Resolutions (16:9) 2 megapixels: 48
+clicking Image of 6th Resolutions (16:9) 2 megapixels: 49
+front camera 6th resolution:50 images Captured succesfull
+Total Count value:300 images to be Captured 
+Click On back camera mode
+Launch file manager application and verify captured images present in Internal storage
+Swipe up to select Internal storage
+Select Internal storage
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+Select camera folder
+Click More options
+Click select all
+Test9F_Int_Fcam_image: 300 selected images Captured succesfull
+Actual Value:300 selected
+Interger value:300
+Tolerance_Level = 75
+
+Pass: Test9F_Int pass for rear Image capture
+Test9F_Int Fcam_image: 300  images Captured succesfull
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+calling DataMoveOperation()
+launch file manager application select Internal storage-->DCIM folder-->Camera folder-->Select all rear camera images create Test10 folder and cut paste all videos in BCFC_Cameravideos folder
+click on browse option
+Swipe up to select Internal storage
+Select Internal storage
+Click More options
+Select ADD NEW Folder option
+Name folder as Test9F_Int
+Select ADD NEW Folder option
+switch to grid view mode and select DCIM folder
+Select DCIM folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Click More options
+select move to option
+select Internal storage
+select Test9F_Int
+Accept Move here
+Cut paste  video files operation completed successfully
+Pass: Test9F_Int Pass for data move operation successfully
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Final message: Pass Test9F_Int Pass for Front camera image capture  successfully
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 13,152.111 s - in TestSuite
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 8, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ Oukitel_C25 ---
+[INFO] Building jar: C:\Users\sandisk\eclipse-workspace\Oukitel_C25\target\Oukitel_C25-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ Oukitel_C25 ---
+[INFO] Installing C:\Users\sandisk\eclipse-workspace\Oukitel_C25\target\Oukitel_C25-0.0.1-SNAPSHOT.jar to C:\Users\sandisk\.m2\repository\Com\Oukitel_C25\test\Oukitel_C25\0.0.1-SNAPSHOT\Oukitel_C25-0.0.1-SNAPSHOT.jar
+[INFO] Installing C:\Users\sandisk\eclipse-workspace\Oukitel_C25\pom.xml to C:\Users\sandisk\.m2\repository\Com\Oukitel_C25\test\Oukitel_C25\0.0.1-SNAPSHOT\Oukitel_C25-0.0.1-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  03:39 h
+[INFO] Finished at: 2023-02-20T15:18:25+05:30
+[INFO] ------------------------------------------------------------------------

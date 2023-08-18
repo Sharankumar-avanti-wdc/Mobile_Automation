@@ -1,0 +1,283 @@
+2022-10-14 17:03:42 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture Test: Start
+2022-10-14 17:03:42 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-14 17:03:42 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture Test9F Scenario is as follows:
+2022-10-14 17:03:42 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture 1.Launch camera application, set uSD as a Storage option, start Front camera image picture capture for all Host front resolutions
+2022-10-14 17:03:42 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture Setting up the appium desired capabilities
+2022-10-14 17:03:42 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-14 17:03:50 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture Launch Home screen and Clear recent apps
+2022-10-14 17:04:10 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture Launch Camera Application for Front camera picture Capture for all Host resolutions
+2022-10-14 17:04:11 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture If change to uSD card pop-up exists select Cancel
+2022-10-14 17:04:21 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy Quantum2, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: R5CR315JDCJ}, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-A826S, deviceName: R5CR315JDCJ, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: R5CR315JDCJ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 73, takesScreenshot: true, udid: R5CR315JDCJ, viewportRect: {height: 2119, left: 0, top: 73, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 3cbc310d-10c0-4a52-9c5d-1acbe803da4d
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2022-10-14 17:04:21 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture If Location access Permission Request Pop Exists Click on Cancel. 
+2022-10-14 17:04:31 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture Location access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy Quantum2, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: R5CR315JDCJ}, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-A826S, deviceName: R5CR315JDCJ, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: R5CR315JDCJ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 73, takesScreenshot: true, udid: R5CR315JDCJ, viewportRect: {height: 2119, left: 0, top: 73, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 3cbc310d-10c0-4a52-9c5d-1acbe803da4d
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2022-10-14 17:04:36 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture Test9_Fcam_res: 4 resolutions supported
+2022-10-14 17:04:36 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture Switch to front camera mode
+2022-10-14 17:04:39 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture Click Settings option
+2022-10-14 17:04:46 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture Swipe up and select storage location option
+2022-10-14 17:05:01 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture Select SD as storage option
+2022-10-14 17:05:10 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture Select Front Image size
+2022-10-14 17:05:10 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture Select First front Image Resoution: 1:1
+2022-10-14 17:05:18 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture Capture Images
+2022-10-14 17:05:22 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking First resolution Image0
+2022-10-14 17:05:26 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking First resolution Image1
+2022-10-14 17:05:30 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking First resolution Image2
+2022-10-14 17:05:35 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking First resolution Image3
+2022-10-14 17:05:39 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking First resolution Image4
+2022-10-14 17:05:44 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking First resolution Image5
+2022-10-14 17:05:48 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking First resolution Image6
+2022-10-14 17:05:52 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking First resolution Image7
+2022-10-14 17:05:57 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking First resolution Image8
+2022-10-14 17:06:01 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking First resolution Image9
+2022-10-14 17:06:07 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking First resolution Image10
+2022-10-14 17:06:11 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking First resolution Image11
+2022-10-14 17:06:15 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking First resolution Image12
+2022-10-14 17:06:20 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking First resolution Image13
+2022-10-14 17:06:24 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking First resolution Image14
+2022-10-14 17:06:28 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking First resolution Image15
+2022-10-14 17:06:32 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking First resolution Image16
+2022-10-14 17:06:36 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking First resolution Image17
+2022-10-14 17:06:40 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking First resolution Image18
+2022-10-14 17:06:45 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking First resolution Image19
+2022-10-14 17:06:49 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking First resolution Image20
+2022-10-14 17:06:53 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking First resolution Image21
+2022-10-14 17:06:57 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking First resolution Image22
+2022-10-14 17:07:01 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking First resolution Image23
+2022-10-14 17:07:06 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking First resolution Image24
+2022-10-14 17:07:10 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking First resolution Image25
+2022-10-14 17:07:14 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking First resolution Image26
+2022-10-14 17:07:18 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking First resolution Image27
+2022-10-14 17:07:22 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking First resolution Image28
+2022-10-14 17:07:26 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking First resolution Image29
+2022-10-14 17:07:31 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking First resolution Image30
+2022-10-14 17:07:35 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking First resolution Image31
+2022-10-14 17:07:39 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking First resolution Image32
+2022-10-14 17:07:43 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking First resolution Image33
+2022-10-14 17:07:47 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking First resolution Image34
+2022-10-14 17:07:52 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking First resolution Image35
+2022-10-14 17:07:56 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking First resolution Image36
+2022-10-14 17:08:00 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking First resolution Image37
+2022-10-14 17:08:04 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking First resolution Image38
+2022-10-14 17:08:08 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking First resolution Image39
+2022-10-14 17:08:12 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking First resolution Image40
+2022-10-14 17:08:17 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking First resolution Image41
+2022-10-14 17:08:21 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking First resolution Image42
+2022-10-14 17:08:25 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking First resolution Image43
+2022-10-14 17:08:29 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking First resolution Image44
+2022-10-14 17:08:33 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking First resolution Image45
+2022-10-14 17:08:38 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking First resolution Image46
+2022-10-14 17:08:42 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking First resolution Image47
+2022-10-14 17:08:46 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking First resolution Image48
+2022-10-14 17:08:50 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking First resolution Image49
+2022-10-14 17:08:52 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture front camera first resolution:50 images Captured succesfull
+2022-10-14 17:08:52 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture Select Front Image size
+2022-10-14 17:08:52 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture Select Second resolution 9:16
+2022-10-14 17:09:00 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture Capture Images
+2022-10-14 17:09:04 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second resolution Image0
+2022-10-14 17:09:08 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second resolution Image1
+2022-10-14 17:09:13 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second resolution Image2
+2022-10-14 17:09:17 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second resolution Image3
+2022-10-14 17:09:21 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second resolution Image4
+2022-10-14 17:09:25 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second resolution Image5
+2022-10-14 17:09:29 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second resolution Image6
+2022-10-14 17:09:34 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second resolution Image7
+2022-10-14 17:09:38 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second resolution Image8
+2022-10-14 17:09:42 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second resolution Image9
+2022-10-14 17:09:46 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second resolution Image10
+2022-10-14 17:09:50 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second resolution Image11
+2022-10-14 17:09:55 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second resolution Image12
+2022-10-14 17:09:59 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second resolution Image13
+2022-10-14 17:10:03 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second resolution Image14
+2022-10-14 17:10:07 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second resolution Image15
+2022-10-14 17:10:11 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second resolution Image16
+2022-10-14 17:10:15 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second resolution Image17
+2022-10-14 17:10:20 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second resolution Image18
+2022-10-14 17:10:24 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second resolution Image19
+2022-10-14 17:10:28 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second resolution Image20
+2022-10-14 17:10:32 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second resolution Image21
+2022-10-14 17:10:36 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second resolution Image22
+2022-10-14 17:10:41 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second resolution Image23
+2022-10-14 17:10:45 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second resolution Image24
+2022-10-14 17:10:49 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second resolution Image25
+2022-10-14 17:10:53 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second resolution Image26
+2022-10-14 17:10:57 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second resolution Image27
+2022-10-14 17:11:02 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second resolution Image28
+2022-10-14 17:11:06 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second resolution Image29
+2022-10-14 17:11:10 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second resolution Image30
+2022-10-14 17:11:14 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second resolution Image31
+2022-10-14 17:11:18 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second resolution Image32
+2022-10-14 17:11:22 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second resolution Image33
+2022-10-14 17:11:27 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second resolution Image34
+2022-10-14 17:11:31 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second resolution Image35
+2022-10-14 17:11:35 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second resolution Image36
+2022-10-14 17:11:39 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second resolution Image37
+2022-10-14 17:11:43 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second resolution Image38
+2022-10-14 17:11:48 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second resolution Image39
+2022-10-14 17:11:52 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second resolution Image40
+2022-10-14 17:11:56 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second resolution Image41
+2022-10-14 17:12:00 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second resolution Image42
+2022-10-14 17:12:04 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second resolution Image43
+2022-10-14 17:12:09 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second resolution Image44
+2022-10-14 17:12:13 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second resolution Image45
+2022-10-14 17:12:17 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second resolution Image46
+2022-10-14 17:12:21 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second resolution Image47
+2022-10-14 17:12:25 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second resolution Image48
+2022-10-14 17:12:29 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second resolution Image49
+2022-10-14 17:12:31 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture front camera second resolution:50 images Captured succesfull
+2022-10-14 17:12:31 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture Select Front Image size
+2022-10-14 17:12:32 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture Select third Image Resoution: 1:1
+2022-10-14 17:12:39 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture Capture Images
+2022-10-14 17:12:44 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second Third Image0
+2022-10-14 17:12:48 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second Third Image1
+2022-10-14 17:12:52 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second Third Image2
+2022-10-14 17:12:56 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second Third Image3
+2022-10-14 17:13:00 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second Third Image4
+2022-10-14 17:13:04 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second Third Image5
+2022-10-14 17:13:09 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second Third Image6
+2022-10-14 17:13:13 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second Third Image7
+2022-10-14 17:13:17 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second Third Image8
+2022-10-14 17:13:21 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second Third Image9
+2022-10-14 17:13:25 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second Third Image10
+2022-10-14 17:13:30 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second Third Image11
+2022-10-14 17:13:34 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second Third Image12
+2022-10-14 17:13:38 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second Third Image13
+2022-10-14 17:13:42 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second Third Image14
+2022-10-14 17:13:46 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second Third Image15
+2022-10-14 17:13:50 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second Third Image16
+2022-10-14 17:13:55 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second Third Image17
+2022-10-14 17:13:59 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second Third Image18
+2022-10-14 17:14:03 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second Third Image19
+2022-10-14 17:14:07 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second Third Image20
+2022-10-14 17:14:11 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second Third Image21
+2022-10-14 17:14:15 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second Third Image22
+2022-10-14 17:14:20 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second Third Image23
+2022-10-14 17:14:24 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second Third Image24
+2022-10-14 17:14:28 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second Third Image25
+2022-10-14 17:14:32 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second Third Image26
+2022-10-14 17:14:36 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second Third Image27
+2022-10-14 17:14:41 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second Third Image28
+2022-10-14 17:14:45 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second Third Image29
+2022-10-14 17:14:49 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second Third Image30
+2022-10-14 17:14:53 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second Third Image31
+2022-10-14 17:14:57 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second Third Image32
+2022-10-14 17:15:01 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second Third Image33
+2022-10-14 17:15:06 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second Third Image34
+2022-10-14 17:15:10 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second Third Image35
+2022-10-14 17:15:14 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second Third Image36
+2022-10-14 17:15:18 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second Third Image37
+2022-10-14 17:15:22 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second Third Image38
+2022-10-14 17:15:27 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second Third Image39
+2022-10-14 17:15:31 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second Third Image40
+2022-10-14 17:15:35 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second Third Image41
+2022-10-14 17:15:39 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second Third Image42
+2022-10-14 17:15:43 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second Third Image43
+2022-10-14 17:15:47 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second Third Image44
+2022-10-14 17:15:52 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second Third Image45
+2022-10-14 17:15:56 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second Third Image46
+2022-10-14 17:16:00 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second Third Image47
+2022-10-14 17:16:04 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second Third Image48
+2022-10-14 17:16:08 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Second Third Image49
+2022-10-14 17:16:10 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture front camera third  resolution:50 images Captured succesfull
+2022-10-14 17:16:10 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture Select Front Image size
+2022-10-14 17:16:10 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture Select fourth resolution
+2022-10-14 17:16:18 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture Capture Images
+2022-10-14 17:16:23 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Fourth resolution Image0
+2022-10-14 17:16:27 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Fourth resolution Image1
+2022-10-14 17:16:31 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Fourth resolution Image2
+2022-10-14 17:16:35 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Fourth resolution Image3
+2022-10-14 17:16:39 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Fourth resolution Image4
+2022-10-14 17:16:43 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Fourth resolution Image5
+2022-10-14 17:16:48 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Fourth resolution Image6
+2022-10-14 17:16:52 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Fourth resolution Image7
+2022-10-14 17:16:56 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Fourth resolution Image8
+2022-10-14 17:17:00 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Fourth resolution Image9
+2022-10-14 17:17:04 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Fourth resolution Image10
+2022-10-14 17:17:08 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Fourth resolution Image11
+2022-10-14 17:17:13 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Fourth resolution Image12
+2022-10-14 17:17:17 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Fourth resolution Image13
+2022-10-14 17:17:21 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Fourth resolution Image14
+2022-10-14 17:17:25 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Fourth resolution Image15
+2022-10-14 17:17:29 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Fourth resolution Image16
+2022-10-14 17:17:34 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Fourth resolution Image17
+2022-10-14 17:17:38 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Fourth resolution Image18
+2022-10-14 17:17:42 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Fourth resolution Image19
+2022-10-14 17:17:46 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Fourth resolution Image20
+2022-10-14 17:17:50 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Fourth resolution Image21
+2022-10-14 17:17:54 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Fourth resolution Image22
+2022-10-14 17:17:59 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Fourth resolution Image23
+2022-10-14 17:18:03 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Fourth resolution Image24
+2022-10-14 17:18:07 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Fourth resolution Image25
+2022-10-14 17:18:11 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Fourth resolution Image26
+2022-10-14 17:18:15 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Fourth resolution Image27
+2022-10-14 17:18:20 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Fourth resolution Image28
+2022-10-14 17:18:24 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Fourth resolution Image29
+2022-10-14 17:18:28 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Fourth resolution Image30
+2022-10-14 17:18:32 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Fourth resolution Image31
+2022-10-14 17:18:36 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Fourth resolution Image32
+2022-10-14 17:18:41 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Fourth resolution Image33
+2022-10-14 17:18:45 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Fourth resolution Image34
+2022-10-14 17:18:49 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Fourth resolution Image35
+2022-10-14 17:18:53 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Fourth resolution Image36
+2022-10-14 17:18:57 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Fourth resolution Image37
+2022-10-14 17:19:01 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Fourth resolution Image38
+2022-10-14 17:19:06 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Fourth resolution Image39
+2022-10-14 17:19:10 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Fourth resolution Image40
+2022-10-14 17:19:14 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Fourth resolution Image41
+2022-10-14 17:19:18 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Fourth resolution Image42
+2022-10-14 17:19:22 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Fourth resolution Image43
+2022-10-14 17:19:26 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Fourth resolution Image44
+2022-10-14 17:19:31 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Fourth resolution Image45
+2022-10-14 17:19:35 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Fourth resolution Image46
+2022-10-14 17:19:39 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Fourth resolution Image47
+2022-10-14 17:19:43 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Fourth resolution Image48
+2022-10-14 17:19:47 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture clicking Fourth resolution Image49
+2022-10-14 17:19:49 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture front camera fourth  resolution:50 images Captured succesfull
+2022-10-14 17:19:49 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture Switch to defalut back camera mode
+2022-10-14 17:19:55 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture Total Count value:200 images to be Captured 
+2022-10-14 17:19:58 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture Launch file manager application and verify captured images present  in uSD Card
+2022-10-14 17:20:14 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture Swipe up to select uSD card
+2022-10-14 17:20:17 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture Select SD card
+2022-10-14 17:20:23 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture switch to grid view mode to select DCIM folder
+2022-10-14 17:20:27 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture Select DCIM folder
+2022-10-14 17:20:30 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture Select camera folder
+2022-10-14 17:20:33 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture switch to list view mode 
+2022-10-14 17:20:36 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture Click More options
+2022-10-14 17:20:43 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture Click Select all
+2022-10-14 17:20:46 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture Total Image captured
+2022-10-14 17:20:55 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture Pass: Test9F pass for front Image capture
+2022-10-14 17:20:55 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture Test9F Fcam_image: 200  images Captured succesfull
+2022-10-14 17:20:55 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-14 17:20:58 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture calling DataMoveOperation() 
+2022-10-14 17:21:03 INFO   Samsung_Galaxy_Quantum2.Test9F DataMoveOperation launch file manager application select uSD card-->DCIM folder-->Camera folder-->Select all back camera front camera videos create Test10 and cut paste all videos in BCFC_Cameravideos folder
+2022-10-14 17:21:19 INFO   Samsung_Galaxy_Quantum2.Test9F DataMoveOperation click on browse option
+2022-10-14 17:21:23 INFO   Samsung_Galaxy_Quantum2.Test9F DataMoveOperation Swipe up to select uSD card
+2022-10-14 17:21:27 INFO   Samsung_Galaxy_Quantum2.Test9F DataMoveOperation Select SD card
+2022-10-14 17:21:33 INFO   Samsung_Galaxy_Quantum2.Test9F DataMoveOperation Select DCIM folder
+2022-10-14 17:21:36 INFO   Samsung_Galaxy_Quantum2.Test9F DataMoveOperation Select camera folder
+2022-10-14 17:21:39 INFO   Samsung_Galaxy_Quantum2.Test9F DataMoveOperation Click More options
+2022-10-14 17:21:46 INFO   Samsung_Galaxy_Quantum2.Test9F DataMoveOperation Click Select all
+2022-10-14 17:21:50 INFO   Samsung_Galaxy_Quantum2.Test9F DataMoveOperation Click More options
+2022-10-14 17:21:56 INFO   Samsung_Galaxy_Quantum2.Test9F DataMoveOperation Select move to option
+2022-10-14 17:22:03 INFO   Samsung_Galaxy_Quantum2.Test9F DataMoveOperation Select uSD Card
+2022-10-14 17:22:09 INFO   Samsung_Galaxy_Quantum2.Test9F DataMoveOperation Select ADD NEW Folder option
+2022-10-14 17:22:15 INFO   Samsung_Galaxy_Quantum2.Test9F DataMoveOperation Name folder as Test9F
+2022-10-14 17:22:21 INFO   Samsung_Galaxy_Quantum2.Test9F DataMoveOperation Accept create folder
+2022-10-14 17:24:21 INFO   Samsung_Galaxy_Quantum2.Test9F DataMoveOperation Cut paste  video files operation completed successfully
+2022-10-14 17:24:25 INFO   Samsung_Galaxy_Quantum2.Test9F DataMoveOperation Pass: Test9F Pass for data move operation successfully
+2022-10-14 17:24:25 INFO   Samsung_Galaxy_Quantum2.Test9F DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-14 17:24:25 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture Final message: Pass Test9F Pass for Front camera image capture  successfully
+2022-10-14 17:24:25 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture Test: End
+2022-10-14 17:24:25 INFO   Samsung_Galaxy_Quantum2.Test9F frontPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

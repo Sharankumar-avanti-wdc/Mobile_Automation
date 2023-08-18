@@ -1,0 +1,129 @@
+2023-03-10 19:03:06 INFO   Plum_Gator7_Z570.Test10_Int rearVideoRec Test: Start
+2023-03-10 19:03:06 INFO   Plum_Gator7_Z570.Test10_Int rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-10 19:03:06 INFO   Plum_Gator7_Z570.Test10_Int rearVideoRec Test10_Int Scenario is as follows
+2023-03-10 19:03:06 INFO   Plum_Gator7_Z570.Test10_Int rearVideoRec 1.Launch Camera application and start back camera video recording for all host applicable resolutions in Internal storage
+2023-03-10 19:03:06 INFO   Plum_Gator7_Z570.Test10_Int rearVideoRec 2.Playback Highest resolution recorded video from Internal storage, fast forward playback and pause video scenario 
+2023-03-10 19:03:06 INFO   Plum_Gator7_Z570.Test10_Int rearVideoRec 3.Playback copied videos from Test1 folder, fast forward and pause scenario
+2023-03-10 19:03:06 INFO   Plum_Gator7_Z570.Test10_Int rearVideoRec 4.Move recorded videos from Internal storage-->DCIM-->Camera folder to Test10_Int folder in Internal storage
+2023-03-10 19:03:06 INFO   Plum_Gator7_Z570.Test10_Int rearVideoRec Setting up the appium desired capabilities
+2023-03-10 19:03:06 INFO   Plum_Gator7_Z570.Test10_Int rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-10 19:03:24 INFO   Plum_Gator7_Z570.Test10_Int rearVideoRec Launch home screen
+2023-03-10 19:03:34 INFO   Plum_Gator7_Z570.Test10_Int rearVideoRec Clearing Recent Apps
+2023-03-10 19:03:34 INFO   Plum_Gator7_Z570.Test10_Int rearVideoRec Pass: No recent apps found
+2023-03-10 19:03:38 INFO   Plum_Gator7_Z570.Test10_Int rearVideoRec Launch Camera application for rear camera video recording
+2023-03-10 19:03:45 INFO   Plum_Gator7_Z570.Test10_Int rearVideoRec IF Change to uInternal storage notification pop-up exists select Cancel Option
+2023-03-10 19:03:55 INFO   Plum_Gator7_Z570.Test10_Int rearVideoRec change to Internal storage element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-201', ip: '10.65.147.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Z570, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: Z570000000000585}, deviceApiLevel: 30, deviceManufacturer: PLUM, deviceModel: Z570, deviceName: Z570000000000585, deviceScreenDensity: 320, deviceScreenSize: 720x1440, deviceUDID: Z570000000000585, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 48, takesScreenshot: true, udid: Z570000000000585, viewportRect: {height: 1296, left: 0, top: 48, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 06b5fa5a-4747-4776-b51e-7026ad39ae46
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("DENY")}
+2023-03-10 19:03:55 INFO   Plum_Gator7_Z570.Test10_Int rearVideoRec if Location permisson Pop Exists Select Cancel Option
+2023-03-10 19:04:05 INFO   Plum_Gator7_Z570.Test10_Int rearVideoRec Location permission access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-201', ip: '10.65.147.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Z570, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: Z570000000000585}, deviceApiLevel: 30, deviceManufacturer: PLUM, deviceModel: Z570, deviceName: Z570000000000585, deviceScreenDensity: 320, deviceScreenSize: 720x1440, deviceUDID: Z570000000000585, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 48, takesScreenshot: true, udid: Z570000000000585, viewportRect: {height: 1296, left: 0, top: 48, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 06b5fa5a-4747-4776-b51e-7026ad39ae46
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("START CAPTURE")}
+2023-03-10 19:04:05 INFO   Plum_Gator7_Z570.Test10_Int rearVideoRec Test10_Int_Bcam_res: 4 resolutions supported
+2023-03-10 19:04:05 INFO   Plum_Gator7_Z570.Test10_Int rearVideoRec Switch to video recording mode
+2023-03-10 19:04:11 INFO   Plum_Gator7_Z570.Test10_Int rearVideoRec Select settings option
+2023-03-10 19:04:14 INFO   Plum_Gator7_Z570.Test10_Int rearVideoRec Select Video size option
+2023-03-10 19:04:20 INFO   Plum_Gator7_Z570.Test10_Int rearVideoRec Select first highest rear camera video resolution: 1920x1080
+2023-03-10 19:04:30 INFO   Plum_Gator7_Z570.Test10_Int rearVideoRec Start video recording
+2023-03-10 19:14:11 INFO   Plum_Gator7_Z570.Test10_Int rearVideoRec Stop video recording
+2023-03-10 19:14:16 INFO   Plum_Gator7_Z570.Test10_Int rearVideoRec Select settings option
+2023-03-10 19:14:20 INFO   Plum_Gator7_Z570.Test10_Int rearVideoRec Select Video size option
+2023-03-10 19:14:26 INFO   Plum_Gator7_Z570.Test10_Int rearVideoRec Select second highest rear camera video resolution: 1280x720
+2023-03-10 19:14:36 INFO   Plum_Gator7_Z570.Test10_Int rearVideoRec Start video recording
+2023-03-10 19:24:16 INFO   Plum_Gator7_Z570.Test10_Int rearVideoRec Stop video recording
+2023-03-10 19:24:22 INFO   Plum_Gator7_Z570.Test10_Int rearVideoRec Select settings option
+2023-03-10 19:24:25 INFO   Plum_Gator7_Z570.Test10_Int rearVideoRec Select Video size option
+2023-03-10 19:24:31 INFO   Plum_Gator7_Z570.Test10_Int rearVideoRec Select 3rd highest rear camera video resolution: 640x480
+2023-03-10 19:24:41 INFO   Plum_Gator7_Z570.Test10_Int rearVideoRec Start video recording
+2023-03-10 19:34:21 INFO   Plum_Gator7_Z570.Test10_Int rearVideoRec Stop video recording
+2023-03-10 19:34:28 INFO   Plum_Gator7_Z570.Test10_Int rearVideoRec Select settings option
+2023-03-10 19:34:31 INFO   Plum_Gator7_Z570.Test10_Int rearVideoRec Select Video size option
+2023-03-10 19:34:37 INFO   Plum_Gator7_Z570.Test10_Int rearVideoRec Select 4th highest rear camera video resolution: 352x288
+2023-03-10 19:34:48 INFO   Plum_Gator7_Z570.Test10_Int rearVideoRec Start video recording
+2023-03-10 19:44:28 INFO   Plum_Gator7_Z570.Test10_Int rearVideoRec Stop video recording
+2023-03-10 19:44:34 INFO   Plum_Gator7_Z570.Test10_Int rearVideoRec Switch to photo mode
+2023-03-10 19:44:51 INFO   Plum_Gator7_Z570.Test10_Int rearVideoRec Pass: Rear video recording is successfull
+2023-03-10 19:44:51 INFO   Plum_Gator7_Z570.Test10_Int rearVideoRec Launch File Manager Application to verify captured videos in uInternal storage
+2023-03-10 19:44:54 INFO   Plum_Gator7_Z570.Test10_Int rearVideoRec Swipe up to select Internal storage
+2023-03-10 19:44:58 INFO   Plum_Gator7_Z570.Test10_Int rearVideoRec Select Internal storage
+2023-03-10 19:45:05 INFO   Plum_Gator7_Z570.Test10_Int rearVideoRec switch to grid view mode to select DCIM folder
+2023-03-10 19:45:08 INFO   Plum_Gator7_Z570.Test10_Int rearVideoRec Select DCIM folder
+2023-03-10 19:45:11 INFO   Plum_Gator7_Z570.Test10_Int rearVideoRec Select camera folder
+2023-03-10 19:45:14 INFO   Plum_Gator7_Z570.Test10_Int rearVideoRec switch to list view mode 
+2023-03-10 19:45:20 INFO   Plum_Gator7_Z570.Test10_Int rearVideoRec Click More options
+2023-03-10 19:45:26 INFO   Plum_Gator7_Z570.Test10_Int rearVideoRec Click Select all
+2023-03-10 19:45:35 INFO   Plum_Gator7_Z570.Test10_Int rearVideoRec Test10_Int_Bcam_video: 4 Videos captured successfull
+2023-03-10 19:45:35 INFO   Plum_Gator7_Z570.Test10_Int rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-10 19:45:35 INFO   Plum_Gator7_Z570.Test10_Int rearVideoRec Calling RecordedVideoPlayback() for Playing Highest record video, fast forward video play back scenario
+2023-03-10 19:45:35 INFO   Plum_Gator7_Z570.Test10_Int RecordedVideoPlayback Launch Camera Application for rear camera video recording
+2023-03-10 19:45:42 INFO   Plum_Gator7_Z570.Test10_Int RecordedVideoPlayback Swipe up and select Internal storage
+2023-03-10 19:45:45 INFO   Plum_Gator7_Z570.Test10_Int RecordedVideoPlayback Select Internal storage
+2023-03-10 19:45:50 INFO   Plum_Gator7_Z570.Test10_Int RecordedVideoPlayback switch to grid view mode 
+2023-03-10 19:45:54 INFO   Plum_Gator7_Z570.Test10_Int RecordedVideoPlayback Swipe up and select DCIM folder
+2023-03-10 19:45:54 INFO   Plum_Gator7_Z570.Test10_Int RecordedVideoPlayback Select DCIM folder
+2023-03-10 19:45:57 INFO   Plum_Gator7_Z570.Test10_Int RecordedVideoPlayback Select Camera folder
+2023-03-10 19:46:00 INFO   Plum_Gator7_Z570.Test10_Int RecordedVideoPlayback switch to list view mode 
+2023-03-10 19:46:03 INFO   Plum_Gator7_Z570.Test10_Int RecordedVideoPlayback select more options
+2023-03-10 19:46:08 INFO   Plum_Gator7_Z570.Test10_Int RecordedVideoPlayback Select Sort BY
+2023-03-10 19:46:12 INFO   Plum_Gator7_Z570.Test10_Int RecordedVideoPlayback Select Largest first
+2023-03-10 19:46:15 INFO   Plum_Gator7_Z570.Test10_Int RecordedVideoPlayback Click on first file to play highest recorded resolution video file
+2023-03-10 19:46:16 INFO   Plum_Gator7_Z570.Test10_Int RecordedVideoPlayback Started video playback
+2023-03-10 19:46:36 INFO   Plum_Gator7_Z570.Test10_Int RecordedVideoPlayback Tap Somewhere on Screen for contents to visible on Screen
+2023-03-10 19:46:36 INFO   Plum_Gator7_Z570.Test10_Int RecordedVideoPlayback Fast forward video for 10 seconds
+2023-03-10 19:46:37 INFO   Plum_Gator7_Z570.Test10_Int RecordedVideoPlayback Continue video playback
+2023-03-10 19:47:04 INFO   Plum_Gator7_Z570.Test10_Int RecordedVideoPlayback Pass: Recorded Video playback and fast forward scenario successfull
+2023-03-10 19:47:04 INFO   Plum_Gator7_Z570.Test10_Int RecordedVideoPlayback ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-10 19:47:04 INFO   Plum_Gator7_Z570.Test10_Int RecordedVideoPlayback Calling DataMovementOperation() to move recorded rear camer videos to Test10_Int Folder
+2023-03-10 19:47:04 INFO   Plum_Gator7_Z570.Test10_Int DataMoveOperation launch file manager application select Internal storage-->DCIM folder-->Camera folder-->Select all rear camera videos create Test10_Int and cut paste all videos in Test10_Int folder
+2023-03-10 19:47:20 INFO   Plum_Gator7_Z570.Test10_Int DataMoveOperation Swipe up to select Internal storage
+2023-03-10 19:47:23 INFO   Plum_Gator7_Z570.Test10_Int DataMoveOperation Select Internal storage
+2023-03-10 19:47:29 INFO   Plum_Gator7_Z570.Test10_Int DataMoveOperation Select DCIM folder
+2023-03-10 19:47:30 INFO   Plum_Gator7_Z570.Test10_Int DataMoveOperation Select DCIM folder
+2023-03-10 19:47:33 INFO   Plum_Gator7_Z570.Test10_Int DataMoveOperation Select camera folder
+2023-03-10 19:47:36 INFO   Plum_Gator7_Z570.Test10_Int DataMoveOperation Click More options
+2023-03-10 19:47:42 INFO   Plum_Gator7_Z570.Test10_Int DataMoveOperation Click Select all
+2023-03-10 19:47:46 INFO   Plum_Gator7_Z570.Test10_Int DataMoveOperation Click More options
+2023-03-10 19:47:52 INFO   Plum_Gator7_Z570.Test10_Int DataMoveOperation Select move to option
+2023-03-10 19:47:59 INFO   Plum_Gator7_Z570.Test10_Int DataMoveOperation Select Internal storage
+2023-03-10 19:48:05 INFO   Plum_Gator7_Z570.Test10_Int DataMoveOperation Select ADD NEW Folder option
+2023-03-10 19:48:11 INFO   Plum_Gator7_Z570.Test10_Int DataMoveOperation Name folder as Test10_Int
+2023-03-10 19:48:18 INFO   Plum_Gator7_Z570.Test10_Int DataMoveOperation Accept create folder
+2023-03-10 19:50:18 INFO   Plum_Gator7_Z570.Test10_Int DataMoveOperation Cut paste  video files operation completed successfully
+2023-03-10 19:50:28 INFO   Plum_Gator7_Z570.Test10_Int DataMoveOperation Pass: Test10_Int Pass for data move operation successfully
+2023-03-10 19:50:28 INFO   Plum_Gator7_Z570.Test10_Int DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-10 19:50:28 INFO   Plum_Gator7_Z570.Test10_Int RecordedVideoPlayback Calling copiedvideosPlayBack() for playing copied video file from Test1 folder
+2023-03-10 19:50:28 INFO   Plum_Gator7_Z570.Test10_Int CopiedvideosPlayBack Launch file manager application, select Internal storage, select Test1 folder, select Videos folder and Play copied videos and fast forward the same 
+2023-03-10 19:50:38 INFO   Plum_Gator7_Z570.Test10_Int CopiedvideosPlayBack Select Internal storage
+2023-03-10 19:50:43 INFO   Plum_Gator7_Z570.Test10_Int CopiedvideosPlayBack switch to gird view mode 
+2023-03-10 19:50:46 INFO   Plum_Gator7_Z570.Test10_Int CopiedvideosPlayBack Select Test1 folder
+2023-03-10 19:50:49 INFO   Plum_Gator7_Z570.Test10_Int CopiedvideosPlayBack Select test_filefolder
+2023-03-10 19:50:52 INFO   Plum_Gator7_Z570.Test10_Int CopiedvideosPlayBack Select OneGB folder
+2023-03-10 19:50:56 INFO   Plum_Gator7_Z570.Test10_Int CopiedvideosPlayBack Select video folder
+2023-03-10 19:50:59 INFO   Plum_Gator7_Z570.Test10_Int CopiedvideosPlayBack switch to list view mode 
+2023-03-10 19:51:02 INFO   Plum_Gator7_Z570.Test10_Int CopiedvideosPlayBack Select LG_4K_DEMO_HDR_2018_(60FPS)_ELBA(480p).mp4 file for video playback
+2023-03-10 19:51:02 INFO   Plum_Gator7_Z570.Test10_Int CopiedvideosPlayBack Started video playback
+2023-03-10 19:51:22 INFO   Plum_Gator7_Z570.Test10_Int CopiedvideosPlayBack Tap Somewhere on Screen for contents to visible on Screen
+2023-03-10 19:51:22 INFO   Plum_Gator7_Z570.Test10_Int CopiedvideosPlayBack Click fast forward button for 10 seconds video forward
+2023-03-10 19:51:46 INFO   Plum_Gator7_Z570.Test10_Int CopiedvideosPlayBack Pass: 4K Video play back and fast forward is successful 
+2023-03-10 19:51:49 INFO   Plum_Gator7_Z570.Test10_Int CopiedvideosPlayBack Select FHD 5.1 ( 1350 X 2560 ).webm file for video playback
+2023-03-10 19:51:49 INFO   Plum_Gator7_Z570.Test10_Int CopiedvideosPlayBack Started video playback
+2023-03-10 19:52:09 INFO   Plum_Gator7_Z570.Test10_Int CopiedvideosPlayBack Tap Somewhere on Screen for contents to visible on Screen
+2023-03-10 19:52:09 INFO   Plum_Gator7_Z570.Test10_Int CopiedvideosPlayBack Click fast forward button for 10 seconds video forward
+2023-03-10 19:52:10 INFO   Plum_Gator7_Z570.Test10_Int CopiedvideosPlayBack Click pause button to stop video
+2023-03-10 19:52:21 INFO   Plum_Gator7_Z570.Test10_Int CopiedvideosPlayBack Pass: FHD Video play back and fast forward is successful 
+2023-03-10 19:52:21 INFO   Plum_Gator7_Z570.Test10_Int CopiedvideosPlayBack ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-10 19:52:21 INFO   Plum_Gator7_Z570.Test10_Int CopiedvideosPlayBack Final Message: Pass Test10_Int Pass for Playing Copied Video files, recorded video file and fast forward video play back scenario 
+2023-03-10 19:52:21 INFO   Plum_Gator7_Z570.Test10_Int CopiedvideosPlayBack Test: End
+2023-03-10 19:52:21 INFO   Plum_Gator7_Z570.Test10_Int CopiedvideosPlayBack ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-10 19:52:21 INFO   Plum_Gator7_Z570.Test10_Int CopiedvideosPlayBack Test: End
+2023-03-10 19:52:21 INFO   Plum_Gator7_Z570.Test10_Int CopiedvideosPlayBack ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

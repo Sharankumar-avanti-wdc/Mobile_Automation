@@ -1,0 +1,83 @@
+2022-10-16 22:27:07 INFO   Samsung_Galaxy_M51.Test9F frontPictureCapture Test: Start
+2022-10-16 22:27:07 INFO   Samsung_Galaxy_M51.Test9F frontPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-16 22:27:07 INFO   Samsung_Galaxy_M51.Test9F frontPictureCapture Test9F Scenario is as follows:
+2022-10-16 22:27:07 INFO   Samsung_Galaxy_M51.Test9F frontPictureCapture 1.Launch camera application, set uSD as a Storage option, start Front camera image picture capture for all Host front resolutions
+2022-10-16 22:27:07 INFO   Samsung_Galaxy_M51.Test9F frontPictureCapture Setting up the appium desired capabilities
+2022-10-16 22:27:07 INFO   Samsung_Galaxy_M51.Test9F frontPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-16 22:27:16 INFO   Samsung_Galaxy_M51.Test9F frontPictureCapture Launch Home screen and clear recent apps
+2022-10-16 22:27:37 INFO   Samsung_Galaxy_M51.Test9F frontPictureCapture Launch Camera Application
+2022-10-16 22:27:37 INFO   Samsung_Galaxy_M51.Test9F frontPictureCapture Launch Camera Application for Front camera picture Capture for all Host resolutions
+2022-10-16 22:27:38 INFO   Samsung_Galaxy_M51.Test9F frontPictureCapture Test9F_Fcam_res: 4 resolutions supported
+2022-10-16 22:27:38 INFO   Samsung_Galaxy_M51.Test9F frontPictureCapture If change to uSD card pop-up exists select Cancel
+2022-10-16 22:27:48 INFO   Samsung_Galaxy_M51.Test9F frontPictureCapture change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '192.168.111.26', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy M51, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: RZ8NA12311F}, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-M515F, deviceName: RZ8NA12311F, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: RZ8NA12311F, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 91, takesScreenshot: true, udid: RZ8NA12311F, viewportRect: {height: 2092, left: 0, top: 91, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 94320432-e53f-407e-9b3a-e1c232bf89dc
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2022-10-16 22:27:48 INFO   Samsung_Galaxy_M51.Test9F frontPictureCapture If Location access Permission Request Pop Exists Click on Cancel. 
+2022-10-16 22:27:58 INFO   Samsung_Galaxy_M51.Test9F frontPictureCapture Location access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '192.168.111.26', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy M51, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: RZ8NA12311F}, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-M515F, deviceName: RZ8NA12311F, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: RZ8NA12311F, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 91, takesScreenshot: true, udid: RZ8NA12311F, viewportRect: {height: 2092, left: 0, top: 91, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 94320432-e53f-407e-9b3a-e1c232bf89dc
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2022-10-16 22:28:03 INFO   Samsung_Galaxy_M51.Test9F frontPictureCapture Switch To front Camera if current Exiting camera is in Back camera mode
+2022-10-16 22:28:13 INFO   Samsung_Galaxy_M51.Test9F frontPictureCapture Camera is in front camera mode no switch required
+2022-10-16 22:28:13 INFO   Samsung_Galaxy_M51.Test9F frontPictureCapture Click Settings option
+2022-10-16 22:28:19 INFO   Samsung_Galaxy_M51.Test9F frontPictureCapture Swipe up and select storage location option
+2022-10-16 22:28:35 INFO   Samsung_Galaxy_M51.Test9F frontPictureCapture Select SD as storage option
+2022-10-16 22:28:43 INFO   Samsung_Galaxy_M51.Test9F frontPictureCapture Select Front Image size
+2022-10-16 22:28:44 INFO   Samsung_Galaxy_M51.Test9F frontPictureCapture Select First front Image Resoution: 3:4
+2022-10-16 22:28:52 INFO   Samsung_Galaxy_M51.Test9F frontPictureCapture Capture Images
+2022-10-16 22:28:56 INFO   Samsung_Galaxy_M51.Test9F frontPictureCapture clicking First resolution Image0
+2022-10-16 22:29:00 INFO   Samsung_Galaxy_M51.Test9F frontPictureCapture clicking First resolution Image1
+2022-10-16 22:29:04 INFO   Samsung_Galaxy_M51.Test9F frontPictureCapture clicking First resolution Image2
+2022-10-16 22:29:06 INFO   Samsung_Galaxy_M51.Test9F frontPictureCapture Select Front Image size
+2022-10-16 22:29:07 INFO   Samsung_Galaxy_M51.Test9F frontPictureCapture Select Second resolution 9:16
+2022-10-16 22:29:14 INFO   Samsung_Galaxy_M51.Test9F frontPictureCapture Start Front Image Capture
+2022-10-16 22:29:19 INFO   Samsung_Galaxy_M51.Test9F frontPictureCapture clicking Second resolution Image0
+2022-10-16 22:29:23 INFO   Samsung_Galaxy_M51.Test9F frontPictureCapture clicking Second resolution Image1
+2022-10-16 22:29:27 INFO   Samsung_Galaxy_M51.Test9F frontPictureCapture clicking Second resolution Image2
+2022-10-16 22:29:29 INFO   Samsung_Galaxy_M51.Test9F frontPictureCapture Front camera second resolution:3 images Captured succesfull
+2022-10-16 22:29:29 INFO   Samsung_Galaxy_M51.Test9F frontPictureCapture Select Front Image size
+2022-10-16 22:29:29 INFO   Samsung_Galaxy_M51.Test9F frontPictureCapture Select third Image Resoution: 1:1
+2022-10-16 22:29:37 INFO   Samsung_Galaxy_M51.Test9F frontPictureCapture Capture Images
+2022-10-16 22:29:41 INFO   Samsung_Galaxy_M51.Test9F frontPictureCapture clicking Second Third Image0
+2022-10-16 22:29:46 INFO   Samsung_Galaxy_M51.Test9F frontPictureCapture clicking Second Third Image1
+2022-10-16 22:29:50 INFO   Samsung_Galaxy_M51.Test9F frontPictureCapture clicking Second Third Image2
+2022-10-16 22:29:52 INFO   Samsung_Galaxy_M51.Test9F frontPictureCapture Front camera third resolution:3 images Captured succesfull
+2022-10-16 22:29:52 INFO   Samsung_Galaxy_M51.Test9F frontPictureCapture Select Front Image size
+2022-10-16 22:29:52 INFO   Samsung_Galaxy_M51.Test9F frontPictureCapture Select fourth resolution
+2022-10-16 22:30:00 INFO   Samsung_Galaxy_M51.Test9F frontPictureCapture Capture Images
+2022-10-16 22:30:08 INFO   Samsung_Galaxy_M51.Test9F frontPictureCapture clicking Fourth resolution Image0
+2022-10-16 22:30:16 INFO   Samsung_Galaxy_M51.Test9F frontPictureCapture clicking Fourth resolution Image1
+2022-10-16 22:30:25 INFO   Samsung_Galaxy_M51.Test9F frontPictureCapture clicking Fourth resolution Image2
+2022-10-16 22:30:27 INFO   Samsung_Galaxy_M51.Test9F frontPictureCapture front camera fourth resolution:3 images Captured succesfull
+2022-10-16 22:30:27 INFO   Samsung_Galaxy_M51.Test9F frontPictureCapture Select fifth resolution
+2022-10-16 22:30:37 INFO   Samsung_Galaxy_M51.Test9F frontPictureCapture Fail: Test9F fail for Fail Count Issue
+2022-10-16 22:30:37 INFO   Samsung_Galaxy_M51.Test9F frontPictureCapture calling DataMoveOperation() 
+2022-10-16 22:30:37 INFO   Samsung_Galaxy_M51.Test9F DataMoveOperation Re-launch file manager application and select external storage for data move operation, select all front camera images files present in camera folder and move to Test9F folder
+2022-10-16 22:30:47 INFO   Samsung_Galaxy_M51.Test9F DataMoveOperation Select external storage
+2022-10-16 22:30:52 INFO   Samsung_Galaxy_M51.Test9F DataMoveOperation switch to grid view mode and select DCIM  folder
+2022-10-16 22:30:55 INFO   Samsung_Galaxy_M51.Test9F DataMoveOperation Select DCIM folder
+2022-10-16 22:30:59 INFO   Samsung_Galaxy_M51.Test9F DataMoveOperation Select camera  folder
+2022-10-16 22:31:02 INFO   Samsung_Galaxy_M51.Test9F DataMoveOperation switch to list view mode 
+2022-10-16 22:31:05 INFO   Samsung_Galaxy_M51.Test9F DataMoveOperation Click More options
+2022-10-16 22:31:12 INFO   Samsung_Galaxy_M51.Test9F DataMoveOperation Click Select all
+2022-10-16 22:31:16 INFO   Samsung_Galaxy_M51.Test9F DataMoveOperation Click More options
+2022-10-16 22:31:23 INFO   Samsung_Galaxy_M51.Test9F DataMoveOperation Select move to option
+2022-10-16 22:31:30 INFO   Samsung_Galaxy_M51.Test9F DataMoveOperation Select uSD Card
+2022-10-16 22:31:36 INFO   Samsung_Galaxy_M51.Test9F DataMoveOperation Select ADD NEW Folder option
+2022-10-16 22:31:42 INFO   Samsung_Galaxy_M51.Test9F DataMoveOperation Name folder as Test9F
+2022-10-16 22:31:49 INFO   Samsung_Galaxy_M51.Test9F DataMoveOperation Accept create folder
+2022-10-16 22:32:20 INFO   Samsung_Galaxy_M51.Test9F DataMoveOperation Cut paste   operation completed successfully
+2022-10-16 22:32:24 INFO   Samsung_Galaxy_M51.Test9F DataMoveOperation Test9F: Data move operation completed successfully
+2022-10-16 22:32:34 INFO   Samsung_Galaxy_M51.Test9F DataMoveOperation Pass: Test9F Pass for data move operation successfully
+2022-10-16 22:32:34 INFO   Samsung_Galaxy_M51.Test9F frontPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-16 22:32:34 INFO   Samsung_Galaxy_M51.Test9F frontPictureCapture Final message: Fail Test9F for rear camera image capture
+2022-10-16 22:32:34 INFO   Samsung_Galaxy_M51.Test9F frontPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

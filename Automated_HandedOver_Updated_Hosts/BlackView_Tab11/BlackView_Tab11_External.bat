@@ -1,0 +1,7 @@
+@echo off
+For /f "tokens=2-4 delims=/ " %%a in ('date /t') do (set mydate=%%c%%a%%b)
+For /f "tokens=1-2 delims=/:" %%a in ("%TIME%") do (set mytime=%%a%%b)
+echo %mydate%_%mytime%
+
+cd C:\Users\7336135\Android11\eclipse-workspace\BlackView_Tab11
+mvn -DmountUnmountCycle=1 -DrecordingDurationRear=180 -DrecordingDurationRear1=180 -DrecordingDurationfront=180 -DrecordingDurationfront1=180 -DtotalPictureCountRear=12 -DtotalPictureCountRear1=12 -DTolerance_Level=%Tolerance_Level% -DtotalPictureCountFront=12 -DtotalPictureCountFront1=12 -DTolerance_Level=%Tolerance_Level% -DfileName=testng8_Int.xml clean install  >> C:\Users\7336135\Android11\eclipse-workspace\External_Logs\TEST\Blackview_Tab11_%mydate%_%mytime%_%Qual_Capacity%.txt

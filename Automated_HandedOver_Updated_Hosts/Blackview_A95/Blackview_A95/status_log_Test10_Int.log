@@ -1,0 +1,119 @@
+2023-02-15 11:26:32 INFO   Blackview_A95.Test10_Int rearVideoRec Test: Start
+2023-02-15 11:26:32 INFO   Blackview_A95.Test10_Int rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-15 11:26:32 INFO   Blackview_A95.Test10_Int rearVideoRec Test10_Int Scenario is as follows
+2023-02-15 11:26:32 INFO   Blackview_A95.Test10_Int rearVideoRec 1.Launch Camera application and start back camera video recording for all host applicable resolutions in Internal storage
+2023-02-15 11:26:32 INFO   Blackview_A95.Test10_Int rearVideoRec 2.Playback Highest resolution recorded video from Internal storage, fast forward playback and pause video scenario 
+2023-02-15 11:26:32 INFO   Blackview_A95.Test10_Int rearVideoRec 3.Playback copied videos from Test1 folder, fast forward and pause scenario
+2023-02-15 11:26:32 INFO   Blackview_A95.Test10_Int rearVideoRec 4.Move recorded videos from Exteranl storage-->DCIM-->Camera folder to Test10_Int folder in Internal storage
+2023-02-15 11:26:32 INFO   Blackview_A95.Test10_Int rearVideoRec Setting up the appium desired capabilities
+2023-02-15 11:26:32 INFO   Blackview_A95.Test10_Int rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-15 11:26:52 INFO   Blackview_A95.Test10_Int rearVideoRec Launch home screen
+2023-02-15 11:26:58 INFO   Blackview_A95.Test10_Int rearVideoRec Launch Camera application for rear camera video recording
+2023-02-15 11:27:04 INFO   Blackview_A95.Test10_Int rearVideoRec IF Change to uSD card notification pop-up exists select Cancel Option
+2023-02-15 11:27:14 INFO   Blackview_A95.Test10_Int rearVideoRec change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: A25, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: DK030A95NEU014523}, deviceApiLevel: 30, deviceManufacturer: wheatek, deviceModel: A95, deviceName: DK030A95NEU014523, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: DK030A95NEU014523, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 80, takesScreenshot: true, udid: DK030A95NEU014523, viewportRect: {height: 1344, left: 0, top: 80, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 1f443f44-6a97-4310-85ad-e50036c6bcbb
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("DENY")}
+2023-02-15 11:27:14 INFO   Blackview_A95.Test10_Int rearVideoRec if Location permisson Pop Exists Select Cancel Option
+2023-02-15 11:27:24 INFO   Blackview_A95.Test10_Int rearVideoRec Location permission access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: A25, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: DK030A95NEU014523}, deviceApiLevel: 30, deviceManufacturer: wheatek, deviceModel: A95, deviceName: DK030A95NEU014523, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: DK030A95NEU014523, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 80, takesScreenshot: true, udid: DK030A95NEU014523, viewportRect: {height: 1344, left: 0, top: 80, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 1f443f44-6a97-4310-85ad-e50036c6bcbb
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("START CAPTURE")}
+2023-02-15 11:27:24 INFO   Blackview_A95.Test10_Int rearVideoRec Switch to rear Camera Mode if current Exiting camera is Front camera Mode
+2023-02-15 11:27:26 INFO   Blackview_A95.Test10_Int rearVideoRec Test10_Int_Bcam_res: 2 resolutions supported
+2023-02-15 11:27:26 INFO   Blackview_A95.Test10_Int rearVideoRec Switch to video recording mode
+2023-02-15 11:27:37 INFO   Blackview_A95.Test10_Int rearVideoRec Select settings option
+2023-02-15 11:27:42 INFO   Blackview_A95.Test10_Int rearVideoRec Select Video size option
+2023-02-15 11:27:48 INFO   Blackview_A95.Test10_Int rearVideoRec Select first highest rear camera video resolution: FHD
+2023-02-15 11:27:57 INFO   Blackview_A95.Test10_Int rearVideoRec Start video recording
+2023-02-15 11:37:38 INFO   Blackview_A95.Test10_Int rearVideoRec Stop video recording
+2023-02-15 11:37:43 INFO   Blackview_A95.Test10_Int rearVideoRec Select settings option
+2023-02-15 11:37:49 INFO   Blackview_A95.Test10_Int rearVideoRec Select Video size option
+2023-02-15 11:37:55 INFO   Blackview_A95.Test10_Int rearVideoRec Select second highest rear camera video resolution: HD
+2023-02-15 11:38:04 INFO   Blackview_A95.Test10_Int rearVideoRec Start video recording
+2023-02-15 11:47:45 INFO   Blackview_A95.Test10_Int rearVideoRec Stop video recording
+2023-02-15 11:47:50 INFO   Blackview_A95.Test10_Int rearVideoRec Switch to photo mode
+2023-02-15 11:48:07 INFO   Blackview_A95.Test10_Int rearVideoRec Pass: Rear video recording is successfull
+2023-02-15 11:48:07 INFO   Blackview_A95.Test10_Int rearVideoRec Launch File Manager Application to verify captured videos in uSD card
+2023-02-15 11:48:09 INFO   Blackview_A95.Test10_Int rearVideoRec Swipe up to select Internal storage
+2023-02-15 11:48:13 INFO   Blackview_A95.Test10_Int rearVideoRec Select SD card
+2023-02-15 11:48:19 INFO   Blackview_A95.Test10_Int rearVideoRec switch to grid view mode to select DCIM folder
+2023-02-15 11:48:22 INFO   Blackview_A95.Test10_Int rearVideoRec Select DCIM folder
+2023-02-15 11:48:26 INFO   Blackview_A95.Test10_Int rearVideoRec Select camera folder
+2023-02-15 11:48:29 INFO   Blackview_A95.Test10_Int rearVideoRec switch to list view mode 
+2023-02-15 11:48:35 INFO   Blackview_A95.Test10_Int rearVideoRec Click More options
+2023-02-15 11:48:41 INFO   Blackview_A95.Test10_Int rearVideoRec Click Select all
+2023-02-15 11:48:50 INFO   Blackview_A95.Test10_Int rearVideoRec Test10_Int_Bcam_video: 2 Videos captured successfull
+2023-02-15 11:48:50 INFO   Blackview_A95.Test10_Int rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-15 11:48:50 INFO   Blackview_A95.Test10_Int rearVideoRec Calling RecordedVideoPlayback() for Playing Highest record video, fast forward video play back scenario
+2023-02-15 11:48:56 INFO   Blackview_A95.Test10_Int RecordedVideoPlayback Launch Camera Application for rear camera video recording
+2023-02-15 11:49:03 INFO   Blackview_A95.Test10_Int RecordedVideoPlayback Swipe up and select Internal storage
+2023-02-15 11:49:06 INFO   Blackview_A95.Test10_Int RecordedVideoPlayback Select External storage
+2023-02-15 11:49:11 INFO   Blackview_A95.Test10_Int RecordedVideoPlayback switch to grid view mode 
+2023-02-15 11:49:14 INFO   Blackview_A95.Test10_Int RecordedVideoPlayback Swipe up and select DCIM folder
+2023-02-15 11:49:15 INFO   Blackview_A95.Test10_Int RecordedVideoPlayback Select DCIM folder
+2023-02-15 11:49:18 INFO   Blackview_A95.Test10_Int RecordedVideoPlayback Select Camera folder
+2023-02-15 11:49:21 INFO   Blackview_A95.Test10_Int RecordedVideoPlayback switch to list view mode 
+2023-02-15 11:49:24 INFO   Blackview_A95.Test10_Int RecordedVideoPlayback select more options
+2023-02-15 11:49:29 INFO   Blackview_A95.Test10_Int RecordedVideoPlayback Select Sort BY
+2023-02-15 11:49:33 INFO   Blackview_A95.Test10_Int RecordedVideoPlayback Select Largest first
+2023-02-15 11:49:37 INFO   Blackview_A95.Test10_Int RecordedVideoPlayback Click on first file to play highest recorded resolution video file
+2023-02-15 11:49:37 INFO   Blackview_A95.Test10_Int RecordedVideoPlayback Started video playback
+2023-02-15 11:49:57 INFO   Blackview_A95.Test10_Int RecordedVideoPlayback Tap Somewhere on Screen for contents to visible on Screen
+2023-02-15 11:49:57 INFO   Blackview_A95.Test10_Int RecordedVideoPlayback Fast forward video for 10 seconds
+2023-02-15 11:49:58 INFO   Blackview_A95.Test10_Int RecordedVideoPlayback Continue video playback
+2023-02-15 11:50:25 INFO   Blackview_A95.Test10_Int RecordedVideoPlayback Pass: Recorded Video playback and fast forward scenario successfull
+2023-02-15 11:50:25 INFO   Blackview_A95.Test10_Int RecordedVideoPlayback ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-15 11:50:25 INFO   Blackview_A95.Test10_Int RecordedVideoPlayback Calling DataMovementOperation() to move recorded rear camer videos to Test10_Int Folder
+2023-02-15 11:50:25 INFO   Blackview_A95.Test10_Int DataMoveOperation launch file manager application select Internal storage-->DCIM folder-->Camera folder-->Select all back camera front camera videos create Test10_Int and cut paste all videos in BCFC_Cameravideos folder
+2023-02-15 11:50:41 INFO   Blackview_A95.Test10_Int DataMoveOperation click on browse option
+2023-02-15 11:50:44 INFO   Blackview_A95.Test10_Int DataMoveOperation Swipe up to select Internal storage
+2023-02-15 11:50:47 INFO   Blackview_A95.Test10_Int DataMoveOperation Select SD card
+2023-02-15 11:50:54 INFO   Blackview_A95.Test10_Int DataMoveOperation Select DCIM folder
+2023-02-15 11:50:54 INFO   Blackview_A95.Test10_Int DataMoveOperation Select DCIM folder
+2023-02-15 11:50:57 INFO   Blackview_A95.Test10_Int DataMoveOperation Select camera folder
+2023-02-15 11:51:00 INFO   Blackview_A95.Test10_Int DataMoveOperation Click More options
+2023-02-15 11:51:07 INFO   Blackview_A95.Test10_Int DataMoveOperation Click Select all
+2023-02-15 11:51:11 INFO   Blackview_A95.Test10_Int DataMoveOperation Click More options
+2023-02-15 11:51:17 INFO   Blackview_A95.Test10_Int DataMoveOperation Select move to option
+2023-02-15 11:51:24 INFO   Blackview_A95.Test10_Int DataMoveOperation Select uSD Card
+2023-02-15 11:51:30 INFO   Blackview_A95.Test10_Int DataMoveOperation Select ADD NEW Folder option
+2023-02-15 11:51:36 INFO   Blackview_A95.Test10_Int DataMoveOperation Name folder as Test10_Int
+2023-02-15 11:51:42 INFO   Blackview_A95.Test10_Int DataMoveOperation Accept create folder
+2023-02-15 11:53:44 INFO   Blackview_A95.Test10_Int DataMoveOperation Cut paste  video files operation completed successfully
+2023-02-15 11:53:54 INFO   Blackview_A95.Test10_Int DataMoveOperation Pass: Test10_Int Pass for data move operation successfully
+2023-02-15 11:53:54 INFO   Blackview_A95.Test10_Int DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-15 11:53:54 INFO   Blackview_A95.Test10_Int RecordedVideoPlayback Calling copiedvideosPlayBack() for playing copied video file from Test1 folder
+2023-02-15 11:53:54 INFO   Blackview_A95.Test10_Int CopiedvideosPlayBack Launch file manager application, select Internal storage, select Test1 folder, select Videos folder and Play copied videos and fast forward the same 
+2023-02-15 11:54:04 INFO   Blackview_A95.Test10_Int CopiedvideosPlayBack Select Internal storage
+2023-02-15 11:54:09 INFO   Blackview_A95.Test10_Int CopiedvideosPlayBack switch to gird view mode 
+2023-02-15 11:54:12 INFO   Blackview_A95.Test10_Int CopiedvideosPlayBack Select Test1 folder
+2023-02-15 11:54:15 INFO   Blackview_A95.Test10_Int CopiedvideosPlayBack Select test_filefolder
+2023-02-15 11:54:18 INFO   Blackview_A95.Test10_Int CopiedvideosPlayBack Select OneGB folder
+2023-02-15 11:54:22 INFO   Blackview_A95.Test10_Int CopiedvideosPlayBack Select video folder
+2023-02-15 11:54:25 INFO   Blackview_A95.Test10_Int CopiedvideosPlayBack switch to list view mode 
+2023-02-15 11:54:28 INFO   Blackview_A95.Test10_Int CopiedvideosPlayBack Select LG_4K_DEMO_HDR_2018_(60FPS)_ELBA(480p).mp4 file for video playback
+2023-02-15 11:54:28 INFO   Blackview_A95.Test10_Int CopiedvideosPlayBack Started video playback
+2023-02-15 11:54:48 INFO   Blackview_A95.Test10_Int CopiedvideosPlayBack Tap Somewhere on Screen for contents to visible on Screen
+2023-02-15 11:54:49 INFO   Blackview_A95.Test10_Int CopiedvideosPlayBack Click fast forward button for 10 seconds video forward
+2023-02-15 11:55:13 INFO   Blackview_A95.Test10_Int CopiedvideosPlayBack Pass: 4K Video play back and fast forward is successful 
+2023-02-15 11:55:16 INFO   Blackview_A95.Test10_Int CopiedvideosPlayBack Select FHD 5.1 ( 1350 X 2560 ).webm file for video playback
+2023-02-15 11:55:16 INFO   Blackview_A95.Test10_Int CopiedvideosPlayBack Started video playback
+2023-02-15 11:55:36 INFO   Blackview_A95.Test10_Int CopiedvideosPlayBack Tap Somewhere on Screen for contents to visible on Screen
+2023-02-15 11:55:36 INFO   Blackview_A95.Test10_Int CopiedvideosPlayBack Click fast forward button for 10 seconds video forward
+2023-02-15 11:55:37 INFO   Blackview_A95.Test10_Int CopiedvideosPlayBack Click pause button to stop video
+2023-02-15 11:55:47 INFO   Blackview_A95.Test10_Int CopiedvideosPlayBack Pass: FHD Video play back and fast forward is successful 
+2023-02-15 11:55:47 INFO   Blackview_A95.Test10_Int CopiedvideosPlayBack ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-15 11:55:47 INFO   Blackview_A95.Test10_Int CopiedvideosPlayBack Final Message: Pass Test10_Int Pass for Playing Copied Video files, recorded video file and fast forward video play back scenario 
+2023-02-15 11:55:47 INFO   Blackview_A95.Test10_Int CopiedvideosPlayBack Test: End
+2023-02-15 11:55:47 INFO   Blackview_A95.Test10_Int CopiedvideosPlayBack ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-15 11:55:47 INFO   Blackview_A95.Test10_Int CopiedvideosPlayBack Test: End
+2023-02-15 11:55:47 INFO   Blackview_A95.Test10_Int CopiedvideosPlayBack ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

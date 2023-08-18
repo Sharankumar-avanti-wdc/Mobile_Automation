@@ -1,0 +1,1215 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------< Com.Sony_Xperia_1IV_XQCT72.test:Sony_Xperia_1IV_XQCT72 >-------
+[INFO] Building Sony_Xperia_1IV_XQCT72 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ Sony_Xperia_1IV_XQCT72 ---
+[INFO] Deleting C:\Users\sandisk\Android11\Sony_Xperia_1IV_XQCT72\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Sony_Xperia_1IV_XQCT72 ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ Sony_Xperia_1IV_XQCT72 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ Sony_Xperia_1IV_XQCT72 ---
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ Sony_Xperia_1IV_XQCT72 ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 8 source files to C:\Users\sandisk\Android11\Sony_Xperia_1IV_XQCT72\target\test-classes
+[WARNING] /C:/Users/sandisk/Android11/Sony_Xperia_1IV_XQCT72/src/test/java/Sony_Xperia_1IV_XQCT72/Test9F.java: Some input files use or override a deprecated API.
+[WARNING] /C:/Users/sandisk/Android11/Sony_Xperia_1IV_XQCT72/src/test/java/Sony_Xperia_1IV_XQCT72/Test9F.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ Sony_Xperia_1IV_XQCT72 ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running TestSuite
+Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+ Test0 Scenario is as follows 
+1.Unlock phone, clear recent apps, clear internal memory
+2.Call Image() and Capture Rear camera 25 images for default resolution in uSD card and Verify the data capture
+3.Call Video() and record Rear camera video of first 2 resloutions for 2 minutes of duration in uSD Card and verify the same
+4.Call Format() and format uSD card with data and verify the same
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch home screen
+Clearing Recent Apps
+Pass for clearing Recent apps 
+Launch File Manager Application and clear internal memory
+Swipe up and select uSD card
+Select Internal storage
+Select  more options
+Click select all option
+Click more options
+Select Delete permanently option
+Accept delete pop-up
+Pass: Clearing phone internal memory is successfull
+Calling Image() for rear Image capture in uSD Card and Verify the Captured images
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Calling Image() for rear Image capture in uSD Card and Verify the Captured images
+Launch camera application for rear camera image capture
+camera permission handling
+If notification access permission pop-up exists? Accept by selecting allow option
+change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RPG-USB-APPS-38', ip: '10.65.145.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: XQ-CT72, newCommandTimeout: 1200, platformName: android, platformVersion: 13, udid: QV7712Z2CG}, deviceApiLevel: 33, deviceManufacturer: Sony, deviceModel: XQ-CT72, deviceName: QV7712Z2CG, deviceScreenDensity: 420, deviceScreenSize: 1096x2560, deviceUDID: QV7712Z2CG, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 63, takesScreenshot: true, udid: QV7712Z2CG, viewportRect: {height: 2371, left: 0, top: 63, width: 1096}, warnings: {}, webStorageEnabled: false}
+Session ID: 71ebd82a-d19f-4c45-937e-4002769afb55
+*** Element info: {Using=xpath, value=//*[@text='ALLOW']}
+If Temp pop-up exists please select OK option
+No Temp pop-up found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RPG-USB-APPS-38', ip: '10.65.145.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: XQ-CT72, newCommandTimeout: 1200, platformName: android, platformVersion: 13, udid: QV7712Z2CG}, deviceApiLevel: 33, deviceManufacturer: Sony, deviceModel: XQ-CT72, deviceName: QV7712Z2CG, deviceScreenDensity: 420, deviceScreenSize: 1096x2560, deviceUDID: QV7712Z2CG, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 63, takesScreenshot: true, udid: QV7712Z2CG, viewportRect: {height: 2371, left: 0, top: 63, width: 1096}, warnings: {}, webStorageEnabled: false}
+Session ID: 71ebd82a-d19f-4c45-937e-4002769afb55
+*** Element info: {Using=xpath, value=//*[@text='OK']}
+Select Menu option
+Search for Data storage option
+Select SD as storage option
+If Temp pop-up exists please select OK option
+No Temp pop-up found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RPG-USB-APPS-38', ip: '10.65.145.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: XQ-CT72, newCommandTimeout: 1200, platformName: android, platformVersion: 13, udid: QV7712Z2CG}, deviceApiLevel: 33, deviceManufacturer: Sony, deviceModel: XQ-CT72, deviceName: QV7712Z2CG, deviceScreenDensity: 420, deviceScreenSize: 1096x2560, deviceUDID: QV7712Z2CG, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 63, takesScreenshot: true, udid: QV7712Z2CG, viewportRect: {height: 2371, left: 0, top: 63, width: 1096}, warnings: {}, webStorageEnabled: false}
+Session ID: 71ebd82a-d19f-4c45-937e-4002769afb55
+*** Element info: {Using=xpath, value=//*[@resource-id='com.sonymobile.photopro:id/check_box']}
+Captures default resolution image 0
+Captures default resolution image 1
+Captures default resolution image 2
+Captures default resolution image 3
+Captures default resolution image 4
+Captures default resolution image 5
+Captures default resolution image 6
+Captures default resolution image 7
+Captures default resolution image 8
+Captures default resolution image 9
+Captures default resolution image 10
+Captures default resolution image 11
+Captures default resolution image 12
+Captures default resolution image 13
+Captures default resolution image 14
+Captures default resolution image 15
+Captures default resolution image 16
+Captures default resolution image 17
+Captures default resolution image 18
+Captures default resolution image 19
+Captures default resolution image 20
+Captures default resolution image 21
+Captures default resolution image 22
+Captures default resolution image 23
+Captures default resolution image 24
+Pass: Total Number Of Image captured 25 is successfull
+Launch File Manager application to verify  Image capture
+Select  SD Card
+Select DCIM Folder
+Select Camera Folder
+Select More Options 
+Click On Select All Options
+Pass:Total Number Of Image captured 25 is successfull
+Calling video() for rear video recording in USD card and verifying data capture.
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Calling video() for rear video recording in USD card and verifying data capture.
+Launch camera application fro rear camera video recording
+camera permission handling
+If notification access permission pop-up exists? Accept by selecting allow option
+change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RPG-USB-APPS-38', ip: '10.65.145.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: XQ-CT72, newCommandTimeout: 1200, platformName: android, platformVersion: 13, udid: QV7712Z2CG}, deviceApiLevel: 33, deviceManufacturer: Sony, deviceModel: XQ-CT72, deviceName: QV7712Z2CG, deviceScreenDensity: 420, deviceScreenSize: 1096x2560, deviceUDID: QV7712Z2CG, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 63, takesScreenshot: true, udid: QV7712Z2CG, viewportRect: {height: 2371, left: 0, top: 63, width: 1096}, warnings: {}, webStorageEnabled: false}
+Session ID: 671c286f-de7b-470b-a3d6-fa7f93f25348
+*** Element info: {Using=xpath, value=//*[@text='ALLOW']}
+If Temp pop-up exists please select OK option
+No Temp pop-up found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RPG-USB-APPS-38', ip: '10.65.145.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: XQ-CT72, newCommandTimeout: 1200, platformName: android, platformVersion: 13, udid: QV7712Z2CG}, deviceApiLevel: 33, deviceManufacturer: Sony, deviceModel: XQ-CT72, deviceName: QV7712Z2CG, deviceScreenDensity: 420, deviceScreenSize: 1096x2560, deviceUDID: QV7712Z2CG, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 63, takesScreenshot: true, udid: QV7712Z2CG, viewportRect: {height: 2371, left: 0, top: 63, width: 1096}, warnings: {}, webStorageEnabled: false}
+Session ID: 671c286f-de7b-470b-a3d6-fa7f93f25348
+*** Element info: {Using=xpath, value=//*[@text='OK']}
+Switch Video mode
+Click menu option
+select video size option
+Select first highest rear camera  video Resolution:Full HD
+If Temp pop-up exists please select OK option
+No Temp pop-up found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RPG-USB-APPS-38', ip: '10.65.145.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: XQ-CT72, newCommandTimeout: 1200, platformName: android, platformVersion: 13, udid: QV7712Z2CG}, deviceApiLevel: 33, deviceManufacturer: Sony, deviceModel: XQ-CT72, deviceName: QV7712Z2CG, deviceScreenDensity: 420, deviceScreenSize: 1096x2560, deviceUDID: QV7712Z2CG, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 63, takesScreenshot: true, udid: QV7712Z2CG, viewportRect: {height: 2371, left: 0, top: 63, width: 1096}, warnings: {}, webStorageEnabled: false}
+Session ID: 671c286f-de7b-470b-a3d6-fa7f93f25348
+*** Element info: {Using=xpath, value=//*[@text='YES']}
+If Temp pop-up exists please select OK option
+No Temp pop-up found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RPG-USB-APPS-38', ip: '10.65.145.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: XQ-CT72, newCommandTimeout: 1200, platformName: android, platformVersion: 13, udid: QV7712Z2CG}, deviceApiLevel: 33, deviceManufacturer: Sony, deviceModel: XQ-CT72, deviceName: QV7712Z2CG, deviceScreenDensity: 420, deviceScreenSize: 1096x2560, deviceUDID: QV7712Z2CG, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 63, takesScreenshot: true, udid: QV7712Z2CG, viewportRect: {height: 2371, left: 0, top: 63, width: 1096}, warnings: {}, webStorageEnabled: false}
+Session ID: 671c286f-de7b-470b-a3d6-fa7f93f25348
+*** Element info: {Using=xpath, value=//*[@text='OK']}
+Start video recording
+Stop video recording
+Click menu option
+select video size option
+Select second highest rear camera  video Resolution: Full HD(60 fps)
+If Temp pop-up exists please select OK option
+No Temp pop-up found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RPG-USB-APPS-38', ip: '10.65.145.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: XQ-CT72, newCommandTimeout: 1200, platformName: android, platformVersion: 13, udid: QV7712Z2CG}, deviceApiLevel: 33, deviceManufacturer: Sony, deviceModel: XQ-CT72, deviceName: QV7712Z2CG, deviceScreenDensity: 420, deviceScreenSize: 1096x2560, deviceUDID: QV7712Z2CG, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 63, takesScreenshot: true, udid: QV7712Z2CG, viewportRect: {height: 2371, left: 0, top: 63, width: 1096}, warnings: {}, webStorageEnabled: false}
+Session ID: 671c286f-de7b-470b-a3d6-fa7f93f25348
+*** Element info: {Using=xpath, value=//*[@text='OK']}
+Start video recording
+Stop video recording
+Switch back to photo mode
+Pass: Rear camera video recording is successfull
+Verifying Captured Videos
+Launch Home screen and Clear recent Apps
+Launch File Manager application to verify  Image capture
+Select  SD Card
+Select DCIM Folder
+Select Camera Folder
+Select More Options 
+Click On Select All Options
+Pass: 2 Videos recorded Successfully
+Pass: A total of 27 files present in uSD card before Format
+calling Format() for format with data scenario
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+calling Format() for format with data scenario
+Launch Settings application for Format uSD card with Data 
+Select storage option
+Select this device option
+Select SD card
+Clicking on more options
+Select Format option
+Accept FORMAT SD CARD pop-up
+Started formatting, waiting till it gets formatted
+Pass: Format uSD with Data is successfull
+Select  SD Card
+Select DCIM Folder
+Select Camera Folder
+Pass: Images and videos are not present in the DCIM folder, CARD format is successfully completed 
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Final Message: Pass Test0 pass for format Operation
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test3 Scenario is as follows
+1.Unmount uSD Card and Format card for specified number of times and verify data format
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch home screen
+Clearing Recent Apps
+Number of Unmount,mount and Format cycles = 1
+Launch  setting application to format uSD card
+Select storage option
+Select this device option
+Select SD card
+Clicking on more options
+Select Format option
+Accept FORMAR SD CARD pop-up
+Started formatting, waiting till it gets formatted
+Unmount, mount and Format uSD card cycle:01 completed succesfully
+Launch file application and verify data format
+Select  SD Card
+Select DCIM Folder
+Select Camera Folder
+Pass:Images and videos are not present in the DCIM folder, CARD format is successfully completed 
+Final Message: Pass Test3 Pass for Unmount,Mount and Formattig uSD Card
+Test End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test18 Scenario is as follows
+Pushing 1GB zip File to Host Internal Memory via server folder named as Test1 
+Extracting zip file in Host internal memory
+Copy Paste 1GB file (Test1) from host internal memory to uSD Card, Create a folder named Test2 in uSD Card, Copy paste 1GB Folder(Test1) From internal to external inside folder Test2 and Vice versa
+Create folder name(New_Scenario in External memory, select folder name(Test2) from internal memory and perform cut paste operation from internla to external memory
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch home screen
+Clearing Recent Apps
+Pushing zip file to host internal memory
+Push file is successfull
+Launching file manager application to extract zip and perform copy paste, cut paste operation from internal memory to external memory
+Select Internal storage
+Select Test1 Folder internal storage
+Select  zip file
+Select Extract option
+Extracting Push zip file as Folder named Test1
+Extracting Complete
+Select Test1 folder from internal storage
+Select More Options
+Select Copy to
+Select uSD Card
+Select Copy here
+Copy paste Test1 folder from Internal to external storage is successfull
+Select More Options
+Select create folder option
+Name folder as Test2
+Test2 folder created successfully in external storage
+Select Test1 Folder from external storage
+Select More Options
+Select Copy to
+Select uSD Card
+Select Test2 Folder
+Select Copy here
+Copy paste Test1 folder data to Test2 folder within external storage is successfull
+Select More Options
+Select create folder option
+Name folder as New_Scenario
+Select Test2 Folder from External Storage
+Select More Options
+Select Copy to
+Select internal storage
+Select Copy here
+Pass: Test18 Pass copy paste operation from Internal to external and Vice-versa scenario
+Select Test2 Folder from internal Storage
+Select More Options
+Select Move to
+Select uSD Card
+Select New_scenario folder
+Select Move here
+Cut paste Operation Completed Successfully
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Final Message: Pass Test18 pass for copy paste & cut paste operation
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test8 scenario is as follows
+1.Host voice recorder application does not support uSD storage option. Hence skipping voice recording scenario!
+2.Launch file manager application and playback copied audio files from external storage the files are placed in the Test1 folder
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch home screen
+calling PlayCopiedAudioFile to play back copied audio files from Test1 folder 
+Select external storage
+switch to grid view mode to select Test1 folder
+Select Test1 folder
+Select test_file folder
+Select 1GB folder
+switch back to list  view mode
+Select MP3 files folder from uSD card
+Select First audio file for play back
+Playing first audio file for one minute duration
+Fast Forwarding audio play back for 30 sceonds duration
+Playing  audio  for 30 seconds duration
+Pause Audio playback
+Pass: 1st Audio Play back is Successfull 
+Select second audio file for play back
+Playing second audio file for one minute duration
+Fast Forwarding audio play back for 30 sceonds duration
+Playing  audio  for 30 seconds duration
+Pause Audio play back
+Pass: second Audio Play back is succssfull
+Select third audio file for play back
+Playing second audio file for one minute duration
+Fast Forwarding audio play back for 30 sceonds duration
+Playing  audio  for 30 seconds duration
+Pause Audio play back
+Pause Audio play back
+Pass: 3rd Audio Play Back Successfull 
+Pass: Test8 Pass for Recorded and copied audio play back and fast forward scenario 
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Final Message: Pass Test8 Pass NA - for copied audio play back and fast forward scenario
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test9 Scenario is follows:
+1.Launch camera application, set USD as a Storage option, start rear camera Image capture for all host resolutions
+2.Move captured Rear camera images from external storage  to Test9 folder in external storage
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch Home Screen and Clear recent
+Launch Camera application
+Test9_Bcam_res: 4 resolutions supported
+camera permission handling
+If notification access permission pop-up exists? Accept by selecting allow option
+change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RPG-USB-APPS-38', ip: '10.65.145.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: XQ-CT72, newCommandTimeout: 1200, platformName: android, platformVersion: 13, udid: QV7712Z2CG}, deviceApiLevel: 33, deviceManufacturer: Sony, deviceModel: XQ-CT72, deviceName: QV7712Z2CG, deviceScreenDensity: 420, deviceScreenSize: 1096x2560, deviceUDID: QV7712Z2CG, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 63, takesScreenshot: true, udid: QV7712Z2CG, viewportRect: {height: 2371, left: 0, top: 63, width: 1096}, warnings: {}, webStorageEnabled: false}
+Session ID: 8c1a48cd-0bf7-4ec3-b080-435c7bc1f94e
+*** Element info: {Using=xpath, value=//*[@text='ALLOW']}
+If Temp pop-up exists please select OK option
+No Temp pop-up found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RPG-USB-APPS-38', ip: '10.65.145.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: XQ-CT72, newCommandTimeout: 1200, platformName: android, platformVersion: 13, udid: QV7712Z2CG}, deviceApiLevel: 33, deviceManufacturer: Sony, deviceModel: XQ-CT72, deviceName: QV7712Z2CG, deviceScreenDensity: 420, deviceScreenSize: 1096x2560, deviceUDID: QV7712Z2CG, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 63, takesScreenshot: true, udid: QV7712Z2CG, viewportRect: {height: 2371, left: 0, top: 63, width: 1096}, warnings: {}, webStorageEnabled: false}
+Session ID: 8c1a48cd-0bf7-4ec3-b080-435c7bc1f94e
+*** Element info: {Using=xpath, value=//*[@text='OK']}
+Select Menu option
+Search for Data storage option
+Select SD as storage option
+If Temp pop-up exists please select OK option
+No Temp pop-up found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RPG-USB-APPS-38', ip: '10.65.145.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: XQ-CT72, newCommandTimeout: 1200, platformName: android, platformVersion: 13, udid: QV7712Z2CG}, deviceApiLevel: 33, deviceManufacturer: Sony, deviceModel: XQ-CT72, deviceName: QV7712Z2CG, deviceScreenDensity: 420, deviceScreenSize: 1096x2560, deviceUDID: QV7712Z2CG, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 63, takesScreenshot: true, udid: QV7712Z2CG, viewportRect: {height: 2371, left: 0, top: 63, width: 1096}, warnings: {}, webStorageEnabled: false}
+Session ID: 8c1a48cd-0bf7-4ec3-b080-435c7bc1f94e
+*** Element info: {Using=xpath, value=//*[@resource-id='com.sonymobile.photopro:id/check_box']}
+Click menu option
+select video size option
+Select first highest rear camera  Image Resolution:4:3 (12MP)
+If Temp pop-up exists please select OK option
+No Temp pop-up found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RPG-USB-APPS-38', ip: '10.65.145.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: XQ-CT72, newCommandTimeout: 1200, platformName: android, platformVersion: 13, udid: QV7712Z2CG}, deviceApiLevel: 33, deviceManufacturer: Sony, deviceModel: XQ-CT72, deviceName: QV7712Z2CG, deviceScreenDensity: 420, deviceScreenSize: 1096x2560, deviceUDID: QV7712Z2CG, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 63, takesScreenshot: true, udid: QV7712Z2CG, viewportRect: {height: 2371, left: 0, top: 63, width: 1096}, warnings: {}, webStorageEnabled: false}
+Session ID: 8c1a48cd-0bf7-4ec3-b080-435c7bc1f94e
+*** Element info: {Using=xpath, value=//*[@text='YES']}
+totalPictureCountRear = 75 Images to be captured
+clicking First   Resolution Image0
+clicking First   Resolution Image1
+clicking First   Resolution Image2
+clicking First   Resolution Image3
+clicking First   Resolution Image4
+clicking First   Resolution Image5
+clicking First   Resolution Image6
+clicking First   Resolution Image7
+clicking First   Resolution Image8
+clicking First   Resolution Image9
+clicking First   Resolution Image10
+clicking First   Resolution Image11
+clicking First   Resolution Image12
+clicking First   Resolution Image13
+clicking First   Resolution Image14
+clicking First   Resolution Image15
+clicking First   Resolution Image16
+clicking First   Resolution Image17
+clicking First   Resolution Image18
+clicking First   Resolution Image19
+clicking First   Resolution Image20
+clicking First   Resolution Image21
+clicking First   Resolution Image22
+clicking First   Resolution Image23
+clicking First   Resolution Image24
+clicking First   Resolution Image25
+clicking First   Resolution Image26
+clicking First   Resolution Image27
+clicking First   Resolution Image28
+clicking First   Resolution Image29
+clicking First   Resolution Image30
+clicking First   Resolution Image31
+clicking First   Resolution Image32
+clicking First   Resolution Image33
+clicking First   Resolution Image34
+clicking First   Resolution Image35
+clicking First   Resolution Image36
+clicking First   Resolution Image37
+clicking First   Resolution Image38
+clicking First   Resolution Image39
+clicking First   Resolution Image40
+clicking First   Resolution Image41
+clicking First   Resolution Image42
+clicking First   Resolution Image43
+clicking First   Resolution Image44
+clicking First   Resolution Image45
+clicking First   Resolution Image46
+clicking First   Resolution Image47
+clicking First   Resolution Image48
+clicking First   Resolution Image49
+clicking First   Resolution Image50
+clicking First   Resolution Image51
+clicking First   Resolution Image52
+clicking First   Resolution Image53
+clicking First   Resolution Image54
+clicking First   Resolution Image55
+clicking First   Resolution Image56
+clicking First   Resolution Image57
+clicking First   Resolution Image58
+clicking First   Resolution Image59
+clicking First   Resolution Image60
+clicking First   Resolution Image61
+clicking First   Resolution Image62
+clicking First   Resolution Image63
+clicking First   Resolution Image64
+clicking First   Resolution Image65
+clicking First   Resolution Image66
+clicking First   Resolution Image67
+clicking First   Resolution Image68
+clicking First   Resolution Image69
+clicking First   Resolution Image70
+clicking First   Resolution Image71
+clicking First   Resolution Image72
+clicking First   Resolution Image73
+clicking First   Resolution Image74
+Rear camera first resolution:75 images Captured succesfull
+Click menu option
+select video size option
+Select second highest rear camera  Image Resolution:16:9 (9MP)
+If Temp pop-up exists please select OK option
+No Temp pop-up found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RPG-USB-APPS-38', ip: '10.65.145.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: XQ-CT72, newCommandTimeout: 1200, platformName: android, platformVersion: 13, udid: QV7712Z2CG}, deviceApiLevel: 33, deviceManufacturer: Sony, deviceModel: XQ-CT72, deviceName: QV7712Z2CG, deviceScreenDensity: 420, deviceScreenSize: 1096x2560, deviceUDID: QV7712Z2CG, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 63, takesScreenshot: true, udid: QV7712Z2CG, viewportRect: {height: 2371, left: 0, top: 63, width: 1096}, warnings: {}, webStorageEnabled: false}
+Session ID: 8c1a48cd-0bf7-4ec3-b080-435c7bc1f94e
+*** Element info: {Using=xpath, value=//*[@text='YES']}
+totalPictureCountRear1 = 75 Images to be captured
+clicking Second   Resolution Image0
+clicking Second   Resolution Image1
+clicking Second   Resolution Image2
+clicking Second   Resolution Image3
+clicking Second   Resolution Image4
+clicking Second   Resolution Image5
+clicking Second   Resolution Image6
+clicking Second   Resolution Image7
+clicking Second   Resolution Image8
+clicking Second   Resolution Image9
+clicking Second   Resolution Image10
+clicking Second   Resolution Image11
+clicking Second   Resolution Image12
+clicking Second   Resolution Image13
+clicking Second   Resolution Image14
+clicking Second   Resolution Image15
+clicking Second   Resolution Image16
+clicking Second   Resolution Image17
+clicking Second   Resolution Image18
+clicking Second   Resolution Image19
+clicking Second   Resolution Image20
+clicking Second   Resolution Image21
+clicking Second   Resolution Image22
+clicking Second   Resolution Image23
+clicking Second   Resolution Image24
+clicking Second   Resolution Image25
+clicking Second   Resolution Image26
+clicking Second   Resolution Image27
+clicking Second   Resolution Image28
+clicking Second   Resolution Image29
+clicking Second   Resolution Image30
+clicking Second   Resolution Image31
+clicking Second   Resolution Image32
+clicking Second   Resolution Image33
+clicking Second   Resolution Image34
+clicking Second   Resolution Image35
+clicking Second   Resolution Image36
+clicking Second   Resolution Image37
+clicking Second   Resolution Image38
+clicking Second   Resolution Image39
+clicking Second   Resolution Image40
+clicking Second   Resolution Image41
+clicking Second   Resolution Image42
+clicking Second   Resolution Image43
+clicking Second   Resolution Image44
+clicking Second   Resolution Image45
+clicking Second   Resolution Image46
+clicking Second   Resolution Image47
+clicking Second   Resolution Image48
+clicking Second   Resolution Image49
+clicking Second   Resolution Image50
+clicking Second   Resolution Image51
+clicking Second   Resolution Image52
+clicking Second   Resolution Image53
+clicking Second   Resolution Image54
+clicking Second   Resolution Image55
+clicking Second   Resolution Image56
+clicking Second   Resolution Image57
+clicking Second   Resolution Image58
+clicking Second   Resolution Image59
+clicking Second   Resolution Image60
+clicking Second   Resolution Image61
+clicking Second   Resolution Image62
+clicking Second   Resolution Image63
+clicking Second   Resolution Image64
+clicking Second   Resolution Image65
+clicking Second   Resolution Image66
+clicking Second   Resolution Image67
+clicking Second   Resolution Image68
+clicking Second   Resolution Image69
+clicking Second   Resolution Image70
+clicking Second   Resolution Image71
+clicking Second   Resolution Image72
+clicking Second   Resolution Image73
+clicking Second   Resolution Image74
+Rear camera second resolution:75 images Captured succesfull
+Click menu option
+select video size option
+Select third highest rear camera  Image Resolution:1:1 (9MP)
+If Temp pop-up exists please select OK option
+No Temp pop-up found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RPG-USB-APPS-38', ip: '10.65.145.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: XQ-CT72, newCommandTimeout: 1200, platformName: android, platformVersion: 13, udid: QV7712Z2CG}, deviceApiLevel: 33, deviceManufacturer: Sony, deviceModel: XQ-CT72, deviceName: QV7712Z2CG, deviceScreenDensity: 420, deviceScreenSize: 1096x2560, deviceUDID: QV7712Z2CG, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 63, takesScreenshot: true, udid: QV7712Z2CG, viewportRect: {height: 2371, left: 0, top: 63, width: 1096}, warnings: {}, webStorageEnabled: false}
+Session ID: 8c1a48cd-0bf7-4ec3-b080-435c7bc1f94e
+*** Element info: {Using=xpath, value=//*[@text='YES']}
+totalPictureCountRear2 = 75 Images to be captured
+clicking third   Resolution Image0
+clicking third   Resolution Image1
+clicking third   Resolution Image2
+clicking third   Resolution Image3
+clicking third   Resolution Image4
+clicking third   Resolution Image5
+clicking third   Resolution Image6
+clicking third   Resolution Image7
+clicking third   Resolution Image8
+clicking third   Resolution Image9
+clicking third   Resolution Image10
+clicking third   Resolution Image11
+clicking third   Resolution Image12
+clicking third   Resolution Image13
+clicking third   Resolution Image14
+clicking third   Resolution Image15
+clicking third   Resolution Image16
+clicking third   Resolution Image17
+clicking third   Resolution Image18
+clicking third   Resolution Image19
+clicking third   Resolution Image20
+clicking third   Resolution Image21
+clicking third   Resolution Image22
+clicking third   Resolution Image23
+clicking third   Resolution Image24
+clicking third   Resolution Image25
+clicking third   Resolution Image26
+clicking third   Resolution Image27
+clicking third   Resolution Image28
+clicking third   Resolution Image29
+clicking third   Resolution Image30
+clicking third   Resolution Image31
+clicking third   Resolution Image32
+clicking third   Resolution Image33
+clicking third   Resolution Image34
+clicking third   Resolution Image35
+clicking third   Resolution Image36
+clicking third   Resolution Image37
+clicking third   Resolution Image38
+clicking third   Resolution Image39
+clicking third   Resolution Image40
+clicking third   Resolution Image41
+clicking third   Resolution Image42
+clicking third   Resolution Image43
+clicking third   Resolution Image44
+clicking third   Resolution Image45
+clicking third   Resolution Image46
+clicking third   Resolution Image47
+clicking third   Resolution Image48
+clicking third   Resolution Image49
+clicking third   Resolution Image50
+clicking third   Resolution Image51
+clicking third   Resolution Image52
+clicking third   Resolution Image53
+clicking third   Resolution Image54
+clicking third   Resolution Image55
+clicking third   Resolution Image56
+clicking third   Resolution Image57
+clicking third   Resolution Image58
+clicking third   Resolution Image59
+clicking third   Resolution Image60
+clicking third   Resolution Image61
+clicking third   Resolution Image62
+clicking third   Resolution Image63
+clicking third   Resolution Image64
+clicking third   Resolution Image65
+clicking third   Resolution Image66
+clicking third   Resolution Image67
+clicking third   Resolution Image68
+clicking third   Resolution Image69
+clicking third   Resolution Image70
+clicking third   Resolution Image71
+clicking third   Resolution Image72
+clicking third   Resolution Image73
+clicking third   Resolution Image74
+Back camera third resolution:75 images Captured succesfull
+Click menu option
+select video size option
+Select fourth highest rear camera  Image Resolution:3:2 (10MP)
+If Temp pop-up exists please select OK option
+No Temp pop-up found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RPG-USB-APPS-38', ip: '10.65.145.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: XQ-CT72, newCommandTimeout: 1200, platformName: android, platformVersion: 13, udid: QV7712Z2CG}, deviceApiLevel: 33, deviceManufacturer: Sony, deviceModel: XQ-CT72, deviceName: QV7712Z2CG, deviceScreenDensity: 420, deviceScreenSize: 1096x2560, deviceUDID: QV7712Z2CG, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 63, takesScreenshot: true, udid: QV7712Z2CG, viewportRect: {height: 2371, left: 0, top: 63, width: 1096}, warnings: {}, webStorageEnabled: false}
+Session ID: 8c1a48cd-0bf7-4ec3-b080-435c7bc1f94e
+*** Element info: {Using=xpath, value=//*[@text='YES']}
+totalPictureCountRear2 = 75 Images to be captured
+clicking fourth   Resolution Image0
+clicking fourth   Resolution Image1
+clicking fourth   Resolution Image2
+clicking fourth   Resolution Image3
+clicking fourth   Resolution Image4
+clicking fourth   Resolution Image5
+clicking fourth   Resolution Image6
+clicking fourth   Resolution Image7
+clicking fourth   Resolution Image8
+clicking fourth   Resolution Image9
+clicking fourth   Resolution Image10
+clicking fourth   Resolution Image11
+clicking fourth   Resolution Image12
+clicking fourth   Resolution Image13
+clicking fourth   Resolution Image14
+clicking fourth   Resolution Image15
+clicking fourth   Resolution Image16
+clicking fourth   Resolution Image17
+clicking fourth   Resolution Image18
+clicking fourth   Resolution Image19
+clicking fourth   Resolution Image20
+clicking fourth   Resolution Image21
+clicking fourth   Resolution Image22
+clicking fourth   Resolution Image23
+clicking fourth   Resolution Image24
+clicking fourth   Resolution Image25
+clicking fourth   Resolution Image26
+clicking fourth   Resolution Image27
+clicking fourth   Resolution Image28
+clicking fourth   Resolution Image29
+clicking fourth   Resolution Image30
+clicking fourth   Resolution Image31
+clicking fourth   Resolution Image32
+clicking fourth   Resolution Image33
+clicking fourth   Resolution Image34
+clicking fourth   Resolution Image35
+clicking fourth   Resolution Image36
+clicking fourth   Resolution Image37
+clicking fourth   Resolution Image38
+clicking fourth   Resolution Image39
+clicking fourth   Resolution Image40
+clicking fourth   Resolution Image41
+clicking fourth   Resolution Image42
+clicking fourth   Resolution Image43
+clicking fourth   Resolution Image44
+clicking fourth   Resolution Image45
+clicking fourth   Resolution Image46
+clicking fourth   Resolution Image47
+clicking fourth   Resolution Image48
+clicking fourth   Resolution Image49
+clicking fourth   Resolution Image50
+clicking fourth   Resolution Image51
+clicking fourth   Resolution Image52
+clicking fourth   Resolution Image53
+clicking fourth   Resolution Image54
+clicking fourth   Resolution Image55
+clicking fourth   Resolution Image56
+clicking fourth   Resolution Image57
+clicking fourth   Resolution Image58
+clicking fourth   Resolution Image59
+clicking fourth   Resolution Image60
+clicking fourth   Resolution Image61
+clicking fourth   Resolution Image62
+clicking fourth   Resolution Image63
+clicking fourth   Resolution Image64
+clicking fourth   Resolution Image65
+clicking fourth   Resolution Image66
+clicking fourth   Resolution Image67
+clicking fourth   Resolution Image68
+clicking fourth   Resolution Image69
+clicking fourth   Resolution Image70
+clicking fourth   Resolution Image71
+clicking fourth   Resolution Image72
+clicking fourth   Resolution Image73
+clicking fourth   Resolution Image74
+Back camera fourth resolution:75 images Captured succesfull
+Total Count value:300 images to be Captured 
+Launch file manager application and verify front camera captured images in external storage
+Swipe up to select uSD card
+Select SD card
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Total: 300 selected images Captured succesfull
+Actual Value:300 selected
+Interger value:300
+Tolerance_Level = 75
+
+Pass: Test9 pass for rear Image capture
+Test9_Bcam_image: 300  images Captured succesfull
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+calling DataMoveOperation()
+Re-launch file manager application and select external storage for data move operation, select all rear camera images files present in camera folder and move to Test9 folder
+Select external storage
+switch to grid view mode and select DCIM folder
+Select DCIM folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Click More options
+select move to option
+select uSD Card
+Select ADD NEW Folder option
+Name folder as Test9
+Accept create folder
+Cut paste rear camera captured images from exteranl storage to Test9 folder in external storage
+Test9: Data move operation completed successfully
+Pass: Test9 Pass for data move operation successfully
+Final Message: Pass Test9 Pass for rear Camera image capture
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test9F Scenario is as follows:
+1.Launch camera application, set uSD as a Storage option, start Front camera image picture capture for all Host front resolutions
+2.Move captured front camera images from external storage to Test9F folder folder
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch Camera application and start front camera image capture for all resolutions in uSD card
+Test9F_Fcam_res: 3 resolutions supported
+camera permission handling
+If notification access permission pop-up exists? Accept by selecting allow option
+change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RPG-USB-APPS-38', ip: '10.65.145.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: XQ-CT72, newCommandTimeout: 1200, platformName: android, platformVersion: 13, udid: QV7712Z2CG}, deviceApiLevel: 33, deviceManufacturer: Sony, deviceModel: XQ-CT72, deviceName: QV7712Z2CG, deviceScreenDensity: 420, deviceScreenSize: 1096x2560, deviceUDID: QV7712Z2CG, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 63, takesScreenshot: true, udid: QV7712Z2CG, viewportRect: {height: 2371, left: 0, top: 63, width: 1096}, warnings: {}, webStorageEnabled: false}
+Session ID: 61044496-3ff5-40cb-9fe5-64964c605fd4
+*** Element info: {Using=xpath, value=//*[@text='ALLOW']}
+If Temp pop-up exists please select OK option
+No Temp pop-up found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RPG-USB-APPS-38', ip: '10.65.145.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: XQ-CT72, newCommandTimeout: 1200, platformName: android, platformVersion: 13, udid: QV7712Z2CG}, deviceApiLevel: 33, deviceManufacturer: Sony, deviceModel: XQ-CT72, deviceName: QV7712Z2CG, deviceScreenDensity: 420, deviceScreenSize: 1096x2560, deviceUDID: QV7712Z2CG, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 63, takesScreenshot: true, udid: QV7712Z2CG, viewportRect: {height: 2371, left: 0, top: 63, width: 1096}, warnings: {}, webStorageEnabled: false}
+Session ID: 61044496-3ff5-40cb-9fe5-64964c605fd4
+*** Element info: {Using=xpath, value=//*[@text='OK']}
+Switch to front camera mode
+If Eye Direction Pop-up exists during switch camera select skip opption
+Select Menu option
+Search for Data storage option
+Select SD as storage option
+If Temp pop-up exists please select OK option
+No Temp pop-up found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RPG-USB-APPS-38', ip: '10.65.145.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: XQ-CT72, newCommandTimeout: 1200, platformName: android, platformVersion: 13, udid: QV7712Z2CG}, deviceApiLevel: 33, deviceManufacturer: Sony, deviceModel: XQ-CT72, deviceName: QV7712Z2CG, deviceScreenDensity: 420, deviceScreenSize: 1096x2560, deviceUDID: QV7712Z2CG, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 63, takesScreenshot: true, udid: QV7712Z2CG, viewportRect: {height: 2371, left: 0, top: 63, width: 1096}, warnings: {}, webStorageEnabled: false}
+Session ID: 61044496-3ff5-40cb-9fe5-64964c605fd4
+*** Element info: {Using=xpath, value=//*[@resource-id='com.sonymobile.photopro:id/check_box']}
+Click menu option
+select video size option
+Select first highest front camera  Image Resolution:4:3 (12MP)
+If Temp pop-up exists please select OK option
+No Temp pop-up found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RPG-USB-APPS-38', ip: '10.65.145.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: XQ-CT72, newCommandTimeout: 1200, platformName: android, platformVersion: 13, udid: QV7712Z2CG}, deviceApiLevel: 33, deviceManufacturer: Sony, deviceModel: XQ-CT72, deviceName: QV7712Z2CG, deviceScreenDensity: 420, deviceScreenSize: 1096x2560, deviceUDID: QV7712Z2CG, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 63, takesScreenshot: true, udid: QV7712Z2CG, viewportRect: {height: 2371, left: 0, top: 63, width: 1096}, warnings: {}, webStorageEnabled: false}
+Session ID: 61044496-3ff5-40cb-9fe5-64964c605fd4
+*** Element info: {Using=xpath, value=//*[@text='YES']}
+totalPictureCountFront = 100 Images to be captured
+clicking First   Resolution Image0
+clicking First   Resolution Image1
+clicking First   Resolution Image2
+clicking First   Resolution Image3
+clicking First   Resolution Image4
+clicking First   Resolution Image5
+clicking First   Resolution Image6
+clicking First   Resolution Image7
+clicking First   Resolution Image8
+clicking First   Resolution Image9
+clicking First   Resolution Image10
+clicking First   Resolution Image11
+clicking First   Resolution Image12
+clicking First   Resolution Image13
+clicking First   Resolution Image14
+clicking First   Resolution Image15
+clicking First   Resolution Image16
+clicking First   Resolution Image17
+clicking First   Resolution Image18
+clicking First   Resolution Image19
+clicking First   Resolution Image20
+clicking First   Resolution Image21
+clicking First   Resolution Image22
+clicking First   Resolution Image23
+clicking First   Resolution Image24
+clicking First   Resolution Image25
+clicking First   Resolution Image26
+clicking First   Resolution Image27
+clicking First   Resolution Image28
+clicking First   Resolution Image29
+clicking First   Resolution Image30
+clicking First   Resolution Image31
+clicking First   Resolution Image32
+clicking First   Resolution Image33
+clicking First   Resolution Image34
+clicking First   Resolution Image35
+clicking First   Resolution Image36
+clicking First   Resolution Image37
+clicking First   Resolution Image38
+clicking First   Resolution Image39
+clicking First   Resolution Image40
+clicking First   Resolution Image41
+clicking First   Resolution Image42
+clicking First   Resolution Image43
+clicking First   Resolution Image44
+clicking First   Resolution Image45
+clicking First   Resolution Image46
+clicking First   Resolution Image47
+clicking First   Resolution Image48
+clicking First   Resolution Image49
+clicking First   Resolution Image50
+clicking First   Resolution Image51
+clicking First   Resolution Image52
+clicking First   Resolution Image53
+clicking First   Resolution Image54
+clicking First   Resolution Image55
+clicking First   Resolution Image56
+clicking First   Resolution Image57
+clicking First   Resolution Image58
+clicking First   Resolution Image59
+clicking First   Resolution Image60
+clicking First   Resolution Image61
+clicking First   Resolution Image62
+clicking First   Resolution Image63
+clicking First   Resolution Image64
+clicking First   Resolution Image65
+clicking First   Resolution Image66
+clicking First   Resolution Image67
+clicking First   Resolution Image68
+clicking First   Resolution Image69
+clicking First   Resolution Image70
+clicking First   Resolution Image71
+clicking First   Resolution Image72
+clicking First   Resolution Image73
+clicking First   Resolution Image74
+clicking First   Resolution Image75
+clicking First   Resolution Image76
+clicking First   Resolution Image77
+clicking First   Resolution Image78
+clicking First   Resolution Image79
+clicking First   Resolution Image80
+clicking First   Resolution Image81
+clicking First   Resolution Image82
+clicking First   Resolution Image83
+clicking First   Resolution Image84
+clicking First   Resolution Image85
+clicking First   Resolution Image86
+clicking First   Resolution Image87
+clicking First   Resolution Image88
+clicking First   Resolution Image89
+clicking First   Resolution Image90
+clicking First   Resolution Image91
+clicking First   Resolution Image92
+clicking First   Resolution Image93
+clicking First   Resolution Image94
+clicking First   Resolution Image95
+clicking First   Resolution Image96
+clicking First   Resolution Image97
+clicking First   Resolution Image98
+clicking First   Resolution Image99
+front camera first resolution:100 images Captured succesfull
+Click menu option
+select Image size option
+Select second highest front camera  Image Resolution:16:9 (9MP)
+If Temp pop-up exists please select OK option
+No Temp pop-up found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RPG-USB-APPS-38', ip: '10.65.145.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: XQ-CT72, newCommandTimeout: 1200, platformName: android, platformVersion: 13, udid: QV7712Z2CG}, deviceApiLevel: 33, deviceManufacturer: Sony, deviceModel: XQ-CT72, deviceName: QV7712Z2CG, deviceScreenDensity: 420, deviceScreenSize: 1096x2560, deviceUDID: QV7712Z2CG, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 63, takesScreenshot: true, udid: QV7712Z2CG, viewportRect: {height: 2371, left: 0, top: 63, width: 1096}, warnings: {}, webStorageEnabled: false}
+Session ID: 61044496-3ff5-40cb-9fe5-64964c605fd4
+*** Element info: {Using=xpath, value=//*[@text='YES']}
+totalPictureCountFront1 = 100 Images to be captured
+clicking Second   Resolution Image0
+clicking Second   Resolution Image1
+clicking Second   Resolution Image2
+clicking Second   Resolution Image3
+clicking Second   Resolution Image4
+clicking Second   Resolution Image5
+clicking Second   Resolution Image6
+clicking Second   Resolution Image7
+clicking Second   Resolution Image8
+clicking Second   Resolution Image9
+clicking Second   Resolution Image10
+clicking Second   Resolution Image11
+clicking Second   Resolution Image12
+clicking Second   Resolution Image13
+clicking Second   Resolution Image14
+clicking Second   Resolution Image15
+clicking Second   Resolution Image16
+clicking Second   Resolution Image17
+clicking Second   Resolution Image18
+clicking Second   Resolution Image19
+clicking Second   Resolution Image20
+clicking Second   Resolution Image21
+clicking Second   Resolution Image22
+clicking Second   Resolution Image23
+clicking Second   Resolution Image24
+clicking Second   Resolution Image25
+clicking Second   Resolution Image26
+clicking Second   Resolution Image27
+clicking Second   Resolution Image28
+clicking Second   Resolution Image29
+clicking Second   Resolution Image30
+clicking Second   Resolution Image31
+clicking Second   Resolution Image32
+clicking Second   Resolution Image33
+clicking Second   Resolution Image34
+clicking Second   Resolution Image35
+clicking Second   Resolution Image36
+clicking Second   Resolution Image37
+clicking Second   Resolution Image38
+clicking Second   Resolution Image39
+clicking Second   Resolution Image40
+clicking Second   Resolution Image41
+clicking Second   Resolution Image42
+clicking Second   Resolution Image43
+clicking Second   Resolution Image44
+clicking Second   Resolution Image45
+clicking Second   Resolution Image46
+clicking Second   Resolution Image47
+clicking Second   Resolution Image48
+clicking Second   Resolution Image49
+clicking Second   Resolution Image50
+clicking Second   Resolution Image51
+clicking Second   Resolution Image52
+clicking Second   Resolution Image53
+clicking Second   Resolution Image54
+clicking Second   Resolution Image55
+clicking Second   Resolution Image56
+clicking Second   Resolution Image57
+clicking Second   Resolution Image58
+clicking Second   Resolution Image59
+clicking Second   Resolution Image60
+clicking Second   Resolution Image61
+clicking Second   Resolution Image62
+clicking Second   Resolution Image63
+clicking Second   Resolution Image64
+clicking Second   Resolution Image65
+clicking Second   Resolution Image66
+clicking Second   Resolution Image67
+clicking Second   Resolution Image68
+clicking Second   Resolution Image69
+clicking Second   Resolution Image70
+clicking Second   Resolution Image71
+clicking Second   Resolution Image72
+clicking Second   Resolution Image73
+clicking Second   Resolution Image74
+clicking Second   Resolution Image75
+clicking Second   Resolution Image76
+clicking Second   Resolution Image77
+clicking Second   Resolution Image78
+clicking Second   Resolution Image79
+clicking Second   Resolution Image80
+clicking Second   Resolution Image81
+clicking Second   Resolution Image82
+clicking Second   Resolution Image83
+clicking Second   Resolution Image84
+clicking Second   Resolution Image85
+clicking Second   Resolution Image86
+clicking Second   Resolution Image87
+clicking Second   Resolution Image88
+clicking Second   Resolution Image89
+clicking Second   Resolution Image90
+clicking Second   Resolution Image91
+clicking Second   Resolution Image92
+clicking Second   Resolution Image93
+clicking Second   Resolution Image94
+clicking Second   Resolution Image95
+clicking Second   Resolution Image96
+clicking Second   Resolution Image97
+clicking Second   Resolution Image98
+clicking Second   Resolution Image99
+front camera second resolution:100 images Captured succesfull
+Click menu option
+select Image size option
+Select third highest front camera  Image Resolution:1:1 (9MP)
+If Temp pop-up exists please select OK option
+No Temp pop-up found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RPG-USB-APPS-38', ip: '10.65.145.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: XQ-CT72, newCommandTimeout: 1200, platformName: android, platformVersion: 13, udid: QV7712Z2CG}, deviceApiLevel: 33, deviceManufacturer: Sony, deviceModel: XQ-CT72, deviceName: QV7712Z2CG, deviceScreenDensity: 420, deviceScreenSize: 1096x2560, deviceUDID: QV7712Z2CG, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 13, statBarHeight: 63, takesScreenshot: true, udid: QV7712Z2CG, viewportRect: {height: 2371, left: 0, top: 63, width: 1096}, warnings: {}, webStorageEnabled: false}
+Session ID: 61044496-3ff5-40cb-9fe5-64964c605fd4
+*** Element info: {Using=xpath, value=//*[@text='YES']}
+totalPictureCountFront2 = 100Images to be captured
+clicking third   Resolution Image0
+clicking third   Resolution Image1
+clicking third   Resolution Image2
+clicking third   Resolution Image3
+clicking third   Resolution Image4
+clicking third   Resolution Image5
+clicking third   Resolution Image6
+clicking third   Resolution Image7
+clicking third   Resolution Image8
+clicking third   Resolution Image9
+clicking third   Resolution Image10
+clicking third   Resolution Image11
+clicking third   Resolution Image12
+clicking third   Resolution Image13
+clicking third   Resolution Image14
+clicking third   Resolution Image15
+clicking third   Resolution Image16
+clicking third   Resolution Image17
+clicking third   Resolution Image18
+clicking third   Resolution Image19
+clicking third   Resolution Image20
+clicking third   Resolution Image21
+clicking third   Resolution Image22
+clicking third   Resolution Image23
+clicking third   Resolution Image24
+clicking third   Resolution Image25
+clicking third   Resolution Image26
+clicking third   Resolution Image27
+clicking third   Resolution Image28
+clicking third   Resolution Image29
+clicking third   Resolution Image30
+clicking third   Resolution Image31
+clicking third   Resolution Image32
+clicking third   Resolution Image33
+clicking third   Resolution Image34
+clicking third   Resolution Image35
+clicking third   Resolution Image36
+clicking third   Resolution Image37
+clicking third   Resolution Image38
+clicking third   Resolution Image39
+clicking third   Resolution Image40
+clicking third   Resolution Image41
+clicking third   Resolution Image42
+clicking third   Resolution Image43
+clicking third   Resolution Image44
+clicking third   Resolution Image45
+clicking third   Resolution Image46
+clicking third   Resolution Image47
+clicking third   Resolution Image48
+clicking third   Resolution Image49
+clicking third   Resolution Image50
+clicking third   Resolution Image51
+clicking third   Resolution Image52
+clicking third   Resolution Image53
+clicking third   Resolution Image54
+clicking third   Resolution Image55
+clicking third   Resolution Image56
+clicking third   Resolution Image57
+clicking third   Resolution Image58
+clicking third   Resolution Image59
+clicking third   Resolution Image60
+clicking third   Resolution Image61
+clicking third   Resolution Image62
+clicking third   Resolution Image63
+clicking third   Resolution Image64
+clicking third   Resolution Image65
+clicking third   Resolution Image66
+clicking third   Resolution Image67
+clicking third   Resolution Image68
+clicking third   Resolution Image69
+clicking third   Resolution Image70
+clicking third   Resolution Image71
+clicking third   Resolution Image72
+clicking third   Resolution Image73
+clicking third   Resolution Image74
+clicking third   Resolution Image75
+clicking third   Resolution Image76
+clicking third   Resolution Image77
+clicking third   Resolution Image78
+clicking third   Resolution Image79
+clicking third   Resolution Image80
+clicking third   Resolution Image81
+clicking third   Resolution Image82
+clicking third   Resolution Image83
+clicking third   Resolution Image84
+clicking third   Resolution Image85
+clicking third   Resolution Image86
+clicking third   Resolution Image87
+clicking third   Resolution Image88
+clicking third   Resolution Image89
+clicking third   Resolution Image90
+clicking third   Resolution Image91
+clicking third   Resolution Image92
+clicking third   Resolution Image93
+clicking third   Resolution Image94
+clicking third   Resolution Image95
+clicking third   Resolution Image96
+clicking third   Resolution Image97
+clicking third   Resolution Image98
+clicking third   Resolution Image99
+front camera third resolution:100 images Captured succesfull
+Switch back to rear camera mode
+Total Count value:300 images to be Captured 
+Launch file manager application and verify captured images present in uSD Card
+Swipe up to select uSD card
+Select SD card
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Total Image
+300 selected images Captured succesfull
+Actual Value:300 selected
+Interger value:300
+Tolerance_Level = 75
+
+Pass: Test9F pass for front Image capture
+Test9F_Fcam_image: 300  images Captured succesfull
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+calling DataMoveOperation()
+Re-launch file manager application and select external storage for data move operation, select all front camera images files present in camera folder and move to Test9F folder
+Select external storage
+switch to grid view mode and select DCIM folder
+Select DCIM folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Click More options
+select move to option
+select uSD Card
+Select ADD NEW Folder option
+Name folder as Test9F
+Accept create folder
+Cut paste of front camera captured images from external storage to Test9F folder in external storage
+Test9F: Data move operation completed successfully
+Pass: Test9F Pass for data move operation successfully
+Final Message: Pass Test9F Pass for front Camera image capture
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8,265.946 s - in TestSuite
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ Sony_Xperia_1IV_XQCT72 ---
+[INFO] Building jar: C:\Users\sandisk\Android11\Sony_Xperia_1IV_XQCT72\target\Sony_Xperia_1IV_XQCT72-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ Sony_Xperia_1IV_XQCT72 ---
+[INFO] Installing C:\Users\sandisk\Android11\Sony_Xperia_1IV_XQCT72\target\Sony_Xperia_1IV_XQCT72-0.0.1-SNAPSHOT.jar to C:\Users\sandisk\.m2\repository\Com\Sony_Xperia_1IV_XQCT72\test\Sony_Xperia_1IV_XQCT72\0.0.1-SNAPSHOT\Sony_Xperia_1IV_XQCT72-0.0.1-SNAPSHOT.jar
+[INFO] Installing C:\Users\sandisk\Android11\Sony_Xperia_1IV_XQCT72\pom.xml to C:\Users\sandisk\.m2\repository\Com\Sony_Xperia_1IV_XQCT72\test\Sony_Xperia_1IV_XQCT72\0.0.1-SNAPSHOT\Sony_Xperia_1IV_XQCT72-0.0.1-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  02:17 h
+[INFO] Finished at: 2023-03-01T15:17:51+05:30
+[INFO] ------------------------------------------------------------------------

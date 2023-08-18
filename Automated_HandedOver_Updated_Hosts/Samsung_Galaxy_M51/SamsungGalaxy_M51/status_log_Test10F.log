@@ -1,0 +1,37 @@
+2022-10-16 18:19:22 INFO   Samsung_Galaxy_M51.Test10F rearVideoRec Test:Start
+2022-10-16 18:19:22 INFO   Samsung_Galaxy_M51.Test10F rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-16 18:19:22 INFO   Samsung_Galaxy_M51.Test10F rearVideoRec Test10F Scenario is as follows
+2022-10-16 18:19:22 INFO   Samsung_Galaxy_M51.Test10F rearVideoRec 1.Launch Camera application and start front camera video recording for all host applicable resolutions in uSD Card
+2022-10-16 18:19:22 INFO   Samsung_Galaxy_M51.Test10F rearVideoRec 2.Playback front Highest recorded video for 30 seconds, pause video playback, lock mobile and wait 30 seconds, unlock mobile and playback video from pause video duration
+2022-10-16 18:19:22 INFO   Samsung_Galaxy_M51.Test10F rearVideoRec Setting up the appium desired capabilities
+2022-10-16 18:19:22 INFO   Samsung_Galaxy_M51.Test10F rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-16 18:19:38 INFO   Samsung_Galaxy_M51.Test10F rearVideoRec Launch Home screen and clear recent Apps
+2022-10-16 18:19:49 INFO   Samsung_Galaxy_M51.Test10F rearVideoRec Clearing Recent Apps
+2022-10-16 18:19:56 INFO   Samsung_Galaxy_M51.Test10F rearVideoRec Launch Camera Application for rear camera video recording
+2022-10-16 18:19:58 INFO   Samsung_Galaxy_M51.Test10F rearVideoRec Test10F_Fcam_res: 3 resolutions supported
+2022-10-16 18:19:58 INFO   Samsung_Galaxy_M51.Test10F rearVideoRec If change to uSD card pop-up exists select Cancel
+2022-10-16 18:20:08 INFO   Samsung_Galaxy_M51.Test10F rearVideoRec change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '192.168.153.26', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy M51, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: RZ8NA12311F}, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-M515F, deviceName: RZ8NA12311F, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: RZ8NA12311F, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 91, takesScreenshot: true, udid: RZ8NA12311F, viewportRect: {height: 2092, left: 0, top: 91, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: f3e76b46-5c3f-475c-b5e1-299f72e1eb86
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2022-10-16 18:20:08 INFO   Samsung_Galaxy_M51.Test10F rearVideoRec If Location access Permission Request Pop Exists Click on Cancel. 
+2022-10-16 18:20:18 INFO   Samsung_Galaxy_M51.Test10F rearVideoRec Location access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '192.168.153.26', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy M51, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: RZ8NA12311F}, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-M515F, deviceName: RZ8NA12311F, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: RZ8NA12311F, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 91, takesScreenshot: true, udid: RZ8NA12311F, viewportRect: {height: 2092, left: 0, top: 91, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: f3e76b46-5c3f-475c-b5e1-299f72e1eb86
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2022-10-16 18:20:18 INFO   Samsung_Galaxy_M51.Test10F rearVideoRec Switch To front Camera mode if current Exiting camera is rear camera mode
+2022-10-16 18:20:20 INFO   Samsung_Galaxy_M51.Test10F rearVideoRec Switch to video mode
+2022-10-16 18:20:31 INFO   Samsung_Galaxy_M51.Test10F rearVideoRec Select settings option
+2022-10-16 18:20:36 INFO   Samsung_Galaxy_M51.Test10F rearVideoRec Swipe up and Select Storage location
+2022-10-16 18:20:46 INFO   Samsung_Galaxy_M51.Test10F rearVideoRec Select uSD card as Storage option
+2022-10-16 18:20:55 INFO   Samsung_Galaxy_M51.Test10F rearVideoRec Click on front video size and select resolution
+2022-10-16 18:20:55 INFO   Samsung_Galaxy_M51.Test10F rearVideoRec Select  Front camera first Video Resolution:FRONT_CAMCORDER_RESOLUTION_UHD_60
+2022-10-16 18:21:03 INFO   Samsung_Galaxy_M51.Test10F rearVideoRec Start front video recording

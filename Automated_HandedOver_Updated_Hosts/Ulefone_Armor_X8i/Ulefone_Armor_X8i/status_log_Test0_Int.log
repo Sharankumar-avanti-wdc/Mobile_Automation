@@ -1,0 +1,146 @@
+2023-03-21 14:34:45 INFO   Ulefone_Armor_X8i.Test0_Int start Test: Start
+2023-03-21 14:34:45 INFO   Ulefone_Armor_X8i.Test0_Int start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-21 14:34:45 INFO   Ulefone_Armor_X8i.Test0_Int start  Test0_Int Scenario is as follows  
+2023-03-21 14:34:45 INFO   Ulefone_Armor_X8i.Test0_Int start 1.Unlock phone, clear recent apps,Format uSD as Internal mount and Clear internal mount memory
+2023-03-21 14:34:45 INFO   Ulefone_Armor_X8i.Test0_Int start 2.Call Image() and Capture Rear camera 25 images with default resolution in internal mount uSD card and Verify the data capture
+2023-03-21 14:34:45 INFO   Ulefone_Armor_X8i.Test0_Int start 3.Call Video() and record Rear camera video of first 2 resloutions for 2 minutes of duration in internal mount uSD Card and verify the same
+2023-03-21 14:34:45 INFO   Ulefone_Armor_X8i.Test0_Int start 4.Call Format() Format uSD as External mount,Format back to internal mount, Verify with data format status.
+2023-03-21 14:34:45 INFO   Ulefone_Armor_X8i.Test0_Int start Setting up the appium desired capabilities
+2023-03-21 14:34:45 INFO   Ulefone_Armor_X8i.Test0_Int start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-21 14:34:55 INFO   Ulefone_Armor_X8i.Test0_Int start Unlocking Phone
+2023-03-21 14:34:55 INFO   Ulefone_Armor_X8i.Test0_Int start Launch Home screen
+2023-03-21 14:35:07 INFO   Ulefone_Armor_X8i.Test0_Int start Clearing Recent Apps
+2023-03-21 14:35:19 INFO   Ulefone_Armor_X8i.Test0_Int start Pass: Test0_Int Pass for clearing Recent apps 
+2023-03-21 14:35:21 INFO   Ulefone_Armor_X8i.Test0_Int start Calling FormatAsInternal() to format uSD card as internal mount
+2023-03-21 14:35:21 INFO   Ulefone_Armor_X8i.Test0_Int FormatAsInternal Formatting uSD card as Internal mount
+2023-03-21 14:35:21 INFO   Ulefone_Armor_X8i.Test0_Int FormatAsInternal Launch settings application
+2023-03-21 14:35:28 INFO   Ulefone_Armor_X8i.Test0_Int FormatAsInternal Scrolling till System option is visible
+2023-03-21 14:35:40 INFO   Ulefone_Armor_X8i.Test0_Int FormatAsInternal Clicking on System
+2023-03-21 14:35:45 INFO   Ulefone_Armor_X8i.Test0_Int FormatAsInternal Clicking on Storage
+2023-03-21 14:35:50 INFO   Ulefone_Armor_X8i.Test0_Int FormatAsInternal Clicking on SD card
+2023-03-21 14:36:01 INFO   Ulefone_Armor_X8i.Test0_Int FormatAsInternal Clicking on SD card
+2023-03-21 14:36:06 INFO   Ulefone_Armor_X8i.Test0_Int FormatAsInternal Clicking on more options
+2023-03-21 14:36:11 INFO   Ulefone_Armor_X8i.Test0_Int FormatAsInternal Clicking on Storage settings
+2023-03-21 14:36:17 INFO   Ulefone_Armor_X8i.Test0_Int FormatAsInternal Select format as Internal option
+2023-03-21 14:36:22 INFO   Ulefone_Armor_X8i.Test0_Int FormatAsInternal Accept Format SD card pop-up
+2023-03-21 14:36:53 INFO   Ulefone_Armor_X8i.Test0_Int FormatAsInternal Accept move content  pop-up
+2023-03-21 14:37:53 INFO   Ulefone_Armor_X8i.Test0_Int FormatAsInternal Click Done option
+2023-03-21 14:37:57 INFO   Ulefone_Armor_X8i.Test0_Int FormatAsInternal Pass: Format as Internal Mount scenario completed Successfull
+2023-03-21 14:38:06 INFO   Ulefone_Armor_X8i.Test0_Int start Launch File Manager Application and clear internal memory
+2023-03-21 14:38:13 INFO   Ulefone_Armor_X8i.Test0_Int start Swipe up and Internal storage
+2023-03-21 14:38:16 INFO   Ulefone_Armor_X8i.Test0_Int start Select  Internal storage
+2023-03-21 14:38:22 INFO   Ulefone_Armor_X8i.Test0_Int start Click on more options
+2023-03-21 14:38:25 INFO   Ulefone_Armor_X8i.Test0_Int start Click select all
+2023-03-21 14:38:29 INFO   Ulefone_Armor_X8i.Test0_Int start Click on more options
+2023-03-21 14:38:32 INFO   Ulefone_Armor_X8i.Test0_Int start Select delete option
+2023-03-21 14:38:36 INFO   Ulefone_Armor_X8i.Test0_Int start Accept delete pop-up
+2023-03-21 14:40:36 INFO   Ulefone_Armor_X8i.Test0_Int start Pass: Clearing phone internal memory is successfull
+2023-03-21 14:40:51 INFO   Ulefone_Armor_X8i.Test0_Int start Calling Images() for rear camera image capture and verify the data
+2023-03-21 14:40:51 INFO   Ulefone_Armor_X8i.Test0_Int start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-21 14:40:51 INFO   Ulefone_Armor_X8i.Test0_Int Images Launch Camera Application for Rear picture capture
+2023-03-21 14:40:51 INFO   Ulefone_Armor_X8i.Test0_Int Images Launch Camera Application for Rear camera picture capture
+2023-03-21 14:41:12 INFO   Ulefone_Armor_X8i.Test0_Int Images Select App info option
+2023-03-21 14:41:17 INFO   Ulefone_Armor_X8i.Test0_Int Images Select Open option
+2023-03-21 14:41:23 INFO   Ulefone_Armor_X8i.Test0_Int Images Switch to rear Camera Mode if current Exiting camera is Front camera Mode
+2023-03-21 14:41:33 INFO   Ulefone_Armor_X8i.Test0_Int Images Currently camera is already in rear camera mode no need to switch
+2023-03-21 14:41:33 INFO   Ulefone_Armor_X8i.Test0_Int Images Capture Image of Default Resolution
+2023-03-21 14:41:41 INFO   Ulefone_Armor_X8i.Test0_Int Images Captureing default resolition image 0
+2023-03-21 14:41:48 INFO   Ulefone_Armor_X8i.Test0_Int Images Captureing default resolition image 1
+2023-03-21 14:41:56 INFO   Ulefone_Armor_X8i.Test0_Int Images Captureing default resolition image 2
+2023-03-21 14:42:03 INFO   Ulefone_Armor_X8i.Test0_Int Images Captureing default resolition image 3
+2023-03-21 14:42:11 INFO   Ulefone_Armor_X8i.Test0_Int Images Captureing default resolition image 4
+2023-03-21 14:42:19 INFO   Ulefone_Armor_X8i.Test0_Int Images Captureing default resolition image 5
+2023-03-21 14:42:26 INFO   Ulefone_Armor_X8i.Test0_Int Images Captureing default resolition image 6
+2023-03-21 14:42:34 INFO   Ulefone_Armor_X8i.Test0_Int Images Captureing default resolition image 7
+2023-03-21 14:42:41 INFO   Ulefone_Armor_X8i.Test0_Int Images Captureing default resolition image 8
+2023-03-21 14:42:48 INFO   Ulefone_Armor_X8i.Test0_Int Images Captureing default resolition image 9
+2023-03-21 14:42:56 INFO   Ulefone_Armor_X8i.Test0_Int Images Captureing default resolition image 10
+2023-03-21 14:43:03 INFO   Ulefone_Armor_X8i.Test0_Int Images Captureing default resolition image 11
+2023-03-21 14:43:10 INFO   Ulefone_Armor_X8i.Test0_Int Images Captureing default resolition image 12
+2023-03-21 14:43:18 INFO   Ulefone_Armor_X8i.Test0_Int Images Captureing default resolition image 13
+2023-03-21 14:43:26 INFO   Ulefone_Armor_X8i.Test0_Int Images Captureing default resolition image 14
+2023-03-21 14:43:33 INFO   Ulefone_Armor_X8i.Test0_Int Images Captureing default resolition image 15
+2023-03-21 14:43:40 INFO   Ulefone_Armor_X8i.Test0_Int Images Captureing default resolition image 16
+2023-03-21 14:43:47 INFO   Ulefone_Armor_X8i.Test0_Int Images Captureing default resolition image 17
+2023-03-21 14:43:55 INFO   Ulefone_Armor_X8i.Test0_Int Images Captureing default resolition image 18
+2023-03-21 14:44:02 INFO   Ulefone_Armor_X8i.Test0_Int Images Captureing default resolition image 19
+2023-03-21 14:44:09 INFO   Ulefone_Armor_X8i.Test0_Int Images Captureing default resolition image 20
+2023-03-21 14:44:17 INFO   Ulefone_Armor_X8i.Test0_Int Images Captureing default resolition image 21
+2023-03-21 14:44:24 INFO   Ulefone_Armor_X8i.Test0_Int Images Captureing default resolition image 22
+2023-03-21 14:44:31 INFO   Ulefone_Armor_X8i.Test0_Int Images Captureing default resolition image 23
+2023-03-21 14:44:38 INFO   Ulefone_Armor_X8i.Test0_Int Images Captureing default resolition image 24
+2023-03-21 14:44:43 INFO   Ulefone_Armor_X8i.Test0_Int Images Total Number Of Image captured 25 is successfull
+2023-03-21 14:44:43 INFO   Ulefone_Armor_X8i.Test0_Int Images Launch File Manager application to verify  Image capture
+2023-03-21 14:44:59 INFO   Ulefone_Armor_X8i.Test0_Int Images Select DCIM Folder
+2023-03-21 14:45:09 INFO   Ulefone_Armor_X8i.Test0_Int Images Select Camera Folder
+2023-03-21 14:45:14 INFO   Ulefone_Armor_X8i.Test0_Int Images Select More Options 
+2023-03-21 14:45:25 INFO   Ulefone_Armor_X8i.Test0_Int Images Click On Select All Options
+2023-03-21 14:45:35 INFO   Ulefone_Armor_X8i.Test0_Int Images Pass: Total Number Of Image captured 25 is successfull
+2023-03-21 14:45:49 INFO   Ulefone_Armor_X8i.Test0_Int Images Calling video() for rear video recording in USD card and verifying data capture.
+2023-03-21 14:45:49 INFO   Ulefone_Armor_X8i.Test0_Int Images ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-21 14:45:49 INFO   Ulefone_Armor_X8i.Test0_Int Video Launch home screen and clear recent apps
+2023-03-21 14:45:49 INFO   Ulefone_Armor_X8i.Test0_Int Video Launch home screen and clear recent apps
+2023-03-21 14:46:07 INFO   Ulefone_Armor_X8i.Test0_Int Video Launch Camera Application for Rear camera picture capture
+2023-03-21 14:46:28 INFO   Ulefone_Armor_X8i.Test0_Int Video Select App info option
+2023-03-21 14:46:33 INFO   Ulefone_Armor_X8i.Test0_Int Video Select Open option
+2023-03-21 14:46:39 INFO   Ulefone_Armor_X8i.Test0_Int Video Switch to rear Camera Mode if current Exiting camera is Front camera Mode
+2023-03-21 14:46:49 INFO   Ulefone_Armor_X8i.Test0_Int Video Currently camera is already in rear camera mode no need to switch
+2023-03-21 14:46:49 INFO   Ulefone_Armor_X8i.Test0_Int Video Switch to video recording mode
+2023-03-21 14:46:59 INFO   Ulefone_Armor_X8i.Test0_Int Video Select settings option
+2023-03-21 14:47:04 INFO   Ulefone_Armor_X8i.Test0_Int Video Select Video quality option
+2023-03-21 14:47:10 INFO   Ulefone_Armor_X8i.Test0_Int Video Select first highest rear camera video resolution: FHD
+2023-03-21 14:47:12 INFO   Ulefone_Armor_X8i.Test0_Int Video Start video recording
+2023-03-21 14:49:13 INFO   Ulefone_Armor_X8i.Test0_Int Video Recording Video for 2Minutes of Duration
+2023-03-21 14:49:13 INFO   Ulefone_Armor_X8i.Test0_Int Video Stop video recording
+2023-03-21 14:49:19 INFO   Ulefone_Armor_X8i.Test0_Int Video Select settings option
+2023-03-21 14:49:24 INFO   Ulefone_Armor_X8i.Test0_Int Video Select Video quality option
+2023-03-21 14:49:30 INFO   Ulefone_Armor_X8i.Test0_Int Video Select second highest rear camera video resolution: HD
+2023-03-21 14:49:32 INFO   Ulefone_Armor_X8i.Test0_Int Video Start video recording
+2023-03-21 14:51:33 INFO   Ulefone_Armor_X8i.Test0_Int Video Recording Video for 2Minutes of Duration
+2023-03-21 14:51:33 INFO   Ulefone_Armor_X8i.Test0_Int Video Stop video recording
+2023-03-21 14:51:38 INFO   Ulefone_Armor_X8i.Test0_Int Video Switch to back to photo mode
+2023-03-21 14:51:53 INFO   Ulefone_Armor_X8i.Test0_Int Video Rear camera video recording is successfull
+2023-03-21 14:51:53 INFO   Ulefone_Armor_X8i.Test0_Int Video Launch File Manager application to verify  video  recordings
+2023-03-21 14:52:04 INFO   Ulefone_Armor_X8i.Test0_Int Video Select internal storage
+2023-03-21 14:52:10 INFO   Ulefone_Armor_X8i.Test0_Int Video Select DCIM Folder
+2023-03-21 14:52:20 INFO   Ulefone_Armor_X8i.Test0_Int Video Select Camera Folder
+2023-03-21 14:52:25 INFO   Ulefone_Armor_X8i.Test0_Int Video Select More Options 
+2023-03-21 14:52:36 INFO   Ulefone_Armor_X8i.Test0_Int Video Click On Select All Options
+2023-03-21 14:52:52 INFO   Ulefone_Armor_X8i.Test0_Int Video Pass: 2 Videos recorded Successfully
+2023-03-21 14:52:52 INFO   Ulefone_Armor_X8i.Test0_Int Video Pass: A total of 27 files present in uSD card before Format
+2023-03-21 14:52:52 INFO   Ulefone_Armor_X8i.Test0_Int Video ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-21 14:52:52 INFO   Ulefone_Armor_X8i.Test0_Int Video calling FormatAsExternal() for format with data scenario
+2023-03-21 14:52:52 INFO   Ulefone_Armor_X8i.Test0_Int FormatAsExternal Formatting uSD as External format
+2023-03-21 14:52:52 INFO   Ulefone_Armor_X8i.Test0_Int FormatAsExternal Launch Settings Application
+2023-03-21 14:53:04 INFO   Ulefone_Armor_X8i.Test0_Int FormatAsExternal Scrolling till System option is visible
+2023-03-21 14:53:16 INFO   Ulefone_Armor_X8i.Test0_Int FormatAsExternal Clicking on System
+2023-03-21 14:53:21 INFO   Ulefone_Armor_X8i.Test0_Int FormatAsExternal Clicking on Storage
+2023-03-21 14:53:26 INFO   Ulefone_Armor_X8i.Test0_Int FormatAsExternal Clicking on SD card
+2023-03-21 14:53:32 INFO   Ulefone_Armor_X8i.Test0_Int FormatAsExternal Clicking on more options
+2023-03-21 14:53:42 INFO   Ulefone_Armor_X8i.Test0_Int FormatAsExternal Select Format as portable option
+2023-03-21 14:53:48 INFO   Ulefone_Armor_X8i.Test0_Int FormatAsExternal Select Format as portable option
+2023-03-21 14:53:53 INFO   Ulefone_Armor_X8i.Test0_Int FormatAsExternal Accept format pop-up
+2023-03-21 14:54:33 INFO   Ulefone_Armor_X8i.Test0_Int FormatAsExternal Pass: Fomrat as External Mount is successfull
+2023-03-21 14:54:36 INFO   Ulefone_Armor_X8i.Test0_Int Video ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-21 14:54:36 INFO   Ulefone_Armor_X8i.Test0_Int Video calling FormatAsInternal() for format with data scenario
+2023-03-21 14:54:36 INFO   Ulefone_Armor_X8i.Test0_Int FormatASInternal Formatting uSD card as internal mount
+2023-03-21 14:54:36 INFO   Ulefone_Armor_X8i.Test0_Int FormatASInternal Launch settings application
+2023-03-21 14:54:43 INFO   Ulefone_Armor_X8i.Test0_Int FormatASInternal Scrolling till System option is visible
+2023-03-21 14:54:55 INFO   Ulefone_Armor_X8i.Test0_Int FormatASInternal Clicking on System
+2023-03-21 14:55:00 INFO   Ulefone_Armor_X8i.Test0_Int FormatASInternal Clicking on Storage
+2023-03-21 14:55:05 INFO   Ulefone_Armor_X8i.Test0_Int FormatASInternal Clicking on SD card
+2023-03-21 14:55:15 INFO   Ulefone_Armor_X8i.Test0_Int FormatASInternal Clicking on SD card
+2023-03-21 14:55:20 INFO   Ulefone_Armor_X8i.Test0_Int FormatASInternal Clicking on more options
+2023-03-21 14:55:25 INFO   Ulefone_Armor_X8i.Test0_Int FormatASInternal Clicking on Storage settings
+2023-03-21 14:55:32 INFO   Ulefone_Armor_X8i.Test0_Int FormatASInternal Select format as Internal option
+2023-03-21 14:55:37 INFO   Ulefone_Armor_X8i.Test0_Int FormatASInternal Accept Format SD card pop-up
+2023-03-21 14:57:37 INFO   Ulefone_Armor_X8i.Test0_Int FormatASInternal Accept move content  pop-up
+2023-03-21 14:58:37 INFO   Ulefone_Armor_X8i.Test0_Int FormatASInternal Click Done option
+2023-03-21 14:58:41 INFO   Ulefone_Armor_X8i.Test0_Int FormatASInternal Pass:Format as Internal Mount completed Successfull
+2023-03-21 14:58:47 INFO   Ulefone_Armor_X8i.Test0_Int FormatASInternal Launch file manager
+2023-03-21 14:59:00 INFO   Ulefone_Armor_X8i.Test0_Int FormatASInternal Select DCIM folder
+2023-03-21 14:59:10 INFO   Ulefone_Armor_X8i.Test0_Int FormatASInternal Pass: Images and videos are not present in the DCIM folder, CARD format is successfully completed 
+2023-03-21 14:59:10 INFO   Ulefone_Armor_X8i.Test0_Int FormatASInternal Pass: Images and videos are not present in the DCIM folder, CARD format is successfully completed 
+2023-03-21 14:59:10 INFO   Ulefone_Armor_X8i.Test0_Int FormatASInternal Final Message: Pass Test0_Int pass for format with data scenario
+2023-03-21 14:59:10 INFO   Ulefone_Armor_X8i.Test0_Int FormatASInternal Test: End
+2023-03-21 14:59:10 INFO   Ulefone_Armor_X8i.Test0_Int FormatASInternal ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

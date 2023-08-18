@@ -1,0 +1,52 @@
+2023-02-24 17:06:47 INFO   Doogee_S89.Test10F_Int frontVideoRec Test:Start
+2023-02-24 17:06:47 INFO   Doogee_S89.Test10F_Int frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-24 17:06:47 INFO   Doogee_S89.Test10F_Int frontVideoRec Test10F_Int Scenario is as follows
+2023-02-24 17:06:47 INFO   Doogee_S89.Test10F_Int frontVideoRec 1.Launch Camera application and start front camera video recording for all host applicable resolutions in Internal storage
+2023-02-24 17:06:47 INFO   Doogee_S89.Test10F_Int frontVideoRec 2.Playback front Highest recorded video from Internal storagefor 30 seconds, pause video playback, lock mobile and wait 30 seconds, unlock mobile and playback video from pause video duration
+2023-02-24 17:06:47 INFO   Doogee_S89.Test10F_Int frontVideoRec Setting up the appium desired capabilities
+2023-02-24 17:06:47 INFO   Doogee_S89.Test10F_Int frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-24 17:07:14 INFO   Doogee_S89.Test10F_Int frontVideoRec Clearing Recent Apps
+2023-02-24 17:07:14 INFO   Doogee_S89.Test10F_Int frontVideoRec Pass: No recent apps found
+2023-02-24 17:07:18 INFO   Doogee_S89.Test10F_Int frontVideoRec Launch Camera Application for front camera video recording
+2023-02-24 17:07:25 INFO   Doogee_S89.Test10F_Int frontVideoRec Permission request
+2023-02-24 17:07:35 INFO   Doogee_S89.Test10F_Int frontVideoRec change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: S89, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: S890000000000000127}, deviceApiLevel: 31, deviceManufacturer: DOOGEE, deviceModel: S89, deviceName: S890000000000000127, deviceScreenDensity: 480, deviceScreenSize: 1080x2340, deviceUDID: S890000000000000127, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 90, takesScreenshot: true, udid: S890000000000000127, viewportRect: {height: 2112, left: 0, top: 90, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 8df57153-3eca-4c17-8163-de0429ddca06
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Agree")}
+2023-02-24 17:07:35 INFO   Doogee_S89.Test10F_Int frontVideoRec Allow Camera to access this device’s location?
+2023-02-24 17:07:50 INFO   Doogee_S89.Test10F_Int frontVideoRec Test10F_Int_Fcam_res: 4 resolutions supported
+2023-02-24 17:07:50 INFO   Doogee_S89.Test10F_Int frontVideoRec Clicking Video Tab
+2023-02-24 17:07:56 INFO   Doogee_S89.Test10F_Int frontVideoRec click on front camera
+2023-02-24 17:08:02 INFO   Doogee_S89.Test10F_Int frontVideoRec Select settings option
+2023-02-24 17:08:06 INFO   Doogee_S89.Test10F_Int frontVideoRec Select First front video Resolution: 1920x1080
+2023-02-24 17:08:17 INFO   Doogee_S89.Test10F_Int frontVideoRec Start video recording
+2023-02-24 17:08:20 INFO   Doogee_S89.Test10F_Int frontVideoRec Stop video recording
+2023-02-24 17:18:06 INFO   Doogee_S89.Test10F_Int frontVideoRec Select settings option
+2023-02-24 17:18:10 INFO   Doogee_S89.Test10F_Int frontVideoRec Select second front video Resolution:  1280x720
+2023-02-24 17:18:21 INFO   Doogee_S89.Test10F_Int frontVideoRec Start video recording
+2023-02-24 17:18:23 INFO   Doogee_S89.Test10F_Int frontVideoRec Stop video recording
+2023-02-24 17:28:09 INFO   Doogee_S89.Test10F_Int frontVideoRec Select settings option
+2023-02-24 17:28:13 INFO   Doogee_S89.Test10F_Int frontVideoRec Select third front video Resolution:  640x480
+2023-02-24 17:28:24 INFO   Doogee_S89.Test10F_Int frontVideoRec Start video recording
+2023-02-24 17:28:27 INFO   Doogee_S89.Test10F_Int frontVideoRec Stop video recording
+2023-02-24 17:38:13 INFO   Doogee_S89.Test10F_Int frontVideoRec Select settings option
+2023-02-24 17:38:17 INFO   Doogee_S89.Test10F_Int frontVideoRec Select third front video Resolution:  352x288
+2023-02-24 17:38:29 INFO   Doogee_S89.Test10F_Int frontVideoRec Start video recording
+2023-02-24 17:38:31 INFO   Doogee_S89.Test10F_Int frontVideoRec Stop video recording
+2023-02-24 17:48:17 INFO   Doogee_S89.Test10F_Int frontVideoRec Click On back camera mode
+2023-02-24 17:48:22 INFO   Doogee_S89.Test10F_Int frontVideoRec Switch to defalut Photo mode
+2023-02-24 17:48:33 INFO   Doogee_S89.Test10F_Int frontVideoRec Pass: Test10F_Int pass for front camera video recording
+2023-02-24 17:48:33 INFO   Doogee_S89.Test10F_Int frontVideoRec Launch file manager application and verify recorded video capture Internal storage
+2023-02-24 17:48:50 INFO   Doogee_S89.Test10F_Int frontVideoRec Swipe up to select Internal storage
+2023-02-24 17:48:59 INFO   Doogee_S89.Test10F_Int frontVideoRec Select Internal storage
+2023-02-24 17:49:11 INFO   Doogee_S89.Test10F_Int frontVideoRec Select DCIM folder
+2023-02-24 17:49:14 INFO   Doogee_S89.Test10F_Int frontVideoRec Select camera folder
+2023-02-24 17:49:18 INFO   Doogee_S89.Test10F_Int frontVideoRec Click More options
+2023-02-24 17:49:24 INFO   Doogee_S89.Test10F_Int frontVideoRec Click Select all
+2023-02-24 17:49:38 INFO   Doogee_S89.Test10F_Int frontVideoRec Fail: Test10F_Int Fail for front camera video recording 
+2023-02-24 17:49:38 INFO   Doogee_S89.Test10F_Int frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-24 17:49:38 INFO   Doogee_S89.Test10F_Int frontVideoRec Click On back camera mode

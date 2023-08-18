@@ -1,0 +1,88 @@
+2023-01-09 12:42:03 INFO   Motorola_Moto_G_Stylus_2022.Test10F frontVideoRec Test: Start
+2023-01-09 12:42:03 INFO   Motorola_Moto_G_Stylus_2022.Test10F frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-09 12:42:03 INFO   Motorola_Moto_G_Stylus_2022.Test10F frontVideoRec Test10F Scenario is as follows
+2023-01-09 12:42:03 INFO   Motorola_Moto_G_Stylus_2022.Test10F frontVideoRec 1.Launch Camera application and start front camera video recording for all host applicable resolutions in uSD Card
+2023-01-09 12:42:03 INFO   Motorola_Moto_G_Stylus_2022.Test10F frontVideoRec 2.Playback front Highest recorded video for 30 seconds, pause video playback, lock mobile and wait 30 seconds, unlock mobile and playback video from pause video duration
+2023-01-09 12:42:03 INFO   Motorola_Moto_G_Stylus_2022.Test10F frontVideoRec Setting up the appium desired capabilities
+2023-01-09 12:42:03 INFO   Motorola_Moto_G_Stylus_2022.Test10F frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-09 12:42:17 INFO   Motorola_Moto_G_Stylus_2022.Test10F frontVideoRec Launch  Home screen
+2023-01-09 12:42:22 INFO   Motorola_Moto_G_Stylus_2022.Test10F frontVideoRec Launch appium permission access pop-up
+2023-01-09 12:42:32 INFO   Motorola_Moto_G_Stylus_2022.Test10F frontVideoRec No permission access pop-up found
+2023-01-09 12:42:32 INFO   Motorola_Moto_G_Stylus_2022.Test10F frontVideoRec Launch Camera application for front camera video recording
+2023-01-09 12:42:50 INFO   Motorola_Moto_G_Stylus_2022.Test10F frontVideoRec No location permission access pop-up found: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: moto g stylus (2022), newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: ZY22DXJK6R}, deviceApiLevel: 30, deviceManufacturer: motorola, deviceModel: moto g stylus (2022), deviceName: ZY22DXJK6R, deviceScreenDensity: 400, deviceScreenSize: 1080x2460, deviceUDID: ZY22DXJK6R, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.5, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 115, takesScreenshot: true, udid: ZY22DXJK6R, viewportRect: {height: 2170, left: 0, top: 115, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 0828a21f-6da2-406a-a12e-28bec2272cff
+*** Element info: {Using=xpath, value=//*[@resource-id='android:id/button2']}
+2023-01-09 12:42:52 INFO   Motorola_Moto_G_Stylus_2022.Test10F frontVideoRec Test10F_Fcam_res: 2 resolutions supported
+2023-01-09 12:42:52 INFO   Motorola_Moto_G_Stylus_2022.Test10F frontVideoRec Switch to video tab
+2023-01-09 12:42:56 INFO   Motorola_Moto_G_Stylus_2022.Test10F frontVideoRec Switch to front video camera mode
+2023-01-09 12:43:00 INFO   Motorola_Moto_G_Stylus_2022.Test10F frontVideoRec Select settings option
+2023-01-09 12:43:36 INFO   Motorola_Moto_G_Stylus_2022.Test10F frontVideoRec Search for SD Card option
+2023-01-09 12:43:46 INFO   Motorola_Moto_G_Stylus_2022.Test10F frontVideoRec Select  storage option
+2023-01-09 12:43:51 INFO   Motorola_Moto_G_Stylus_2022.Test10F frontVideoRec Select SD as storage option
+2023-01-09 12:44:00 INFO   Motorola_Moto_G_Stylus_2022.Test10F frontVideoRec Select settings option to select resolution
+2023-01-09 12:44:42 INFO   Motorola_Moto_G_Stylus_2022.Test10F frontVideoRec Select first video resolution: Aspect ratio 9:16
+2023-01-09 12:46:09 INFO   Motorola_Moto_G_Stylus_2022.Test10F frontVideoRec Start video recording for specified duration time
+2023-01-09 12:56:21 INFO   Motorola_Moto_G_Stylus_2022.Test10F frontVideoRec Stop video recording
+2023-01-09 12:56:22 INFO   Motorola_Moto_G_Stylus_2022.Test10F frontVideoRec click setting option to select second highest video resolution
+2023-01-09 12:57:04 INFO   Motorola_Moto_G_Stylus_2022.Test10F frontVideoRec Select second highest resolution: Aspect ratio Full
+2023-01-09 12:58:31 INFO   Motorola_Moto_G_Stylus_2022.Test10F frontVideoRec Start Recording second resolution video for specified duration time
+2023-01-09 13:08:44 INFO   Motorola_Moto_G_Stylus_2022.Test10F frontVideoRec Stop Recording
+2023-01-09 13:08:49 INFO   Motorola_Moto_G_Stylus_2022.Test10F frontVideoRec Switch from Front Mode to rear camera mode
+2023-01-09 13:09:26 INFO   Motorola_Moto_G_Stylus_2022.Test10F frontVideoRec Clicking photo Tab
+2023-01-09 13:09:42 INFO   Motorola_Moto_G_Stylus_2022.Test10F frontVideoRec Pass: pass for front camera video recording
+2023-01-09 13:09:42 INFO   Motorola_Moto_G_Stylus_2022.Test10F frontVideoRec Launch File Manager Application to verify captured videos
+2023-01-09 13:09:43 INFO   Motorola_Moto_G_Stylus_2022.Test10F frontVideoRec click on browse option
+2023-01-09 13:09:48 INFO   Motorola_Moto_G_Stylus_2022.Test10F frontVideoRec Select  SD Card
+2023-01-09 13:09:55 INFO   Motorola_Moto_G_Stylus_2022.Test10F frontVideoRec Select DCIM Folder
+2023-01-09 13:10:08 INFO   Motorola_Moto_G_Stylus_2022.Test10F frontVideoRec Select Camera Folder
+2023-01-09 13:10:14 INFO   Motorola_Moto_G_Stylus_2022.Test10F frontVideoRec Select More Options 
+2023-01-09 13:10:24 INFO   Motorola_Moto_G_Stylus_2022.Test10F frontVideoRec Click On Select All Options
+2023-01-09 13:10:34 INFO   Motorola_Moto_G_Stylus_2022.Test10F frontVideoRec Test10F_Fcam_video: 2 Videos captured successfull
+2023-01-09 13:10:34 INFO   Motorola_Moto_G_Stylus_2022.Test10F frontVideoRec Calling VideoPlayBackForSleepWake()
+2023-01-09 13:10:34 INFO   Motorola_Moto_G_Stylus_2022.Test10F frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-09 13:10:34 INFO   Motorola_Moto_G_Stylus_2022.Test10F VideoPlayBackForSleepWake Launch  Home screen
+2023-01-09 13:10:40 INFO   Motorola_Moto_G_Stylus_2022.Test10F VideoPlayBackForSleepWake Launch File Manager application and playback front recorded video from USD for 30 seconds, pause video playback, locking phone and unlock after 30 seconds delay and playback video from pause duration.
+2023-01-09 13:10:48 INFO   Motorola_Moto_G_Stylus_2022.Test10F VideoPlayBackForSleepWake Select External Storage
+2023-01-09 13:10:56 INFO   Motorola_Moto_G_Stylus_2022.Test10F VideoPlayBackForSleepWake Select DCIM Folder
+2023-01-09 13:10:59 INFO   Motorola_Moto_G_Stylus_2022.Test10F VideoPlayBackForSleepWake Select Camera
+2023-01-09 13:11:03 INFO   Motorola_Moto_G_Stylus_2022.Test10F VideoPlayBackForSleepWake select more options
+2023-01-09 13:11:08 INFO   Motorola_Moto_G_Stylus_2022.Test10F VideoPlayBackForSleepWake Select Sort BY
+2023-01-09 13:11:12 INFO   Motorola_Moto_G_Stylus_2022.Test10F VideoPlayBackForSleepWake Select Newest date first
+2023-01-09 13:11:16 INFO   Motorola_Moto_G_Stylus_2022.Test10F VideoPlayBackForSleepWake Click on first file to play highest recorded resolution video file
+2023-01-09 13:11:16 INFO   Motorola_Moto_G_Stylus_2022.Test10F VideoPlayBackForSleepWake Started video playback
+2023-01-09 13:11:36 INFO   Motorola_Moto_G_Stylus_2022.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-01-09 13:11:36 INFO   Motorola_Moto_G_Stylus_2022.Test10F VideoPlayBackForSleepWake Click pause video button
+2023-01-09 13:11:40 INFO   Motorola_Moto_G_Stylus_2022.Test10F VideoPlayBackForSleepWake Lock Mobile with 30 seconds delay
+2023-01-09 13:12:10 INFO   Motorola_Moto_G_Stylus_2022.Test10F VideoPlayBackForSleepWake Wait For 30Seconds
+2023-01-09 13:12:15 INFO   Motorola_Moto_G_Stylus_2022.Test10F VideoPlayBackForSleepWake Unlock Mobile 
+2023-01-09 13:12:15 INFO   Motorola_Moto_G_Stylus_2022.Test10F VideoPlayBackForSleepWake Click pause video button
+2023-01-09 13:12:49 INFO   Motorola_Moto_G_Stylus_2022.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-01-09 13:12:49 INFO   Motorola_Moto_G_Stylus_2022.Test10F VideoPlayBackForSleepWake Click pause video button
+2023-01-09 13:13:00 INFO   Motorola_Moto_G_Stylus_2022.Test10F VideoPlayBackForSleepWake Pass: Test10F Pass for Front video play back, Pause,Lock and Unlock Phone Play back from Pause duration Scenario
+2023-01-09 13:13:00 INFO   Motorola_Moto_G_Stylus_2022.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-09 13:13:00 INFO   Motorola_Moto_G_Stylus_2022.Test10F VideoPlayBackForSleepWake calling DatamoveOperation() to move front camera recorded videos files to Test10F folder
+2023-01-09 13:13:06 INFO   Motorola_Moto_G_Stylus_2022.Test10F DataMoveOperation launch file manager application select uSD card-->DCIM folder-->Camera folder-->Select all back camera front camera videos create Test10 and cut paste all videos in BCFC_Cameravideos folder
+2023-01-09 13:13:22 INFO   Motorola_Moto_G_Stylus_2022.Test10F DataMoveOperation click on browse option
+2023-01-09 13:13:25 INFO   Motorola_Moto_G_Stylus_2022.Test10F DataMoveOperation Swipe up to select uSD card
+2023-01-09 13:13:28 INFO   Motorola_Moto_G_Stylus_2022.Test10F DataMoveOperation Select SD card
+2023-01-09 13:13:34 INFO   Motorola_Moto_G_Stylus_2022.Test10F DataMoveOperation Select DCIM folder
+2023-01-09 13:13:38 INFO   Motorola_Moto_G_Stylus_2022.Test10F DataMoveOperation Select camera folder
+2023-01-09 13:13:41 INFO   Motorola_Moto_G_Stylus_2022.Test10F DataMoveOperation Click More options
+2023-01-09 13:13:47 INFO   Motorola_Moto_G_Stylus_2022.Test10F DataMoveOperation Click Select all
+2023-01-09 13:13:51 INFO   Motorola_Moto_G_Stylus_2022.Test10F DataMoveOperation Click More options
+2023-01-09 13:13:57 INFO   Motorola_Moto_G_Stylus_2022.Test10F DataMoveOperation Select move to option
+2023-01-09 13:14:04 INFO   Motorola_Moto_G_Stylus_2022.Test10F DataMoveOperation Select uSD Card
+2023-01-09 13:14:10 INFO   Motorola_Moto_G_Stylus_2022.Test10F DataMoveOperation Select ADD NEW Folder option
+2023-01-09 13:14:16 INFO   Motorola_Moto_G_Stylus_2022.Test10F DataMoveOperation Name folder as Test10F
+2023-01-09 13:14:23 INFO   Motorola_Moto_G_Stylus_2022.Test10F DataMoveOperation Accept create folder
+2023-01-09 13:16:23 INFO   Motorola_Moto_G_Stylus_2022.Test10F DataMoveOperation Cut paste  video files operation completed successfully
+2023-01-09 13:16:28 INFO   Motorola_Moto_G_Stylus_2022.Test10F DataMoveOperation Pass: Test10F Pass for data move operation successfully
+2023-01-09 13:16:28 INFO   Motorola_Moto_G_Stylus_2022.Test10F DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-09 13:16:28 INFO   Motorola_Moto_G_Stylus_2022.Test10F VideoPlayBackForSleepWake Final Message: Pass Test10F Pass for front camera  video recording, Pause Video Playback scenario and data move operation scenario
+2023-01-09 13:16:28 INFO   Motorola_Moto_G_Stylus_2022.Test10F VideoPlayBackForSleepWake Test: End
+2023-01-09 13:16:28 INFO   Motorola_Moto_G_Stylus_2022.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

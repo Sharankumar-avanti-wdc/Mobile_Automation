@@ -1,0 +1,61 @@
+2023-03-10 18:33:17 INFO   BLU_G91_Pro.Test8_Int recordAudio Test: Start
+2023-03-10 18:33:17 INFO   BLU_G91_Pro.Test8_Int recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-10 18:33:17 INFO   BLU_G91_Pro.Test8_Int recordAudio Test8_Int scenario is as follows
+2023-03-10 18:33:17 INFO   BLU_G91_Pro.Test8_Int recordAudio 1.Launch mobile default voice recording application and set  storage option, record audio file for 2 minutes duration
+2023-03-10 18:33:17 INFO   BLU_G91_Pro.Test8_Int recordAudio 2.Launch file manager application and playback recorded audio file from external storage, fast forward audio file and pause
+2023-03-10 18:33:17 INFO   BLU_G91_Pro.Test8_Int recordAudio 3.Launch file manager application and playback copied audio files from external storage the files are placed in the Test1 folder
+2023-03-10 18:33:17 INFO   BLU_G91_Pro.Test8_Int recordAudio Setting up the appium desired capabilities
+2023-03-10 18:33:17 INFO   BLU_G91_Pro.Test8_Int recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-10 18:33:25 INFO   BLU_G91_Pro.Test8_Int recordAudio Launch Home screen application and clear recent apps
+2023-03-10 18:33:33 INFO   BLU_G91_Pro.Test8_Int recordAudio Clearing Recent Apps
+2023-03-10 18:33:34 INFO   BLU_G91_Pro.Test8_Int recordAudio Pass: No recent apps found
+2023-03-10 18:33:38 INFO   BLU_G91_Pro.Test8_Int recordAudio Launch Voice recorder application for Audio recording
+2023-03-10 18:33:43 INFO   BLU_G91_Pro.Test8_Int recordAudio If application launch permission pop-up exists accept allow permission to launch application
+2023-03-10 18:33:43 INFO   BLU_G91_Pro.Test8_Int recordAudio Clicking on settings
+2023-03-10 18:33:49 INFO   BLU_G91_Pro.Test8_Int recordAudio Select location 
+2023-03-10 18:33:54 INFO   BLU_G91_Pro.Test8_Int recordAudio Select sd card
+2023-03-10 18:33:54 INFO   BLU_G91_Pro.Test8_Int recordAudio click on Select 
+2023-03-10 18:34:00 INFO   BLU_G91_Pro.Test8_Int recordAudio click on close 
+2023-03-10 18:34:13 INFO   BLU_G91_Pro.Test8_Int recordAudio Start Recording
+2023-03-10 18:36:13 INFO   BLU_G91_Pro.Test8_Int recordAudio Stop Recording
+2023-03-10 18:36:20 INFO   BLU_G91_Pro.Test8_Int recordAudio Stop and Save Recording
+2023-03-10 18:37:01 INFO   BLU_G91_Pro.Test8_Int recordAudio Pass: Test8_Int pass for recording  audio file
+2023-03-10 18:37:01 INFO   BLU_G91_Pro.Test8_Int recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-10 18:37:01 INFO   BLU_G91_Pro.Test8_Int recordAudio Calling PlayRecordedAudio() for Audio play back and fast forward scenario
+2023-03-10 18:37:12 INFO   BLU_G91_Pro.Test8_Int PlayRecordedAudio Launch File Manager Application
+2023-03-10 18:37:21 INFO   BLU_G91_Pro.Test8_Int PlayRecordedAudio Launch File Manager Application
+2023-03-10 18:37:26 INFO   BLU_G91_Pro.Test8_Int PlayRecordedAudio switch to grid view mode to select Music folder
+2023-03-10 18:37:29 INFO   BLU_G91_Pro.Test8_Int PlayRecordedAudio Select Recorders Folder
+2023-03-10 18:37:33 INFO   BLU_G91_Pro.Test8_Int PlayRecordedAudio switch to list view mode 
+2023-03-10 18:37:36 INFO   BLU_G91_Pro.Test8_Int PlayRecordedAudio Click first audio file for audio playback and fast forward scenario
+2023-03-10 18:38:16 INFO   BLU_G91_Pro.Test8_Int PlayRecordedAudio Fast Forwarding Audio for 10 Seconds
+2023-03-10 18:38:19 INFO   BLU_G91_Pro.Test8_Int PlayRecordedAudio Continue audio playback
+2023-03-10 18:38:49 INFO   BLU_G91_Pro.Test8_Int PlayRecordedAudio Pause audio playback
+2023-03-10 18:39:00 INFO   BLU_G91_Pro.Test8_Int PlayRecordedAudio Pass: Test8_Int Pass for playing, fast forward, and pause recorded audio file scenario
+2023-03-10 18:39:00 INFO   BLU_G91_Pro.Test8_Int PlayRecordedAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-10 18:39:00 INFO   BLU_G91_Pro.Test8_Int PlayRecordedAudio Calling PlayCopiedAudioFile() for copied audio files from Test1 folder
+2023-03-10 18:39:05 INFO   BLU_G91_Pro.Test8_Int PlayCopiedAudioFile Launch File Manager Application
+2023-03-10 18:39:13 INFO   BLU_G91_Pro.Test8_Int PlayCopiedAudioFile Select  Internal storage
+2023-03-10 18:39:24 INFO   BLU_G91_Pro.Test8_Int PlayCopiedAudioFile Select Test1 folder
+2023-03-10 18:39:34 INFO   BLU_G91_Pro.Test8_Int PlayCopiedAudioFile Select Test_file folder
+2023-03-10 18:39:39 INFO   BLU_G91_Pro.Test8_Int PlayCopiedAudioFile Select 1GB folder
+2023-03-10 18:39:43 INFO   BLU_G91_Pro.Test8_Int PlayCopiedAudioFile Select MP3 files Folder
+2023-03-10 18:39:48 INFO   BLU_G91_Pro.Test8_Int PlayCopiedAudioFile Playing first audio file from Test1 folder
+2023-03-10 18:40:28 INFO   BLU_G91_Pro.Test8_Int PlayCopiedAudioFile Fast Forwarding Audio for 10 Seconds
+2023-03-10 18:40:32 INFO   BLU_G91_Pro.Test8_Int PlayCopiedAudioFile Pause Audio
+2023-03-10 18:40:36 INFO   BLU_G91_Pro.Test8_Int PlayCopiedAudioFile Pass: first audio file palyback and fast forward scenario is successfull
+2023-03-10 18:40:39 INFO   BLU_G91_Pro.Test8_Int PlayCopiedAudioFile Playing second audio file from Test1 folder
+2023-03-10 18:41:19 INFO   BLU_G91_Pro.Test8_Int PlayCopiedAudioFile Fast Forwarding Audio for 10 Seconds
+2023-03-10 18:41:23 INFO   BLU_G91_Pro.Test8_Int PlayCopiedAudioFile Continue audio playback
+2023-03-10 18:41:33 INFO   BLU_G91_Pro.Test8_Int PlayCopiedAudioFile Pause Audio
+2023-03-10 18:41:37 INFO   BLU_G91_Pro.Test8_Int PlayCopiedAudioFile Pass: Seond audio file palyback and fast forward scenario is successfull
+2023-03-10 18:41:39 INFO   BLU_G91_Pro.Test8_Int PlayCopiedAudioFile Playing third audio file from Test1 folder
+2023-03-10 18:42:19 INFO   BLU_G91_Pro.Test8_Int PlayCopiedAudioFile Fast Forwarding Audio for 10 Seconds
+2023-03-10 18:42:23 INFO   BLU_G91_Pro.Test8_Int PlayCopiedAudioFile Continue audio playback
+2023-03-10 18:42:33 INFO   BLU_G91_Pro.Test8_Int PlayCopiedAudioFile Pause Audio
+2023-03-10 18:42:37 INFO   BLU_G91_Pro.Test8_Int PlayCopiedAudioFile Pass: Third audio file palyback and fast forward scenario is successfull
+2023-03-10 18:42:37 INFO   BLU_G91_Pro.Test8_Int PlayCopiedAudioFile Pass: Test8_Int Pass for Recorded and copied audio play back and fast forward scenario
+2023-03-10 18:42:37 INFO   BLU_G91_Pro.Test8_Int PlayCopiedAudioFile ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-10 18:42:37 INFO   BLU_G91_Pro.Test8_Int PlayCopiedAudioFile Final Message: Pass Test8_Int Pass for Recorded and copied audio play back and fast forward scenario
+2023-03-10 18:42:37 INFO   BLU_G91_Pro.Test8_Int PlayCopiedAudioFile Test: End
+2023-03-10 18:42:37 INFO   BLU_G91_Pro.Test8_Int PlayCopiedAudioFile ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

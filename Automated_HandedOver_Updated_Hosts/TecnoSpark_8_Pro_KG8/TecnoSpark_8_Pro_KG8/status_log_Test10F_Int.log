@@ -1,0 +1,80 @@
+2023-02-27 13:27:34 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int frontVideoRec Test:Start
+2023-02-27 13:27:34 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-27 13:27:34 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int frontVideoRec Test10F_Int Scenario is as follows
+2023-02-27 13:27:34 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int frontVideoRec 1.Launch Camera application and start front camera video recording for all host applicable resolutions in Internal storage
+2023-02-27 13:27:34 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int frontVideoRec 2.Playback front Highest recorded video for 30 seconds, pause video playback, lock mobile and wait 30 seconds, unlock mobile and playback video from pause video duration
+2023-02-27 13:27:34 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int frontVideoRec Setting up the appium desired capabilities
+2023-02-27 13:27:34 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-27 13:28:04 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int frontVideoRec Pass: No recent apps found
+2023-02-27 13:28:08 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int frontVideoRec Launch Camera Application for rear camera video recording
+2023-02-27 13:28:17 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int frontVideoRec Select on video
+2023-02-27 13:28:23 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int frontVideoRec Test10F_Int_Fcam_res: 3 resolutions supported
+2023-02-27 13:28:23 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int frontVideoRec Click On front camera mode
+2023-02-27 13:28:28 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int frontVideoRec Select settings option
+2023-02-27 13:28:34 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int frontVideoRec Select First front video Resolution:  1080P
+2023-02-27 13:28:46 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int frontVideoRec Start video recording
+2023-02-27 13:28:46 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int frontVideoRec Stop video recording
+2023-02-27 13:38:33 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int frontVideoRec Select settings option
+2023-02-27 13:38:39 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int frontVideoRec Select second front video Resolution:  720P
+2023-02-27 13:38:50 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int frontVideoRec Start video recording
+2023-02-27 13:38:51 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int frontVideoRec Stop video recording
+2023-02-27 13:48:36 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int frontVideoRec Select settings option
+2023-02-27 13:48:42 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int frontVideoRec Select third front video Resolution:  2k
+2023-02-27 13:48:54 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int frontVideoRec Start video recording
+2023-02-27 13:48:54 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int frontVideoRec Stop video recording
+2023-02-27 13:58:40 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int frontVideoRec Click On back camera mode
+2023-02-27 13:58:45 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int frontVideoRec Switch to defalut Photo mode
+2023-02-27 13:58:57 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int frontVideoRec Pass: Test10F_Int pass for front camera video recording
+2023-02-27 13:58:57 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-27 13:58:57 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int frontVideoRec Launch File Manager Application to verify captured videos
+2023-02-27 13:59:03 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int frontVideoRec Select  Internal storage
+2023-02-27 13:59:08 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int frontVideoRec swipe up and search for dcim
+2023-02-27 13:59:11 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int frontVideoRec Select DCIM Folder
+2023-02-27 13:59:17 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int frontVideoRec Select Camera Folder
+2023-02-27 13:59:22 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int frontVideoRec Select More Options 
+2023-02-27 13:59:27 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int frontVideoRec Click On Select All Options
+2023-02-27 13:59:36 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int frontVideoRec Test10F_Int_Fcam_video: 3 Videos captured successfull
+2023-02-27 13:59:36 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-27 13:59:42 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int frontVideoRec Calling VideoPlayBackForSleepWake()
+2023-02-27 13:59:42 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int VideoPlayBackForSleepWake Launch File Manager application and playback front recorded video from USD for 30 seconds, pause video playback, locking phone and unlock after 30 seconds delay and playback video from pause duration.
+2023-02-27 13:59:49 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int VideoPlayBackForSleepWake swipe up and search for Internal storage
+2023-02-27 13:59:51 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int VideoPlayBackForSleepWake Select External Storage
+2023-02-27 13:59:56 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int VideoPlayBackForSleepWake swipe up and search for dcim
+2023-02-27 13:59:59 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int VideoPlayBackForSleepWake Select DCIM Folder
+2023-02-27 14:00:03 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int VideoPlayBackForSleepWake Select Camera
+2023-02-27 14:00:06 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int VideoPlayBackForSleepWake select more options
+2023-02-27 14:00:11 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int VideoPlayBackForSleepWake Select Sort BY
+2023-02-27 14:00:16 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int VideoPlayBackForSleepWake Select Newest date first
+2023-02-27 14:00:19 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int VideoPlayBackForSleepWake Click on first file to play newest date frist recorded resolution video file in uInternal storage
+2023-02-27 14:00:20 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int VideoPlayBackForSleepWake Started video playback
+2023-02-27 14:00:40 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-02-27 14:00:40 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int VideoPlayBackForSleepWake Lock Mobile with 30 seconds delay
+2023-02-27 14:01:10 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int VideoPlayBackForSleepWake Wait For 30Seconds
+2023-02-27 14:01:15 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int VideoPlayBackForSleepWake Unlock Mobile 
+2023-02-27 14:01:45 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int VideoPlayBackForSleepWake Pause video 
+2023-02-27 14:01:51 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int VideoPlayBackForSleepWake Pass: Test10F_Int Pass for Front video play back, Pause,Lock and Unlock Phone Play back from Pause duration Scenario
+2023-02-27 14:01:51 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-27 14:01:51 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int VideoPlayBackForSleepWake Calling Data Move Operation
+2023-02-27 14:01:51 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int DataMoveOperation Re-launch file manager application and select Internal storage for data move operation, select all front camera videos present in camera folder and move to Test10F_Int folder
+2023-02-27 14:01:58 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int DataMoveOperation Launching file manager application
+2023-02-27 14:02:00 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int DataMoveOperation Select Internal storage
+2023-02-27 14:02:05 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int DataMoveOperation switch to grid view mode and select DCIM  folder
+2023-02-27 14:02:09 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int DataMoveOperation Select DCIM folder
+2023-02-27 14:02:12 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int DataMoveOperation Select camera  folder
+2023-02-27 14:02:15 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int DataMoveOperation switch to list view mode 
+2023-02-27 14:02:18 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int DataMoveOperation Click More options
+2023-02-27 14:02:25 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int DataMoveOperation Click Select all
+2023-02-27 14:02:28 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int DataMoveOperation Click More options
+2023-02-27 14:02:35 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int DataMoveOperation Select move to option
+2023-02-27 14:02:41 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int DataMoveOperation Select Internal storage
+2023-02-27 14:02:48 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int DataMoveOperation Select ADD NEW Folder option
+2023-02-27 14:02:54 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int DataMoveOperation Name folder as Test10F_Int
+2023-02-27 14:03:01 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int DataMoveOperation Accept create folder
+2023-02-27 14:03:33 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int DataMoveOperation Cut paste  video files operation completed successfully
+2023-02-27 14:03:33 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int DataMoveOperation Test10F_Int: Data move operation completed successfully
+2023-02-27 14:03:39 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int DataMoveOperation Pass: Test10F_Int Pass for data move operation successfully
+2023-02-27 14:03:39 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-27 14:03:39 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int VideoPlayBackForSleepWake Final Message: Pass Test10F_Int Pass for Pause Video Playback
+2023-02-27 14:03:39 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int VideoPlayBackForSleepWake Test: End
+2023-02-27 14:03:39 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-27 14:03:39 INFO   TecnoSpark_8_Pro_KG8.Test10F_Int frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 14,148.272 s <<< FAILURE! - in TestSuite
+Doogee_S89.Test10_Int.rearVideoRec  Time elapsed: 2,571.104 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: S89, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: S890000000000000127}, deviceApiLevel: 31, deviceManufacturer: DOOGEE, deviceModel: S89, deviceName: S890000000000000127, deviceScreenDensity: 480, deviceScreenSize: 1080x2340, deviceUDID: S890000000000000127, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 90, takesScreenshot: true, udid: S890000000000000127, viewportRect: {height: 2112, left: 0, top: 90, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 39d7d62a-ed59-4f17-bf29-87707497f2bc
+*** Element info: {Using=xpath, value=//*[@text='Capture']}
+	at Doogee_S89.Test10_Int.rearVideoRec(Test10_Int.java:358)
+
+Doogee_S89.Test10F_Int.frontVideoRec  Time elapsed: 2,581.277 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: S89, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: S890000000000000127}, deviceApiLevel: 31, deviceManufacturer: DOOGEE, deviceModel: S89, deviceName: S890000000000000127, deviceScreenDensity: 480, deviceScreenSize: 1080x2340, deviceUDID: S890000000000000127, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 90, takesScreenshot: true, udid: S890000000000000127, viewportRect: {height: 2112, left: 0, top: 90, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 8df57153-3eca-4c17-8163-de0429ddca06
+*** Element info: {Using=xpath, value=//android.widget.ImageView[@content-desc="Front camera"]}
+	at Doogee_S89.Test10F_Int.frontVideoRec(Test10F_Int.java:387)
+

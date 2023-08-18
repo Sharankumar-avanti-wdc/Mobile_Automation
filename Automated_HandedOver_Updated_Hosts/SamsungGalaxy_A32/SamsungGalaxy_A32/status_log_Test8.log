@@ -1,0 +1,75 @@
+2023-01-10 19:29:04 INFO   SamsungGalaxy_A32.Test8 recordAudio Test: Start
+2023-01-10 19:29:04 INFO   SamsungGalaxy_A32.Test8 recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-10 19:29:04 INFO   SamsungGalaxy_A32.Test8 recordAudio Test8 scenario is as follows
+2023-01-10 19:29:04 INFO   SamsungGalaxy_A32.Test8 recordAudio 1.Launch mobile default voice recording application and set uSD card storage option, record audio file for 2 minutes duration
+2023-01-10 19:29:04 INFO   SamsungGalaxy_A32.Test8 recordAudio 2.Launch file manager application and playback recorded audio file from external storage, fast forward audio file and pause
+2023-01-10 19:29:04 INFO   SamsungGalaxy_A32.Test8 recordAudio 3.Launch file manager application and playback copied audio files from external storage the files are placed in the Test1 folder
+2023-01-10 19:29:04 INFO   SamsungGalaxy_A32.Test8 recordAudio Setting up the appium desired capabilities
+2023-01-10 19:29:04 INFO   SamsungGalaxy_A32.Test8 recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-10 19:29:12 INFO   SamsungGalaxy_A32.Test8 recordAudio Launch Home screen application and clear recent apps
+2023-01-10 19:29:30 INFO   SamsungGalaxy_A32.Test8 recordAudio Launch Voice recorder application for Audio recording
+2023-01-10 19:29:31 INFO   SamsungGalaxy_A32.Test8 recordAudio If application launch permission pop-up exists accept allow permission to launch application
+2023-01-10 19:29:41 INFO   SamsungGalaxy_A32.Test8 recordAudio  No Launch permission Pop-up  found
+2023-01-10 19:29:46 INFO   SamsungGalaxy_A32.Test8 recordAudio If save to uSD card pop-up exists select Save to SD card option
+2023-01-10 19:29:56 INFO   SamsungGalaxy_A32.Test8 recordAudio Select More options and Set uSD card as storage option
+2023-01-10 19:30:01 INFO   SamsungGalaxy_A32.Test8 recordAudio Select settings option
+2023-01-10 19:30:07 INFO   SamsungGalaxy_A32.Test8 recordAudio Select Storage location
+2023-01-10 19:30:13 INFO   SamsungGalaxy_A32.Test8 recordAudio Select uSD card
+2023-01-10 19:30:21 INFO   SamsungGalaxy_A32.Test8 recordAudio Start Recording
+2023-01-10 19:32:21 INFO   SamsungGalaxy_A32.Test8 recordAudio Stop Recording
+2023-01-10 19:32:58 INFO   SamsungGalaxy_A32.Test8 recordAudio Stop and Save Recording
+2023-01-10 19:33:03 INFO   SamsungGalaxy_A32.Test8 recordAudio click on ok button
+2023-01-10 19:33:16 INFO   SamsungGalaxy_A32.Test8 recordAudio Pass: Test8 pass for recording  audio file
+2023-01-10 19:33:16 INFO   SamsungGalaxy_A32.Test8 recordAudio Launch File Manager Application to verify recorded audio
+2023-01-10 19:33:18 INFO   SamsungGalaxy_A32.Test8 recordAudio swipe up and search for sd card
+2023-01-10 19:33:22 INFO   SamsungGalaxy_A32.Test8 recordAudio Select  SD Card
+2023-01-10 19:33:27 INFO   SamsungGalaxy_A32.Test8 recordAudio Select list view
+2023-01-10 19:33:30 INFO   SamsungGalaxy_A32.Test8 recordAudio Select Music Folder
+2023-01-10 19:33:35 INFO   SamsungGalaxy_A32.Test8 recordAudio Select Voice recorder
+2023-01-10 19:33:41 INFO   SamsungGalaxy_A32.Test8 recordAudio switch to list view mode
+2023-01-10 19:33:44 INFO   SamsungGalaxy_A32.Test8 recordAudio Select More Options 
+2023-01-10 19:33:49 INFO   SamsungGalaxy_A32.Test8 recordAudio Click On Select All Options
+2023-01-10 19:33:58 INFO   SamsungGalaxy_A32.Test8 recordAudio Test8: 1 Audio file recorded  sucessfully
+2023-01-10 19:33:58 INFO   SamsungGalaxy_A32.Test8 recordAudio Pass: Test8 pass for audio recording in uSD Card
+2023-01-10 19:33:58 INFO   SamsungGalaxy_A32.Test8 recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-10 19:33:58 INFO   SamsungGalaxy_A32.Test8 recordAudio Calling PlayRecordedAudio() to play back recorded file
+2023-01-10 19:34:03 INFO   SamsungGalaxy_A32.Test8 PlayRecordedAudio Launch File Manager Application
+2023-01-10 19:34:14 INFO   SamsungGalaxy_A32.Test8 PlayRecordedAudio Select  SD Card
+2023-01-10 19:34:19 INFO   SamsungGalaxy_A32.Test8 PlayRecordedAudio Select list view
+2023-01-10 19:34:22 INFO   SamsungGalaxy_A32.Test8 PlayRecordedAudio Select Music Folder
+2023-01-10 19:34:27 INFO   SamsungGalaxy_A32.Test8 PlayRecordedAudio Select Voice recorder
+2023-01-10 19:34:32 INFO   SamsungGalaxy_A32.Test8 PlayRecordedAudio switch to list view mode
+2023-01-10 19:34:36 INFO   SamsungGalaxy_A32.Test8 PlayRecordedAudio Click Audio file for play back and fast forward
+2023-01-10 19:34:36 INFO   SamsungGalaxy_A32.Test8 PlayRecordedAudio Started Audio playback
+2023-01-10 19:34:56 INFO   SamsungGalaxy_A32.Test8 PlayRecordedAudio click on fastforward  10 seconds
+2023-01-10 19:35:17 INFO   SamsungGalaxy_A32.Test8 PlayRecordedAudio click on pause
+2023-01-10 19:35:20 INFO   SamsungGalaxy_A32.Test8 PlayRecordedAudio Pass: Test8 Pass for playing recorded Audio file
+2023-01-10 19:35:31 INFO   SamsungGalaxy_A32.Test8 PlayRecordedAudio Pass: Test8 Pass for playing, fast forward, and pause recorded audio file scenario
+2023-01-10 19:35:31 INFO   SamsungGalaxy_A32.Test8 PlayRecordedAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-10 19:35:31 INFO   SamsungGalaxy_A32.Test8 PlayRecordedAudio Calling PlayCopiedAudioFile() for copied audio files from Test1 folder
+2023-01-10 19:35:42 INFO   SamsungGalaxy_A32.Test8 PlayCopiedAudioFile Launching file manager application
+2023-01-10 19:35:46 INFO   SamsungGalaxy_A32.Test8 PlayCopiedAudioFile Select  SD Card
+2023-01-10 19:35:51 INFO   SamsungGalaxy_A32.Test8 PlayCopiedAudioFile Select test1
+2023-01-10 19:35:54 INFO   SamsungGalaxy_A32.Test8 PlayCopiedAudioFile Select testfile
+2023-01-10 19:35:58 INFO   SamsungGalaxy_A32.Test8 PlayCopiedAudioFile Select 1GB
+2023-01-10 19:36:01 INFO   SamsungGalaxy_A32.Test8 PlayCopiedAudioFile Select MP3 Files
+2023-01-10 19:36:04 INFO   SamsungGalaxy_A32.Test8 PlayCopiedAudioFile Select Laahe.Mp3.mp3
+2023-01-10 19:36:05 INFO   SamsungGalaxy_A32.Test8 PlayCopiedAudioFile Started video playback
+2023-01-10 19:36:25 INFO   SamsungGalaxy_A32.Test8 PlayCopiedAudioFile Click fast forward button for 10 seconds audio forward
+2023-01-10 19:36:45 INFO   SamsungGalaxy_A32.Test8 PlayCopiedAudioFile Pause audio playback
+2023-01-10 19:36:49 INFO   SamsungGalaxy_A32.Test8 PlayCopiedAudioFile Pass: 1st Copied Audio play back and fast forward is successfull
+2023-01-10 19:36:51 INFO   SamsungGalaxy_A32.Test8 PlayCopiedAudioFile select 11 Rob Thomas - Lonely No More.mp3
+2023-01-10 19:36:51 INFO   SamsungGalaxy_A32.Test8 PlayCopiedAudioFile Started audio playback
+2023-01-10 19:37:11 INFO   SamsungGalaxy_A32.Test8 PlayCopiedAudioFile Click fast forward button for 10 seconds audio forward
+2023-01-10 19:37:32 INFO   SamsungGalaxy_A32.Test8 PlayCopiedAudioFile Pause audio playback
+2023-01-10 19:37:35 INFO   SamsungGalaxy_A32.Test8 PlayCopiedAudioFile Pass: 2nd Copied Audio play back and fast forward is successfull
+2023-01-10 19:37:38 INFO   SamsungGalaxy_A32.Test8 PlayCopiedAudioFile select file_example_MP3_5MG.mp3
+2023-01-10 19:37:38 INFO   SamsungGalaxy_A32.Test8 PlayCopiedAudioFile Started audio playback
+2023-01-10 19:37:58 INFO   SamsungGalaxy_A32.Test8 PlayCopiedAudioFile Click fast forward button for 10 seconds audio forward
+2023-01-10 19:38:19 INFO   SamsungGalaxy_A32.Test8 PlayCopiedAudioFile Pause audio playback
+2023-01-10 19:38:25 INFO   SamsungGalaxy_A32.Test8 PlayCopiedAudioFile Pass: 3rd Copied Audio play back and fast forward is successfull
+2023-01-10 19:38:25 INFO   SamsungGalaxy_A32.Test8 PlayCopiedAudioFile Pass: Test8 Pass for Recorded and copied audio play back and fast forward scenario
+2023-01-10 19:38:25 INFO   SamsungGalaxy_A32.Test8 PlayCopiedAudioFile ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-10 19:38:25 INFO   SamsungGalaxy_A32.Test8 PlayCopiedAudioFile Final Message: Pass Test8 Pass for Recorded and copied audio play back and fast forward scenario
+2023-01-10 19:38:25 INFO   SamsungGalaxy_A32.Test8 PlayCopiedAudioFile Test: End
+2023-01-10 19:38:25 INFO   SamsungGalaxy_A32.Test8 PlayCopiedAudioFile ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

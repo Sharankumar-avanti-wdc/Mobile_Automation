@@ -1,0 +1,149 @@
+2022-12-28 18:21:49 INFO   Motorola_Moto_G82_5G_XT22251.Test0 start Test: Start
+2022-12-28 18:21:49 INFO   Motorola_Moto_G82_5G_XT22251.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-12-28 18:21:49 INFO   Motorola_Moto_G82_5G_XT22251.Test0 start  Test0 Scenario is as follows 
+2022-12-28 18:21:49 INFO   Motorola_Moto_G82_5G_XT22251.Test0 start 1.Unlock phone, clear recent apps, clear internal memory
+2022-12-28 18:21:49 INFO   Motorola_Moto_G82_5G_XT22251.Test0 start 2.Call Image() and Capture Rear camera 25 images for default resolution in uSD card and Verify the data capture
+2022-12-28 18:21:49 INFO   Motorola_Moto_G82_5G_XT22251.Test0 start 3.Call Video() and record Rear camera video of first 2 resloutions for 2 minutes of duration in uSD Card and verify the same
+2022-12-28 18:21:49 INFO   Motorola_Moto_G82_5G_XT22251.Test0 start 4.Call Format() and format uSD card with data and verify the same
+2022-12-28 18:21:49 INFO   Motorola_Moto_G82_5G_XT22251.Test0 start Setting up the appium desired capabilities
+2022-12-28 18:21:49 INFO   Motorola_Moto_G82_5G_XT22251.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-12-28 18:22:03 INFO   Motorola_Moto_G82_5G_XT22251.Test0 start Host does'nt support clear recent apps option! Hence Skiping clear recent apps scenario
+2022-12-28 18:22:03 INFO   Motorola_Moto_G82_5G_XT22251.Test0 start Launch File Manager Application and clear internal memory
+2022-12-28 18:22:09 INFO   Motorola_Moto_G82_5G_XT22251.Test0 start Swipe up and select uSD card
+2022-12-28 18:22:11 INFO   Motorola_Moto_G82_5G_XT22251.Test0 start Select  Internal storage
+2022-12-28 18:22:16 INFO   Motorola_Moto_G82_5G_XT22251.Test0 start Select  More options
+2022-12-28 18:22:20 INFO   Motorola_Moto_G82_5G_XT22251.Test0 start click on Select all
+2022-12-28 18:22:23 INFO   Motorola_Moto_G82_5G_XT22251.Test0 start Select Delete permanently
+2022-12-28 18:22:33 INFO   Motorola_Moto_G82_5G_XT22251.Test0 start Select  More options
+2022-12-28 18:22:36 INFO   Motorola_Moto_G82_5G_XT22251.Test0 start Select Delete permanently
+2022-12-28 18:22:40 INFO   Motorola_Moto_G82_5G_XT22251.Test0 start Select  Delete
+2022-12-28 18:25:21 INFO   Motorola_Moto_G82_5G_XT22251.Test0 start Pass: Clearing phone internal memory is successfull
+2022-12-28 18:25:21 INFO   Motorola_Moto_G82_5G_XT22251.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-12-28 18:25:21 INFO   Motorola_Moto_G82_5G_XT22251.Test0 start Calling Image() to capture rear camera image in uSD card and verifying the same.
+2022-12-28 18:25:21 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Images Launch Camera Application for Rear picture capture
+2022-12-28 18:25:32 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Images change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: moto g82 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 12, udid: ZD2226M38Q}, deviceApiLevel: 31, deviceManufacturer: motorola, deviceModel: moto g82 5G, deviceName: ZD2226M38Q, deviceScreenDensity: 340, deviceScreenSize: 1080x2400, deviceUDID: ZD2226M38Q, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.125, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 100, takesScreenshot: true, udid: ZD2226M38Q, viewportRect: {height: 2098, left: 0, top: 100, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: e3b2c49f-d49f-4775-88c9-3ba82f2a228b
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2022-12-28 18:25:34 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Images if Location permisson Pop Exists Select Cancel Option
+2022-12-28 18:25:44 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Images Location  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: moto g82 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 12, udid: ZD2226M38Q}, deviceApiLevel: 31, deviceManufacturer: motorola, deviceModel: moto g82 5G, deviceName: ZD2226M38Q, deviceScreenDensity: 340, deviceScreenSize: 1080x2400, deviceUDID: ZD2226M38Q, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.125, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 100, takesScreenshot: true, udid: ZD2226M38Q, viewportRect: {height: 2098, left: 0, top: 100, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: e3b2c49f-d49f-4775-88c9-3ba82f2a228b
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2022-12-28 18:25:54 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Images Currently camera is already in rear camera mode no need to switch
+2022-12-28 18:25:54 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Images Select settings option
+2022-12-28 18:26:00 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Images Search for SD Card option
+2022-12-28 18:26:11 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Images Select  storage option
+2022-12-28 18:26:16 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Images Select SD as storage option
+2022-12-28 18:26:24 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Images Capture Image of Default Resolution
+2022-12-28 18:26:31 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Images clicking Image of Default Resolutions0
+2022-12-28 18:26:38 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Images clicking Image of Default Resolutions1
+2022-12-28 18:26:45 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Images clicking Image of Default Resolutions2
+2022-12-28 18:26:53 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Images clicking Image of Default Resolutions3
+2022-12-28 18:27:00 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Images clicking Image of Default Resolutions4
+2022-12-28 18:27:07 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Images clicking Image of Default Resolutions5
+2022-12-28 18:27:14 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Images clicking Image of Default Resolutions6
+2022-12-28 18:27:21 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Images clicking Image of Default Resolutions7
+2022-12-28 18:27:28 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Images clicking Image of Default Resolutions8
+2022-12-28 18:27:35 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Images clicking Image of Default Resolutions9
+2022-12-28 18:27:42 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Images clicking Image of Default Resolutions10
+2022-12-28 18:27:50 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Images clicking Image of Default Resolutions11
+2022-12-28 18:27:57 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Images clicking Image of Default Resolutions12
+2022-12-28 18:28:04 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Images clicking Image of Default Resolutions13
+2022-12-28 18:28:11 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Images clicking Image of Default Resolutions14
+2022-12-28 18:28:18 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Images clicking Image of Default Resolutions15
+2022-12-28 18:28:25 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Images clicking Image of Default Resolutions16
+2022-12-28 18:28:32 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Images clicking Image of Default Resolutions17
+2022-12-28 18:28:39 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Images clicking Image of Default Resolutions18
+2022-12-28 18:28:47 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Images clicking Image of Default Resolutions19
+2022-12-28 18:28:54 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Images clicking Image of Default Resolutions20
+2022-12-28 18:29:01 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Images clicking Image of Default Resolutions21
+2022-12-28 18:29:08 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Images clicking Image of Default Resolutions22
+2022-12-28 18:29:15 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Images clicking Image of Default Resolutions23
+2022-12-28 18:29:22 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Images clicking Image of Default Resolutions24
+2022-12-28 18:29:27 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Images 25 Image Capture is successfull
+2022-12-28 18:29:27 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Images Launch File Manager application to verify  Image capture
+2022-12-28 18:29:33 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Images Select  SD Card
+2022-12-28 18:29:35 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Images Select  SD Card
+2022-12-28 18:29:40 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Images Select DCIM Folder
+2022-12-28 18:29:44 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Images Select Camera Folder
+2022-12-28 18:29:49 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Images Select More Options 
+2022-12-28 18:29:59 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Images Click On Select All Options
+2022-12-28 18:30:09 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Images Pass: Total Number Of Image captured 25 is successfull
+2022-12-28 18:30:09 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Images ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-12-28 18:30:09 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Images Calling video() for rear video recording in USD card and verifying data capture.
+2022-12-28 18:30:14 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Video Clear Recent Apps
+2022-12-28 18:30:27 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Video Launch Camera Application
+2022-12-28 18:30:38 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Video change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: moto g82 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 12, udid: ZD2226M38Q}, deviceApiLevel: 31, deviceManufacturer: motorola, deviceModel: moto g82 5G, deviceName: ZD2226M38Q, deviceScreenDensity: 340, deviceScreenSize: 1080x2400, deviceUDID: ZD2226M38Q, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.125, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 100, takesScreenshot: true, udid: ZD2226M38Q, viewportRect: {height: 2098, left: 0, top: 100, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: e3b2c49f-d49f-4775-88c9-3ba82f2a228b
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2022-12-28 18:30:38 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Video If Location Permission Request Pop Exists Click on Cancel Option
+2022-12-28 18:30:48 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Video Location access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: moto g82 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 12, udid: ZD2226M38Q}, deviceApiLevel: 31, deviceManufacturer: motorola, deviceModel: moto g82 5G, deviceName: ZD2226M38Q, deviceScreenDensity: 340, deviceScreenSize: 1080x2400, deviceUDID: ZD2226M38Q, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.125, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 100, takesScreenshot: true, udid: ZD2226M38Q, viewportRect: {height: 2098, left: 0, top: 100, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: e3b2c49f-d49f-4775-88c9-3ba82f2a228b
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2022-12-28 18:30:58 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Video Current Existing Camera is Back Camera
+2022-12-28 18:30:58 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Video Clicking Video Tab
+2022-12-28 18:31:09 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Video Select settings option
+2022-12-28 18:31:14 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Video Search for SD Card option
+2022-12-28 18:31:25 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Video Select  storage option
+2022-12-28 18:31:31 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Video Select SD as storage option
+2022-12-28 18:31:39 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Video Select 1st Back Video Resolution: Resolution Aspect ratio 9:16
+2022-12-28 18:31:42 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Video Start video recording
+2022-12-28 18:33:42 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Video Recording Video for 2Minutes of Duration
+2022-12-28 18:33:42 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Video Stop video recording
+2022-12-28 18:33:47 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Video Select 2nd Back Video Resolution: Resolution Aspect ratio Full
+2022-12-28 18:33:50 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Video Start video recording
+2022-12-28 18:35:50 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Video Recording Video for 2Minutes of Duration
+2022-12-28 18:35:50 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Video Stop video recording
+2022-12-28 18:36:06 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Video Clicking photo Tab
+2022-12-28 18:36:20 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Video Rear camera video recording is successfull
+2022-12-28 18:36:20 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Video Launch File Manager application to verify  Video capture
+2022-12-28 18:36:29 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Video Select  SD Card
+2022-12-28 18:36:34 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Video Select DCIM Folder
+2022-12-28 18:36:37 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Video Select Camera Folder
+2022-12-28 18:36:42 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Video Select More Options 
+2022-12-28 18:36:53 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Video Click On Select All Options
+2022-12-28 18:37:02 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Video Pass: 2 Videos recorded Successfully
+2022-12-28 18:37:02 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Video Pass: A total of 27 files present in uSD card before Format
+2022-12-28 18:37:02 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Video ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-12-28 18:37:02 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Video calling Format() for format with data scenario
+2022-12-28 18:37:02 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Format Clearing Recent Apps
+2022-12-28 18:37:25 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Format Launch Settings application for Format uSD card with Data scenario 
+2022-12-28 18:37:31 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Format Scrolling till battery and device care is visible
+2022-12-28 18:37:36 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Format Clicking on storage
+2022-12-28 18:37:41 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Format Clicking on this device
+2022-12-28 18:37:47 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Format Clicking on SD card
+2022-12-28 18:37:57 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Format Clicking on SD card
+2022-12-28 18:38:03 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Format Clicking on files
+2022-12-28 18:38:08 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Format Clicking on more options
+2022-12-28 18:38:13 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Format Clicking on Storage settings
+2022-12-28 18:38:19 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Format Click Format
+2022-12-28 18:38:24 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Format Started formatting, waiting till it gets formatted
+2022-12-28 18:40:01 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Format Format uSD with Data is successfull
+2022-12-28 18:40:01 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Format Launch File Manager application to verify  Card is fully Formated or not
+2022-12-28 18:40:07 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Format Select  SD Card
+2022-12-28 18:40:17 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Format Select DCIM Folder
+2022-12-28 18:40:22 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Format Click On Camera Folder
+2022-12-28 18:40:32 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Format Pass: Images and videos are not present in the DCIM folder, CARD format is successfully completed 
+2022-12-28 18:40:32 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Format ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-12-28 18:40:32 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Format Final Message: Pass Test0 pass for format Operation
+2022-12-28 18:40:32 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Format Test: End
+2022-12-28 18:40:32 INFO   Motorola_Moto_G82_5G_XT22251.Test0 Format ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

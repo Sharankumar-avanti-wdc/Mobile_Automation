@@ -1,0 +1,133 @@
+2023-01-19 15:02:32 INFO   Vivo_V19_1933.Test0 start Test: Start
+2023-01-19 15:02:32 INFO   Vivo_V19_1933.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-19 15:02:32 INFO   Vivo_V19_1933.Test0 start  Test0 Scenario is as follows 
+2023-01-19 15:02:32 INFO   Vivo_V19_1933.Test0 start 1.Unlock phone, clear recent apps, clear internal memory
+2023-01-19 15:02:32 INFO   Vivo_V19_1933.Test0 start 2.Call Image() and Capture Rear camera 25 images for default resolution in uSD card and Verify the data capture
+2023-01-19 15:02:32 INFO   Vivo_V19_1933.Test0 start 3.Call Video() and record Rear camera video of first 2 resloutions for 2 minutes of duration in uSD Card and verify the same
+2023-01-19 15:02:32 INFO   Vivo_V19_1933.Test0 start 4.Call Format() and format uSD card with data and verify the same
+2023-01-19 15:02:32 INFO   Vivo_V19_1933.Test0 start Setting up the appium desired capabilities
+2023-01-19 15:02:32 INFO   Vivo_V19_1933.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-19 15:02:42 INFO   Vivo_V19_1933.Test0 start Launch home screen
+2023-01-19 15:02:56 INFO   Vivo_V19_1933.Test0 start Launch File Manager Application and clear internal memory
+2023-01-19 15:03:02 INFO   Vivo_V19_1933.Test0 start click on browse option
+2023-01-19 15:03:06 INFO   Vivo_V19_1933.Test0 start Swipe up and select Internal storage
+2023-01-19 15:03:10 INFO   Vivo_V19_1933.Test0 start Select  Internal storage
+2023-01-19 15:03:15 INFO   Vivo_V19_1933.Test0 start Select  MoreOption
+2023-01-19 15:03:18 INFO   Vivo_V19_1933.Test0 start Select  SelectAll
+2023-01-19 15:03:22 INFO   Vivo_V19_1933.Test0 start Select  MoreOption
+2023-01-19 15:03:26 INFO   Vivo_V19_1933.Test0 start Select  Delete all
+2023-01-19 15:03:30 INFO   Vivo_V19_1933.Test0 start Select  Delete
+2023-01-19 15:05:30 INFO   Vivo_V19_1933.Test0 start Pass: Clearing phone internal memory is successfull
+2023-01-19 15:05:30 INFO   Vivo_V19_1933.Test0 start Calling Image() for rear Image capture in uSD Card and Verify the Captured images
+2023-01-19 15:05:43 INFO   Vivo_V19_1933.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-19 15:05:43 INFO   Vivo_V19_1933.Test0 start Calling Image() for rear Image capture in uSD Card and Verify the Captured images
+2023-01-19 15:05:43 INFO   Vivo_V19_1933.Test0 Images Launch Camera Application for Rear picture capture
+2023-01-19 15:05:45 INFO   Vivo_V19_1933.Test0 Images If location permission access pop-up exists select Dont Allow option
+2023-01-19 15:05:55 INFO   Vivo_V19_1933.Test0 Images change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: vivo 1933, newCommandTimeout: 1200, platformName: android, platformVersion: 12, udid: 39a79e47}, deviceApiLevel: 30, deviceManufacturer: vivo, deviceModel: vivo 1933, deviceName: 39a79e47, deviceScreenDensity: 480, deviceScreenSize: 1080x2400, deviceUDID: 39a79e47, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 123, takesScreenshot: true, udid: 39a79e47, viewportRect: {height: 2028, left: 0, top: 123, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 31b40ec7-1012-48bd-8030-3ffdde9f8e14
+*** Element info: {Using=xpath, value=//*[@text='Cancel']}
+2023-01-19 15:05:55 INFO   Vivo_V19_1933.Test0 Images Select settings option
+2023-01-19 15:06:05 INFO   Vivo_V19_1933.Test0 Images Select SD as storage option
+2023-01-19 15:06:13 INFO   Vivo_V19_1933.Test0 Images Capture Image of Default Resolution
+2023-01-19 15:06:21 INFO   Vivo_V19_1933.Test0 Images Capture default resolution image 0
+2023-01-19 15:06:28 INFO   Vivo_V19_1933.Test0 Images Capture default resolution image 1
+2023-01-19 15:06:36 INFO   Vivo_V19_1933.Test0 Images Capture default resolution image 2
+2023-01-19 15:06:43 INFO   Vivo_V19_1933.Test0 Images Capture default resolution image 3
+2023-01-19 15:06:50 INFO   Vivo_V19_1933.Test0 Images Capture default resolution image 4
+2023-01-19 15:06:58 INFO   Vivo_V19_1933.Test0 Images Capture default resolution image 5
+2023-01-19 15:07:06 INFO   Vivo_V19_1933.Test0 Images Capture default resolution image 6
+2023-01-19 15:07:13 INFO   Vivo_V19_1933.Test0 Images Capture default resolution image 7
+2023-01-19 15:07:21 INFO   Vivo_V19_1933.Test0 Images Capture default resolution image 8
+2023-01-19 15:07:28 INFO   Vivo_V19_1933.Test0 Images Capture default resolution image 9
+2023-01-19 15:07:35 INFO   Vivo_V19_1933.Test0 Images Capture default resolution image 10
+2023-01-19 15:07:42 INFO   Vivo_V19_1933.Test0 Images Capture default resolution image 11
+2023-01-19 15:07:49 INFO   Vivo_V19_1933.Test0 Images Capture default resolution image 12
+2023-01-19 15:07:57 INFO   Vivo_V19_1933.Test0 Images Capture default resolution image 13
+2023-01-19 15:08:04 INFO   Vivo_V19_1933.Test0 Images Capture default resolution image 14
+2023-01-19 15:08:11 INFO   Vivo_V19_1933.Test0 Images Capture default resolution image 15
+2023-01-19 15:08:18 INFO   Vivo_V19_1933.Test0 Images Capture default resolution image 16
+2023-01-19 15:08:26 INFO   Vivo_V19_1933.Test0 Images Capture default resolution image 17
+2023-01-19 15:08:33 INFO   Vivo_V19_1933.Test0 Images Capture default resolution image 18
+2023-01-19 15:08:41 INFO   Vivo_V19_1933.Test0 Images Capture default resolution image 19
+2023-01-19 15:08:49 INFO   Vivo_V19_1933.Test0 Images Capture default resolution image 20
+2023-01-19 15:08:57 INFO   Vivo_V19_1933.Test0 Images Capture default resolution image 21
+2023-01-19 15:09:04 INFO   Vivo_V19_1933.Test0 Images Capture default resolution image 22
+2023-01-19 15:09:12 INFO   Vivo_V19_1933.Test0 Images Capture default resolution image 23
+2023-01-19 15:09:19 INFO   Vivo_V19_1933.Test0 Images Capture default resolution image 24
+2023-01-19 15:09:23 INFO   Vivo_V19_1933.Test0 Images 25 Image Capture is successfull
+2023-01-19 15:09:23 INFO   Vivo_V19_1933.Test0 Images Launch File Manager application to verify  Image capture
+2023-01-19 15:09:29 INFO   Vivo_V19_1933.Test0 Images Swipe up
+2023-01-19 15:09:33 INFO   Vivo_V19_1933.Test0 Images Select SD card
+2023-01-19 15:09:40 INFO   Vivo_V19_1933.Test0 Images switch to grid view mode to select DCIM folder
+2023-01-19 15:09:43 INFO   Vivo_V19_1933.Test0 Images Select DCIM folder
+2023-01-19 15:09:46 INFO   Vivo_V19_1933.Test0 Images Select camera folder
+2023-01-19 15:09:49 INFO   Vivo_V19_1933.Test0 Images switch to list view mode to select DCIM folder
+2023-01-19 15:09:53 INFO   Vivo_V19_1933.Test0 Images Click More options
+2023-01-19 15:09:59 INFO   Vivo_V19_1933.Test0 Images Click Select all
+2023-01-19 15:10:08 INFO   Vivo_V19_1933.Test0 Images Pass: Total Number Of Image captured 25 is successfull
+2023-01-19 15:10:08 INFO   Vivo_V19_1933.Test0 Images Calling video() for rear video recording in uSD card and verifying data capture.
+2023-01-19 15:10:08 INFO   Vivo_V19_1933.Test0 Images ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-19 15:10:08 INFO   Vivo_V19_1933.Test0 Images Calling video() for rear video recording in uSD card and verifying data capture.
+2023-01-19 15:10:08 INFO   Vivo_V19_1933.Test0 Video Launch Camera Application for Rear picture capture
+2023-01-19 15:10:10 INFO   Vivo_V19_1933.Test0 Video If location permission access pop-up exists select Dont Allow option
+2023-01-19 15:10:20 INFO   Vivo_V19_1933.Test0 Video change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: vivo 1933, newCommandTimeout: 1200, platformName: android, platformVersion: 12, udid: 39a79e47}, deviceApiLevel: 30, deviceManufacturer: vivo, deviceModel: vivo 1933, deviceName: 39a79e47, deviceScreenDensity: 480, deviceScreenSize: 1080x2400, deviceUDID: 39a79e47, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 123, takesScreenshot: true, udid: 39a79e47, viewportRect: {height: 2028, left: 0, top: 123, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 31b40ec7-1012-48bd-8030-3ffdde9f8e14
+*** Element info: {Using=xpath, value=//*[@text='Cancel']}
+2023-01-19 15:10:20 INFO   Vivo_V19_1933.Test0 Video Select settings option
+2023-01-19 15:10:30 INFO   Vivo_V19_1933.Test0 Video Select SD as storage option
+2023-01-19 15:10:38 INFO   Vivo_V19_1933.Test0 Video Switch to video mode
+2023-01-19 15:10:44 INFO   Vivo_V19_1933.Test0 Video Select settings option
+2023-01-19 15:10:55 INFO   Vivo_V19_1933.Test0 Video Select first highest rear camera video resolution: 4K
+2023-01-19 15:11:02 INFO   Vivo_V19_1933.Test0 Video Start video recording
+2023-01-19 15:13:05 INFO   Vivo_V19_1933.Test0 Video Recording Video for 2Minutes of Duration
+2023-01-19 15:13:05 INFO   Vivo_V19_1933.Test0 Video Stop video recording
+2023-01-19 15:13:12 INFO   Vivo_V19_1933.Test0 Video Select settings option
+2023-01-19 15:13:23 INFO   Vivo_V19_1933.Test0 Video Select second highest rear camera video resolution: 1080p
+2023-01-19 15:13:31 INFO   Vivo_V19_1933.Test0 Video Start video recording
+2023-01-19 15:15:31 INFO   Vivo_V19_1933.Test0 Video Recording Video for 2Minutes of Duration
+2023-01-19 15:15:31 INFO   Vivo_V19_1933.Test0 Video Stop video recording
+2023-01-19 15:15:47 INFO   Vivo_V19_1933.Test0 Video Switch to photo mode
+2023-01-19 15:15:58 INFO   Vivo_V19_1933.Test0 Video Rear camera video recording is successfull
+2023-01-19 15:15:58 INFO   Vivo_V19_1933.Test0 Video Launch File Manager application to verify  video capture
+2023-01-19 15:16:05 INFO   Vivo_V19_1933.Test0 Video Swipe up
+2023-01-19 15:16:08 INFO   Vivo_V19_1933.Test0 Video Select SD card
+2023-01-19 15:16:14 INFO   Vivo_V19_1933.Test0 Video switch to grid view mode to select DCIM folder
+2023-01-19 15:16:18 INFO   Vivo_V19_1933.Test0 Video Select DCIM folder
+2023-01-19 15:16:21 INFO   Vivo_V19_1933.Test0 Video Select camera folder
+2023-01-19 15:16:24 INFO   Vivo_V19_1933.Test0 Video switch to list view mode to select DCIM folder
+2023-01-19 15:16:27 INFO   Vivo_V19_1933.Test0 Video Click More options
+2023-01-19 15:16:34 INFO   Vivo_V19_1933.Test0 Video Click Select all
+2023-01-19 15:16:43 INFO   Vivo_V19_1933.Test0 Video Pass: 2 Videos recorded Successfully
+2023-01-19 15:16:43 INFO   Vivo_V19_1933.Test0 Video Pass: A total of 27 files present in uSD card before Format
+2023-01-19 15:16:43 INFO   Vivo_V19_1933.Test0 Video calling Format() for format with data scenario
+2023-01-19 15:16:48 INFO   Vivo_V19_1933.Test0 Video ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-19 15:16:48 INFO   Vivo_V19_1933.Test0 Video calling Format() for format with data scenario
+2023-01-19 15:16:54 INFO   Vivo_V19_1933.Test0 Format Launch Settings application for Format uSD card with Data scenario 
+2023-01-19 15:17:01 INFO   Vivo_V19_1933.Test0 Format Scrolling tRAM & storage space is visible
+2023-01-19 15:17:11 INFO   Vivo_V19_1933.Test0 Format Select Ram & Storage space option
+2023-01-19 15:17:16 INFO   Vivo_V19_1933.Test0 Format Select Erase SD card option option
+2023-01-19 15:17:20 INFO   Vivo_V19_1933.Test0 Format Accept Erase SD card option
+2023-01-19 15:17:23 INFO   Vivo_V19_1933.Test0 Format Select Erase Everything option
+2023-01-19 15:17:29 INFO   Vivo_V19_1933.Test0 Format Started formatting, waiting till it gets formatted
+2023-01-19 15:18:36 INFO   Vivo_V19_1933.Test0 Format Format uSD with Data is successfull
+2023-01-19 15:18:36 INFO   Vivo_V19_1933.Test0 Format Launch File Manager application to verify  Card is fully Formated or not
+2023-01-19 15:18:44 INFO   Vivo_V19_1933.Test0 Format Swipe up
+2023-01-19 15:18:47 INFO   Vivo_V19_1933.Test0 Format Select SD card
+2023-01-19 15:18:53 INFO   Vivo_V19_1933.Test0 Format switch to grid view mode to select DCIM folder
+2023-01-19 15:18:56 INFO   Vivo_V19_1933.Test0 Format Select DCIM folder
+2023-01-19 15:19:00 INFO   Vivo_V19_1933.Test0 Format Click On Camera Folder
+2023-01-19 15:19:11 INFO   Vivo_V19_1933.Test0 Format Pass: Images and videos are not present in the DCIM folder, CARD format is successfully completed 
+2023-01-19 15:19:11 INFO   Vivo_V19_1933.Test0 Format ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-19 15:19:11 INFO   Vivo_V19_1933.Test0 Format Final Message: Pass Test0 Pass for with data format Operation
+2023-01-19 15:19:11 INFO   Vivo_V19_1933.Test0 Format Test: End
+2023-01-19 15:19:11 INFO   Vivo_V19_1933.Test0 Format ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

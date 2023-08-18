@@ -1,0 +1,112 @@
+2023-03-14 16:43:18 INFO   Lava_X2_LE000Z93P.Test10 rearVideoRec Test: Start
+2023-03-14 16:43:18 INFO   Lava_X2_LE000Z93P.Test10 rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-14 16:43:18 INFO   Lava_X2_LE000Z93P.Test10 rearVideoRec Test10 Scenario is as follows
+2023-03-14 16:43:18 INFO   Lava_X2_LE000Z93P.Test10 rearVideoRec 1.Launch Camera application and start rear camera video recording for all host applicable resolutions in uSD Card
+2023-03-14 16:43:18 INFO   Lava_X2_LE000Z93P.Test10 rearVideoRec 2.Playback Highest resolution recorded video from USD Card, fast forward playback and pause video scenario 
+2023-03-14 16:43:18 INFO   Lava_X2_LE000Z93P.Test10 rearVideoRec 3.Playback copied videos from Test1 folder, fast forward and pause scenario
+2023-03-14 16:43:18 INFO   Lava_X2_LE000Z93P.Test10 rearVideoRec Setting up the appium desired capabilities
+2023-03-14 16:43:18 INFO   Lava_X2_LE000Z93P.Test10 rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-14 16:43:43 INFO   Lava_X2_LE000Z93P.Test10 rearVideoRec Clearing Recent Apps
+2023-03-14 16:43:43 INFO   Lava_X2_LE000Z93P.Test10 rearVideoRec Pass: No recent apps found
+2023-03-14 16:43:47 INFO   Lava_X2_LE000Z93P.Test10 rearVideoRec Unlocking Phone
+2023-03-14 16:43:47 INFO   Lava_X2_LE000Z93P.Test10 rearVideoRec Launch Camera Application for rear camera video recording
+2023-03-14 16:43:54 INFO   Lava_X2_LE000Z93P.Test10 rearVideoRec IF Change to uSD card notification pop-up exists select Cancel Option
+2023-03-14 16:44:04 INFO   Lava_X2_LE000Z93P.Test10 rearVideoRec change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: LAVA  X2, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: X29H22CB001024}, deviceApiLevel: 30, deviceManufacturer: LAVA, deviceModel: LAVA LZG403 225, deviceName: X29H22CB001024, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: X29H22CB001024, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 45, takesScreenshot: true, udid: X29H22CB001024, viewportRect: {height: 1414, left: 0, top: 45, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 181f8b47-24b9-4feb-9c47-6b7e8c1c4419
+*** Element info: {Using=xpath, value=//*[@bounds='[100,869][140,909]']}
+2023-03-14 16:44:06 INFO   Lava_X2_LE000Z93P.Test10 rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-14 16:44:08 INFO   Lava_X2_LE000Z93P.Test10 rearVideoRec Test10_Bcam_res: 3 resolutions supported
+2023-03-14 16:44:08 INFO   Lava_X2_LE000Z93P.Test10 rearVideoRec Select settings option
+2023-03-14 16:44:14 INFO   Lava_X2_LE000Z93P.Test10 rearVideoRec Select Storagepath option
+2023-03-14 16:44:20 INFO   Lava_X2_LE000Z93P.Test10 rearVideoRec Search for Storage path option
+2023-03-14 16:44:23 INFO   Lava_X2_LE000Z93P.Test10 rearVideoRec Select SD as storage option
+2023-03-14 16:44:31 INFO   Lava_X2_LE000Z93P.Test10 rearVideoRec Switch to video recording mode
+2023-03-14 16:44:37 INFO   Lava_X2_LE000Z93P.Test10 rearVideoRec Select settings option
+2023-03-14 16:44:41 INFO   Lava_X2_LE000Z93P.Test10 rearVideoRec Select 1st rear Video Resolution: 1080p
+2023-03-14 16:44:46 INFO   Lava_X2_LE000Z93P.Test10 rearVideoRec Start video recording
+2023-03-14 16:54:27 INFO   Lava_X2_LE000Z93P.Test10 rearVideoRec Stop video recording
+2023-03-14 16:54:33 INFO   Lava_X2_LE000Z93P.Test10 rearVideoRec Select settings option
+2023-03-14 16:54:37 INFO   Lava_X2_LE000Z93P.Test10 rearVideoRec Select 2nd rear Video Resolution: 720p
+2023-03-14 16:54:42 INFO   Lava_X2_LE000Z93P.Test10 rearVideoRec Start video recording
+2023-03-14 16:54:42 INFO   Lava_X2_LE000Z93P.Test10 rearVideoRec Start Recording
+2023-03-14 17:04:24 INFO   Lava_X2_LE000Z93P.Test10 rearVideoRec Stop video recording
+2023-03-14 17:04:30 INFO   Lava_X2_LE000Z93P.Test10 rearVideoRec Select settings option
+2023-03-14 17:04:34 INFO   Lava_X2_LE000Z93P.Test10 rearVideoRec Select 3rd rear Video Resolution: 420p
+2023-03-14 17:04:41 INFO   Lava_X2_LE000Z93P.Test10 rearVideoRec Start video recording
+2023-03-14 17:04:41 INFO   Lava_X2_LE000Z93P.Test10 rearVideoRec Start Recording
+2023-03-14 17:14:22 INFO   Lava_X2_LE000Z93P.Test10 rearVideoRec Stop video recording
+2023-03-14 17:14:28 INFO   Lava_X2_LE000Z93P.Test10 rearVideoRec Switch to defalut Photo mode
+2023-03-14 17:14:41 INFO   Lava_X2_LE000Z93P.Test10 rearVideoRec Pass: Rear video recording is successfull
+2023-03-14 17:14:41 INFO   Lava_X2_LE000Z93P.Test10 rearVideoRec Launch File Manager Application to verify captured videos
+2023-03-14 17:14:48 INFO   Lava_X2_LE000Z93P.Test10 rearVideoRec Select  SD Card
+2023-03-14 17:15:02 INFO   Lava_X2_LE000Z93P.Test10 rearVideoRec Select DCIM Folder
+2023-03-14 17:15:12 INFO   Lava_X2_LE000Z93P.Test10 rearVideoRec Select Camera Folder
+2023-03-14 17:15:17 INFO   Lava_X2_LE000Z93P.Test10 rearVideoRec Select More Options 
+2023-03-14 17:15:21 INFO   Lava_X2_LE000Z93P.Test10 rearVideoRec Click On Select All Options
+2023-03-14 17:15:31 INFO   Lava_X2_LE000Z93P.Test10 rearVideoRec Test10_Bcam_video: 3 Videos captured successfully
+2023-03-14 17:15:31 INFO   Lava_X2_LE000Z93P.Test10 rearVideoRec Calling RecordedVideoPlayback() for Playing Highest record video, fast forward video play back scenario
+2023-03-14 17:15:31 INFO   Lava_X2_LE000Z93P.Test10 rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-14 17:15:31 INFO   Lava_X2_LE000Z93P.Test10 RecordedVideoPlayback Launch File Manager for playing highest resolution recorded video from USD, fast forward and pause scenario
+2023-03-14 17:15:46 INFO   Lava_X2_LE000Z93P.Test10 RecordedVideoPlayback Select External storage
+2023-03-14 17:15:57 INFO   Lava_X2_LE000Z93P.Test10 RecordedVideoPlayback Select DCIM folder
+2023-03-14 17:16:00 INFO   Lava_X2_LE000Z93P.Test10 RecordedVideoPlayback Select camera folder
+2023-03-14 17:16:04 INFO   Lava_X2_LE000Z93P.Test10 RecordedVideoPlayback Select moreoptions
+2023-03-14 17:16:09 INFO   Lava_X2_LE000Z93P.Test10 RecordedVideoPlayback Select more options and sort by largest file first
+2023-03-14 17:16:16 INFO   Lava_X2_LE000Z93P.Test10 RecordedVideoPlayback Click on first file to play highest recorded resolution video file
+2023-03-14 17:16:16 INFO   Lava_X2_LE000Z93P.Test10 RecordedVideoPlayback Started video playback
+2023-03-14 17:16:46 INFO   Lava_X2_LE000Z93P.Test10 RecordedVideoPlayback Tap Somewhere on Screen for contents to visible on Screen
+2023-03-14 17:16:46 INFO   Lava_X2_LE000Z93P.Test10 RecordedVideoPlayback Fast forward video for 10 seconds
+2023-03-14 17:17:08 INFO   Lava_X2_LE000Z93P.Test10 RecordedVideoPlayback click on pause video 
+2023-03-14 17:17:18 INFO   Lava_X2_LE000Z93P.Test10 RecordedVideoPlayback Pass: Recorded Video play back and fast forward successfull 
+2023-03-14 17:17:18 INFO   Lava_X2_LE000Z93P.Test10 RecordedVideoPlayback Calling DataMovementOperation() to move recorded rear camer videos to Test10 Folder
+2023-03-14 17:17:18 INFO   Lava_X2_LE000Z93P.Test10 RecordedVideoPlayback ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-14 17:17:18 INFO   Lava_X2_LE000Z93P.Test10 DataMoveOperation launch file manager application select uSD card-->DCIM folder-->Camera folder-->Select all rear camera videos create Test10 and cut paste all videos in Test10 folder
+2023-03-14 17:17:34 INFO   Lava_X2_LE000Z93P.Test10 DataMoveOperation click on browse option
+2023-03-14 17:17:38 INFO   Lava_X2_LE000Z93P.Test10 DataMoveOperation Swipe up to select uSD card
+2023-03-14 17:17:46 INFO   Lava_X2_LE000Z93P.Test10 DataMoveOperation Select SD card
+2023-03-14 17:18:01 INFO   Lava_X2_LE000Z93P.Test10 DataMoveOperation Select DCIM folder
+2023-03-14 17:18:04 INFO   Lava_X2_LE000Z93P.Test10 DataMoveOperation Select camera folder
+2023-03-14 17:18:07 INFO   Lava_X2_LE000Z93P.Test10 DataMoveOperation Click More options
+2023-03-14 17:18:14 INFO   Lava_X2_LE000Z93P.Test10 DataMoveOperation Click Select all
+2023-03-14 17:18:18 INFO   Lava_X2_LE000Z93P.Test10 DataMoveOperation Click More options
+2023-03-14 17:18:24 INFO   Lava_X2_LE000Z93P.Test10 DataMoveOperation Select move to option
+2023-03-14 17:18:31 INFO   Lava_X2_LE000Z93P.Test10 DataMoveOperation Select uSD Card
+2023-03-14 17:18:37 INFO   Lava_X2_LE000Z93P.Test10 DataMoveOperation Select ADD NEW Folder option
+2023-03-14 17:18:44 INFO   Lava_X2_LE000Z93P.Test10 DataMoveOperation Name folder as Test10
+2023-03-14 17:18:51 INFO   Lava_X2_LE000Z93P.Test10 DataMoveOperation Accept create folder
+2023-03-14 17:20:53 INFO   Lava_X2_LE000Z93P.Test10 DataMoveOperation Cut paste  video files operation completed successfully
+2023-03-14 17:21:02 INFO   Lava_X2_LE000Z93P.Test10 DataMoveOperation Pass: Test10 Pass for data move operation successfully
+2023-03-14 17:21:02 INFO   Lava_X2_LE000Z93P.Test10 DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-14 17:21:02 INFO   Lava_X2_LE000Z93P.Test10 RecordedVideoPlayback Calling copiedvideosPlayBack() for playing copied video file from Test1 folder
+2023-03-14 17:21:02 INFO   Lava_X2_LE000Z93P.Test10 CopiedvideosPlayBack Re-launch file manager application and select external storage for playing copied video files
+2023-03-14 17:21:17 INFO   Lava_X2_LE000Z93P.Test10 CopiedvideosPlayBack Select external storage
+2023-03-14 17:21:17 INFO   Lava_X2_LE000Z93P.Test10 CopiedvideosPlayBack Select Test1 folder
+2023-03-14 17:21:21 INFO   Lava_X2_LE000Z93P.Test10 CopiedvideosPlayBack Select TestFile folder
+2023-03-14 17:21:25 INFO   Lava_X2_LE000Z93P.Test10 CopiedvideosPlayBack Select OneGB folder
+2023-03-14 17:21:28 INFO   Lava_X2_LE000Z93P.Test10 CopiedvideosPlayBack Select video folder
+2023-03-14 17:21:31 INFO   Lava_X2_LE000Z93P.Test10 CopiedvideosPlayBack Select LG_4K_DEMO_HDR_2018_(60FPS)_ELBA(480p).mp4 file for video playback
+2023-03-14 17:21:32 INFO   Lava_X2_LE000Z93P.Test10 CopiedvideosPlayBack Started video playback
+2023-03-14 17:21:52 INFO   Lava_X2_LE000Z93P.Test10 CopiedvideosPlayBack Tap Somewhere on Screen for contents to visible on Screen
+2023-03-14 17:21:52 INFO   Lava_X2_LE000Z93P.Test10 CopiedvideosPlayBack Click fast forward button for 10 seconds video forward
+2023-03-14 17:22:13 INFO   Lava_X2_LE000Z93P.Test10 CopiedvideosPlayBack click press back stop video
+2023-03-14 17:22:16 INFO   Lava_X2_LE000Z93P.Test10 CopiedvideosPlayBack Pass: 4K Video play back and fast forward is successful 
+2023-03-14 17:22:19 INFO   Lava_X2_LE000Z93P.Test10 CopiedvideosPlayBack Select FHD 5.1 ( 1350 X 2560 ).webm file for video playback from uSD card(Test-->Videos)
+2023-03-14 17:22:19 INFO   Lava_X2_LE000Z93P.Test10 CopiedvideosPlayBack Started video playback
+2023-03-14 17:22:39 INFO   Lava_X2_LE000Z93P.Test10 CopiedvideosPlayBack Tap Somewhere on Screen for contents to visible on Screen
+2023-03-14 17:22:49 INFO   Lava_X2_LE000Z93P.Test10 CopiedvideosPlayBack Fail:Test10 Fail for FHD video play back Host Doesn't support .webm videos org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: LAVA  X2, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: X29H22CB001024}, deviceApiLevel: 30, deviceManufacturer: LAVA, deviceModel: LAVA LZG403 225, deviceName: X29H22CB001024, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: X29H22CB001024, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 45, takesScreenshot: true, udid: X29H22CB001024, viewportRect: {height: 1414, left: 0, top: 45, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 181f8b47-24b9-4feb-9c47-6b7e8c1c4419
+*** Element info: {Using=xpath, value=//*[@resource-id='com.google.android.apps.nbu.files:id/video_player']}
+2023-03-14 17:22:49 INFO   Lava_X2_LE000Z93P.Test10 CopiedvideosPlayBack ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-14 17:22:49 INFO   Lava_X2_LE000Z93P.Test10 CopiedvideosPlayBack Final Message: Pass Test10 Pass for rear camera  video recording, playback and fast forward highest resolution recorded video and playback and fast forward copied video files from Test1 folder and data move operation scenario
+2023-03-14 17:22:49 INFO   Lava_X2_LE000Z93P.Test10 CopiedvideosPlayBack Test:End
+2023-03-14 17:22:49 INFO   Lava_X2_LE000Z93P.Test10 CopiedvideosPlayBack ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

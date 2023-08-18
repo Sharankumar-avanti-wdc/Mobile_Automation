@@ -1,0 +1,40 @@
+2022-08-30 11:28:46 INFO   Infinix_Note10_Pro.Test10_Int rearVideoRec Test: Start
+2022-08-30 11:28:46 INFO   Infinix_Note10_Pro.Test10_Int rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-08-30 11:28:46 INFO   Infinix_Note10_Pro.Test10_Int rearVideoRec Test10_Int Scenario is as follows
+2022-08-30 11:28:46 INFO   Infinix_Note10_Pro.Test10_Int rearVideoRec 1.Launch Camera application and start back camera video recording for all host applicable resolutions in uSD Card
+2022-08-30 11:28:46 INFO   Infinix_Note10_Pro.Test10_Int rearVideoRec 2.Playback Highest resolution recorded video from USD Card, fast forward playback and pause video scenario 
+2022-08-30 11:28:46 INFO   Infinix_Note10_Pro.Test10_Int rearVideoRec 3.Playback copied videos from Test1 folder, fast forward and pause scenario
+2022-08-30 11:28:46 INFO   Infinix_Note10_Pro.Test10_Int rearVideoRec Setting up the appium desired capabilities
+2022-08-30 11:28:46 INFO   Infinix_Note10_Pro.Test10_Int rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-08-30 11:29:05 INFO   Infinix_Note10_Pro.Test10_Int rearVideoRec Launch Camera Application for rear camera video recording
+2022-08-30 11:29:11 INFO   Infinix_Note10_Pro.Test10_Int rearVideoRec Select camera permissions
+2022-08-30 11:29:31 INFO   Infinix_Note10_Pro.Test10_Int rearVideoRec change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '5CG2148T4G', ip: '10.113.85.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Infinix NOTE 10Pro, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: 067742514U100384}, deviceApiLevel: 30, deviceManufacturer: INFINIX MOBILITY LIMITED, deviceModel: Infinix X695C, deviceName: 067742514U100384, deviceScreenDensity: 480, deviceScreenSize: 1080x2460, deviceUDID: 067742514U100384, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 108, takesScreenshot: true, udid: 067742514U100384, viewportRect: {height: 2100, left: 0, top: 108, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 79451735-6b35-4749-b7d0-1a033d5a8889
+*** Element info: {Using=xpath, value=//*[@resource-id='com.android.permissioncontroller:id/permission_deny_button']}
+2022-08-30 11:29:31 INFO   Infinix_Note10_Pro.Test10_Int rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-08-30 11:29:33 INFO   Infinix_Note10_Pro.Test10_Int rearVideoRec Select video tab
+2022-08-30 11:29:37 INFO   Infinix_Note10_Pro.Test10_Int rearVideoRec Select settings option
+2022-08-30 11:29:49 INFO   Infinix_Note10_Pro.Test10_Int rearVideoRec Select 1st Back Video Resolution:1080p,30fps
+2022-08-30 11:30:00 INFO   Infinix_Note10_Pro.Test10_Int rearVideoRec Start video recording
+2022-08-30 11:30:03 INFO   Infinix_Note10_Pro.Test10_Int rearVideoRec Stop video recording
+2022-08-30 11:35:11 INFO   Infinix_Note10_Pro.Test10_Int rearVideoRec Select settings option
+2022-08-30 11:35:21 INFO   Infinix_Note10_Pro.Test10_Int rearVideoRec Select 2nd Back Video Resolution: 720P,30fps
+2022-08-30 11:35:33 INFO   Infinix_Note10_Pro.Test10_Int rearVideoRec Start video recording
+2022-08-30 11:35:33 INFO   Infinix_Note10_Pro.Test10_Int rearVideoRec Start Recording
+2022-08-30 11:35:35 INFO   Infinix_Note10_Pro.Test10_Int rearVideoRec Stop video recording
+2022-08-30 11:40:43 INFO   Infinix_Note10_Pro.Test10_Int rearVideoRec Stop recording
+2022-08-30 11:40:43 INFO   Infinix_Note10_Pro.Test10_Int rearVideoRec Select settings option
+2022-08-30 11:40:53 INFO   Infinix_Note10_Pro.Test10_Int rearVideoRec Select 3rd Back Video Resolution: 1080,30fps
+2022-08-30 11:41:04 INFO   Infinix_Note10_Pro.Test10_Int rearVideoRec Start video recording
+2022-08-30 11:41:04 INFO   Infinix_Note10_Pro.Test10_Int rearVideoRec Start Recording
+2022-08-30 11:41:06 INFO   Infinix_Note10_Pro.Test10_Int rearVideoRec Stop video recording
+2022-08-30 11:46:14 INFO   Infinix_Note10_Pro.Test10_Int rearVideoRec Stop recording
+2022-08-30 11:46:14 INFO   Infinix_Note10_Pro.Test10_Int rearVideoRec Select settings option
+2022-08-30 11:46:24 INFO   Infinix_Note10_Pro.Test10_Int rearVideoRec Select 3rd Back Video Resolution: 4k,30fps
+2022-08-30 11:46:35 INFO   Infinix_Note10_Pro.Test10_Int rearVideoRec Fail: Test10_Int Fail for Rear camera video recording 
+2022-08-30 11:46:35 INFO   Infinix_Note10_Pro.Test10_Int rearVideoRec Final Message: Fail Test10_Int Fail for Rear camera video recording

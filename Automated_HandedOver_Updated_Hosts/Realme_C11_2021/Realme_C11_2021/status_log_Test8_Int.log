@@ -1,0 +1,62 @@
+2023-01-30 18:43:12 INFO   Realme_C11_2021.Test8_Int recordAudio Test: Start
+2023-01-30 18:43:12 INFO   Realme_C11_2021.Test8_Int recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-30 18:43:12 INFO   Realme_C11_2021.Test8_Int recordAudio Test8_Int scenario is as follows
+2023-01-30 18:43:12 INFO   Realme_C11_2021.Test8_Int recordAudio 1.Launch mobile default voice recording application and set  storage option, record audio file for 2 minutes duration
+2023-01-30 18:43:12 INFO   Realme_C11_2021.Test8_Int recordAudio 2.Launch file manager application and playback recorded audio file from internal storage, fast forward audio file and pause
+2023-01-30 18:43:12 INFO   Realme_C11_2021.Test8_Int recordAudio 3.Launch file manager application and playback copied audio files from internal storage the files are placed in the Test1 folder
+2023-01-30 18:43:12 INFO   Realme_C11_2021.Test8_Int recordAudio Setting up the appium desired capabilities
+2023-01-30 18:43:12 INFO   Realme_C11_2021.Test8_Int recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-30 18:43:21 INFO   Realme_C11_2021.Test8_Int recordAudio Clear Recent Apps
+2023-01-30 18:43:32 INFO   Realme_C11_2021.Test8_Int recordAudio Clearing Recent Apps
+2023-01-30 18:43:37 INFO   Realme_C11_2021.Test8_Int recordAudio Pass: Test8_Int Pass for clearing Recent apps 
+2023-01-30 18:43:41 INFO   Realme_C11_2021.Test8_Int recordAudio Launch Voice recorder application for Audio recording
+2023-01-30 18:43:46 INFO   Realme_C11_2021.Test8_Int recordAudio If application launch permission pop-up exists accept allow permission to launch application
+2023-01-30 18:43:51 INFO   Realme_C11_2021.Test8_Int recordAudio While using the app
+2023-01-30 18:44:01 INFO   Realme_C11_2021.Test8_Int recordAudio  No Launch permission Pop-up  found
+2023-01-30 18:44:06 INFO   Realme_C11_2021.Test8_Int recordAudio Start Recording
+2023-01-30 18:46:06 INFO   Realme_C11_2021.Test8_Int recordAudio Stop Recording
+2023-01-30 18:46:42 INFO   Realme_C11_2021.Test8_Int recordAudio Stop and Save Recording
+2023-01-30 18:46:48 INFO   Realme_C11_2021.Test8_Int recordAudio Pass: Test8_Int pass for recording  audio file
+2023-01-30 18:46:48 INFO   Realme_C11_2021.Test8_Int recordAudio Calling PlayRecordedAudio() for Audio play back and fast forward scenario
+2023-01-30 18:46:48 INFO   Realme_C11_2021.Test8_Int recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-30 18:46:53 INFO   Realme_C11_2021.Test8_Int PlayRecordedAudio Clear Recent Apps
+2023-01-30 18:47:04 INFO   Realme_C11_2021.Test8_Int PlayRecordedAudio Clearing Recent Apps
+2023-01-30 18:47:10 INFO   Realme_C11_2021.Test8_Int PlayRecordedAudio Pass: Test8_Int Pass for clearing Recent apps 
+2023-01-30 18:47:14 INFO   Realme_C11_2021.Test8_Int PlayRecordedAudio Launch File Manager Application
+2023-01-30 18:47:29 INFO   Realme_C11_2021.Test8_Int PlayRecordedAudio Click On internal storage
+2023-01-30 18:47:34 INFO   Realme_C11_2021.Test8_Int PlayRecordedAudio Select Music Folder
+2023-01-30 18:47:44 INFO   Realme_C11_2021.Test8_Int PlayRecordedAudio Select recordings
+2023-01-30 18:47:47 INFO   Realme_C11_2021.Test8_Int PlayRecordedAudio Select mp3 audio-file
+2023-01-30 18:48:07 INFO   Realme_C11_2021.Test8_Int PlayRecordedAudio Select files by goggle
+2023-01-30 18:48:18 INFO   Realme_C11_2021.Test8_Int PlayRecordedAudio Fast Forwarding Audio for 10 Seconds
+2023-01-30 18:48:21 INFO   Realme_C11_2021.Test8_Int PlayRecordedAudio click on pause button
+2023-01-30 18:48:32 INFO   Realme_C11_2021.Test8_Int PlayRecordedAudio Pass: Test8_Int Pass for playing, fast forward, and pause recorded audio file scenario
+2023-01-30 18:48:32 INFO   Realme_C11_2021.Test8_Int PlayRecordedAudio Calling PlayCopiedAudioFile() for copied audio files from Test1 folder
+2023-01-30 18:48:32 INFO   Realme_C11_2021.Test8_Int PlayRecordedAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-30 18:48:37 INFO   Realme_C11_2021.Test8_Int PlayCopiedAudioFile Launch File Manager Application
+2023-01-30 18:48:43 INFO   Realme_C11_2021.Test8_Int PlayCopiedAudioFile Swipe up and select uSD card
+2023-01-30 18:48:51 INFO   Realme_C11_2021.Test8_Int PlayCopiedAudioFile Select  Internal storage
+2023-01-30 18:49:01 INFO   Realme_C11_2021.Test8_Int PlayCopiedAudioFile Select Test1 folder
+2023-01-30 18:49:11 INFO   Realme_C11_2021.Test8_Int PlayCopiedAudioFile Select Test_file folder
+2023-01-30 18:49:17 INFO   Realme_C11_2021.Test8_Int PlayCopiedAudioFile Select 1GB folder
+2023-01-30 18:49:20 INFO   Realme_C11_2021.Test8_Int PlayCopiedAudioFile Select MP3 files Folder
+2023-01-30 18:49:25 INFO   Realme_C11_2021.Test8_Int PlayCopiedAudioFile Playing first audio file from Test1 folder
+2023-01-30 18:50:05 INFO   Realme_C11_2021.Test8_Int PlayCopiedAudioFile Fast Forwarding Audio for 10 Seconds
+2023-01-30 18:50:16 INFO   Realme_C11_2021.Test8_Int PlayCopiedAudioFile Continue audio playback
+2023-01-30 18:50:26 INFO   Realme_C11_2021.Test8_Int PlayCopiedAudioFile Pause Audio
+2023-01-30 18:50:29 INFO   Realme_C11_2021.Test8_Int PlayCopiedAudioFile Pass: first audio file palyback and fast forward scenario is successfull
+2023-01-30 18:50:32 INFO   Realme_C11_2021.Test8_Int PlayCopiedAudioFile Playing second audio file from Test1 folder
+2023-01-30 18:51:12 INFO   Realme_C11_2021.Test8_Int PlayCopiedAudioFile Fast Forwarding Audio for 10 Seconds
+2023-01-30 18:51:23 INFO   Realme_C11_2021.Test8_Int PlayCopiedAudioFile Continue audio playback
+2023-01-30 18:51:33 INFO   Realme_C11_2021.Test8_Int PlayCopiedAudioFile Pause Audio
+2023-01-30 18:51:36 INFO   Realme_C11_2021.Test8_Int PlayCopiedAudioFile Pass: Seond audio file palyback and fast forward scenario is successfull
+2023-01-30 18:51:39 INFO   Realme_C11_2021.Test8_Int PlayCopiedAudioFile Playing third audio file from Test1 folder
+2023-01-30 18:52:19 INFO   Realme_C11_2021.Test8_Int PlayCopiedAudioFile Fast Forwarding Audio for 10 Seconds
+2023-01-30 18:52:30 INFO   Realme_C11_2021.Test8_Int PlayCopiedAudioFile Continue audio playback
+2023-01-30 18:52:40 INFO   Realme_C11_2021.Test8_Int PlayCopiedAudioFile Pause Audio
+2023-01-30 18:52:43 INFO   Realme_C11_2021.Test8_Int PlayCopiedAudioFile Pass: Third audio file palyback and fast forward scenario is successfull
+2023-01-30 18:52:43 INFO   Realme_C11_2021.Test8_Int PlayCopiedAudioFile Pass: Test8_Int Pass for Recorded and copied audio play back and fast forward scenario
+2023-01-30 18:52:43 INFO   Realme_C11_2021.Test8_Int PlayCopiedAudioFile ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-30 18:52:43 INFO   Realme_C11_2021.Test8_Int PlayCopiedAudioFile Final Message: Pass Test8_Int Pass for Recorded and copied audio play back and fast forward scenario
+2023-01-30 18:52:43 INFO   Realme_C11_2021.Test8_Int PlayCopiedAudioFile Test: End
+2023-01-30 18:52:43 INFO   Realme_C11_2021.Test8_Int PlayCopiedAudioFile ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

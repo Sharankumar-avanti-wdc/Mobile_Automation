@@ -1,0 +1,380 @@
+2023-01-10 20:33:22 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture Test: Start
+2023-01-10 20:33:22 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-10 20:33:22 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture Test9 Scenario is follows:
+2023-01-10 20:33:22 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture 1.Launch camera application, set uSD as a Storage option, start rear camera Image capture for all host resolutions
+2023-01-10 20:33:22 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture Setting up the appium desired capabilities
+2023-01-10 20:33:22 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-10 20:33:29 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture Launch Home Screen and Clear recent
+2023-01-10 20:33:47 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture Launch Camera application for rear Picture capture for all host resolution
+2023-01-10 20:33:49 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture If change to uSD card pop-up exists select Cancel
+2023-01-10 20:33:59 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy A32, newCommandTimeout: 600, platformName: android, platformVersion: 11, udid: RF8R30TPYQK}, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-A325M, deviceName: RF8R30TPYQK, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: RF8R30TPYQK, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 77, takesScreenshot: true, udid: RF8R30TPYQK, viewportRect: {height: 2118, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 5b2bfef8-5b75-45b1-9d12-b6a8cadc6c04
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2023-01-10 20:33:59 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture If Location access Permission Request Pop Exists Click on Cancel. 
+2023-01-10 20:34:09 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture Location access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy A32, newCommandTimeout: 600, platformName: android, platformVersion: 11, udid: RF8R30TPYQK}, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-A325M, deviceName: RF8R30TPYQK, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: RF8R30TPYQK, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 77, takesScreenshot: true, udid: RF8R30TPYQK, viewportRect: {height: 2118, left: 0, top: 77, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 5b2bfef8-5b75-45b1-9d12-b6a8cadc6c04
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2023-01-10 20:34:09 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture Switch To Rear Camera mode if current Exiting camera is Front camera mode
+2023-01-10 20:34:19 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture Current Existing Camera is Rear Camera mode.
+2023-01-10 20:34:19 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture Test9_Bcam_res: 5 resolutions supported
+2023-01-10 20:34:19 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture Select settings option
+2023-01-10 20:34:24 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture Search for Storage location
+2023-01-10 20:34:39 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture Select SD as storage option
+2023-01-10 20:34:48 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture Select Rear Image Size
+2023-01-10 20:34:48 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture Select first Image Resoution: 3:4 64MP
+2023-01-10 20:35:05 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image0
+2023-01-10 20:35:15 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image1
+2023-01-10 20:35:26 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image2
+2023-01-10 20:35:36 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image3
+2023-01-10 20:35:46 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image4
+2023-01-10 20:35:56 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image5
+2023-01-10 20:36:06 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image6
+2023-01-10 20:36:16 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image7
+2023-01-10 20:36:27 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image8
+2023-01-10 20:36:37 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image9
+2023-01-10 20:36:47 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image10
+2023-01-10 20:36:57 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image11
+2023-01-10 20:37:07 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image12
+2023-01-10 20:37:17 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image13
+2023-01-10 20:37:28 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image14
+2023-01-10 20:37:38 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image15
+2023-01-10 20:37:48 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image16
+2023-01-10 20:37:58 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image17
+2023-01-10 20:38:08 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image18
+2023-01-10 20:38:18 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image19
+2023-01-10 20:38:29 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image20
+2023-01-10 20:38:39 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image21
+2023-01-10 20:38:49 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image22
+2023-01-10 20:39:00 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image23
+2023-01-10 20:39:10 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image24
+2023-01-10 20:39:20 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image25
+2023-01-10 20:39:31 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image26
+2023-01-10 20:39:41 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image27
+2023-01-10 20:39:51 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image28
+2023-01-10 20:40:01 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image29
+2023-01-10 20:40:11 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image30
+2023-01-10 20:40:21 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image31
+2023-01-10 20:40:32 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image32
+2023-01-10 20:40:42 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image33
+2023-01-10 20:40:52 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image34
+2023-01-10 20:41:02 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image35
+2023-01-10 20:41:12 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image36
+2023-01-10 20:41:22 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image37
+2023-01-10 20:41:33 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image38
+2023-01-10 20:41:43 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image39
+2023-01-10 20:41:53 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image40
+2023-01-10 20:42:03 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image41
+2023-01-10 20:42:13 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image42
+2023-01-10 20:42:23 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image43
+2023-01-10 20:42:34 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image44
+2023-01-10 20:42:44 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image45
+2023-01-10 20:42:54 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image46
+2023-01-10 20:43:04 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image47
+2023-01-10 20:43:14 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image48
+2023-01-10 20:43:24 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image49
+2023-01-10 20:43:34 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image50
+2023-01-10 20:43:45 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image51
+2023-01-10 20:43:55 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image52
+2023-01-10 20:44:05 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image53
+2023-01-10 20:44:15 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image54
+2023-01-10 20:44:25 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image55
+2023-01-10 20:44:35 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image56
+2023-01-10 20:44:46 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image57
+2023-01-10 20:44:56 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image58
+2023-01-10 20:45:06 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image59
+2023-01-10 20:45:16 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image60
+2023-01-10 20:45:26 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image61
+2023-01-10 20:45:36 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image62
+2023-01-10 20:45:46 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image63
+2023-01-10 20:45:57 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image64
+2023-01-10 20:46:07 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image65
+2023-01-10 20:46:17 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image66
+2023-01-10 20:46:27 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image67
+2023-01-10 20:46:37 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image68
+2023-01-10 20:46:47 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image69
+2023-01-10 20:46:59 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image70
+2023-01-10 20:47:09 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image71
+2023-01-10 20:47:19 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image72
+2023-01-10 20:47:29 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image73
+2023-01-10 20:47:39 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking First  Resolution Image74
+2023-01-10 20:47:41 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture Back camera first resolution:75 images Captured succesfull
+2023-01-10 20:47:41 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture Select Rear Image Size
+2023-01-10 20:47:41 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture Select second Image Resoution: 3:4 
+2023-01-10 20:47:59 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image0
+2023-01-10 20:48:09 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image1
+2023-01-10 20:48:19 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image2
+2023-01-10 20:48:29 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image3
+2023-01-10 20:48:39 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image4
+2023-01-10 20:48:49 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image5
+2023-01-10 20:49:00 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image6
+2023-01-10 20:49:10 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image7
+2023-01-10 20:49:20 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image8
+2023-01-10 20:49:30 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image9
+2023-01-10 20:49:40 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image10
+2023-01-10 20:49:50 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image11
+2023-01-10 20:50:01 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image12
+2023-01-10 20:50:11 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image13
+2023-01-10 20:50:21 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image14
+2023-01-10 20:50:31 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image15
+2023-01-10 20:50:41 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image16
+2023-01-10 20:50:51 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image17
+2023-01-10 20:51:01 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image18
+2023-01-10 20:51:12 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image19
+2023-01-10 20:51:22 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image20
+2023-01-10 20:51:32 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image21
+2023-01-10 20:51:42 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image22
+2023-01-10 20:51:52 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image23
+2023-01-10 20:52:02 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image24
+2023-01-10 20:52:12 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image25
+2023-01-10 20:52:23 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image26
+2023-01-10 20:52:33 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image27
+2023-01-10 20:52:43 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image28
+2023-01-10 20:52:53 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image29
+2023-01-10 20:53:03 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image30
+2023-01-10 20:53:13 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image31
+2023-01-10 20:53:23 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image32
+2023-01-10 20:53:34 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image33
+2023-01-10 20:53:44 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image34
+2023-01-10 20:53:54 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image35
+2023-01-10 20:54:04 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image36
+2023-01-10 20:54:14 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image37
+2023-01-10 20:54:24 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image38
+2023-01-10 20:54:34 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image39
+2023-01-10 20:54:45 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image40
+2023-01-10 20:54:55 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image41
+2023-01-10 20:55:05 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image42
+2023-01-10 20:55:15 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image43
+2023-01-10 20:55:25 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image44
+2023-01-10 20:55:35 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image45
+2023-01-10 20:55:45 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image46
+2023-01-10 20:55:56 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image47
+2023-01-10 20:56:06 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image48
+2023-01-10 20:56:16 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image49
+2023-01-10 20:56:26 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image50
+2023-01-10 20:56:36 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image51
+2023-01-10 20:56:46 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image52
+2023-01-10 20:56:56 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image53
+2023-01-10 20:57:07 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image54
+2023-01-10 20:57:17 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image55
+2023-01-10 20:57:27 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image56
+2023-01-10 20:57:37 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image57
+2023-01-10 20:57:47 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image58
+2023-01-10 20:57:57 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image59
+2023-01-10 20:58:07 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image60
+2023-01-10 20:58:18 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image61
+2023-01-10 20:58:28 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image62
+2023-01-10 20:58:38 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image63
+2023-01-10 20:58:48 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image64
+2023-01-10 20:58:58 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image65
+2023-01-10 20:59:08 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image66
+2023-01-10 20:59:18 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image67
+2023-01-10 20:59:29 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image68
+2023-01-10 20:59:39 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image69
+2023-01-10 20:59:49 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image70
+2023-01-10 20:59:59 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image71
+2023-01-10 21:00:09 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image72
+2023-01-10 21:00:19 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image73
+2023-01-10 21:00:29 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Second  Resolution Image74
+2023-01-10 21:00:31 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture Back camera second resolution:75 images Captured succesfull
+2023-01-10 21:00:32 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture Select third Image Resoution: 9:16
+2023-01-10 21:00:53 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking third  Resolution Image0
+2023-01-10 21:01:03 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking third  Resolution Image1
+2023-01-10 21:01:13 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking third  Resolution Image2
+2023-01-10 21:01:23 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking third  Resolution Image3
+2023-01-10 21:01:33 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking third  Resolution Image4
+2023-01-10 21:01:44 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking third  Resolution Image5
+2023-01-10 21:01:54 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking third  Resolution Image6
+2023-01-10 21:02:04 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking third  Resolution Image7
+2023-01-10 21:02:14 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking third  Resolution Image8
+2023-01-10 21:02:24 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking third  Resolution Image9
+2023-01-10 21:02:34 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking third  Resolution Image10
+2023-01-10 21:02:44 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking third  Resolution Image11
+2023-01-10 21:02:55 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking third  Resolution Image12
+2023-01-10 21:03:05 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking third  Resolution Image13
+2023-01-10 21:03:15 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking third  Resolution Image14
+2023-01-10 21:03:25 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking third  Resolution Image15
+2023-01-10 21:03:35 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking third  Resolution Image16
+2023-01-10 21:03:45 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking third  Resolution Image17
+2023-01-10 21:03:55 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking third  Resolution Image18
+2023-01-10 21:04:05 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking third  Resolution Image19
+2023-01-10 21:04:16 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking third  Resolution Image20
+2023-01-10 21:04:26 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking third  Resolution Image21
+2023-01-10 21:04:36 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking third  Resolution Image22
+2023-01-10 21:04:46 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking third  Resolution Image23
+2023-01-10 21:04:56 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking third  Resolution Image24
+2023-01-10 21:05:06 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking third  Resolution Image25
+2023-01-10 21:05:16 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking third  Resolution Image26
+2023-01-10 21:05:27 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking third  Resolution Image27
+2023-01-10 21:05:37 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking third  Resolution Image28
+2023-01-10 21:05:47 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking third  Resolution Image29
+2023-01-10 21:05:57 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking third  Resolution Image30
+2023-01-10 21:06:07 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking third  Resolution Image31
+2023-01-10 21:06:17 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking third  Resolution Image32
+2023-01-10 21:06:28 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking third  Resolution Image33
+2023-01-10 21:06:38 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking third  Resolution Image34
+2023-01-10 21:06:48 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking third  Resolution Image35
+2023-01-10 21:06:58 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking third  Resolution Image36
+2023-01-10 21:07:08 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking third  Resolution Image37
+2023-01-10 21:07:18 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking third  Resolution Image38
+2023-01-10 21:07:28 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking third  Resolution Image39
+2023-01-10 21:07:39 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking third  Resolution Image40
+2023-01-10 21:07:49 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking third  Resolution Image41
+2023-01-10 21:07:59 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking third  Resolution Image42
+2023-01-10 21:08:09 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking third  Resolution Image43
+2023-01-10 21:08:19 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking third  Resolution Image44
+2023-01-10 21:08:29 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking third  Resolution Image45
+2023-01-10 21:08:39 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking third  Resolution Image46
+2023-01-10 21:08:49 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking third  Resolution Image47
+2023-01-10 21:09:00 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking third  Resolution Image48
+2023-01-10 21:09:10 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking third  Resolution Image49
+2023-01-10 21:09:12 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture Back camera third resolution:50 images Captured succesfull
+2023-01-10 21:09:12 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture Select Fourth Image Resoution: 1:1
+2023-01-10 21:09:29 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fourth  Resolution Image0
+2023-01-10 21:09:39 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fourth  Resolution Image1
+2023-01-10 21:09:49 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fourth  Resolution Image2
+2023-01-10 21:10:00 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fourth  Resolution Image3
+2023-01-10 21:10:10 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fourth  Resolution Image4
+2023-01-10 21:10:20 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fourth  Resolution Image5
+2023-01-10 21:10:30 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fourth  Resolution Image6
+2023-01-10 21:10:40 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fourth  Resolution Image7
+2023-01-10 21:10:50 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fourth  Resolution Image8
+2023-01-10 21:11:00 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fourth  Resolution Image9
+2023-01-10 21:11:11 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fourth  Resolution Image10
+2023-01-10 21:11:21 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fourth  Resolution Image11
+2023-01-10 21:11:31 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fourth  Resolution Image12
+2023-01-10 21:11:41 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fourth  Resolution Image13
+2023-01-10 21:11:51 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fourth  Resolution Image14
+2023-01-10 21:12:01 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fourth  Resolution Image15
+2023-01-10 21:12:11 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fourth  Resolution Image16
+2023-01-10 21:12:22 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fourth  Resolution Image17
+2023-01-10 21:12:32 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fourth  Resolution Image18
+2023-01-10 21:12:42 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fourth  Resolution Image19
+2023-01-10 21:12:52 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fourth  Resolution Image20
+2023-01-10 21:13:02 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fourth  Resolution Image21
+2023-01-10 21:13:12 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fourth  Resolution Image22
+2023-01-10 21:13:22 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fourth  Resolution Image23
+2023-01-10 21:13:33 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fourth  Resolution Image24
+2023-01-10 21:13:43 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fourth  Resolution Image25
+2023-01-10 21:13:53 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fourth  Resolution Image26
+2023-01-10 21:14:03 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fourth  Resolution Image27
+2023-01-10 21:14:13 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fourth  Resolution Image28
+2023-01-10 21:14:23 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fourth  Resolution Image29
+2023-01-10 21:14:33 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fourth  Resolution Image30
+2023-01-10 21:14:44 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fourth  Resolution Image31
+2023-01-10 21:14:54 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fourth  Resolution Image32
+2023-01-10 21:15:04 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fourth  Resolution Image33
+2023-01-10 21:15:14 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fourth  Resolution Image34
+2023-01-10 21:15:24 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fourth  Resolution Image35
+2023-01-10 21:15:34 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fourth  Resolution Image36
+2023-01-10 21:15:44 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fourth  Resolution Image37
+2023-01-10 21:15:55 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fourth  Resolution Image38
+2023-01-10 21:16:05 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fourth  Resolution Image39
+2023-01-10 21:16:15 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fourth  Resolution Image40
+2023-01-10 21:16:25 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fourth  Resolution Image41
+2023-01-10 21:16:35 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fourth  Resolution Image42
+2023-01-10 21:16:45 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fourth  Resolution Image43
+2023-01-10 21:16:55 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fourth  Resolution Image44
+2023-01-10 21:17:05 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fourth  Resolution Image45
+2023-01-10 21:17:16 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fourth  Resolution Image46
+2023-01-10 21:17:26 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fourth  Resolution Image47
+2023-01-10 21:17:36 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fourth  Resolution Image48
+2023-01-10 21:17:46 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fourth  Resolution Image49
+2023-01-10 21:17:48 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture Back camera fourth resolution: 50 images Captured succesfull
+2023-01-10 21:17:48 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture Select fifth resolution
+2023-01-10 21:18:05 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fifth  Resolution Image0
+2023-01-10 21:18:16 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fifth  Resolution Image1
+2023-01-10 21:18:26 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fifth  Resolution Image2
+2023-01-10 21:18:36 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fifth  Resolution Image3
+2023-01-10 21:18:46 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fifth  Resolution Image4
+2023-01-10 21:18:56 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fifth  Resolution Image5
+2023-01-10 21:19:06 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fifth  Resolution Image6
+2023-01-10 21:19:16 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fifth  Resolution Image7
+2023-01-10 21:19:27 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fifth  Resolution Image8
+2023-01-10 21:19:37 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fifth  Resolution Image9
+2023-01-10 21:19:47 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fifth  Resolution Image10
+2023-01-10 21:19:57 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fifth  Resolution Image11
+2023-01-10 21:20:07 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fifth  Resolution Image12
+2023-01-10 21:20:17 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fifth  Resolution Image13
+2023-01-10 21:20:27 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fifth  Resolution Image14
+2023-01-10 21:20:38 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fifth  Resolution Image15
+2023-01-10 21:20:48 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fifth  Resolution Image16
+2023-01-10 21:20:58 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fifth  Resolution Image17
+2023-01-10 21:21:08 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fifth  Resolution Image18
+2023-01-10 21:21:18 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fifth  Resolution Image19
+2023-01-10 21:21:28 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fifth  Resolution Image20
+2023-01-10 21:21:38 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fifth  Resolution Image21
+2023-01-10 21:21:49 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fifth  Resolution Image22
+2023-01-10 21:21:59 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fifth  Resolution Image23
+2023-01-10 21:22:09 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fifth  Resolution Image24
+2023-01-10 21:22:19 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fifth  Resolution Image25
+2023-01-10 21:22:29 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fifth  Resolution Image26
+2023-01-10 21:22:39 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fifth  Resolution Image27
+2023-01-10 21:22:49 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fifth  Resolution Image28
+2023-01-10 21:22:59 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fifth  Resolution Image29
+2023-01-10 21:23:10 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fifth  Resolution Image30
+2023-01-10 21:23:20 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fifth  Resolution Image31
+2023-01-10 21:23:30 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fifth  Resolution Image32
+2023-01-10 21:23:40 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fifth  Resolution Image33
+2023-01-10 21:23:50 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fifth  Resolution Image34
+2023-01-10 21:24:00 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fifth  Resolution Image35
+2023-01-10 21:24:10 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fifth  Resolution Image36
+2023-01-10 21:24:21 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fifth  Resolution Image37
+2023-01-10 21:24:31 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fifth  Resolution Image38
+2023-01-10 21:24:41 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fifth  Resolution Image39
+2023-01-10 21:24:51 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fifth  Resolution Image40
+2023-01-10 21:25:01 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fifth  Resolution Image41
+2023-01-10 21:25:11 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fifth  Resolution Image42
+2023-01-10 21:25:21 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fifth  Resolution Image43
+2023-01-10 21:25:32 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fifth  Resolution Image44
+2023-01-10 21:25:42 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fifth  Resolution Image45
+2023-01-10 21:25:52 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fifth  Resolution Image46
+2023-01-10 21:26:02 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fifth  Resolution Image47
+2023-01-10 21:26:12 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fifth  Resolution Image48
+2023-01-10 21:26:22 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture clicking Fifth  Resolution Image49
+2023-01-10 21:26:24 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture Back camera fifth resolution: 50 images Captured succesfull
+2023-01-10 21:26:24 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture Total Count value: 300 images to be Captured 
+2023-01-10 21:26:33 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture Launch file manager application and verify recorded video present  in uSD Card
+2023-01-10 21:26:50 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture Swipe up to select uSD card
+2023-01-10 21:26:53 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture Select SD card
+2023-01-10 21:26:59 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture switch to grid view mode to select DCIM folder
+2023-01-10 21:27:03 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture Select DCIM folder
+2023-01-10 21:27:06 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture Select camera folder
+2023-01-10 21:27:09 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture switch to list view mode 
+2023-01-10 21:27:12 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture Click More options
+2023-01-10 21:27:19 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture Click Select all
+2023-01-10 21:27:23 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture Total Image captured
+2023-01-10 21:27:35 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture Pass: Test9 pass for rear Image capture
+2023-01-10 21:27:35 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture Test9 Bcam_image: 300  images Captured succesfull
+2023-01-10 21:27:35 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-10 21:27:38 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture calling DataMoveOperation() 
+2023-01-10 21:27:38 INFO   SamsungGalaxy_A32.Test9 DataMoveOperation Re-launch file manager application and select external storage for data move operation, select all rear camera images files present in camera folder and move to Test9 folder
+2023-01-10 21:27:48 INFO   SamsungGalaxy_A32.Test9 DataMoveOperation Select external storage
+2023-01-10 21:27:53 INFO   SamsungGalaxy_A32.Test9 DataMoveOperation switch to grid view mode and select DCIM  folder
+2023-01-10 21:27:57 INFO   SamsungGalaxy_A32.Test9 DataMoveOperation Select DCIM folder
+2023-01-10 21:28:00 INFO   SamsungGalaxy_A32.Test9 DataMoveOperation Select camera  folder
+2023-01-10 21:28:03 INFO   SamsungGalaxy_A32.Test9 DataMoveOperation switch to list view mode 
+2023-01-10 21:28:06 INFO   SamsungGalaxy_A32.Test9 DataMoveOperation Click More options
+2023-01-10 21:28:13 INFO   SamsungGalaxy_A32.Test9 DataMoveOperation Click Select all
+2023-01-10 21:28:16 INFO   SamsungGalaxy_A32.Test9 DataMoveOperation Click More options
+2023-01-10 21:28:23 INFO   SamsungGalaxy_A32.Test9 DataMoveOperation Select move to option
+2023-01-10 21:28:30 INFO   SamsungGalaxy_A32.Test9 DataMoveOperation Select uSD Card
+2023-01-10 21:28:36 INFO   SamsungGalaxy_A32.Test9 DataMoveOperation Select ADD NEW Folder option
+2023-01-10 21:28:42 INFO   SamsungGalaxy_A32.Test9 DataMoveOperation Name folder as Test9
+2023-01-10 21:28:49 INFO   SamsungGalaxy_A32.Test9 DataMoveOperation Accept create folder
+2023-01-10 21:29:20 INFO   SamsungGalaxy_A32.Test9 DataMoveOperation Cut paste operation completed successfully
+2023-01-10 21:29:23 INFO   SamsungGalaxy_A32.Test9 DataMoveOperation Test9: Data move operation completed successfully
+2023-01-10 21:29:32 INFO   SamsungGalaxy_A32.Test9 DataMoveOperation Pass: Test9 Pass for data move operation successfully
+2023-01-10 21:29:32 INFO   SamsungGalaxy_A32.Test9 DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-10 21:29:32 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture Final message: Pass Test9 Pass for Rear camera image capture  successfully
+2023-01-10 21:29:32 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture Test: End
+2023-01-10 21:29:32 INFO   SamsungGalaxy_A32.Test9 RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

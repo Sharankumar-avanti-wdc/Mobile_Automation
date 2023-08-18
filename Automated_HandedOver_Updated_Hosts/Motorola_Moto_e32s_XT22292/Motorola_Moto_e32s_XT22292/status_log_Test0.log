@@ -1,0 +1,148 @@
+2022-12-20 16:08:56 INFO   Motorola_Moto_e32s_XT22292.Test0 start Test: Start
+2022-12-20 16:08:56 INFO   Motorola_Moto_e32s_XT22292.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-12-20 16:08:56 INFO   Motorola_Moto_e32s_XT22292.Test0 start  Test0 Scenario is as follows 
+2022-12-20 16:08:56 INFO   Motorola_Moto_e32s_XT22292.Test0 start 1.Unlock phone, clear recent apps, clear internal memory
+2022-12-20 16:08:56 INFO   Motorola_Moto_e32s_XT22292.Test0 start 2.Call Image() and Capture Rear camera 25 images for default resolution in uSD card and Verify the data capture
+2022-12-20 16:08:56 INFO   Motorola_Moto_e32s_XT22292.Test0 start 3.Call Video() and record Rear camera video of first 2 resloutions for 2 minutes of duration in uSD Card and verify the same
+2022-12-20 16:08:56 INFO   Motorola_Moto_e32s_XT22292.Test0 start 4.Call Format() and format uSD card with data and verify the same
+2022-12-20 16:08:56 INFO   Motorola_Moto_e32s_XT22292.Test0 start Setting up the appium desired capabilities
+2022-12-20 16:08:56 INFO   Motorola_Moto_e32s_XT22292.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-12-20 16:09:19 INFO   Motorola_Moto_e32s_XT22292.Test0 start Host does'nt support clear recent apps option! Hence Skiping clear recent apps scenario
+2022-12-20 16:09:19 INFO   Motorola_Moto_e32s_XT22292.Test0 start Launch File Manager Application and clear internal memory
+2022-12-20 16:09:25 INFO   Motorola_Moto_e32s_XT22292.Test0 start Swipe up and select uSD card
+2022-12-20 16:09:29 INFO   Motorola_Moto_e32s_XT22292.Test0 start Select  Internal storage
+2022-12-20 16:09:34 INFO   Motorola_Moto_e32s_XT22292.Test0 start Select  More options
+2022-12-20 16:09:38 INFO   Motorola_Moto_e32s_XT22292.Test0 start click on Select all
+2022-12-20 16:09:42 INFO   Motorola_Moto_e32s_XT22292.Test0 start Select Delete permanently
+2022-12-20 16:09:52 INFO   Motorola_Moto_e32s_XT22292.Test0 start Select  More options
+2022-12-20 16:09:55 INFO   Motorola_Moto_e32s_XT22292.Test0 start Select Delete permanently
+2022-12-20 16:09:59 INFO   Motorola_Moto_e32s_XT22292.Test0 start Select  Delete
+2022-12-20 16:12:40 INFO   Motorola_Moto_e32s_XT22292.Test0 start Pass: Clearing phone internal memory is successfull
+2022-12-20 16:12:40 INFO   Motorola_Moto_e32s_XT22292.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-12-20 16:12:40 INFO   Motorola_Moto_e32s_XT22292.Test0 start Calling Image() to capture rear camera image in uSD card and verifying the same.
+2022-12-20 16:12:40 INFO   Motorola_Moto_e32s_XT22292.Test0 Images Launch Camera Application for Rear picture capture
+2022-12-20 16:12:56 INFO   Motorola_Moto_e32s_XT22292.Test0 Images change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: moto e32 (s), newCommandTimeout: 1200, platformName: android, platformVersion: 12, udid: ZD2226GP6D}, deviceApiLevel: 31, deviceManufacturer: motorola, deviceModel: moto e32(s), deviceName: ZD2226GP6D, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: ZD2226GP6D, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 76, takesScreenshot: true, udid: ZD2226GP6D, viewportRect: {height: 1364, left: 0, top: 76, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 10a188b9-0b78-462b-a155-2c02afe16afb
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2022-12-20 16:12:58 INFO   Motorola_Moto_e32s_XT22292.Test0 Images if Location permisson Pop Exists Select Cancel Option
+2022-12-20 16:13:08 INFO   Motorola_Moto_e32s_XT22292.Test0 Images Location  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: moto e32 (s), newCommandTimeout: 1200, platformName: android, platformVersion: 12, udid: ZD2226GP6D}, deviceApiLevel: 31, deviceManufacturer: motorola, deviceModel: moto e32(s), deviceName: ZD2226GP6D, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: ZD2226GP6D, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 76, takesScreenshot: true, udid: ZD2226GP6D, viewportRect: {height: 1364, left: 0, top: 76, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 10a188b9-0b78-462b-a155-2c02afe16afb
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2022-12-20 16:13:18 INFO   Motorola_Moto_e32s_XT22292.Test0 Images Currently camera is already in rear camera mode no need to switch
+2022-12-20 16:13:18 INFO   Motorola_Moto_e32s_XT22292.Test0 Images Select settings option
+2022-12-20 16:13:24 INFO   Motorola_Moto_e32s_XT22292.Test0 Images Search for SD Card option
+2022-12-20 16:13:29 INFO   Motorola_Moto_e32s_XT22292.Test0 Images Select  storage option
+2022-12-20 16:13:35 INFO   Motorola_Moto_e32s_XT22292.Test0 Images Select SD as storage option
+2022-12-20 16:13:43 INFO   Motorola_Moto_e32s_XT22292.Test0 Images Capture Image of Default Resolution
+2022-12-20 16:13:51 INFO   Motorola_Moto_e32s_XT22292.Test0 Images clicking Image of Default Resolutions0
+2022-12-20 16:13:58 INFO   Motorola_Moto_e32s_XT22292.Test0 Images clicking Image of Default Resolutions1
+2022-12-20 16:14:06 INFO   Motorola_Moto_e32s_XT22292.Test0 Images clicking Image of Default Resolutions2
+2022-12-20 16:14:14 INFO   Motorola_Moto_e32s_XT22292.Test0 Images clicking Image of Default Resolutions3
+2022-12-20 16:14:21 INFO   Motorola_Moto_e32s_XT22292.Test0 Images clicking Image of Default Resolutions4
+2022-12-20 16:14:29 INFO   Motorola_Moto_e32s_XT22292.Test0 Images clicking Image of Default Resolutions5
+2022-12-20 16:14:36 INFO   Motorola_Moto_e32s_XT22292.Test0 Images clicking Image of Default Resolutions6
+2022-12-20 16:14:44 INFO   Motorola_Moto_e32s_XT22292.Test0 Images clicking Image of Default Resolutions7
+2022-12-20 16:14:51 INFO   Motorola_Moto_e32s_XT22292.Test0 Images clicking Image of Default Resolutions8
+2022-12-20 16:14:58 INFO   Motorola_Moto_e32s_XT22292.Test0 Images clicking Image of Default Resolutions9
+2022-12-20 16:15:06 INFO   Motorola_Moto_e32s_XT22292.Test0 Images clicking Image of Default Resolutions10
+2022-12-20 16:15:13 INFO   Motorola_Moto_e32s_XT22292.Test0 Images clicking Image of Default Resolutions11
+2022-12-20 16:15:21 INFO   Motorola_Moto_e32s_XT22292.Test0 Images clicking Image of Default Resolutions12
+2022-12-20 16:15:29 INFO   Motorola_Moto_e32s_XT22292.Test0 Images clicking Image of Default Resolutions13
+2022-12-20 16:15:36 INFO   Motorola_Moto_e32s_XT22292.Test0 Images clicking Image of Default Resolutions14
+2022-12-20 16:15:44 INFO   Motorola_Moto_e32s_XT22292.Test0 Images clicking Image of Default Resolutions15
+2022-12-20 16:15:52 INFO   Motorola_Moto_e32s_XT22292.Test0 Images clicking Image of Default Resolutions16
+2022-12-20 16:15:59 INFO   Motorola_Moto_e32s_XT22292.Test0 Images clicking Image of Default Resolutions17
+2022-12-20 16:16:06 INFO   Motorola_Moto_e32s_XT22292.Test0 Images clicking Image of Default Resolutions18
+2022-12-20 16:16:14 INFO   Motorola_Moto_e32s_XT22292.Test0 Images clicking Image of Default Resolutions19
+2022-12-20 16:16:21 INFO   Motorola_Moto_e32s_XT22292.Test0 Images clicking Image of Default Resolutions20
+2022-12-20 16:16:29 INFO   Motorola_Moto_e32s_XT22292.Test0 Images clicking Image of Default Resolutions21
+2022-12-20 16:16:36 INFO   Motorola_Moto_e32s_XT22292.Test0 Images clicking Image of Default Resolutions22
+2022-12-20 16:16:44 INFO   Motorola_Moto_e32s_XT22292.Test0 Images clicking Image of Default Resolutions23
+2022-12-20 16:16:52 INFO   Motorola_Moto_e32s_XT22292.Test0 Images clicking Image of Default Resolutions24
+2022-12-20 16:16:57 INFO   Motorola_Moto_e32s_XT22292.Test0 Images 25 Image Capture is successfull
+2022-12-20 16:16:57 INFO   Motorola_Moto_e32s_XT22292.Test0 Images Launch File Manager application to verify  Image capture
+2022-12-20 16:17:04 INFO   Motorola_Moto_e32s_XT22292.Test0 Images Select  SD Card
+2022-12-20 16:17:07 INFO   Motorola_Moto_e32s_XT22292.Test0 Images Select  SD Card
+2022-12-20 16:17:17 INFO   Motorola_Moto_e32s_XT22292.Test0 Images Select DCIM Folder
+2022-12-20 16:17:22 INFO   Motorola_Moto_e32s_XT22292.Test0 Images Select Camera Folder
+2022-12-20 16:17:28 INFO   Motorola_Moto_e32s_XT22292.Test0 Images Select More Options 
+2022-12-20 16:17:38 INFO   Motorola_Moto_e32s_XT22292.Test0 Images Click On Select All Options
+2022-12-20 16:17:48 INFO   Motorola_Moto_e32s_XT22292.Test0 Images Pass: Total Number Of Image captured 25 is successfull
+2022-12-20 16:17:48 INFO   Motorola_Moto_e32s_XT22292.Test0 Images ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-12-20 16:17:48 INFO   Motorola_Moto_e32s_XT22292.Test0 Images Calling video() for rear video recording in USD card and verifying data capture.
+2022-12-20 16:17:55 INFO   Motorola_Moto_e32s_XT22292.Test0 Video Clear Recent Apps
+2022-12-20 16:18:07 INFO   Motorola_Moto_e32s_XT22292.Test0 Video Launch Camera Application
+2022-12-20 16:18:22 INFO   Motorola_Moto_e32s_XT22292.Test0 Video change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: moto e32 (s), newCommandTimeout: 1200, platformName: android, platformVersion: 12, udid: ZD2226GP6D}, deviceApiLevel: 31, deviceManufacturer: motorola, deviceModel: moto e32(s), deviceName: ZD2226GP6D, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: ZD2226GP6D, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 76, takesScreenshot: true, udid: ZD2226GP6D, viewportRect: {height: 1364, left: 0, top: 76, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 10a188b9-0b78-462b-a155-2c02afe16afb
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2022-12-20 16:18:22 INFO   Motorola_Moto_e32s_XT22292.Test0 Video If Location Permission Request Pop Exists Click on Cancel Option
+2022-12-20 16:18:32 INFO   Motorola_Moto_e32s_XT22292.Test0 Video Location access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: moto e32 (s), newCommandTimeout: 1200, platformName: android, platformVersion: 12, udid: ZD2226GP6D}, deviceApiLevel: 31, deviceManufacturer: motorola, deviceModel: moto e32(s), deviceName: ZD2226GP6D, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: ZD2226GP6D, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.75, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 76, takesScreenshot: true, udid: ZD2226GP6D, viewportRect: {height: 1364, left: 0, top: 76, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 10a188b9-0b78-462b-a155-2c02afe16afb
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2022-12-20 16:18:42 INFO   Motorola_Moto_e32s_XT22292.Test0 Video Current Existing Camera is Back Camera
+2022-12-20 16:18:42 INFO   Motorola_Moto_e32s_XT22292.Test0 Video Clicking Video Tab
+2022-12-20 16:18:49 INFO   Motorola_Moto_e32s_XT22292.Test0 Video Select settings option
+2022-12-20 16:18:55 INFO   Motorola_Moto_e32s_XT22292.Test0 Video Search for SD Card option
+2022-12-20 16:19:01 INFO   Motorola_Moto_e32s_XT22292.Test0 Video Select  storage option
+2022-12-20 16:19:06 INFO   Motorola_Moto_e32s_XT22292.Test0 Video Select SD as storage option
+2022-12-20 16:19:22 INFO   Motorola_Moto_e32s_XT22292.Test0 Video Select 1st Back Video Resolution: Resolution 1080p
+2022-12-20 16:19:27 INFO   Motorola_Moto_e32s_XT22292.Test0 Video Start video recording
+2022-12-20 16:21:27 INFO   Motorola_Moto_e32s_XT22292.Test0 Video Recording Video for 2Minutes of Duration
+2022-12-20 16:21:27 INFO   Motorola_Moto_e32s_XT22292.Test0 Video Stop video recording
+2022-12-20 16:21:43 INFO   Motorola_Moto_e32s_XT22292.Test0 Video Select 2nd Back Video Resolution: Resolution  Full
+2022-12-20 16:21:48 INFO   Motorola_Moto_e32s_XT22292.Test0 Video Start video recording
+2022-12-20 16:23:48 INFO   Motorola_Moto_e32s_XT22292.Test0 Video Recording Video for 2Minutes of Duration
+2022-12-20 16:23:48 INFO   Motorola_Moto_e32s_XT22292.Test0 Video Stop video recording
+2022-12-20 16:24:05 INFO   Motorola_Moto_e32s_XT22292.Test0 Video Clicking photo Tab
+2022-12-20 16:24:20 INFO   Motorola_Moto_e32s_XT22292.Test0 Video Rear camera video recording is successfull
+2022-12-20 16:24:20 INFO   Motorola_Moto_e32s_XT22292.Test0 Video Launch File Manager application to verify  Video capture
+2022-12-20 16:24:30 INFO   Motorola_Moto_e32s_XT22292.Test0 Video Select  SD Card
+2022-12-20 16:24:40 INFO   Motorola_Moto_e32s_XT22292.Test0 Video Select DCIM Folder
+2022-12-20 16:24:46 INFO   Motorola_Moto_e32s_XT22292.Test0 Video Select Camera Folder
+2022-12-20 16:24:51 INFO   Motorola_Moto_e32s_XT22292.Test0 Video Select More Options 
+2022-12-20 16:25:01 INFO   Motorola_Moto_e32s_XT22292.Test0 Video Click On Select All Options
+2022-12-20 16:25:12 INFO   Motorola_Moto_e32s_XT22292.Test0 Video Pass: 2 Videos recorded Successfully
+2022-12-20 16:25:12 INFO   Motorola_Moto_e32s_XT22292.Test0 Video Pass: A total of 27 files present in uSD card before Format
+2022-12-20 16:25:12 INFO   Motorola_Moto_e32s_XT22292.Test0 Video ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-12-20 16:25:12 INFO   Motorola_Moto_e32s_XT22292.Test0 Video calling Format() for format with data scenario
+2022-12-20 16:25:12 INFO   Motorola_Moto_e32s_XT22292.Test0 Format Clearing Recent Apps
+2022-12-20 16:25:47 INFO   Motorola_Moto_e32s_XT22292.Test0 Format Launch Settings application for Format uSD card with Data scenario 
+2022-12-20 16:25:53 INFO   Motorola_Moto_e32s_XT22292.Test0 Format Scrolling till battery and device care is visible
+2022-12-20 16:26:03 INFO   Motorola_Moto_e32s_XT22292.Test0 Format Clicking on storage
+2022-12-20 16:26:08 INFO   Motorola_Moto_e32s_XT22292.Test0 Format Clicking on this device
+2022-12-20 16:26:13 INFO   Motorola_Moto_e32s_XT22292.Test0 Format Clicking on SD card
+2022-12-20 16:26:19 INFO   Motorola_Moto_e32s_XT22292.Test0 Format Clicking on files
+2022-12-20 16:26:24 INFO   Motorola_Moto_e32s_XT22292.Test0 Format Clicking on more options
+2022-12-20 16:26:30 INFO   Motorola_Moto_e32s_XT22292.Test0 Format Clicking on Storage settings
+2022-12-20 16:26:36 INFO   Motorola_Moto_e32s_XT22292.Test0 Format Click Format
+2022-12-20 16:26:41 INFO   Motorola_Moto_e32s_XT22292.Test0 Format Started formatting, waiting till it gets formatted
+2022-12-20 16:28:18 INFO   Motorola_Moto_e32s_XT22292.Test0 Format Format uSD with Data is successfull
+2022-12-20 16:28:18 INFO   Motorola_Moto_e32s_XT22292.Test0 Format Launch File Manager application to verify  Card is fully Formated or not
+2022-12-20 16:28:28 INFO   Motorola_Moto_e32s_XT22292.Test0 Format Select  SD Card
+2022-12-20 16:28:39 INFO   Motorola_Moto_e32s_XT22292.Test0 Format Select DCIM Folder
+2022-12-20 16:28:44 INFO   Motorola_Moto_e32s_XT22292.Test0 Format Click On Camera Folder
+2022-12-20 16:28:54 INFO   Motorola_Moto_e32s_XT22292.Test0 Format Pass: Images and videos are not present in the DCIM folder, CARD format is successfully completed 
+2022-12-20 16:28:54 INFO   Motorola_Moto_e32s_XT22292.Test0 Format ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-12-20 16:28:54 INFO   Motorola_Moto_e32s_XT22292.Test0 Format Final Message: Pass Test0 pass for format Operation
+2022-12-20 16:28:54 INFO   Motorola_Moto_e32s_XT22292.Test0 Format Test: End
+2022-12-20 16:28:54 INFO   Motorola_Moto_e32s_XT22292.Test0 Format ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

@@ -1,0 +1,120 @@
+2023-01-13 15:48:52 INFO   LG_K41S.Test10 rearVideoRec Test: Start
+2023-01-13 15:48:52 INFO   LG_K41S.Test10 rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-13 15:48:52 INFO   LG_K41S.Test10 rearVideoRec Test10 Scenario is as follows
+2023-01-13 15:48:52 INFO   LG_K41S.Test10 rearVideoRec 1.Launch Camera application and start back camera video recording for all host applicable resolutions in uSD Card
+2023-01-13 15:48:52 INFO   LG_K41S.Test10 rearVideoRec 2.Playback Highest resolution recorded video from USD Card, fast forward playback and pause video scenario 
+2023-01-13 15:48:52 INFO   LG_K41S.Test10 rearVideoRec 3.Playback copied videos from Test1 folder, fast forward and pause scenario
+2023-01-13 15:48:52 INFO   LG_K41S.Test10 rearVideoRec Setting up the appium desired capabilities
+2023-01-13 15:48:52 INFO   LG_K41S.Test10 rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-13 15:49:07 INFO   LG_K41S.Test10 rearVideoRec Clearing Recent Apps
+2023-01-13 15:49:19 INFO   LG_K41S.Test10 rearVideoRec Clearing Recent Apps
+2023-01-13 15:49:28 INFO   LG_K41S.Test10 rearVideoRec Pass: Test0 Pass for clearing Recent apps 
+2023-01-13 15:49:30 INFO   LG_K41S.Test10 rearVideoRec Launch Camera Application for rear camera video recording
+2023-01-13 15:49:32 INFO   LG_K41S.Test10 rearVideoRec clcik on next
+2023-01-13 15:49:43 INFO   LG_K41S.Test10 rearVideoRec change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: K41S, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: LMK410HQA659M7GYW4}, deviceApiLevel: 30, deviceManufacturer: LGE, deviceModel: LM-K410, deviceName: LMK410HQA659M7GYW4, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: LMK410HQA659M7GYW4, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 67, takesScreenshot: true, udid: LMK410HQA659M7GYW4, viewportRect: {height: 1382, left: 0, top: 67, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 366d839f-261c-4d84-9dcb-68be41070f79
+*** Element info: {Using=xpath, value=//*[@text='Next']}
+2023-01-13 15:49:43 INFO   LG_K41S.Test10 rearVideoRec clcik on later
+2023-01-13 15:49:46 INFO   LG_K41S.Test10 rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-13 15:49:48 INFO   LG_K41S.Test10 rearVideoRec Test10_Bcam_res: 3 resolutions supported
+2023-01-13 15:49:48 INFO   LG_K41S.Test10 rearVideoRec Switch to video mode
+2023-01-13 15:49:52 INFO   LG_K41S.Test10 rearVideoRec Click On Settings and set uSD card as storage option
+2023-01-13 15:49:55 INFO   LG_K41S.Test10 rearVideoRec Select storage location option
+2023-01-13 15:49:59 INFO   LG_K41S.Test10 rearVideoRec Select SD as storage option
+2023-01-13 15:50:05 INFO   LG_K41S.Test10 rearVideoRec Click On Settings and set uSD card as storage option
+2023-01-13 15:50:10 INFO   LG_K41S.Test10 rearVideoRec Select Video Resolution
+2023-01-13 15:50:13 INFO   LG_K41S.Test10 rearVideoRec Select First back video Resolution: FHD 16:9 1920x1080
+2023-01-13 15:50:25 INFO   LG_K41S.Test10 rearVideoRec Start video recording
+2023-01-13 15:50:27 INFO   LG_K41S.Test10 rearVideoRec Stop video recording
+2023-01-13 16:00:30 INFO   LG_K41S.Test10 rearVideoRec Click On Settings option to select rear video resolution
+2023-01-13 16:00:34 INFO   LG_K41S.Test10 rearVideoRec Select Rear video size
+2023-01-13 16:00:38 INFO   LG_K41S.Test10 rearVideoRec Select second back video Resolution: HD FullVision 1600x720
+2023-01-13 16:00:49 INFO   LG_K41S.Test10 rearVideoRec Start video recording
+2023-01-13 16:00:49 INFO   LG_K41S.Test10 rearVideoRec Start Recording
+2023-01-13 16:00:52 INFO   LG_K41S.Test10 rearVideoRec Stop video recording
+2023-01-13 16:10:55 INFO   LG_K41S.Test10 rearVideoRec Click On Settings option to select rear video resolution
+2023-01-13 16:10:59 INFO   LG_K41S.Test10 rearVideoRec Select Rear video size
+2023-01-13 16:11:02 INFO   LG_K41S.Test10 rearVideoRec Select Third back video Resolution:HD 16:9 1280x720
+2023-01-13 16:11:14 INFO   LG_K41S.Test10 rearVideoRec Start video recording
+2023-01-13 16:11:14 INFO   LG_K41S.Test10 rearVideoRec Start Recording
+2023-01-13 16:11:16 INFO   LG_K41S.Test10 rearVideoRec Stop video recording
+2023-01-13 16:21:26 INFO   LG_K41S.Test10 rearVideoRec Pass: Rear camera video recording is successfull
+2023-01-13 16:21:26 INFO   LG_K41S.Test10 rearVideoRec Launch File Manager Application to verify captured videos
+2023-01-13 16:21:28 INFO   LG_K41S.Test10 rearVideoRec swipe up and search for sd card
+2023-01-13 16:21:33 INFO   LG_K41S.Test10 rearVideoRec Select  SD Card
+2023-01-13 16:21:38 INFO   LG_K41S.Test10 rearVideoRec swipe up and search for dcim
+2023-01-13 16:21:41 INFO   LG_K41S.Test10 rearVideoRec Select DCIM Folder
+2023-01-13 16:21:46 INFO   LG_K41S.Test10 rearVideoRec Select Camera Folder
+2023-01-13 16:21:52 INFO   LG_K41S.Test10 rearVideoRec Select More Options 
+2023-01-13 16:21:57 INFO   LG_K41S.Test10 rearVideoRec Click On Select All Options
+2023-01-13 16:22:06 INFO   LG_K41S.Test10 rearVideoRec Test10_Bcam_video: 3 Videos captured successfull
+2023-01-13 16:22:06 INFO   LG_K41S.Test10 rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-13 16:22:06 INFO   LG_K41S.Test10 rearVideoRec Calling RecordedVideoPlayback() for Playing Highest record video, fast forward video play back scenario
+2023-01-13 16:22:06 INFO   LG_K41S.Test10 RecordedVideoPlayback Clearing Recent Apps
+2023-01-13 16:22:19 INFO   LG_K41S.Test10 RecordedVideoPlayback Clearing Recent Apps
+2023-01-13 16:22:29 INFO   LG_K41S.Test10 RecordedVideoPlayback Pass: Test0 Pass for clearing Recent apps 
+2023-01-13 16:22:31 INFO   LG_K41S.Test10 RecordedVideoPlayback Launch Camera Application for rear camera video recording
+2023-01-13 16:22:41 INFO   LG_K41S.Test10 RecordedVideoPlayback Select External Storage
+2023-01-13 16:22:51 INFO   LG_K41S.Test10 RecordedVideoPlayback Select DCIM folder
+2023-01-13 16:22:54 INFO   LG_K41S.Test10 RecordedVideoPlayback Select Camera folder
+2023-01-13 16:22:57 INFO   LG_K41S.Test10 RecordedVideoPlayback select more options
+2023-01-13 16:23:02 INFO   LG_K41S.Test10 RecordedVideoPlayback Select Sort BY
+2023-01-13 16:23:07 INFO   LG_K41S.Test10 RecordedVideoPlayback Select Largest first
+2023-01-13 16:23:10 INFO   LG_K41S.Test10 RecordedVideoPlayback Click on first file to play highest recorded resolution video file
+2023-01-13 16:23:11 INFO   LG_K41S.Test10 RecordedVideoPlayback Started video playback
+2023-01-13 16:23:31 INFO   LG_K41S.Test10 RecordedVideoPlayback Tap Somewhere on Screen for contents to visible on Screen
+2023-01-13 16:23:31 INFO   LG_K41S.Test10 RecordedVideoPlayback Fast forward video for 10 seconds
+2023-01-13 16:23:52 INFO   LG_K41S.Test10 RecordedVideoPlayback Pause video playback
+2023-01-13 16:23:59 INFO   LG_K41S.Test10 RecordedVideoPlayback Pass: Recorded Video play back and fast forward successfull 
+2023-01-13 16:23:59 INFO   LG_K41S.Test10 RecordedVideoPlayback ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-13 16:23:59 INFO   LG_K41S.Test10 RecordedVideoPlayback Calling DataMovementOperation() to move recorded rear camer videos to Test10 Folder
+2023-01-13 16:23:59 INFO   LG_K41S.Test10 DataMoveOperation Re-launch file manager application and select external storage for data move operation, select all rear camera videos present in camera folder and move to Test10 folder
+2023-01-13 16:24:06 INFO   LG_K41S.Test10 DataMoveOperation Launching file manager application
+2023-01-13 16:24:09 INFO   LG_K41S.Test10 DataMoveOperation Select external storage
+2023-01-13 16:24:14 INFO   LG_K41S.Test10 DataMoveOperation switch to grid view mode and select DCIM  folder
+2023-01-13 16:24:18 INFO   LG_K41S.Test10 DataMoveOperation Select DCIM folder
+2023-01-13 16:24:21 INFO   LG_K41S.Test10 DataMoveOperation Select camera  folder
+2023-01-13 16:24:24 INFO   LG_K41S.Test10 DataMoveOperation switch to list view mode 
+2023-01-13 16:24:28 INFO   LG_K41S.Test10 DataMoveOperation Click More options
+2023-01-13 16:24:34 INFO   LG_K41S.Test10 DataMoveOperation Click Select all
+2023-01-13 16:24:38 INFO   LG_K41S.Test10 DataMoveOperation Click More options
+2023-01-13 16:24:44 INFO   LG_K41S.Test10 DataMoveOperation Select move to option
+2023-01-13 16:24:51 INFO   LG_K41S.Test10 DataMoveOperation Select uSD Card
+2023-01-13 16:24:57 INFO   LG_K41S.Test10 DataMoveOperation Select ADD NEW Folder option
+2023-01-13 16:25:05 INFO   LG_K41S.Test10 DataMoveOperation Name folder as Test10
+2023-01-13 16:25:11 INFO   LG_K41S.Test10 DataMoveOperation Accept create folder
+2023-01-13 16:25:41 INFO   LG_K41S.Test10 DataMoveOperation Cut paste  video files operation completed successfully
+2023-01-13 16:25:45 INFO   LG_K41S.Test10 DataMoveOperation Test10: Data move operation completed successfully
+2023-01-13 16:25:54 INFO   LG_K41S.Test10 DataMoveOperation Pass: Test10 Pass for data move operation successfully
+2023-01-13 16:25:54 INFO   LG_K41S.Test10 RecordedVideoPlayback ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-13 16:25:54 INFO   LG_K41S.Test10 RecordedVideoPlayback Calling copiedvideosPlayBack() for playing copied video file from Test1 folder
+2023-01-13 16:25:54 INFO   LG_K41S.Test10 CopiedvideosPlayBack Clearing Recent Apps
+2023-01-13 16:26:17 INFO   LG_K41S.Test10 CopiedvideosPlayBack Pass: Test0 Pass for clearing Recent apps 
+2023-01-13 16:26:19 INFO   LG_K41S.Test10 CopiedvideosPlayBack Launch file manager application, select uSD card, select Test1 folder, select Videos folder and Play copied videos and fast forward the same 
+2023-01-13 16:26:29 INFO   LG_K41S.Test10 CopiedvideosPlayBack Select external storage
+2023-01-13 16:26:35 INFO   LG_K41S.Test10 CopiedvideosPlayBack Select Test1 folder
+2023-01-13 16:26:39 INFO   LG_K41S.Test10 CopiedvideosPlayBack Select test_filefolder
+2023-01-13 16:26:43 INFO   LG_K41S.Test10 CopiedvideosPlayBack Select OneGB folder
+2023-01-13 16:26:46 INFO   LG_K41S.Test10 CopiedvideosPlayBack Select video folder
+2023-01-13 16:26:49 INFO   LG_K41S.Test10 CopiedvideosPlayBack Select LG_4K_DEMO_HDR_2018_(60FPS)_ELBA(480p).mp4 file for video playback
+2023-01-13 16:26:49 INFO   LG_K41S.Test10 CopiedvideosPlayBack Tap Somewhere on Screen for contents to visible on Screen
+2023-01-13 16:26:49 INFO   LG_K41S.Test10 CopiedvideosPlayBack Started video playback
+2023-01-13 16:27:09 INFO   LG_K41S.Test10 CopiedvideosPlayBack Tap Somewhere on Screen for contents to visible on Screen
+2023-01-13 16:27:10 INFO   LG_K41S.Test10 CopiedvideosPlayBack Click fast forward button for 10 seconds video forward
+2023-01-13 16:27:31 INFO   LG_K41S.Test10 CopiedvideosPlayBack Pause video playback
+2023-01-13 16:27:34 INFO   LG_K41S.Test10 CopiedvideosPlayBack Pass: 4K Video play back and fast forward is successful 
+2023-01-13 16:27:37 INFO   LG_K41S.Test10 CopiedvideosPlayBack Select FHD 5.1 ( 1350 X 2560 ).webm file for video playback
+2023-01-13 16:27:37 INFO   LG_K41S.Test10 CopiedvideosPlayBack Started video playback
+2023-01-13 16:27:57 INFO   LG_K41S.Test10 CopiedvideosPlayBack Tap Somewhere on Screen for contents to visible on Screen
+2023-01-13 16:27:57 INFO   LG_K41S.Test10 CopiedvideosPlayBack Click fast forward button for 10 seconds video forward
+2023-01-13 16:27:59 INFO   LG_K41S.Test10 CopiedvideosPlayBack Click pause button to stop video
+2023-01-13 16:28:10 INFO   LG_K41S.Test10 CopiedvideosPlayBack Pass: FHD Video play back and fast forward is successful 
+2023-01-13 16:28:10 INFO   LG_K41S.Test10 CopiedvideosPlayBack ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-13 16:28:10 INFO   LG_K41S.Test10 CopiedvideosPlayBack Final message: Pass Test10 Pass for Playing Copied Video files, recorded video file and fast forward video play back scenario 
+2023-01-13 16:28:10 INFO   LG_K41S.Test10 CopiedvideosPlayBack Test:End
+2023-01-13 16:28:10 INFO   LG_K41S.Test10 CopiedvideosPlayBack ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

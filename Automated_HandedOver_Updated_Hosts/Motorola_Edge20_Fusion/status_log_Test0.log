@@ -1,0 +1,143 @@
+2022-09-30 10:46:31 INFO   Motorola_Edge20_Fusion.Test0 start Test: Start
+2022-09-30 10:46:31 INFO   Motorola_Edge20_Fusion.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-09-30 10:46:31 INFO   Motorola_Edge20_Fusion.Test0 start  Test0 Scenario is as follows 
+2022-09-30 10:46:31 INFO   Motorola_Edge20_Fusion.Test0 start 1.Unlock phone, clear recent apps, clear internal memory
+2022-09-30 10:46:31 INFO   Motorola_Edge20_Fusion.Test0 start 2.Call Image() and Capture Rear camera 25 images for default resolution in uSD card and Verify the data capture
+2022-09-30 10:46:31 INFO   Motorola_Edge20_Fusion.Test0 start 3.Call Video() and record Rear camera video of first 2 resloutions for 2 minutes of duration in uSD Card and verify the same
+2022-09-30 10:46:31 INFO   Motorola_Edge20_Fusion.Test0 start 4.Call Format() and format uSD card with data and verify the same
+2022-09-30 10:46:31 INFO   Motorola_Edge20_Fusion.Test0 start Setting up the appium desired capabilities
+2022-09-30 10:46:31 INFO   Motorola_Edge20_Fusion.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-09-30 10:46:48 INFO   Motorola_Edge20_Fusion.Test0 start Host does'nt support clear recent apps option! Hence Skiping clear recent apps scenario
+2022-09-30 10:46:48 INFO   Motorola_Edge20_Fusion.Test0 start Launch File Manager Application and clear internal memory
+2022-09-30 10:46:54 INFO   Motorola_Edge20_Fusion.Test0 start Swipe up and select uSD card
+2022-09-30 10:46:54 INFO   Motorola_Edge20_Fusion.Test0 start Select  Internal storage
+2022-09-30 10:47:00 INFO   Motorola_Edge20_Fusion.Test0 start Select  MoreOption
+2022-09-30 10:47:03 INFO   Motorola_Edge20_Fusion.Test0 start Select  SelectAll
+2022-09-30 10:47:07 INFO   Motorola_Edge20_Fusion.Test0 start Select  Delete
+2022-09-30 10:47:11 INFO   Motorola_Edge20_Fusion.Test0 start Select  move to recycle Bin
+2022-09-30 10:49:11 INFO   Motorola_Edge20_Fusion.Test0 start Pass: Clearing phone internal memory is successfull
+2022-09-30 10:49:25 INFO   Motorola_Edge20_Fusion.Test0 start Calling Image() for rear Image capture in uSD Card and Verify the Captured images
+2022-09-30 10:49:25 INFO   Motorola_Edge20_Fusion.Test0 Images Launch Camera Application for Rear picture capture
+2022-09-30 10:49:36 INFO   Motorola_Edge20_Fusion.Test0 Images change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'FJVQ4M2', ip: '192.168.225.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: motorola edge 20 fusion, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: ZD2222DYHB}, deviceApiLevel: 30, deviceManufacturer: motorola, deviceModel: motorola edge 20 fusion, deviceName: ZD2222DYHB, deviceScreenDensity: 400, deviceScreenSize: 1080x2400, deviceUDID: ZD2222DYHB, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.5, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 100, takesScreenshot: true, udid: ZD2222DYHB, viewportRect: {height: 2140, left: 0, top: 100, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 010df592-d15c-4242-b0af-112f33775180
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2022-09-30 10:49:39 INFO   Motorola_Edge20_Fusion.Test0 Images if Location permisson Pop Exists Select Cancel Option
+2022-09-30 10:49:49 INFO   Motorola_Edge20_Fusion.Test0 Images Location  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'FJVQ4M2', ip: '192.168.225.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: motorola edge 20 fusion, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: ZD2222DYHB}, deviceApiLevel: 30, deviceManufacturer: motorola, deviceModel: motorola edge 20 fusion, deviceName: ZD2222DYHB, deviceScreenDensity: 400, deviceScreenSize: 1080x2400, deviceUDID: ZD2222DYHB, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.5, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 100, takesScreenshot: true, udid: ZD2222DYHB, viewportRect: {height: 2140, left: 0, top: 100, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 010df592-d15c-4242-b0af-112f33775180
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2022-09-30 10:49:59 INFO   Motorola_Edge20_Fusion.Test0 Images Currently camera is already in rear camera mode no need to switch
+2022-09-30 10:49:59 INFO   Motorola_Edge20_Fusion.Test0 Images Select settings option
+2022-09-30 10:50:04 INFO   Motorola_Edge20_Fusion.Test0 Images Search for SD Card option
+2022-09-30 10:50:15 INFO   Motorola_Edge20_Fusion.Test0 Images Select  storage option
+2022-09-30 10:50:20 INFO   Motorola_Edge20_Fusion.Test0 Images Select SD as storage option
+2022-09-30 10:50:29 INFO   Motorola_Edge20_Fusion.Test0 Images Capture Image of Default Resolution
+2022-09-30 10:50:36 INFO   Motorola_Edge20_Fusion.Test0 Images clicking Image of Default Resolutions0
+2022-09-30 10:50:43 INFO   Motorola_Edge20_Fusion.Test0 Images clicking Image of Default Resolutions1
+2022-09-30 10:50:50 INFO   Motorola_Edge20_Fusion.Test0 Images clicking Image of Default Resolutions2
+2022-09-30 10:50:57 INFO   Motorola_Edge20_Fusion.Test0 Images clicking Image of Default Resolutions3
+2022-09-30 10:51:05 INFO   Motorola_Edge20_Fusion.Test0 Images clicking Image of Default Resolutions4
+2022-09-30 10:51:12 INFO   Motorola_Edge20_Fusion.Test0 Images clicking Image of Default Resolutions5
+2022-09-30 10:51:19 INFO   Motorola_Edge20_Fusion.Test0 Images clicking Image of Default Resolutions6
+2022-09-30 10:51:26 INFO   Motorola_Edge20_Fusion.Test0 Images clicking Image of Default Resolutions7
+2022-09-30 10:51:33 INFO   Motorola_Edge20_Fusion.Test0 Images clicking Image of Default Resolutions8
+2022-09-30 10:51:40 INFO   Motorola_Edge20_Fusion.Test0 Images clicking Image of Default Resolutions9
+2022-09-30 10:51:48 INFO   Motorola_Edge20_Fusion.Test0 Images clicking Image of Default Resolutions10
+2022-09-30 10:51:55 INFO   Motorola_Edge20_Fusion.Test0 Images clicking Image of Default Resolutions11
+2022-09-30 10:52:02 INFO   Motorola_Edge20_Fusion.Test0 Images clicking Image of Default Resolutions12
+2022-09-30 10:52:09 INFO   Motorola_Edge20_Fusion.Test0 Images clicking Image of Default Resolutions13
+2022-09-30 10:52:16 INFO   Motorola_Edge20_Fusion.Test0 Images clicking Image of Default Resolutions14
+2022-09-30 10:52:23 INFO   Motorola_Edge20_Fusion.Test0 Images clicking Image of Default Resolutions15
+2022-09-30 10:52:31 INFO   Motorola_Edge20_Fusion.Test0 Images clicking Image of Default Resolutions16
+2022-09-30 10:52:38 INFO   Motorola_Edge20_Fusion.Test0 Images clicking Image of Default Resolutions17
+2022-09-30 10:52:45 INFO   Motorola_Edge20_Fusion.Test0 Images clicking Image of Default Resolutions18
+2022-09-30 10:52:52 INFO   Motorola_Edge20_Fusion.Test0 Images clicking Image of Default Resolutions19
+2022-09-30 10:52:59 INFO   Motorola_Edge20_Fusion.Test0 Images clicking Image of Default Resolutions20
+2022-09-30 10:53:06 INFO   Motorola_Edge20_Fusion.Test0 Images clicking Image of Default Resolutions21
+2022-09-30 10:53:14 INFO   Motorola_Edge20_Fusion.Test0 Images clicking Image of Default Resolutions22
+2022-09-30 10:53:22 INFO   Motorola_Edge20_Fusion.Test0 Images clicking Image of Default Resolutions23
+2022-09-30 10:53:29 INFO   Motorola_Edge20_Fusion.Test0 Images clicking Image of Default Resolutions24
+2022-09-30 10:53:35 INFO   Motorola_Edge20_Fusion.Test0 Images 25 Image Capture is successfull
+2022-09-30 10:53:35 INFO   Motorola_Edge20_Fusion.Test0 Images Launch File Manager application to verify  Image capture
+2022-09-30 10:53:42 INFO   Motorola_Edge20_Fusion.Test0 Images Select  SD Card
+2022-09-30 10:53:54 INFO   Motorola_Edge20_Fusion.Test0 Images Select DCIM Folder
+2022-09-30 10:54:05 INFO   Motorola_Edge20_Fusion.Test0 Images Select Camera Folder
+2022-09-30 10:54:10 INFO   Motorola_Edge20_Fusion.Test0 Images Select More Options 
+2022-09-30 10:54:21 INFO   Motorola_Edge20_Fusion.Test0 Images Click On Select All Options
+2022-09-30 10:54:31 INFO   Motorola_Edge20_Fusion.Test0 Images Pass: Total Number Of Image captured 25 is successfull
+2022-09-30 10:54:31 INFO   Motorola_Edge20_Fusion.Test0 Images ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-09-30 10:54:31 INFO   Motorola_Edge20_Fusion.Test0 Images Calling video() for rear video recording in USD card and verifying data capture.
+2022-09-30 10:54:37 INFO   Motorola_Edge20_Fusion.Test0 Video Clear Recent Apps
+2022-09-30 10:54:49 INFO   Motorola_Edge20_Fusion.Test0 Video Launch Camera Application
+2022-09-30 10:55:01 INFO   Motorola_Edge20_Fusion.Test0 Video change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'FJVQ4M2', ip: '192.168.225.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: motorola edge 20 fusion, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: ZD2222DYHB}, deviceApiLevel: 30, deviceManufacturer: motorola, deviceModel: motorola edge 20 fusion, deviceName: ZD2222DYHB, deviceScreenDensity: 400, deviceScreenSize: 1080x2400, deviceUDID: ZD2222DYHB, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.5, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 100, takesScreenshot: true, udid: ZD2222DYHB, viewportRect: {height: 2140, left: 0, top: 100, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 010df592-d15c-4242-b0af-112f33775180
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2022-09-30 10:55:01 INFO   Motorola_Edge20_Fusion.Test0 Video If Location Permission Request Pop Exists Click on Cancel Option
+2022-09-30 10:55:11 INFO   Motorola_Edge20_Fusion.Test0 Video Location access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'FJVQ4M2', ip: '192.168.225.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: motorola edge 20 fusion, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: ZD2222DYHB}, deviceApiLevel: 30, deviceManufacturer: motorola, deviceModel: motorola edge 20 fusion, deviceName: ZD2222DYHB, deviceScreenDensity: 400, deviceScreenSize: 1080x2400, deviceUDID: ZD2222DYHB, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.5, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 100, takesScreenshot: true, udid: ZD2222DYHB, viewportRect: {height: 2140, left: 0, top: 100, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 010df592-d15c-4242-b0af-112f33775180
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2022-09-30 10:55:21 INFO   Motorola_Edge20_Fusion.Test0 Video Current Existing Camera is Back Camera
+2022-09-30 10:55:21 INFO   Motorola_Edge20_Fusion.Test0 Video Clicking Video Tab
+2022-09-30 10:55:31 INFO   Motorola_Edge20_Fusion.Test0 Video Select settings option
+2022-09-30 10:55:36 INFO   Motorola_Edge20_Fusion.Test0 Video Search for SD Card option
+2022-09-30 10:55:47 INFO   Motorola_Edge20_Fusion.Test0 Video Select  storage option
+2022-09-30 10:55:53 INFO   Motorola_Edge20_Fusion.Test0 Video Select SD as storage option
+2022-09-30 10:56:01 INFO   Motorola_Edge20_Fusion.Test0 Video Select 1st Back Video Resolution: Resolution 4K UHD
+2022-09-30 10:56:04 INFO   Motorola_Edge20_Fusion.Test0 Video Start video recording
+2022-09-30 10:58:07 INFO   Motorola_Edge20_Fusion.Test0 Video Recording Video for 2Minutes of Duration
+2022-09-30 10:58:07 INFO   Motorola_Edge20_Fusion.Test0 Video Stop video recording
+2022-09-30 10:58:12 INFO   Motorola_Edge20_Fusion.Test0 Video Select 2nd Back Video Resolution: Resolution FHD
+2022-09-30 10:58:15 INFO   Motorola_Edge20_Fusion.Test0 Video Start video recording
+2022-09-30 11:00:16 INFO   Motorola_Edge20_Fusion.Test0 Video Recording Video for 2Minutes of Duration
+2022-09-30 11:00:16 INFO   Motorola_Edge20_Fusion.Test0 Video Stop video recording
+2022-09-30 11:00:31 INFO   Motorola_Edge20_Fusion.Test0 Video Clicking photo Tab
+2022-09-30 11:00:46 INFO   Motorola_Edge20_Fusion.Test0 Video Pass: Total Number Of Image captured 25 is successfull
+2022-09-30 11:00:46 INFO   Motorola_Edge20_Fusion.Test0 Video Launch File Manager application to verify  Video capture
+2022-09-30 11:00:52 INFO   Motorola_Edge20_Fusion.Test0 Video Select  SD Card
+2022-09-30 11:01:04 INFO   Motorola_Edge20_Fusion.Test0 Video Select DCIM Folder
+2022-09-30 11:01:14 INFO   Motorola_Edge20_Fusion.Test0 Video Select Camera Folder
+2022-09-30 11:01:21 INFO   Motorola_Edge20_Fusion.Test0 Video Select More Options 
+2022-09-30 11:01:32 INFO   Motorola_Edge20_Fusion.Test0 Video Click On Select All Options
+2022-09-30 11:01:42 INFO   Motorola_Edge20_Fusion.Test0 Video Pass: 2 Videos recorded Successfully
+2022-09-30 11:01:42 INFO   Motorola_Edge20_Fusion.Test0 Video Pass: A total of 27 files present in uSD card before Format
+2022-09-30 11:01:42 INFO   Motorola_Edge20_Fusion.Test0 Video ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-09-30 11:01:42 INFO   Motorola_Edge20_Fusion.Test0 Video calling Format() for format with data scenario
+2022-09-30 11:01:42 INFO   Motorola_Edge20_Fusion.Test0 Format Clearing Recent Apps
+2022-09-30 11:02:06 INFO   Motorola_Edge20_Fusion.Test0 Format Launch Settings application for Format uSD card with Data scenario 
+2022-09-30 11:02:12 INFO   Motorola_Edge20_Fusion.Test0 Format Scrolling till battery and device care is visible
+2022-09-30 11:02:17 INFO   Motorola_Edge20_Fusion.Test0 Format Clicking on storage
+2022-09-30 11:02:23 INFO   Motorola_Edge20_Fusion.Test0 Format Clicking on SD card
+2022-09-30 11:02:33 INFO   Motorola_Edge20_Fusion.Test0 Format Clicking on SD card
+2022-09-30 11:02:38 INFO   Motorola_Edge20_Fusion.Test0 Format Clicking on more options
+2022-09-30 11:02:43 INFO   Motorola_Edge20_Fusion.Test0 Format Clicking on Storage settings
+2022-09-30 11:02:49 INFO   Motorola_Edge20_Fusion.Test0 Format Click Format
+2022-09-30 11:02:55 INFO   Motorola_Edge20_Fusion.Test0 Format Started formatting, waiting till it gets formatted
+2022-09-30 11:04:33 INFO   Motorola_Edge20_Fusion.Test0 Format Format uSD with Data is successfull
+2022-09-30 11:04:33 INFO   Motorola_Edge20_Fusion.Test0 Format Launch File Manager application to verify  Card is fully Formated or not
+2022-09-30 11:04:40 INFO   Motorola_Edge20_Fusion.Test0 Format Select  SD Card
+2022-09-30 11:04:50 INFO   Motorola_Edge20_Fusion.Test0 Format Select DCIM Folder
+2022-09-30 11:05:01 INFO   Motorola_Edge20_Fusion.Test0 Format Click On Camera Folder
+2022-09-30 11:05:11 INFO   Motorola_Edge20_Fusion.Test0 Format Pass: Images and videos are not present in the DCIM folder, CARD format is successfully completed 
+2022-09-30 11:05:11 INFO   Motorola_Edge20_Fusion.Test0 Format ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-09-30 11:05:11 INFO   Motorola_Edge20_Fusion.Test0 Format Final Message: Pass Test0 pass for format Operation
+2022-09-30 11:05:11 INFO   Motorola_Edge20_Fusion.Test0 Format Test: End
+2022-09-30 11:05:11 INFO   Motorola_Edge20_Fusion.Test0 Format ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

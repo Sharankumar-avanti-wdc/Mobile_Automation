@@ -1,0 +1,84 @@
+2023-01-13 15:58:13 INFO   Oppo_A16e_CPH2421.Test8 recordAudio Test: Start
+2023-01-13 15:58:13 INFO   Oppo_A16e_CPH2421.Test8 recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-13 15:58:13 INFO   Oppo_A16e_CPH2421.Test8 recordAudio Test8 scenario is as follows
+2023-01-13 15:58:13 INFO   Oppo_A16e_CPH2421.Test8 recordAudio 1.Launch mobile default voice recording application and set uSD card storage option, record audio file for 2 minutes duration
+2023-01-13 15:58:13 INFO   Oppo_A16e_CPH2421.Test8 recordAudio 2.Launch file manager application and playback recorded audio file from external storage, fast forward audio file and pause
+2023-01-13 15:58:13 INFO   Oppo_A16e_CPH2421.Test8 recordAudio 3.Launch file manager application and playback copied audio files from external storage the files are placed in the Test1 folder
+2023-01-13 15:58:13 INFO   Oppo_A16e_CPH2421.Test8 recordAudio Setting up the appium desired capabilities
+2023-01-13 15:58:13 INFO   Oppo_A16e_CPH2421.Test8 recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-13 15:58:23 INFO   Oppo_A16e_CPH2421.Test8 recordAudio Launch Voice recorder application for Audio recording
+2023-01-13 15:58:31 INFO   Oppo_A16e_CPH2421.Test8 recordAudio If application launch permission pop-up exists accept allow permission to launch application
+2023-01-13 15:58:41 INFO   Oppo_A16e_CPH2421.Test8 recordAudio  No Launch permission Pop-up  found
+2023-01-13 15:58:46 INFO   Oppo_A16e_CPH2421.Test8 recordAudio Clicking on settings
+2023-01-13 15:58:51 INFO   Oppo_A16e_CPH2421.Test8 recordAudio Select location 
+2023-01-13 15:58:57 INFO   Oppo_A16e_CPH2421.Test8 recordAudio Select sd card
+2023-01-13 15:58:57 INFO   Oppo_A16e_CPH2421.Test8 recordAudio click on Select 
+2023-01-13 15:59:03 INFO   Oppo_A16e_CPH2421.Test8 recordAudio click on close 
+2023-01-13 15:59:15 INFO   Oppo_A16e_CPH2421.Test8 recordAudio Start Recording
+2023-01-13 16:01:21 INFO   Oppo_A16e_CPH2421.Test8 recordAudio Stop Recording
+2023-01-13 16:01:59 INFO   Oppo_A16e_CPH2421.Test8 recordAudio Stop and Save Recording
+2023-01-13 16:01:59 INFO   Oppo_A16e_CPH2421.Test8 recordAudio click on ok
+2023-01-13 16:02:23 INFO   Oppo_A16e_CPH2421.Test8 recordAudio Pass: Test8 pass for recording  audio file
+2023-01-13 16:02:23 INFO   Oppo_A16e_CPH2421.Test8 recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-13 16:02:23 INFO   Oppo_A16e_CPH2421.Test8 recordAudio Launch File Manager Application to verify recorded audio
+2023-01-13 16:02:30 INFO   Oppo_A16e_CPH2421.Test8 recordAudio swipe up and search for sd card
+2023-01-13 16:02:38 INFO   Oppo_A16e_CPH2421.Test8 recordAudio Select  SD Card
+2023-01-13 16:02:44 INFO   Oppo_A16e_CPH2421.Test8 recordAudio Select list view
+2023-01-13 16:02:47 INFO   Oppo_A16e_CPH2421.Test8 recordAudio Select android Folder
+2023-01-13 16:02:53 INFO   Oppo_A16e_CPH2421.Test8 recordAudio Select data folder
+2023-01-13 16:02:59 INFO   Oppo_A16e_CPH2421.Test8 recordAudio Select com.media.bestrecorder.audiorecorder
+2023-01-13 16:03:04 INFO   Oppo_A16e_CPH2421.Test8 recordAudio Select files folder
+2023-01-13 16:03:10 INFO   Oppo_A16e_CPH2421.Test8 recordAudio Select recorders folder
+2023-01-13 16:03:15 INFO   Oppo_A16e_CPH2421.Test8 recordAudio switch to list view mode
+2023-01-13 16:03:18 INFO   Oppo_A16e_CPH2421.Test8 recordAudio Select More Options 
+2023-01-13 16:03:23 INFO   Oppo_A16e_CPH2421.Test8 recordAudio Click On Select All Options
+2023-01-13 16:03:43 INFO   Oppo_A16e_CPH2421.Test8 recordAudio Test8: 1 Audio file recorded  sucessfully
+2023-01-13 16:03:43 INFO   Oppo_A16e_CPH2421.Test8 recordAudio Pass: Test8 pass for audio recording in uSD Card
+2023-01-13 16:03:43 INFO   Oppo_A16e_CPH2421.Test8 recordAudio Calling PlayRecordedAudio() to play back recorded file
+2023-01-13 16:03:43 INFO   Oppo_A16e_CPH2421.Test8 recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-13 16:03:48 INFO   Oppo_A16e_CPH2421.Test8 PlayRecordedAudio Launch File Manager Application
+2023-01-13 16:04:03 INFO   Oppo_A16e_CPH2421.Test8 PlayRecordedAudio Select  SD Card
+2023-01-13 16:04:08 INFO   Oppo_A16e_CPH2421.Test8 PlayRecordedAudio Select list view
+2023-01-13 16:04:12 INFO   Oppo_A16e_CPH2421.Test8 PlayRecordedAudio Select android Folder
+2023-01-13 16:04:17 INFO   Oppo_A16e_CPH2421.Test8 PlayRecordedAudio Select data folder
+2023-01-13 16:04:22 INFO   Oppo_A16e_CPH2421.Test8 PlayRecordedAudio Select com.media.bestrecorder.audiorecorder
+2023-01-13 16:04:28 INFO   Oppo_A16e_CPH2421.Test8 PlayRecordedAudio Select files folder
+2023-01-13 16:04:33 INFO   Oppo_A16e_CPH2421.Test8 PlayRecordedAudio Select recorders folder
+2023-01-13 16:04:39 INFO   Oppo_A16e_CPH2421.Test8 PlayRecordedAudio switch to list view mode
+2023-01-13 16:04:42 INFO   Oppo_A16e_CPH2421.Test8 PlayRecordedAudio Click Audio file for play back and fast forward
+2023-01-13 16:04:42 INFO   Oppo_A16e_CPH2421.Test8 PlayRecordedAudio Started Audio playback
+2023-01-13 16:05:02 INFO   Oppo_A16e_CPH2421.Test8 PlayRecordedAudio click on fastforward  10 seconds
+2023-01-13 16:05:13 INFO   Oppo_A16e_CPH2421.Test8 PlayRecordedAudio click on pause
+2023-01-13 16:05:16 INFO   Oppo_A16e_CPH2421.Test8 PlayRecordedAudio Pass: Test8 Pass for playing recorded Audio file
+2023-01-13 16:05:27 INFO   Oppo_A16e_CPH2421.Test8 PlayRecordedAudio Pass: Test8 Pass for playing, fast forward, and pause recorded audio file scenario
+2023-01-13 16:05:27 INFO   Oppo_A16e_CPH2421.Test8 PlayRecordedAudio Calling PlayCopiedAudioFile() for copied audio files from Test1 folder
+2023-01-13 16:05:27 INFO   Oppo_A16e_CPH2421.Test8 PlayRecordedAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-13 16:05:32 INFO   Oppo_A16e_CPH2421.Test8 PlayCopiedAudioFile Launch File Manager Application for playing copied audio files from uSD card
+2023-01-13 16:05:47 INFO   Oppo_A16e_CPH2421.Test8 PlayCopiedAudioFile Select external storage
+2023-01-13 16:05:52 INFO   Oppo_A16e_CPH2421.Test8 PlayCopiedAudioFile switch to grid view mode to select Test1 folder
+2023-01-13 16:05:56 INFO   Oppo_A16e_CPH2421.Test8 PlayCopiedAudioFile Select Test1 folder
+2023-01-13 16:05:59 INFO   Oppo_A16e_CPH2421.Test8 PlayCopiedAudioFile Select test_file  folder
+2023-01-13 16:06:03 INFO   Oppo_A16e_CPH2421.Test8 PlayCopiedAudioFile Select 1GB folder
+2023-01-13 16:06:06 INFO   Oppo_A16e_CPH2421.Test8 PlayCopiedAudioFile switch back to list  view mode
+2023-01-13 16:06:10 INFO   Oppo_A16e_CPH2421.Test8 PlayCopiedAudioFile Select Mp3 files folder
+2023-01-13 16:06:15 INFO   Oppo_A16e_CPH2421.Test8 PlayCopiedAudioFile Select First audio file for play back
+2023-01-13 16:06:15 INFO   Oppo_A16e_CPH2421.Test8 PlayCopiedAudioFile select first mp3/audio file from uSD card(Test1-->MP3) for playback and fast forward scenario
+2023-01-13 16:06:45 INFO   Oppo_A16e_CPH2421.Test8 PlayCopiedAudioFile Fast Forwarding Audio for 10 Seconds
+2023-01-13 16:06:56 INFO   Oppo_A16e_CPH2421.Test8 PlayCopiedAudioFile Pause Audio
+2023-01-13 16:06:59 INFO   Oppo_A16e_CPH2421.Test8 PlayCopiedAudioFile Pass: 1st Audio Play Back Successfull 
+2023-01-13 16:07:02 INFO   Oppo_A16e_CPH2421.Test8 PlayCopiedAudioFile select second audio/mp3 file from uSD card(Test1-->MP3) for playback and fast forward scenario
+2023-01-13 16:07:32 INFO   Oppo_A16e_CPH2421.Test8 PlayCopiedAudioFile Select second audio file for play back
+2023-01-13 16:07:32 INFO   Oppo_A16e_CPH2421.Test8 PlayCopiedAudioFile Fast Forwarding Audio for 10 Seconds
+2023-01-13 16:07:42 INFO   Oppo_A16e_CPH2421.Test8 PlayCopiedAudioFile Pause Audio
+2023-01-13 16:07:46 INFO   Oppo_A16e_CPH2421.Test8 PlayCopiedAudioFile Pass: 2nd Audio Play back succssfull
+2023-01-13 16:07:49 INFO   Oppo_A16e_CPH2421.Test8 PlayCopiedAudioFile Select third audio file for play back
+2023-01-13 16:07:49 INFO   Oppo_A16e_CPH2421.Test8 PlayCopiedAudioFile select third audio/mp3 file from uSD card(Test1-->MP3) for playback and fast forward scenario
+2023-01-13 16:08:22 INFO   Oppo_A16e_CPH2421.Test8 PlayCopiedAudioFile Fast Forwarding Audio for 10 Seconds
+2023-01-13 16:08:32 INFO   Oppo_A16e_CPH2421.Test8 PlayCopiedAudioFile Pause Audio
+2023-01-13 16:08:36 INFO   Oppo_A16e_CPH2421.Test8 PlayCopiedAudioFile Pass: 3rd Audio Play Back Successfull 
+2023-01-13 16:08:36 INFO   Oppo_A16e_CPH2421.Test8 PlayCopiedAudioFile Pass: 3rd Audio Play Back Successfull 
+2023-01-13 16:08:36 INFO   Oppo_A16e_CPH2421.Test8 PlayCopiedAudioFile Pass: Test8 Pass NA :  copied audio play back and fast forward scenario is successfull
+2023-01-13 16:08:36 INFO   Oppo_A16e_CPH2421.Test8 PlayCopiedAudioFile ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-13 16:08:36 INFO   Oppo_A16e_CPH2421.Test8 PlayCopiedAudioFile Final Message: Pass Test8 Pass NA -  copied audio play back and fast forward scenario is successfull
+2023-01-13 16:08:36 INFO   Oppo_A16e_CPH2421.Test8 PlayCopiedAudioFile Test: End
+2023-01-13 16:08:36 INFO   Oppo_A16e_CPH2421.Test8 PlayCopiedAudioFile ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

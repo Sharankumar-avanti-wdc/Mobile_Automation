@@ -1,0 +1,158 @@
+2022-10-17 21:55:03 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 start Test: Start
+2022-10-17 21:55:03 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-17 21:55:03 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 start  Test0 Scenario is as follows 
+2022-10-17 21:55:03 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 start 1.Unlock phone, clear recent apps, clear internal memory
+2022-10-17 21:55:03 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 start 2.Call Image() and Capture Rear camera 25 images for default resolution in uSD card and Verify the data capture
+2022-10-17 21:55:03 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 start 3.Call Video() and record Rear camera video of first 2 resloutions for 2 minutes of duration in uSD Card and verify the same
+2022-10-17 21:55:03 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 start 4.Call Format() and format uSD card with data and verify the same
+2022-10-17 21:55:03 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 start Setting up the appium desired capabilities
+2022-10-17 21:55:03 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-17 21:55:11 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 start Unlock phone if locked
+2022-10-17 21:55:17 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 start Launch home screen
+2022-10-17 21:55:27 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 start Clearing Recent Apps
+2022-10-17 21:55:38 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 start Pass for clearing Recent apps 
+2022-10-17 21:55:40 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 start Launch file manager application for clearing phone internal memory
+2022-10-17 21:55:56 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 start Swipe Up
+2022-10-17 21:55:59 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 start Select Internal storage
+2022-10-17 21:56:05 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 start Click More options
+2022-10-17 21:56:12 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 start Click Select all
+2022-10-17 21:56:15 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 start Click More options
+2022-10-17 21:56:22 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 start Select delete permanently option
+2022-10-17 21:56:26 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 start Accept allow delete pop-up
+2022-10-17 21:57:12 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 start Pass: Clearing phone internal memory is successfull
+2022-10-17 21:57:12 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 start ===============================================================================================================================================
+2022-10-17 21:57:12 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 start Pass: Clearing phone internal memory is successfull
+2022-10-17 21:57:12 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-17 21:57:25 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 start Calling Image() for rear Image capture in uSD Card and Verify the Captured images
+2022-10-17 21:57:25 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Images Launch Camera Application for Rear picture capture
+2022-10-17 21:57:26 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Images If change to uSD card permisssion pop-up exists during camera application launch select cancel option
+2022-10-17 21:57:36 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Images change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '192.168.81.26', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy Note20 Ultra 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: RZCN800AKAE}, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-N986B, deviceName: RZCN800AKAE, deviceScreenDensity: 420, deviceScreenSize: 1080x2316, deviceUDID: RZCN800AKAE, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 67, takesScreenshot: true, udid: RZCN800AKAE, viewportRect: {height: 2056, left: 0, top: 67, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 7afc5f81-5f57-46ee-aba6-4ad06d182391
+*** Element info: {Using=id, value=android:id/button2}
+2022-10-17 21:57:38 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Images if Location permisson Pop Exists during camera application launch select cancel option Select Cancel Option
+2022-10-17 21:57:48 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Images Location acess permission pop-up not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '192.168.81.26', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy Note20 Ultra 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: RZCN800AKAE}, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-N986B, deviceName: RZCN800AKAE, deviceScreenDensity: 420, deviceScreenSize: 1080x2316, deviceUDID: RZCN800AKAE, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 67, takesScreenshot: true, udid: RZCN800AKAE, viewportRect: {height: 2056, left: 0, top: 67, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 7afc5f81-5f57-46ee-aba6-4ad06d182391
+*** Element info: {Using=id, value=android:id/button2}
+2022-10-17 21:57:48 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Images Switch To rear Camera Mode if current Exiting camera is Front camera Mode
+2022-10-17 21:57:58 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Images Currently camera is already in rear camera mode no need to switch
+2022-10-17 21:57:58 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Images Select settings option
+2022-10-17 21:58:03 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Images Search for SD Card option
+2022-10-17 21:58:18 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Images Select SD as storage option
+2022-10-17 21:58:26 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Images Capture Image of Default Resolution
+2022-10-17 21:58:31 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Images Captures default resolution image 0
+2022-10-17 21:58:35 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Images Captures default resolution image 1
+2022-10-17 21:58:40 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Images Captures default resolution image 2
+2022-10-17 21:58:44 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Images Captures default resolution image 3
+2022-10-17 21:58:48 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Images Captures default resolution image 4
+2022-10-17 21:58:53 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Images Captures default resolution image 5
+2022-10-17 21:58:58 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Images Captures default resolution image 6
+2022-10-17 21:59:02 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Images Captures default resolution image 7
+2022-10-17 21:59:06 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Images Captures default resolution image 8
+2022-10-17 21:59:11 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Images Captures default resolution image 9
+2022-10-17 21:59:15 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Images Captures default resolution image 10
+2022-10-17 21:59:20 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Images Captures default resolution image 11
+2022-10-17 21:59:25 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Images Captures default resolution image 12
+2022-10-17 21:59:30 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Images Captures default resolution image 13
+2022-10-17 21:59:34 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Images Captures default resolution image 14
+2022-10-17 21:59:39 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Images Captures default resolution image 15
+2022-10-17 21:59:43 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Images Captures default resolution image 16
+2022-10-17 21:59:47 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Images Captures default resolution image 17
+2022-10-17 21:59:52 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Images Captures default resolution image 18
+2022-10-17 21:59:56 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Images Captures default resolution image 19
+2022-10-17 22:00:00 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Images Captures default resolution image 20
+2022-10-17 22:00:05 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Images Captures default resolution image 21
+2022-10-17 22:00:09 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Images Captures default resolution image 22
+2022-10-17 22:00:13 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Images Captures default resolution image 23
+2022-10-17 22:00:17 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Images Captures default resolution image 24
+2022-10-17 22:00:22 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Images Pass:Total Number Of Image captured 25 is successfull
+2022-10-17 22:00:22 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Images Launch file manager application and verify image capture in uSD card
+2022-10-17 22:00:42 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Images Select SD card
+2022-10-17 22:00:48 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Images switch to grid view mode to select DCIM folder
+2022-10-17 22:00:51 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Images Select DCIM folder
+2022-10-17 22:00:55 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Images Select camera folder
+2022-10-17 22:00:58 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Images switch to list view mode to select DCIM folder
+2022-10-17 22:01:01 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Images Click More options
+2022-10-17 22:01:08 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Images Click Select all
+2022-10-17 22:01:15 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Images Pass:Total Number Of Image captured 25 in uSD card is successfull
+2022-10-17 22:01:21 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Images ===============================================================================================================================================
+2022-10-17 22:01:21 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Images Calling video() for rear video recording in uSD card and verifying data capture.
+2022-10-17 22:01:21 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Video Clear recent apps
+2022-10-17 22:01:22 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Video Clear Recent Apps
+2022-10-17 22:01:34 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Video Launch Camera Application for rear camera video recording
+2022-10-17 22:01:35 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Video If Change to SD Card notification pop-up exists during camear application launch select Cancel Option
+2022-10-17 22:01:45 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Video change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '192.168.81.26', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy Note20 Ultra 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: RZCN800AKAE}, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-N986B, deviceName: RZCN800AKAE, deviceScreenDensity: 420, deviceScreenSize: 1080x2316, deviceUDID: RZCN800AKAE, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 67, takesScreenshot: true, udid: RZCN800AKAE, viewportRect: {height: 2056, left: 0, top: 67, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 7afc5f81-5f57-46ee-aba6-4ad06d182391
+*** Element info: {Using=id, value=android:id/button2}
+2022-10-17 22:01:45 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Video If Location Permission Request Pop Exists select  Cancel Option
+2022-10-17 22:01:55 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Video Location access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '192.168.81.26', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy Note20 Ultra 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: RZCN800AKAE}, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-N986B, deviceName: RZCN800AKAE, deviceScreenDensity: 420, deviceScreenSize: 1080x2316, deviceUDID: RZCN800AKAE, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 67, takesScreenshot: true, udid: RZCN800AKAE, viewportRect: {height: 2056, left: 0, top: 67, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 7afc5f81-5f57-46ee-aba6-4ad06d182391
+*** Element info: {Using=id, value=android:id/button2}
+2022-10-17 22:01:55 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Video Switch To rear Camera mode if current Exiting camera is Front camera
+2022-10-17 22:02:05 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Video Curent camera existing camera mode is rear camera mode no need switch camera
+2022-10-17 22:02:05 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Video Switch to video mode
+2022-10-17 22:02:15 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Video Select settings option
+2022-10-17 22:02:21 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Video Click on settings option
+2022-10-17 22:02:21 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Video Search for SD Card option
+2022-10-17 22:02:33 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Video Select SD as storage option
+2022-10-17 22:02:41 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Video select rear video size option
+2022-10-17 22:02:42 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Video Select first highest rear camera Video Resolution:BACK_CAMCORDER_RESOLUTION_8K_24
+2022-10-17 22:02:45 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Video Start video recording
+2022-10-17 22:04:45 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Video Stop video recording
+2022-10-17 22:05:02 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Video Select second highest rear camera  Video Resolution:FHD 30(fps)
+2022-10-17 22:05:05 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Video Start video recording
+2022-10-17 22:07:05 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Video Stop video recording
+2022-10-17 22:07:26 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Video Pass: Rear camera video recording is successfull
+2022-10-17 22:07:26 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Video Launch file manager application and verify video capture in uSD card
+2022-10-17 22:07:42 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Video Swipe up
+2022-10-17 22:07:45 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Video Select SD card
+2022-10-17 22:07:51 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Video switch to grid view mode to select DCIM folder
+2022-10-17 22:07:54 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Video Select DCIM folder
+2022-10-17 22:07:57 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Video Select camera folder
+2022-10-17 22:08:00 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Video switch to list view mode to select DCIM folder
+2022-10-17 22:08:04 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Video Click More options
+2022-10-17 22:08:10 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Video Click Select all
+2022-10-17 22:08:17 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Video Pass: 2 Videos recorded Successfully
+2022-10-17 22:08:17 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Video Pass: A total of 27 files present in uSD card before Format
+2022-10-17 22:08:17 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Video ===============================================================================================================================================
+2022-10-17 22:08:19 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Video calling Format() for format with data scenario
+2022-10-17 22:08:19 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Format Clearing Recent Apps
+2022-10-17 22:08:39 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Format Launch Settings application for Format uSD card with Data scenario 
+2022-10-17 22:08:44 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Format Scrolling till battery and device care is visible
+2022-10-17 22:08:53 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Format Clicking on battery and device care
+2022-10-17 22:08:59 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Format Clicking on storage
+2022-10-17 22:09:04 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Format Clicking on more options
+2022-10-17 22:09:16 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Format Clicking on SD card
+2022-10-17 22:09:22 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Format Select Format option
+2022-10-17 22:09:27 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Format Started formatting, waiting till it gets formatted
+2022-10-17 22:10:57 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Format Formar uSD is successfull
+2022-10-17 22:11:05 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Format Pass: Format uSD with Data is successfull
+2022-10-17 22:11:05 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Format Launch file manager application and Verify Data format
+2022-10-17 22:11:23 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Format Select SD card
+2022-10-17 22:11:30 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Format switch to grid view mode to select DCIM folder
+2022-10-17 22:11:33 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Format Select DCIM folder
+2022-10-17 22:11:33 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Format switch to list view mode to select DCIM folder
+2022-10-17 22:11:47 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Format Pass:Images and videos are not present in the DCIM folder, CARD format is successfully completed 
+2022-10-17 22:11:47 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Format ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-17 22:11:47 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Format Final Message: Pass Test0 pass for format uSd card with data scenario Operation
+2022-10-17 22:11:47 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Format Test:End
+2022-10-17 22:11:47 INFO   Samsung_GalaxyNote20_Ultra5G.Test0 Format ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

@@ -1,0 +1,91 @@
+2023-02-14 17:43:57 INFO   Realme_C31_RMX3501.Test10F frontVideoRec Test:Start
+2023-02-14 17:43:57 INFO   Realme_C31_RMX3501.Test10F frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-14 17:43:57 INFO   Realme_C31_RMX3501.Test10F frontVideoRec Test10F Scenario is as follows
+2023-02-14 17:43:57 INFO   Realme_C31_RMX3501.Test10F frontVideoRec 1.Launch Camera application and start front camera video recording for all host applicable resolutions in uSD Card
+2023-02-14 17:43:57 INFO   Realme_C31_RMX3501.Test10F frontVideoRec 2.Playback front Highest recorded video for 30 seconds, pause video playback, lock mobile and wait 30 seconds, unlock mobile and playback video from pause video duration
+2023-02-14 17:43:57 INFO   Realme_C31_RMX3501.Test10F frontVideoRec Setting up the appium desired capabilities
+2023-02-14 17:43:57 INFO   Realme_C31_RMX3501.Test10F frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-14 17:44:19 INFO   Realme_C31_RMX3501.Test10F frontVideoRec Clearing Recent Apps
+2023-02-14 17:44:25 INFO   Realme_C31_RMX3501.Test10F frontVideoRec Pass: Test10F Pass for clearing Recent apps 
+2023-02-14 17:44:29 INFO   Realme_C31_RMX3501.Test10F frontVideoRec Launch Camera Application for front camera video recording
+2023-02-14 17:44:30 INFO   Realme_C31_RMX3501.Test10F frontVideoRec Permission request
+2023-02-14 17:44:40 INFO   Realme_C31_RMX3501.Test10F frontVideoRec change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-201', ip: '10.65.147.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: realme C31, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: 096240612323A315}, deviceApiLevel: 30, deviceManufacturer: realme, deviceModel: RMX3501, deviceName: 096240612323A315, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: 096240612323A315, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 64, takesScreenshot: true, udid: 096240612323A315, viewportRect: {height: 1384, left: 0, top: 64, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: a79de772-3934-42d7-9874-ec8767b39ff8
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Agree")}
+2023-02-14 17:44:40 INFO   Realme_C31_RMX3501.Test10F frontVideoRec Allow Camera to access this device�s location?
+2023-02-14 17:44:55 INFO   Realme_C31_RMX3501.Test10F frontVideoRec Test10F_Fcam_res: 3 resolutions supported
+2023-02-14 17:44:55 INFO   Realme_C31_RMX3501.Test10F frontVideoRec Clicking Video Tab
+2023-02-14 17:45:01 INFO   Realme_C31_RMX3501.Test10F frontVideoRec Select settings option
+2023-02-14 17:45:04 INFO   Realme_C31_RMX3501.Test10F frontVideoRec Storage path settings option
+2023-02-14 17:45:08 INFO   Realme_C31_RMX3501.Test10F frontVideoRec Select sd card option
+2023-02-14 17:45:17 INFO   Realme_C31_RMX3501.Test10F frontVideoRec click on front camera
+2023-02-14 17:45:22 INFO   Realme_C31_RMX3501.Test10F frontVideoRec Select settings option
+2023-02-14 17:45:28 INFO   Realme_C31_RMX3501.Test10F frontVideoRec Select First front video Resolution: HD 720p, 30fps
+2023-02-14 17:45:39 INFO   Realme_C31_RMX3501.Test10F frontVideoRec Start video recording
+2023-02-14 17:45:39 INFO   Realme_C31_RMX3501.Test10F frontVideoRec Stop video recording
+2023-02-14 17:55:27 INFO   Realme_C31_RMX3501.Test10F frontVideoRec Select settings option
+2023-02-14 17:55:33 INFO   Realme_C31_RMX3501.Test10F frontVideoRec Select second front video Resolution:  SD 480p, 30fps
+2023-02-14 17:55:44 INFO   Realme_C31_RMX3501.Test10F frontVideoRec Start video recording
+2023-02-14 17:55:44 INFO   Realme_C31_RMX3501.Test10F frontVideoRec Stop video recording
+2023-02-14 18:05:24 INFO   Realme_C31_RMX3501.Test10F frontVideoRec Select settings option
+2023-02-14 18:05:31 INFO   Realme_C31_RMX3501.Test10F frontVideoRec Select third front video Resolution:  CIF, 30fps
+2023-02-14 18:05:42 INFO   Realme_C31_RMX3501.Test10F frontVideoRec Start video recording
+2023-02-14 18:05:42 INFO   Realme_C31_RMX3501.Test10F frontVideoRec Stop video recording
+2023-02-14 18:15:27 INFO   Realme_C31_RMX3501.Test10F frontVideoRec Click On back camera mode
+2023-02-14 18:15:32 INFO   Realme_C31_RMX3501.Test10F frontVideoRec Switch to defalut Photo mode
+2023-02-14 18:15:41 INFO   Realme_C31_RMX3501.Test10F frontVideoRec Pass: Test10F pass for front camera video recording
+2023-02-14 18:15:41 INFO   Realme_C31_RMX3501.Test10F frontVideoRec Launch file manager application and verify recorded video capture uSD Card
+2023-02-14 18:15:57 INFO   Realme_C31_RMX3501.Test10F frontVideoRec Swipe up to select uSD card
+2023-02-14 18:16:06 INFO   Realme_C31_RMX3501.Test10F frontVideoRec Select SD card
+2023-02-14 18:16:18 INFO   Realme_C31_RMX3501.Test10F frontVideoRec Select DCIM folder
+2023-02-14 18:16:21 INFO   Realme_C31_RMX3501.Test10F frontVideoRec Select camera folder
+2023-02-14 18:16:24 INFO   Realme_C31_RMX3501.Test10F frontVideoRec Click More options
+2023-02-14 18:16:31 INFO   Realme_C31_RMX3501.Test10F frontVideoRec Click Select all
+2023-02-14 18:16:37 INFO   Realme_C31_RMX3501.Test10F frontVideoRec Test10F_Fcam_video: 3 videos captured successfully
+2023-02-14 18:16:37 INFO   Realme_C31_RMX3501.Test10F frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-14 18:16:47 INFO   Realme_C31_RMX3501.Test10F frontVideoRec Calling VideoPlayBackForSleepWake()
+2023-02-14 18:16:47 INFO   Realme_C31_RMX3501.Test10F VideoPlayBackForSleepWake Launch File Manager application and playback front recorded video from USD for 30 seconds, pause video playback, locking phone and unlock after 30 seconds delay and playback video from pause duration.
+2023-02-14 18:16:53 INFO   Realme_C31_RMX3501.Test10F VideoPlayBackForSleepWake Select External Storage
+2023-02-14 18:17:13 INFO   Realme_C31_RMX3501.Test10F VideoPlayBackForSleepWake Select DCIM folder
+2023-02-14 18:17:16 INFO   Realme_C31_RMX3501.Test10F VideoPlayBackForSleepWake Select Camera folder
+2023-02-14 18:17:19 INFO   Realme_C31_RMX3501.Test10F VideoPlayBackForSleepWake Select MoreOptions1
+2023-02-14 18:17:24 INFO   Realme_C31_RMX3501.Test10F VideoPlayBackForSleepWake Select Sort by
+2023-02-14 18:17:29 INFO   Realme_C31_RMX3501.Test10F VideoPlayBackForSleepWake Select Sort by Newest date first
+2023-02-14 18:17:32 INFO   Realme_C31_RMX3501.Test10F VideoPlayBackForSleepWake Click on first file to play highest recorded resolution video file
+2023-02-14 18:17:32 INFO   Realme_C31_RMX3501.Test10F VideoPlayBackForSleepWake Started video playback
+2023-02-14 18:17:52 INFO   Realme_C31_RMX3501.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-02-14 18:17:54 INFO   Realme_C31_RMX3501.Test10F VideoPlayBackForSleepWake Click pause video button
+2023-02-14 18:17:54 INFO   Realme_C31_RMX3501.Test10F VideoPlayBackForSleepWake Lock Mobile with 30 seconds delay
+2023-02-14 18:18:24 INFO   Realme_C31_RMX3501.Test10F VideoPlayBackForSleepWake Unlock Mobile 
+2023-02-14 18:18:24 INFO   Realme_C31_RMX3501.Test10F VideoPlayBackForSleepWake Wait For 30Seconds
+2023-02-14 18:18:24 INFO   Realme_C31_RMX3501.Test10F VideoPlayBackForSleepWake Playback video from pause video duration
+2023-02-14 18:18:54 INFO   Realme_C31_RMX3501.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-02-14 18:18:56 INFO   Realme_C31_RMX3501.Test10F VideoPlayBackForSleepWake Click pause video button
+2023-02-14 18:19:09 INFO   Realme_C31_RMX3501.Test10F VideoPlayBackForSleepWake Pass: Test10F Pass for Front video play back, Pause,Lock and Unlock Phone Play back from Pause duration Scenario
+2023-02-14 18:19:09 INFO   Realme_C31_RMX3501.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-14 18:19:09 INFO   Realme_C31_RMX3501.Test10F VideoPlayBackForSleepWake calling DatamoveOperation() to move front camera recorded videos files to Test10F folder
+2023-02-14 18:19:09 INFO   Realme_C31_RMX3501.Test10F DataMoveOperation launch file manager application select uSD card-->DCIM folder-->Camera folder-->Select all front camera front camera videos create Test10 and cut paste all videos in Test10F folder
+2023-02-14 18:19:25 INFO   Realme_C31_RMX3501.Test10F DataMoveOperation click on browse option
+2023-02-14 18:19:28 INFO   Realme_C31_RMX3501.Test10F DataMoveOperation Swipe up to select uSD card
+2023-02-14 18:19:37 INFO   Realme_C31_RMX3501.Test10F DataMoveOperation Select SD card
+2023-02-14 18:19:49 INFO   Realme_C31_RMX3501.Test10F DataMoveOperation Select DCIM folder
+2023-02-14 18:19:52 INFO   Realme_C31_RMX3501.Test10F DataMoveOperation Select camera folder
+2023-02-14 18:19:55 INFO   Realme_C31_RMX3501.Test10F DataMoveOperation Click More options
+2023-02-14 18:20:01 INFO   Realme_C31_RMX3501.Test10F DataMoveOperation Click Select all
+2023-02-14 18:20:05 INFO   Realme_C31_RMX3501.Test10F DataMoveOperation Click More options
+2023-02-14 18:20:11 INFO   Realme_C31_RMX3501.Test10F DataMoveOperation Select move to option
+2023-02-14 18:20:18 INFO   Realme_C31_RMX3501.Test10F DataMoveOperation Select uSD Card
+2023-02-14 18:20:24 INFO   Realme_C31_RMX3501.Test10F DataMoveOperation Select ADD NEW Folder option
+2023-02-14 18:20:31 INFO   Realme_C31_RMX3501.Test10F DataMoveOperation Name folder as Test10F
+2023-02-14 18:20:38 INFO   Realme_C31_RMX3501.Test10F DataMoveOperation Accept create folder
+2023-02-14 18:22:39 INFO   Realme_C31_RMX3501.Test10F DataMoveOperation Cut paste  video files operation completed successfully
+2023-02-14 18:22:55 INFO   Realme_C31_RMX3501.Test10F DataMoveOperation Pass: Test10F Pass for data move operation successfully
+2023-02-14 18:22:55 INFO   Realme_C31_RMX3501.Test10F DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-14 18:22:55 INFO   Realme_C31_RMX3501.Test10F VideoPlayBackForSleepWake Final Message: Pass Test10F Pass for front camera  video recording, Pause Video Playback scenario and data move operation scenario
+2023-02-14 18:22:55 INFO   Realme_C31_RMX3501.Test10F VideoPlayBackForSleepWake Test: End
+2023-02-14 18:22:55 INFO   Realme_C31_RMX3501.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

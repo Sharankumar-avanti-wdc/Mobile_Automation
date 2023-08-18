@@ -1,0 +1,61 @@
+2022-10-14 15:08:45 INFO   Samsung_Galaxy_Quantum2.Test8 recordAudio Test: Start
+2022-10-14 15:08:45 INFO   Samsung_Galaxy_Quantum2.Test8 recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-14 15:08:45 INFO   Samsung_Galaxy_Quantum2.Test8 recordAudio Test8 scenario is as follows
+2022-10-14 15:08:45 INFO   Samsung_Galaxy_Quantum2.Test8 recordAudio 1.Launch mobile default voice recording application and set uSD card storage option, record audio file for 2 minutes duration
+2022-10-14 15:08:45 INFO   Samsung_Galaxy_Quantum2.Test8 recordAudio 2.Launch file manager application and playback recorded audio file from external storage, fast forward audio file and pause
+2022-10-14 15:08:45 INFO   Samsung_Galaxy_Quantum2.Test8 recordAudio 3.Launch file manager application and playback copied audio files from external storage the files are placed in the Test1 folder
+2022-10-14 15:08:45 INFO   Samsung_Galaxy_Quantum2.Test8 recordAudio Setting up the appium desired capabilities
+2022-10-14 15:08:45 INFO   Samsung_Galaxy_Quantum2.Test8 recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-14 15:08:54 INFO   Samsung_Galaxy_Quantum2.Test8 recordAudio Launch Home screen application and clear recent apps
+2022-10-14 15:09:12 INFO   Samsung_Galaxy_Quantum2.Test8 recordAudio Launch Voice recorder application for Audio recording
+2022-10-14 15:09:13 INFO   Samsung_Galaxy_Quantum2.Test8 recordAudio If application launch permission pop-up exists accept allow permission to launch application
+2022-10-14 15:09:28 INFO   Samsung_Galaxy_Quantum2.Test8 recordAudio  No Launch permission Pop-up  found
+2022-10-14 15:09:33 INFO   Samsung_Galaxy_Quantum2.Test8 recordAudio If save to uSD card pop-up exists select Save to SD card option
+2022-10-14 15:09:43 INFO   Samsung_Galaxy_Quantum2.Test8 recordAudio Select More options and Set uSD card as storage option
+2022-10-14 15:09:48 INFO   Samsung_Galaxy_Quantum2.Test8 recordAudio Select settings option
+2022-10-14 15:09:54 INFO   Samsung_Galaxy_Quantum2.Test8 recordAudio Select Storage location
+2022-10-14 15:09:59 INFO   Samsung_Galaxy_Quantum2.Test8 recordAudio Select uSD card
+2022-10-14 15:10:07 INFO   Samsung_Galaxy_Quantum2.Test8 recordAudio Start Recording
+2022-10-14 15:12:08 INFO   Samsung_Galaxy_Quantum2.Test8 recordAudio Stop Recording
+2022-10-14 15:12:55 INFO   Samsung_Galaxy_Quantum2.Test8 recordAudio Stop and Save Recording
+2022-10-14 15:13:00 INFO   Samsung_Galaxy_Quantum2.Test8 recordAudio Launch File Manager Application and select uSD card for playing recorded audio playback
+2022-10-14 15:13:05 INFO   Samsung_Galaxy_Quantum2.Test8 recordAudio select SD card
+2022-10-14 15:13:11 INFO   Samsung_Galaxy_Quantum2.Test8 recordAudio Select Music Folder
+2022-10-14 15:13:24 INFO   Samsung_Galaxy_Quantum2.Test8 recordAudio Select Voice recorder
+2022-10-14 15:13:29 INFO   Samsung_Galaxy_Quantum2.Test8 recordAudio Select More Options 
+2022-10-14 15:13:34 INFO   Samsung_Galaxy_Quantum2.Test8 recordAudio Select edit option
+2022-10-14 15:13:41 INFO   Samsung_Galaxy_Quantum2.Test8 recordAudio Click On Select All Options
+2022-10-14 15:13:52 INFO   Samsung_Galaxy_Quantum2.Test8 recordAudio Pass: Test8 pass for recording  audio file
+2022-10-14 15:13:52 INFO   Samsung_Galaxy_Quantum2.Test8 recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-14 15:13:52 INFO   Samsung_Galaxy_Quantum2.Test8 recordAudio Calling PlayRecordedAudio() for Audio play back and fast forward scenario
+2022-10-14 15:13:57 INFO   Samsung_Galaxy_Quantum2.Test8 PlayRecordedAudio Clearing Recent Apps
+2022-10-14 15:14:16 INFO   Samsung_Galaxy_Quantum2.Test8 PlayRecordedAudio Launch File Manager Application
+2022-10-14 15:14:21 INFO   Samsung_Galaxy_Quantum2.Test8 PlayRecordedAudio Click On SD Card
+2022-10-14 15:14:27 INFO   Samsung_Galaxy_Quantum2.Test8 PlayRecordedAudio Select Music Folder
+2022-10-14 15:14:40 INFO   Samsung_Galaxy_Quantum2.Test8 PlayRecordedAudio Select Voice recorder
+2022-10-14 15:14:45 INFO   Samsung_Galaxy_Quantum2.Test8 PlayRecordedAudio Click Audio file for play back and fast forward
+2022-10-14 15:15:35 INFO   Samsung_Galaxy_Quantum2.Test8 PlayRecordedAudio Pass: Test8 Pass for playing, fast forward, and pause recorded audio file scenario
+2022-10-14 15:15:35 INFO   Samsung_Galaxy_Quantum2.Test8 PlayRecordedAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-14 15:15:35 INFO   Samsung_Galaxy_Quantum2.Test8 PlayRecordedAudio Calling PlayCopiedAudioFile() for copied audio files from Test1 folder
+2022-10-14 15:15:40 INFO   Samsung_Galaxy_Quantum2.Test8 PlayCopiedAudioFile Clear Recent Apps
+2022-10-14 15:16:00 INFO   Samsung_Galaxy_Quantum2.Test8 PlayCopiedAudioFile Launch File Manager Application
+2022-10-14 15:16:06 INFO   Samsung_Galaxy_Quantum2.Test8 PlayCopiedAudioFile Click On SD Card
+2022-10-14 15:16:11 INFO   Samsung_Galaxy_Quantum2.Test8 PlayCopiedAudioFile Clicking Test1 Folder from External storage
+2022-10-14 15:16:34 INFO   Samsung_Galaxy_Quantum2.Test8 PlayCopiedAudioFile Select MP3 files Folder
+2022-10-14 15:16:39 INFO   Samsung_Galaxy_Quantum2.Test8 PlayCopiedAudioFile select first mp3/audio file from uSD card(Test1-->MP3) for playback and fast forward scenario
+2022-10-14 15:17:23 INFO   Samsung_Galaxy_Quantum2.Test8 PlayCopiedAudioFile Fast Forwarding Video for 10 Seconds
+2022-10-14 15:17:23 INFO   Samsung_Galaxy_Quantum2.Test8 PlayCopiedAudioFile Pause Audio
+2022-10-14 15:17:26 INFO   Samsung_Galaxy_Quantum2.Test8 PlayCopiedAudioFile Pass: 1st Audio Play Back Successfull 
+2022-10-14 15:17:28 INFO   Samsung_Galaxy_Quantum2.Test8 PlayCopiedAudioFile select second audio/mp3 file from uSD card(Test1-->MP3) for playback and fast forward scenario
+2022-10-14 15:18:11 INFO   Samsung_Galaxy_Quantum2.Test8 PlayCopiedAudioFile Fast Forwarding Video for 10 Seconds
+2022-10-14 15:18:11 INFO   Samsung_Galaxy_Quantum2.Test8 PlayCopiedAudioFile Pause Audio
+2022-10-14 15:18:11 INFO   Samsung_Galaxy_Quantum2.Test8 PlayCopiedAudioFile Pass: 2nd Audio Play back succssfull
+2022-10-14 15:18:14 INFO   Samsung_Galaxy_Quantum2.Test8 PlayCopiedAudioFile select third audio/mp3 file from uSD card(Test1-->MP3) for playback and fast forward scenario
+2022-10-14 15:18:57 INFO   Samsung_Galaxy_Quantum2.Test8 PlayCopiedAudioFile Fast Forwarding Video for 10 Seconds
+2022-10-14 15:18:57 INFO   Samsung_Galaxy_Quantum2.Test8 PlayCopiedAudioFile Pause Audio
+2022-10-14 15:18:57 INFO   Samsung_Galaxy_Quantum2.Test8 PlayCopiedAudioFile Pass: 3rd Audio Play Back Successfull 
+2022-10-14 15:18:57 INFO   Samsung_Galaxy_Quantum2.Test8 PlayCopiedAudioFile Pass: Test8 Pass for Recorded and copied audio play back and fast forward scenario
+2022-10-14 15:18:57 INFO   Samsung_Galaxy_Quantum2.Test8 PlayCopiedAudioFile ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-14 15:18:57 INFO   Samsung_Galaxy_Quantum2.Test8 PlayCopiedAudioFile Final Message: Pass Test8 Pass for Recorded and copied audio play back and fast forward scenario
+2022-10-14 15:18:57 INFO   Samsung_Galaxy_Quantum2.Test8 PlayCopiedAudioFile Test: End
+2022-10-14 15:18:57 INFO   Samsung_Galaxy_Quantum2.Test8 PlayCopiedAudioFile ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

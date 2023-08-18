@@ -1,0 +1,3 @@
+cd C:\Users\7336135\Android11\eclipse-workspace\Samsung_GalaxyNote20_Ultra5G
+
+mvn -DmountUnmountCycle=1 -DrecordingDurationRear=300 -DrecordingDurationRear1=300 -DrecordingDurationRear2=180 -DrecordingDurationRear3=120 -DrecordingDurationfront=300 -DrecordingDurationfront1=300 -DrecordingDurationfront2=180 -DrecordingDurationfront3=120 -DrecordingDurationfront4=60 -DtotalPictureCountRear=30 -DtotalPictureCountRear1=30 -DtotalPictureCountRear2=30 -DtotalPictureCountRear3=30 -DtotalPictureCountRear4=30 -DtotalPictureCountFront=30 -DtotalPictureCountFront1=18 -DtotalPictureCountFront2=18 -DtotalPictureCountFront3=12  -DfileName=testngMain.xml clean install

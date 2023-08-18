@@ -1,0 +1,52 @@
+2022-06-07 11:27:40 INFO   Ikall.Test8_Int recordAudio Test: Start
+2022-06-07 11:27:40 INFO   Ikall.Test8_Int recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-06-07 11:27:40 INFO   Ikall.Test8_Int recordAudio Test8_Int scenario is as follows
+2022-06-07 11:27:40 INFO   Ikall.Test8_Int recordAudio 1.Launch mobile default voice recording application and  record audio file for 2 minutes duration
+2022-06-07 11:27:40 INFO   Ikall.Test8_Int recordAudio 2.Launch file manager application and playback recorded audio file from external storage, fast forward audio file and pause
+2022-06-07 11:27:40 INFO   Ikall.Test8_Int recordAudio 3.Launch file manager application and playback copied audio files from external storage the files are placed in the Test1 folder
+2022-06-07 11:27:40 INFO   Ikall.Test8_Int recordAudio Setting up the appium desired capabilities
+2022-06-07 11:27:40 INFO   Ikall.Test8_Int recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-06-07 11:27:53 INFO   Ikall.Test8_Int recordAudio Launch Home screen application and clear recent apps
+2022-06-07 11:28:14 INFO   Ikall.Test8_Int recordAudio Launch Voice recorder application for Audio recording
+2022-06-07 11:28:18 INFO   Ikall.Test8_Int recordAudio If application launch permission pop-up exists accept allow permission to launch application
+2022-06-07 11:28:28 INFO   Ikall.Test8_Int recordAudio If save to uSD card pop-up exists select Save to SD card option
+2022-06-07 11:28:28 INFO   Ikall.Test8_Int recordAudio Start Recording
+2022-06-07 11:30:29 INFO   Ikall.Test8_Int recordAudio Stop Recording
+2022-06-07 11:30:38 INFO   Ikall.Test8_Int recordAudio Stop and Save Recording
+2022-06-07 11:30:44 INFO   Ikall.Test8_Int recordAudio Pass: Test8_Int pass for recording  audio file
+2022-06-07 11:30:44 INFO   Ikall.Test8_Int recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-06-07 11:30:44 INFO   Ikall.Test8_Int recordAudio Calling PlayRecordedAudio() for Audio play back and fast forward scenario
+2022-06-07 11:30:49 INFO   Ikall.Test8_Int PlayRecordedAudio Clearing Recent Apps
+2022-06-07 11:31:09 INFO   Ikall.Test8_Int PlayRecordedAudio Launch File Manager Application
+2022-06-07 11:31:21 INFO   Ikall.Test8_Int PlayRecordedAudio Launch File Manager Application
+2022-06-07 11:31:26 INFO   Ikall.Test8_Int PlayRecordedAudio Select internalstorage
+2022-06-07 11:31:26 INFO   Ikall.Test8_Int PlayRecordedAudio Select Music Folder
+2022-06-07 11:32:07 INFO   Ikall.Test8_Int PlayRecordedAudio Fast Forwarding Audio for 10 Seconds
+2022-06-07 11:32:18 INFO   Ikall.Test8_Int PlayRecordedAudio Pass: Test8_Int Pass for playing, fast forward, and pause recorded audio file scenario
+2022-06-07 11:32:18 INFO   Ikall.Test8_Int PlayRecordedAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-06-07 11:32:18 INFO   Ikall.Test8_Int PlayRecordedAudio Calling PlayCopiedAudioFile() for copied audio files from Test1 folder
+2022-06-07 11:32:23 INFO   Ikall.Test8_Int PlayCopiedAudioFile Clear Recent Apps
+2022-06-07 11:32:35 INFO   Ikall.Test8_Int PlayCopiedAudioFile Clearing Recent Apps
+2022-06-07 11:32:42 INFO   Ikall.Test8_Int PlayCopiedAudioFile Launch File Manager Application
+2022-06-07 11:32:54 INFO   Ikall.Test8_Int PlayCopiedAudioFile Click On internalstorage
+2022-06-07 11:32:59 INFO   Ikall.Test8_Int PlayCopiedAudioFile Select internalstorage
+2022-06-07 11:33:05 INFO   Ikall.Test8_Int PlayCopiedAudioFile Clicking Test1Folder
+2022-06-07 11:33:27 INFO   Ikall.Test8_Int PlayCopiedAudioFile Select MP3 files Folder
+2022-06-07 11:33:32 INFO   Ikall.Test8_Int PlayCopiedAudioFile Click on 1st File to Play Video for 30Seconds
+2022-06-07 11:34:06 INFO   Ikall.Test8_Int PlayCopiedAudioFile Fast Forwarding Video for 10 Seconds
+2022-06-07 11:34:06 INFO   Ikall.Test8_Int PlayCopiedAudioFile Pause Audio
+2022-06-07 11:34:10 INFO   Ikall.Test8_Int PlayCopiedAudioFile Pass: 1st Audio Play Back Successfull 
+2022-06-07 11:34:12 INFO   Ikall.Test8_Int PlayCopiedAudioFile Click on 2nd File to Play Video for 30Seconds
+2022-06-07 11:34:46 INFO   Ikall.Test8_Int PlayCopiedAudioFile Fast Forwarding Video for 10 Seconds
+2022-06-07 11:34:46 INFO   Ikall.Test8_Int PlayCopiedAudioFile Pause Audio
+2022-06-07 11:34:50 INFO   Ikall.Test8_Int PlayCopiedAudioFile Pass: 2nd Audio Play back succssfull
+2022-06-07 11:34:52 INFO   Ikall.Test8_Int PlayCopiedAudioFile Click on 3rd File to Play Video for 30Seconds
+2022-06-07 11:35:27 INFO   Ikall.Test8_Int PlayCopiedAudioFile Fast Forwarding Video for 10 Seconds
+2022-06-07 11:35:27 INFO   Ikall.Test8_Int PlayCopiedAudioFile Pause Audio
+2022-06-07 11:35:31 INFO   Ikall.Test8_Int PlayCopiedAudioFile Pass: 3rd Audio Play Back Successfull 
+2022-06-07 11:35:31 INFO   Ikall.Test8_Int PlayCopiedAudioFile Pass: 3rd Audio Play Back Successfull 
+2022-06-07 11:35:31 INFO   Ikall.Test8_Int PlayCopiedAudioFile Pass: Test8_Int Pass for Recorded and copied audio play back and fast forward scenario
+2022-06-07 11:35:31 INFO   Ikall.Test8_Int PlayCopiedAudioFile ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-06-07 11:35:31 INFO   Ikall.Test8_Int PlayCopiedAudioFile Final Message: Pass Test8_Int Pass for Recorded and copied audio play back and fast forward scenario
+2022-06-07 11:35:31 INFO   Ikall.Test8_Int PlayCopiedAudioFile Test: End
+2022-06-07 11:35:31 INFO   Ikall.Test8_Int PlayCopiedAudioFile ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

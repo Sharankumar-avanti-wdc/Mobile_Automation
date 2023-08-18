@@ -1,0 +1,1629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="18,981.728" tests="7" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="fileName" value="testngMain.xml"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="totalPictureCountRear" value="35"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="totalPictureCountFront" value="75"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\sandisk\eclipse-workspace\LG_V60_ThinQ5G_LMV600TM\target\test-classes;C:\Users\sandisk\eclipse-workspace\LG_V60_ThinQ5G_LMV600TM\target\classes;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\sandisk\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\sandisk\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\sandisk\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\sandisk\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\sandisk\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\sandisk\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\sandisk\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\sandisk\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\sandisk\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\sandisk\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-android-driver\2.39.0\selenium-android-driver-2.39.0.jar;C:\Users\sandisk\.m2\repository\io\appium\java-client\7.0.0\java-client-7.0.0.jar;C:\Users\sandisk\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\sandisk\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\sandisk\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\sandisk\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\sandisk\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\sandisk\.m2\repository\cglib\cglib\3.2.8\cglib-3.2.8.jar;C:\Users\sandisk\.m2\repository\org\ow2\asm\asm\6.2.1\asm-6.2.1.jar;C:\Users\sandisk\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\sandisk\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\sandisk\.m2\repository\commons-validator\commons-validator\1.6\commons-validator-1.6.jar;C:\Users\sandisk\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\sandisk\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\sandisk\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\sandisk\.m2\repository\org\apache\commons\commons-lang3\3.8\commons-lang3-3.8.jar;C:\Users\sandisk\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\sandisk\.m2\repository\org\springframework\spring-context\5.1.0.RELEASE\spring-context-5.1.0.RELEASE.jar;C:\Users\sandisk\.m2\repository\org\springframework\spring-aop\5.1.0.RELEASE\spring-aop-5.1.0.RELEASE.jar;C:\Users\sandisk\.m2\repository\org\springframework\spring-beans\5.1.0.RELEASE\spring-beans-5.1.0.RELEASE.jar;C:\Users\sandisk\.m2\repository\org\springframework\spring-core\5.1.0.RELEASE\spring-core-5.1.0.RELEASE.jar;C:\Users\sandisk\.m2\repository\org\springframework\spring-jcl\5.1.0.RELEASE\spring-jcl-5.1.0.RELEASE.jar;C:\Users\sandisk\.m2\repository\org\springframework\spring-expression\5.1.0.RELEASE\spring-expression-5.1.0.RELEASE.jar;C:\Users\sandisk\.m2\repository\org\aspectj\aspectjweaver\1.9.1\aspectjweaver-1.9.1.jar;C:\Users\sandisk\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\sandisk\.m2\repository\org\testng\testng\6.1.1\testng-6.1.1.jar;C:\Users\sandisk\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\sandisk\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\sandisk\.m2\repository\com\beust\jcommander\1.12\jcommander-1.12.jar;C:\Users\sandisk\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
+    <property name="recordingDurationRear1" value="580"/>
+    <property name="recordingDurationFront2" value="580"/>
+    <property name="recordingDurationRear2" value="580"/>
+    <property name="sun.java.command" value="C:\Users\sandisk\AppData\Local\Temp\surefire3471380546642102595\surefirebooter5630578132019820487.jar C:\Users\sandisk\AppData\Local\Temp\surefire3471380546642102595 2023-01-05T19-43-53_105-jvmRun1 surefire5403372981263289445tmp surefire_01105447004236198104tmp"/>
+    <property name="recordingDurationFront" value="580"/>
+    <property name="recordingDurationFront3" value="580"/>
+    <property name="recordingDurationRear3" value="580"/>
+    <property name="recordingDurationRear4" value="580"/>
+    <property name="recordingDurationFront1" value="580"/>
+    <property name="recordingDurationRear5" value="580"/>
+    <property name="surefire.test.class.path" value="C:\Users\sandisk\eclipse-workspace\LG_V60_ThinQ5G_LMV600TM\target\test-classes;C:\Users\sandisk\eclipse-workspace\LG_V60_ThinQ5G_LMV600TM\target\classes;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\sandisk\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\sandisk\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\sandisk\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\sandisk\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\sandisk\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\sandisk\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\sandisk\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\sandisk\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\sandisk\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\sandisk\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-android-driver\2.39.0\selenium-android-driver-2.39.0.jar;C:\Users\sandisk\.m2\repository\io\appium\java-client\7.0.0\java-client-7.0.0.jar;C:\Users\sandisk\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\sandisk\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\sandisk\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\sandisk\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\sandisk\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\sandisk\.m2\repository\cglib\cglib\3.2.8\cglib-3.2.8.jar;C:\Users\sandisk\.m2\repository\org\ow2\asm\asm\6.2.1\asm-6.2.1.jar;C:\Users\sandisk\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\sandisk\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\sandisk\.m2\repository\commons-validator\commons-validator\1.6\commons-validator-1.6.jar;C:\Users\sandisk\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\sandisk\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\sandisk\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\sandisk\.m2\repository\org\apache\commons\commons-lang3\3.8\commons-lang3-3.8.jar;C:\Users\sandisk\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\sandisk\.m2\repository\org\springframework\spring-context\5.1.0.RELEASE\spring-context-5.1.0.RELEASE.jar;C:\Users\sandisk\.m2\repository\org\springframework\spring-aop\5.1.0.RELEASE\spring-aop-5.1.0.RELEASE.jar;C:\Users\sandisk\.m2\repository\org\springframework\spring-beans\5.1.0.RELEASE\spring-beans-5.1.0.RELEASE.jar;C:\Users\sandisk\.m2\repository\org\springframework\spring-core\5.1.0.RELEASE\spring-core-5.1.0.RELEASE.jar;C:\Users\sandisk\.m2\repository\org\springframework\spring-jcl\5.1.0.RELEASE\spring-jcl-5.1.0.RELEASE.jar;C:\Users\sandisk\.m2\repository\org\springframework\spring-expression\5.1.0.RELEASE\spring-expression-5.1.0.RELEASE.jar;C:\Users\sandisk\.m2\repository\org\aspectj\aspectjweaver\1.9.1\aspectjweaver-1.9.1.jar;C:\Users\sandisk\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\sandisk\.m2\repository\org\testng\testng\6.1.1\testng-6.1.1.jar;C:\Users\sandisk\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\sandisk\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\sandisk\.m2\repository\com\beust\jcommander\1.12\jcommander-1.12.jar;C:\Users\sandisk\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;"/>
+    <property name="recordingDurationRear6" value="580"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="recordingDurationRear7" value="580"/>
+    <property name="user.home" value="C:\Users\sandisk"/>
+    <property name="user.language" value="en"/>
+    <property name="recordingDurationRear8" value="580"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_202\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\sandisk\eclipse-workspace\LG_V60_ThinQ5G_LMV600TM"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="recordingDurationFront6" value="580"/>
+    <property name="surefire.real.class.path" value="C:\Users\sandisk\AppData\Local\Temp\surefire3471380546642102595\surefirebooter5630578132019820487.jar"/>
+    <property name="recordingDurationFront4" value="580"/>
+    <property name="recordingDurationFront5" value="580"/>
+    <property name="recordingDurationRear" value="580"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_202-b08"/>
+    <property name="totalPictureCountFront3" value="75"/>
+    <property name="totalPictureCountRear7" value="30"/>
+    <property name="user.name" value="sandisk"/>
+    <property name="totalPictureCountFront2" value="75"/>
+    <property name="totalPictureCountRear8" value="30"/>
+    <property name="totalPictureCountFront1" value="75"/>
+    <property name="totalPictureCountRear5" value="35"/>
+    <property name="totalPictureCountRear6" value="30"/>
+    <property name="path.separator" value=";"/>
+    <property name="totalPictureCountRear3" value="35"/>
+    <property name="totalPictureCountRear4" value="35"/>
+    <property name="totalPictureCountRear1" value="35"/>
+    <property name="os.version" value="10.0"/>
+    <property name="totalPictureCountRear2" value="35"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\sandisk\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\sandisk\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_202"/>
+    <property name="user.dir" value="C:\Users\sandisk\eclipse-workspace\LG_V60_ThinQ5G_LMV600TM"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.util.logging.SimpleFormatter.format" value="%1$tY-%1$tm-%1$td %1$tH:%1$tM:%1$tS %4$-6s %2$s %5$s%6$s%n"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="Tolerance_Level" value="75"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\sandisk\Maven\apache-maven-3.8.4\bin;C:\Ant\apache-ant-1.9.15\bin;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Users\sandisk\AppData\Local\Android\Sdk;C:\Users\sandisk\android-sdks\platform-tools;C:\Android\Android-sdk\bin;C:\Android\Android-sdk\tools;C:\Android\Android-sdk\platform-tools;C:\Python37\Scripts\;C:\Python37\;C:\Users\sandisk\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="25.202-b08"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="start" classname="LG_V60_ThinQ5G_LMV600TM.Test0" time="203.509">
+    <system-out><![CDATA[Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+ Test0 Scenario is as follows 
+Setting up the appium desired capabilities
+1.Unlock phone, clear recent apps, clear internal memory
+Test0 Format Function Not Apllicable ,Host does not support Format Operation with USB Cable
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Clearing Recent Apps
+click on clear all
+Pass: No recent apps found
+Launch File Manager Application and clear internal memory
+swipe up and search for internal storage
+Select  Internal storage
+Select More options
+click on Select all
+Select  Delete permanently
+Select More options
+Select  Delete permanently
+Select  Delete
+No data found to clear internal memory
+Pass: Test0 Clearing phone internal memory is successfull
+Test: End
+Final Message: Pass Test0 pass for Internal format Operation, Test0 Format Function Not Apllicable
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+]]></system-out>
+    <system-err><![CDATA[2023-01-05 19:44:13 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+2023-01-05 19:44:21 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: V60 ThinQ 5G, newCommandTimeout: 600, platformName: android, platformVersion: 11, udid: LMV600TMf10a3580}, deviceApiLevel: 30, deviceManufacturer: LGE, deviceModel: LM-V600, deviceName: LMV600TMf10a3580, deviceScreenDensity: 420, deviceScreenSize: 1080x2460, deviceUDID: LMV600TMf10a3580, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 76, takesScreenshot: true, udid: LMV600TMf10a3580, viewportRect: {height: 2182, left: 0, top: 76, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 4748745d-b565-48a8-8e6f-4fc49707067b
+*** Element info: {Using=xpath, value=//*[@text='Clear all']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at LG_V60_ThinQ5G_LMV600TM.Test0.start(Test0.java:116)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:673)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:842)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1166)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1178)
+	at org.testng.TestRunner.privateRun(TestRunner.java:757)
+	at org.testng.TestRunner.run(TestRunner.java:608)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1158)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1154)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1083)
+	at org.testng.TestNG.run(TestNG.java:999)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]></system-err>
+  </testcase>
+  <testcase name="CopyPaste" classname="LG_V60_ThinQ5G_LMV600TM.Test18" time="954.765">
+    <system-out><![CDATA[Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test18 Scenario is as follows
+Pushing 1GB zip File to Host Internal Memory via server folder named as Test1 
+Extracting zip file in Host internal memory
+Copy Paste 1GB file (Test1) from host internal memory to uSD Card, Create a folder named Test2 in uSD Card, Copy paste 1GB Folder(Test1) From internal to external inside folder Test2 and Vice versa
+Create folder name(New_Scenario in External memory, select folder name(Test2) from internal memory and perform cut paste operation from internla to external memory
+Setting up the appium desired capabilities
+Clearing Recent Apps
+Clearing Recent Apps
+Pass: Test18 Pass for clearing Recent apps 
+Pushing File from Laptop to Mobile
+Launch Home Screen application and clear recent apps
+clcik on ok
+click on browse option
+swipe up and search for sd card
+Select Internal storage
+Search for Test1 Folder
+Select Testfile
+Extracting Push zip file as Folder named Test1
+1GB File Extration completed
+click on done
+Launching file manager application
+swipe up and search for internal storage
+Select Internal storage
+Select Test1 folder
+Select more options
+Select Copy option
+Select External Storage
+Select Paste option for copy paste Test1 folder from Internal to external storage
+swipe up and search for internal storage
+Select Internal storage
+Long Press and select and Test1 Folder
+Select more options
+Select Copy option
+Select External storage
+Select create folder option
+Name folder as Test2
+Copy paste Test1 folder inside Test2 folder
+swipe up and search for sd card
+Select External Storage
+Long Press and select and Test2 Folder
+Select more options
+Select Copy option
+Select Internal storage
+click on copy here
+swipe up and search for internal storage
+Select Internal storage
+Long Press and select and Test2 Folder
+Select more options
+Select move option
+Select External storage
+click on create folder and create folder name folder name New_Scenario
+Select Move to option
+Move to Test1 folder inside New_Scenario folder
+Pass: Cut paste Operation Completed Successfully
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Final message: Pass Test18 pass for copy paste & cut paste operation
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+]]></system-out>
+    <system-err><![CDATA[2023-01-05 19:47:44 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+2023-01-05 19:47:56 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: V60 ThinQ 5G, newCommandTimeout: 600, platformName: android, platformVersion: 11, udid: LMV600TMf10a3580}, deviceApiLevel: 30, deviceManufacturer: LGE, deviceModel: LM-V600, deviceName: LMV600TMf10a3580, deviceScreenDensity: 420, deviceScreenSize: 1080x2460, deviceUDID: LMV600TMf10a3580, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 76, takesScreenshot: true, udid: LMV600TMf10a3580, viewportRect: {height: 2182, left: 0, top: 76, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 1c5e66eb-fe81-431a-b08b-8e2aeb075465
+*** Element info: {Using=xpath, value=//*[@resource-id='com.itel.filemanager:id/notice_ok']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at LG_V60_ThinQ5G_LMV600TM.Test18.CopyPaste(Test18.java:141)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:673)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:842)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1166)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1178)
+	at org.testng.TestRunner.privateRun(TestRunner.java:757)
+	at org.testng.TestRunner.run(TestRunner.java:608)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1158)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1154)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1083)
+	at org.testng.TestNG.run(TestNG.java:999)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]></system-err>
+  </testcase>
+  <testcase name="recordAudio" classname="LG_V60_ThinQ5G_LMV600TM.Test8" time="201.794">
+    <system-out><![CDATA[Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test8 scenario is as follows
+1.Host voice recorder application does not support uSD storage option. Hence skipping voice recording scenario!
+2.Launch file manager application and playback copied audio files from external storage the files are placed in the Test1 folder
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+calling PlayCopiedAudioFile to play back copied audio files from Test1 folder 
+Launch File Manager Application for playing copied audio files from uSD card
+Select external storage
+switch to grid view mode to select Test1 folder
+Select Test1 folder
+Select test_file folder
+Select 1GB folder
+switch back to list  view mode
+Select MP3 files folder
+Select First audio file for play back
+select first mp3/audio file from uSD card(Test1-->MP3)  for playback and fast forward scenario
+Fast Forwarding Audio for 10 Seconds
+Pause Audio
+Pass: 1st Audio Play Back Successfull 
+select second audio/mp3 file from uSD card(Test1-->MP3) for playback and fast forward scenario
+Select second audio file for play back
+Fast Forwarding Audio for 10 Seconds
+Pause Audio
+Pass: 2nd Audio Play back succssfull
+Select third audio file for play back
+select third audio/mp3 file from uSD card(Test1-->MP3) for playback and fast forward scenario
+Fast Forwarding Audio for 10 Seconds
+Pause Audio
+Pass: Test8 Pass NA :  copied audio play back and fast forward scenario is successfull
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Final Message: Pass Test8 Pass NA -  copied audio play back and fast forward scenario is successfull
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+]]></system-out>
+    <system-err><![CDATA[2023-01-05 20:03:47 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+2023-01-05 20:03:59 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="rearVideoRec" classname="LG_V60_ThinQ5G_LMV600TM.Test10" time="6,187.28">
+    <system-out><![CDATA[Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test10 Scenario is as follows
+1.Launch Camera application and start back camera video recording for all host applicable resolutions in uSD Card
+2.Playback Highest resolution recorded video from USD Card, fast forward playback and pause video scenario 
+3.Playback copied videos from Test1 folder, fast forward and pause scenario
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Clearing Recent Apps
+Clearing Recent Apps
+Pass: Test0 Pass for clearing Recent apps 
+Launch Camera Application for rear camera video recording
+clcik on next
+change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: V60 ThinQ 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: LMV600TMf10a3580}, deviceApiLevel: 30, deviceManufacturer: LGE, deviceModel: LM-V600, deviceName: LMV600TMf10a3580, deviceScreenDensity: 420, deviceScreenSize: 1080x2460, deviceUDID: LMV600TMf10a3580, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 76, takesScreenshot: true, udid: LMV600TMf10a3580, viewportRect: {height: 2182, left: 0, top: 76, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 60d979cb-f8b4-4348-b731-02b2ee3a8178
+*** Element info: {Using=xpath, value=//*[@text='Next']}
+clcik on later
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test10_Bcam_res: 8 resolutions supported
+Switch to video mode
+Click On Settings and set uSD card as storage option
+Select storage location option
+Select SD as storage option
+Click On Settings and set uSD card as storage option
+Select Video Resolution
+Select First Back video resolution: FHD 16:9 1920x1080
+recordingDurationRearExt = 580
+Start video recording
+Stop video recording
+Host going to sleep mode for 2 minutes because phone temperature has increased, Please use it after a while
+Switch to video mode
+Click On Settings option to select rear video resolution
+Select Rear video size
+Select second Back video resolution: 16:9 HD 1280x720
+recordingDurationRear1 = 580
+Start video recording
+Stop video recording
+Host going to sleep mode for 2 minutes because phone temperature has increased, Please use it after a while
+Switch to video mode
+Click On Settings option to select rear video resolution
+Select Rear video size
+Select Third Back video resolution: FullVision FHD 2460x1080
+recordingDurationRear2 = 580
+Start video recording
+Stop video recording
+Host going to sleep mode for 2 minutes because phone temperature has increased, Please use it after a while
+Switch to video mode
+Click On Settings option to select rear video resolution
+Select Rear video size
+Select 4th Back video resolution: FullVision HD 1640x720
+recordingDurationRear3 = 580
+Start video recording
+Stop video recording
+Host going to sleep mode for 2 minutes because phone temperature has increased, Please use it after a while
+Switch to video mode
+Click On Settings option to select rear video resolution
+Select Rear video size
+Select 5th Back video resolution: 16:9 FHD (60fps) 1920x1080
+recordingDurationRear4 = 580
+Start video recording
+Stop video recording
+Host going to sleep mode for 2 minutes because phone temperature has increased, Please use it after a while
+Switch to video mode
+Click On Settings option to select rear video resolution
+Select Rear video size
+Select 6th Back video resolution: 16:9 4K 3840x2160
+recordingDurationRear5 = 580
+Start video recording
+Stop video recording
+Host going to sleep mode for 2 minutes because phone temperature has increased, Please use it after a while
+Switch to video mode
+Click On Settings option to select rear video resolution
+Select Rear video size
+Select 7th Back video resolution: 16:9 4K (60fps) 3840x2160
+recordingDurationRear6 = 580
+Start video recording
+Stop video recording
+Host going to sleep mode for 2 minutes because phone temperature has increased, Please use it after a while
+Switch to video mode
+Click On Settings option to select rear video resolution
+Select Rear video size
+Select 8th Back video resolution: 16:9 8K 7680x4320
+recordingDurationRear7 = 580
+Start video recording
+Stop video recording
+select photo mode
+Pass: Rear camera video recording is successfull
+Launch File Manager Application to verify captured videos
+swipe up and search for sd card
+Select  SD Card
+swipe up and search for dcim
+Select DCIM Folder
+Select Camera Folder
+Select More Options 
+Click On Select All Options
+Test10_Bcam_video: 8 Videos captured successfull
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Calling RecordedVideoPlayback() for Playing Highest record video, fast forward video play back scenario
+Clearing Recent Apps
+Clearing Recent Apps
+Pass: Test0 Pass for clearing Recent apps 
+Launch Camera Application for rear camera video recording
+Select External Storage
+Select DCIM folder
+Select Camera folder
+select more options
+Select Sort BY
+Select Largest first
+Click on first file to play highest recorded resolution video file
+Tap Somewhere on Screen for contents to visible on Screen
+Fast forward video for 10 seconds
+Pause video playback
+Pass: Recorded Video play back and fast forward successfull 
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Calling DataMovementOperation() to move recorded rear camer videos to Test10 Folder 
+Re-launch file manager application and select external storage for data move operation, select all rear camera videos present in camera folder and move to Test10 folder
+Select external storage
+switch to grid view mode and select DCIM folder
+Select DCIM folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Click More options
+select move to option
+select uSD Card
+Select ADD NEW Folder option
+Name folder as Test10
+Accept create folder
+Cut paste  video files operation completed successfully
+Test10: Data move operation completed successfully
+Pass: Test10 Pass for data move operation successfully
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Calling copiedvideosPlayBack() for playing copied video file from Test1 folder
+Clearing Recent Apps
+Pass: Test0 Pass for clearing Recent apps 
+Launch file manager application, select uSD card, select Test1 folder, select Videos folder and Play copied videos and fast forward the same 
+Select external storage
+Select Test1 folder
+Select test_file folder
+Select OneGB folder
+Select video folder
+Select LG_4K_DEMO_HDR_2018_(60FPS)_ELBA(480p).mp4 file for video playback
+Tap Somewhere on Screen for contents to visible on Screen
+Started video playback
+Tap Somewhere on Screen for contents to visible on Screen
+Click fast forward button for 10 seconds video forward
+Pause video playback
+Select FHD 5.1 ( 1350 X 2560 ).webm file for video playback
+Started video playback
+Tap Somewhere on Screen for contents to visible on Screen
+Click fast forward button for 10 seconds video forward
+Click pause button to stop video
+Pass: FHD Video play back and fast forward is successful 
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Final message: Pass Test10 Pass for Playing Copied Video files, recorded video file and fast forward video play back scenario 
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+]]></system-out>
+    <system-err><![CDATA[2023-01-05 20:07:16 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+2023-01-05 20:07:23 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+Pass: 4K Video play back and fast forward is successful 
+]]></system-err>
+  </testcase>
+  <testcase name="frontVideoRec" classname="LG_V60_ThinQ5G_LMV600TM.Test10F" time="4,664.489">
+    <system-out><![CDATA[===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test10F Scenario is as follows
+Launch Camera application and start front camera video recording for all host applicable resolutions in uSD Card
+Playback front Highest recorded video from uSD card for 30 seconds, pause video playback, lock mobile and wait 30 seconds, unlock mobile and playback video from pause video duration
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Clearing Recent Apps
+Pass: Test0 Pass for clearing Recent apps 
+Launch Camera Application for rear camera video recording
+Test10F_Fcam_res: 6 resolutions supported
+Switch to video mode
+Click On Settings option to select frontvideocamera
+Click On Settings and set uSD card as storage option
+Select storage location option
+Select SD as storage option
+Click On Settings option to select frontvideo resolution
+Select Video Resolution
+Select 1st front video resolution: FHD 16:9 1920x1080
+recordingDurationFront = 580
+Start video recording
+Stop video recording
+Host going to sleep mode for 2 minutes because phone temperature has increased, Please use it after a while
+Switch to video mode
+Click On Settings option to select frontvideo resolution
+Select Video Resolution
+Select 2nd front  video resolution: HD FullVision 1600x720
+recordingDurationFront1 = 580
+Start video recording
+Stop video recording
+Host going to sleep mode for 2 minutes because phone temperature has increased, Please use it after a while
+Switch to video mode
+Click On Settings option to select frontvideo resolution
+Select Video Resolution
+Select 3rd front video resolution: HD 16:9 1280x720
+recordingDurationFront2 = 580
+Start video recording
+Stop video recording
+Host going to sleep mode for 2 minutes because phone temperature has increased, Please use it after a while
+Switch to video mode
+Click On Settings option to select frontvideo resolution
+Select Video Resolution
+Select 4th front  video resolution: 16:9 FHD (60fps) 1920x1080
+recordingDurationFront3 = 580
+Start video recording
+Stop video recording
+Host going to sleep mode for 2 minutes because phone temperature has increased, Please use it after a while
+Switch to video mode
+Click On Settings option to select frontvideo resolution
+Select Video Resolution
+Select 5th front video resolution: 16:9 4K 3840x2160
+recordingDurationFront4 = 580
+Start video recording
+Stop video recording
+Host going to sleep mode for 2 minutes because phone temperature has increased, Please use it after a while
+Switch to video mode
+Click On Settings option to select frontvideo resolution
+Select Video Resolution
+Select 6th front video resolution: 16:9 4K (60fps) 3840x2160
+recordingDurationFront5 = 580
+Start video recording
+Stop video recording
+ select back camera
+select photo mode
+Pass: Test10F pass for front camera video recording
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch File Manager Application to verify captured videos
+Select  SD Card
+swipe up and search for dcim
+Select DCIM Folder
+Select Camera Folder
+Select More Options 
+Click On Select All Options
+Test10F_Fcam_video: 6 Videos captured successfull
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Calling VideoPlayBackForSleepWake()
+Clearing Recent Apps
+Pass: Test0 Pass for clearing Recent apps 
+Launch File Manager application and playback front recorded video from USD for 30 seconds, pause video playback, locking phone and unlock after 30 seconds delay and playback video from pause duration.
+Select External Storage
+//Select DCIM Folder
+//Select camera
+select more options
+Select Sort BY
+Select Newest date first
+Click on first file to play highest recorded resolution video file
+Started video playback
+Tap Somewhere on Screen for contents to visible on Screen
+Lock Mobile with 30 seconds delay
+Unlock Mobile
+Pass: Test10F Pass for Front video play back, Pause,Lock and Unlock Phone Play back from Pause duration Scenario
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Calling Data Move Operation
+Re-launch file manager application and select external storage for data move operation, select all rear camera videos present in camera folder and move to Test10 folder
+Select external storage
+switch to grid view mode and select DCIM folder
+Select DCIM folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Click More options
+select move to option
+select uSD Card
+Select ADD NEW Folder option
+Name folder as Test10F
+Accept create folder
+Cut paste  video files operation completed successfully
+Test10F: Data move operation completed successfully
+Pass: Test10F Pass for data move operation successfully
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Final Message: Pass Test10F Pass for Pause Video Playback
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+]]></system-out>
+    <system-err><![CDATA[2023-01-05 21:50:32 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+2023-01-05 21:50:40 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+Wait For 30Seconds
+]]></system-err>
+  </testcase>
+  <testcase name="RearPictureCapture" classname="LG_V60_ThinQ5G_LMV600TM.Test9" time="3,765.939">
+    <system-out><![CDATA[Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test9 Scenario is follows:
+Launch camera application, set USD as a Storage option, start rear camera Image capture for all host resolutions
+Setting up the appium desired capabilities
+Clearing Recent Apps
+Clearing Recent Apps
+Pass: Test9 Pass for clearing Recent apps 
+Launch Camera application for rear Picture capture for all host resolution
+clcik on next
+change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: V60 ThinQ 5G, newCommandTimeout: 600, platformName: android, platformVersion: 11, udid: LMV600TMf10a3580}, deviceApiLevel: 30, deviceManufacturer: LGE, deviceModel: LM-V600, deviceName: LMV600TMf10a3580, deviceScreenDensity: 420, deviceScreenSize: 1080x2460, deviceUDID: LMV600TMf10a3580, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 76, takesScreenshot: true, udid: LMV600TMf10a3580, viewportRect: {height: 2182, left: 0, top: 76, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: dfccd3be-c1bf-4011-ab23-c0925829c18f
+*** Element info: {Using=xpath, value=//*[@text='Next']}
+clcik on later
+change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: V60 ThinQ 5G, newCommandTimeout: 600, platformName: android, platformVersion: 11, udid: LMV600TMf10a3580}, deviceApiLevel: 30, deviceManufacturer: LGE, deviceModel: LM-V600, deviceName: LMV600TMf10a3580, deviceScreenDensity: 420, deviceScreenSize: 1080x2460, deviceUDID: LMV600TMf10a3580, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 76, takesScreenshot: true, udid: LMV600TMf10a3580, viewportRect: {height: 2182, left: 0, top: 76, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: dfccd3be-c1bf-4011-ab23-c0925829c18f
+*** Element info: {Using=xpath, value=//*[@text='Later']}
+Test9_Bcam_res: 9 resolutions supported
+Click On Settings and set uSD card as storage option
+Select storage location option
+Select SD as storage option
+Select Rear Image Size
+Select camera Resolution
+Select first Image Resoution: 4:3 (64MP) 9248x6936
+totalPictureCountRear = 35
+clicking Image of 1st Resolutions 4:3 (64MP) 9248x6936: 0
+clicking Image of 1st Resolutions 4:3 (64MP) 9248x6936: 1
+clicking Image of 1st Resolutions 4:3 (64MP) 9248x6936: 2
+clicking Image of 1st Resolutions 4:3 (64MP) 9248x6936: 3
+clicking Image of 1st Resolutions 4:3 (64MP) 9248x6936: 4
+clicking Image of 1st Resolutions 4:3 (64MP) 9248x6936: 5
+clicking Image of 1st Resolutions 4:3 (64MP) 9248x6936: 6
+clicking Image of 1st Resolutions 4:3 (64MP) 9248x6936: 7
+clicking Image of 1st Resolutions 4:3 (64MP) 9248x6936: 8
+clicking Image of 1st Resolutions 4:3 (64MP) 9248x6936: 9
+clicking Image of 1st Resolutions 4:3 (64MP) 9248x6936: 10
+clicking Image of 1st Resolutions 4:3 (64MP) 9248x6936: 11
+clicking Image of 1st Resolutions 4:3 (64MP) 9248x6936: 12
+clicking Image of 1st Resolutions 4:3 (64MP) 9248x6936: 13
+clicking Image of 1st Resolutions 4:3 (64MP) 9248x6936: 14
+clicking Image of 1st Resolutions 4:3 (64MP) 9248x6936: 15
+clicking Image of 1st Resolutions 4:3 (64MP) 9248x6936: 16
+clicking Image of 1st Resolutions 4:3 (64MP) 9248x6936: 17
+clicking Image of 1st Resolutions 4:3 (64MP) 9248x6936: 18
+clicking Image of 1st Resolutions 4:3 (64MP) 9248x6936: 19
+clicking Image of 1st Resolutions 4:3 (64MP) 9248x6936: 20
+clicking Image of 1st Resolutions 4:3 (64MP) 9248x6936: 21
+clicking Image of 1st Resolutions 4:3 (64MP) 9248x6936: 22
+clicking Image of 1st Resolutions 4:3 (64MP) 9248x6936: 23
+clicking Image of 1st Resolutions 4:3 (64MP) 9248x6936: 24
+clicking Image of 1st Resolutions 4:3 (64MP) 9248x6936: 25
+clicking Image of 1st Resolutions 4:3 (64MP) 9248x6936: 26
+clicking Image of 1st Resolutions 4:3 (64MP) 9248x6936: 27
+clicking Image of 1st Resolutions 4:3 (64MP) 9248x6936: 28
+clicking Image of 1st Resolutions 4:3 (64MP) 9248x6936: 29
+clicking Image of 1st Resolutions 4:3 (64MP) 9248x6936: 30
+clicking Image of 1st Resolutions 4:3 (64MP) 9248x6936: 31
+clicking Image of 1st Resolutions 4:3 (64MP) 9248x6936: 32
+clicking Image of 1st Resolutions 4:3 (64MP) 9248x6936: 33
+clicking Image of 1st Resolutions 4:3 (64MP) 9248x6936: 34
+Back camera first resolution: 35 images Captured succesfull
+Host going to sleep mode for 2 minutes because phone temperature has increased, Please use it after a while
+Select Rear Image Size
+Select camera Resolution
+Select 2nd Image Resoution: 4:3 (16MP) 4624x3468
+totalPictureCountRear1 = 35
+clicking Image of 2nd Resolutions 4:3 (16MP) 4624x3468: 0
+clicking Image of 2nd Resolutions 4:3 (16MP) 4624x3468: 1
+clicking Image of 2nd Resolutions 4:3 (16MP) 4624x3468: 2
+clicking Image of 2nd Resolutions 4:3 (16MP) 4624x3468: 3
+clicking Image of 2nd Resolutions 4:3 (16MP) 4624x3468: 4
+clicking Image of 2nd Resolutions 4:3 (16MP) 4624x3468: 5
+clicking Image of 2nd Resolutions 4:3 (16MP) 4624x3468: 6
+clicking Image of 2nd Resolutions 4:3 (16MP) 4624x3468: 7
+clicking Image of 2nd Resolutions 4:3 (16MP) 4624x3468: 8
+clicking Image of 2nd Resolutions 4:3 (16MP) 4624x3468: 9
+clicking Image of 2nd Resolutions 4:3 (16MP) 4624x3468: 10
+clicking Image of 2nd Resolutions 4:3 (16MP) 4624x3468: 11
+clicking Image of 2nd Resolutions 4:3 (16MP) 4624x3468: 12
+clicking Image of 2nd Resolutions 4:3 (16MP) 4624x3468: 13
+clicking Image of 2nd Resolutions 4:3 (16MP) 4624x3468: 14
+clicking Image of 2nd Resolutions 4:3 (16MP) 4624x3468: 15
+clicking Image of 2nd Resolutions 4:3 (16MP) 4624x3468: 16
+clicking Image of 2nd Resolutions 4:3 (16MP) 4624x3468: 17
+clicking Image of 2nd Resolutions 4:3 (16MP) 4624x3468: 18
+clicking Image of 2nd Resolutions 4:3 (16MP) 4624x3468: 19
+clicking Image of 2nd Resolutions 4:3 (16MP) 4624x3468: 20
+clicking Image of 2nd Resolutions 4:3 (16MP) 4624x3468: 21
+clicking Image of 2nd Resolutions 4:3 (16MP) 4624x3468: 22
+clicking Image of 2nd Resolutions 4:3 (16MP) 4624x3468: 23
+clicking Image of 2nd Resolutions 4:3 (16MP) 4624x3468: 24
+clicking Image of 2nd Resolutions 4:3 (16MP) 4624x3468: 25
+clicking Image of 2nd Resolutions 4:3 (16MP) 4624x3468: 26
+clicking Image of 2nd Resolutions 4:3 (16MP) 4624x3468: 27
+clicking Image of 2nd Resolutions 4:3 (16MP) 4624x3468: 28
+clicking Image of 2nd Resolutions 4:3 (16MP) 4624x3468: 29
+clicking Image of 2nd Resolutions 4:3 (16MP) 4624x3468: 30
+clicking Image of 2nd Resolutions 4:3 (16MP) 4624x3468: 31
+clicking Image of 2nd Resolutions 4:3 (16MP) 4624x3468: 32
+clicking Image of 2nd Resolutions 4:3 (16MP) 4624x3468: 33
+clicking Image of 2nd Resolutions 4:3 (16MP) 4624x3468: 34
+Back camera second resolution: 35 images Captured succesfull
+Host going to sleep mode for 2 minutes because phone temperature has increased, Please use it after a while
+Select Rear Image Size
+Select camera Resolution
+Select 3rd Image Resoution: 4:3 (6.1MP) 2848x2136
+totalPictureCountRear2 = 35
+clicking Image of 3rd Resolutions 4:3 (6.1MP) 2848x2136: 0
+clicking Image of 3rd Resolutions 4:3 (6.1MP) 2848x2136: 1
+clicking Image of 3rd Resolutions 4:3 (6.1MP) 2848x2136: 2
+clicking Image of 3rd Resolutions 4:3 (6.1MP) 2848x2136: 3
+clicking Image of 3rd Resolutions 4:3 (6.1MP) 2848x2136: 4
+clicking Image of 3rd Resolutions 4:3 (6.1MP) 2848x2136: 5
+clicking Image of 3rd Resolutions 4:3 (6.1MP) 2848x2136: 6
+clicking Image of 3rd Resolutions 4:3 (6.1MP) 2848x2136: 7
+clicking Image of 3rd Resolutions 4:3 (6.1MP) 2848x2136: 8
+clicking Image of 3rd Resolutions 4:3 (6.1MP) 2848x2136: 9
+clicking Image of 3rd Resolutions 4:3 (6.1MP) 2848x2136: 10
+clicking Image of 3rd Resolutions 4:3 (6.1MP) 2848x2136: 11
+clicking Image of 3rd Resolutions 4:3 (6.1MP) 2848x2136: 12
+clicking Image of 3rd Resolutions 4:3 (6.1MP) 2848x2136: 13
+clicking Image of 3rd Resolutions 4:3 (6.1MP) 2848x2136: 14
+clicking Image of 3rd Resolutions 4:3 (6.1MP) 2848x2136: 15
+clicking Image of 3rd Resolutions 4:3 (6.1MP) 2848x2136: 16
+clicking Image of 3rd Resolutions 4:3 (6.1MP) 2848x2136: 17
+clicking Image of 3rd Resolutions 4:3 (6.1MP) 2848x2136: 18
+clicking Image of 3rd Resolutions 4:3 (6.1MP) 2848x2136: 19
+clicking Image of 3rd Resolutions 4:3 (6.1MP) 2848x2136: 20
+clicking Image of 3rd Resolutions 4:3 (6.1MP) 2848x2136: 21
+clicking Image of 3rd Resolutions 4:3 (6.1MP) 2848x2136: 22
+clicking Image of 3rd Resolutions 4:3 (6.1MP) 2848x2136: 23
+clicking Image of 3rd Resolutions 4:3 (6.1MP) 2848x2136: 24
+clicking Image of 3rd Resolutions 4:3 (6.1MP) 2848x2136: 25
+clicking Image of 3rd Resolutions 4:3 (6.1MP) 2848x2136: 26
+clicking Image of 3rd Resolutions 4:3 (6.1MP) 2848x2136: 27
+clicking Image of 3rd Resolutions 4:3 (6.1MP) 2848x2136: 28
+clicking Image of 3rd Resolutions 4:3 (6.1MP) 2848x2136: 29
+clicking Image of 3rd Resolutions 4:3 (6.1MP) 2848x2136: 30
+clicking Image of 3rd Resolutions 4:3 (6.1MP) 2848x2136: 31
+clicking Image of 3rd Resolutions 4:3 (6.1MP) 2848x2136: 32
+clicking Image of 3rd Resolutions 4:3 (6.1MP) 2848x2136: 33
+clicking Image of 3rd Resolutions 4:3 (6.1MP) 2848x2136: 34
+Back camera third resolution: 35 images Captured succesfull
+Host going to sleep mode for 2 minutes because phone temperature has increased, Please use it after a while
+Select Rear Image Size
+Select camera Resolution
+Select 4th Image Resoution: 16:9 (12 MP) 4624x2600
+totalPictureCountRear3 = 35
+clicking Image of 4th Resolutions 16:9 (12 MP) 4624x2600: 0
+clicking Image of 4th Resolutions 16:9 (12 MP) 4624x2600: 1
+clicking Image of 4th Resolutions 16:9 (12 MP) 4624x2600: 2
+clicking Image of 4th Resolutions 16:9 (12 MP) 4624x2600: 3
+clicking Image of 4th Resolutions 16:9 (12 MP) 4624x2600: 4
+clicking Image of 4th Resolutions 16:9 (12 MP) 4624x2600: 5
+clicking Image of 4th Resolutions 16:9 (12 MP) 4624x2600: 6
+clicking Image of 4th Resolutions 16:9 (12 MP) 4624x2600: 7
+clicking Image of 4th Resolutions 16:9 (12 MP) 4624x2600: 8
+clicking Image of 4th Resolutions 16:9 (12 MP) 4624x2600: 9
+clicking Image of 4th Resolutions 16:9 (12 MP) 4624x2600: 10
+clicking Image of 4th Resolutions 16:9 (12 MP) 4624x2600: 11
+clicking Image of 4th Resolutions 16:9 (12 MP) 4624x2600: 12
+clicking Image of 4th Resolutions 16:9 (12 MP) 4624x2600: 13
+clicking Image of 4th Resolutions 16:9 (12 MP) 4624x2600: 14
+clicking Image of 4th Resolutions 16:9 (12 MP) 4624x2600: 15
+clicking Image of 4th Resolutions 16:9 (12 MP) 4624x2600: 16
+clicking Image of 4th Resolutions 16:9 (12 MP) 4624x2600: 17
+clicking Image of 4th Resolutions 16:9 (12 MP) 4624x2600: 18
+clicking Image of 4th Resolutions 16:9 (12 MP) 4624x2600: 19
+clicking Image of 4th Resolutions 16:9 (12 MP) 4624x2600: 20
+clicking Image of 4th Resolutions 16:9 (12 MP) 4624x2600: 21
+clicking Image of 4th Resolutions 16:9 (12 MP) 4624x2600: 22
+clicking Image of 4th Resolutions 16:9 (12 MP) 4624x2600: 23
+clicking Image of 4th Resolutions 16:9 (12 MP) 4624x2600: 24
+clicking Image of 4th Resolutions 16:9 (12 MP) 4624x2600: 25
+clicking Image of 4th Resolutions 16:9 (12 MP) 4624x2600: 26
+clicking Image of 4th Resolutions 16:9 (12 MP) 4624x2600: 27
+clicking Image of 4th Resolutions 16:9 (12 MP) 4624x2600: 28
+clicking Image of 4th Resolutions 16:9 (12 MP) 4624x2600: 29
+clicking Image of 4th Resolutions 16:9 (12 MP) 4624x2600: 30
+clicking Image of 4th Resolutions 16:9 (12 MP) 4624x2600: 31
+clicking Image of 4th Resolutions 16:9 (12 MP) 4624x2600: 32
+clicking Image of 4th Resolutions 16:9 (12 MP) 4624x2600: 33
+clicking Image of 4th Resolutions 16:9 (12 MP) 4624x2600: 34
+Back camera fourth resolution: 35 images Captured succesfull
+Host going to sleep mode for 2 minutes because phone temperature has increased, Please use it after a while
+Select Rear Image Size
+Select camera Resolution
+Select 5th Image Resoution: 1:1 (12 MP) 3468x3468
+totalPictureCountRear4 = 35
+clicking Image of 5th Resolutions 1:1 (12 MP) 3468x3468: 0
+clicking Image of 5th Resolutions 1:1 (12 MP) 3468x3468: 1
+clicking Image of 5th Resolutions 1:1 (12 MP) 3468x3468: 2
+clicking Image of 5th Resolutions 1:1 (12 MP) 3468x3468: 3
+clicking Image of 5th Resolutions 1:1 (12 MP) 3468x3468: 4
+clicking Image of 5th Resolutions 1:1 (12 MP) 3468x3468: 5
+clicking Image of 5th Resolutions 1:1 (12 MP) 3468x3468: 6
+clicking Image of 5th Resolutions 1:1 (12 MP) 3468x3468: 7
+clicking Image of 5th Resolutions 1:1 (12 MP) 3468x3468: 8
+clicking Image of 5th Resolutions 1:1 (12 MP) 3468x3468: 9
+clicking Image of 5th Resolutions 1:1 (12 MP) 3468x3468: 10
+clicking Image of 5th Resolutions 1:1 (12 MP) 3468x3468: 11
+clicking Image of 5th Resolutions 1:1 (12 MP) 3468x3468: 12
+clicking Image of 5th Resolutions 1:1 (12 MP) 3468x3468: 13
+clicking Image of 5th Resolutions 1:1 (12 MP) 3468x3468: 14
+clicking Image of 5th Resolutions 1:1 (12 MP) 3468x3468: 15
+clicking Image of 5th Resolutions 1:1 (12 MP) 3468x3468: 16
+clicking Image of 5th Resolutions 1:1 (12 MP) 3468x3468: 17
+clicking Image of 5th Resolutions 1:1 (12 MP) 3468x3468: 18
+clicking Image of 5th Resolutions 1:1 (12 MP) 3468x3468: 19
+clicking Image of 5th Resolutions 1:1 (12 MP) 3468x3468: 20
+clicking Image of 5th Resolutions 1:1 (12 MP) 3468x3468: 21
+clicking Image of 5th Resolutions 1:1 (12 MP) 3468x3468: 22
+clicking Image of 5th Resolutions 1:1 (12 MP) 3468x3468: 23
+clicking Image of 5th Resolutions 1:1 (12 MP) 3468x3468: 24
+clicking Image of 5th Resolutions 1:1 (12 MP) 3468x3468: 25
+clicking Image of 5th Resolutions 1:1 (12 MP) 3468x3468: 26
+clicking Image of 5th Resolutions 1:1 (12 MP) 3468x3468: 27
+clicking Image of 5th Resolutions 1:1 (12 MP) 3468x3468: 28
+clicking Image of 5th Resolutions 1:1 (12 MP) 3468x3468: 29
+clicking Image of 5th Resolutions 1:1 (12 MP) 3468x3468: 30
+clicking Image of 5th Resolutions 1:1 (12 MP) 3468x3468: 31
+clicking Image of 5th Resolutions 1:1 (12 MP) 3468x3468: 32
+clicking Image of 5th Resolutions 1:1 (12 MP) 3468x3468: 33
+clicking Image of 5th Resolutions 1:1 (12 MP) 3468x3468: 34
+Back camera 5th resolution: 35 images Captured succesfull
+Host going to sleep mode for 2 minutes because phone temperature has increased, Please use it after a while
+Select Rear Image Size
+Select camera Resolution
+Select 6th Image Resoution: 16:9 (4Point6 MP) 2848x1602
+totalPictureCountRear5 = 35
+clicking Image of 6th Resolutions 16:9 (4Point6 MP) 2848x1602: 0
+clicking Image of 6th Resolutions 16:9 (4Point6 MP) 2848x1602: 1
+clicking Image of 6th Resolutions 16:9 (4Point6 MP) 2848x1602: 2
+clicking Image of 6th Resolutions 16:9 (4Point6 MP) 2848x1602: 3
+clicking Image of 6th Resolutions 16:9 (4Point6 MP) 2848x1602: 4
+clicking Image of 6th Resolutions 16:9 (4Point6 MP) 2848x1602: 5
+clicking Image of 6th Resolutions 16:9 (4Point6 MP) 2848x1602: 6
+clicking Image of 6th Resolutions 16:9 (4Point6 MP) 2848x1602: 7
+clicking Image of 6th Resolutions 16:9 (4Point6 MP) 2848x1602: 8
+clicking Image of 6th Resolutions 16:9 (4Point6 MP) 2848x1602: 9
+clicking Image of 6th Resolutions 16:9 (4Point6 MP) 2848x1602: 10
+clicking Image of 6th Resolutions 16:9 (4Point6 MP) 2848x1602: 11
+clicking Image of 6th Resolutions 16:9 (4Point6 MP) 2848x1602: 12
+clicking Image of 6th Resolutions 16:9 (4Point6 MP) 2848x1602: 13
+clicking Image of 6th Resolutions 16:9 (4Point6 MP) 2848x1602: 14
+clicking Image of 6th Resolutions 16:9 (4Point6 MP) 2848x1602: 15
+clicking Image of 6th Resolutions 16:9 (4Point6 MP) 2848x1602: 16
+clicking Image of 6th Resolutions 16:9 (4Point6 MP) 2848x1602: 17
+clicking Image of 6th Resolutions 16:9 (4Point6 MP) 2848x1602: 18
+clicking Image of 6th Resolutions 16:9 (4Point6 MP) 2848x1602: 19
+clicking Image of 6th Resolutions 16:9 (4Point6 MP) 2848x1602: 20
+clicking Image of 6th Resolutions 16:9 (4Point6 MP) 2848x1602: 21
+clicking Image of 6th Resolutions 16:9 (4Point6 MP) 2848x1602: 22
+clicking Image of 6th Resolutions 16:9 (4Point6 MP) 2848x1602: 23
+clicking Image of 6th Resolutions 16:9 (4Point6 MP) 2848x1602: 24
+clicking Image of 6th Resolutions 16:9 (4Point6 MP) 2848x1602: 25
+clicking Image of 6th Resolutions 16:9 (4Point6 MP) 2848x1602: 26
+clicking Image of 6th Resolutions 16:9 (4Point6 MP) 2848x1602: 27
+clicking Image of 6th Resolutions 16:9 (4Point6 MP) 2848x1602: 28
+clicking Image of 6th Resolutions 16:9 (4Point6 MP) 2848x1602: 29
+clicking Image of 6th Resolutions 16:9 (4Point6 MP) 2848x1602: 30
+clicking Image of 6th Resolutions 16:9 (4Point6 MP) 2848x1602: 31
+clicking Image of 6th Resolutions 16:9 (4Point6 MP) 2848x1602: 32
+clicking Image of 6th Resolutions 16:9 (4Point6 MP) 2848x1602: 33
+clicking Image of 6th Resolutions 16:9 (4Point6 MP) 2848x1602: 34
+Back camera 6th resolution: 35 images Captured succesfull
+Host going to sleep mode for 2 minutes because phone temperature has increased, Please use it after a while
+Select Rear Image Size
+Select camera Resolution
+Select 7th Image Resoution: 1:1 (3.4MP) 1836x1836
+totalPictureCountRear6 = 30
+clicking Image of 7th Resolutions 1:1 (3.4MP) 1836x1836: 0
+clicking Image of 7th Resolutions 1:1 (3.4MP) 1836x1836: 1
+clicking Image of 7th Resolutions 1:1 (3.4MP) 1836x1836: 2
+clicking Image of 7th Resolutions 1:1 (3.4MP) 1836x1836: 3
+clicking Image of 7th Resolutions 1:1 (3.4MP) 1836x1836: 4
+clicking Image of 7th Resolutions 1:1 (3.4MP) 1836x1836: 5
+clicking Image of 7th Resolutions 1:1 (3.4MP) 1836x1836: 6
+clicking Image of 7th Resolutions 1:1 (3.4MP) 1836x1836: 7
+clicking Image of 7th Resolutions 1:1 (3.4MP) 1836x1836: 8
+clicking Image of 7th Resolutions 1:1 (3.4MP) 1836x1836: 9
+clicking Image of 7th Resolutions 1:1 (3.4MP) 1836x1836: 10
+clicking Image of 7th Resolutions 1:1 (3.4MP) 1836x1836: 11
+clicking Image of 7th Resolutions 1:1 (3.4MP) 1836x1836: 12
+clicking Image of 7th Resolutions 1:1 (3.4MP) 1836x1836: 13
+clicking Image of 7th Resolutions 1:1 (3.4MP) 1836x1836: 14
+clicking Image of 7th Resolutions 1:1 (3.4MP) 1836x1836: 15
+clicking Image of 7th Resolutions 1:1 (3.4MP) 1836x1836: 16
+clicking Image of 7th Resolutions 1:1 (3.4MP) 1836x1836: 17
+clicking Image of 7th Resolutions 1:1 (3.4MP) 1836x1836: 18
+clicking Image of 7th Resolutions 1:1 (3.4MP) 1836x1836: 19
+clicking Image of 7th Resolutions 1:1 (3.4MP) 1836x1836: 20
+clicking Image of 7th Resolutions 1:1 (3.4MP) 1836x1836: 21
+clicking Image of 7th Resolutions 1:1 (3.4MP) 1836x1836: 22
+clicking Image of 7th Resolutions 1:1 (3.4MP) 1836x1836: 23
+clicking Image of 7th Resolutions 1:1 (3.4MP) 1836x1836: 24
+clicking Image of 7th Resolutions 1:1 (3.4MP) 1836x1836: 25
+clicking Image of 7th Resolutions 1:1 (3.4MP) 1836x1836: 26
+clicking Image of 7th Resolutions 1:1 (3.4MP) 1836x1836: 27
+clicking Image of 7th Resolutions 1:1 (3.4MP) 1836x1836: 28
+clicking Image of 7th Resolutions 1:1 (3.4MP) 1836x1836: 29
+clicking Image of 7th Resolutions 1:1 (3.4MP) 1836x1836: 30
+clicking Image of 7th Resolutions 1:1 (3.4MP) 1836x1836: 31
+clicking Image of 7th Resolutions 1:1 (3.4MP) 1836x1836: 32
+clicking Image of 7th Resolutions 1:1 (3.4MP) 1836x1836: 33
+clicking Image of 7th Resolutions 1:1 (3.4MP) 1836x1836: 34
+Back camera 7th resolution: 35 images Captured succesfull
+Host going to sleep mode for 2 minutes because phone temperature has increased, Please use it after a while
+Select Rear Image Size
+Select camera Resolution
+Select 8th Image Resoution: FullVision (9.4MP) 4624x2032
+totalPictureCountRear7 = 30
+clicking Image of 8th Resolutions FullVision (9.4MP) 4624x2032: 0
+clicking Image of 8th Resolutions FullVision (9.4MP) 4624x2032: 1
+clicking Image of 8th Resolutions FullVision (9.4MP) 4624x2032: 2
+clicking Image of 8th Resolutions FullVision (9.4MP) 4624x2032: 3
+clicking Image of 8th Resolutions FullVision (9.4MP) 4624x2032: 4
+clicking Image of 8th Resolutions FullVision (9.4MP) 4624x2032: 5
+clicking Image of 8th Resolutions FullVision (9.4MP) 4624x2032: 6
+clicking Image of 8th Resolutions FullVision (9.4MP) 4624x2032: 7
+clicking Image of 8th Resolutions FullVision (9.4MP) 4624x2032: 8
+clicking Image of 8th Resolutions FullVision (9.4MP) 4624x2032: 9
+clicking Image of 8th Resolutions FullVision (9.4MP) 4624x2032: 10
+clicking Image of 8th Resolutions FullVision (9.4MP) 4624x2032: 11
+clicking Image of 8th Resolutions FullVision (9.4MP) 4624x2032: 12
+clicking Image of 8th Resolutions FullVision (9.4MP) 4624x2032: 13
+clicking Image of 8th Resolutions FullVision (9.4MP) 4624x2032: 14
+clicking Image of 8th Resolutions FullVision (9.4MP) 4624x2032: 15
+clicking Image of 8th Resolutions FullVision (9.4MP) 4624x2032: 16
+clicking Image of 8th Resolutions FullVision (9.4MP) 4624x2032: 17
+clicking Image of 8th Resolutions FullVision (9.4MP) 4624x2032: 18
+clicking Image of 8th Resolutions FullVision (9.4MP) 4624x2032: 19
+clicking Image of 8th Resolutions FullVision (9.4MP) 4624x2032: 20
+clicking Image of 8th Resolutions FullVision (9.4MP) 4624x2032: 21
+clicking Image of 8th Resolutions FullVision (9.4MP) 4624x2032: 22
+clicking Image of 8th Resolutions FullVision (9.4MP) 4624x2032: 23
+clicking Image of 8th Resolutions FullVision (9.4MP) 4624x2032: 24
+clicking Image of 8th Resolutions FullVision (9.4MP) 4624x2032: 25
+clicking Image of 8th Resolutions FullVision (9.4MP) 4624x2032: 26
+clicking Image of 8th Resolutions FullVision (9.4MP) 4624x2032: 27
+clicking Image of 8th Resolutions FullVision (9.4MP) 4624x2032: 28
+clicking Image of 8th Resolutions FullVision (9.4MP) 4624x2032: 29
+clicking Image of 8th Resolutions FullVision (9.4MP) 4624x2032: 30
+clicking Image of 8th Resolutions FullVision (9.4MP) 4624x2032: 31
+clicking Image of 8th Resolutions FullVision (9.4MP) 4624x2032: 32
+clicking Image of 8th Resolutions FullVision (9.4MP) 4624x2032: 33
+clicking Image of 8th Resolutions FullVision (9.4MP) 4624x2032: 34
+Back camera 8th resolution: 35 images Captured succesfull
+Host going to sleep mode for 2 minutes because phone temperature has increased, Please use it after a while
+Select Rear Image Size
+Select camera Resolution
+Select 9th Image Resoution: FullVision (3.6MP) 2848x1252
+totalPictureCountRear8 = 30
+clicking Image of 8th Resolutions FullVision (3.6MP) 2848x1252: 0
+clicking Image of 8th Resolutions FullVision (3.6MP) 2848x1252: 1
+clicking Image of 8th Resolutions FullVision (3.6MP) 2848x1252: 2
+clicking Image of 8th Resolutions FullVision (3.6MP) 2848x1252: 3
+clicking Image of 8th Resolutions FullVision (3.6MP) 2848x1252: 4
+clicking Image of 8th Resolutions FullVision (3.6MP) 2848x1252: 5
+clicking Image of 8th Resolutions FullVision (3.6MP) 2848x1252: 6
+clicking Image of 8th Resolutions FullVision (3.6MP) 2848x1252: 7
+clicking Image of 8th Resolutions FullVision (3.6MP) 2848x1252: 8
+clicking Image of 8th Resolutions FullVision (3.6MP) 2848x1252: 9
+clicking Image of 8th Resolutions FullVision (3.6MP) 2848x1252: 10
+clicking Image of 8th Resolutions FullVision (3.6MP) 2848x1252: 11
+clicking Image of 8th Resolutions FullVision (3.6MP) 2848x1252: 12
+clicking Image of 8th Resolutions FullVision (3.6MP) 2848x1252: 13
+clicking Image of 8th Resolutions FullVision (3.6MP) 2848x1252: 14
+clicking Image of 8th Resolutions FullVision (3.6MP) 2848x1252: 15
+clicking Image of 8th Resolutions FullVision (3.6MP) 2848x1252: 16
+clicking Image of 8th Resolutions FullVision (3.6MP) 2848x1252: 17
+clicking Image of 8th Resolutions FullVision (3.6MP) 2848x1252: 18
+clicking Image of 8th Resolutions FullVision (3.6MP) 2848x1252: 19
+clicking Image of 8th Resolutions FullVision (3.6MP) 2848x1252: 20
+clicking Image of 8th Resolutions FullVision (3.6MP) 2848x1252: 21
+clicking Image of 8th Resolutions FullVision (3.6MP) 2848x1252: 22
+clicking Image of 8th Resolutions FullVision (3.6MP) 2848x1252: 23
+clicking Image of 8th Resolutions FullVision (3.6MP) 2848x1252: 24
+clicking Image of 8th Resolutions FullVision (3.6MP) 2848x1252: 25
+clicking Image of 8th Resolutions FullVision (3.6MP) 2848x1252: 26
+clicking Image of 8th Resolutions FullVision (3.6MP) 2848x1252: 27
+clicking Image of 8th Resolutions FullVision (3.6MP) 2848x1252: 28
+clicking Image of 8th Resolutions FullVision (3.6MP) 2848x1252: 29
+Back camera 9th resolution: 30 images Captured succesfull
+Total Count value: 310 images to be Captured 
+Launch file manager application and verify recorded video present in uSD Card
+Swipe up to select uSD card
+Select SD card
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Total Image
+Test9_Bcam_image: 310 selected images Captured succesfull
+Actual Value:310 selected
+Interger value:310
+Tolerance_Level = 75
+
+Pass: Test9 pass for rear Image capture
+Test9 Bcam_image: 310  images Captured succesfull
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+calling DataMoveOperation()
+Re-launch file manager application and select external storage for data move operation, select all rear camera images files present in camera folder and move to Test9 folder
+Select external storage
+switch to grid view mode and select DCIM folder
+Select DCIM folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Click More options
+select move to option
+select uSD Card
+Select ADD NEW Folder option
+Name folder as Test9
+Accept create folder
+Cut paste  video files operation completed successfully
+Test9: Data move operation completed successfully
+Pass: Test9 Pass for data move operation successfully
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Final message: Pass Test9 Pass for Rear camera image capture  successfully
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+]]></system-out>
+    <system-err><![CDATA[2023-01-05 23:08:25 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+2023-01-05 23:08:37 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: V60 ThinQ 5G, newCommandTimeout: 600, platformName: android, platformVersion: 11, udid: LMV600TMf10a3580}, deviceApiLevel: 30, deviceManufacturer: LGE, deviceModel: LM-V600, deviceName: LMV600TMf10a3580, deviceScreenDensity: 420, deviceScreenSize: 1080x2460, deviceUDID: LMV600TMf10a3580, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 76, takesScreenshot: true, udid: LMV600TMf10a3580, viewportRect: {height: 2182, left: 0, top: 76, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: dfccd3be-c1bf-4011-ab23-c0925829c18f
+*** Element info: {Using=xpath, value=//*[@resource-id='com.google.android.apps.nbu.files:id/agree_button']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at LG_V60_ThinQ5G_LMV600TM.Test9.RearPictureCapture(Test9.java:609)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:673)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:842)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1166)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1178)
+	at org.testng.TestRunner.privateRun(TestRunner.java:757)
+	at org.testng.TestRunner.run(TestRunner.java:608)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1158)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1154)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1083)
+	at org.testng.TestNG.run(TestNG.java:999)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]></system-err>
+  </testcase>
+  <testcase name="FrontPictureCapture" classname="LG_V60_ThinQ5G_LMV600TM.Test9F" time="2,938.688">
+    <system-out><![CDATA[Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test9F Scenario is as follows:
+Launch camera application, set uSD as a Storage option, start Front camera image picture capture for all Host front resolutions
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Clearing Recent Apps
+Clearing Recent Apps
+Pass: Test9 Pass for clearing Recent apps 
+Launch Camera Application for Front camera picture Capture for all Host resolutions
+clcik on next
+change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: V60 ThinQ 5G, newCommandTimeout: 600, platformName: android, platformVersion: 11, udid: LMV600TMf10a3580}, deviceApiLevel: 30, deviceManufacturer: LGE, deviceModel: LM-V600, deviceName: LMV600TMf10a3580, deviceScreenDensity: 420, deviceScreenSize: 1080x2460, deviceUDID: LMV600TMf10a3580, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 76, takesScreenshot: true, udid: LMV600TMf10a3580, viewportRect: {height: 2182, left: 0, top: 76, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 3599c6b2-b474-450f-8e84-293f61030a5c
+*** Element info: {Using=xpath, value=//*[@text='Next']}
+clcik on later
+change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: V60 ThinQ 5G, newCommandTimeout: 600, platformName: android, platformVersion: 11, udid: LMV600TMf10a3580}, deviceApiLevel: 30, deviceManufacturer: LGE, deviceModel: LM-V600, deviceName: LMV600TMf10a3580, deviceScreenDensity: 420, deviceScreenSize: 1080x2460, deviceUDID: LMV600TMf10a3580, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 76, takesScreenshot: true, udid: LMV600TMf10a3580, viewportRect: {height: 2182, left: 0, top: 76, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 3599c6b2-b474-450f-8e84-293f61030a5c
+*** Element info: {Using=xpath, value=//*[@text='Later']}
+Test9F_Fcam_res: 4 resolutions supported
+Click On option to select front camera
+Click On Settings and set uSD card as storage option
+Select storage location option
+Select SD as storage option
+Select Rear Image Size
+Select camera Resolution
+Select first Image Resoution: FullVision (5.8MP) 3648x1600
+totalPictureCountFront = 75
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 0
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 1
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 2
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 3
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 4
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 5
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 6
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 7
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 8
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 9
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 10
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 11
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 12
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 13
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 14
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 15
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 16
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 17
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 18
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 19
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 20
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 21
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 22
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 23
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 24
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 25
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 26
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 27
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 28
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 29
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 30
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 31
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 32
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 33
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 34
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 35
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 36
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 37
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 38
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 39
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 40
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 41
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 42
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 43
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 44
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 45
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 46
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 47
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 48
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 49
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 50
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 51
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 52
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 53
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 54
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 55
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 56
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 57
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 58
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 59
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 60
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 61
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 62
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 63
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 64
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 65
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 66
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 67
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 68
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 69
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 70
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 71
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 72
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 73
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 74
+front camera first resolution: 75 images Captured succesfull
+Host going to sleep mode for 2 minutes because phone temperature has increased, Please use it after a while
+Select Rear Image Size
+Select camera Resolution
+Select 2nd Image Resoution: 4:3 (10Point0 MP) 3648x2736
+totalPictureCountFront1 = 75
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 0
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 1
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 2
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 3
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 4
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 5
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 6
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 7
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 8
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 9
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 10
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 11
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 12
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 13
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 14
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 15
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 16
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 17
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 18
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 19
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 20
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 21
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 22
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 23
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 24
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 25
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 26
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 27
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 28
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 29
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 30
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 31
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 32
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 33
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 34
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 35
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 36
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 37
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 38
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 39
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 40
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 41
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 42
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 43
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 44
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 45
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 46
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 47
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 48
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 49
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 50
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 51
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 52
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 53
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 54
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 55
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 56
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 57
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 58
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 59
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 60
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 61
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 62
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 63
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 64
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 65
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 66
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 67
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 68
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 69
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 70
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 71
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 72
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 73
+clicking Image of 2nd Resolutions 4:3 (10Point0 MP) 3648x2736: 74
+front camera second resolution: 75 images Captured succesfull
+Host going to sleep mode for 2 minutes because phone temperature has increased, Please use it after a while
+Select Rear Image Size
+Select camera Resolution
+Select 3rd Image Resoution: 16:9 (7Point5 MP) 3648x2052
+totalPictureCountFront2 = 75
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 0
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 1
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 2
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 3
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 4
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 5
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 6
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 7
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 8
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 9
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 10
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 11
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 12
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 13
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 14
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 15
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 16
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 17
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 18
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 19
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 20
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 21
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 22
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 23
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 24
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 25
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 26
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 27
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 28
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 29
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 30
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 31
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 32
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 33
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 34
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 35
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 36
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 37
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 38
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 39
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 40
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 41
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 42
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 43
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 44
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 45
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 46
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 47
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 48
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 49
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 50
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 51
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 52
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 53
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 54
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 55
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 56
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 57
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 58
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 59
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 60
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 61
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 62
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 63
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 64
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 65
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 66
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 67
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 68
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 69
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 70
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 71
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 72
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 73
+clicking Image of 3rd Resolutions 16:9 (7Point5 MP) 3648x2052: 74
+front camera 3rd resolution: 75 images Captured succesfull
+Host going to sleep mode for 2 minutes because phone temperature has increased, Please use it after a while
+Select Rear Image Size
+Select camera Resolution
+Select 4th Image Resoution: 1:1 (7.5MP) 2736x2736
+totalPictureCountFront3 = 75
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 0
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 1
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 2
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 3
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 4
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 5
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 6
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 7
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 8
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 9
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 10
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 11
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 12
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 13
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 14
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 15
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 16
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 17
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 18
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 19
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 20
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 21
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 22
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 23
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 24
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 25
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 26
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 27
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 28
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 29
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 30
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 31
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 32
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 33
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 34
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 35
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 36
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 37
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 38
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 39
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 40
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 41
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 42
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 43
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 44
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 45
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 46
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 47
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 48
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 49
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 50
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 51
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 52
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 53
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 54
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 55
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 56
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 57
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 58
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 59
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 60
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 61
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 62
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 63
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 64
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 65
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 66
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 67
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 68
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 69
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 70
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 71
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 72
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 73
+clicking Image of 4th Resolutions 1:1 (7.5MP) 2736x2736: 74
+front camera second resolution: 75 images Captured succesfull
+Total Count value:300 images to be Captured 
+Select back camera
+Launch file manager application and verify captured images present in uSD Card
+Swipe up to select uSD card
+Select SD card
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Total Image
+Test9F_Fcam_image: 300 selected images Captured succesfull
+Actual Value:300 selected
+Interger value:300
+Tolerance_Level = 75
+
+Pass: Test9F pass for rear Image capture
+Test9F Fcam_image: 300  images Captured succesfull
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+calling DataMoveOperation()
+Re-launch file manager application and select external storage for data move operation, select all front camera images files present in camera folder and move to Test9F folder
+Select external storage
+switch to grid view mode and select DCIM folder
+Select DCIM folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Click More options
+select move to option
+select uSD Card
+Select ADD NEW Folder option
+Name folder as Test9F
+Accept create folder
+Cut paste  video files operation completed successfully
+Test9F: Data move operation completed successfully
+Pass: Test9F Pass for data move operation successfully
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Final message: Pass Test9F Pass for Front camera image capture  successfully
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+]]></system-out>
+    <system-err><![CDATA[2023-01-06 00:11:19 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+2023-01-06 00:11:32 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: V60 ThinQ 5G, newCommandTimeout: 600, platformName: android, platformVersion: 11, udid: LMV600TMf10a3580}, deviceApiLevel: 30, deviceManufacturer: LGE, deviceModel: LM-V600, deviceName: LMV600TMf10a3580, deviceScreenDensity: 420, deviceScreenSize: 1080x2460, deviceUDID: LMV600TMf10a3580, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 76, takesScreenshot: true, udid: LMV600TMf10a3580, viewportRect: {height: 2182, left: 0, top: 76, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 3599c6b2-b474-450f-8e84-293f61030a5c
+*** Element info: {Using=xpath, value=//*[@resource-id='com.google.android.apps.nbu.files:id/agree_button']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at LG_V60_ThinQ5G_LMV600TM.Test9F.FrontPictureCapture(Test9F.java:405)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:673)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:842)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1166)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1178)
+	at org.testng.TestRunner.privateRun(TestRunner.java:757)
+	at org.testng.TestRunner.run(TestRunner.java:608)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1158)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1154)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1083)
+	at org.testng.TestNG.run(TestNG.java:999)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]></system-err>
+  </testcase>
+</testsuite>

@@ -1,0 +1,100 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -------< Com.Xiaomi_RedmiNoteProMax.test:Xiaomi_RedmiNoteProMax >-------
+[INFO] Building Xiaomi_RedmiNoteProMax 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ Xiaomi_RedmiNoteProMax ---
+[INFO] Deleting C:\Users\7336135\Android11\eclipse-workspace\Xiaomi_RedmiNoteProMax\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Xiaomi_RedmiNoteProMax ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ Xiaomi_RedmiNoteProMax ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ Xiaomi_RedmiNoteProMax ---
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ Xiaomi_RedmiNoteProMax ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 5 source files to C:\Users\7336135\Android11\eclipse-workspace\Xiaomi_RedmiNoteProMax\target\test-classes
+[WARNING] /C:/Users/7336135/Android11/eclipse-workspace/Xiaomi_RedmiNoteProMax/src/test/java/Xiaomi_RedmiNoteProMax/Test18.java: Some input files use or override a deprecated API.
+[WARNING] /C:/Users/7336135/Android11/eclipse-workspace/Xiaomi_RedmiNoteProMax/src/test/java/Xiaomi_RedmiNoteProMax/Test18.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ Xiaomi_RedmiNoteProMax ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running TestSuite
+Test10F Scenario is as follows
+Launch Camera application and start front camera video recording for all host applicable resolutions in USD Card
+Playback front Highest recorded video for 30 seconds, pause video playback, lock mobile and wait 30 seconds, unlock mobile and playback video from pause video duration
+Setting up the appium desired capabilities
+Launch  Home screen
+Launch appium permission access pop-up
+No permission access pop-up found
+Launching settings application and set external storage as storage option for video recording.
+Select About phone
+Select storage option
+Select storage settings
+Select camera option
+Select storage as external storage
+Launch Camera application for front camera video recording
+Switch to video tab
+Switch to front video camera mode
+Select settings option to select resolution
+Select first video resolution 4K fps
+recordingDurationfront = 300
+Start video recording for specified duration time
+Stop video recording
+click setting option to select second highest video resolution
+Select second video resolution FHD 1080fps
+recordingDurationfront1 = 240
+Start Recording second resolution video time
+Stop recording second resolution video 
+Stop video recording
+Pass: Test10F pass for front video recording
+Launch File Manager application and playback front recorded video from USD for 30 seconds, pause video playback, locking phone and unlock after 30 seconds delay and playback video from pause duration.
+Select Storage button
+Select Storage button
+Select External storage
+Click on DCIM Folder
+Click On Camera Folder
+Select More options
+Clik More options
+Select Sort BY
+Select Largest option
+Launching file manager application
+Click on first file to play highest recorded resolution video file
+Started video playback
+Tap Somewhere on Screen for contents to visible on Screen
+Click pause video button
+Lock Mobile with 30 seconds delay
+Unlock Mobile
+Playback video from pause video duration
+Final message :Pass Test10F Pass For front video playback,locking, Unlocking phone and playback from pause video duration.
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 919.884 s - in TestSuite
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ Xiaomi_RedmiNoteProMax ---
+[INFO] Building jar: C:\Users\7336135\Android11\eclipse-workspace\Xiaomi_RedmiNoteProMax\target\Xiaomi_RedmiNoteProMax-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ Xiaomi_RedmiNoteProMax ---
+[INFO] Installing C:\Users\7336135\Android11\eclipse-workspace\Xiaomi_RedmiNoteProMax\target\Xiaomi_RedmiNoteProMax-0.0.1-SNAPSHOT.jar to C:\Users\7336135\.m2\repository\Com\Xiaomi_RedmiNoteProMax\test\Xiaomi_RedmiNoteProMax\0.0.1-SNAPSHOT\Xiaomi_RedmiNoteProMax-0.0.1-SNAPSHOT.jar
+[INFO] Installing C:\Users\7336135\Android11\eclipse-workspace\Xiaomi_RedmiNoteProMax\pom.xml to C:\Users\7336135\.m2\repository\Com\Xiaomi_RedmiNoteProMax\test\Xiaomi_RedmiNoteProMax\0.0.1-SNAPSHOT\Xiaomi_RedmiNoteProMax-0.0.1-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  15:24 min
+[INFO] Finished at: 2022-05-04T12:13:13+05:30
+[INFO] ------------------------------------------------------------------------

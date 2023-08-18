@@ -1,0 +1,47 @@
+2023-03-21 18:47:50 INFO   Lava_Agni_5G_LXX501.Test3_Int Format Test: Start
+2023-03-21 18:47:50 INFO   Lava_Agni_5G_LXX501.Test3_Int Format ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-21 18:47:50 INFO   Lava_Agni_5G_LXX501.Test3_Int Format Test3_Int Scenario is as follows
+2023-03-21 18:47:50 INFO   Lava_Agni_5G_LXX501.Test3_Int Format 1.Mount,Unmount uSD Card and Format uSD card as Internal mount for specified number of times
+2023-03-21 18:47:50 INFO   Lava_Agni_5G_LXX501.Test3_Int Format Setting up the appium desired capabilities
+2023-03-21 18:47:50 INFO   Lava_Agni_5G_LXX501.Test3_Int Format ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-21 18:47:57 INFO   Lava_Agni_5G_LXX501.Test3_Int Format Launch home screen
+2023-03-21 18:48:06 INFO   Lava_Agni_5G_LXX501.Test3_Int Format Clearing Recent Apps
+2023-03-21 18:48:06 INFO   Lava_Agni_5G_LXX501.Test3_Int Format Pass: No recent apps found
+2023-03-21 18:48:22 INFO   Lava_Agni_5G_LXX501.Test3_Int Format Swipe up and select storage option
+2023-03-21 18:48:30 INFO   Lava_Agni_5G_LXX501.Test3_Int Format Select system
+2023-03-21 18:48:39 INFO   Lava_Agni_5G_LXX501.Test3_Int Format Select uSD card
+2023-03-21 18:48:39 INFO   Lava_Agni_5G_LXX501.Test3_Int Format Clicking on SD card
+2023-03-21 18:48:45 INFO   Lava_Agni_5G_LXX501.Test3_Int Format Click more options
+2023-03-21 18:48:50 INFO   Lava_Agni_5G_LXX501.Test3_Int Format If format as portable option exists? call formatAsExternal()
+2023-03-21 18:49:07 INFO   Lava_Agni_5G_LXX501.Test3_Int Format Phone current status is internal mount, performing external mount
+2023-03-21 18:49:07 INFO   Lava_Agni_5G_LXX501.Test3_Int Format Calling FormatAsExternal() to format as SD as external mount
+2023-03-21 18:49:07 INFO   Lava_Agni_5G_LXX501.Test3_Int FormatAsExternal Launch settings application and perform external storage mount
+2023-03-21 18:49:13 INFO   Lava_Agni_5G_LXX501.Test3_Int FormatAsExternal Swipe up and select storage option
+2023-03-21 18:49:21 INFO   Lava_Agni_5G_LXX501.Test3_Int FormatAsExternal Select system
+2023-03-21 18:49:31 INFO   Lava_Agni_5G_LXX501.Test3_Int FormatAsExternal Select exteranal storage
+2023-03-21 18:49:31 INFO   Lava_Agni_5G_LXX501.Test3_Int FormatAsExternal Clicking on SD card
+2023-03-21 18:49:37 INFO   Lava_Agni_5G_LXX501.Test3_Int FormatAsExternal Select more options
+2023-03-21 18:49:43 INFO   Lava_Agni_5G_LXX501.Test3_Int FormatAsExternal Select format as Portable option
+2023-03-21 18:49:49 INFO   Lava_Agni_5G_LXX501.Test3_Int FormatAsExternal Select Format option
+2023-03-21 18:51:04 INFO   Lava_Agni_5G_LXX501.Test3_Int FormatAsExternal Formatting as external mount
+2023-03-21 18:51:04 INFO   Lava_Agni_5G_LXX501.Test3_Int FormatAsExternal Formatting as external mount is successfull
+2023-03-21 18:51:04 INFO   Lava_Agni_5G_LXX501.Test3_Int FormatAsExternal Calling FormatAsInternal()
+2023-03-21 18:51:04 INFO   Lava_Agni_5G_LXX501.Test3_Int FormatAsInternal Launch settings option and perform Internal storage mount scenario
+2023-03-21 18:51:10 INFO   Lava_Agni_5G_LXX501.Test3_Int FormatAsInternal Swipe up and select storage option
+2023-03-21 18:51:18 INFO   Lava_Agni_5G_LXX501.Test3_Int FormatAsInternal Select system
+2023-03-21 18:51:22 INFO   Lava_Agni_5G_LXX501.Test3_Int FormatAsInternal Select Storage option
+2023-03-21 18:51:28 INFO   Lava_Agni_5G_LXX501.Test3_Int FormatAsInternal Clicking on SD card
+2023-03-21 18:51:33 INFO   Lava_Agni_5G_LXX501.Test3_Int FormatAsInternal Click more options
+2023-03-21 18:51:39 INFO   Lava_Agni_5G_LXX501.Test3_Int FormatAsInternal select storage settings
+2023-03-21 18:51:45 INFO   Lava_Agni_5G_LXX501.Test3_Int FormatAsInternal Select format as Internal option
+2023-03-21 18:51:50 INFO   Lava_Agni_5G_LXX501.Test3_Int FormatAsInternal Accept Format SD card pop-up
+2023-03-21 18:52:20 INFO   Lava_Agni_5G_LXX501.Test3_Int FormatAsInternal Accept move content  pop-up
+2023-03-21 18:52:35 INFO   Lava_Agni_5G_LXX501.Test3_Int FormatAsInternal Pass:Format as Internal Mount completed Successfull
+2023-03-21 18:52:51 INFO   Lava_Agni_5G_LXX501.Test3_Int FormatAsInternal Launch file manager
+2023-03-21 18:53:03 INFO   Lava_Agni_5G_LXX501.Test3_Int FormatAsInternal Click On Internal storage
+2023-03-21 18:53:08 INFO   Lava_Agni_5G_LXX501.Test3_Int FormatAsInternal Select DCIM folder
+2023-03-21 18:53:18 INFO   Lava_Agni_5G_LXX501.Test3_Int FormatAsInternal Pass: Test3_Int format as internal mount is Successfull
+2023-03-21 18:53:18 INFO   Lava_Agni_5G_LXX501.Test3_Int FormatAsInternal Final Message: Pass Test3_Int Pass for internal mount is successfull
+2023-03-21 18:53:18 INFO   Lava_Agni_5G_LXX501.Test3_Int FormatAsInternal Test: End
+2023-03-21 18:53:26 INFO   Lava_Agni_5G_LXX501.Test3_Int FormatAsExternal ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-21 18:53:26 INFO   Lava_Agni_5G_LXX501.Test3_Int Format ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

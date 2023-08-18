@@ -1,0 +1,154 @@
+2022-10-17 11:56:10 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 start Test: Start
+2022-10-17 11:56:10 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-17 11:56:10 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 start  Test0 Scenario is as follows 
+2022-10-17 11:56:10 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 start 1.Unlock phone, clear recent apps, clear internal memory
+2022-10-17 11:56:10 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 start 2.Call Image() and Capture Rear camera 25 images for default resolution in uSD card and Verify the data capture
+2022-10-17 11:56:10 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 start 3.Call Video() and record Rear camera video of first 2 resloutions for 2 minutes of duration in uSD Card and verify the same
+2022-10-17 11:56:10 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 start 4.Call Format() and format uSD card with data and verify the same
+2022-10-17 11:56:10 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 start Setting up the appium desired capabilities
+2022-10-17 11:56:10 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-17 11:56:19 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 start Unlock phone if locked
+2022-10-17 11:56:24 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 start Launch home screen
+2022-10-17 11:56:35 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 start Clearing Recent Apps
+2022-10-17 11:56:45 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 start Pass for clearing Recent apps 
+2022-10-17 11:56:47 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 start Launch file manager application for clearing phone internal memory
+2022-10-17 11:57:04 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 start Select Internal storage
+2022-10-17 11:57:10 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 start Click More options
+2022-10-17 11:57:17 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 start Click Select all
+2022-10-17 11:57:21 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 start Click More options
+2022-10-17 11:57:27 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 start Select delete permanently option
+2022-10-17 11:57:31 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 start Accept allow delete pop-up
+2022-10-17 11:58:17 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 start Pass: Clearing phone internal memory is successfull
+2022-10-17 11:58:17 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 start ===============================================================================================================================================
+2022-10-17 11:58:30 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 start Calling Image() for rear Image capture in uSD Card and Verify the Captured images
+2022-10-17 11:58:30 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Images Launch Camera Application for Rear picture capture
+2022-10-17 11:58:32 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Images If change to uSD card permisssion pop-up exists during camera application launch select cancel option
+2022-10-17 11:58:42 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Images change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy Tab S6 Lite, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: R52N81CPS4E}, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-P610, deviceName: R52N81CPS4E, deviceScreenDensity: 240, deviceScreenSize: 1200x2000, deviceUDID: R52N81CPS4E, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 36, takesScreenshot: true, udid: R52N81CPS4E, viewportRect: {height: 1892, left: 0, top: 36, width: 1200}, warnings: {}, webStorageEnabled: false}
+Session ID: 5e4ec526-dbb9-4178-9fb9-9f12ea8d658e
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2022-10-17 11:58:44 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Images if Location permisson Pop Exists during camera application launch select cancel option Select Cancel Option
+2022-10-17 11:58:54 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Images Location acess permission pop-up not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy Tab S6 Lite, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: R52N81CPS4E}, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-P610, deviceName: R52N81CPS4E, deviceScreenDensity: 240, deviceScreenSize: 1200x2000, deviceUDID: R52N81CPS4E, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 36, takesScreenshot: true, udid: R52N81CPS4E, viewportRect: {height: 1892, left: 0, top: 36, width: 1200}, warnings: {}, webStorageEnabled: false}
+Session ID: 5e4ec526-dbb9-4178-9fb9-9f12ea8d658e
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2022-10-17 11:58:54 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Images Switch To rear Camera Mode if current Exiting camera is Front camera Mode
+2022-10-17 11:58:54 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Images Currently camera is already in rear camera mode no need to switch
+2022-10-17 11:58:54 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Images Select settings option
+2022-10-17 11:59:00 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Images Search for SD Card option
+2022-10-17 11:59:12 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Images Select SD as storage option
+2022-10-17 11:59:20 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Images Capture Image of Default Resolution
+2022-10-17 11:59:25 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Images Captures default resolution image 0
+2022-10-17 11:59:29 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Images Captures default resolution image 1
+2022-10-17 11:59:33 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Images Captures default resolution image 2
+2022-10-17 11:59:38 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Images Captures default resolution image 3
+2022-10-17 11:59:42 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Images Captures default resolution image 4
+2022-10-17 11:59:46 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Images Captures default resolution image 5
+2022-10-17 11:59:51 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Images Captures default resolution image 6
+2022-10-17 11:59:55 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Images Captures default resolution image 7
+2022-10-17 11:59:59 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Images Captures default resolution image 8
+2022-10-17 12:00:04 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Images Captures default resolution image 9
+2022-10-17 12:00:08 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Images Captures default resolution image 10
+2022-10-17 12:00:12 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Images Captures default resolution image 11
+2022-10-17 12:00:17 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Images Captures default resolution image 12
+2022-10-17 12:00:21 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Images Captures default resolution image 13
+2022-10-17 12:00:25 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Images Captures default resolution image 14
+2022-10-17 12:00:31 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Images Captures default resolution image 15
+2022-10-17 12:00:35 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Images Captures default resolution image 16
+2022-10-17 12:00:39 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Images Captures default resolution image 17
+2022-10-17 12:00:44 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Images Captures default resolution image 18
+2022-10-17 12:00:48 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Images Captures default resolution image 19
+2022-10-17 12:00:52 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Images Captures default resolution image 20
+2022-10-17 12:00:57 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Images Captures default resolution image 21
+2022-10-17 12:01:01 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Images Captures default resolution image 22
+2022-10-17 12:01:05 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Images Captures default resolution image 23
+2022-10-17 12:01:10 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Images Captures default resolution image 24
+2022-10-17 12:01:15 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Images Pass:Total Number Of Image captured 25 is successfull
+2022-10-17 12:01:15 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Images Launch File Manager application to verify  Image capture
+2022-10-17 12:01:22 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Images Select  SD Card
+2022-10-17 12:01:28 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Images Select DCIM Folder
+2022-10-17 12:01:33 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Images Select Camera Folder
+2022-10-17 12:01:38 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Images Select More Options 
+2022-10-17 12:01:44 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Images Click On Select All Options
+2022-10-17 12:01:55 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Images Pass:Total Number Of Image captured 25 is successfull
+2022-10-17 12:01:55 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Images ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-17 12:01:55 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Images Calling video() for rear video recording in USD card and verifying data capture.
+2022-10-17 12:01:55 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Video Clear recent apps
+2022-10-17 12:01:57 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Video Clear Recent Apps
+2022-10-17 12:02:09 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Video Launch Camera Application for rear camera video recording
+2022-10-17 12:02:10 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Video If Change to SD Card notification pop-up exists during camear application launch select Cancel Option
+2022-10-17 12:02:20 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Video change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy Tab S6 Lite, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: R52N81CPS4E}, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-P610, deviceName: R52N81CPS4E, deviceScreenDensity: 240, deviceScreenSize: 1200x2000, deviceUDID: R52N81CPS4E, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 36, takesScreenshot: true, udid: R52N81CPS4E, viewportRect: {height: 1892, left: 0, top: 36, width: 1200}, warnings: {}, webStorageEnabled: false}
+Session ID: 5e4ec526-dbb9-4178-9fb9-9f12ea8d658e
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2022-10-17 12:02:20 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Video If Location Permission Request Pop Exists select  Cancel Option
+2022-10-17 12:02:30 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Video Location access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy Tab S6 Lite, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: R52N81CPS4E}, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-P610, deviceName: R52N81CPS4E, deviceScreenDensity: 240, deviceScreenSize: 1200x2000, deviceUDID: R52N81CPS4E, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 36, takesScreenshot: true, udid: R52N81CPS4E, viewportRect: {height: 1892, left: 0, top: 36, width: 1200}, warnings: {}, webStorageEnabled: false}
+Session ID: 5e4ec526-dbb9-4178-9fb9-9f12ea8d658e
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2022-10-17 12:02:30 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Video Switch To rear Camera mode if current Exiting camera is Front camera
+2022-10-17 12:02:40 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Video Curent camera existing camera mode is rear camera mode no need switch camera
+2022-10-17 12:02:40 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Video Switch to video mode
+2022-10-17 12:02:51 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Video Select settings option
+2022-10-17 12:02:56 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Video Click on settings option
+2022-10-17 12:02:56 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Video Search for SD Card option
+2022-10-17 12:03:09 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Video Select SD as storage option
+2022-10-17 12:03:17 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Video select rear video size option
+2022-10-17 12:03:18 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Video Select 1st Back Video Resolution:BACK_CAMCORDER_RESOLUTION_UHD_30
+2022-10-17 12:03:21 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Video Start video recording
+2022-10-17 12:05:22 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Video Recording Video for 2Minutes of Duration
+2022-10-17 12:05:22 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Video Stop video recording
+2022-10-17 12:05:37 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Video select rear video size option
+2022-10-17 12:05:38 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Video Select Second Back Video Resolution:BACK_CAMCORDER_RESOLUTION_FHD_60
+2022-10-17 12:05:41 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Video Start video recording
+2022-10-17 12:07:42 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Video Recording Video for 2Minutes of Duration
+2022-10-17 12:07:42 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Video Stop video recording
+2022-10-17 12:08:03 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Video Pass: Rear camera video recording is successfull
+2022-10-17 12:08:03 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Video Verifying Captured Videos
+2022-10-17 12:08:03 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Video Launch Home screen and Clear recent Apps
+2022-10-17 12:08:17 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Video Launch File Manager Application to verify captured videos in uSD card
+2022-10-17 12:08:23 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Video Click On SD Card
+2022-10-17 12:08:28 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Video Select DCIM Folder
+2022-10-17 12:08:34 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Video Select Camera Folder
+2022-10-17 12:08:39 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Video Click On More Options 
+2022-10-17 12:08:50 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Video Click On Edit
+2022-10-17 12:08:57 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Video Click On Select All Options
+2022-10-17 12:09:09 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Video Pass: 2 Videos recorded Successfully
+2022-10-17 12:09:09 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Video Pass: A total of 27 files present in uSD card before Format
+2022-10-17 12:09:09 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Video ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-17 12:09:09 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Video calling Format() for format with data scenario
+2022-10-17 12:09:09 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Format Clearing Recent Apps
+2022-10-17 12:09:28 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Format Launch Settings application for Format uSD card with Data scenario 
+2022-10-17 12:09:34 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Format Scrolling till battery and device care is visible
+2022-10-17 12:09:43 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Format Clicking on battery and device care
+2022-10-17 12:09:48 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Format Clicking on storage
+2022-10-17 12:09:54 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Format Clicking on more options
+2022-10-17 12:10:07 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Format Clicking on SD card
+2022-10-17 12:10:12 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Format Select Format option
+2022-10-17 12:10:18 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Format Started formatting, waiting till it gets formatted
+2022-10-17 12:11:48 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Format Formar uSD is successfull
+2022-10-17 12:11:55 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Format Pass: Format uSD with Data is successfull
+2022-10-17 12:11:57 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Format Select  SD Card
+2022-10-17 12:12:04 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Format Select DCIM Folder
+2022-10-17 12:12:09 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Format Select Camera Folder
+2022-10-17 12:12:19 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Format Pass:Images and videos are not present in the DCIM folder, CARD format is successfully completed 
+2022-10-17 12:12:19 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Format ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-17 12:12:19 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Format Final Message: Pass Test0 pass for format uSd card with data scenario Operation
+2022-10-17 12:12:19 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Format Test:End
+2022-10-17 12:12:19 INFO   Samsung_Galaxy_Tab_S6_Lite.Test0 Format ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

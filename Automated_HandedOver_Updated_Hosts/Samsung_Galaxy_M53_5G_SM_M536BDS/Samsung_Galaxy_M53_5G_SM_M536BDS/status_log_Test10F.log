@@ -1,0 +1,105 @@
+2023-01-13 16:15:10 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F rearVideoRec Test:Start
+2023-01-13 16:15:10 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-13 16:15:10 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F rearVideoRec Test10F Scenario is as follows
+2023-01-13 16:15:10 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F rearVideoRec 1.Launch Camera application and start front camera video recording for all host applicable resolutions in uSD Card
+2023-01-13 16:15:10 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F rearVideoRec 2.Playback front Highest recorded video for 30 seconds, pause video playback, lock mobile and wait 30 seconds, unlock mobile and playback video from pause video duration
+2023-01-13 16:15:10 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F rearVideoRec Setting up the appium desired capabilities
+2023-01-13 16:15:10 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-13 16:15:21 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F rearVideoRec Launch Home screen and clear recent Apps
+2023-01-13 16:15:39 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F rearVideoRec Launch Camera Application for rear camera video recording
+2023-01-13 16:15:40 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F rearVideoRec If change to uSD card pop-up exists select Cancel
+2023-01-13 16:15:50 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F rearVideoRec change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy M53 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 12, udid: RFCT41Y5Y9V}, deviceApiLevel: 31, deviceManufacturer: samsung, deviceModel: SM-M536B, deviceName: RFCT41Y5Y9V, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RFCT41Y5Y9V, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 90, takesScreenshot: true, udid: RFCT41Y5Y9V, viewportRect: {height: 2085, left: 0, top: 90, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 8d7df6fa-2a88-4af8-a26f-43c9425727a0
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2023-01-13 16:15:50 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F rearVideoRec If Location access Permission Request Pop Exists Click on Cancel. 
+2023-01-13 16:16:00 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F rearVideoRec Location access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy M53 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 12, udid: RFCT41Y5Y9V}, deviceApiLevel: 31, deviceManufacturer: samsung, deviceModel: SM-M536B, deviceName: RFCT41Y5Y9V, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RFCT41Y5Y9V, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 90, takesScreenshot: true, udid: RFCT41Y5Y9V, viewportRect: {height: 2085, left: 0, top: 90, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 8d7df6fa-2a88-4af8-a26f-43c9425727a0
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2023-01-13 16:16:00 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F rearVideoRec Test10F_Fcam_res: 4 resolutions supported
+2023-01-13 16:16:00 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F rearVideoRec Switch to front camera mode
+2023-01-13 16:16:05 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F rearVideoRec Switch to video mode
+2023-01-13 16:16:17 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F rearVideoRec Select settings option
+2023-01-13 16:16:22 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F rearVideoRec Swipe up and Select Storage location
+2023-01-13 16:16:37 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F rearVideoRec Select uSD card as Storage option
+2023-01-13 16:16:45 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F rearVideoRec Click on front video size and select resolution
+2023-01-13 16:16:47 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F rearVideoRec Select 1st Front Video Resolution:Front camera video size, UHD (30 fps)
+2023-01-13 16:16:54 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F rearVideoRec Start front video recording
+2023-01-13 16:26:56 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F rearVideoRec Stop Recording
+2023-01-13 16:27:01 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F rearVideoRec Click front video size and select second resolution
+2023-01-13 16:27:04 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F rearVideoRec Select second resolution::Front camera video size, FHD (60 fps)
+2023-01-13 16:27:11 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F rearVideoRec Start front video recording
+2023-01-13 16:37:11 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F rearVideoRec Stop Recording
+2023-01-13 16:37:17 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F rearVideoRec Click front video size and select third resolution
+2023-01-13 16:37:19 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F rearVideoRec Select third resolution
+2023-01-13 16:37:28 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F rearVideoRec Start front video recording
+2023-01-13 16:47:28 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F rearVideoRec Stop Recording
+2023-01-13 16:47:33 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F rearVideoRec Click front video size and select fourth resolution
+2023-01-13 16:47:36 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F rearVideoRec Select 4th resolution
+2023-01-13 16:47:43 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F rearVideoRec Start front video recording
+2023-01-13 16:57:43 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F rearVideoRec Stop Recording
+2023-01-13 16:57:49 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F rearVideoRec Switch to back camera mode
+2023-01-13 16:57:54 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F rearVideoRec Switch to back  camera mode
+2023-01-13 16:58:02 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F rearVideoRec Pass: Test10F pass for front camera video recording
+2023-01-13 16:58:02 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-13 16:58:02 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F rearVideoRec Launch File Manager Application to verify captured videos
+2023-01-13 16:58:08 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F rearVideoRec Select  SD Card
+2023-01-13 16:58:13 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F rearVideoRec swipe up and search for dcim
+2023-01-13 16:58:13 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F rearVideoRec Select DCIM Folder
+2023-01-13 16:58:19 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F rearVideoRec Select Camera Folder
+2023-01-13 16:58:24 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F rearVideoRec Select More Options 
+2023-01-13 16:58:29 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F rearVideoRec Click On Select All Options
+2023-01-13 16:58:38 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F rearVideoRec Test10F_Fcam_video: 4 Videos captured successfull
+2023-01-13 16:58:38 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-13 16:58:47 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F rearVideoRec Calling VideoPlayBackForSleepWake()
+2023-01-13 16:58:47 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F VideoPlayBackForSleepWake Launch File Manager application and playback front recorded video from USD for 30 seconds, pause video playback, locking phone and unlock after 30 seconds delay and playback video from pause duration.
+2023-01-13 16:58:52 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F VideoPlayBackForSleepWake swipe up and search for sd card
+2023-01-13 16:58:55 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F VideoPlayBackForSleepWake Select External Storage
+2023-01-13 16:59:00 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F VideoPlayBackForSleepWake swipe up and search for dcim
+2023-01-13 16:59:01 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F VideoPlayBackForSleepWake Select DCIM Folder
+2023-01-13 16:59:04 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F VideoPlayBackForSleepWake Select Camera
+2023-01-13 16:59:07 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F VideoPlayBackForSleepWake select more options
+2023-01-13 16:59:12 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F VideoPlayBackForSleepWake Select Sort BY
+2023-01-13 16:59:17 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F VideoPlayBackForSleepWake Select Newest date first
+2023-01-13 16:59:21 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F VideoPlayBackForSleepWake Click on first file to play newest date frist recorded resolution video file in usd card
+2023-01-13 16:59:21 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F VideoPlayBackForSleepWake Started video playback
+2023-01-13 16:59:41 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-01-13 16:59:41 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F VideoPlayBackForSleepWake Lock Mobile with 30 seconds delay
+2023-01-13 17:00:11 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F VideoPlayBackForSleepWake Wait For 30Seconds
+2023-01-13 17:00:16 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F VideoPlayBackForSleepWake Unlock Mobile 
+2023-01-13 17:00:46 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F VideoPlayBackForSleepWake Pause video 
+2023-01-13 17:00:53 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F VideoPlayBackForSleepWake Pass: Test10F Pass for Front video play back, Pause,Lock and Unlock Phone Play back from Pause duration Scenario
+2023-01-13 17:00:53 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-13 17:00:53 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F VideoPlayBackForSleepWake Calling Data Move Operation
+2023-01-13 17:00:53 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F DataMoveOperation Re-launch file manager application and select external storage for data move operation, select all rear camera videos present in camera folder and move to Test10 folder
+2023-01-13 17:00:59 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F DataMoveOperation Launching file manager application
+2023-01-13 17:01:02 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F DataMoveOperation Select external storage
+2023-01-13 17:01:07 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F DataMoveOperation switch to grid view mode and select DCIM  folder
+2023-01-13 17:01:10 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F DataMoveOperation Select DCIM folder
+2023-01-13 17:01:14 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F DataMoveOperation Select camera  folder
+2023-01-13 17:01:17 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F DataMoveOperation switch to list view mode 
+2023-01-13 17:01:20 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F DataMoveOperation Click More options
+2023-01-13 17:01:26 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F DataMoveOperation Click Select all
+2023-01-13 17:01:30 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F DataMoveOperation Click More options
+2023-01-13 17:01:36 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F DataMoveOperation Select move to option
+2023-01-13 17:01:43 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F DataMoveOperation Select uSD Card
+2023-01-13 17:01:49 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F DataMoveOperation Select ADD NEW Folder option
+2023-01-13 17:01:56 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F DataMoveOperation Name folder as Test10F
+2023-01-13 17:02:02 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F DataMoveOperation Accept create folder
+2023-01-13 17:02:32 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F DataMoveOperation Cut paste  video files operation completed successfully
+2023-01-13 17:02:36 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F DataMoveOperation Test10F: Data move operation completed successfully
+2023-01-13 17:02:44 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F DataMoveOperation Pass: Test10F Pass for data move operation successfully
+2023-01-13 17:02:44 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-13 17:02:44 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F VideoPlayBackForSleepWake Final Message: Pass Test10F Pass for Pause Video Playback
+2023-01-13 17:02:44 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F VideoPlayBackForSleepWake Test: End
+2023-01-13 17:02:44 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-13 17:02:44 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test10F rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

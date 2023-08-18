@@ -1,0 +1,103 @@
+2023-01-27 11:42:24 INFO   BlackView_A50.Test9 RearPictureCapture Test: Start
+2023-01-27 11:42:24 INFO   BlackView_A50.Test9 RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-27 11:42:24 INFO   BlackView_A50.Test9 RearPictureCapture Test9 Scenario is follows:
+2023-01-27 11:42:24 INFO   BlackView_A50.Test9 RearPictureCapture 1.Launch camera application, set uSD as a Storage option, start rear camera Image capture for all host resolutions
+2023-01-27 11:42:24 INFO   BlackView_A50.Test9 RearPictureCapture 2.Move rear camera image captured files from camera folder to Test9 folder
+2023-01-27 11:42:24 INFO   BlackView_A50.Test9 RearPictureCapture Setting up the appium desired capabilities
+2023-01-27 11:42:24 INFO   BlackView_A50.Test9 RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-27 11:42:37 INFO   BlackView_A50.Test9 RearPictureCapture Launch home screen
+2023-01-27 11:42:48 INFO   BlackView_A50.Test9 RearPictureCapture Clearing Recent Apps
+2023-01-27 11:42:59 INFO   BlackView_A50.Test9 RearPictureCapture Pass: Test0 Pass for clearing Recent apps 
+2023-01-27 11:43:01 INFO   BlackView_A50.Test9 RearPictureCapture Launch Camera application for rear camera Image capture
+2023-01-27 11:43:08 INFO   BlackView_A50.Test9 RearPictureCapture Test9_Bcam_res: 2 resolutions supported
+2023-01-27 11:43:08 INFO   BlackView_A50.Test9 RearPictureCapture IF Change to uSD card notification pop-up exists select Cancel Option
+2023-01-27 11:43:18 INFO   BlackView_A50.Test9 RearPictureCapture change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '172.20.10.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: A50, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: A50EEA000001436}, deviceApiLevel: 30, deviceManufacturer: Chinoe, deviceModel: A50, deviceName: A50EEA000001436, deviceScreenDensity: 320, deviceScreenSize: 720x1560, deviceUDID: A50EEA000001436, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 60, takesScreenshot: true, udid: A50EEA000001436, viewportRect: {height: 1356, left: 0, top: 60, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 44115cf6-5425-4c4d-b9b5-d4d278bfcb20
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("DON’T ALLOW")}
+2023-01-27 11:43:18 INFO   BlackView_A50.Test9 RearPictureCapture Switch to rear Camera Mode if current Exiting camera is Front camera Mode
+2023-01-27 11:43:28 INFO   BlackView_A50.Test9 RearPictureCapture Currently camera is already in rear camera mode no need to switch
+2023-01-27 11:43:28 INFO   BlackView_A50.Test9 RearPictureCapture Select settings option
+2023-01-27 11:43:34 INFO   BlackView_A50.Test9 RearPictureCapture Select Storagepath option
+2023-01-27 11:43:41 INFO   BlackView_A50.Test9 RearPictureCapture Select SD as storage option
+2023-01-27 11:43:49 INFO   BlackView_A50.Test9 RearPictureCapture Select settings option
+2023-01-27 11:43:54 INFO   BlackView_A50.Test9 RearPictureCapture Select settings option to select resolution
+2023-01-27 11:43:58 INFO   BlackView_A50.Test9 RearPictureCapture Select Rear camera first image resolution: (4:3) 13.0 megapixels
+2023-01-27 11:44:16 INFO   BlackView_A50.Test9 RearPictureCapture captureing first Resolution image 0
+2023-01-27 11:44:24 INFO   BlackView_A50.Test9 RearPictureCapture captureing first Resolution image 1
+2023-01-27 11:44:31 INFO   BlackView_A50.Test9 RearPictureCapture captureing first Resolution image 2
+2023-01-27 11:44:38 INFO   BlackView_A50.Test9 RearPictureCapture captureing first Resolution image 3
+2023-01-27 11:44:45 INFO   BlackView_A50.Test9 RearPictureCapture captureing first Resolution image 4
+2023-01-27 11:44:53 INFO   BlackView_A50.Test9 RearPictureCapture captureing first Resolution image 5
+2023-01-27 11:45:00 INFO   BlackView_A50.Test9 RearPictureCapture captureing first Resolution image 6
+2023-01-27 11:45:07 INFO   BlackView_A50.Test9 RearPictureCapture captureing first Resolution image 7
+2023-01-27 11:45:14 INFO   BlackView_A50.Test9 RearPictureCapture captureing first Resolution image 8
+2023-01-27 11:45:22 INFO   BlackView_A50.Test9 RearPictureCapture captureing first Resolution image 9
+2023-01-27 11:45:29 INFO   BlackView_A50.Test9 RearPictureCapture captureing first Resolution image 10
+2023-01-27 11:45:37 INFO   BlackView_A50.Test9 RearPictureCapture captureing first Resolution image 11
+2023-01-27 11:45:44 INFO   BlackView_A50.Test9 RearPictureCapture captureing first Resolution image 12
+2023-01-27 11:45:52 INFO   BlackView_A50.Test9 RearPictureCapture captureing first Resolution image 13
+2023-01-27 11:45:59 INFO   BlackView_A50.Test9 RearPictureCapture captureing first Resolution image 14
+2023-01-27 11:46:07 INFO   BlackView_A50.Test9 RearPictureCapture captureing first Resolution image 15
+2023-01-27 11:46:14 INFO   BlackView_A50.Test9 RearPictureCapture captureing first Resolution image 16
+2023-01-27 11:46:21 INFO   BlackView_A50.Test9 RearPictureCapture captureing first Resolution image 17
+2023-01-27 11:46:23 INFO   BlackView_A50.Test9 RearPictureCapture Select settings option
+2023-01-27 11:46:29 INFO   BlackView_A50.Test9 RearPictureCapture Select settings option to select resolution
+2023-01-27 11:46:33 INFO   BlackView_A50.Test9 RearPictureCapture Select Rear camera second resolution: (16:9) 9.7 megapixels
+2023-01-27 11:46:52 INFO   BlackView_A50.Test9 RearPictureCapture captureing Second  Resolution image 0
+2023-01-27 11:46:59 INFO   BlackView_A50.Test9 RearPictureCapture captureing Second  Resolution image 1
+2023-01-27 11:47:07 INFO   BlackView_A50.Test9 RearPictureCapture captureing Second  Resolution image 2
+2023-01-27 11:47:14 INFO   BlackView_A50.Test9 RearPictureCapture captureing Second  Resolution image 3
+2023-01-27 11:47:21 INFO   BlackView_A50.Test9 RearPictureCapture captureing Second  Resolution image 4
+2023-01-27 11:47:28 INFO   BlackView_A50.Test9 RearPictureCapture captureing Second  Resolution image 5
+2023-01-27 11:47:36 INFO   BlackView_A50.Test9 RearPictureCapture captureing Second  Resolution image 6
+2023-01-27 11:47:43 INFO   BlackView_A50.Test9 RearPictureCapture captureing Second  Resolution image 7
+2023-01-27 11:47:50 INFO   BlackView_A50.Test9 RearPictureCapture captureing Second  Resolution image 8
+2023-01-27 11:47:57 INFO   BlackView_A50.Test9 RearPictureCapture captureing Second  Resolution image 9
+2023-01-27 11:48:05 INFO   BlackView_A50.Test9 RearPictureCapture captureing Second  Resolution image 10
+2023-01-27 11:48:12 INFO   BlackView_A50.Test9 RearPictureCapture captureing Second  Resolution image 11
+2023-01-27 11:48:19 INFO   BlackView_A50.Test9 RearPictureCapture captureing Second  Resolution image 12
+2023-01-27 11:48:26 INFO   BlackView_A50.Test9 RearPictureCapture captureing Second  Resolution image 13
+2023-01-27 11:48:34 INFO   BlackView_A50.Test9 RearPictureCapture captureing Second  Resolution image 14
+2023-01-27 11:48:41 INFO   BlackView_A50.Test9 RearPictureCapture captureing Second  Resolution image 15
+2023-01-27 11:48:48 INFO   BlackView_A50.Test9 RearPictureCapture captureing Second  Resolution image 16
+2023-01-27 11:48:55 INFO   BlackView_A50.Test9 RearPictureCapture captureing Second  Resolution image 17
+2023-01-27 11:48:57 INFO   BlackView_A50.Test9 RearPictureCapture Total Count value:36 images to be Captured 
+2023-01-27 11:49:00 INFO   BlackView_A50.Test9 RearPictureCapture Launch file manager application and verify recorded video present  in uSD Card
+2023-01-27 11:49:16 INFO   BlackView_A50.Test9 RearPictureCapture click on browse option
+2023-01-27 11:49:19 INFO   BlackView_A50.Test9 RearPictureCapture Swipe up to select uSD card
+2023-01-27 11:49:23 INFO   BlackView_A50.Test9 RearPictureCapture Select SD card
+2023-01-27 11:49:29 INFO   BlackView_A50.Test9 RearPictureCapture switch to grid view mode to select DCIM folder
+2023-01-27 11:49:32 INFO   BlackView_A50.Test9 RearPictureCapture Select DCIM folder
+2023-01-27 11:49:35 INFO   BlackView_A50.Test9 RearPictureCapture Select camera folder
+2023-01-27 11:49:38 INFO   BlackView_A50.Test9 RearPictureCapture switch to list view mode 
+2023-01-27 11:49:42 INFO   BlackView_A50.Test9 RearPictureCapture Click More options
+2023-01-27 11:49:48 INFO   BlackView_A50.Test9 RearPictureCapture Click Select all
+2023-01-27 11:50:00 INFO   BlackView_A50.Test9 RearPictureCapture Pass: Test9 pass for rear Image capture
+2023-01-27 11:50:00 INFO   BlackView_A50.Test9 RearPictureCapture Test9_Bcam_image: 36  images Captured succesfull
+2023-01-27 11:50:00 INFO   BlackView_A50.Test9 RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-27 11:50:04 INFO   BlackView_A50.Test9 RearPictureCapture calling DataMoveOperation() 
+2023-01-27 11:50:04 INFO   BlackView_A50.Test9 DataMoveOperation launch file manager application select uSD card-->DCIM folder-->Camera folder-->Select all back camera front camera videos create Test10 and cut paste all videos in BCFC_Cameravideos folder
+2023-01-27 11:50:10 INFO   BlackView_A50.Test9 DataMoveOperation Swipe up to select uSD card
+2023-01-27 11:50:14 INFO   BlackView_A50.Test9 DataMoveOperation Select external storage
+2023-01-27 11:50:20 INFO   BlackView_A50.Test9 DataMoveOperation Click More options
+2023-01-27 11:50:26 INFO   BlackView_A50.Test9 DataMoveOperation Select add new folder option
+2023-01-27 11:50:33 INFO   BlackView_A50.Test9 DataMoveOperation Name folder as Test9
+2023-01-27 11:50:47 INFO   BlackView_A50.Test9 DataMoveOperation Select DCIM folder
+2023-01-27 11:50:51 INFO   BlackView_A50.Test9 DataMoveOperation Select camera folder
+2023-01-27 11:50:54 INFO   BlackView_A50.Test9 DataMoveOperation Click More options
+2023-01-27 11:51:00 INFO   BlackView_A50.Test9 DataMoveOperation Click select all option
+2023-01-27 11:51:07 INFO   BlackView_A50.Test9 DataMoveOperation Click More options
+2023-01-27 11:51:13 INFO   BlackView_A50.Test9 DataMoveOperation Select Move to option
+2023-01-27 11:51:20 INFO   BlackView_A50.Test9 DataMoveOperation Select SD card
+2023-01-27 11:51:26 INFO   BlackView_A50.Test9 DataMoveOperation Select Test9 folder
+2023-01-27 11:51:32 INFO   BlackView_A50.Test9 DataMoveOperation Click move here
+2023-01-27 11:53:36 INFO   BlackView_A50.Test9 DataMoveOperation Pass: Test9 Pass for data move operation successfully
+2023-01-27 11:53:36 INFO   BlackView_A50.Test9 DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-27 11:53:36 INFO   BlackView_A50.Test9 RearPictureCapture Final Message: Pass Test9 Pass for Rear camera image capture  successfully
+2023-01-27 11:53:36 INFO   BlackView_A50.Test9 RearPictureCapture Test: End
+2023-01-27 11:53:36 INFO   BlackView_A50.Test9 RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

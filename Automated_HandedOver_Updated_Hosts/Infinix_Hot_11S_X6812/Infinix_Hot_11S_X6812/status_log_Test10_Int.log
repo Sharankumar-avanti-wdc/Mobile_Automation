@@ -1,0 +1,46 @@
+2022-09-02 19:03:58 INFO   Infinix_Hot_11S_X6812.Test10_Int rearVideoRec Test: Start
+2022-09-02 19:03:58 INFO   Infinix_Hot_11S_X6812.Test10_Int rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-09-02 19:03:58 INFO   Infinix_Hot_11S_X6812.Test10_Int rearVideoRec Test10_Int Scenario is as follows
+2022-09-02 19:03:58 INFO   Infinix_Hot_11S_X6812.Test10_Int rearVideoRec 1.Launch Camera application and start back camera video recording for all host applicable resolutions in uSD Card
+2022-09-02 19:03:58 INFO   Infinix_Hot_11S_X6812.Test10_Int rearVideoRec 2.Playback Highest resolution recorded video from USD Card, fast forward playback and pause video scenario 
+2022-09-02 19:03:58 INFO   Infinix_Hot_11S_X6812.Test10_Int rearVideoRec 3.Playback copied videos from Test1 folder, fast forward and pause scenario
+2022-09-02 19:03:58 INFO   Infinix_Hot_11S_X6812.Test10_Int rearVideoRec Setting up the appium desired capabilities
+2022-09-02 19:03:58 INFO   Infinix_Hot_11S_X6812.Test10_Int rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-09-02 19:04:18 INFO   Infinix_Hot_11S_X6812.Test10_Int rearVideoRec Launch Camera Application for rear camera video recording
+2022-09-02 19:04:24 INFO   Infinix_Hot_11S_X6812.Test10_Int rearVideoRec Select camera permissions
+2022-09-02 19:04:24 INFO   Infinix_Hot_11S_X6812.Test10_Int rearVideoRec select While using the app
+2022-09-02 19:04:34 INFO   Infinix_Hot_11S_X6812.Test10_Int rearVideoRec select deny option
+2022-09-02 19:04:44 INFO   Infinix_Hot_11S_X6812.Test10_Int rearVideoRec change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '5CG2148T4G', ip: '192.168.0.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Infinix HOT 11S, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: 07296311AE021693}, deviceApiLevel: 30, deviceManufacturer: INFINIX MOBILITY LIMITED, deviceModel: Infinix X6812, deviceName: 07296311AE021693, deviceScreenDensity: 480, deviceScreenSize: 1080x2460, deviceUDID: 07296311AE021693, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 108, takesScreenshot: true, udid: 07296311AE021693, viewportRect: {height: 2100, left: 0, top: 108, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 7d9494bd-051b-4e8d-ab89-fae1f26f735d
+*** Element info: {Using=xpath, value=//*[@resource-id='com.android.permissioncontroller:id/permission_deny_button']}
+2022-09-02 19:04:44 INFO   Infinix_Hot_11S_X6812.Test10_Int rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-09-02 19:04:46 INFO   Infinix_Hot_11S_X6812.Test10_Int rearVideoRec Select video tab
+2022-09-02 19:04:50 INFO   Infinix_Hot_11S_X6812.Test10_Int rearVideoRec Select settings option
+2022-09-02 19:04:56 INFO   Infinix_Hot_11S_X6812.Test10_Int rearVideoRec Select Video quality
+2022-09-02 19:05:01 INFO   Infinix_Hot_11S_X6812.Test10_Int rearVideoRec Select 1st Back Video Resolution:1080p
+2022-09-02 19:05:12 INFO   Infinix_Hot_11S_X6812.Test10_Int rearVideoRec Start video recording
+2022-09-02 19:05:14 INFO   Infinix_Hot_11S_X6812.Test10_Int rearVideoRec Stop video recording
+2022-09-02 19:10:23 INFO   Infinix_Hot_11S_X6812.Test10_Int rearVideoRec Select settings option
+2022-09-02 19:10:28 INFO   Infinix_Hot_11S_X6812.Test10_Int rearVideoRec Select Video quality
+2022-09-02 19:10:33 INFO   Infinix_Hot_11S_X6812.Test10_Int rearVideoRec Select 2nd Back Video Resolution: 720P
+2022-09-02 19:10:45 INFO   Infinix_Hot_11S_X6812.Test10_Int rearVideoRec Start video recording
+2022-09-02 19:10:47 INFO   Infinix_Hot_11S_X6812.Test10_Int rearVideoRec Stop video recording
+2022-09-02 19:15:56 INFO   Infinix_Hot_11S_X6812.Test10_Int rearVideoRec Select settings option
+2022-09-02 19:16:02 INFO   Infinix_Hot_11S_X6812.Test10_Int rearVideoRec Select Video quality
+2022-09-02 19:16:07 INFO   Infinix_Hot_11S_X6812.Test10_Int rearVideoRec Select 3rd Back Video Resolution: 2k
+2022-09-02 19:16:17 INFO   Infinix_Hot_11S_X6812.Test10_Int rearVideoRec Start video recording
+2022-09-02 19:16:19 INFO   Infinix_Hot_11S_X6812.Test10_Int rearVideoRec Stop video recording
+2022-09-02 19:22:02 INFO   Infinix_Hot_11S_X6812.Test10_Int rearVideoRec Select photo mode
+2022-09-02 19:22:09 INFO   Infinix_Hot_11S_X6812.Test10_Int rearVideoRec Pass: Rear video recording is successfull
+2022-09-02 19:22:09 INFO   Infinix_Hot_11S_X6812.Test10_Int rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-09-02 19:22:09 INFO   Infinix_Hot_11S_X6812.Test10_Int rearVideoRec Calling RecordedVideoPlayback() for Playing Highest record video, fast forward video play back scenario
+2022-09-02 19:22:09 INFO   Infinix_Hot_11S_X6812.Test10_Int RecordedVideoPlayback Launch files app for video playback 
+2022-09-02 19:22:16 INFO   Infinix_Hot_11S_X6812.Test10_Int RecordedVideoPlayback swipe up and search for sd card  
+2022-09-02 19:22:18 INFO   Infinix_Hot_11S_X6812.Test10_Int RecordedVideoPlayback Select External Storage
+2022-09-02 19:22:28 INFO   Infinix_Hot_11S_X6812.Test10_Int rearVideoRec Fail: Test10_Int Fail for Rear camera video recording 
+2022-09-02 19:22:28 INFO   Infinix_Hot_11S_X6812.Test10_Int rearVideoRec Final Message: Fail Test10_Int Fail for Rear camera video recording

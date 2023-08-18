@@ -1,0 +1,91 @@
+2023-03-14 17:23:32 INFO   Lava_Z3_LZG403.Test10F frontVideoRec Test:Start
+2023-03-14 17:23:32 INFO   Lava_Z3_LZG403.Test10F frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-14 17:23:32 INFO   Lava_Z3_LZG403.Test10F frontVideoRec Test10F Scenario is as follows
+2023-03-14 17:23:32 INFO   Lava_Z3_LZG403.Test10F frontVideoRec 1.Launch Camera application and start front camera video recording for all host applicable resolutions in uSD Card
+2023-03-14 17:23:32 INFO   Lava_Z3_LZG403.Test10F frontVideoRec 2.Playback front Highest recorded video for 30 seconds, pause video playback, lock mobile and wait 30 seconds, unlock mobile and playback video from pause video duration
+2023-03-14 17:23:32 INFO   Lava_Z3_LZG403.Test10F frontVideoRec Setting up the appium desired capabilities
+2023-03-14 17:23:32 INFO   Lava_Z3_LZG403.Test10F frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-14 17:23:56 INFO   Lava_Z3_LZG403.Test10F frontVideoRec Clearing Recent Apps
+2023-03-14 17:23:56 INFO   Lava_Z3_LZG403.Test10F frontVideoRec Pass: No recent apps found
+2023-03-14 17:24:01 INFO   Lava_Z3_LZG403.Test10F frontVideoRec Launch Camera Application for front camera video recording
+2023-03-14 17:24:09 INFO   Lava_Z3_LZG403.Test10F frontVideoRec IF Change to uSD card notification pop-up exists select Cancel Option
+2023-03-14 17:24:19 INFO   Lava_Z3_LZG403.Test10F frontVideoRec change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: LAVA LZG403, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: Z39G21LB061894}, deviceApiLevel: 30, deviceManufacturer: LAVA, deviceModel: LAVA LZG403, deviceName: Z39G21LB061894, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: Z39G21LB061894, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 45, takesScreenshot: true, udid: Z39G21LB061894, viewportRect: {height: 1414, left: 0, top: 45, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: de4be115-7f2c-4b57-826a-4b9bb06c99b3
+*** Element info: {Using=xpath, value=//*[@bounds='[100,869][140,909]']}
+2023-03-14 17:24:21 INFO   Lava_Z3_LZG403.Test10F frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-14 17:24:23 INFO   Lava_Z3_LZG403.Test10F frontVideoRec Test10F_Fcam_res: 3 resolutions supported
+2023-03-14 17:24:23 INFO   Lava_Z3_LZG403.Test10F frontVideoRec Clicking Video Tab
+2023-03-14 17:24:28 INFO   Lava_Z3_LZG403.Test10F frontVideoRec Select settings option
+2023-03-14 17:24:34 INFO   Lava_Z3_LZG403.Test10F frontVideoRec Select Storagepath option
+2023-03-14 17:24:40 INFO   Lava_Z3_LZG403.Test10F frontVideoRec Search for Storage path option
+2023-03-14 17:24:43 INFO   Lava_Z3_LZG403.Test10F frontVideoRec Select SD as storage option
+2023-03-14 17:24:52 INFO   Lava_Z3_LZG403.Test10F frontVideoRec click on front camera
+2023-03-14 17:24:57 INFO   Lava_Z3_LZG403.Test10F frontVideoRec Select settings option
+2023-03-14 17:25:00 INFO   Lava_Z3_LZG403.Test10F frontVideoRec Select First front video Resolution: 1080p
+2023-03-14 17:25:11 INFO   Lava_Z3_LZG403.Test10F frontVideoRec Start video recording
+2023-03-14 17:34:52 INFO   Lava_Z3_LZG403.Test10F frontVideoRec Stop video recording
+2023-03-14 17:34:58 INFO   Lava_Z3_LZG403.Test10F frontVideoRec Select settings option
+2023-03-14 17:35:02 INFO   Lava_Z3_LZG403.Test10F frontVideoRec Select second front video Resolution:  720p
+2023-03-14 17:35:10 INFO   Lava_Z3_LZG403.Test10F frontVideoRec Start video recording
+2023-03-14 17:44:51 INFO   Lava_Z3_LZG403.Test10F frontVideoRec Stop video recording
+2023-03-14 17:44:58 INFO   Lava_Z3_LZG403.Test10F frontVideoRec Select settings option
+2023-03-14 17:45:02 INFO   Lava_Z3_LZG403.Test10F frontVideoRec Select third front video Resolution:  420p
+2023-03-14 17:45:10 INFO   Lava_Z3_LZG403.Test10F frontVideoRec Start video recording
+2023-03-14 17:54:52 INFO   Lava_Z3_LZG403.Test10F frontVideoRec Stop video recording
+2023-03-14 17:54:57 INFO   Lava_Z3_LZG403.Test10F frontVideoRec Click On back camera mode
+2023-03-14 17:55:02 INFO   Lava_Z3_LZG403.Test10F frontVideoRec Switch to defalut Photo mode
+2023-03-14 17:55:13 INFO   Lava_Z3_LZG403.Test10F frontVideoRec Pass: Test10F pass for front camera video recording
+2023-03-14 17:55:13 INFO   Lava_Z3_LZG403.Test10F frontVideoRec Launch file manager application and verify recorded video capture uSD Card
+2023-03-14 17:55:31 INFO   Lava_Z3_LZG403.Test10F frontVideoRec Swipe up to select uSD card
+2023-03-14 17:55:40 INFO   Lava_Z3_LZG403.Test10F frontVideoRec Select SD card
+2023-03-14 17:55:56 INFO   Lava_Z3_LZG403.Test10F frontVideoRec Select DCIM folder
+2023-03-14 17:55:59 INFO   Lava_Z3_LZG403.Test10F frontVideoRec Select camera folder
+2023-03-14 17:56:02 INFO   Lava_Z3_LZG403.Test10F frontVideoRec Click More options
+2023-03-14 17:56:09 INFO   Lava_Z3_LZG403.Test10F frontVideoRec Click Select all
+2023-03-14 17:56:16 INFO   Lava_Z3_LZG403.Test10F frontVideoRec Test10F_Fcam_video: 3 videos captured successfully
+2023-03-14 17:56:16 INFO   Lava_Z3_LZG403.Test10F frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-14 17:56:25 INFO   Lava_Z3_LZG403.Test10F frontVideoRec Calling VideoPlayBackForSleepWake()
+2023-03-14 17:56:25 INFO   Lava_Z3_LZG403.Test10F VideoPlayBackForSleepWake Launch File Manager application and playback front recorded video from USD for 30 seconds, pause video playback, locking phone and unlock after 30 seconds delay and playback video from pause duration.
+2023-03-14 17:56:32 INFO   Lava_Z3_LZG403.Test10F VideoPlayBackForSleepWake Select External Storage
+2023-03-14 17:56:56 INFO   Lava_Z3_LZG403.Test10F VideoPlayBackForSleepWake Select DCIM folder
+2023-03-14 17:56:59 INFO   Lava_Z3_LZG403.Test10F VideoPlayBackForSleepWake Select Camera folder
+2023-03-14 17:57:03 INFO   Lava_Z3_LZG403.Test10F VideoPlayBackForSleepWake Select MoreOptions1
+2023-03-14 17:57:08 INFO   Lava_Z3_LZG403.Test10F VideoPlayBackForSleepWake Select Sort by
+2023-03-14 17:57:13 INFO   Lava_Z3_LZG403.Test10F VideoPlayBackForSleepWake Select Sort by Newest date first
+2023-03-14 17:57:17 INFO   Lava_Z3_LZG403.Test10F VideoPlayBackForSleepWake Click on first file to play highest recorded resolution video file
+2023-03-14 17:57:17 INFO   Lava_Z3_LZG403.Test10F VideoPlayBackForSleepWake Started video playback
+2023-03-14 17:57:37 INFO   Lava_Z3_LZG403.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-03-14 17:57:37 INFO   Lava_Z3_LZG403.Test10F VideoPlayBackForSleepWake Click pause video button
+2023-03-14 17:57:41 INFO   Lava_Z3_LZG403.Test10F VideoPlayBackForSleepWake Lock Mobile with 30 seconds delay
+2023-03-14 17:58:11 INFO   Lava_Z3_LZG403.Test10F VideoPlayBackForSleepWake Unlock Mobile 
+2023-03-14 17:58:11 INFO   Lava_Z3_LZG403.Test10F VideoPlayBackForSleepWake Wait For 30Seconds
+2023-03-14 17:58:16 INFO   Lava_Z3_LZG403.Test10F VideoPlayBackForSleepWake Playback video from pause video duration
+2023-03-14 17:58:46 INFO   Lava_Z3_LZG403.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-03-14 17:58:46 INFO   Lava_Z3_LZG403.Test10F VideoPlayBackForSleepWake Click pause video button
+2023-03-14 17:59:00 INFO   Lava_Z3_LZG403.Test10F VideoPlayBackForSleepWake Pass: Test10F Pass for Front video play back, Pause,Lock and Unlock Phone Play back from Pause duration Scenario
+2023-03-14 17:59:00 INFO   Lava_Z3_LZG403.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-14 17:59:00 INFO   Lava_Z3_LZG403.Test10F VideoPlayBackForSleepWake calling DatamoveOperation() to move front camera recorded videos files to Test10F folder
+2023-03-14 17:59:00 INFO   Lava_Z3_LZG403.Test10F DataMoveOperation launch file manager application select uSD card-->DCIM folder-->Camera folder-->Select all front camera front camera videos create Test10 and cut paste all videos in Test10F folder
+2023-03-14 17:59:17 INFO   Lava_Z3_LZG403.Test10F DataMoveOperation Swipe up to select uSD card
+2023-03-14 17:59:27 INFO   Lava_Z3_LZG403.Test10F DataMoveOperation Select SD card
+2023-03-14 17:59:39 INFO   Lava_Z3_LZG403.Test10F DataMoveOperation Select DCIM folder
+2023-03-14 17:59:42 INFO   Lava_Z3_LZG403.Test10F DataMoveOperation Select camera folder
+2023-03-14 17:59:45 INFO   Lava_Z3_LZG403.Test10F DataMoveOperation Click More options
+2023-03-14 17:59:52 INFO   Lava_Z3_LZG403.Test10F DataMoveOperation Click Select all
+2023-03-14 17:59:55 INFO   Lava_Z3_LZG403.Test10F DataMoveOperation Click More options
+2023-03-14 18:00:02 INFO   Lava_Z3_LZG403.Test10F DataMoveOperation Select move to option
+2023-03-14 18:00:09 INFO   Lava_Z3_LZG403.Test10F DataMoveOperation Select uSD Card
+2023-03-14 18:00:15 INFO   Lava_Z3_LZG403.Test10F DataMoveOperation Select ADD NEW Folder option
+2023-03-14 18:00:21 INFO   Lava_Z3_LZG403.Test10F DataMoveOperation Name folder as Test10F
+2023-03-14 18:00:28 INFO   Lava_Z3_LZG403.Test10F DataMoveOperation Accept create folder
+2023-03-14 18:02:28 INFO   Lava_Z3_LZG403.Test10F DataMoveOperation Cut paste  video files operation completed successfully
+2023-03-14 18:02:43 INFO   Lava_Z3_LZG403.Test10F DataMoveOperation Pass: Test10F Pass for data move operation successfully
+2023-03-14 18:02:43 INFO   Lava_Z3_LZG403.Test10F DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-14 18:02:43 INFO   Lava_Z3_LZG403.Test10F VideoPlayBackForSleepWake Final Message: Pass Test10F Pass for front camera  video recording, Pause Video Playback scenario and data move operation scenario
+2023-03-14 18:02:43 INFO   Lava_Z3_LZG403.Test10F VideoPlayBackForSleepWake Test: End
+2023-03-14 18:02:43 INFO   Lava_Z3_LZG403.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

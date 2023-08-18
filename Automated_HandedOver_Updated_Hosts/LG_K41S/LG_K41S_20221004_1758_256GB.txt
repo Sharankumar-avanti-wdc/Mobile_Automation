@@ -1,0 +1,1499 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< Com.LG_K41S.test:LG_K41S >----------------------
+[INFO] Building LG_K41S 0.0.1-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ LG_K41S ---
+[INFO] Deleting C:\Users\sandisk\Android11\LG_K41S\target
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ LG_K41S ---
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ LG_K41S ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ LG_K41S ---
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[WARNING] Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ LG_K41S ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding Cp1252, i.e. build is platform dependent!
+[INFO] Compiling 7 source files to C:\Users\sandisk\Android11\LG_K41S\target\test-classes
+[WARNING] /C:/Users/sandisk/Android11/LG_K41S/src/test/java/LG_K41S/Test0.java: Some input files use or override a deprecated API.
+[WARNING] /C:/Users/sandisk/Android11/LG_K41S/src/test/java/LG_K41S/Test0.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M5:test (default-test) @ LG_K41S ---
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running TestSuite
+Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+ Test0 Scenario is as follows 
+1.Unlock phone, clear recent apps, clear internal memory
+Test0 Format Function Not Apllicable ,Host does not support Format Operation with USB Cable
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Setting up the appium desired capabilities
+Clearing Recent Apps
+click on clear all
+Pass: No recent apps found
+Launch File Manager Application and clear internal memory
+swipe up and search for internal storage
+Select  Internal storage
+Select More options
+click on Select all
+Select  Delete permanently
+Select More options
+Select  Delete permanently
+Select  Delete
+Pass: Test0 Clearing phone internal memory is successfull
+Final Message: Pass Test0 pass for Internal format Operation, Test0 Format Function Not Apllicable with USB cable
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test18 Scenario is as follows
+Pushing 1GB zip File to Host Internal Memory via server folder named as Test1 
+Extracting zip file in Host internal memory
+Copy Paste 1GB file (Test1) from host internal memory to uSD Card, Create a folder named Test2 in uSD Card, Copy paste 1GB Folder(Test1) From internal to external inside folder Test2 and Vice versa
+Create folder name(New_Scenario in External memory, select folder name(Test2) from internal memory and perform cut paste operation from internla to external memory
+Setting up the appium desired capabilities
+Clearing Recent Apps
+Clearing Recent Apps
+Pass: Test18 Pass for clearing Recent apps 
+Pushing File from Laptop to Mobile
+Launch Home Screen application and clear recent apps
+clcik on ok
+click on browse option
+swipe up and search for sd card
+Select Internal storage
+Search for Test1 Folder
+Select Testfile
+Extracting Push zip file as Folder named Test1
+1GB File Extration completed
+click on done
+Launching file manager application
+swipe up and search for internal storage
+Select Internal storage
+Select Test1 folder
+Select more options
+Select Copy option
+Select External Storage
+Select Paste option for copy paste Test1 folder from Internal to external storage
+swipe up and search for internal storage
+Select Internal storage
+Long Press and select and Test1 Folder
+Select more options
+Select Copy option
+Select External storage
+Select create folder option
+Name folder as Test2
+Copy paste Test1 folder inside Test2 folder
+swipe up and search for sd card
+Select External Storage
+Long Press and select and Test2 Folder
+Select more options
+Select Copy option
+Select Internal storage
+click on copy here
+swipe up and search for internal storage
+Select Internal storage
+Long Press and select and Test2 Folder
+Select more options
+Select move option
+Select External storage
+click on create folder and create folder name folder name New_Scenario
+Select Move to option
+Move to Test1 folder inside New_Scenario folder
+Pass: Cut paste Operation Completed Successfully
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Final message: Pass Test18 pass for copy paste & cut paste operation
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test8 scenario is as follows
+1.Launch mobile default voice recording application and set uSD card storage option, record audio file for 2 minutes duration
+2.Launch file manager application and playback recorded audio file from external storage, fast forward audio file and pause
+3.Launch file manager application and playback copied audio files from external storage the files are placed in the Test1 folder
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Clearing Recent Apps
+Pass: Test0 Pass for clearing Recent apps 
+Clicking on more options
+Clicking on Settings Tab
+Clicking on save to
+Select uSD Card save location
+Saving recorded files
+Recording Completed
+Launch File Manager Application to verify recorded audio
+swipe up and search for sd card
+Select  SD Card
+switch to grid view mode and select AudioRecorder folder
+Select AudioRecorder Folder
+Select my_sounds Folder
+switch to list view mode
+Select More Options 
+Click On Select All Options
+Test8: 1 Audio file recorded  sucessfully
+Pass: Test8 pass for audio recording in uSD Card
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Calling PlayRecordedAudio() to play back recorded file
+Clear Recent Apps
+Clearing Recent Apps
+Pass: Test0 Pass for clearing Recent apps 
+Launching file manager application
+Select External Storage
+switch to grid view mode and select AudioRecorder folder
+clicking AudioRecorder folder
+Clicking recordings folder
+switch to list view mode
+Started Audio playback
+click on fastforward  10 seconds
+click on pause
+Pass: Test8 Pass for playing recorded Audio file
+Pass: Test8 Pass for playing, fast forward, and pause recorded audio file scenario
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Calling PlayCopiedAudioFile() for copied audio files from Test1 folder
+Clearing Recent Apps
+Pass: Test0 Pass for clearing Recent apps 
+Launching file manager application
+Select External Storage
+Select test1
+Select testfile
+Select 1GB
+Select MP3Files
+Select Laahe.Mp3.mp3
+Started video playback
+Click fast forward button for 10 seconds audio forward
+Pause audio playback
+Pass: 1st Copied Audio play back and fast forward is successfull
+ select 11 Rob Thomas - Lonely No More.mp3
+Started audio playback
+Click fast forward button for 10 seconds audio forward
+Pause audio playback
+Pass: 2nd Copied Audio play back and fast forward is successfull
+select file_example_MP3_5MG.mp3
+Started audio playback
+Click fast forward button for 10 seconds audio forward
+Pause audio playback
+Pass: 3rd Copied Audio play back and fast forward is successfull
+Pass: Test8 Pass for Recorded and copied audio play back and fast forward scenario 
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Final Message: Pass Test8 Pass for Recorded and copied audio play back and fast forward scenario
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test10 Scenario is as follows
+1.Launch Camera application and start back camera video recording for all host applicable resolutions in uSD Card
+2.Playback Highest resolution recorded video from USD Card, fast forward playback and pause video scenario 
+3.Playback copied videos from Test1 folder, fast forward and pause scenario
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Clearing Recent Apps
+Clearing Recent Apps
+Pass: Test0 Pass for clearing Recent apps 
+Launch Camera Application for rear camera video recording
+clcik on next
+change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RPG-USB-APPS-38', ip: '10.65.145.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: K41S, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: LMK410HQA659M7GYW4}, deviceApiLevel: 30, deviceManufacturer: LGE, deviceModel: LM-K410, deviceName: LMK410HQA659M7GYW4, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: LMK410HQA659M7GYW4, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 67, takesScreenshot: true, udid: LMK410HQA659M7GYW4, viewportRect: {height: 1382, left: 0, top: 67, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: de38532b-a8cc-4e7c-af1f-49aee12a02b4
+*** Element info: {Using=xpath, value=//*[@text='Next']}
+clcik on later
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test10_Bcam_res: 3 resolutions supported
+Switch to video mode
+Click On Settings and set uSD card as storage option
+Select storage location option
+Select SD as storage option
+Click On Settings and set uSD card as storage option
+Select Video Resolution
+Select First Back video resolution: FHD 16:9 1920x1080
+recordingDurationRearExt = 300
+Start video recording
+Stop video recording
+Click On Settings option to select rear video resolution
+Select Rear video size
+Select second Back video resolution: HD FullVision 1600x720
+recordingDurationRear1 = 300
+Start video recording
+Stop video recording
+Click On Settings option to select rear video resolution
+Select Rear video size
+Select Third Back video resolution: HD 16:9 1280x720
+recordingDurationRear2 = 300
+Start video recording
+Stop video recording
+Pass: Rear camera video recording is successfull
+Launch File Manager Application to verify captured videos
+swipe up and search for sd card
+Select  SD Card
+swipe up and search for dcim
+Select DCIM Folder
+Select Camera Folder
+Select More Options 
+Click On Select All Options
+Test10_Bcam_video: 3 Videos captured successfull
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Calling RecordedVideoPlayback() for Playing Highest record video, fast forward video play back scenario
+Clearing Recent Apps
+Clearing Recent Apps
+Pass: Test0 Pass for clearing Recent apps 
+Launch Camera Application for rear camera video recording
+Select External Storage
+Select DCIM folder
+Select Camera folder
+select more options
+Select Sort BY
+Select Largest first
+Click on first file to play highest recorded resolution video file
+Tap Somewhere on Screen for contents to visible on Screen
+Fast forward video for 10 seconds
+Pause video playback
+Pass: Recorded Video play back and fast forward successfull 
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Calling DataMovementOperation() to move recorded rear camer videos to Test10 Folder 
+Re-launch file manager application and select external storage for data move operation, select all rear camera videos present in camera folder and move to Test10 folder
+Select external storage
+switch to grid view mode and select DCIM folder
+Select DCIM folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Click More options
+select move to option
+select uSD Card
+Select ADD NEW Folder option
+Name folder as Test10
+Accept create folder
+Cut paste  video files operation completed successfully
+Test10: Data move operation completed successfully
+Pass: Test10 Pass for data move operation successfully
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Calling copiedvideosPlayBack() for playing copied video file from Test1 folder
+Clearing Recent Apps
+Pass: Test0 Pass for clearing Recent apps 
+Launch file manager application, select uSD card, select Test1 folder, select Videos folder and Play copied videos and fast forward the same 
+Select external storage
+Select Test1 folder
+Select test_file folder
+Select OneGB folder
+Select video folder
+Select LG_4K_DEMO_HDR_2018_(60FPS)_ELBA(480p).mp4 file for video playback
+Tap Somewhere on Screen for contents to visible on Screen
+Started video playback
+Tap Somewhere on Screen for contents to visible on Screen
+Click fast forward button for 10 seconds video forward
+Pause video playback
+Select FHD 5.1 ( 1350 X 2560 ).webm file for video playback
+Started video playback
+Tap Somewhere on Screen for contents to visible on Screen
+Click fast forward button for 10 seconds video forward
+Click pause button to stop video
+Pass: FHD Video play back and fast forward is successful 
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Final message: Pass Test10 Pass for Playing Copied Video files, recorded video file and fast forward video play back scenario 
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test:Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test10F Scenario is as follows
+Launch Camera application and start front camera video recording for all host applicable resolutions in uSD Card
+Playback front Highest recorded video from uSD card for 30 seconds, pause video playback, lock mobile and wait 30 seconds, unlock mobile and playback video from pause video duration
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Clearing Recent Apps
+Pass: Test0 Pass for clearing Recent apps 
+Launch Camera Application for rear camera video recording
+clcik on next
+clcik on later
+Test10F_Fcam_res: 3 resolutions supported
+Switch to video mode
+Click On Settings option to select frontvideocamera
+Click On Settings and set uSD card as storage option
+Select storage location option
+Select SD as storage option
+Click On Settings option to select frontvideo resolution
+Select Video Resolution
+Select First Back video resolution: FHD 16:9 1920x1080
+recordingDurationFront = 300
+Start video recording
+Stop video recording
+Click On Settings option to select frontvideo resolution
+Select Video Resolution
+Select First Back video resolution: HD FullVision 1600x720
+recordingDurationFront1 = 300
+Start video recording
+Stop video recording
+Click On Settings option to select frontvideo resolution
+Select Video Resolution
+Select First Back video resolution: HD 16:9 1280x720
+recordingDurationFront2 = 300
+Start video recording
+Stop video recording
+select back camera
+Pass: Test10F pass for front camera video recording
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch File Manager Application to verify captured videos
+Select  SD Card
+swipe up and search for dcim
+Select DCIM Folder
+Select Camera Folder
+Select More Options 
+Click On Select All Options
+Test10F_Fcam_video: 3 Videos captured successfull
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Calling VideoPlayBackForSleepWake()
+Clearing Recent Apps
+Pass: Test0 Pass for clearing Recent apps 
+Launch File Manager application and playback front recorded video from USD for 30 seconds, pause video playback, locking phone and unlock after 30 seconds delay and playback video from pause duration.
+Select External Storage
+//Select DCIM Folder
+//Select camera
+select more options
+Select Sort BY
+Select Newest date first
+Click on first file to play highest recorded resolution video file
+Started video playback
+Tap Somewhere on Screen for contents to visible on Screen
+Lock Mobile with 30 seconds delay
+Unlock Mobile
+Pass: Test10F Pass for Front video play back, Pause,Lock and Unlock Phone Play back from Pause duration Scenario
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Calling Data Move Operation
+Re-launch file manager application and select external storage for data move operation, select all rear camera videos present in camera folder and move to Test10 folder
+Select external storage
+switch to grid view mode and select DCIM folder
+Select DCIM folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Click More options
+select move to option
+select uSD Card
+Select ADD NEW Folder option
+Name folder as Test10F
+Accept create folder
+Cut paste  video files operation completed successfully
+Test10F: Data move operation completed successfully
+Pass: Test10F Pass for data move operation successfully
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Final Message: Pass Test10F Pass for Pause Video Playback
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test9 Scenario is follows:
+Launch camera application, set USD as a Storage option, start rear camera Image capture for all host resolutions
+Setting up the appium desired capabilities
+Clearing Recent Apps
+Clearing Recent Apps
+Pass: Test9 Pass for clearing Recent apps 
+Launch Camera application for rear Picture capture for all host resolution
+clcik on next
+change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RPG-USB-APPS-38', ip: '10.65.145.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: K41S, newCommandTimeout: 600, platformName: android, platformVersion: 11, udid: LMK410HQA659M7GYW4}, deviceApiLevel: 30, deviceManufacturer: LGE, deviceModel: LM-K410, deviceName: LMK410HQA659M7GYW4, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: LMK410HQA659M7GYW4, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pixelRatio: 1.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 67, takesScreenshot: true, udid: LMK410HQA659M7GYW4, viewportRect: {height: 1382, left: 0, top: 67, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 94f219f1-3860-4ef2-9adf-cd4b4e7ec49f
+*** Element info: {Using=xpath, value=//*[@text='Next']}
+clcik on later
+change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RPG-USB-APPS-38', ip: '10.65.145.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: K41S, newCommandTimeout: 600, platformName: android, platformVersion: 11, udid: LMK410HQA659M7GYW4}, deviceApiLevel: 30, deviceManufacturer: LGE, deviceModel: LM-K410, deviceName: LMK410HQA659M7GYW4, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: LMK410HQA659M7GYW4, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pixelRatio: 1.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 67, takesScreenshot: true, udid: LMK410HQA659M7GYW4, viewportRect: {height: 1382, left: 0, top: 67, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 94f219f1-3860-4ef2-9adf-cd4b4e7ec49f
+*** Element info: {Using=xpath, value=//*[@text='Later']}
+Test9_Bcam_res: 8 resolutions supported
+Click On Settings and set uSD card as storage option
+Select storage location option
+Select SD as storage option
+Select Rear Image Size
+Select camera Resolution
+Select first Image Resoution: 4:3 (32 MP) 6528x4896
+totalPictureCountRear = 75
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 0
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 1
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 2
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 3
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 4
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 5
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 6
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 7
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 8
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 9
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 10
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 11
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 12
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 13
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 14
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 15
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 16
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 17
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 18
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 19
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 20
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 21
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 22
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 23
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 24
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 25
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 26
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 27
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 28
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 29
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 30
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 31
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 32
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 33
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 34
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 35
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 36
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 37
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 38
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 39
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 40
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 41
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 42
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 43
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 44
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 45
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 46
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 47
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 48
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 49
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 50
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 51
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 52
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 53
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 54
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 55
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 56
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 57
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 58
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 59
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 60
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 61
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 62
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 63
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 64
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 65
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 66
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 67
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 68
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 69
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 70
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 71
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 72
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 73
+clicking Image of 1st Resolutions 4:3 (32 MP) 6528x4896: 74
+Back camera first resolution: 75 images Captured succesfull
+Select Rear Image Size
+Select camera Resolution
+Select 2nd Image Resoution: 4:3 (8Point0 MP) 3264x2448
+totalPictureCountRear1 = 75
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 0
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 1
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 2
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 3
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 4
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 5
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 6
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 7
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 8
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 9
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 10
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 11
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 12
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 13
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 14
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 15
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 16
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 17
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 18
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 19
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 20
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 21
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 22
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 23
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 24
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 25
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 26
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 27
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 28
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 29
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 30
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 31
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 32
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 33
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 34
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 35
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 36
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 37
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 38
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 39
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 40
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 41
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 42
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 43
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 44
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 45
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 46
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 47
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 48
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 49
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 50
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 51
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 52
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 53
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 54
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 55
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 56
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 57
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 58
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 59
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 60
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 61
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 62
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 63
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 64
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 65
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 66
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 67
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 68
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 69
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 70
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 71
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 72
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 73
+clicking Image of 2nd Resolutions 4:3 (8Point0 MP) 3264x2448: 74
+Back camera second resolution: 75 images Captured succesfull
+Select Rear Image Size
+Select camera Resolution
+Select 3rd Image Resoution: 4:3 (1Point9 MP) 1600x1200
+totalPictureCountRear2 = 50
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 0
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 1
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 2
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 3
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 4
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 5
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 6
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 7
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 8
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 9
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 10
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 11
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 12
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 13
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 14
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 15
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 16
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 17
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 18
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 19
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 20
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 21
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 22
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 23
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 24
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 25
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 26
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 27
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 28
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 29
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 30
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 31
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 32
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 33
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 34
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 35
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 36
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 37
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 38
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 39
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 40
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 41
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 42
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 43
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 44
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 45
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 46
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 47
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 48
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 49
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 50
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 51
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 52
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 53
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 54
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 55
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 56
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 57
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 58
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 59
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 60
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 61
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 62
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 63
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 64
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 65
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 66
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 67
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 68
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 69
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 70
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 71
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 72
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 73
+clicking Image of 3rd Resolutions 4:3 (1Point9 MP) 1600x1200: 74
+Back camera third resolution: 75 images Captured succesfull
+Select Rear Image Size
+Select camera Resolution
+Select 4th Image Resoution: 16:9 (6Point0 MP) 3264x1836
+totalPictureCountRear3 = 50
+clicking Image of 4th Resolutions 16:9 (6Point0 MP) 3264x1836: 0
+clicking Image of 4th Resolutions 16:9 (6Point0 MP) 3264x1836: 1
+clicking Image of 4th Resolutions 16:9 (6Point0 MP) 3264x1836: 2
+clicking Image of 4th Resolutions 16:9 (6Point0 MP) 3264x1836: 3
+clicking Image of 4th Resolutions 16:9 (6Point0 MP) 3264x1836: 4
+clicking Image of 4th Resolutions 16:9 (6Point0 MP) 3264x1836: 5
+clicking Image of 4th Resolutions 16:9 (6Point0 MP) 3264x1836: 6
+clicking Image of 4th Resolutions 16:9 (6Point0 MP) 3264x1836: 7
+clicking Image of 4th Resolutions 16:9 (6Point0 MP) 3264x1836: 8
+clicking Image of 4th Resolutions 16:9 (6Point0 MP) 3264x1836: 9
+clicking Image of 4th Resolutions 16:9 (6Point0 MP) 3264x1836: 10
+clicking Image of 4th Resolutions 16:9 (6Point0 MP) 3264x1836: 11
+clicking Image of 4th Resolutions 16:9 (6Point0 MP) 3264x1836: 12
+clicking Image of 4th Resolutions 16:9 (6Point0 MP) 3264x1836: 13
+clicking Image of 4th Resolutions 16:9 (6Point0 MP) 3264x1836: 14
+clicking Image of 4th Resolutions 16:9 (6Point0 MP) 3264x1836: 15
+clicking Image of 4th Resolutions 16:9 (6Point0 MP) 3264x1836: 16
+clicking Image of 4th Resolutions 16:9 (6Point0 MP) 3264x1836: 17
+clicking Image of 4th Resolutions 16:9 (6Point0 MP) 3264x1836: 18
+clicking Image of 4th Resolutions 16:9 (6Point0 MP) 3264x1836: 19
+clicking Image of 4th Resolutions 16:9 (6Point0 MP) 3264x1836: 20
+clicking Image of 4th Resolutions 16:9 (6Point0 MP) 3264x1836: 21
+clicking Image of 4th Resolutions 16:9 (6Point0 MP) 3264x1836: 22
+clicking Image of 4th Resolutions 16:9 (6Point0 MP) 3264x1836: 23
+clicking Image of 4th Resolutions 16:9 (6Point0 MP) 3264x1836: 24
+clicking Image of 4th Resolutions 16:9 (6Point0 MP) 3264x1836: 25
+clicking Image of 4th Resolutions 16:9 (6Point0 MP) 3264x1836: 26
+clicking Image of 4th Resolutions 16:9 (6Point0 MP) 3264x1836: 27
+clicking Image of 4th Resolutions 16:9 (6Point0 MP) 3264x1836: 28
+clicking Image of 4th Resolutions 16:9 (6Point0 MP) 3264x1836: 29
+clicking Image of 4th Resolutions 16:9 (6Point0 MP) 3264x1836: 30
+clicking Image of 4th Resolutions 16:9 (6Point0 MP) 3264x1836: 31
+clicking Image of 4th Resolutions 16:9 (6Point0 MP) 3264x1836: 32
+clicking Image of 4th Resolutions 16:9 (6Point0 MP) 3264x1836: 33
+clicking Image of 4th Resolutions 16:9 (6Point0 MP) 3264x1836: 34
+clicking Image of 4th Resolutions 16:9 (6Point0 MP) 3264x1836: 35
+clicking Image of 4th Resolutions 16:9 (6Point0 MP) 3264x1836: 36
+clicking Image of 4th Resolutions 16:9 (6Point0 MP) 3264x1836: 37
+clicking Image of 4th Resolutions 16:9 (6Point0 MP) 3264x1836: 38
+clicking Image of 4th Resolutions 16:9 (6Point0 MP) 3264x1836: 39
+clicking Image of 4th Resolutions 16:9 (6Point0 MP) 3264x1836: 40
+clicking Image of 4th Resolutions 16:9 (6Point0 MP) 3264x1836: 41
+clicking Image of 4th Resolutions 16:9 (6Point0 MP) 3264x1836: 42
+clicking Image of 4th Resolutions 16:9 (6Point0 MP) 3264x1836: 43
+clicking Image of 4th Resolutions 16:9 (6Point0 MP) 3264x1836: 44
+clicking Image of 4th Resolutions 16:9 (6Point0 MP) 3264x1836: 45
+clicking Image of 4th Resolutions 16:9 (6Point0 MP) 3264x1836: 46
+clicking Image of 4th Resolutions 16:9 (6Point0 MP) 3264x1836: 47
+clicking Image of 4th Resolutions 16:9 (6Point0 MP) 3264x1836: 48
+clicking Image of 4th Resolutions 16:9 (6Point0 MP) 3264x1836: 49
+Back camera fourth resolution: 50 images Captured succesfull
+Select Rear Image Size
+Select camera Resolution
+Select 5th Image Resoution: 16:9 (2Point1 MP) 1920x1080
+totalPictureCountRear4 = 50
+clicking Image of 5th Resolutions 16:9 (2Point1 MP) 1920x1080: 0
+clicking Image of 5th Resolutions 16:9 (2Point1 MP) 1920x1080: 1
+clicking Image of 5th Resolutions 16:9 (2Point1 MP) 1920x1080: 2
+clicking Image of 5th Resolutions 16:9 (2Point1 MP) 1920x1080: 3
+clicking Image of 5th Resolutions 16:9 (2Point1 MP) 1920x1080: 4
+clicking Image of 5th Resolutions 16:9 (2Point1 MP) 1920x1080: 5
+clicking Image of 5th Resolutions 16:9 (2Point1 MP) 1920x1080: 6
+clicking Image of 5th Resolutions 16:9 (2Point1 MP) 1920x1080: 7
+clicking Image of 5th Resolutions 16:9 (2Point1 MP) 1920x1080: 8
+clicking Image of 5th Resolutions 16:9 (2Point1 MP) 1920x1080: 9
+clicking Image of 5th Resolutions 16:9 (2Point1 MP) 1920x1080: 10
+clicking Image of 5th Resolutions 16:9 (2Point1 MP) 1920x1080: 11
+clicking Image of 5th Resolutions 16:9 (2Point1 MP) 1920x1080: 12
+clicking Image of 5th Resolutions 16:9 (2Point1 MP) 1920x1080: 13
+clicking Image of 5th Resolutions 16:9 (2Point1 MP) 1920x1080: 14
+clicking Image of 5th Resolutions 16:9 (2Point1 MP) 1920x1080: 15
+clicking Image of 5th Resolutions 16:9 (2Point1 MP) 1920x1080: 16
+clicking Image of 5th Resolutions 16:9 (2Point1 MP) 1920x1080: 17
+clicking Image of 5th Resolutions 16:9 (2Point1 MP) 1920x1080: 18
+clicking Image of 5th Resolutions 16:9 (2Point1 MP) 1920x1080: 19
+clicking Image of 5th Resolutions 16:9 (2Point1 MP) 1920x1080: 20
+clicking Image of 5th Resolutions 16:9 (2Point1 MP) 1920x1080: 21
+clicking Image of 5th Resolutions 16:9 (2Point1 MP) 1920x1080: 22
+clicking Image of 5th Resolutions 16:9 (2Point1 MP) 1920x1080: 23
+clicking Image of 5th Resolutions 16:9 (2Point1 MP) 1920x1080: 24
+clicking Image of 5th Resolutions 16:9 (2Point1 MP) 1920x1080: 25
+clicking Image of 5th Resolutions 16:9 (2Point1 MP) 1920x1080: 26
+clicking Image of 5th Resolutions 16:9 (2Point1 MP) 1920x1080: 27
+clicking Image of 5th Resolutions 16:9 (2Point1 MP) 1920x1080: 28
+clicking Image of 5th Resolutions 16:9 (2Point1 MP) 1920x1080: 29
+clicking Image of 5th Resolutions 16:9 (2Point1 MP) 1920x1080: 30
+clicking Image of 5th Resolutions 16:9 (2Point1 MP) 1920x1080: 31
+clicking Image of 5th Resolutions 16:9 (2Point1 MP) 1920x1080: 32
+clicking Image of 5th Resolutions 16:9 (2Point1 MP) 1920x1080: 33
+clicking Image of 5th Resolutions 16:9 (2Point1 MP) 1920x1080: 34
+clicking Image of 5th Resolutions 16:9 (2Point1 MP) 1920x1080: 35
+clicking Image of 5th Resolutions 16:9 (2Point1 MP) 1920x1080: 36
+clicking Image of 5th Resolutions 16:9 (2Point1 MP) 1920x1080: 37
+clicking Image of 5th Resolutions 16:9 (2Point1 MP) 1920x1080: 38
+clicking Image of 5th Resolutions 16:9 (2Point1 MP) 1920x1080: 39
+clicking Image of 5th Resolutions 16:9 (2Point1 MP) 1920x1080: 40
+clicking Image of 5th Resolutions 16:9 (2Point1 MP) 1920x1080: 41
+clicking Image of 5th Resolutions 16:9 (2Point1 MP) 1920x1080: 42
+clicking Image of 5th Resolutions 16:9 (2Point1 MP) 1920x1080: 43
+clicking Image of 5th Resolutions 16:9 (2Point1 MP) 1920x1080: 44
+clicking Image of 5th Resolutions 16:9 (2Point1 MP) 1920x1080: 45
+clicking Image of 5th Resolutions 16:9 (2Point1 MP) 1920x1080: 46
+clicking Image of 5th Resolutions 16:9 (2Point1 MP) 1920x1080: 47
+clicking Image of 5th Resolutions 16:9 (2Point1 MP) 1920x1080: 48
+clicking Image of 5th Resolutions 16:9 (2Point1 MP) 1920x1080: 49
+Back camera 5th resolution: 50 images Captured succesfull
+Select Rear Image Size
+Select camera Resolution
+Select 6th Image Resoution: FullVision (4Point8 MP) 3264x1468
+totalPictureCountRear5 = 50
+clicking Image of 6th Resolutions FullVision (4Point8 MP) 3264x1468: 0
+clicking Image of 6th Resolutions FullVision (4Point8 MP) 3264x1468: 1
+clicking Image of 6th Resolutions FullVision (4Point8 MP) 3264x1468: 2
+clicking Image of 6th Resolutions FullVision (4Point8 MP) 3264x1468: 3
+clicking Image of 6th Resolutions FullVision (4Point8 MP) 3264x1468: 4
+clicking Image of 6th Resolutions FullVision (4Point8 MP) 3264x1468: 5
+clicking Image of 6th Resolutions FullVision (4Point8 MP) 3264x1468: 6
+clicking Image of 6th Resolutions FullVision (4Point8 MP) 3264x1468: 7
+clicking Image of 6th Resolutions FullVision (4Point8 MP) 3264x1468: 8
+clicking Image of 6th Resolutions FullVision (4Point8 MP) 3264x1468: 9
+clicking Image of 6th Resolutions FullVision (4Point8 MP) 3264x1468: 10
+clicking Image of 6th Resolutions FullVision (4Point8 MP) 3264x1468: 11
+clicking Image of 6th Resolutions FullVision (4Point8 MP) 3264x1468: 12
+clicking Image of 6th Resolutions FullVision (4Point8 MP) 3264x1468: 13
+clicking Image of 6th Resolutions FullVision (4Point8 MP) 3264x1468: 14
+clicking Image of 6th Resolutions FullVision (4Point8 MP) 3264x1468: 15
+clicking Image of 6th Resolutions FullVision (4Point8 MP) 3264x1468: 16
+clicking Image of 6th Resolutions FullVision (4Point8 MP) 3264x1468: 17
+clicking Image of 6th Resolutions FullVision (4Point8 MP) 3264x1468: 18
+clicking Image of 6th Resolutions FullVision (4Point8 MP) 3264x1468: 19
+clicking Image of 6th Resolutions FullVision (4Point8 MP) 3264x1468: 20
+clicking Image of 6th Resolutions FullVision (4Point8 MP) 3264x1468: 21
+clicking Image of 6th Resolutions FullVision (4Point8 MP) 3264x1468: 22
+clicking Image of 6th Resolutions FullVision (4Point8 MP) 3264x1468: 23
+clicking Image of 6th Resolutions FullVision (4Point8 MP) 3264x1468: 24
+clicking Image of 6th Resolutions FullVision (4Point8 MP) 3264x1468: 25
+clicking Image of 6th Resolutions FullVision (4Point8 MP) 3264x1468: 26
+clicking Image of 6th Resolutions FullVision (4Point8 MP) 3264x1468: 27
+clicking Image of 6th Resolutions FullVision (4Point8 MP) 3264x1468: 28
+clicking Image of 6th Resolutions FullVision (4Point8 MP) 3264x1468: 29
+clicking Image of 6th Resolutions FullVision (4Point8 MP) 3264x1468: 30
+clicking Image of 6th Resolutions FullVision (4Point8 MP) 3264x1468: 31
+clicking Image of 6th Resolutions FullVision (4Point8 MP) 3264x1468: 32
+clicking Image of 6th Resolutions FullVision (4Point8 MP) 3264x1468: 33
+clicking Image of 6th Resolutions FullVision (4Point8 MP) 3264x1468: 34
+clicking Image of 6th Resolutions FullVision (4Point8 MP) 3264x1468: 35
+clicking Image of 6th Resolutions FullVision (4Point8 MP) 3264x1468: 36
+clicking Image of 6th Resolutions FullVision (4Point8 MP) 3264x1468: 37
+clicking Image of 6th Resolutions FullVision (4Point8 MP) 3264x1468: 38
+clicking Image of 6th Resolutions FullVision (4Point8 MP) 3264x1468: 39
+clicking Image of 6th Resolutions FullVision (4Point8 MP) 3264x1468: 40
+clicking Image of 6th Resolutions FullVision (4Point8 MP) 3264x1468: 41
+clicking Image of 6th Resolutions FullVision (4Point8 MP) 3264x1468: 42
+clicking Image of 6th Resolutions FullVision (4Point8 MP) 3264x1468: 43
+clicking Image of 6th Resolutions FullVision (4Point8 MP) 3264x1468: 44
+clicking Image of 6th Resolutions FullVision (4Point8 MP) 3264x1468: 45
+clicking Image of 6th Resolutions FullVision (4Point8 MP) 3264x1468: 46
+clicking Image of 6th Resolutions FullVision (4Point8 MP) 3264x1468: 47
+clicking Image of 6th Resolutions FullVision (4Point8 MP) 3264x1468: 48
+clicking Image of 6th Resolutions FullVision (4Point8 MP) 3264x1468: 49
+Back camera 6th resolution: 50 images Captured succesfull
+Select Rear Image Size
+Select camera Resolution
+Select 7th Image Resoution: FullVision (1Point2 MP) 1600x720
+totalPictureCountRear6 = 50
+clicking Image of 7th Resolutions FullVision (1Point2 MP) 1600x720: 0
+clicking Image of 7th Resolutions FullVision (1Point2 MP) 1600x720: 1
+clicking Image of 7th Resolutions FullVision (1Point2 MP) 1600x720: 2
+clicking Image of 7th Resolutions FullVision (1Point2 MP) 1600x720: 3
+clicking Image of 7th Resolutions FullVision (1Point2 MP) 1600x720: 4
+clicking Image of 7th Resolutions FullVision (1Point2 MP) 1600x720: 5
+clicking Image of 7th Resolutions FullVision (1Point2 MP) 1600x720: 6
+clicking Image of 7th Resolutions FullVision (1Point2 MP) 1600x720: 7
+clicking Image of 7th Resolutions FullVision (1Point2 MP) 1600x720: 8
+clicking Image of 7th Resolutions FullVision (1Point2 MP) 1600x720: 9
+clicking Image of 7th Resolutions FullVision (1Point2 MP) 1600x720: 10
+clicking Image of 7th Resolutions FullVision (1Point2 MP) 1600x720: 11
+clicking Image of 7th Resolutions FullVision (1Point2 MP) 1600x720: 12
+clicking Image of 7th Resolutions FullVision (1Point2 MP) 1600x720: 13
+clicking Image of 7th Resolutions FullVision (1Point2 MP) 1600x720: 14
+clicking Image of 7th Resolutions FullVision (1Point2 MP) 1600x720: 15
+clicking Image of 7th Resolutions FullVision (1Point2 MP) 1600x720: 16
+clicking Image of 7th Resolutions FullVision (1Point2 MP) 1600x720: 17
+clicking Image of 7th Resolutions FullVision (1Point2 MP) 1600x720: 18
+clicking Image of 7th Resolutions FullVision (1Point2 MP) 1600x720: 19
+clicking Image of 7th Resolutions FullVision (1Point2 MP) 1600x720: 20
+clicking Image of 7th Resolutions FullVision (1Point2 MP) 1600x720: 21
+clicking Image of 7th Resolutions FullVision (1Point2 MP) 1600x720: 22
+clicking Image of 7th Resolutions FullVision (1Point2 MP) 1600x720: 23
+clicking Image of 7th Resolutions FullVision (1Point2 MP) 1600x720: 24
+clicking Image of 7th Resolutions FullVision (1Point2 MP) 1600x720: 25
+clicking Image of 7th Resolutions FullVision (1Point2 MP) 1600x720: 26
+clicking Image of 7th Resolutions FullVision (1Point2 MP) 1600x720: 27
+clicking Image of 7th Resolutions FullVision (1Point2 MP) 1600x720: 28
+clicking Image of 7th Resolutions FullVision (1Point2 MP) 1600x720: 29
+clicking Image of 7th Resolutions FullVision (1Point2 MP) 1600x720: 30
+clicking Image of 7th Resolutions FullVision (1Point2 MP) 1600x720: 31
+clicking Image of 7th Resolutions FullVision (1Point2 MP) 1600x720: 32
+clicking Image of 7th Resolutions FullVision (1Point2 MP) 1600x720: 33
+clicking Image of 7th Resolutions FullVision (1Point2 MP) 1600x720: 34
+clicking Image of 7th Resolutions FullVision (1Point2 MP) 1600x720: 35
+clicking Image of 7th Resolutions FullVision (1Point2 MP) 1600x720: 36
+clicking Image of 7th Resolutions FullVision (1Point2 MP) 1600x720: 37
+clicking Image of 7th Resolutions FullVision (1Point2 MP) 1600x720: 38
+clicking Image of 7th Resolutions FullVision (1Point2 MP) 1600x720: 39
+clicking Image of 7th Resolutions FullVision (1Point2 MP) 1600x720: 40
+clicking Image of 7th Resolutions FullVision (1Point2 MP) 1600x720: 41
+clicking Image of 7th Resolutions FullVision (1Point2 MP) 1600x720: 42
+clicking Image of 7th Resolutions FullVision (1Point2 MP) 1600x720: 43
+clicking Image of 7th Resolutions FullVision (1Point2 MP) 1600x720: 44
+clicking Image of 7th Resolutions FullVision (1Point2 MP) 1600x720: 45
+clicking Image of 7th Resolutions FullVision (1Point2 MP) 1600x720: 46
+clicking Image of 7th Resolutions FullVision (1Point2 MP) 1600x720: 47
+clicking Image of 7th Resolutions FullVision (1Point2 MP) 1600x720: 48
+clicking Image of 7th Resolutions FullVision (1Point2 MP) 1600x720: 49
+Back camera 7th resolution: 50 images Captured succesfull
+Select Rear Image Size
+Select camera Resolution
+Select 8th Image Resoution: 1:1 (6.0MP) 2448x2448
+totalPictureCountRear7 = 50
+clicking Image of 8th Resolutions 1:1 (6.0MP) 2448x2448: 0
+clicking Image of 8th Resolutions 1:1 (6.0MP) 2448x2448: 1
+clicking Image of 8th Resolutions 1:1 (6.0MP) 2448x2448: 2
+clicking Image of 8th Resolutions 1:1 (6.0MP) 2448x2448: 3
+clicking Image of 8th Resolutions 1:1 (6.0MP) 2448x2448: 4
+clicking Image of 8th Resolutions 1:1 (6.0MP) 2448x2448: 5
+clicking Image of 8th Resolutions 1:1 (6.0MP) 2448x2448: 6
+clicking Image of 8th Resolutions 1:1 (6.0MP) 2448x2448: 7
+clicking Image of 8th Resolutions 1:1 (6.0MP) 2448x2448: 8
+clicking Image of 8th Resolutions 1:1 (6.0MP) 2448x2448: 9
+clicking Image of 8th Resolutions 1:1 (6.0MP) 2448x2448: 10
+clicking Image of 8th Resolutions 1:1 (6.0MP) 2448x2448: 11
+clicking Image of 8th Resolutions 1:1 (6.0MP) 2448x2448: 12
+clicking Image of 8th Resolutions 1:1 (6.0MP) 2448x2448: 13
+clicking Image of 8th Resolutions 1:1 (6.0MP) 2448x2448: 14
+clicking Image of 8th Resolutions 1:1 (6.0MP) 2448x2448: 15
+clicking Image of 8th Resolutions 1:1 (6.0MP) 2448x2448: 16
+clicking Image of 8th Resolutions 1:1 (6.0MP) 2448x2448: 17
+clicking Image of 8th Resolutions 1:1 (6.0MP) 2448x2448: 18
+clicking Image of 8th Resolutions 1:1 (6.0MP) 2448x2448: 19
+clicking Image of 8th Resolutions 1:1 (6.0MP) 2448x2448: 20
+clicking Image of 8th Resolutions 1:1 (6.0MP) 2448x2448: 21
+clicking Image of 8th Resolutions 1:1 (6.0MP) 2448x2448: 22
+clicking Image of 8th Resolutions 1:1 (6.0MP) 2448x2448: 23
+clicking Image of 8th Resolutions 1:1 (6.0MP) 2448x2448: 24
+clicking Image of 8th Resolutions 1:1 (6.0MP) 2448x2448: 25
+clicking Image of 8th Resolutions 1:1 (6.0MP) 2448x2448: 26
+clicking Image of 8th Resolutions 1:1 (6.0MP) 2448x2448: 27
+clicking Image of 8th Resolutions 1:1 (6.0MP) 2448x2448: 28
+clicking Image of 8th Resolutions 1:1 (6.0MP) 2448x2448: 29
+clicking Image of 8th Resolutions 1:1 (6.0MP) 2448x2448: 30
+clicking Image of 8th Resolutions 1:1 (6.0MP) 2448x2448: 31
+clicking Image of 8th Resolutions 1:1 (6.0MP) 2448x2448: 32
+clicking Image of 8th Resolutions 1:1 (6.0MP) 2448x2448: 33
+clicking Image of 8th Resolutions 1:1 (6.0MP) 2448x2448: 34
+clicking Image of 8th Resolutions 1:1 (6.0MP) 2448x2448: 35
+clicking Image of 8th Resolutions 1:1 (6.0MP) 2448x2448: 36
+clicking Image of 8th Resolutions 1:1 (6.0MP) 2448x2448: 37
+clicking Image of 8th Resolutions 1:1 (6.0MP) 2448x2448: 38
+clicking Image of 8th Resolutions 1:1 (6.0MP) 2448x2448: 39
+clicking Image of 8th Resolutions 1:1 (6.0MP) 2448x2448: 40
+clicking Image of 8th Resolutions 1:1 (6.0MP) 2448x2448: 41
+clicking Image of 8th Resolutions 1:1 (6.0MP) 2448x2448: 42
+clicking Image of 8th Resolutions 1:1 (6.0MP) 2448x2448: 43
+clicking Image of 8th Resolutions 1:1 (6.0MP) 2448x2448: 44
+clicking Image of 8th Resolutions 1:1 (6.0MP) 2448x2448: 45
+clicking Image of 8th Resolutions 1:1 (6.0MP) 2448x2448: 46
+clicking Image of 8th Resolutions 1:1 (6.0MP) 2448x2448: 47
+clicking Image of 8th Resolutions 1:1 (6.0MP) 2448x2448: 48
+clicking Image of 8th Resolutions 1:1 (6.0MP) 2448x2448: 49
+Back camera 8th resolution: 50 images Captured succesfull
+Total Count value: 475 images to be Captured 
+Launch file manager application and verify recorded video present in uSD Card
+Swipe up to select uSD card
+Select SD card
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Total Image
+Test9_Bcam_image: 474 selected images Captured succesfull
+Actual Value:474 selected
+Interger value:474
+Tolerance_Level = 75
+
+Pass: Test9 pass for rear Image capture
+Test9 Bcam_image: 474  images Captured succesfull
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+calling DataMoveOperation()
+Re-launch file manager application and select external storage for data move operation, select all rear camera images files present in camera folder and move to Test9 folder
+Select external storage
+switch to grid view mode and select DCIM folder
+Select DCIM folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Click More options
+select move to option
+select uSD Card
+Select ADD NEW Folder option
+Name folder as Test9
+Accept create folder
+Cut paste operation completed successfully
+Test9: Data move operation completed successfully
+Pass: Test9 Pass for data move operation successfully
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Final message: Pass Test9 Pass for Rear camera image capture  successfully
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test9F Scenario is as follows:
+Launch camera application, set uSD as a Storage option, start Front camera image picture capture for all Host front resolutions
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Clearing Recent Apps
+Clearing Recent Apps
+Pass: Test9 Pass for clearing Recent apps 
+Launch Camera Application for Front camera picture Capture for all Host resolutions
+clcik on next
+change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RPG-USB-APPS-38', ip: '10.65.145.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: K41S, newCommandTimeout: 600, platformName: android, platformVersion: 11, udid: LMK410HQA659M7GYW4}, deviceApiLevel: 30, deviceManufacturer: LGE, deviceModel: LM-K410, deviceName: LMK410HQA659M7GYW4, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: LMK410HQA659M7GYW4, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pixelRatio: 1.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 67, takesScreenshot: true, udid: LMK410HQA659M7GYW4, viewportRect: {height: 1382, left: 0, top: 67, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 67569172-fbd2-4c0b-9fcf-d8f8dd9fde2b
+*** Element info: {Using=xpath, value=//*[@text='Next']}
+clcik on later
+change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RPG-USB-APPS-38', ip: '10.65.145.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: K41S, newCommandTimeout: 600, platformName: android, platformVersion: 11, udid: LMK410HQA659M7GYW4}, deviceApiLevel: 30, deviceManufacturer: LGE, deviceModel: LM-K410, deviceName: LMK410HQA659M7GYW4, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: LMK410HQA659M7GYW4, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pixelRatio: 1.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 67, takesScreenshot: true, udid: LMK410HQA659M7GYW4, viewportRect: {height: 1382, left: 0, top: 67, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 67569172-fbd2-4c0b-9fcf-d8f8dd9fde2b
+*** Element info: {Using=xpath, value=//*[@text='Later']}
+Test9F_Fcam_res: 4 resolutions supported
+Click On option to select front camera
+Click On Settings and set uSD card as storage option
+Select storage location option
+Select SD as storage option
+Select Rear Image Size
+Select camera Resolution
+Select first Image Resoution: 4:3 (13 MP) 4160x3120
+totalPictureCountFront = 100
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 0
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 1
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 2
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 3
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 4
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 5
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 6
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 7
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 8
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 9
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 10
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 11
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 12
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 13
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 14
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 15
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 16
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 17
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 18
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 19
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 20
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 21
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 22
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 23
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 24
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 25
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 26
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 27
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 28
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 29
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 30
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 31
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 32
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 33
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 34
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 35
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 36
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 37
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 38
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 39
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 40
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 41
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 42
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 43
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 44
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 45
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 46
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 47
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 48
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 49
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 50
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 51
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 52
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 53
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 54
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 55
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 56
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 57
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 58
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 59
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 60
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 61
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 62
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 63
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 64
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 65
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 66
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 67
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 68
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 69
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 70
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 71
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 72
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 73
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 74
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 75
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 76
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 77
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 78
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 79
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 80
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 81
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 82
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 83
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 84
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 85
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 86
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 87
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 88
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 89
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 90
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 91
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 92
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 93
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 94
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 95
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 96
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 97
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 98
+clicking Image of 1st Resolutions4:3 (13 MP) 4160x3120: 99
+front camera first resolution: 100 images Captured succesfull
+Select Rear Image Size
+Select camera Resolution
+Select 2nd Image Resoution: 4:3 (4Point9 MP) 2560x1920
+totalPictureCountFront1 = 100
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 0
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 1
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 2
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 3
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 4
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 5
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 6
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 7
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 8
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 9
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 10
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 11
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 12
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 13
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 14
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 15
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 16
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 17
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 18
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 19
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 20
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 21
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 22
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 23
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 24
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 25
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 26
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 27
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 28
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 29
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 30
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 31
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 32
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 33
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 34
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 35
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 36
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 37
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 38
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 39
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 40
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 41
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 42
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 43
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 44
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 45
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 46
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 47
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 48
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 49
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 50
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 51
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 52
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 53
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 54
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 55
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 56
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 57
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 58
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 59
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 60
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 61
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 62
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 63
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 64
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 65
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 66
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 67
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 68
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 69
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 70
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 71
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 72
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 73
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 74
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 75
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 76
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 77
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 78
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 79
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 80
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 81
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 82
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 83
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 84
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 85
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 86
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 87
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 88
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 89
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 90
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 91
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 92
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 93
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 94
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 95
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 96
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 97
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 98
+clicking Image of 2nd Resolutions4:3 (4Point9 MP) 2560x1920: 99
+front camera second resolution: 100 images Captured succesfull
+Select Rear Image Size
+Select camera Resolution
+Select 3rd Image Resoution: 16:9 (9Point7 MP) 4160x2340
+totalPictureCountFront2 = 100
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 0
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 1
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 2
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 3
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 4
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 5
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 6
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 7
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 8
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 9
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 10
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 11
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 12
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 13
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 14
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 15
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 16
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 17
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 18
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 19
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 20
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 21
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 22
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 23
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 24
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 25
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 26
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 27
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 28
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 29
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 30
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 31
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 32
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 33
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 34
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 35
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 36
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 37
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 38
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 39
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 40
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 41
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 42
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 43
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 44
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 45
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 46
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 47
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 48
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 49
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 50
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 51
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 52
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 53
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 54
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 55
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 56
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 57
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 58
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 59
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 60
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 61
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 62
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 63
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 64
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 65
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 66
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 67
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 68
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 69
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 70
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 71
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 72
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 73
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 74
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 75
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 76
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 77
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 78
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 79
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 80
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 81
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 82
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 83
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 84
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 85
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 86
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 87
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 88
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 89
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 90
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 91
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 92
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 93
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 94
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 95
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 96
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 97
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 98
+clicking Image of 3rd Resolutions16:9 (9Point7 MP) 4160x2340: 99
+front camera 3rd resolution: 100 images Captured succesfull
+Select Rear Image Size
+Select camera Resolution
+Select 4th Image Resoution: 16:9 (3Point7 MP) 2560x1440
+totalPictureCountFront3 = 100
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 0
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 1
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 2
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 3
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 4
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 5
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 6
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 7
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 8
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 9
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 10
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 11
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 12
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 13
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 14
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 15
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 16
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 17
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 18
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 19
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 20
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 21
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 22
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 23
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 24
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 25
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 26
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 27
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 28
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 29
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 30
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 31
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 32
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 33
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 34
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 35
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 36
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 37
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 38
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 39
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 40
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 41
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 42
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 43
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 44
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 45
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 46
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 47
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 48
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 49
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 50
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 51
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 52
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 53
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 54
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 55
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 56
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 57
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 58
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 59
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 60
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 61
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 62
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 63
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 64
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 65
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 66
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 67
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 68
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 69
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 70
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 71
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 72
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 73
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 74
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 75
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 76
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 77
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 78
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 79
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 80
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 81
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 82
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 83
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 84
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 85
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 86
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 87
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 88
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 89
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 90
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 91
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 92
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 93
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 94
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 95
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 96
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 97
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 98
+clicking Image of 4th Resolutions16:9 (3Point7 MP) 2560x1440: 99
+front camera second resolution: 100 images Captured succesfull
+Total Count value:400 images to be Captured 
+Select back camera
+Launch file manager application and verify captured images present in uSD Card
+Swipe up to select uSD card
+Select SD card
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Total Image
+Test9F_Fcam_image: 400 selected images Captured succesfull
+Actual Value:400 selected
+Interger value:400
+Tolerance_Level = 75
+
+Pass: Test9F pass for rear Image capture
+Test9F Fcam_image: 400  images Captured succesfull
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+calling DataMoveOperation()
+Re-launch file manager application and select external storage for data move operation, select all front camera images files present in camera folder and move to Test9F folder
+Select external storage
+switch to grid view mode and select DCIM folder
+Select DCIM folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Click More options
+select move to option
+select uSD Card
+Select ADD NEW Folder option
+Name folder as Test9F
+Accept create folder
+Cut paste  operation completed successfully
+Test9F: Data move operation completed successfully
+Pass: Test9F Pass for data move operation successfully
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Final message: Pass Test9F Pass for Front camera image capture  successfully
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9,700.561 s - in TestSuite
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- maven-jar-plugin:2.4:jar (default-jar) @ LG_K41S ---
+[INFO] Building jar: C:\Users\sandisk\Android11\LG_K41S\target\LG_K41S-0.0.1-SNAPSHOT.jar
+[INFO] 
+[INFO] --- maven-install-plugin:2.4:install (default-install) @ LG_K41S ---
+[INFO] Installing C:\Users\sandisk\Android11\LG_K41S\target\LG_K41S-0.0.1-SNAPSHOT.jar to C:\Users\sandisk\.m2\repository\Com\LG_K41S\test\LG_K41S\0.0.1-SNAPSHOT\LG_K41S-0.0.1-SNAPSHOT.jar
+[INFO] Installing C:\Users\sandisk\Android11\LG_K41S\pom.xml to C:\Users\sandisk\.m2\repository\Com\LG_K41S\test\LG_K41S\0.0.1-SNAPSHOT\LG_K41S-0.0.1-SNAPSHOT.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  02:41 h
+[INFO] Finished at: 2022-10-06T20:39:50+05:30
+[INFO] ------------------------------------------------------------------------

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="BNPLYY2" failures="5" tests="6" name="Samsung_Galaxy_F41.Test0" time="247.513" errors="0" timestamp="18 Feb 2022 04:57:15 GMT">
+  <testcase classname="Samsung_Galaxy_F41.Test0" name="start" time="10.852">
+    <failure type="org.openqa.selenium.WebDriverException" message="An unknown server-side error occurred while processing the command. Original error: &amp;apos;POST /appium/device/press_keycode&amp;apos; cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:17:03&amp;apos;
+System info: host: &amp;apos;BNPLYY2&amp;apos;, ip: &amp;apos;192.168.43.26&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;17.0.2&amp;apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy F41, newCommandTimeout: 600, platformName: android, platformVersion: 11, udid: RZ8NA02TCRA}, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-F415F, deviceName: RZ8NA02TCRA, deviceScreenDensity: 420, deviceScreenSize: 1080x2340, deviceUDID: RZ8NA02TCRA, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 78, takesScreenshot: true, udid: RZ8NA02TCRA, viewportRect: {height: 2053, left: 0, top: 78, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 9a661bef-4f69-4c86-9798-6ffc8c67346a">
+      <![CDATA[org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: 'POST /appium/device/press_keycode' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '192.168.43.26', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy F41, newCommandTimeout: 600, platformName: android, platformVersion: 11, udid: RZ8NA02TCRA}, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-F415F, deviceName: RZ8NA02TCRA, deviceScreenDensity: 420, deviceScreenSize: 1080x2340, deviceUDID: RZ8NA02TCRA, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 78, takesScreenshot: true, udid: RZ8NA02TCRA, viewportRect: {height: 2053, left: 0, top: 78, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 9a661bef-4f69-4c86-9798-6ffc8c67346a
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at io.appium.java_client.CommandExecutionHelper.execute(CommandExecutionHelper.java:27)
+	at io.appium.java_client.android.nativekey.PressesKey.pressKeyCode(PressesKey.java:40)
+	at Samsung_Galaxy_F41.Test0.start(Test0.java:57)
+... Removed 30 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase classname="Samsung_Galaxy_F41.Test3" name="Format" time="5.844">
+    <failure type="org.openqa.selenium.WebDriverException" message="An unknown server-side error occurred while processing the command. Original error: &amp;apos;POST /appium/device/press_keycode&amp;apos; cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:17:03&amp;apos;
+System info: host: &amp;apos;BNPLYY2&amp;apos;, ip: &amp;apos;192.168.43.26&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;17.0.2&amp;apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy F41, newCommandTimeout: 600, platformName: android, platformVersion: 11, udid: RZ8NA02TCRA}, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-F415F, deviceName: RZ8NA02TCRA, deviceScreenDensity: 420, deviceScreenSize: 1080x2340, deviceUDID: RZ8NA02TCRA, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 78, takesScreenshot: true, udid: RZ8NA02TCRA, viewportRect: {height: 2053, left: 0, top: 78, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 4d5a4aff-bcd8-4acf-813e-0ac605524755">
+      <![CDATA[org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: 'POST /appium/device/press_keycode' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '192.168.43.26', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy F41, newCommandTimeout: 600, platformName: android, platformVersion: 11, udid: RZ8NA02TCRA}, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-F415F, deviceName: RZ8NA02TCRA, deviceScreenDensity: 420, deviceScreenSize: 1080x2340, deviceUDID: RZ8NA02TCRA, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 78, takesScreenshot: true, udid: RZ8NA02TCRA, viewportRect: {height: 2053, left: 0, top: 78, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 4d5a4aff-bcd8-4acf-813e-0ac605524755
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at io.appium.java_client.CommandExecutionHelper.execute(CommandExecutionHelper.java:27)
+	at io.appium.java_client.android.nativekey.PressesKey.pressKeyCode(PressesKey.java:40)
+	at Samsung_Galaxy_F41.Test3.Format(Test3.java:61)
+... Removed 30 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase classname="Samsung_Galaxy_F41.Test10" name="rearVideoRec" time="10.827">
+    <failure type="org.openqa.selenium.WebDriverException" message="An unknown server-side error occurred while processing the command. Original error: &amp;apos;POST /appium/device/press_keycode&amp;apos; cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:17:03&amp;apos;
+System info: host: &amp;apos;BNPLYY2&amp;apos;, ip: &amp;apos;192.168.43.26&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;17.0.2&amp;apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy F41, newCommandTimeout: 600, platformName: android, platformVersion: 11, udid: RZ8NA02TCRA}, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-F415F, deviceName: RZ8NA02TCRA, deviceScreenDensity: 420, deviceScreenSize: 1080x2340, deviceUDID: RZ8NA02TCRA, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 78, takesScreenshot: true, udid: RZ8NA02TCRA, viewportRect: {height: 2053, left: 0, top: 78, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: cd1fe7cf-2b54-4f5a-bf96-dfd14194dd6c">
+      <![CDATA[org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: 'POST /appium/device/press_keycode' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '192.168.43.26', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy F41, newCommandTimeout: 600, platformName: android, platformVersion: 11, udid: RZ8NA02TCRA}, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-F415F, deviceName: RZ8NA02TCRA, deviceScreenDensity: 420, deviceScreenSize: 1080x2340, deviceUDID: RZ8NA02TCRA, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 78, takesScreenshot: true, udid: RZ8NA02TCRA, viewportRect: {height: 2053, left: 0, top: 78, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: cd1fe7cf-2b54-4f5a-bf96-dfd14194dd6c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at io.appium.java_client.CommandExecutionHelper.execute(CommandExecutionHelper.java:27)
+	at io.appium.java_client.android.nativekey.PressesKey.pressKeyCode(PressesKey.java:40)
+	at Samsung_Galaxy_F41.Test10.rearVideoRec(Test10.java:58)
+... Removed 30 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase classname="Samsung_Galaxy_F41.Test10F" name="frontVideoRec" time="10.857">
+    <failure type="org.openqa.selenium.WebDriverException" message="An unknown server-side error occurred while processing the command. Original error: &amp;apos;POST /appium/device/press_keycode&amp;apos; cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:17:03&amp;apos;
+System info: host: &amp;apos;BNPLYY2&amp;apos;, ip: &amp;apos;192.168.43.26&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;17.0.2&amp;apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy F41, newCommandTimeout: 600, platformName: android, platformVersion: 11, udid: RZ8NA02TCRA}, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-F415F, deviceName: RZ8NA02TCRA, deviceScreenDensity: 420, deviceScreenSize: 1080x2340, deviceUDID: RZ8NA02TCRA, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 78, takesScreenshot: true, udid: RZ8NA02TCRA, viewportRect: {height: 2053, left: 0, top: 78, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 03afec4d-416b-4199-ad39-18de6ac37ee3">
+      <![CDATA[org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: 'POST /appium/device/press_keycode' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '192.168.43.26', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy F41, newCommandTimeout: 600, platformName: android, platformVersion: 11, udid: RZ8NA02TCRA}, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-F415F, deviceName: RZ8NA02TCRA, deviceScreenDensity: 420, deviceScreenSize: 1080x2340, deviceUDID: RZ8NA02TCRA, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 78, takesScreenshot: true, udid: RZ8NA02TCRA, viewportRect: {height: 2053, left: 0, top: 78, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 03afec4d-416b-4199-ad39-18de6ac37ee3
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at io.appium.java_client.CommandExecutionHelper.execute(CommandExecutionHelper.java:27)
+	at io.appium.java_client.android.nativekey.PressesKey.pressKeyCode(PressesKey.java:40)
+	at Samsung_Galaxy_F41.Test10F.frontVideoRec(Test10F.java:57)
+... Removed 30 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase classname="Samsung_Galaxy_F41.Test9" name="Format" time="15.911">
+    <failure type="org.openqa.selenium.WebDriverException" message="An unknown server-side error occurred while processing the command. Original error: &amp;apos;POST /appium/device/press_keycode&amp;apos; cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+Build info: version: &amp;apos;3.141.59&amp;apos;, revision: &amp;apos;e82be7d358&amp;apos;, time: &amp;apos;2018-11-14T08:17:03&amp;apos;
+System info: host: &amp;apos;BNPLYY2&amp;apos;, ip: &amp;apos;192.168.43.26&amp;apos;, os.name: &amp;apos;Windows 10&amp;apos;, os.arch: &amp;apos;amd64&amp;apos;, os.version: &amp;apos;10.0&amp;apos;, java.version: &amp;apos;17.0.2&amp;apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy F41, newCommandTimeout: 600, platformName: android, platformVersion: 11, udid: RZ8NA02TCRA}, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-F415F, deviceName: RZ8NA02TCRA, deviceScreenDensity: 420, deviceScreenSize: 1080x2340, deviceUDID: RZ8NA02TCRA, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 78, takesScreenshot: true, udid: RZ8NA02TCRA, viewportRect: {height: 2053, left: 0, top: 78, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 3dbf2dea-376f-4819-b797-982e3354b901">
+      <![CDATA[org.openqa.selenium.WebDriverException: An unknown server-side error occurred while processing the command. Original error: 'POST /appium/device/press_keycode' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '192.168.43.26', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy F41, newCommandTimeout: 600, platformName: android, platformVersion: 11, udid: RZ8NA02TCRA}, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-F415F, deviceName: RZ8NA02TCRA, deviceScreenDensity: 420, deviceScreenSize: 1080x2340, deviceUDID: RZ8NA02TCRA, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 78, takesScreenshot: true, udid: RZ8NA02TCRA, viewportRect: {height: 2053, left: 0, top: 78, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 3dbf2dea-376f-4819-b797-982e3354b901
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at io.appium.java_client.CommandExecutionHelper.execute(CommandExecutionHelper.java:27)
+	at io.appium.java_client.android.nativekey.PressesKey.pressKeyCode(PressesKey.java:40)
+	at Samsung_Galaxy_F41.Test9.Format(Test9.java:59)
+... Removed 30 stack frames]]>
+    </failure>
+  </testcase>
+  <testcase classname="Samsung_Galaxy_F41.Test9F" name="frontPictureCapture" time="135.775"/>
+</testsuite>

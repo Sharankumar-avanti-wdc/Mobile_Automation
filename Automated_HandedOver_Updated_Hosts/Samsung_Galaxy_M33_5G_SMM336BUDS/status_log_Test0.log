@@ -1,0 +1,147 @@
+2023-01-13 14:35:43 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 start Test: Start
+2023-01-13 14:35:43 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-13 14:35:43 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 start  Test0 Scenario is as follows 
+2023-01-13 14:35:43 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 start 1.Unlock phone, clear recent apps, clear internal memory
+2023-01-13 14:35:43 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 start 2.Call Image() and Capture Rear camera 25 images for default resolution in uSD card and Verify the data capture
+2023-01-13 14:35:43 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 start 3.Call Video() and record Rear camera video of first 2 resloutions for 2 minutes of duration in uSD Card and verify the same
+2023-01-13 14:35:43 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 start 4.Call Format() and format uSD card with data and verify the same
+2023-01-13 14:35:43 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 start Setting up the appium desired capabilities
+2023-01-13 14:35:43 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-13 14:35:50 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 start Unlock phone if locked
+2023-01-13 14:35:55 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 start Launch home screen
+2023-01-13 14:36:06 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 start Clearing Recent Apps
+2023-01-13 14:36:16 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 start Pass: No recent apps found
+2023-01-13 14:36:18 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 start Launch file manager application for clearing phone internal memory
+2023-01-13 14:36:35 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 start Swipe Up
+2023-01-13 14:36:37 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 start Select Internal storage
+2023-01-13 14:36:43 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 start Click More options
+2023-01-13 14:36:50 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 start Click Select all
+2023-01-13 14:36:54 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 start Click More options
+2023-01-13 14:37:00 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 start Select delete permanently option
+2023-01-13 14:37:04 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 start Accept allow delete pop-up
+2023-01-13 14:37:50 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 start Pass: Clearing phone internal memory is successfull
+2023-01-13 14:37:50 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 start ===============================================================================================================================================
+2023-01-13 14:38:04 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 start Calling Image() for rear Image capture in uSD Card and Verify the Captured images
+2023-01-13 14:38:04 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Images Launch Camera Application for Rear picture capture
+2023-01-13 14:38:05 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Images If change to uSD card permisssion pop-up exists during camera application launch select cancel option
+2023-01-13 14:38:08 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Images if Location permisson Pop Exists during camera application launch select cancel option Select Cancel Option
+2023-01-13 14:38:18 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Images Location acess permission pop-up not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy M33 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 12, udid: RZCT40W4PNJ}, deviceApiLevel: 31, deviceManufacturer: samsung, deviceModel: SM-M336BU, deviceName: RZCT40W4PNJ, deviceScreenDensity: 450, deviceScreenSize: 1080x2408, deviceUDID: RZCT40W4PNJ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 68, takesScreenshot: true, udid: RZCT40W4PNJ, viewportRect: {height: 2139, left: 0, top: 68, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 8956d4b4-c02a-46d0-9efa-ebfe0182ca33
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2023-01-13 14:38:18 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Images Switch To rear Camera Mode if current Exiting camera is Front camera Mode
+2023-01-13 14:38:21 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Images Select settings option
+2023-01-13 14:38:27 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Images Search for SD Card option
+2023-01-13 14:38:42 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Images Select SD as storage option
+2023-01-13 14:38:50 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Images Capture Image of Default Resolution
+2023-01-13 14:38:55 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Images Captures default resolution image 0
+2023-01-13 14:38:59 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Images Captures default resolution image 1
+2023-01-13 14:39:04 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Images Captures default resolution image 2
+2023-01-13 14:39:08 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Images Captures default resolution image 3
+2023-01-13 14:39:12 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Images Captures default resolution image 4
+2023-01-13 14:39:16 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Images Captures default resolution image 5
+2023-01-13 14:39:20 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Images Captures default resolution image 6
+2023-01-13 14:39:25 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Images Captures default resolution image 7
+2023-01-13 14:39:29 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Images Captures default resolution image 8
+2023-01-13 14:39:33 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Images Captures default resolution image 9
+2023-01-13 14:39:37 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Images Captures default resolution image 10
+2023-01-13 14:39:42 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Images Captures default resolution image 11
+2023-01-13 14:39:46 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Images Captures default resolution image 12
+2023-01-13 14:39:50 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Images Captures default resolution image 13
+2023-01-13 14:39:54 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Images Captures default resolution image 14
+2023-01-13 14:39:59 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Images Captures default resolution image 15
+2023-01-13 14:40:03 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Images Captures default resolution image 16
+2023-01-13 14:40:07 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Images Captures default resolution image 17
+2023-01-13 14:40:11 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Images Captures default resolution image 18
+2023-01-13 14:40:15 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Images Captures default resolution image 19
+2023-01-13 14:40:20 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Images Captures default resolution image 20
+2023-01-13 14:40:24 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Images Captures default resolution image 21
+2023-01-13 14:40:28 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Images Captures default resolution image 22
+2023-01-13 14:40:32 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Images Captures default resolution image 23
+2023-01-13 14:40:37 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Images Captures default resolution image 24
+2023-01-13 14:40:42 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Images Pass:Total Number Of Image captured 25 is successfull
+2023-01-13 14:40:42 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Images Launch file manager application and verify image capture in uSD card
+2023-01-13 14:41:00 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Images Select SD card
+2023-01-13 14:41:07 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Images switch to grid view mode to select DCIM folder
+2023-01-13 14:41:10 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Images Select DCIM folder
+2023-01-13 14:41:13 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Images Select camera folder
+2023-01-13 14:41:16 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Images switch to list view mode to select DCIM folder
+2023-01-13 14:41:20 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Images Click More options
+2023-01-13 14:41:26 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Images Click Select all
+2023-01-13 14:41:33 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Images Pass:Total Number Of Image captured 25 in uSD card is successfull
+2023-01-13 14:41:40 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Images ===============================================================================================================================================
+2023-01-13 14:41:40 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Images Calling video() for rear video recording in uSD card and verifying data capture.
+2023-01-13 14:41:40 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Video Clear recent apps
+2023-01-13 14:41:41 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Video Clear Recent Apps
+2023-01-13 14:41:53 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Video Launch Camera Application for rear camera video recording
+2023-01-13 14:41:54 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Video If Change to SD Card notification pop-up exists during camear application launch select Cancel Option
+2023-01-13 14:42:04 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Video change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy M33 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 12, udid: RZCT40W4PNJ}, deviceApiLevel: 31, deviceManufacturer: samsung, deviceModel: SM-M336BU, deviceName: RZCT40W4PNJ, deviceScreenDensity: 450, deviceScreenSize: 1080x2408, deviceUDID: RZCT40W4PNJ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 68, takesScreenshot: true, udid: RZCT40W4PNJ, viewportRect: {height: 2139, left: 0, top: 68, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 8956d4b4-c02a-46d0-9efa-ebfe0182ca33
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2023-01-13 14:42:04 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Video If Location Permission Request Pop Exists select  Cancel Option
+2023-01-13 14:42:15 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Video Location access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy M33 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 12, udid: RZCT40W4PNJ}, deviceApiLevel: 31, deviceManufacturer: samsung, deviceModel: SM-M336BU, deviceName: RZCT40W4PNJ, deviceScreenDensity: 450, deviceScreenSize: 1080x2408, deviceUDID: RZCT40W4PNJ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 68, takesScreenshot: true, udid: RZCT40W4PNJ, viewportRect: {height: 2139, left: 0, top: 68, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 8956d4b4-c02a-46d0-9efa-ebfe0182ca33
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2023-01-13 14:42:15 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Video Switch To rear Camera mode if current Exiting camera is Front camera
+2023-01-13 14:42:25 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Video Curent camera existing camera mode is rear camera mode no need switch camera
+2023-01-13 14:42:25 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Video Switch to video mode
+2023-01-13 14:42:35 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Video Select settings option
+2023-01-13 14:42:40 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Video Click on settings option
+2023-01-13 14:42:40 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Video Search for SD Card option
+2023-01-13 14:42:52 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Video Select SD as storage option
+2023-01-13 14:43:00 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Video select rear video size option
+2023-01-13 14:43:00 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Video Select 1st Back Video Resolution:BACK_CAMCORDER_RESOLUTION_UHD_30
+2023-01-13 14:43:04 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Video Start video recording
+2023-01-13 14:45:06 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Video Recording Video for 2Minutes of Duration
+2023-01-13 14:45:06 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Video Stop video recording
+2023-01-13 14:45:22 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Video select rear video size option
+2023-01-13 14:45:22 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Video Select Second Back Video Resolution:BACK_CAMCORDER_RESOLUTION_HD_30
+2023-01-13 14:45:25 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Video Start video recording
+2023-01-13 14:47:27 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Video Recording Video for 2Minutes of Duration
+2023-01-13 14:47:27 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Video Stop video recording
+2023-01-13 14:47:47 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Video Pass: Rear camera video recording is successfull
+2023-01-13 14:47:47 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Video Launch file manager application and verify video capture in uSD card
+2023-01-13 14:48:03 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Video Swipe up
+2023-01-13 14:48:06 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Video Select SD card
+2023-01-13 14:48:12 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Video switch to grid view mode to select DCIM folder
+2023-01-13 14:48:16 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Video Select DCIM folder
+2023-01-13 14:48:19 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Video Select camera folder
+2023-01-13 14:48:22 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Video switch to list view mode to select DCIM folder
+2023-01-13 14:48:25 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Video Click More options
+2023-01-13 14:48:31 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Video Click Select all
+2023-01-13 14:48:38 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Video Pass: 2 Videos recorded Successfully
+2023-01-13 14:48:38 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Video Pass: A total of 27 files present in uSD card before Format
+2023-01-13 14:48:38 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Video ===============================================================================================================================================
+2023-01-13 14:48:41 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Video calling Format() for format with data scenario
+2023-01-13 14:48:41 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Format Clearing Recent Apps
+2023-01-13 14:49:00 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Format Launch Settings application for Format uSD card with Data scenario 
+2023-01-13 14:49:06 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Format Scroll up and select Battery and device care option
+2023-01-13 14:49:16 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Format Selectt battery and device care
+2023-01-13 14:49:21 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Format Select storage
+2023-01-13 14:49:40 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Format Select Format option
+2023-01-13 14:49:47 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Format Started formatting, waiting till it gets formatted
+2023-01-13 14:51:17 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Format Format uSD is successfull
+2023-01-13 14:51:24 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Format Pass: Format uSD with Data is successfull
+2023-01-13 14:51:24 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Format Launch file manager application and Verify data format
+2023-01-13 14:51:42 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Format Select SD card
+2023-01-13 14:51:48 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Format switch to grid view mode to select DCIM folder
+2023-01-13 14:51:52 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Format Select DCIM folder
+2023-01-13 14:51:55 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Format switch to list view mode to select DCIM folder
+2023-01-13 14:52:06 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Format Pass:Images and videos are not present in the DCIM folder, CARD format is successfully completed 
+2023-01-13 14:52:06 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Format Final Message: Pass Test0 pass for format uSd card with data scenario Operation
+2023-01-13 14:52:06 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Format Test:End
+2023-01-13 14:52:06 INFO   Samsung_Galaxy_M33_5G_SMM336BUDS.Test0 Format ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

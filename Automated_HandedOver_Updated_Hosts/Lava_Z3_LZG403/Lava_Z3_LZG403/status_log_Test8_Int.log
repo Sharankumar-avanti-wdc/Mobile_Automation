@@ -1,0 +1,72 @@
+2023-03-16 18:10:10 INFO   Lava_Z3_LZG403.Test8_Int recordAudio Test: Start
+2023-03-16 18:10:10 INFO   Lava_Z3_LZG403.Test8_Int recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-16 18:10:10 INFO   Lava_Z3_LZG403.Test8_Int recordAudio Test8_Int scenario is as follows
+2023-03-16 18:10:10 INFO   Lava_Z3_LZG403.Test8_Int recordAudio 1.Launch mobile default voice recording application and set Internal storage storage option, record audio file for 2 minutes duration
+2023-03-16 18:10:10 INFO   Lava_Z3_LZG403.Test8_Int recordAudio 2.Launch file manager application and playback recorded audio file from Internal storage, fast forward audio file and pause
+2023-03-16 18:10:10 INFO   Lava_Z3_LZG403.Test8_Int recordAudio 3.Launch file manager application and playback copied audio files from Internal storage the files are placed in the Test1 folder
+2023-03-16 18:10:10 INFO   Lava_Z3_LZG403.Test8_Int recordAudio Setting up the appium desired capabilities
+2023-03-16 18:10:10 INFO   Lava_Z3_LZG403.Test8_Int recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-16 18:10:30 INFO   Lava_Z3_LZG403.Test8_Int recordAudio Launch Voice recorder application for Audio recording
+2023-03-16 18:10:38 INFO   Lava_Z3_LZG403.Test8_Int recordAudio If application launch permission pop-up exists accept allow permission to launch application
+2023-03-16 18:10:48 INFO   Lava_Z3_LZG403.Test8_Int recordAudio  No Launch permission Pop-up  found
+2023-03-16 18:10:53 INFO   Lava_Z3_LZG403.Test8_Int recordAudio Clicking on settings
+2023-03-16 18:10:59 INFO   Lava_Z3_LZG403.Test8_Int recordAudio Select location 
+2023-03-16 18:11:04 INFO   Lava_Z3_LZG403.Test8_Int recordAudio Select Internal storage
+2023-03-16 18:11:04 INFO   Lava_Z3_LZG403.Test8_Int recordAudio click on Select 
+2023-03-16 18:11:11 INFO   Lava_Z3_LZG403.Test8_Int recordAudio click on close 
+2023-03-16 18:11:23 INFO   Lava_Z3_LZG403.Test8_Int recordAudio Start Recording
+2023-03-16 18:13:23 INFO   Lava_Z3_LZG403.Test8_Int recordAudio Stop Recording
+2023-03-16 18:13:29 INFO   Lava_Z3_LZG403.Test8_Int recordAudio click on ok
+2023-03-16 18:13:51 INFO   Lava_Z3_LZG403.Test8_Int recordAudio Pass: Test8_Int pass for recording  audio file
+2023-03-16 18:13:51 INFO   Lava_Z3_LZG403.Test8_Int recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-16 18:13:51 INFO   Lava_Z3_LZG403.Test8_Int recordAudio Launch File Manager Application to verify recorded audio
+2023-03-16 18:13:58 INFO   Lava_Z3_LZG403.Test8_Int recordAudio swipe up and search for Internal storage
+2023-03-16 18:14:07 INFO   Lava_Z3_LZG403.Test8_Int recordAudio Select  Internal storage
+2023-03-16 18:14:12 INFO   Lava_Z3_LZG403.Test8_Int recordAudio Select list view
+2023-03-16 18:14:15 INFO   Lava_Z3_LZG403.Test8_Int recordAudio Select Voice recorder
+2023-03-16 18:14:20 INFO   Lava_Z3_LZG403.Test8_Int recordAudio switch to list view mode
+2023-03-16 18:14:23 INFO   Lava_Z3_LZG403.Test8_Int recordAudio Select More Options 
+2023-03-16 18:14:29 INFO   Lava_Z3_LZG403.Test8_Int recordAudio Click On Select All Options
+2023-03-16 18:14:38 INFO   Lava_Z3_LZG403.Test8_Int recordAudio Test8_Int: 1 Audio file recorded  sucessfully
+2023-03-16 18:14:38 INFO   Lava_Z3_LZG403.Test8_Int recordAudio Pass: Test8_Int pass for audio recording in uInternal storage
+2023-03-16 18:14:38 INFO   Lava_Z3_LZG403.Test8_Int recordAudio Calling PlayRecordedAudio() to play back recorded file
+2023-03-16 18:14:38 INFO   Lava_Z3_LZG403.Test8_Int recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-16 18:14:43 INFO   Lava_Z3_LZG403.Test8_Int PlayRecordedAudio Launch File Manager Application
+2023-03-16 18:14:59 INFO   Lava_Z3_LZG403.Test8_Int PlayRecordedAudio Select  Internal storage
+2023-03-16 18:15:04 INFO   Lava_Z3_LZG403.Test8_Int PlayRecordedAudio Select list view
+2023-03-16 18:15:07 INFO   Lava_Z3_LZG403.Test8_Int PlayRecordedAudio Select Voice recorder
+2023-03-16 18:15:12 INFO   Lava_Z3_LZG403.Test8_Int PlayRecordedAudio switch to list view mode
+2023-03-16 18:15:15 INFO   Lava_Z3_LZG403.Test8_Int PlayRecordedAudio Click Audio file for play back and fast forward
+2023-03-16 18:15:16 INFO   Lava_Z3_LZG403.Test8_Int PlayRecordedAudio Started Audio playback
+2023-03-16 18:15:36 INFO   Lava_Z3_LZG403.Test8_Int PlayRecordedAudio click on fastforward  10 seconds
+2023-03-16 18:15:56 INFO   Lava_Z3_LZG403.Test8_Int PlayRecordedAudio click on pause
+2023-03-16 18:16:00 INFO   Lava_Z3_LZG403.Test8_Int PlayRecordedAudio Pass: Test8_Int Pass for playing recorded Audio file
+2023-03-16 18:16:11 INFO   Lava_Z3_LZG403.Test8_Int PlayRecordedAudio Pass: Test8_Int Pass for playing, fast forward, and pause recorded audio file scenario
+2023-03-16 18:16:11 INFO   Lava_Z3_LZG403.Test8_Int PlayRecordedAudio Calling PlayCopiedAudioFile() for copied audio files from Test1 folder
+2023-03-16 18:16:11 INFO   Lava_Z3_LZG403.Test8_Int PlayRecordedAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-16 18:16:23 INFO   Lava_Z3_LZG403.Test8_Int PlayCopiedAudioFile Launching file manager application
+2023-03-16 18:16:31 INFO   Lava_Z3_LZG403.Test8_Int PlayCopiedAudioFile Select  Internal storage
+2023-03-16 18:16:41 INFO   Lava_Z3_LZG403.Test8_Int PlayCopiedAudioFile Select test1
+2023-03-16 18:16:45 INFO   Lava_Z3_LZG403.Test8_Int PlayCopiedAudioFile Select testfile
+2023-03-16 18:16:48 INFO   Lava_Z3_LZG403.Test8_Int PlayCopiedAudioFile Select 1GB
+2023-03-16 18:16:51 INFO   Lava_Z3_LZG403.Test8_Int PlayCopiedAudioFile Select MP3 Files
+2023-03-16 18:16:54 INFO   Lava_Z3_LZG403.Test8_Int PlayCopiedAudioFile Select Laahe.Mp3.mp3
+2023-03-16 18:16:55 INFO   Lava_Z3_LZG403.Test8_Int PlayCopiedAudioFile Started video playback
+2023-03-16 18:17:15 INFO   Lava_Z3_LZG403.Test8_Int PlayCopiedAudioFile Click fast forward button for 10 seconds audio forward
+2023-03-16 18:17:25 INFO   Lava_Z3_LZG403.Test8_Int PlayCopiedAudioFile Pause audio playback
+2023-03-16 18:17:29 INFO   Lava_Z3_LZG403.Test8_Int PlayCopiedAudioFile Pass: 1st Copied Audio play back and fast forward is successfull
+2023-03-16 18:17:31 INFO   Lava_Z3_LZG403.Test8_Int PlayCopiedAudioFile select 11 Rob Thomas - Lonely No More.mp3
+2023-03-16 18:17:32 INFO   Lava_Z3_LZG403.Test8_Int PlayCopiedAudioFile Started audio playback
+2023-03-16 18:17:52 INFO   Lava_Z3_LZG403.Test8_Int PlayCopiedAudioFile Click fast forward button for 10 seconds audio forward
+2023-03-16 18:18:02 INFO   Lava_Z3_LZG403.Test8_Int PlayCopiedAudioFile Pause audio playback
+2023-03-16 18:18:06 INFO   Lava_Z3_LZG403.Test8_Int PlayCopiedAudioFile Pass: 2nd Copied Audio play back and fast forward is successfull
+2023-03-16 18:18:08 INFO   Lava_Z3_LZG403.Test8_Int PlayCopiedAudioFile select file_example_MP3_5MG.mp3
+2023-03-16 18:18:08 INFO   Lava_Z3_LZG403.Test8_Int PlayCopiedAudioFile Started audio playback
+2023-03-16 18:18:28 INFO   Lava_Z3_LZG403.Test8_Int PlayCopiedAudioFile Click fast forward button for 10 seconds audio forward
+2023-03-16 18:18:39 INFO   Lava_Z3_LZG403.Test8_Int PlayCopiedAudioFile Pause audio playback
+2023-03-16 18:18:45 INFO   Lava_Z3_LZG403.Test8_Int PlayCopiedAudioFile Pass: 3rd Copied Audio play back and fast forward is successfull
+2023-03-16 18:18:45 INFO   Lava_Z3_LZG403.Test8_Int PlayCopiedAudioFile Pass: Test8_Int Pass for Recorded and copied audio play back and fast forward scenario
+2023-03-16 18:18:45 INFO   Lava_Z3_LZG403.Test8_Int PlayCopiedAudioFile ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-16 18:18:45 INFO   Lava_Z3_LZG403.Test8_Int PlayCopiedAudioFile Final Message: Pass Test8_Int Pass for Recorded and copied audio play back and fast forward scenario
+2023-03-16 18:18:45 INFO   Lava_Z3_LZG403.Test8_Int PlayCopiedAudioFile Test: End
+2023-03-16 18:18:45 INFO   Lava_Z3_LZG403.Test8_Int PlayCopiedAudioFile ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

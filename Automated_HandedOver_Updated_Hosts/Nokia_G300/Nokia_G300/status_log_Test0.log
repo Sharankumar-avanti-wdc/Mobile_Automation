@@ -1,0 +1,123 @@
+2023-01-11 11:42:25 INFO   Nokia_G300.Test0 start Test: Start
+2023-01-11 11:42:25 INFO   Nokia_G300.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-11 11:42:25 INFO   Nokia_G300.Test0 start  Test0 Scenario is as follows 
+2023-01-11 11:42:25 INFO   Nokia_G300.Test0 start 1.Unlock phone, clear recent apps, clear internal memory
+2023-01-11 11:42:25 INFO   Nokia_G300.Test0 start 2.Call Image() and Capture Rear camera 25 images for default resolution in uSD card and Verify the data capture
+2023-01-11 11:42:25 INFO   Nokia_G300.Test0 start 3.Call Video() and record Rear camera video of first 2 resloutions for 2 minutes of duration in uSD Card and verify the same
+2023-01-11 11:42:25 INFO   Nokia_G300.Test0 start 4.Call Format() and format uSD card with data and verify the same
+2023-01-11 11:42:25 INFO   Nokia_G300.Test0 start Setting up the appium desired capabilities
+2023-01-11 11:42:25 INFO   Nokia_G300.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-11 11:42:31 INFO   Nokia_G300.Test0 start Unlocking Phone
+2023-01-11 11:42:32 INFO   Nokia_G300.Test0 start Launch home screen
+2023-01-11 11:42:37 INFO   Nokia_G300.Test0 start Launch file manager application and clear phone internal memory
+2023-01-11 11:42:53 INFO   Nokia_G300.Test0 start Select browse option
+2023-01-11 11:42:59 INFO   Nokia_G300.Test0 start Select internal storage
+2023-01-11 11:43:04 INFO   Nokia_G300.Test0 start Select  More options
+2023-01-11 11:43:08 INFO   Nokia_G300.Test0 start click on Select all
+2023-01-11 11:43:12 INFO   Nokia_G300.Test0 start Select Delete permanently
+2023-01-11 11:43:15 INFO   Nokia_G300.Test0 start Select  Delete
+2023-01-11 11:45:15 INFO   Nokia_G300.Test0 start Pass: Clearing phone internal memory is successfull
+2023-01-11 11:45:26 INFO   Nokia_G300.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-11 11:45:26 INFO   Nokia_G300.Test0 start Calling Image() for rear Image capture in uSD Card and Verify the Captured images
+2023-01-11 11:45:26 INFO   Nokia_G300.Test0 Images Launch camera application for rear camera picture capture
+2023-01-11 11:45:30 INFO   Nokia_G300.Test0 Images If location location permission request pop-up exists? select deny option
+2023-01-11 11:46:04 INFO   Nokia_G300.Test0 Images No location access permission pop-up found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Nokia G300, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: A0AOKIH002M92504552}, deviceApiLevel: 30, deviceManufacturer: HMD Global, deviceModel: N1374DL, deviceName: A0AOKIH002M92504552, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: A0AOKIH002M92504552, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 42, takesScreenshot: true, udid: A0AOKIH002M92504552, viewportRect: {height: 1530, left: 0, top: 42, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: d9593791-7bdc-4187-a37b-8e42918ff78c
+*** Element info: {Using=xpath, value=//*[@resource-id='com.android.permissioncontroller:id/permission_deny_button']}
+2023-01-11 11:46:04 INFO   Nokia_G300.Test0 Images select settings option
+2023-01-11 11:46:07 INFO   Nokia_G300.Test0 Images select data storage option
+2023-01-11 11:46:10 INFO   Nokia_G300.Test0 Images select uSD card as storage option
+2023-01-11 11:46:25 INFO   Nokia_G300.Test0 Images Capturing default resolution image 0
+2023-01-11 11:46:35 INFO   Nokia_G300.Test0 Images Capturing default resolution image 1
+2023-01-11 11:46:44 INFO   Nokia_G300.Test0 Images Capturing default resolution image 2
+2023-01-11 11:46:54 INFO   Nokia_G300.Test0 Images Capturing default resolution image 3
+2023-01-11 11:47:04 INFO   Nokia_G300.Test0 Images Capturing default resolution image 4
+2023-01-11 11:47:14 INFO   Nokia_G300.Test0 Images Capturing default resolution image 5
+2023-01-11 11:47:24 INFO   Nokia_G300.Test0 Images Capturing default resolution image 6
+2023-01-11 11:47:34 INFO   Nokia_G300.Test0 Images Capturing default resolution image 7
+2023-01-11 11:47:44 INFO   Nokia_G300.Test0 Images Capturing default resolution image 8
+2023-01-11 11:47:54 INFO   Nokia_G300.Test0 Images Capturing default resolution image 9
+2023-01-11 11:48:04 INFO   Nokia_G300.Test0 Images Capturing default resolution image 10
+2023-01-11 11:48:13 INFO   Nokia_G300.Test0 Images Capturing default resolution image 11
+2023-01-11 11:48:23 INFO   Nokia_G300.Test0 Images Capturing default resolution image 12
+2023-01-11 11:48:33 INFO   Nokia_G300.Test0 Images Capturing default resolution image 13
+2023-01-11 11:48:42 INFO   Nokia_G300.Test0 Images Capturing default resolution image 14
+2023-01-11 11:48:52 INFO   Nokia_G300.Test0 Images Capturing default resolution image 15
+2023-01-11 11:49:02 INFO   Nokia_G300.Test0 Images Capturing default resolution image 16
+2023-01-11 11:49:12 INFO   Nokia_G300.Test0 Images Capturing default resolution image 17
+2023-01-11 11:49:22 INFO   Nokia_G300.Test0 Images Capturing default resolution image 18
+2023-01-11 11:49:31 INFO   Nokia_G300.Test0 Images Capturing default resolution image 19
+2023-01-11 11:49:41 INFO   Nokia_G300.Test0 Images Capturing default resolution image 20
+2023-01-11 11:49:51 INFO   Nokia_G300.Test0 Images Capturing default resolution image 21
+2023-01-11 11:50:01 INFO   Nokia_G300.Test0 Images Capturing default resolution image 22
+2023-01-11 11:50:09 INFO   Nokia_G300.Test0 Images Capturing default resolution image 23
+2023-01-11 11:50:19 INFO   Nokia_G300.Test0 Images Capturing default resolution image 24
+2023-01-11 11:50:19 INFO   Nokia_G300.Test0 Images 25 Images captured successfully
+2023-01-11 11:50:25 INFO   Nokia_G300.Test0 Images Launch File Manager application to verify  Image capture
+2023-01-11 11:50:34 INFO   Nokia_G300.Test0 Images Select  SD Card
+2023-01-11 11:50:39 INFO   Nokia_G300.Test0 Images Select DCIM Folder
+2023-01-11 11:50:44 INFO   Nokia_G300.Test0 Images Select Camera Folder
+2023-01-11 11:50:49 INFO   Nokia_G300.Test0 Images Select More Options 
+2023-01-11 11:50:55 INFO   Nokia_G300.Test0 Images Click On Select All Options
+2023-01-11 11:51:04 INFO   Nokia_G300.Test0 Images Pass:Total Number Of Image captured 25 is successfull
+2023-01-11 11:51:04 INFO   Nokia_G300.Test0 Images ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-11 11:51:04 INFO   Nokia_G300.Test0 Images Calling video() for rear video recording in USD card and verifying data capture.
+2023-01-11 11:51:17 INFO   Nokia_G300.Test0 Video Unlocking Phone
+2023-01-11 11:51:17 INFO   Nokia_G300.Test0 Video Launch camera application for rear camera picture capture
+2023-01-11 11:51:21 INFO   Nokia_G300.Test0 Video If location location permission request pop-up exists? select deny option
+2023-01-11 11:51:31 INFO   Nokia_G300.Test0 Video No location access permission pop-up found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Nokia G300, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: A0AOKIH002M92504552}, deviceApiLevel: 30, deviceManufacturer: HMD Global, deviceModel: N1374DL, deviceName: A0AOKIH002M92504552, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: A0AOKIH002M92504552, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 42, takesScreenshot: true, udid: A0AOKIH002M92504552, viewportRect: {height: 1530, left: 0, top: 42, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: d9593791-7bdc-4187-a37b-8e42918ff78c
+*** Element info: {Using=xpath, value=//*[@resource-id='com.android.permissioncontroller:id/permission_deny_button']}
+2023-01-11 11:51:55 INFO   Nokia_G300.Test0 Video Switch to video mode
+2023-01-11 11:51:59 INFO   Nokia_G300.Test0 Video select settings option
+2023-01-11 11:52:02 INFO   Nokia_G300.Test0 Video select data storage option
+2023-01-11 11:52:06 INFO   Nokia_G300.Test0 Video select uSD card as storage option
+2023-01-11 11:52:12 INFO   Nokia_G300.Test0 Video select settings option
+2023-01-11 11:52:17 INFO   Nokia_G300.Test0 Video select video resolution option
+2023-01-11 11:52:20 INFO   Nokia_G300.Test0 Video select Video from rear camera option
+2023-01-11 11:52:24 INFO   Nokia_G300.Test0 Video select first highest rear camera video resolution: FHD 1080P/60fps
+2023-01-11 11:52:32 INFO   Nokia_G300.Test0 Video Start recording
+2023-01-11 11:55:32 INFO   Nokia_G300.Test0 Video Stop recodring
+2023-01-11 11:56:04 INFO   Nokia_G300.Test0 Video select settings option
+2023-01-11 11:56:10 INFO   Nokia_G300.Test0 Video select video resolution option
+2023-01-11 11:56:13 INFO   Nokia_G300.Test0 Video select Video from rear camera option
+2023-01-11 11:56:16 INFO   Nokia_G300.Test0 Video select second highest rear camera video resolution:FHD 1080P/30fps
+2023-01-11 11:56:25 INFO   Nokia_G300.Test0 Video Start recording
+2023-01-11 11:59:25 INFO   Nokia_G300.Test0 Video Stop recodring
+2023-01-11 12:00:06 INFO   Nokia_G300.Test0 Video Launch File Manager Application to verify captured videos
+2023-01-11 12:00:12 INFO   Nokia_G300.Test0 Video Select  SD Card
+2023-01-11 12:00:17 INFO   Nokia_G300.Test0 Video Select DCIM Folder
+2023-01-11 12:00:22 INFO   Nokia_G300.Test0 Video Select Camera Folder
+2023-01-11 12:00:27 INFO   Nokia_G300.Test0 Video Select More Options 
+2023-01-11 12:00:33 INFO   Nokia_G300.Test0 Video Click On Select All Options
+2023-01-11 12:00:41 INFO   Nokia_G300.Test0 Video Pass: 2 Videos recorded Successfully
+2023-01-11 12:00:41 INFO   Nokia_G300.Test0 Video Pass: A total of 27 files present in uSD card before Format
+2023-01-11 12:00:41 INFO   Nokia_G300.Test0 Video ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-11 12:00:41 INFO   Nokia_G300.Test0 Video calling Format() for format with data scenario
+2023-01-11 12:00:55 INFO   Nokia_G300.Test0 Format Launch settings application to Format uSD card
+2023-01-11 12:01:01 INFO   Nokia_G300.Test0 Format Swipe Up and Search for Storage
+2023-01-11 12:01:14 INFO   Nokia_G300.Test0 Format Select uSD card
+2023-01-11 12:01:20 INFO   Nokia_G300.Test0 Format Select more option
+2023-01-11 12:01:26 INFO   Nokia_G300.Test0 Format Select storage settings
+2023-01-11 12:01:31 INFO   Nokia_G300.Test0 Format Select Format option
+2023-01-11 12:03:07 INFO   Nokia_G300.Test0 Format Accept to Format uSD Card
+2023-01-11 12:03:07 INFO   Nokia_G300.Test0 Format Started formatting, waiting till it gets formatted
+2023-01-11 12:03:17 INFO   Nokia_G300.Test0 Format Launch File Manager Application and verify data format scenario
+2023-01-11 12:03:20 INFO   Nokia_G300.Test0 Format Select  SD Card
+2023-01-11 12:03:25 INFO   Nokia_G300.Test0 Format Select DCIM Folder
+2023-01-11 12:03:31 INFO   Nokia_G300.Test0 Format Select Camera Folder
+2023-01-11 12:03:41 INFO   Nokia_G300.Test0 Format Pass:Images and videos are not present in the DCIM folder, CARD format is successfully completed 
+2023-01-11 12:03:41 INFO   Nokia_G300.Test0 Format ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-11 12:03:41 INFO   Nokia_G300.Test0 Format Final Message: Pass Test0 pass for format with data scenario
+2023-01-11 12:03:41 INFO   Nokia_G300.Test0 Format Test: End
+2023-01-11 12:03:41 INFO   Nokia_G300.Test0 Format ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

@@ -1,0 +1,109 @@
+2022-10-08 18:19:22 INFO   Samsung_Galaxy_F41.Test10F rearVideoRec Test:Start
+2022-10-08 18:19:22 INFO   Samsung_Galaxy_F41.Test10F rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-08 18:19:22 INFO   Samsung_Galaxy_F41.Test10F rearVideoRec Test10F Scenario is as follows
+2022-10-08 18:19:22 INFO   Samsung_Galaxy_F41.Test10F rearVideoRec 1.Launch Camera application and start front camera video recording for all host applicable resolutions in uSD Card
+2022-10-08 18:19:22 INFO   Samsung_Galaxy_F41.Test10F rearVideoRec 2.Playback front Highest recorded video for 30 seconds, pause video playback, lock mobile and wait 30 seconds, unlock mobile and playback video from pause video duration
+2022-10-08 18:19:22 INFO   Samsung_Galaxy_F41.Test10F rearVideoRec Setting up the appium desired capabilities
+2022-10-08 18:19:22 INFO   Samsung_Galaxy_F41.Test10F rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-08 18:19:37 INFO   Samsung_Galaxy_F41.Test10F rearVideoRec Launch Home screen and clear recent Apps
+2022-10-08 18:19:56 INFO   Samsung_Galaxy_F41.Test10F rearVideoRec Launch Camera Application for rear camera video recording
+2022-10-08 18:19:58 INFO   Samsung_Galaxy_F41.Test10F rearVideoRec If change to uSD card pop-up exists select Cancel
+2022-10-08 18:20:08 INFO   Samsung_Galaxy_F41.Test10F rearVideoRec change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '192.168.199.26', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy F41, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: RZ8NA02TCRA}, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-F415F, deviceName: RZ8NA02TCRA, deviceScreenDensity: 420, deviceScreenSize: 1080x2340, deviceUDID: RZ8NA02TCRA, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 78, takesScreenshot: true, udid: RZ8NA02TCRA, viewportRect: {height: 2053, left: 0, top: 78, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: c20bd83c-906f-4583-be3a-ffb3faff9e0b
+*** Element info: {Using=id, value=android:id/button2}
+2022-10-08 18:20:08 INFO   Samsung_Galaxy_F41.Test10F rearVideoRec If Location access Permission Request Pop Exists Click on Cancel. 
+2022-10-08 18:20:18 INFO   Samsung_Galaxy_F41.Test10F rearVideoRec Location access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '192.168.199.26', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy F41, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: RZ8NA02TCRA}, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-F415F, deviceName: RZ8NA02TCRA, deviceScreenDensity: 420, deviceScreenSize: 1080x2340, deviceUDID: RZ8NA02TCRA, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 78, takesScreenshot: true, udid: RZ8NA02TCRA, viewportRect: {height: 2053, left: 0, top: 78, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: c20bd83c-906f-4583-be3a-ffb3faff9e0b
+*** Element info: {Using=id, value=android:id/button2}
+2022-10-08 18:20:18 INFO   Samsung_Galaxy_F41.Test10F rearVideoRec Test10F_Fcam_res: 3 resolutions supported
+2022-10-08 18:20:18 INFO   Samsung_Galaxy_F41.Test10F rearVideoRec Switch to front camera mode
+2022-10-08 18:20:18 INFO   Samsung_Galaxy_F41.Test10F rearVideoRec Switch to front camera mode
+2022-10-08 18:20:24 INFO   Samsung_Galaxy_F41.Test10F rearVideoRec Switch to video mode
+2022-10-08 18:20:35 INFO   Samsung_Galaxy_F41.Test10F rearVideoRec Select settings option
+2022-10-08 18:20:40 INFO   Samsung_Galaxy_F41.Test10F rearVideoRec Swipe up and Select Storage location
+2022-10-08 18:20:56 INFO   Samsung_Galaxy_F41.Test10F rearVideoRec Select uSD card as Storage option
+2022-10-08 18:21:05 INFO   Samsung_Galaxy_F41.Test10F rearVideoRec Click on front video size and select resolution
+2022-10-08 18:21:06 INFO   Samsung_Galaxy_F41.Test10F rearVideoRec Select First back video Resolution:BACK_CAMCORDER_RESOLUTION_UHD_30
+2022-10-08 18:21:13 INFO   Samsung_Galaxy_F41.Test10F rearVideoRec Start front video recording
+2022-10-08 18:24:15 INFO   Samsung_Galaxy_F41.Test10F rearVideoRec Stop Recording
+2022-10-08 18:24:17 INFO   Samsung_Galaxy_F41.Test10F rearVideoRec Click front video size and select second resolution
+2022-10-08 18:24:18 INFO   Samsung_Galaxy_F41.Test10F rearVideoRec Select second Back Video Resolution:BACK_CAMCORDER_RESOLUTION_FHD_60
+2022-10-08 18:24:26 INFO   Samsung_Galaxy_F41.Test10F rearVideoRec Start front video recording
+2022-10-08 18:27:26 INFO   Samsung_Galaxy_F41.Test10F rearVideoRec Recording Video for 2Minutes of Duration
+2022-10-08 18:27:27 INFO   Samsung_Galaxy_F41.Test10F rearVideoRec Stop Recording
+2022-10-08 18:27:29 INFO   Samsung_Galaxy_F41.Test10F rearVideoRec Click front video size and select second resolution
+2022-10-08 18:27:30 INFO   Samsung_Galaxy_F41.Test10F rearVideoRec Select Third Back Video Resolution: BACK_CAMCORDER_RESOLUTION_FHD_30
+2022-10-08 18:27:38 INFO   Samsung_Galaxy_F41.Test10F rearVideoRec Start front video recording
+2022-10-08 18:30:39 INFO   Samsung_Galaxy_F41.Test10F rearVideoRec Recording Video for 2Minutes of Duration
+2022-10-08 18:30:39 INFO   Samsung_Galaxy_F41.Test10F rearVideoRec Stop Recording
+2022-10-08 18:30:41 INFO   Samsung_Galaxy_F41.Test10F rearVideoRec Pass: Test10F pass for front camera video recording
+2022-10-08 18:30:41 INFO   Samsung_Galaxy_F41.Test10F rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-08 18:30:41 INFO   Samsung_Galaxy_F41.Test10F rearVideoRec Launch file manager application and verify recorded video capture uSD Card
+2022-10-08 18:30:59 INFO   Samsung_Galaxy_F41.Test10F rearVideoRec Swipe up to select uSD card
+2022-10-08 18:31:03 INFO   Samsung_Galaxy_F41.Test10F rearVideoRec Select SD card
+2022-10-08 18:31:10 INFO   Samsung_Galaxy_F41.Test10F rearVideoRec switch to grid view mode to select DCIM folder
+2022-10-08 18:31:13 INFO   Samsung_Galaxy_F41.Test10F rearVideoRec Select DCIM folder
+2022-10-08 18:31:17 INFO   Samsung_Galaxy_F41.Test10F rearVideoRec Select camera folder
+2022-10-08 18:31:20 INFO   Samsung_Galaxy_F41.Test10F rearVideoRec switch to list view mode 
+2022-10-08 18:31:23 INFO   Samsung_Galaxy_F41.Test10F rearVideoRec Click More options
+2022-10-08 18:31:30 INFO   Samsung_Galaxy_F41.Test10F rearVideoRec Click Select all
+2022-10-08 18:31:44 INFO   Samsung_Galaxy_F41.Test10F rearVideoRec Test10F_Fcam_video: 3 videos captured successfully
+2022-10-08 18:31:44 INFO   Samsung_Galaxy_F41.Test10F rearVideoRec Pass: Test10F pass for front camera video recording
+2022-10-08 18:31:44 INFO   Samsung_Galaxy_F41.Test10F rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-08 18:31:44 INFO   Samsung_Galaxy_F41.Test10F rearVideoRec Calling VideoPlayBackForSleepWake()
+2022-10-08 18:31:44 INFO   Samsung_Galaxy_F41.Test10F VideoPlayBackForSleepWake Launch File Manager application and playback front recorded video from USD for 30 seconds, pause video playback, locking phone and unlock after 30 seconds delay and playback video from pause duration.
+2022-10-08 18:31:44 INFO   Samsung_Galaxy_F41.Test10F VideoPlayBackForSleepWake Clearing Recent Apps
+2022-10-08 18:31:44 INFO   Samsung_Galaxy_F41.Test10F VideoPlayBackForSleepWake Clear Recent Apps
+2022-10-08 18:32:11 INFO   Samsung_Galaxy_F41.Test10F VideoPlayBackForSleepWake Launching file manager application
+2022-10-08 18:32:15 INFO   Samsung_Galaxy_F41.Test10F VideoPlayBackForSleepWake Select External Storage
+2022-10-08 18:32:21 INFO   Samsung_Galaxy_F41.Test10F VideoPlayBackForSleepWake switch to grid view mode to select DCIM folder
+2022-10-08 18:32:24 INFO   Samsung_Galaxy_F41.Test10F VideoPlayBackForSleepWake Select DCIM folder
+2022-10-08 18:32:27 INFO   Samsung_Galaxy_F41.Test10F VideoPlayBackForSleepWake Select Camera folder
+2022-10-08 18:32:31 INFO   Samsung_Galaxy_F41.Test10F VideoPlayBackForSleepWake switch to list view mode 
+2022-10-08 18:32:34 INFO   Samsung_Galaxy_F41.Test10F VideoPlayBackForSleepWake Select more options
+2022-10-08 18:32:45 INFO   Samsung_Galaxy_F41.Test10F VideoPlayBackForSleepWake Select Sort by Newest date first
+2022-10-08 18:32:48 INFO   Samsung_Galaxy_F41.Test10F VideoPlayBackForSleepWake Click on first file to play highest recorded resolution video file from uSD
+2022-10-08 18:32:48 INFO   Samsung_Galaxy_F41.Test10F VideoPlayBackForSleepWake Started video playback
+2022-10-08 18:33:08 INFO   Samsung_Galaxy_F41.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2022-10-08 18:33:09 INFO   Samsung_Galaxy_F41.Test10F VideoPlayBackForSleepWake Click pause video button
+2022-10-08 18:33:13 INFO   Samsung_Galaxy_F41.Test10F VideoPlayBackForSleepWake Lock Mobile with 30 seconds delay
+2022-10-08 18:33:43 INFO   Samsung_Galaxy_F41.Test10F VideoPlayBackForSleepWake Unlock Mobile 
+2022-10-08 18:33:43 INFO   Samsung_Galaxy_F41.Test10F VideoPlayBackForSleepWake PlayBack Video from Pause duartion
+2022-10-08 18:33:43 INFO   Samsung_Galaxy_F41.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2022-10-08 18:33:43 INFO   Samsung_Galaxy_F41.Test10F VideoPlayBackForSleepWake Fast forward video play back for 10 seconds
+2022-10-08 18:33:43 INFO   Samsung_Galaxy_F41.Test10F VideoPlayBackForSleepWake Pause video play back
+2022-10-08 18:33:56 INFO   Samsung_Galaxy_F41.Test10F VideoPlayBackForSleepWake Pass: Pass Test10F Pass for Pause Video Playback scenario
+2022-10-08 18:33:56 INFO   Samsung_Galaxy_F41.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-08 18:33:56 INFO   Samsung_Galaxy_F41.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-08 18:33:56 INFO   Samsung_Galaxy_F41.Test10F VideoPlayBackForSleepWake calling DatamoveOperation() to move front camera recorded videos files to Test10F folder
+2022-10-08 18:33:56 INFO   Samsung_Galaxy_F41.Test10F DataMoveOperation Re-launch file manager application and select external storage for data move operation, select all rear camera videos present in camera folder and move to Test10 folder
+2022-10-08 18:34:02 INFO   Samsung_Galaxy_F41.Test10F DataMoveOperation Launching file manager application
+2022-10-08 18:34:06 INFO   Samsung_Galaxy_F41.Test10F DataMoveOperation Select external storage
+2022-10-08 18:34:11 INFO   Samsung_Galaxy_F41.Test10F DataMoveOperation switch to grid view mode and select DCIM  folder
+2022-10-08 18:34:15 INFO   Samsung_Galaxy_F41.Test10F DataMoveOperation Select DCIM folder
+2022-10-08 18:34:18 INFO   Samsung_Galaxy_F41.Test10F DataMoveOperation Select camera  folder
+2022-10-08 18:34:21 INFO   Samsung_Galaxy_F41.Test10F DataMoveOperation switch to list view mode 
+2022-10-08 18:34:25 INFO   Samsung_Galaxy_F41.Test10F DataMoveOperation Click More options
+2022-10-08 18:34:31 INFO   Samsung_Galaxy_F41.Test10F DataMoveOperation Click Select all
+2022-10-08 18:34:35 INFO   Samsung_Galaxy_F41.Test10F DataMoveOperation Click More options
+2022-10-08 18:34:42 INFO   Samsung_Galaxy_F41.Test10F DataMoveOperation Select move to option
+2022-10-08 18:34:49 INFO   Samsung_Galaxy_F41.Test10F DataMoveOperation Select uSD Card
+2022-10-08 18:34:56 INFO   Samsung_Galaxy_F41.Test10F DataMoveOperation Select ADD NEW Folder option
+2022-10-08 18:35:02 INFO   Samsung_Galaxy_F41.Test10F DataMoveOperation Name folder as Test10F
+2022-10-08 18:35:09 INFO   Samsung_Galaxy_F41.Test10F DataMoveOperation Accept create folder
+2022-10-08 18:35:39 INFO   Samsung_Galaxy_F41.Test10F DataMoveOperation Cut paste  video files operation completed successfully
+2022-10-08 18:35:44 INFO   Samsung_Galaxy_F41.Test10F DataMoveOperation Test10F: Data move operation completed successfully
+2022-10-08 18:35:53 INFO   Samsung_Galaxy_F41.Test10F DataMoveOperation Pass: Test10F Pass for data move operation successfully
+2022-10-08 18:35:53 INFO   Samsung_Galaxy_F41.Test10F VideoPlayBackForSleepWake Final message: Pass Test10F Pass for front camera  video recording, Pause Video Playback scenario and data move operation scenario
+2022-10-08 18:35:53 INFO   Samsung_Galaxy_F41.Test10F VideoPlayBackForSleepWake Test:End
+2022-10-08 18:35:53 INFO   Samsung_Galaxy_F41.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

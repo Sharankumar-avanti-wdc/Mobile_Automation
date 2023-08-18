@@ -1,0 +1,1068 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="8,683.195" tests="7" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="fileName" value="testngMain.xml"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="totalPictureCountRear" value="100"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="totalPictureCountFront" value="100"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\sandisk\eclipse-workspace\Sony_Xperia1_II_XQAT52\target\test-classes;C:\Users\sandisk\eclipse-workspace\Sony_Xperia1_II_XQAT52\target\classes;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\sandisk\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\sandisk\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\sandisk\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\sandisk\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\sandisk\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\sandisk\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\sandisk\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\sandisk\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\sandisk\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\sandisk\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-android-driver\2.39.0\selenium-android-driver-2.39.0.jar;C:\Users\sandisk\.m2\repository\io\appium\java-client\7.0.0\java-client-7.0.0.jar;C:\Users\sandisk\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\sandisk\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\sandisk\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\sandisk\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\sandisk\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\sandisk\.m2\repository\cglib\cglib\3.2.8\cglib-3.2.8.jar;C:\Users\sandisk\.m2\repository\org\ow2\asm\asm\6.2.1\asm-6.2.1.jar;C:\Users\sandisk\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\sandisk\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\sandisk\.m2\repository\commons-validator\commons-validator\1.6\commons-validator-1.6.jar;C:\Users\sandisk\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\sandisk\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\sandisk\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\sandisk\.m2\repository\org\apache\commons\commons-lang3\3.8\commons-lang3-3.8.jar;C:\Users\sandisk\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\sandisk\.m2\repository\org\springframework\spring-context\5.1.0.RELEASE\spring-context-5.1.0.RELEASE.jar;C:\Users\sandisk\.m2\repository\org\springframework\spring-aop\5.1.0.RELEASE\spring-aop-5.1.0.RELEASE.jar;C:\Users\sandisk\.m2\repository\org\springframework\spring-beans\5.1.0.RELEASE\spring-beans-5.1.0.RELEASE.jar;C:\Users\sandisk\.m2\repository\org\springframework\spring-core\5.1.0.RELEASE\spring-core-5.1.0.RELEASE.jar;C:\Users\sandisk\.m2\repository\org\springframework\spring-jcl\5.1.0.RELEASE\spring-jcl-5.1.0.RELEASE.jar;C:\Users\sandisk\.m2\repository\org\springframework\spring-expression\5.1.0.RELEASE\spring-expression-5.1.0.RELEASE.jar;C:\Users\sandisk\.m2\repository\org\aspectj\aspectjweaver\1.9.1\aspectjweaver-1.9.1.jar;C:\Users\sandisk\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\sandisk\.m2\repository\org\testng\testng\6.1.1\testng-6.1.1.jar;C:\Users\sandisk\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\sandisk\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\sandisk\.m2\repository\com\beust\jcommander\1.12\jcommander-1.12.jar;C:\Users\sandisk\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
+    <property name="recordingDurationRear1" value="600"/>
+    <property name="recordingDurationRear2" value="600"/>
+    <property name="sun.java.command" value="C:\Users\sandisk\AppData\Local\Temp\surefire7970392239736451839\surefirebooter7990500273962185574.jar C:\Users\sandisk\AppData\Local\Temp\surefire7970392239736451839 2023-01-09T18-46-50_215-jvmRun1 surefire7171287567046955595tmp surefire_0134991101307310677tmp"/>
+    <property name="recordingDurationRear3" value="580"/>
+    <property name="recordingDurationfront1" value="550"/>
+    <property name="surefire.test.class.path" value="C:\Users\sandisk\eclipse-workspace\Sony_Xperia1_II_XQAT52\target\test-classes;C:\Users\sandisk\eclipse-workspace\Sony_Xperia1_II_XQAT52\target\classes;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\sandisk\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\sandisk\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\sandisk\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\sandisk\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\sandisk\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\sandisk\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\sandisk\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\sandisk\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\sandisk\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\sandisk\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-android-driver\2.39.0\selenium-android-driver-2.39.0.jar;C:\Users\sandisk\.m2\repository\io\appium\java-client\7.0.0\java-client-7.0.0.jar;C:\Users\sandisk\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\sandisk\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\sandisk\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\sandisk\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\sandisk\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\sandisk\.m2\repository\cglib\cglib\3.2.8\cglib-3.2.8.jar;C:\Users\sandisk\.m2\repository\org\ow2\asm\asm\6.2.1\asm-6.2.1.jar;C:\Users\sandisk\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\sandisk\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\sandisk\.m2\repository\commons-validator\commons-validator\1.6\commons-validator-1.6.jar;C:\Users\sandisk\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\sandisk\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\sandisk\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\sandisk\.m2\repository\org\apache\commons\commons-lang3\3.8\commons-lang3-3.8.jar;C:\Users\sandisk\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\sandisk\.m2\repository\org\springframework\spring-context\5.1.0.RELEASE\spring-context-5.1.0.RELEASE.jar;C:\Users\sandisk\.m2\repository\org\springframework\spring-aop\5.1.0.RELEASE\spring-aop-5.1.0.RELEASE.jar;C:\Users\sandisk\.m2\repository\org\springframework\spring-beans\5.1.0.RELEASE\spring-beans-5.1.0.RELEASE.jar;C:\Users\sandisk\.m2\repository\org\springframework\spring-core\5.1.0.RELEASE\spring-core-5.1.0.RELEASE.jar;C:\Users\sandisk\.m2\repository\org\springframework\spring-jcl\5.1.0.RELEASE\spring-jcl-5.1.0.RELEASE.jar;C:\Users\sandisk\.m2\repository\org\springframework\spring-expression\5.1.0.RELEASE\spring-expression-5.1.0.RELEASE.jar;C:\Users\sandisk\.m2\repository\org\aspectj\aspectjweaver\1.9.1\aspectjweaver-1.9.1.jar;C:\Users\sandisk\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\sandisk\.m2\repository\org\testng\testng\6.1.1\testng-6.1.1.jar;C:\Users\sandisk\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\sandisk\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\sandisk\.m2\repository\com\beust\jcommander\1.12\jcommander-1.12.jar;C:\Users\sandisk\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\sandisk"/>
+    <property name="recordingDurationfront2" value="550"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_202\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\sandisk\eclipse-workspace\Sony_Xperia1_II_XQAT52"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="mountUnmountCycle" value="1"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\sandisk\AppData\Local\Temp\surefire7970392239736451839\surefirebooter7990500273962185574.jar"/>
+    <property name="recordingDurationRear" value="500"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_202-b08"/>
+    <property name="user.name" value="sandisk"/>
+    <property name="totalPictureCountFront2" value="100"/>
+    <property name="totalPictureCountFront1" value="100"/>
+    <property name="path.separator" value=";"/>
+    <property name="recordingDurationfront" value="550"/>
+    <property name="totalPictureCountRear1" value="100"/>
+    <property name="os.version" value="10.0"/>
+    <property name="totalPictureCountRear2" value="100"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\sandisk\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\sandisk\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_202"/>
+    <property name="user.dir" value="C:\Users\sandisk\eclipse-workspace\Sony_Xperia1_II_XQAT52"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.util.logging.SimpleFormatter.format" value="%1$tY-%1$tm-%1$td %1$tH:%1$tM:%1$tS %4$-6s %2$s %5$s%6$s%n"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\sandisk\Maven\apache-maven-3.8.4\bin;C:\Ant\apache-ant-1.9.15\bin;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Users\sandisk\AppData\Local\Android\Sdk;C:\Users\sandisk\android-sdks\platform-tools;C:\Android\Android-sdk\bin;C:\Android\Android-sdk\tools;C:\Android\Android-sdk\platform-tools;C:\Python37\Scripts\;C:\Python37\;C:\Users\sandisk\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="25.202-b08"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="start" classname="Sony_Xperia1_II_XQAT52.Test0" time="922.484">
+    <system-out><![CDATA[===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+ Test0 Scenario is as follows 
+Unlock phone, clear recent apps, clear internal memory
+Call Image() and Capture Rear camera 25 images for default resolution in uSD card and Verify the data capture
+Call Video() and record Rear camera video of first 2 resloutions for 2 minutes of duration in uSD Card and verify the same
+Call Format() and format uSD card with data and verify the same
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Setting up the appium desired capabilities
+Clearing Recent Apps
+Pass: Test0 Pass for clearing Recent apps 
+Launch File Manager Application and clear internal memory
+Select  Internal storage
+Swipe up and select uSD card
+Select Internal storage
+Pass: Clearing phone internal memory is successfull
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Calling Image() for rear Image capture in uSD Card and Verify the Captured images
+if Location permisson Pop Exists Select Cancel Option
+change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: XQ-AT52, newCommandTimeout: 600, platformName: android, platformVersion: 11, udid: QV710PLJ3F}, deviceApiLevel: 30, deviceManufacturer: Sony, deviceModel: XQ-AT52, deviceName: QV710PLJ3F, deviceScreenDensity: 420, deviceScreenSize: 1096x2560, deviceUDID: QV710PLJ3F, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 63, takesScreenshot: true, udid: QV710PLJ3F, viewportRect: {height: 2371, left: 0, top: 63, width: 1096}, warnings: {}, webStorageEnabled: false}
+Session ID: 4bc3ac91-111d-4e09-9e0e-47128e9bc22b
+*** Element info: {Using=xpath, value=//*[@text='NO']}
+Select settings option
+Search for Data storage option
+Select SD as storage option
+clicking Image of Default Resolutions0
+clicking Image of Default Resolutions1
+clicking Image of Default Resolutions2
+clicking Image of Default Resolutions3
+clicking Image of Default Resolutions4
+clicking Image of Default Resolutions5
+clicking Image of Default Resolutions6
+clicking Image of Default Resolutions7
+clicking Image of Default Resolutions8
+clicking Image of Default Resolutions9
+clicking Image of Default Resolutions10
+clicking Image of Default Resolutions11
+clicking Image of Default Resolutions12
+clicking Image of Default Resolutions13
+clicking Image of Default Resolutions14
+clicking Image of Default Resolutions15
+clicking Image of Default Resolutions16
+clicking Image of Default Resolutions17
+clicking Image of Default Resolutions18
+clicking Image of Default Resolutions19
+clicking Image of Default Resolutions20
+clicking Image of Default Resolutions21
+clicking Image of Default Resolutions22
+clicking Image of Default Resolutions23
+clicking Image of Default Resolutions24
+Launch File Manager application to verify  Image capture
+Select  SD Card
+Select DCIM Folder
+Select Camera Folder
+Select More Options 
+Click On Select All Options
+Pass:Total Number Of Image captured 25 is successfull
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Calling video() for rear video recording in USD card and verifying data capture.
+if Location permisson Pop Exists Select Cancel Option
+change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: XQ-AT52, newCommandTimeout: 600, platformName: android, platformVersion: 11, udid: QV710PLJ3F}, deviceApiLevel: 30, deviceManufacturer: Sony, deviceModel: XQ-AT52, deviceName: QV710PLJ3F, deviceScreenDensity: 420, deviceScreenSize: 1096x2560, deviceUDID: QV710PLJ3F, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 63, takesScreenshot: true, udid: QV710PLJ3F, viewportRect: {height: 2371, left: 0, top: 63, width: 1096}, warnings: {}, webStorageEnabled: false}
+Session ID: 4bc3ac91-111d-4e09-9e0e-47128e9bc22b
+*** Element info: {Using=xpath, value=//*[@text='NO']}
+Switch to Video Mode
+Select settings option
+Search for Data storage option
+Select SD as storage option
+Select 1st Back Video Resolution:4K
+Start video recording
+Stop video recording
+Select settings option to select second resolution
+Select 1st Back Video Resolution:Full HD
+Start video recording
+Stop video recording
+Pass: Rear camera video recording is successfull
+Verifying Captured Videos
+Launch Home screen and Clear recent Apps
+Launch File Manager application to verify  Image capture
+Select  SD Card
+Select DCIM Folder
+Select Camera Folder
+Select More Options 
+Click On Select All Options
+Pass: 2 Videos recorded Successfully
+Pass: A total of 27 files present in uSD card before Format
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+calling Format() for format with data scenario
+Launch Settings application for Format uSD card with Data 
+Scrolling till battery and device care is visible
+Clicking on Storage care
+Clicking on More Options
+Clicking on more options
+Clicking on SD card
+Click Format
+Pass: Format uSD with Data is successfull
+Select  SD Card
+Select DCIM Folder
+Select Camera Folder
+Pass:Images and videos are not present in the DCIM folder, CARD format is successfully completed 
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Final Message: Pass Test0 pass for format Operation
+Test:End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+]]></system-out>
+    <system-err><![CDATA[2023-01-09 18:47:15 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+2023-01-09 18:47:24 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: XQ-AT52, newCommandTimeout: 600, platformName: android, platformVersion: 11, udid: QV710PLJ3F}, deviceApiLevel: 30, deviceManufacturer: Sony, deviceModel: XQ-AT52, deviceName: QV710PLJ3F, deviceScreenDensity: 420, deviceScreenSize: 1096x2560, deviceUDID: QV710PLJ3F, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 63, takesScreenshot: true, udid: QV710PLJ3F, viewportRect: {height: 2371, left: 0, top: 63, width: 1096}, warnings: {}, webStorageEnabled: false}
+Session ID: 4bc3ac91-111d-4e09-9e0e-47128e9bc22b
+*** Element info: {Using=xpath, value=//*[@resource-id='com.google.android.apps.nbu.files:id/title']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at Sony_Xperia1_II_XQAT52.Test0.Format(Test0.java:777)
+	at Sony_Xperia1_II_XQAT52.Test0.Video(Test0.java:641)
+	at Sony_Xperia1_II_XQAT52.Test0.Images(Test0.java:384)
+	at Sony_Xperia1_II_XQAT52.Test0.start(Test0.java:209)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:673)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:842)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1166)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1178)
+	at org.testng.TestRunner.privateRun(TestRunner.java:757)
+	at org.testng.TestRunner.run(TestRunner.java:608)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1158)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1154)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1083)
+	at org.testng.TestNG.run(TestNG.java:999)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]></system-err>
+  </testcase>
+  <testcase name="Format" classname="Sony_Xperia1_II_XQAT52.Test3" time="172.011">
+    <system-out><![CDATA[Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test3 Scenario is as follows
+ Unmount uSD Card and Format card for specified number of times
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch  setting application to format uSD card
+Scrolling till battery and device care is visible
+Clicking on Storage care
+Clicking on More Options
+Clicking on more options
+Clicking on SD card
+Click Format
+Pass: Test3 Pass for MOunt,unmount and Formating the uSD Card
+Final Message:Pass Test3 Pass for Unmount,Mount and Formattig uSD Card
+Test End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+]]></system-out>
+    <system-err><![CDATA[2023-01-09 19:02:46 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+2023-01-09 19:02:54 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="CopyPaste" classname="Sony_Xperia1_II_XQAT52.Test18" time="166.05">
+    <failure message="An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: write ECONNABORTED&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SD-APPS-090&apos;, ip: &apos;10.65.148.57&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: XQ-AT52, newCommandTimeout: 600, platformName: android, platformVersion: 11, udid: QV710PLJ3F}, deviceApiLevel: 30, deviceManufacturer: Sony, deviceModel: XQ-AT52, deviceName: QV710PLJ3F, deviceScreenDensity: 420, deviceScreenSize: 1096x2560, deviceUDID: QV710PLJ3F, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 63, takesScreenshot: true, udid: QV710PLJ3F, viewportRect: {height: 2371, left: 0, top: 63, width: 1096}, warnings: {}, webStorageEnabled: false}&#10;Session ID: 3a03ce8b-a11b-4987-a7f7-247611fd3528&#10;*** Element info: {Using=-android uiautomator, value=new UiSelector().text(&quot;Done&quot;)}" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: write ECONNABORTED
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: XQ-AT52, newCommandTimeout: 600, platformName: android, platformVersion: 11, udid: QV710PLJ3F}, deviceApiLevel: 30, deviceManufacturer: Sony, deviceModel: XQ-AT52, deviceName: QV710PLJ3F, deviceScreenDensity: 420, deviceScreenSize: 1096x2560, deviceUDID: QV710PLJ3F, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 63, takesScreenshot: true, udid: QV710PLJ3F, viewportRect: {height: 2371, left: 0, top: 63, width: 1096}, warnings: {}, webStorageEnabled: false}
+Session ID: 3a03ce8b-a11b-4987-a7f7-247611fd3528
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Done")}
+	at Sony_Xperia1_II_XQAT52.Test18.CopyPaste(Test18.java:132)
+]]></failure>
+    <system-out><![CDATA[===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test18 Scenario is as follows
+Pushing 1GB zip File to Host Internal Memory via server folder named as Test1 
+Extracting zip file in Host internal memory
+Copy Paste 1GB file (Test1) from host internal memory to uSD Card, Create a folder named Test2 in uSD Card, Copy paste 1GB Folder(Test1) From internal to external inside folder Test2 and Vice versa
+Create folder name(New_Scenario in External memory, select folder name(Test2) from internal memory and perform cut paste operation from internla to external memory
+Setting up the appium desired capabilities
+Pushing zip file to host internal memory
+Push file is successfull
+Launching file manager application to extract zip and perform copy paste, cut paste operation from internal memory to external memory
+Select Internal storage
+Select Test1 Folder
+Select  zip file
+Select Extract option
+Extracting Push zip file as Folder named Test1
+]]></system-out>
+    <system-err><![CDATA[2023-01-09 19:05:47 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+2023-01-09 19:06:00 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="rearVideoRec" classname="Sony_Xperia1_II_XQAT52.Test10" time="1,230.768">
+    <system-out><![CDATA[===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test10 Scenario is as follows
+1.Launch Camera application and start back camera video recording for all host applicable resolutions in uSD Card
+2.Playback Highest resolution recorded video from USD Card, fast forward playback and pause video scenario 
+3.Playback copied videos from Test1 folder, fast forward and pause scenario
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Clearing  Recent Apps
+if Location permisson Pop Exists Select Cancel Option
+change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: XQ-AT52, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: QV710PLJ3F}, deviceApiLevel: 30, deviceManufacturer: Sony, deviceModel: XQ-AT52, deviceName: QV710PLJ3F, deviceScreenDensity: 420, deviceScreenSize: 1096x2560, deviceUDID: QV710PLJ3F, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 63, takesScreenshot: true, udid: QV710PLJ3F, viewportRect: {height: 2371, left: 0, top: 63, width: 1096}, warnings: {}, webStorageEnabled: false}
+Session ID: fd92f68f-5b94-42e9-9d53-a4074919cd4c
+*** Element info: {Using=xpath, value=//*[@text='NO']}
+Switch to Video Mode
+Select settings option
+Search for Data storage option
+Select SD as storage option
+Select 1st Back Video Resolution:4K
+recordingDurationRear = 500
+Start video recording
+Stop video recording
+Select settings option to select second resolution
+Select 1st Back Video Resolution:Full HD
+recordingDurationRear1 = 600
+Start video recording
+Stop video recording
+Select settings option to select second resolution
+Fail: Test10 Fail for Rear camera video recording 
+Final Message: Fail Test10 Fail for Rear camera video recording
+]]></system-out>
+    <system-err><![CDATA[2023-01-09 19:08:42 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+2023-01-09 19:08:49 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="rearVideoRec" classname="Sony_Xperia1_II_XQAT52.Test10F" time="480.141">
+    <system-out><![CDATA[===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test10F Scenario is as follows
+Launch Camera application and start front camera video recording for all host applicable resolutions in uSD Card
+Playback front Highest recorded video from uSD card for 30 seconds, pause video playback, lock mobile and wait 30 seconds, unlock mobile and playback video from pause video duration
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch Home screen and clear recent Appsif Location permisson Pop Exists Select Cancel Option
+change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: XQ-AT52, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: QV710PLJ3F}, deviceApiLevel: 30, deviceManufacturer: Sony, deviceModel: XQ-AT52, deviceName: QV710PLJ3F, deviceScreenDensity: 420, deviceScreenSize: 1096x2560, deviceUDID: QV710PLJ3F, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 63, takesScreenshot: true, udid: QV710PLJ3F, viewportRect: {height: 2371, left: 0, top: 63, width: 1096}, warnings: {}, webStorageEnabled: false}
+Session ID: 2a89ccf2-cd03-4cba-beb3-5464e8444e91
+*** Element info: {Using=xpath, value=//*[@text='NO']}
+Switch to Video Mode
+Select settings option
+Fail: Test10F for Front camera video recording
+Final Message: Fail Test10F Fail fro Front camera video recording
+Click on first file to play highest recorded resolution video file
+Tap Somewhere on Screen for contents to visible on Screen
+Lock Mobile with 30 seconds delay
+Unlock Mobile
+Playback video from pause video duration
+Pass: Test10F Pass for Front video play back, Pause,Lock and Unlock Phone Play back from Pause duration Scenario
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Final Message: Pass Test10F Pass for Pause Video Playback
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+]]></system-out>
+    <system-err><![CDATA[2023-01-09 19:29:21 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+2023-01-09 19:29:28 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="RearPictureCapture" classname="Sony_Xperia1_II_XQAT52.Test9" time="2,797.156">
+    <system-out><![CDATA[===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test9 Scenario is follows:
+Launch camera application, set USD as a Storage option, start rear camera Image capture for all host resolutions
+Setting up the appium desired capabilities
+Launch Home Screen and Clear recent
+if Location permisson Pop Exists Select Cancel Option
+change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: XQ-AT52, newCommandTimeout: 600, platformName: android, platformVersion: 11, udid: QV710PLJ3F}, deviceApiLevel: 30, deviceManufacturer: Sony, deviceModel: XQ-AT52, deviceName: QV710PLJ3F, deviceScreenDensity: 420, deviceScreenSize: 1096x2560, deviceUDID: QV710PLJ3F, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 63, takesScreenshot: true, udid: QV710PLJ3F, viewportRect: {height: 2371, left: 0, top: 63, width: 1096}, warnings: {}, webStorageEnabled: false}
+Session ID: a3e19168-1d8b-4ea5-9dcf-8a887fbe4677
+*** Element info: {Using=xpath, value=//*[@text='NO']}
+Select settings option
+Search for Data storage option
+Select SD as storage option
+Select Rear Image Size
+Select first Image Resoution: 4:3 (12MP)
+totalPictureCountRear = 100
+clicking First   Resolution Image0
+clicking First   Resolution Image1
+clicking First   Resolution Image2
+clicking First   Resolution Image3
+clicking First   Resolution Image4
+clicking First   Resolution Image5
+clicking First   Resolution Image6
+clicking First   Resolution Image7
+clicking First   Resolution Image8
+clicking First   Resolution Image9
+clicking First   Resolution Image10
+clicking First   Resolution Image11
+clicking First   Resolution Image12
+clicking First   Resolution Image13
+clicking First   Resolution Image14
+clicking First   Resolution Image15
+clicking First   Resolution Image16
+clicking First   Resolution Image17
+clicking First   Resolution Image18
+clicking First   Resolution Image19
+clicking First   Resolution Image20
+clicking First   Resolution Image21
+clicking First   Resolution Image22
+clicking First   Resolution Image23
+clicking First   Resolution Image24
+clicking First   Resolution Image25
+clicking First   Resolution Image26
+clicking First   Resolution Image27
+clicking First   Resolution Image28
+clicking First   Resolution Image29
+clicking First   Resolution Image30
+clicking First   Resolution Image31
+clicking First   Resolution Image32
+clicking First   Resolution Image33
+clicking First   Resolution Image34
+clicking First   Resolution Image35
+clicking First   Resolution Image36
+clicking First   Resolution Image37
+clicking First   Resolution Image38
+clicking First   Resolution Image39
+clicking First   Resolution Image40
+clicking First   Resolution Image41
+clicking First   Resolution Image42
+clicking First   Resolution Image43
+clicking First   Resolution Image44
+clicking First   Resolution Image45
+clicking First   Resolution Image46
+clicking First   Resolution Image47
+clicking First   Resolution Image48
+clicking First   Resolution Image49
+clicking First   Resolution Image50
+clicking First   Resolution Image51
+clicking First   Resolution Image52
+clicking First   Resolution Image53
+clicking First   Resolution Image54
+clicking First   Resolution Image55
+clicking First   Resolution Image56
+clicking First   Resolution Image57
+clicking First   Resolution Image58
+clicking First   Resolution Image59
+clicking First   Resolution Image60
+clicking First   Resolution Image61
+clicking First   Resolution Image62
+clicking First   Resolution Image63
+clicking First   Resolution Image64
+clicking First   Resolution Image65
+clicking First   Resolution Image66
+clicking First   Resolution Image67
+clicking First   Resolution Image68
+clicking First   Resolution Image69
+clicking First   Resolution Image70
+clicking First   Resolution Image71
+clicking First   Resolution Image72
+clicking First   Resolution Image73
+clicking First   Resolution Image74
+clicking First   Resolution Image75
+clicking First   Resolution Image76
+clicking First   Resolution Image77
+clicking First   Resolution Image78
+clicking First   Resolution Image79
+clicking First   Resolution Image80
+clicking First   Resolution Image81
+clicking First   Resolution Image82
+clicking First   Resolution Image83
+clicking First   Resolution Image84
+clicking First   Resolution Image85
+clicking First   Resolution Image86
+clicking First   Resolution Image87
+clicking First   Resolution Image88
+clicking First   Resolution Image89
+clicking First   Resolution Image90
+clicking First   Resolution Image91
+clicking First   Resolution Image92
+clicking First   Resolution Image93
+clicking First   Resolution Image94
+clicking First   Resolution Image95
+clicking First   Resolution Image96
+clicking First   Resolution Image97
+clicking First   Resolution Image98
+clicking First   Resolution Image99
+Select Rear Image Size
+Select first Image Resoution: 16:9 (9MP)
+totalPictureCountRear1 = 100
+clicking Second   Resolution Image0
+clicking Second   Resolution Image1
+clicking Second   Resolution Image2
+clicking Second   Resolution Image3
+clicking Second   Resolution Image4
+clicking Second   Resolution Image5
+clicking Second   Resolution Image6
+clicking Second   Resolution Image7
+clicking Second   Resolution Image8
+clicking Second   Resolution Image9
+clicking Second   Resolution Image10
+clicking Second   Resolution Image11
+clicking Second   Resolution Image12
+clicking Second   Resolution Image13
+clicking Second   Resolution Image14
+clicking Second   Resolution Image15
+clicking Second   Resolution Image16
+clicking Second   Resolution Image17
+clicking Second   Resolution Image18
+clicking Second   Resolution Image19
+clicking Second   Resolution Image20
+clicking Second   Resolution Image21
+clicking Second   Resolution Image22
+clicking Second   Resolution Image23
+clicking Second   Resolution Image24
+clicking Second   Resolution Image25
+clicking Second   Resolution Image26
+clicking Second   Resolution Image27
+clicking Second   Resolution Image28
+clicking Second   Resolution Image29
+clicking Second   Resolution Image30
+clicking Second   Resolution Image31
+clicking Second   Resolution Image32
+clicking Second   Resolution Image33
+clicking Second   Resolution Image34
+clicking Second   Resolution Image35
+clicking Second   Resolution Image36
+clicking Second   Resolution Image37
+clicking Second   Resolution Image38
+clicking Second   Resolution Image39
+clicking Second   Resolution Image40
+clicking Second   Resolution Image41
+clicking Second   Resolution Image42
+clicking Second   Resolution Image43
+clicking Second   Resolution Image44
+clicking Second   Resolution Image45
+clicking Second   Resolution Image46
+clicking Second   Resolution Image47
+clicking Second   Resolution Image48
+clicking Second   Resolution Image49
+clicking Second   Resolution Image50
+clicking Second   Resolution Image51
+clicking Second   Resolution Image52
+clicking Second   Resolution Image53
+clicking Second   Resolution Image54
+clicking Second   Resolution Image55
+clicking Second   Resolution Image56
+clicking Second   Resolution Image57
+clicking Second   Resolution Image58
+clicking Second   Resolution Image59
+clicking Second   Resolution Image60
+clicking Second   Resolution Image61
+clicking Second   Resolution Image62
+clicking Second   Resolution Image63
+clicking Second   Resolution Image64
+clicking Second   Resolution Image65
+clicking Second   Resolution Image66
+clicking Second   Resolution Image67
+clicking Second   Resolution Image68
+clicking Second   Resolution Image69
+clicking Second   Resolution Image70
+clicking Second   Resolution Image71
+clicking Second   Resolution Image72
+clicking Second   Resolution Image73
+clicking Second   Resolution Image74
+clicking Second   Resolution Image75
+clicking Second   Resolution Image76
+clicking Second   Resolution Image77
+clicking Second   Resolution Image78
+clicking Second   Resolution Image79
+clicking Second   Resolution Image80
+clicking Second   Resolution Image81
+clicking Second   Resolution Image82
+clicking Second   Resolution Image83
+clicking Second   Resolution Image84
+clicking Second   Resolution Image85
+clicking Second   Resolution Image86
+clicking Second   Resolution Image87
+clicking Second   Resolution Image88
+clicking Second   Resolution Image89
+clicking Second   Resolution Image90
+clicking Second   Resolution Image91
+clicking Second   Resolution Image92
+clicking Second   Resolution Image93
+clicking Second   Resolution Image94
+clicking Second   Resolution Image95
+clicking Second   Resolution Image96
+clicking Second   Resolution Image97
+clicking Second   Resolution Image98
+clicking Second   Resolution Image99
+Select Rear Image Size
+Select first Image Resoution: 1:1 (9MP)
+totalPictureCountRear2 = 100
+clicking third   Resolution Image0
+clicking third   Resolution Image1
+clicking third   Resolution Image2
+clicking third   Resolution Image3
+clicking third   Resolution Image4
+clicking third   Resolution Image5
+clicking third   Resolution Image6
+clicking third   Resolution Image7
+clicking third   Resolution Image8
+clicking third   Resolution Image9
+clicking third   Resolution Image10
+clicking third   Resolution Image11
+clicking third   Resolution Image12
+clicking third   Resolution Image13
+clicking third   Resolution Image14
+clicking third   Resolution Image15
+clicking third   Resolution Image16
+clicking third   Resolution Image17
+clicking third   Resolution Image18
+clicking third   Resolution Image19
+clicking third   Resolution Image20
+clicking third   Resolution Image21
+clicking third   Resolution Image22
+clicking third   Resolution Image23
+clicking third   Resolution Image24
+clicking third   Resolution Image25
+clicking third   Resolution Image26
+clicking third   Resolution Image27
+clicking third   Resolution Image28
+clicking third   Resolution Image29
+clicking third   Resolution Image30
+clicking third   Resolution Image31
+clicking third   Resolution Image32
+clicking third   Resolution Image33
+clicking third   Resolution Image34
+clicking third   Resolution Image35
+clicking third   Resolution Image36
+clicking third   Resolution Image37
+clicking third   Resolution Image38
+clicking third   Resolution Image39
+clicking third   Resolution Image40
+clicking third   Resolution Image41
+clicking third   Resolution Image42
+clicking third   Resolution Image43
+clicking third   Resolution Image44
+clicking third   Resolution Image45
+clicking third   Resolution Image46
+clicking third   Resolution Image47
+clicking third   Resolution Image48
+clicking third   Resolution Image49
+clicking third   Resolution Image50
+clicking third   Resolution Image51
+clicking third   Resolution Image52
+clicking third   Resolution Image53
+clicking third   Resolution Image54
+clicking third   Resolution Image55
+clicking third   Resolution Image56
+clicking third   Resolution Image57
+clicking third   Resolution Image58
+clicking third   Resolution Image59
+clicking third   Resolution Image60
+clicking third   Resolution Image61
+clicking third   Resolution Image62
+clicking third   Resolution Image63
+clicking third   Resolution Image64
+clicking third   Resolution Image65
+clicking third   Resolution Image66
+clicking third   Resolution Image67
+clicking third   Resolution Image68
+clicking third   Resolution Image69
+clicking third   Resolution Image70
+clicking third   Resolution Image71
+clicking third   Resolution Image72
+clicking third   Resolution Image73
+clicking third   Resolution Image74
+clicking third   Resolution Image75
+clicking third   Resolution Image76
+clicking third   Resolution Image77
+clicking third   Resolution Image78
+clicking third   Resolution Image79
+clicking third   Resolution Image80
+clicking third   Resolution Image81
+clicking third   Resolution Image82
+clicking third   Resolution Image83
+clicking third   Resolution Image84
+clicking third   Resolution Image85
+clicking third   Resolution Image86
+clicking third   Resolution Image87
+clicking third   Resolution Image88
+clicking third   Resolution Image89
+clicking third   Resolution Image90
+clicking third   Resolution Image91
+clicking third   Resolution Image92
+clicking third   Resolution Image93
+clicking third   Resolution Image94
+clicking third   Resolution Image95
+clicking third   Resolution Image96
+clicking third   Resolution Image97
+clicking third   Resolution Image98
+clicking third   Resolution Image99
+Pass: Test9 pass for rear Image capture
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Final message: Pass Test9 pass for rear Image capture
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+]]></system-out>
+    <system-err><![CDATA[2023-01-09 19:37:30 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+2023-01-09 19:37:43 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="frontPictureCapture" classname="Sony_Xperia1_II_XQAT52.Test9F" time="2,838.879">
+    <system-out><![CDATA[===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test9F Scenario is as follows:
+Launch camera application, set uSD as a Storage option, start Front camera image picture capture for all Host front resolutions
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch Home screen and Clear recent apps
+Launch Camera application and start front camera images for all resolutions
+if Location permisson Pop Exists Select Cancel Option
+change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: XQ-AT52, newCommandTimeout: 600, platformName: android, platformVersion: 11, udid: QV710PLJ3F}, deviceApiLevel: 30, deviceManufacturer: Sony, deviceModel: XQ-AT52, deviceName: QV710PLJ3F, deviceScreenDensity: 420, deviceScreenSize: 1096x2560, deviceUDID: QV710PLJ3F, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 63, takesScreenshot: true, udid: QV710PLJ3F, viewportRect: {height: 2371, left: 0, top: 63, width: 1096}, warnings: {}, webStorageEnabled: false}
+Session ID: f33150bd-7688-4aca-b757-3872bec8da18
+*** Element info: {Using=xpath, value=//*[@text='NO']}
+Switch To Back Camera Mode if current Exiting camera is Front camera Mode
+Select settings option
+Search for Data storage option
+Select SD as storage option
+Select Front Image size
+totalPictureCountFront = 100
+clicking First resolution Image0
+clicking First resolution Image1
+clicking First resolution Image2
+clicking First resolution Image3
+clicking First resolution Image4
+clicking First resolution Image5
+clicking First resolution Image6
+clicking First resolution Image7
+clicking First resolution Image8
+clicking First resolution Image9
+clicking First resolution Image10
+clicking First resolution Image11
+clicking First resolution Image12
+clicking First resolution Image13
+clicking First resolution Image14
+clicking First resolution Image15
+clicking First resolution Image16
+clicking First resolution Image17
+clicking First resolution Image18
+clicking First resolution Image19
+clicking First resolution Image20
+clicking First resolution Image21
+clicking First resolution Image22
+clicking First resolution Image23
+clicking First resolution Image24
+clicking First resolution Image25
+clicking First resolution Image26
+clicking First resolution Image27
+clicking First resolution Image28
+clicking First resolution Image29
+clicking First resolution Image30
+clicking First resolution Image31
+clicking First resolution Image32
+clicking First resolution Image33
+clicking First resolution Image34
+clicking First resolution Image35
+clicking First resolution Image36
+clicking First resolution Image37
+clicking First resolution Image38
+clicking First resolution Image39
+clicking First resolution Image40
+clicking First resolution Image41
+clicking First resolution Image42
+clicking First resolution Image43
+clicking First resolution Image44
+clicking First resolution Image45
+clicking First resolution Image46
+clicking First resolution Image47
+clicking First resolution Image48
+clicking First resolution Image49
+clicking First resolution Image50
+clicking First resolution Image51
+clicking First resolution Image52
+clicking First resolution Image53
+clicking First resolution Image54
+clicking First resolution Image55
+clicking First resolution Image56
+clicking First resolution Image57
+clicking First resolution Image58
+clicking First resolution Image59
+clicking First resolution Image60
+clicking First resolution Image61
+clicking First resolution Image62
+clicking First resolution Image63
+clicking First resolution Image64
+clicking First resolution Image65
+clicking First resolution Image66
+clicking First resolution Image67
+clicking First resolution Image68
+clicking First resolution Image69
+clicking First resolution Image70
+clicking First resolution Image71
+clicking First resolution Image72
+clicking First resolution Image73
+clicking First resolution Image74
+clicking First resolution Image75
+clicking First resolution Image76
+clicking First resolution Image77
+clicking First resolution Image78
+clicking First resolution Image79
+clicking First resolution Image80
+clicking First resolution Image81
+clicking First resolution Image82
+clicking First resolution Image83
+clicking First resolution Image84
+clicking First resolution Image85
+clicking First resolution Image86
+clicking First resolution Image87
+clicking First resolution Image88
+clicking First resolution Image89
+clicking First resolution Image90
+clicking First resolution Image91
+clicking First resolution Image92
+clicking First resolution Image93
+clicking First resolution Image94
+clicking First resolution Image95
+clicking First resolution Image96
+clicking First resolution Image97
+clicking First resolution Image98
+clicking First resolution Image99
+Select Front Image size
+Select second front Image Resoution: 16:9 (6MP)
+totalPictureCountFront1 = 100
+clicking second resolution Image0
+clicking second resolution Image1
+clicking second resolution Image2
+clicking second resolution Image3
+clicking second resolution Image4
+clicking second resolution Image5
+clicking second resolution Image6
+clicking second resolution Image7
+clicking second resolution Image8
+clicking second resolution Image9
+clicking second resolution Image10
+clicking second resolution Image11
+clicking second resolution Image12
+clicking second resolution Image13
+clicking second resolution Image14
+clicking second resolution Image15
+clicking second resolution Image16
+clicking second resolution Image17
+clicking second resolution Image18
+clicking second resolution Image19
+clicking second resolution Image20
+clicking second resolution Image21
+clicking second resolution Image22
+clicking second resolution Image23
+clicking second resolution Image24
+clicking second resolution Image25
+clicking second resolution Image26
+clicking second resolution Image27
+clicking second resolution Image28
+clicking second resolution Image29
+clicking second resolution Image30
+clicking second resolution Image31
+clicking second resolution Image32
+clicking second resolution Image33
+clicking second resolution Image34
+clicking second resolution Image35
+clicking second resolution Image36
+clicking second resolution Image37
+clicking second resolution Image38
+clicking second resolution Image39
+clicking second resolution Image40
+clicking second resolution Image41
+clicking second resolution Image42
+clicking second resolution Image43
+clicking second resolution Image44
+clicking second resolution Image45
+clicking second resolution Image46
+clicking second resolution Image47
+clicking second resolution Image48
+clicking second resolution Image49
+clicking second resolution Image50
+clicking second resolution Image51
+clicking second resolution Image52
+clicking second resolution Image53
+clicking second resolution Image54
+clicking second resolution Image55
+clicking second resolution Image56
+clicking second resolution Image57
+clicking second resolution Image58
+clicking second resolution Image59
+clicking second resolution Image60
+clicking second resolution Image61
+clicking second resolution Image62
+clicking second resolution Image63
+clicking second resolution Image64
+clicking second resolution Image65
+clicking second resolution Image66
+clicking second resolution Image67
+clicking second resolution Image68
+clicking second resolution Image69
+clicking second resolution Image70
+clicking second resolution Image71
+clicking second resolution Image72
+clicking second resolution Image73
+clicking second resolution Image74
+clicking second resolution Image75
+clicking second resolution Image76
+clicking second resolution Image77
+clicking second resolution Image78
+clicking second resolution Image79
+clicking second resolution Image80
+clicking second resolution Image81
+clicking second resolution Image82
+clicking second resolution Image83
+clicking second resolution Image84
+clicking second resolution Image85
+clicking second resolution Image86
+clicking second resolution Image87
+clicking second resolution Image88
+clicking second resolution Image89
+clicking second resolution Image90
+clicking second resolution Image91
+clicking second resolution Image92
+clicking second resolution Image93
+clicking second resolution Image94
+clicking second resolution Image95
+clicking second resolution Image96
+clicking second resolution Image97
+clicking second resolution Image98
+clicking second resolution Image99
+Select Front Image size
+Select third front Image Resoution: 1:1 (6MP)
+totalPictureCountFront2 = 100
+clicking third resolution Image0
+clicking third resolution Image1
+clicking third resolution Image2
+clicking third resolution Image3
+clicking third resolution Image4
+clicking third resolution Image5
+clicking third resolution Image6
+clicking third resolution Image7
+clicking third resolution Image8
+clicking third resolution Image9
+clicking third resolution Image10
+clicking third resolution Image11
+clicking third resolution Image12
+clicking third resolution Image13
+clicking third resolution Image14
+clicking third resolution Image15
+clicking third resolution Image16
+clicking third resolution Image17
+clicking third resolution Image18
+clicking third resolution Image19
+clicking third resolution Image20
+clicking third resolution Image21
+clicking third resolution Image22
+clicking third resolution Image23
+clicking third resolution Image24
+clicking third resolution Image25
+clicking third resolution Image26
+clicking third resolution Image27
+clicking third resolution Image28
+clicking third resolution Image29
+clicking third resolution Image30
+clicking third resolution Image31
+clicking third resolution Image32
+clicking third resolution Image33
+clicking third resolution Image34
+clicking third resolution Image35
+clicking third resolution Image36
+clicking third resolution Image37
+clicking third resolution Image38
+clicking third resolution Image39
+clicking third resolution Image40
+clicking third resolution Image41
+clicking third resolution Image42
+clicking third resolution Image43
+clicking third resolution Image44
+clicking third resolution Image45
+clicking third resolution Image46
+clicking third resolution Image47
+clicking third resolution Image48
+clicking third resolution Image49
+clicking third resolution Image50
+clicking third resolution Image51
+clicking third resolution Image52
+clicking third resolution Image53
+clicking third resolution Image54
+clicking third resolution Image55
+clicking third resolution Image56
+clicking third resolution Image57
+clicking third resolution Image58
+clicking third resolution Image59
+clicking third resolution Image60
+clicking third resolution Image61
+clicking third resolution Image62
+clicking third resolution Image63
+clicking third resolution Image64
+clicking third resolution Image65
+clicking third resolution Image66
+clicking third resolution Image67
+clicking third resolution Image68
+clicking third resolution Image69
+clicking third resolution Image70
+clicking third resolution Image71
+clicking third resolution Image72
+clicking third resolution Image73
+clicking third resolution Image74
+clicking third resolution Image75
+clicking third resolution Image76
+clicking third resolution Image77
+clicking third resolution Image78
+clicking third resolution Image79
+clicking third resolution Image80
+clicking third resolution Image81
+clicking third resolution Image82
+clicking third resolution Image83
+clicking third resolution Image84
+clicking third resolution Image85
+clicking third resolution Image86
+clicking third resolution Image87
+clicking third resolution Image88
+clicking third resolution Image89
+clicking third resolution Image90
+clicking third resolution Image91
+clicking third resolution Image92
+clicking third resolution Image93
+clicking third resolution Image94
+clicking third resolution Image95
+clicking third resolution Image96
+clicking third resolution Image97
+clicking third resolution Image98
+clicking third resolution Image99
+Pass: Test9F Pass for Front camera image capture
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Final message: Pass Test9F pass for front image capture
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+]]></system-out>
+    <system-err><![CDATA[2023-01-09 20:24:15 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+2023-01-09 20:24:29 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

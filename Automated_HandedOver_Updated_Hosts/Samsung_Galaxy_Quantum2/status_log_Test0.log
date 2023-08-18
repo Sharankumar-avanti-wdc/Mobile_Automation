@@ -1,0 +1,138 @@
+2022-10-14 14:24:06 INFO   Samsung_Galaxy_Quantum2.Test0 start Test: Start
+2022-10-14 14:24:06 INFO   Samsung_Galaxy_Quantum2.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-14 14:24:06 INFO   Samsung_Galaxy_Quantum2.Test0 start  Test0 Scenario is as follows 
+2022-10-14 14:24:06 INFO   Samsung_Galaxy_Quantum2.Test0 start 1.Unlock phone, clear recent apps, clear internal memory
+2022-10-14 14:24:06 INFO   Samsung_Galaxy_Quantum2.Test0 start 2.Call Image() and Capture Rear camera 25 images for default resolution in uSD card and Verify the data capture
+2022-10-14 14:24:06 INFO   Samsung_Galaxy_Quantum2.Test0 start 3.Call Video() and record Rear camera video of first 2 resloutions for 2 minutes of duration in uSD Card and verify the same
+2022-10-14 14:24:06 INFO   Samsung_Galaxy_Quantum2.Test0 start 4.Call Format() and format uSD card with data and verify the same
+2022-10-14 14:24:06 INFO   Samsung_Galaxy_Quantum2.Test0 start Setting up the appium desired capabilities
+2022-10-14 14:24:06 INFO   Samsung_Galaxy_Quantum2.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-14 14:24:26 INFO   Samsung_Galaxy_Quantum2.Test0 start Clearing Recent Apps
+2022-10-14 14:24:36 INFO   Samsung_Galaxy_Quantum2.Test0 start Pass: No recent apps found
+2022-10-14 14:24:38 INFO   Samsung_Galaxy_Quantum2.Test0 start Launch File Manager Application and clear internal memory
+2022-10-14 14:24:44 INFO   Samsung_Galaxy_Quantum2.Test0 start Select  Internal storage
+2022-10-14 14:24:59 INFO   Samsung_Galaxy_Quantum2.Test0 start No data found to clear internal memory
+2022-10-14 14:24:59 INFO   Samsung_Galaxy_Quantum2.Test0 start Pass: Clearing phone internal memory is successfull
+2022-10-14 14:25:12 INFO   Samsung_Galaxy_Quantum2.Test0 start Calling Image() for rear Image capture in uSD Card and Verify the Captured images
+2022-10-14 14:25:22 INFO   Samsung_Galaxy_Quantum2.Test0 Images Clearing Recent Apps
+2022-10-14 14:25:30 INFO   Samsung_Galaxy_Quantum2.Test0 Images Launch Camera Application for Rear picture capture
+2022-10-14 14:25:41 INFO   Samsung_Galaxy_Quantum2.Test0 Images change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy Quantum2, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: R5CR315JDCJ}, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-A826S, deviceName: R5CR315JDCJ, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: R5CR315JDCJ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 73, takesScreenshot: true, udid: R5CR315JDCJ, viewportRect: {height: 2119, left: 0, top: 73, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 0a1f00de-453d-4098-a972-a97ccdf42d4f
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2022-10-14 14:25:43 INFO   Samsung_Galaxy_Quantum2.Test0 Images if Location permisson Pop Exists Select Cancel Option
+2022-10-14 14:25:53 INFO   Samsung_Galaxy_Quantum2.Test0 Images Location  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy Quantum2, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: R5CR315JDCJ}, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-A826S, deviceName: R5CR315JDCJ, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: R5CR315JDCJ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 73, takesScreenshot: true, udid: R5CR315JDCJ, viewportRect: {height: 2119, left: 0, top: 73, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 0a1f00de-453d-4098-a972-a97ccdf42d4f
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2022-10-14 14:26:03 INFO   Samsung_Galaxy_Quantum2.Test0 Images Currently camera is already in rear camera mode no need to switch
+2022-10-14 14:26:03 INFO   Samsung_Galaxy_Quantum2.Test0 Images Select settings option
+2022-10-14 14:26:08 INFO   Samsung_Galaxy_Quantum2.Test0 Images Search for SD Card option
+2022-10-14 14:26:23 INFO   Samsung_Galaxy_Quantum2.Test0 Images Select SD as storage option
+2022-10-14 14:26:31 INFO   Samsung_Galaxy_Quantum2.Test0 Images Capture Image of Default Resolution
+2022-10-14 14:26:40 INFO   Samsung_Galaxy_Quantum2.Test0 Images clicking Image of Default Resolutions0
+2022-10-14 14:26:47 INFO   Samsung_Galaxy_Quantum2.Test0 Images clicking Image of Default Resolutions1
+2022-10-14 14:26:54 INFO   Samsung_Galaxy_Quantum2.Test0 Images clicking Image of Default Resolutions2
+2022-10-14 14:27:01 INFO   Samsung_Galaxy_Quantum2.Test0 Images clicking Image of Default Resolutions3
+2022-10-14 14:27:10 INFO   Samsung_Galaxy_Quantum2.Test0 Images clicking Image of Default Resolutions4
+2022-10-14 14:27:17 INFO   Samsung_Galaxy_Quantum2.Test0 Images clicking Image of Default Resolutions5
+2022-10-14 14:27:24 INFO   Samsung_Galaxy_Quantum2.Test0 Images clicking Image of Default Resolutions6
+2022-10-14 14:27:31 INFO   Samsung_Galaxy_Quantum2.Test0 Images clicking Image of Default Resolutions7
+2022-10-14 14:27:39 INFO   Samsung_Galaxy_Quantum2.Test0 Images clicking Image of Default Resolutions8
+2022-10-14 14:27:46 INFO   Samsung_Galaxy_Quantum2.Test0 Images clicking Image of Default Resolutions9
+2022-10-14 14:27:53 INFO   Samsung_Galaxy_Quantum2.Test0 Images clicking Image of Default Resolutions10
+2022-10-14 14:28:00 INFO   Samsung_Galaxy_Quantum2.Test0 Images clicking Image of Default Resolutions11
+2022-10-14 14:28:07 INFO   Samsung_Galaxy_Quantum2.Test0 Images clicking Image of Default Resolutions12
+2022-10-14 14:28:15 INFO   Samsung_Galaxy_Quantum2.Test0 Images clicking Image of Default Resolutions13
+2022-10-14 14:28:22 INFO   Samsung_Galaxy_Quantum2.Test0 Images clicking Image of Default Resolutions14
+2022-10-14 14:28:29 INFO   Samsung_Galaxy_Quantum2.Test0 Images clicking Image of Default Resolutions15
+2022-10-14 14:28:36 INFO   Samsung_Galaxy_Quantum2.Test0 Images clicking Image of Default Resolutions16
+2022-10-14 14:28:43 INFO   Samsung_Galaxy_Quantum2.Test0 Images clicking Image of Default Resolutions17
+2022-10-14 14:28:51 INFO   Samsung_Galaxy_Quantum2.Test0 Images clicking Image of Default Resolutions18
+2022-10-14 14:28:58 INFO   Samsung_Galaxy_Quantum2.Test0 Images clicking Image of Default Resolutions19
+2022-10-14 14:29:05 INFO   Samsung_Galaxy_Quantum2.Test0 Images clicking Image of Default Resolutions20
+2022-10-14 14:29:12 INFO   Samsung_Galaxy_Quantum2.Test0 Images clicking Image of Default Resolutions21
+2022-10-14 14:29:19 INFO   Samsung_Galaxy_Quantum2.Test0 Images clicking Image of Default Resolutions22
+2022-10-14 14:29:26 INFO   Samsung_Galaxy_Quantum2.Test0 Images clicking Image of Default Resolutions23
+2022-10-14 14:29:34 INFO   Samsung_Galaxy_Quantum2.Test0 Images clicking Image of Default Resolutions24
+2022-10-14 14:29:39 INFO   Samsung_Galaxy_Quantum2.Test0 Images 25 Image Capture is successfull
+2022-10-14 14:29:39 INFO   Samsung_Galaxy_Quantum2.Test0 Images Launch File Manager application to verify  Image capture
+2022-10-14 14:29:45 INFO   Samsung_Galaxy_Quantum2.Test0 Images Select  SD Card
+2022-10-14 14:30:03 INFO   Samsung_Galaxy_Quantum2.Test0 Images Select Camera Folder
+2022-10-14 14:30:08 INFO   Samsung_Galaxy_Quantum2.Test0 Images Select More Options 
+2022-10-14 14:30:13 INFO   Samsung_Galaxy_Quantum2.Test0 Images Select Edit options
+2022-10-14 14:30:20 INFO   Samsung_Galaxy_Quantum2.Test0 Images Click On Select All Options
+2022-10-14 14:30:29 INFO   Samsung_Galaxy_Quantum2.Test0 Images Pass: Total Number Of Image captured 25 is successfull
+2022-10-14 14:30:29 INFO   Samsung_Galaxy_Quantum2.Test0 Images ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-14 14:30:29 INFO   Samsung_Galaxy_Quantum2.Test0 Images Calling video() for rear video recording in USD card and verifying data capture.
+2022-10-14 14:30:43 INFO   Samsung_Galaxy_Quantum2.Test0 Video Clearing recent apps
+2022-10-14 14:30:45 INFO   Samsung_Galaxy_Quantum2.Test0 Video Launch Camera Application to capture rear videos
+2022-10-14 14:30:56 INFO   Samsung_Galaxy_Quantum2.Test0 Video change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy Quantum2, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: R5CR315JDCJ}, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-A826S, deviceName: R5CR315JDCJ, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: R5CR315JDCJ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 73, takesScreenshot: true, udid: R5CR315JDCJ, viewportRect: {height: 2119, left: 0, top: 73, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 0a1f00de-453d-4098-a972-a97ccdf42d4f
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2022-10-14 14:30:56 INFO   Samsung_Galaxy_Quantum2.Test0 Video If Location Permission Request Pop Exists Click on Cancel Option
+2022-10-14 14:31:06 INFO   Samsung_Galaxy_Quantum2.Test0 Video Location access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy Quantum2, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: R5CR315JDCJ}, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-A826S, deviceName: R5CR315JDCJ, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: R5CR315JDCJ, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 73, takesScreenshot: true, udid: R5CR315JDCJ, viewportRect: {height: 2119, left: 0, top: 73, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 0a1f00de-453d-4098-a972-a97ccdf42d4f
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2022-10-14 14:31:17 INFO   Samsung_Galaxy_Quantum2.Test0 Video Current Existing Camera is Back Camera
+2022-10-14 14:31:17 INFO   Samsung_Galaxy_Quantum2.Test0 Video Clicking Video Tab
+2022-10-14 14:31:27 INFO   Samsung_Galaxy_Quantum2.Test0 Video Select settings option
+2022-10-14 14:31:32 INFO   Samsung_Galaxy_Quantum2.Test0 Video Click on settings option
+2022-10-14 14:31:32 INFO   Samsung_Galaxy_Quantum2.Test0 Video Search for SD Card option
+2022-10-14 14:31:44 INFO   Samsung_Galaxy_Quantum2.Test0 Video Select SD as storage option
+2022-10-14 14:31:53 INFO   Samsung_Galaxy_Quantum2.Test0 Video Select 1st Back Video Resolution:UHD (60 fps)
+2022-10-14 14:31:55 INFO   Samsung_Galaxy_Quantum2.Test0 Video Start video recording
+2022-10-14 14:33:56 INFO   Samsung_Galaxy_Quantum2.Test0 Video Recording Video for 2Minutes of Duration
+2022-10-14 14:33:56 INFO   Samsung_Galaxy_Quantum2.Test0 Video Stop video recording
+2022-10-14 14:34:02 INFO   Samsung_Galaxy_Quantum2.Test0 Video Select 2nd Back Video Resolution:FHD 30(fps)
+2022-10-14 14:34:05 INFO   Samsung_Galaxy_Quantum2.Test0 Video Start video recording
+2022-10-14 14:36:05 INFO   Samsung_Galaxy_Quantum2.Test0 Video Recording Video for 2Minutes of Duration
+2022-10-14 14:36:05 INFO   Samsung_Galaxy_Quantum2.Test0 Video Stop video recording
+2022-10-14 14:36:26 INFO   Samsung_Galaxy_Quantum2.Test0 Video Rear camera video recording is successfull
+2022-10-14 14:36:26 INFO   Samsung_Galaxy_Quantum2.Test0 Video Launch File Manager Application to verify captured videos
+2022-10-14 14:36:32 INFO   Samsung_Galaxy_Quantum2.Test0 Video Click On SD Card
+2022-10-14 14:36:50 INFO   Samsung_Galaxy_Quantum2.Test0 Video Select Camera Folder
+2022-10-14 14:36:55 INFO   Samsung_Galaxy_Quantum2.Test0 Video Click On More Options 
+2022-10-14 14:37:01 INFO   Samsung_Galaxy_Quantum2.Test0 Video Click On Edit
+2022-10-14 14:37:07 INFO   Samsung_Galaxy_Quantum2.Test0 Video Click On Select All Options
+2022-10-14 14:37:16 INFO   Samsung_Galaxy_Quantum2.Test0 Video Pass: 2 Videos recorded Successfully
+2022-10-14 14:37:16 INFO   Samsung_Galaxy_Quantum2.Test0 Video Pass: A total of 27 files present in uSD card before Format
+2022-10-14 14:37:16 INFO   Samsung_Galaxy_Quantum2.Test0 Video ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-14 14:37:16 INFO   Samsung_Galaxy_Quantum2.Test0 Video calling Format() for format with data scenario
+2022-10-14 14:37:16 INFO   Samsung_Galaxy_Quantum2.Test0 Format Clearing Recent Apps
+2022-10-14 14:37:34 INFO   Samsung_Galaxy_Quantum2.Test0 Format Launch Settings application for Format uSD card with Data scenario 
+2022-10-14 14:37:40 INFO   Samsung_Galaxy_Quantum2.Test0 Format Scrolling till battery and device care is visible
+2022-10-14 14:37:51 INFO   Samsung_Galaxy_Quantum2.Test0 Format Clicking on battery and device care
+2022-10-14 14:37:56 INFO   Samsung_Galaxy_Quantum2.Test0 Format Clicking on storage
+2022-10-14 14:38:02 INFO   Samsung_Galaxy_Quantum2.Test0 Format Clicking on more options
+2022-10-14 14:38:13 INFO   Samsung_Galaxy_Quantum2.Test0 Format Clicking on SD card
+2022-10-14 14:38:18 INFO   Samsung_Galaxy_Quantum2.Test0 Format Click Format
+2022-10-14 14:38:24 INFO   Samsung_Galaxy_Quantum2.Test0 Format Started formatting, waiting till it gets formatted
+2022-10-14 14:40:01 INFO   Samsung_Galaxy_Quantum2.Test0 Format Format uSD with Data is successfull
+2022-10-14 14:40:01 INFO   Samsung_Galaxy_Quantum2.Test0 Format Launch File Manager application to verify  Card is fully Formated or not
+2022-10-14 14:40:07 INFO   Samsung_Galaxy_Quantum2.Test0 Format Click On SD Card
+2022-10-14 14:40:12 INFO   Samsung_Galaxy_Quantum2.Test0 Format Search For DCIM
+2022-10-14 14:40:23 INFO   Samsung_Galaxy_Quantum2.Test0 Format Click On Camera Folder
+2022-10-14 14:40:33 INFO   Samsung_Galaxy_Quantum2.Test0 Format Pass: Images and videos are not present in the DCIM folder, CARD format is successfully completed 
+2022-10-14 14:40:33 INFO   Samsung_Galaxy_Quantum2.Test0 Format ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-14 14:40:33 INFO   Samsung_Galaxy_Quantum2.Test0 Format Final Message: Pass Test0 pass for format Operation
+2022-10-14 14:40:33 INFO   Samsung_Galaxy_Quantum2.Test0 Format Test: End
+2022-10-14 14:40:33 INFO   Samsung_Galaxy_Quantum2.Test0 Format ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

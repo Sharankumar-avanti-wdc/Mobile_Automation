@@ -1,0 +1,83 @@
+2023-07-18 12:12:28 INFO   Nokia_G10.Test10F frontVideoRec Test: Start
+2023-07-18 12:12:28 INFO   Nokia_G10.Test10F frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-07-18 12:12:28 INFO   Nokia_G10.Test10F frontVideoRec Test10F Scenario is as follows
+2023-07-18 12:12:28 INFO   Nokia_G10.Test10F frontVideoRec 1.Launch Camera application and start front camera video recording for all host applicable resolutions in uSD Card
+2023-07-18 12:12:28 INFO   Nokia_G10.Test10F frontVideoRec 2.Playback front Highest recorded video for 30 seconds, pause video playback, lock mobile and wait 30 seconds, unlock mobile and playback video from pause video duration
+2023-07-18 12:12:28 INFO   Nokia_G10.Test10F frontVideoRec 3.Move front camera recorded video files to Test10F folder
+2023-07-18 12:12:28 INFO   Nokia_G10.Test10F frontVideoRec Setting up the appium desired capabilities
+2023-07-18 12:12:28 INFO   Nokia_G10.Test10F frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-07-18 12:12:43 INFO   Nokia_G10.Test10F frontVideoRec Unlocking Phone
+2023-07-18 12:12:45 INFO   Nokia_G10.Test10F frontVideoRec Launch home screen
+2023-07-18 12:12:52 INFO   Nokia_G10.Test10F frontVideoRec Launch Camera Application for front camera video recording
+2023-07-18 12:13:04 INFO   Nokia_G10.Test10F frontVideoRec change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '5CG01821WY', ip: '10.113.95.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Nokia G10, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: PT99652EA1142600409}, deviceApiLevel: 30, deviceManufacturer: HMD Global, deviceModel: Nokia G10, deviceName: PT99652EA1142600409, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: PT99652EA1142600409, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 56, takesScreenshot: true, udid: PT99652EA1142600409, viewportRect: {height: 1473, left: 0, top: 56, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 52152b6c-aa90-4f45-b6d3-2bb7c9dc6039
+*** Element info: {Using=xpath, value=//*[@resource-id='com.android.permissioncontroller:id/permission_deny_button']}
+2023-07-18 12:13:06 INFO   Nokia_G10.Test10F frontVideoRec Test10F_Fcam_res: 1 resolutions supported
+2023-07-18 12:13:06 INFO   Nokia_G10.Test10F frontVideoRec Click On Settings and set uSD card as storage option
+2023-07-18 12:13:09 INFO   Nokia_G10.Test10F frontVideoRec Select storage location option
+2023-07-18 12:13:13 INFO   Nokia_G10.Test10F frontVideoRec Select SD as storage option
+2023-07-18 12:13:20 INFO   Nokia_G10.Test10F frontVideoRec Click On Settings option to select front video resolution
+2023-07-18 12:13:23 INFO   Nokia_G10.Test10F frontVideoRec Swipe Up and select Video Resolution option
+2023-07-18 12:13:26 INFO   Nokia_G10.Test10F frontVideoRec Select Video Resolution
+2023-07-18 12:13:31 INFO   Nokia_G10.Test10F frontVideoRec Select front video size
+2023-07-18 12:13:35 INFO   Nokia_G10.Test10F frontVideoRec Select First back video Resolution: FHD 1080P
+2023-07-18 12:13:47 INFO   Nokia_G10.Test10F frontVideoRec Select Video Tab
+2023-07-18 12:13:52 INFO   Nokia_G10.Test10F frontVideoRec Start video recording
+2023-07-18 12:13:52 INFO   Nokia_G10.Test10F frontVideoRec Stop video recording
+2023-07-18 12:16:57 INFO   Nokia_G10.Test10F frontVideoRec Pass: pass for front camera video recording
+2023-07-18 12:16:57 INFO   Nokia_G10.Test10F frontVideoRec Launch File Manager Application to verify captured videos
+2023-07-18 12:17:00 INFO   Nokia_G10.Test10F frontVideoRec click on browse option
+2023-07-18 12:17:04 INFO   Nokia_G10.Test10F frontVideoRec Select  SD Card
+2023-07-18 12:17:12 INFO   Nokia_G10.Test10F frontVideoRec Select DCIM Folder
+2023-07-18 12:17:26 INFO   Nokia_G10.Test10F frontVideoRec Select Camera Folder
+2023-07-18 12:17:31 INFO   Nokia_G10.Test10F frontVideoRec Select More Options 
+2023-07-18 12:17:45 INFO   Nokia_G10.Test10F frontVideoRec Click On Select All Options
+2023-07-18 12:17:54 INFO   Nokia_G10.Test10F frontVideoRec Test10F_Fcam_video: 1 Videos captured successfull
+2023-07-18 12:17:54 INFO   Nokia_G10.Test10F frontVideoRec Calling VideoPlayBackForSleepWake()
+2023-07-18 12:17:54 INFO   Nokia_G10.Test10F frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-07-18 12:17:54 INFO   Nokia_G10.Test10F VideoPlayBackForSleepWake Launch File Manager application and playback front recorded video from USD for 30 seconds, pause video playback, locking phone and unlock after 30 seconds delay and playback video from pause duration.
+2023-07-18 12:18:03 INFO   Nokia_G10.Test10F VideoPlayBackForSleepWake Select External Storage
+2023-07-18 12:18:10 INFO   Nokia_G10.Test10F VideoPlayBackForSleepWake Select DCIM Folder
+2023-07-18 12:18:13 INFO   Nokia_G10.Test10F VideoPlayBackForSleepWake Select Camera
+2023-07-18 12:18:16 INFO   Nokia_G10.Test10F VideoPlayBackForSleepWake select more options
+2023-07-18 12:18:21 INFO   Nokia_G10.Test10F VideoPlayBackForSleepWake Select Sort BY
+2023-07-18 12:18:26 INFO   Nokia_G10.Test10F VideoPlayBackForSleepWake Select Newest date first
+2023-07-18 12:18:30 INFO   Nokia_G10.Test10F VideoPlayBackForSleepWake Click on first file to play highest recorded resolution video file
+2023-07-18 12:18:30 INFO   Nokia_G10.Test10F VideoPlayBackForSleepWake Started video playback
+2023-07-18 12:18:50 INFO   Nokia_G10.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-07-18 12:18:50 INFO   Nokia_G10.Test10F VideoPlayBackForSleepWake Click pause video button
+2023-07-18 12:18:51 INFO   Nokia_G10.Test10F VideoPlayBackForSleepWake Lock Mobile with 30 seconds delay
+2023-07-18 12:19:23 INFO   Nokia_G10.Test10F VideoPlayBackForSleepWake Wait For 30Seconds
+2023-07-18 12:19:23 INFO   Nokia_G10.Test10F VideoPlayBackForSleepWake Unlock Mobile 
+2023-07-18 12:19:25 INFO   Nokia_G10.Test10F VideoPlayBackForSleepWake PlayBack Video from Pause duartion
+2023-07-18 12:19:36 INFO   Nokia_G10.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-07-18 12:19:36 INFO   Nokia_G10.Test10F VideoPlayBackForSleepWake Fast forward video for 10 seconds
+2023-07-18 12:19:37 INFO   Nokia_G10.Test10F VideoPlayBackForSleepWake Pause video play back
+2023-07-18 12:19:48 INFO   Nokia_G10.Test10F VideoPlayBackForSleepWake Pass: Test10F Pass for Front video play back, Pause,Lock and Unlock Phone Play back from Pause duration Scenario
+2023-07-18 12:19:48 INFO   Nokia_G10.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-07-18 12:19:48 INFO   Nokia_G10.Test10F VideoPlayBackForSleepWake calling DatamoveOperation() to move front camera recorded videos files to Test10F folder
+2023-07-18 12:19:48 INFO   Nokia_G10.Test10F DataMoveOperation launch file manager application select uSD card-->DCIM folder-->Camera folder-->Select all back camera front camera videos create Test10F and cut paste all videos in Test10F folder
+2023-07-18 12:20:05 INFO   Nokia_G10.Test10F DataMoveOperation click on browse option
+2023-07-18 12:20:08 INFO   Nokia_G10.Test10F DataMoveOperation Swipe up to select uSD card
+2023-07-18 12:20:11 INFO   Nokia_G10.Test10F DataMoveOperation Select SD card
+2023-07-18 12:20:15 INFO   Nokia_G10.Test10F DataMoveOperation Select DCIM folder
+2023-07-18 12:20:18 INFO   Nokia_G10.Test10F DataMoveOperation Select camera folder
+2023-07-18 12:20:22 INFO   Nokia_G10.Test10F DataMoveOperation Click More options
+2023-07-18 12:20:28 INFO   Nokia_G10.Test10F DataMoveOperation Click Select all
+2023-07-18 12:20:32 INFO   Nokia_G10.Test10F DataMoveOperation Click More options
+2023-07-18 12:20:38 INFO   Nokia_G10.Test10F DataMoveOperation Select move to option
+2023-07-18 12:20:45 INFO   Nokia_G10.Test10F DataMoveOperation Select uSD Card
+2023-07-18 12:20:51 INFO   Nokia_G10.Test10F DataMoveOperation Select ADD NEW Folder option
+2023-07-18 12:20:59 INFO   Nokia_G10.Test10F DataMoveOperation Name folder as Test10F
+2023-07-18 12:21:06 INFO   Nokia_G10.Test10F DataMoveOperation Accept create folder
+2023-07-18 12:23:06 INFO   Nokia_G10.Test10F DataMoveOperation Cut paste  video files operation completed successfully
+2023-07-18 12:23:10 INFO   Nokia_G10.Test10F DataMoveOperation Pass: Test10F Pass for data move operation successfully
+2023-07-18 12:23:10 INFO   Nokia_G10.Test10F DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-07-18 12:23:10 INFO   Nokia_G10.Test10F VideoPlayBackForSleepWake Final Message: Pass Test10F Pass for front camera  video recording, Pause Video Playback scenario and data move operation scenario
+2023-07-18 12:23:10 INFO   Nokia_G10.Test10F VideoPlayBackForSleepWake Test: End
+2023-07-18 12:23:10 INFO   Nokia_G10.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

@@ -1,0 +1,102 @@
+2023-01-12 16:18:32 INFO   Sharp_Aquos_R3.Test10F frontVideoRec Test:Start
+2023-01-12 16:18:32 INFO   Sharp_Aquos_R3.Test10F frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-12 16:18:32 INFO   Sharp_Aquos_R3.Test10F frontVideoRec Test10F Scenario is as follows
+2023-01-12 16:18:32 INFO   Sharp_Aquos_R3.Test10F frontVideoRec 1.Launch Camera application and start front camera video recording for all host applicable resolutions in uSD Card
+2023-01-12 16:18:32 INFO   Sharp_Aquos_R3.Test10F frontVideoRec 2.Playback front Highest recorded video for 30 seconds, pause video playback, lock mobile and wait 30 seconds, unlock mobile and playback video from pause video duration
+2023-01-12 16:18:32 INFO   Sharp_Aquos_R3.Test10F frontVideoRec Setting up the appium desired capabilities
+2023-01-12 16:18:32 INFO   Sharp_Aquos_R3.Test10F frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-12 16:18:49 INFO   Sharp_Aquos_R3.Test10F frontVideoRec Launch Camera Application for rear camera video recording
+2023-01-12 16:18:55 INFO   Sharp_Aquos_R3.Test10F frontVideoRec Permission request
+2023-01-12 16:19:05 INFO   Sharp_Aquos_R3.Test10F frontVideoRec change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: AQUOS R3, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: 357787090740490}, deviceApiLevel: 30, deviceManufacturer: SHARP, deviceModel: SH-04L, deviceName: 357787090740490, deviceScreenDensity: 640, deviceScreenSize: 1440x3120, deviceUDID: 357787090740490, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 4, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 140, takesScreenshot: true, udid: 357787090740490, viewportRect: {height: 2648, left: 0, top: 140, width: 1440}, warnings: {}, webStorageEnabled: false}
+Session ID: 7f34dd1b-7523-48e9-aa08-f0bc14fcb9b6
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Agree")}
+2023-01-12 16:19:05 INFO   Sharp_Aquos_R3.Test10F frontVideoRec Allow Camera to access this device’s location?
+2023-01-12 16:19:24 INFO   Sharp_Aquos_R3.Test10F frontVideoRec Test10F_Fcam_res: 5 resolutions supported
+2023-01-12 16:19:24 INFO   Sharp_Aquos_R3.Test10F frontVideoRec Clicking Video Tab
+2023-01-12 16:19:30 INFO   Sharp_Aquos_R3.Test10F frontVideoRec Select settings option
+2023-01-12 16:20:04 INFO   Sharp_Aquos_R3.Test10F frontVideoRec Select common
+2023-01-12 16:20:07 INFO   Sharp_Aquos_R3.Test10F frontVideoRec Save To settings option
+2023-01-12 16:20:11 INFO   Sharp_Aquos_R3.Test10F frontVideoRec Select sd card option
+2023-01-12 16:20:24 INFO   Sharp_Aquos_R3.Test10F frontVideoRec click on front camera
+2023-01-12 16:21:01 INFO   Sharp_Aquos_R3.Test10F frontVideoRec Select settings option
+2023-01-12 16:21:39 INFO   Sharp_Aquos_R3.Test10F frontVideoRec Select First front video Resolution: 1.8M (1920x960)
+2023-01-12 16:21:50 INFO   Sharp_Aquos_R3.Test10F frontVideoRec Start video recording
+2023-01-12 16:22:22 INFO   Sharp_Aquos_R3.Test10F frontVideoRec Stop video recording
+2023-01-12 16:29:08 INFO   Sharp_Aquos_R3.Test10F frontVideoRec Select settings option
+2023-01-12 16:29:46 INFO   Sharp_Aquos_R3.Test10F frontVideoRec Select second front video Resolution:  FULL HD (1920x1080)
+2023-01-12 16:29:58 INFO   Sharp_Aquos_R3.Test10F frontVideoRec Start video recording
+2023-01-12 16:30:29 INFO   Sharp_Aquos_R3.Test10F frontVideoRec Stop video recording
+2023-01-12 16:37:24 INFO   Sharp_Aquos_R3.Test10F frontVideoRec Select settings option
+2023-01-12 16:38:02 INFO   Sharp_Aquos_R3.Test10F frontVideoRec Select third front video Resolution: Video Stabilization
+2023-01-12 16:38:13 INFO   Sharp_Aquos_R3.Test10F frontVideoRec Start video recording
+2023-01-12 16:38:45 INFO   Sharp_Aquos_R3.Test10F frontVideoRec Stop video recording
+2023-01-12 16:45:30 INFO   Sharp_Aquos_R3.Test10F frontVideoRec Select settings option
+2023-01-12 16:46:08 INFO   Sharp_Aquos_R3.Test10F frontVideoRec Select fourth front video Resolution: 1.2M (1080x1080)
+2023-01-12 16:46:20 INFO   Sharp_Aquos_R3.Test10F frontVideoRec Start video recording
+2023-01-12 16:46:51 INFO   Sharp_Aquos_R3.Test10F frontVideoRec Stop video recording
+2023-01-12 16:51:06 INFO   Sharp_Aquos_R3.Test10F frontVideoRec Select settings option
+2023-01-12 16:51:44 INFO   Sharp_Aquos_R3.Test10F frontVideoRec Select fifth front video Resolution: 4K (3840x2160)
+2023-01-12 16:51:56 INFO   Sharp_Aquos_R3.Test10F frontVideoRec Start video recording
+2023-01-12 16:52:27 INFO   Sharp_Aquos_R3.Test10F frontVideoRec Stop video recording
+2023-01-12 16:54:44 INFO   Sharp_Aquos_R3.Test10F frontVideoRec Click On back camera mode
+2023-01-12 16:55:20 INFO   Sharp_Aquos_R3.Test10F frontVideoRec Switch to defalut Photo mode
+2023-01-12 16:56:05 INFO   Sharp_Aquos_R3.Test10F frontVideoRec Pass: Test10F pass for front camera video recording
+2023-01-12 16:56:05 INFO   Sharp_Aquos_R3.Test10F frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-12 16:56:05 INFO   Sharp_Aquos_R3.Test10F frontVideoRec Launch File Manager Application to verify captured videos
+2023-01-12 16:56:13 INFO   Sharp_Aquos_R3.Test10F frontVideoRec Select  SD Card
+2023-01-12 16:56:18 INFO   Sharp_Aquos_R3.Test10F frontVideoRec swipe up and search for dcim
+2023-01-12 16:56:21 INFO   Sharp_Aquos_R3.Test10F frontVideoRec Select DCIM Folder
+2023-01-12 16:56:26 INFO   Sharp_Aquos_R3.Test10F frontVideoRec Select Camera Folder
+2023-01-12 16:56:31 INFO   Sharp_Aquos_R3.Test10F frontVideoRec Select More Options 
+2023-01-12 16:56:36 INFO   Sharp_Aquos_R3.Test10F frontVideoRec Click On Select All Options
+2023-01-12 16:56:45 INFO   Sharp_Aquos_R3.Test10F frontVideoRec Test10F_Fcam_video: 5 Videos captured successfull
+2023-01-12 16:56:45 INFO   Sharp_Aquos_R3.Test10F frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-12 16:56:53 INFO   Sharp_Aquos_R3.Test10F frontVideoRec Calling VideoPlayBackForSleepWake()
+2023-01-12 16:56:53 INFO   Sharp_Aquos_R3.Test10F VideoPlayBackForSleepWake Launch File Manager application and playback front recorded video from USD for 30 seconds, pause video playback, locking phone and unlock after 30 seconds delay and playback video from pause duration.
+2023-01-12 16:56:59 INFO   Sharp_Aquos_R3.Test10F VideoPlayBackForSleepWake swipe up and search for sd card
+2023-01-12 16:57:03 INFO   Sharp_Aquos_R3.Test10F VideoPlayBackForSleepWake Select External Storage
+2023-01-12 16:57:09 INFO   Sharp_Aquos_R3.Test10F VideoPlayBackForSleepWake switch to grid view mode and select DCIM  folder
+2023-01-12 16:57:12 INFO   Sharp_Aquos_R3.Test10F VideoPlayBackForSleepWake Select DCIM Folder
+2023-01-12 16:57:15 INFO   Sharp_Aquos_R3.Test10F VideoPlayBackForSleepWake Select Camera
+2023-01-12 16:57:18 INFO   Sharp_Aquos_R3.Test10F VideoPlayBackForSleepWake switch back to list  view mode
+2023-01-12 16:57:21 INFO   Sharp_Aquos_R3.Test10F VideoPlayBackForSleepWake select more options
+2023-01-12 16:57:26 INFO   Sharp_Aquos_R3.Test10F VideoPlayBackForSleepWake Select Sort BY
+2023-01-12 16:57:31 INFO   Sharp_Aquos_R3.Test10F VideoPlayBackForSleepWake Select Newest date first
+2023-01-12 16:57:35 INFO   Sharp_Aquos_R3.Test10F VideoPlayBackForSleepWake Click on first file to play newest date frist recorded resolution video file in usd card
+2023-01-12 16:57:36 INFO   Sharp_Aquos_R3.Test10F VideoPlayBackForSleepWake Started video playback
+2023-01-12 16:57:56 INFO   Sharp_Aquos_R3.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-01-12 16:57:56 INFO   Sharp_Aquos_R3.Test10F VideoPlayBackForSleepWake Lock Mobile with 30 seconds delay
+2023-01-12 16:58:26 INFO   Sharp_Aquos_R3.Test10F VideoPlayBackForSleepWake Wait For 30Seconds
+2023-01-12 16:58:31 INFO   Sharp_Aquos_R3.Test10F VideoPlayBackForSleepWake Unlock Mobile 
+2023-01-12 16:59:01 INFO   Sharp_Aquos_R3.Test10F VideoPlayBackForSleepWake Pause video 
+2023-01-12 16:59:07 INFO   Sharp_Aquos_R3.Test10F VideoPlayBackForSleepWake Pass: Test10F Pass for Front video play back, Pause,Lock and Unlock Phone Play back from Pause duration Scenario
+2023-01-12 16:59:07 INFO   Sharp_Aquos_R3.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-12 16:59:07 INFO   Sharp_Aquos_R3.Test10F VideoPlayBackForSleepWake Calling Data Move Operation
+2023-01-12 16:59:07 INFO   Sharp_Aquos_R3.Test10F DataMoveOperation Re-launch file manager application and select external storage for data move operation, select all rear camera videos present in camera folder and move to Test10 folder
+2023-01-12 16:59:13 INFO   Sharp_Aquos_R3.Test10F DataMoveOperation Launching file manager application
+2023-01-12 16:59:17 INFO   Sharp_Aquos_R3.Test10F DataMoveOperation Select external storage
+2023-01-12 16:59:23 INFO   Sharp_Aquos_R3.Test10F DataMoveOperation switch to grid view mode and select DCIM  folder
+2023-01-12 16:59:26 INFO   Sharp_Aquos_R3.Test10F DataMoveOperation Select DCIM folder
+2023-01-12 16:59:29 INFO   Sharp_Aquos_R3.Test10F DataMoveOperation Select camera  folder
+2023-01-12 16:59:32 INFO   Sharp_Aquos_R3.Test10F DataMoveOperation switch to list view mode 
+2023-01-12 16:59:35 INFO   Sharp_Aquos_R3.Test10F DataMoveOperation Click More options
+2023-01-12 16:59:42 INFO   Sharp_Aquos_R3.Test10F DataMoveOperation Click Select all
+2023-01-12 16:59:45 INFO   Sharp_Aquos_R3.Test10F DataMoveOperation Click More options
+2023-01-12 16:59:51 INFO   Sharp_Aquos_R3.Test10F DataMoveOperation Select move to option
+2023-01-12 16:59:58 INFO   Sharp_Aquos_R3.Test10F DataMoveOperation Select uSD Card
+2023-01-12 17:00:04 INFO   Sharp_Aquos_R3.Test10F DataMoveOperation Select ADD NEW Folder option
+2023-01-12 17:00:10 INFO   Sharp_Aquos_R3.Test10F DataMoveOperation Name folder as Test10F
+2023-01-12 17:00:16 INFO   Sharp_Aquos_R3.Test10F DataMoveOperation Accept create folder
+2023-01-12 17:00:46 INFO   Sharp_Aquos_R3.Test10F DataMoveOperation Cut paste  video files operation completed successfully
+2023-01-12 17:00:50 INFO   Sharp_Aquos_R3.Test10F DataMoveOperation Test10F: Data move operation completed successfully
+2023-01-12 17:00:58 INFO   Sharp_Aquos_R3.Test10F DataMoveOperation Pass: Test10F Pass for data move operation successfully
+2023-01-12 17:00:58 INFO   Sharp_Aquos_R3.Test10F DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-12 17:00:58 INFO   Sharp_Aquos_R3.Test10F VideoPlayBackForSleepWake Final Message: Pass Test10F Pass for Pause Video Playback
+2023-01-12 17:00:58 INFO   Sharp_Aquos_R3.Test10F VideoPlayBackForSleepWake Test: End
+2023-01-12 17:00:58 INFO   Sharp_Aquos_R3.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-12 17:00:58 INFO   Sharp_Aquos_R3.Test10F frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

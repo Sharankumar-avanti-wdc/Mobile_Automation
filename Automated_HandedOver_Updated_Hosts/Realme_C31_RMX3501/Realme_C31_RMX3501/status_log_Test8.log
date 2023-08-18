@@ -1,0 +1,71 @@
+2023-02-14 16:54:55 INFO   Realme_C31_RMX3501.Test8 recordAudio Test: Start
+2023-02-14 16:54:55 INFO   Realme_C31_RMX3501.Test8 recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-14 16:54:55 INFO   Realme_C31_RMX3501.Test8 recordAudio Test8 scenario is as follows
+2023-02-14 16:54:55 INFO   Realme_C31_RMX3501.Test8 recordAudio 1.Launch mobile default voice recording application and set uSD card storage option, record audio file for 2 minutes duration
+2023-02-14 16:54:55 INFO   Realme_C31_RMX3501.Test8 recordAudio 2.Launch file manager application and playback recorded audio file from external storage, fast forward audio file and pause
+2023-02-14 16:54:55 INFO   Realme_C31_RMX3501.Test8 recordAudio 3.Launch file manager application and playback copied audio files from external storage the files are placed in the Test1 folder
+2023-02-14 16:54:55 INFO   Realme_C31_RMX3501.Test8 recordAudio Setting up the appium desired capabilities
+2023-02-14 16:54:55 INFO   Realme_C31_RMX3501.Test8 recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-14 16:55:01 INFO   Realme_C31_RMX3501.Test8 recordAudio Launch Voice recorder application for Audio recording
+2023-02-14 16:55:06 INFO   Realme_C31_RMX3501.Test8 recordAudio If application launch permission pop-up exists accept allow permission to launch application
+2023-02-14 16:55:16 INFO   Realme_C31_RMX3501.Test8 recordAudio  No Launch permission Pop-up  found
+2023-02-14 16:55:21 INFO   Realme_C31_RMX3501.Test8 recordAudio Select settings option
+2023-02-14 16:55:26 INFO   Realme_C31_RMX3501.Test8 recordAudio Select Storage location
+2023-02-14 16:55:32 INFO   Realme_C31_RMX3501.Test8 recordAudio Select uSD card
+2023-02-14 16:55:40 INFO   Realme_C31_RMX3501.Test8 recordAudio Start Recording
+2023-02-14 16:57:40 INFO   Realme_C31_RMX3501.Test8 recordAudio Stop Recording
+2023-02-14 16:58:24 INFO   Realme_C31_RMX3501.Test8 recordAudio Pass: Test8 pass for recording  audio file
+2023-02-14 16:58:24 INFO   Realme_C31_RMX3501.Test8 recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-14 16:58:24 INFO   Realme_C31_RMX3501.Test8 recordAudio Launch File Manager Application to verify recorded audio
+2023-02-14 16:58:30 INFO   Realme_C31_RMX3501.Test8 recordAudio swipe up and search for sd card
+2023-02-14 16:58:38 INFO   Realme_C31_RMX3501.Test8 recordAudio Select  SD Card
+2023-02-14 16:58:43 INFO   Realme_C31_RMX3501.Test8 recordAudio Select list view
+2023-02-14 16:58:46 INFO   Realme_C31_RMX3501.Test8 recordAudio Select Music Folder
+2023-02-14 16:58:51 INFO   Realme_C31_RMX3501.Test8 recordAudio Select Voice recorder
+2023-02-14 16:58:56 INFO   Realme_C31_RMX3501.Test8 recordAudio switch to list view mode
+2023-02-14 16:58:59 INFO   Realme_C31_RMX3501.Test8 recordAudio Select More Options 
+2023-02-14 16:59:04 INFO   Realme_C31_RMX3501.Test8 recordAudio Click On Select All Options
+2023-02-14 16:59:13 INFO   Realme_C31_RMX3501.Test8 recordAudio Test8: 1 Audio file recorded  sucessfully
+2023-02-14 16:59:13 INFO   Realme_C31_RMX3501.Test8 recordAudio Pass: Test8 pass for audio recording in uSD Card
+2023-02-14 16:59:13 INFO   Realme_C31_RMX3501.Test8 recordAudio Calling PlayRecordedAudio() to play back recorded file
+2023-02-14 16:59:13 INFO   Realme_C31_RMX3501.Test8 recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-14 16:59:18 INFO   Realme_C31_RMX3501.Test8 PlayRecordedAudio Launch File Manager Application
+2023-02-14 16:59:32 INFO   Realme_C31_RMX3501.Test8 PlayRecordedAudio Select  SD Card
+2023-02-14 16:59:37 INFO   Realme_C31_RMX3501.Test8 PlayRecordedAudio Select list view
+2023-02-14 16:59:40 INFO   Realme_C31_RMX3501.Test8 PlayRecordedAudio Select Music Folder
+2023-02-14 16:59:45 INFO   Realme_C31_RMX3501.Test8 PlayRecordedAudio Select Voice recorder
+2023-02-14 16:59:51 INFO   Realme_C31_RMX3501.Test8 PlayRecordedAudio switch to list view mode
+2023-02-14 16:59:54 INFO   Realme_C31_RMX3501.Test8 PlayRecordedAudio Click Audio file for play back and fast forward
+2023-02-14 16:59:54 INFO   Realme_C31_RMX3501.Test8 PlayRecordedAudio Started Audio playback
+2023-02-14 17:00:14 INFO   Realme_C31_RMX3501.Test8 PlayRecordedAudio click on fastforward  10 seconds
+2023-02-14 17:00:34 INFO   Realme_C31_RMX3501.Test8 PlayRecordedAudio click on pause
+2023-02-14 17:00:38 INFO   Realme_C31_RMX3501.Test8 PlayRecordedAudio Pass: Test8 Pass for playing recorded Audio file
+2023-02-14 17:00:49 INFO   Realme_C31_RMX3501.Test8 PlayRecordedAudio Pass: Test8 Pass for playing, fast forward, and pause recorded audio file scenario
+2023-02-14 17:00:49 INFO   Realme_C31_RMX3501.Test8 PlayRecordedAudio Calling PlayCopiedAudioFile() for copied audio files from Test1 folder
+2023-02-14 17:00:49 INFO   Realme_C31_RMX3501.Test8 PlayRecordedAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-14 17:01:00 INFO   Realme_C31_RMX3501.Test8 PlayCopiedAudioFile Launching file manager application
+2023-02-14 17:01:08 INFO   Realme_C31_RMX3501.Test8 PlayCopiedAudioFile Select  SD Card
+2023-02-14 17:01:18 INFO   Realme_C31_RMX3501.Test8 PlayCopiedAudioFile Select test1
+2023-02-14 17:01:21 INFO   Realme_C31_RMX3501.Test8 PlayCopiedAudioFile Select testfile
+2023-02-14 17:01:24 INFO   Realme_C31_RMX3501.Test8 PlayCopiedAudioFile Select 1GB
+2023-02-14 17:01:27 INFO   Realme_C31_RMX3501.Test8 PlayCopiedAudioFile Select MP3 Files
+2023-02-14 17:01:30 INFO   Realme_C31_RMX3501.Test8 PlayCopiedAudioFile Select Laahe.Mp3.mp3
+2023-02-14 17:01:30 INFO   Realme_C31_RMX3501.Test8 PlayCopiedAudioFile Started video playback
+2023-02-14 17:01:50 INFO   Realme_C31_RMX3501.Test8 PlayCopiedAudioFile Click fast forward button for 10 seconds audio forward
+2023-02-14 17:02:11 INFO   Realme_C31_RMX3501.Test8 PlayCopiedAudioFile Pause audio playback
+2023-02-14 17:02:15 INFO   Realme_C31_RMX3501.Test8 PlayCopiedAudioFile Pass: 1st Copied Audio play back and fast forward is successfull
+2023-02-14 17:02:17 INFO   Realme_C31_RMX3501.Test8 PlayCopiedAudioFile select 11 Rob Thomas - Lonely No More.mp3
+2023-02-14 17:02:18 INFO   Realme_C31_RMX3501.Test8 PlayCopiedAudioFile Started audio playback
+2023-02-14 17:02:38 INFO   Realme_C31_RMX3501.Test8 PlayCopiedAudioFile Click fast forward button for 10 seconds audio forward
+2023-02-14 17:02:58 INFO   Realme_C31_RMX3501.Test8 PlayCopiedAudioFile Pause audio playback
+2023-02-14 17:03:02 INFO   Realme_C31_RMX3501.Test8 PlayCopiedAudioFile Pass: 2nd Copied Audio play back and fast forward is successfull
+2023-02-14 17:03:05 INFO   Realme_C31_RMX3501.Test8 PlayCopiedAudioFile select file_example_MP3_5MG.mp3
+2023-02-14 17:03:05 INFO   Realme_C31_RMX3501.Test8 PlayCopiedAudioFile Started audio playback
+2023-02-14 17:03:25 INFO   Realme_C31_RMX3501.Test8 PlayCopiedAudioFile Click fast forward button for 10 seconds audio forward
+2023-02-14 17:03:45 INFO   Realme_C31_RMX3501.Test8 PlayCopiedAudioFile Pause audio playback
+2023-02-14 17:03:52 INFO   Realme_C31_RMX3501.Test8 PlayCopiedAudioFile Pass: 3rd Copied Audio play back and fast forward is successfull
+2023-02-14 17:03:52 INFO   Realme_C31_RMX3501.Test8 PlayCopiedAudioFile Pass: Test8 Pass for Recorded and copied audio play back and fast forward scenario
+2023-02-14 17:03:52 INFO   Realme_C31_RMX3501.Test8 PlayCopiedAudioFile ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-14 17:03:52 INFO   Realme_C31_RMX3501.Test8 PlayCopiedAudioFile Final Message: Pass Test8 Pass for Recorded and copied audio play back and fast forward scenario
+2023-02-14 17:03:52 INFO   Realme_C31_RMX3501.Test8 PlayCopiedAudioFile Test: End
+2023-02-14 17:03:52 INFO   Realme_C31_RMX3501.Test8 PlayCopiedAudioFile ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

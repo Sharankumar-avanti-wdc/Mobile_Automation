@@ -1,0 +1,313 @@
+2023-01-18 17:54:38 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Test: Start
+2023-01-18 17:54:38 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-18 17:54:38 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Test9 Scenario is follows:
+2023-01-18 17:54:38 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture 1.Launch camera application, set uSD as a Storage option, start rear camera Image capture for all host resolutions
+2023-01-18 17:54:38 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture 2.Move rear camera image captured files from camera folder to Test9 folder
+2023-01-18 17:54:38 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Setting up the appium desired capabilities
+2023-01-18 17:54:38 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-18 17:54:51 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Launch home screen
+2023-01-18 17:54:57 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Clearing Recent Apps
+2023-01-18 17:55:10 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Launch Camera application for rear camera Image capture
+2023-01-18 17:55:17 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Test9_Bcam_res: 9 resolutions supported
+2023-01-18 17:55:17 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture IF Change to uSD card notification pop-up exists select Cancel Option
+2023-01-18 17:55:27 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '172.20.10.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: BISON X10G NFC, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: BSGN46405Y2010800446}, deviceApiLevel: 30, deviceManufacturer: HXY, deviceModel: RP05, deviceName: BSGN46405Y2010800446, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: BSGN46405Y2010800446, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 60, takesScreenshot: true, udid: BSGN46405Y2010800446, viewportRect: {height: 1396, left: 0, top: 60, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: b5e39738-827c-445c-86e2-906d8c687f96
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2023-01-18 17:55:29 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture if Location permisson Pop Exists Select Cancel Option
+2023-01-18 17:55:39 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Location permission access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '172.20.10.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: BISON X10G NFC, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: BSGN46405Y2010800446}, deviceApiLevel: 30, deviceManufacturer: HXY, deviceModel: RP05, deviceName: BSGN46405Y2010800446, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: BSGN46405Y2010800446, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 60, takesScreenshot: true, udid: BSGN46405Y2010800446, viewportRect: {height: 1396, left: 0, top: 60, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: b5e39738-827c-445c-86e2-906d8c687f96
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2023-01-18 17:55:39 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Switch to rear Camera Mode if current Exiting camera is Front camera Mode
+2023-01-18 17:55:49 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Currently camera is already in rear camera mode no need to switch
+2023-01-18 17:55:49 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Select photo mode option
+2023-01-18 17:55:50 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Select settings option
+2023-01-18 17:55:55 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Select Storagepath option
+2023-01-18 17:56:02 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Select SD as storage option
+2023-01-18 17:56:10 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Select settings option
+2023-01-18 17:56:15 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Select settings option to select resolution
+2023-01-18 17:56:19 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Select Rear camera first image resolution: (4:3) 16 megapixels
+2023-01-18 17:56:37 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture captureing first Resolution image 0
+2023-01-18 17:56:44 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture captureing first Resolution image 1
+2023-01-18 17:56:52 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture captureing first Resolution image 2
+2023-01-18 17:56:59 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture captureing first Resolution image 3
+2023-01-18 17:57:06 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture captureing first Resolution image 4
+2023-01-18 17:57:14 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture captureing first Resolution image 5
+2023-01-18 17:57:21 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture captureing first Resolution image 6
+2023-01-18 17:57:28 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture captureing first Resolution image 7
+2023-01-18 17:57:35 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture captureing first Resolution image 8
+2023-01-18 17:57:43 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture captureing first Resolution image 9
+2023-01-18 17:57:50 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture captureing first Resolution image 10
+2023-01-18 17:57:57 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture captureing first Resolution image 11
+2023-01-18 17:58:04 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture captureing first Resolution image 12
+2023-01-18 17:58:11 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture captureing first Resolution image 13
+2023-01-18 17:58:19 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture captureing first Resolution image 14
+2023-01-18 17:58:26 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture captureing first Resolution image 15
+2023-01-18 17:58:33 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture captureing first Resolution image 16
+2023-01-18 17:58:40 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture captureing first Resolution image 17
+2023-01-18 17:58:42 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Select settings option
+2023-01-18 17:58:47 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Select settings option to select resolution
+2023-01-18 17:58:52 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Select Rear camera second resolution: (4:3) 8 megapixels
+2023-01-18 17:59:11 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture captureing Second  Resolution image 0
+2023-01-18 17:59:18 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture captureing Second  Resolution image 1
+2023-01-18 17:59:25 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture captureing Second  Resolution image 2
+2023-01-18 17:59:32 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture captureing Second  Resolution image 3
+2023-01-18 17:59:40 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture captureing Second  Resolution image 4
+2023-01-18 17:59:47 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture captureing Second  Resolution image 5
+2023-01-18 17:59:54 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture captureing Second  Resolution image 6
+2023-01-18 18:00:01 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture captureing Second  Resolution image 7
+2023-01-18 18:00:09 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture captureing Second  Resolution image 8
+2023-01-18 18:00:16 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture captureing Second  Resolution image 9
+2023-01-18 18:00:23 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture captureing Second  Resolution image 10
+2023-01-18 18:00:30 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture captureing Second  Resolution image 11
+2023-01-18 18:00:37 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture captureing Second  Resolution image 12
+2023-01-18 18:00:45 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture captureing Second  Resolution image 13
+2023-01-18 18:00:52 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture captureing Second  Resolution image 14
+2023-01-18 18:00:59 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture captureing Second  Resolution image 15
+2023-01-18 18:01:06 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture captureing Second  Resolution image 16
+2023-01-18 18:01:13 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture captureing Second  Resolution image 17
+2023-01-18 18:01:15 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Select settings option
+2023-01-18 18:01:21 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Select settings option to select resolution
+2023-01-18 18:01:25 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Select rear camera third resolution:(4:3) 4 megapixels
+2023-01-18 18:01:39 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:01:44 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Captureing third Resolution image 0
+2023-01-18 18:01:46 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:01:51 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Captureing third Resolution image 1
+2023-01-18 18:01:54 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:01:59 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Captureing third Resolution image 2
+2023-01-18 18:02:01 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:02:07 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Captureing third Resolution image 3
+2023-01-18 18:02:09 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:02:14 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Captureing third Resolution image 4
+2023-01-18 18:02:16 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:02:22 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Captureing third Resolution image 5
+2023-01-18 18:02:24 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:02:29 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Captureing third Resolution image 6
+2023-01-18 18:02:31 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:02:36 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Captureing third Resolution image 7
+2023-01-18 18:02:38 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:02:43 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Captureing third Resolution image 8
+2023-01-18 18:02:45 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:02:50 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Captureing third Resolution image 9
+2023-01-18 18:02:52 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:02:57 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Captureing third Resolution image 10
+2023-01-18 18:02:59 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:03:05 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Captureing third Resolution image 11
+2023-01-18 18:03:07 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:03:12 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Captureing third Resolution image 12
+2023-01-18 18:03:14 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:03:19 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Captureing third Resolution image 13
+2023-01-18 18:03:21 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:03:26 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Captureing third Resolution image 14
+2023-01-18 18:03:28 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:03:33 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Captureing third Resolution image 15
+2023-01-18 18:03:35 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:03:41 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Captureing third Resolution image 16
+2023-01-18 18:03:43 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:03:48 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Captureing third Resolution image 17
+2023-01-18 18:03:50 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Select settings option
+2023-01-18 18:03:56 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Select settings option to select resolution
+2023-01-18 18:04:00 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Select Rear camera fourth image resolution (16:9) 12 megapixels
+2023-01-18 18:04:13 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:04:18 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Captureing fourth resolution image 0
+2023-01-18 18:04:20 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:04:26 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Captureing fourth resolution image 1
+2023-01-18 18:04:28 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:04:33 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Captureing fourth resolution image 2
+2023-01-18 18:04:35 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:04:40 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Captureing fourth resolution image 3
+2023-01-18 18:04:42 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:04:47 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Captureing fourth resolution image 4
+2023-01-18 18:04:49 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:04:55 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Captureing fourth resolution image 5
+2023-01-18 18:04:57 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:05:02 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Captureing fourth resolution image 6
+2023-01-18 18:05:04 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:05:09 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Captureing fourth resolution image 7
+2023-01-18 18:05:11 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:05:16 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Captureing fourth resolution image 8
+2023-01-18 18:05:18 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:05:23 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Captureing fourth resolution image 9
+2023-01-18 18:05:25 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:05:31 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Captureing fourth resolution image 10
+2023-01-18 18:05:33 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:05:38 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Captureing fourth resolution image 11
+2023-01-18 18:05:40 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Select settings option
+2023-01-18 18:05:45 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Select settings option to select resolution
+2023-01-18 18:05:50 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Select rear camera fifth image resolution: (16:9) 6 megapixels
+2023-01-18 18:06:03 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:06:08 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture clicking fifth Resolution image 0
+2023-01-18 18:06:10 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:06:15 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture clicking fifth Resolution image 1
+2023-01-18 18:06:17 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:06:23 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture clicking fifth Resolution image 2
+2023-01-18 18:06:25 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:06:30 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture clicking fifth Resolution image 3
+2023-01-18 18:06:32 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:06:37 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture clicking fifth Resolution image 4
+2023-01-18 18:06:39 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:06:44 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture clicking fifth Resolution image 5
+2023-01-18 18:06:46 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:06:51 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture clicking fifth Resolution image 6
+2023-01-18 18:06:53 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:06:59 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture clicking fifth Resolution image 7
+2023-01-18 18:07:01 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:07:06 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture clicking fifth Resolution image 8
+2023-01-18 18:07:08 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:07:13 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture clicking fifth Resolution image 9
+2023-01-18 18:07:15 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:07:20 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture clicking fifth Resolution image 10
+2023-01-18 18:07:22 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:07:28 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture clicking fifth Resolution image 11
+2023-01-18 18:07:30 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Select settings option
+2023-01-18 18:07:35 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Select settings option to select resolution
+2023-01-18 18:07:40 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Select Rear camera fifth image resolution: (16:9) 2 megapixels
+2023-01-18 18:07:53 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:07:58 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture captureing sixth Resolution image 0
+2023-01-18 18:08:00 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:08:06 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture captureing sixth Resolution image 1
+2023-01-18 18:08:08 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:08:13 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture captureing sixth Resolution image 2
+2023-01-18 18:08:15 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:08:20 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture captureing sixth Resolution image 3
+2023-01-18 18:08:22 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:08:28 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture captureing sixth Resolution image 4
+2023-01-18 18:08:30 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:08:35 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture captureing sixth Resolution image 5
+2023-01-18 18:08:37 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:08:43 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture captureing sixth Resolution image 6
+2023-01-18 18:08:45 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:08:50 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture captureing sixth Resolution image 7
+2023-01-18 18:08:52 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:08:58 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture captureing sixth Resolution image 8
+2023-01-18 18:09:00 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:09:05 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture captureing sixth Resolution image 9
+2023-01-18 18:09:07 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:09:13 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture captureing sixth Resolution image 10
+2023-01-18 18:09:15 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:09:20 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture captureing sixth Resolution image 11
+2023-01-18 18:09:22 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Select settings option
+2023-01-18 18:09:27 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Select settings option to select resolution
+2023-01-18 18:09:32 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Select rear camera seventh image resolution: (20:9) 8 megapixels
+2023-01-18 18:09:45 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:09:50 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Capturing seventh Resolution image 0
+2023-01-18 18:09:52 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:09:57 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Capturing seventh Resolution image 1
+2023-01-18 18:09:59 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:10:05 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Capturing seventh Resolution image 2
+2023-01-18 18:10:07 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:10:12 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Capturing seventh Resolution image 3
+2023-01-18 18:10:14 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:10:19 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Capturing seventh Resolution image 4
+2023-01-18 18:10:21 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:10:26 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Capturing seventh Resolution image 5
+2023-01-18 18:10:28 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:10:33 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Capturing seventh Resolution image 6
+2023-01-18 18:10:35 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:10:41 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Capturing seventh Resolution image 7
+2023-01-18 18:10:43 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:10:48 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Capturing seventh Resolution image 8
+2023-01-18 18:10:50 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:10:55 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Capturing seventh Resolution image 9
+2023-01-18 18:10:57 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:11:02 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Capturing seventh Resolution image 10
+2023-01-18 18:11:04 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:11:09 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Capturing seventh Resolution image 11
+2023-01-18 18:11:11 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Select settings option
+2023-01-18 18:11:16 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Select settings option to select resolution
+2023-01-18 18:11:21 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Select rear camera eighth image resolution: (20:9) 5 megapixels
+2023-01-18 18:11:34 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:11:40 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Captureing eight resolution image 0
+2023-01-18 18:11:42 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:11:48 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Captureing eight resolution image 1
+2023-01-18 18:11:50 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:11:56 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Captureing eight resolution image 2
+2023-01-18 18:11:58 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:12:03 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Captureing eight resolution image 3
+2023-01-18 18:12:05 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:12:10 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Captureing eight resolution image 4
+2023-01-18 18:12:12 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:12:17 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Captureing eight resolution image 5
+2023-01-18 18:12:19 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:12:25 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Captureing eight resolution image 6
+2023-01-18 18:12:27 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:12:32 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Captureing eight resolution image 7
+2023-01-18 18:12:34 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:12:40 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Captureing eight resolution image 8
+2023-01-18 18:12:42 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:12:47 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Captureing eight resolution image 9
+2023-01-18 18:12:49 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:12:55 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Captureing eight resolution image 10
+2023-01-18 18:12:57 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:13:02 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Captureing eight resolution image 11
+2023-01-18 18:13:04 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Select settings option
+2023-01-18 18:13:09 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Select settings option to select resolution
+2023-01-18 18:13:14 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Select rear camera ninth image resolution: (20:9) 2 megapixels
+2023-01-18 18:13:27 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:13:29 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Captureing ninth resolution image 0
+2023-01-18 18:13:31 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:13:34 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Captureing ninth resolution image 1
+2023-01-18 18:13:36 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:13:38 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Captureing ninth resolution image 2
+2023-01-18 18:13:40 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:13:42 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Captureing ninth resolution image 3
+2023-01-18 18:13:44 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:13:47 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Captureing ninth resolution image 4
+2023-01-18 18:13:49 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:13:51 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Captureing ninth resolution image 5
+2023-01-18 18:13:53 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:13:55 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Captureing ninth resolution image 6
+2023-01-18 18:13:57 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:13:59 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Captureing ninth resolution image 7
+2023-01-18 18:14:01 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:14:03 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Captureing ninth resolution image 8
+2023-01-18 18:14:05 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:14:07 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Captureing ninth resolution image 9
+2023-01-18 18:14:09 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:14:12 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Captureing ninth resolution image 10
+2023-01-18 18:14:14 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Start image capture
+2023-01-18 18:14:16 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Captureing ninth resolution image 11
+2023-01-18 18:14:18 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Total Count value:126 images to be Captured 
+2023-01-18 18:14:20 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Launch file manager application and verify recorded video present  in uSD Card
+2023-01-18 18:14:37 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture click on browse option
+2023-01-18 18:14:40 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Swipe up to select uSD card
+2023-01-18 18:14:43 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Select SD card
+2023-01-18 18:14:49 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture switch to grid view mode to select DCIM folder
+2023-01-18 18:14:53 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Select DCIM folder
+2023-01-18 18:14:56 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Select camera folder
+2023-01-18 18:14:59 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture switch to list view mode 
+2023-01-18 18:15:02 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Click More options
+2023-01-18 18:15:08 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Click Select all
+2023-01-18 18:15:21 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Fail: Test9 fail for Fail Count Issue
+2023-01-18 18:15:21 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Fail: Test9 fail for rear Image capture
+2023-01-18 18:15:21 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-18 18:15:21 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Calling DataMoveOperation
+2023-01-18 18:15:21 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 DataMoveOperation launch file manager application select uSD card-->DCIM folder-->Camera folder-->Select all back camera front camera videos create Test10 and cut paste all videos in BCFC_Cameravideos folder
+2023-01-18 18:15:37 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 DataMoveOperation click on browse option
+2023-01-18 18:15:40 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 DataMoveOperation Swipe up to select uSD card
+2023-01-18 18:15:44 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 DataMoveOperation Select SD card
+2023-01-18 18:15:50 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 DataMoveOperation Select DCIM folder
+2023-01-18 18:15:53 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 DataMoveOperation Select camera folder
+2023-01-18 18:15:56 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 DataMoveOperation Click More options
+2023-01-18 18:16:03 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 DataMoveOperation Click Select all
+2023-01-18 18:16:06 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 DataMoveOperation Click More options
+2023-01-18 18:16:13 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 DataMoveOperation Select move to option
+2023-01-18 18:16:20 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 DataMoveOperation Select uSD Card
+2023-01-18 18:16:26 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 DataMoveOperation Select ADD NEW Folder option
+2023-01-18 18:16:32 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 DataMoveOperation Name folder as Test9
+2023-01-18 18:16:38 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 DataMoveOperation Accept create folder
+2023-01-18 18:18:40 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 DataMoveOperation Cut paste  video files operation completed successfully
+2023-01-18 18:18:44 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 DataMoveOperation Pass: Test9 Pass for data move operation successfully
+2023-01-18 18:18:44 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-18 18:18:44 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Final message: Fail Test9 for rear camera image capture
+2023-01-18 18:18:44 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture Test: End
+2023-01-18 18:18:44 INFO   Umidigi_Bison_X10GNFC_RP05.Test9 RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

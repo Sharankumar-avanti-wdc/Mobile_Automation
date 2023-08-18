@@ -1,0 +1,63 @@
+2023-02-16 18:42:09 INFO   Realme_C31_RMX3501.Test8_Int recordAudio Test: Start
+2023-02-16 18:42:09 INFO   Realme_C31_RMX3501.Test8_Int recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-16 18:42:09 INFO   Realme_C31_RMX3501.Test8_Int recordAudio Test8_Int scenario is as follows
+2023-02-16 18:42:09 INFO   Realme_C31_RMX3501.Test8_Int recordAudio 1.Launch mobile default voice recording application and set  storage option, record audio file for 2 minutes duration
+2023-02-16 18:42:09 INFO   Realme_C31_RMX3501.Test8_Int recordAudio 2.Launch file manager application and playback recorded audio file from internal storage, fast forward audio file and pause
+2023-02-16 18:42:09 INFO   Realme_C31_RMX3501.Test8_Int recordAudio 3.Launch file manager application and playback copied audio files from internal storage the files are placed in the Test1 folder
+2023-02-16 18:42:09 INFO   Realme_C31_RMX3501.Test8_Int recordAudio Setting up the appium desired capabilities
+2023-02-16 18:42:09 INFO   Realme_C31_RMX3501.Test8_Int recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-16 18:42:15 INFO   Realme_C31_RMX3501.Test8_Int recordAudio Clear Recent Apps
+2023-02-16 18:42:25 INFO   Realme_C31_RMX3501.Test8_Int recordAudio Clearing Recent Apps
+2023-02-16 18:42:31 INFO   Realme_C31_RMX3501.Test8_Int recordAudio Pass: Test8_Int Pass for clearing Recent apps 
+2023-02-16 18:42:35 INFO   Realme_C31_RMX3501.Test8_Int recordAudio Launch Voice recorder application for Audio recording
+2023-02-16 18:42:40 INFO   Realme_C31_RMX3501.Test8_Int recordAudio If application launch permission pop-up exists accept allow permission to launch application
+2023-02-16 18:42:45 INFO   Realme_C31_RMX3501.Test8_Int recordAudio Agree
+2023-02-16 18:42:55 INFO   Realme_C31_RMX3501.Test8_Int recordAudio  No Launch permission Pop-up  found
+2023-02-16 18:43:00 INFO   Realme_C31_RMX3501.Test8_Int recordAudio Start Recording
+2023-02-16 18:45:00 INFO   Realme_C31_RMX3501.Test8_Int recordAudio Stop Recording
+2023-02-16 18:45:36 INFO   Realme_C31_RMX3501.Test8_Int recordAudio Stop and Save Recording
+2023-02-16 18:45:41 INFO   Realme_C31_RMX3501.Test8_Int recordAudio Pass: Test8_Int pass for recording  audio file
+2023-02-16 18:45:41 INFO   Realme_C31_RMX3501.Test8_Int recordAudio Calling PlayRecordedAudio() for Audio play back and fast forward scenario
+2023-02-16 18:45:41 INFO   Realme_C31_RMX3501.Test8_Int recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-16 18:45:56 INFO   Realme_C31_RMX3501.Test8_Int PlayRecordedAudio Clearing Recent Apps
+2023-02-16 18:46:02 INFO   Realme_C31_RMX3501.Test8_Int PlayRecordedAudio Pass: Test0_Int Pass for clearing Recent apps 
+2023-02-16 18:46:06 INFO   Realme_C31_RMX3501.Test8_Int PlayRecordedAudio Launch File Manager Application
+2023-02-16 18:46:20 INFO   Realme_C31_RMX3501.Test8_Int PlayRecordedAudio Click On internal storage
+2023-02-16 18:46:25 INFO   Realme_C31_RMX3501.Test8_Int PlayRecordedAudio Select Music Folder
+2023-02-16 18:46:25 INFO   Realme_C31_RMX3501.Test8_Int PlayRecordedAudio Select gird view
+2023-02-16 18:46:33 INFO   Realme_C31_RMX3501.Test8_Int PlayRecordedAudio Select recordings
+2023-02-16 18:46:37 INFO   Realme_C31_RMX3501.Test8_Int PlayRecordedAudio switch to list view mode
+2023-02-16 18:46:40 INFO   Realme_C31_RMX3501.Test8_Int PlayRecordedAudio Select mp3 audio-file
+2023-02-16 18:47:00 INFO   Realme_C31_RMX3501.Test8_Int PlayRecordedAudio Select files by goggle
+2023-02-16 18:47:10 INFO   Realme_C31_RMX3501.Test8_Int PlayRecordedAudio Fast Forwarding Audio for 10 Seconds
+2023-02-16 18:47:14 INFO   Realme_C31_RMX3501.Test8_Int PlayRecordedAudio click on pause button
+2023-02-16 18:47:24 INFO   Realme_C31_RMX3501.Test8_Int PlayRecordedAudio Pass: Test8_Int Pass for playing, fast forward, and pause recorded audio file scenario
+2023-02-16 18:47:24 INFO   Realme_C31_RMX3501.Test8_Int PlayRecordedAudio Calling PlayCopiedAudioFile() for copied audio files from Test1 folder
+2023-02-16 18:47:24 INFO   Realme_C31_RMX3501.Test8_Int PlayRecordedAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-16 18:47:29 INFO   Realme_C31_RMX3501.Test8_Int PlayCopiedAudioFile Launch File Manager Application
+2023-02-16 18:47:35 INFO   Realme_C31_RMX3501.Test8_Int PlayCopiedAudioFile Swipe up and select uSD card
+2023-02-16 18:47:43 INFO   Realme_C31_RMX3501.Test8_Int PlayCopiedAudioFile Select  Internal storage
+2023-02-16 18:47:53 INFO   Realme_C31_RMX3501.Test8_Int PlayCopiedAudioFile Select Test1 folder
+2023-02-16 18:48:03 INFO   Realme_C31_RMX3501.Test8_Int PlayCopiedAudioFile Select Test_file folder
+2023-02-16 18:48:08 INFO   Realme_C31_RMX3501.Test8_Int PlayCopiedAudioFile Select 1GB folder
+2023-02-16 18:48:11 INFO   Realme_C31_RMX3501.Test8_Int PlayCopiedAudioFile Select MP3 files Folder
+2023-02-16 18:48:16 INFO   Realme_C31_RMX3501.Test8_Int PlayCopiedAudioFile Playing first audio file from Test1 folder
+2023-02-16 18:48:57 INFO   Realme_C31_RMX3501.Test8_Int PlayCopiedAudioFile Fast Forwarding Audio for 10 Seconds
+2023-02-16 18:49:07 INFO   Realme_C31_RMX3501.Test8_Int PlayCopiedAudioFile Continue audio playback
+2023-02-16 18:49:17 INFO   Realme_C31_RMX3501.Test8_Int PlayCopiedAudioFile Pause Audio
+2023-02-16 18:49:21 INFO   Realme_C31_RMX3501.Test8_Int PlayCopiedAudioFile Pass: first audio file palyback and fast forward scenario is successfull
+2023-02-16 18:49:24 INFO   Realme_C31_RMX3501.Test8_Int PlayCopiedAudioFile Playing second audio file from Test1 folder
+2023-02-16 18:50:04 INFO   Realme_C31_RMX3501.Test8_Int PlayCopiedAudioFile Fast Forwarding Audio for 10 Seconds
+2023-02-16 18:50:14 INFO   Realme_C31_RMX3501.Test8_Int PlayCopiedAudioFile Continue audio playback
+2023-02-16 18:50:24 INFO   Realme_C31_RMX3501.Test8_Int PlayCopiedAudioFile Pause Audio
+2023-02-16 18:50:28 INFO   Realme_C31_RMX3501.Test8_Int PlayCopiedAudioFile Pass: Seond audio file palyback and fast forward scenario is successfull
+2023-02-16 18:50:31 INFO   Realme_C31_RMX3501.Test8_Int PlayCopiedAudioFile Playing third audio file from Test1 folder
+2023-02-16 18:51:11 INFO   Realme_C31_RMX3501.Test8_Int PlayCopiedAudioFile Fast Forwarding Audio for 10 Seconds
+2023-02-16 18:51:22 INFO   Realme_C31_RMX3501.Test8_Int PlayCopiedAudioFile Continue audio playback
+2023-02-16 18:51:32 INFO   Realme_C31_RMX3501.Test8_Int PlayCopiedAudioFile Pause Audio
+2023-02-16 18:51:35 INFO   Realme_C31_RMX3501.Test8_Int PlayCopiedAudioFile Pass: Third audio file palyback and fast forward scenario is successfull
+2023-02-16 18:51:35 INFO   Realme_C31_RMX3501.Test8_Int PlayCopiedAudioFile Pass: Test8_Int Pass for Recorded and copied audio play back and fast forward scenario
+2023-02-16 18:51:35 INFO   Realme_C31_RMX3501.Test8_Int PlayCopiedAudioFile ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-16 18:51:35 INFO   Realme_C31_RMX3501.Test8_Int PlayCopiedAudioFile Final Message: Pass Test8_Int Pass for Recorded and copied audio play back and fast forward scenario
+2023-02-16 18:51:35 INFO   Realme_C31_RMX3501.Test8_Int PlayCopiedAudioFile Test: End
+2023-02-16 18:51:35 INFO   Realme_C31_RMX3501.Test8_Int PlayCopiedAudioFile ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

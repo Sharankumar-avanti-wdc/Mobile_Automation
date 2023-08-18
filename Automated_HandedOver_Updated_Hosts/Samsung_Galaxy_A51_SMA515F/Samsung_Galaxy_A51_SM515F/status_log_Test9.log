@@ -1,0 +1,144 @@
+2023-01-16 17:45:14 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture Test: Start
+2023-01-16 17:45:14 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-16 17:45:14 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture Test9 Scenario is follows:
+2023-01-16 17:45:14 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture 1.Launch camera application, set uSD as a Storage option, start rear camera Image capture for all host resolutions
+2023-01-16 17:45:14 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture 2.Move rear camera image captured files from camera folder to Test9 folder
+2023-01-16 17:45:14 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture Setting up the appium desired capabilities
+2023-01-16 17:45:14 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-16 17:45:23 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture Launch Home screen and clear recent apps
+2023-01-16 17:45:34 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture Clearing recent apps
+2023-01-16 17:45:44 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture Launch Camera application for rear Picture capture for all host resolution
+2023-01-16 17:45:45 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture Test9_Bcam_res: 5 resolutions supported
+2023-01-16 17:45:45 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture If change to uSD card pop-up exists select Cancel
+2023-01-16 17:45:55 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy A51 , newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: RZ8N20BF9QE}, deviceApiLevel: 31, deviceManufacturer: samsung, deviceModel: SM-A515F, deviceName: RZ8N20BF9QE, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: RZ8N20BF9QE, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 87, takesScreenshot: true, udid: RZ8N20BF9QE, viewportRect: {height: 2099, left: 0, top: 87, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 73586970-a453-41a4-b64b-1f34089a1a26
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2023-01-16 17:45:55 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture If Location access Permission Request Pop Exists Click on Cancel. 
+2023-01-16 17:45:55 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture If Location access Permission Request Pop Exists Click on Cancel. 
+2023-01-16 17:46:05 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture Location access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy A51 , newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: RZ8N20BF9QE}, deviceApiLevel: 31, deviceManufacturer: samsung, deviceModel: SM-A515F, deviceName: RZ8N20BF9QE, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: RZ8N20BF9QE, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 87, takesScreenshot: true, udid: RZ8N20BF9QE, viewportRect: {height: 2099, left: 0, top: 87, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 73586970-a453-41a4-b64b-1f34089a1a26
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2023-01-16 17:46:05 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture Switch To Rear Camera mode if current Exiting camera is Front camera mode
+2023-01-16 17:46:16 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture Current Existing Camera is Rear Camera mode.
+2023-01-16 17:46:16 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture Click Settings option
+2023-01-16 17:46:21 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture Search for Storage location
+2023-01-16 17:46:36 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture Select SD as storage option
+2023-01-16 17:46:44 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture Select Rear Image Size
+2023-01-16 17:46:46 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture Select rear camera first Image Resoution: 3:4 64MP
+2023-01-16 17:47:02 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking First  Resolution Image0
+2023-01-16 17:47:10 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking First  Resolution Image1
+2023-01-16 17:47:19 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking First  Resolution Image2
+2023-01-16 17:47:27 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking First  Resolution Image3
+2023-01-16 17:47:35 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking First  Resolution Image4
+2023-01-16 17:47:44 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking First  Resolution Image5
+2023-01-16 17:47:52 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking First  Resolution Image6
+2023-01-16 17:48:01 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking First  Resolution Image7
+2023-01-16 17:48:09 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking First  Resolution Image8
+2023-01-16 17:48:17 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking First  Resolution Image9
+2023-01-16 17:48:26 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking First  Resolution Image10
+2023-01-16 17:48:34 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking First  Resolution Image11
+2023-01-16 17:48:36 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture Rear camera first resolution:12 images Captured succesfull
+2023-01-16 17:48:36 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture Select Rear Image Size
+2023-01-16 17:48:37 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture Select rear camear second Image Resoution: 3:4 
+2023-01-16 17:48:53 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking Second  Resolution Image0
+2023-01-16 17:49:01 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking Second  Resolution Image1
+2023-01-16 17:49:10 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking Second  Resolution Image2
+2023-01-16 17:49:18 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking Second  Resolution Image3
+2023-01-16 17:49:26 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking Second  Resolution Image4
+2023-01-16 17:49:35 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking Second  Resolution Image5
+2023-01-16 17:49:43 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking Second  Resolution Image6
+2023-01-16 17:49:51 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking Second  Resolution Image7
+2023-01-16 17:50:00 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking Second  Resolution Image8
+2023-01-16 17:50:08 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking Second  Resolution Image9
+2023-01-16 17:50:17 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking Second  Resolution Image10
+2023-01-16 17:50:25 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking Second  Resolution Image11
+2023-01-16 17:50:27 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture Rear camera second resolution:12 images Captured succesfull
+2023-01-16 17:50:27 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture Select rear camera third Image Resoution: 9:16
+2023-01-16 17:50:48 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking third  Resolution Image0
+2023-01-16 17:50:56 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking third  Resolution Image1
+2023-01-16 17:51:05 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking third  Resolution Image2
+2023-01-16 17:51:13 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking third  Resolution Image3
+2023-01-16 17:51:21 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking third  Resolution Image4
+2023-01-16 17:51:30 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking third  Resolution Image5
+2023-01-16 17:51:38 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking third  Resolution Image6
+2023-01-16 17:51:46 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking third  Resolution Image7
+2023-01-16 17:51:55 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking third  Resolution Image8
+2023-01-16 17:52:03 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking third  Resolution Image9
+2023-01-16 17:52:12 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking third  Resolution Image10
+2023-01-16 17:52:20 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking third  Resolution Image11
+2023-01-16 17:52:22 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture Rear camera third resolution:12 images Captured succesfull
+2023-01-16 17:52:22 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture Select  rear camear Fourth Image Resoution: 1:1
+2023-01-16 17:52:30 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture Capture Images
+2023-01-16 17:52:39 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking Fourth  Resolution Image0
+2023-01-16 17:52:47 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking Fourth  Resolution Image1
+2023-01-16 17:52:55 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking Fourth  Resolution Image2
+2023-01-16 17:53:04 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking Fourth  Resolution Image3
+2023-01-16 17:53:12 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking Fourth  Resolution Image4
+2023-01-16 17:53:21 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking Fourth  Resolution Image5
+2023-01-16 17:53:29 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking Fourth  Resolution Image6
+2023-01-16 17:53:37 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking Fourth  Resolution Image7
+2023-01-16 17:53:46 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking Fourth  Resolution Image8
+2023-01-16 17:53:54 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking Fourth  Resolution Image9
+2023-01-16 17:54:02 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking Fourth  Resolution Image10
+2023-01-16 17:54:11 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking Fourth  Resolution Image11
+2023-01-16 17:54:13 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture Rear camera fourth resolution:12 images Captured succesfull
+2023-01-16 17:54:13 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture Select rear camera fifth resolution
+2023-01-16 17:54:21 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture Capture Images
+2023-01-16 17:54:30 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking Fifth  Resolution Image0
+2023-01-16 17:54:38 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking Fifth  Resolution Image1
+2023-01-16 17:54:46 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking Fifth  Resolution Image2
+2023-01-16 17:54:55 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking Fifth  Resolution Image3
+2023-01-16 17:55:03 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking Fifth  Resolution Image4
+2023-01-16 17:55:12 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking Fifth  Resolution Image5
+2023-01-16 17:55:20 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking Fifth  Resolution Image6
+2023-01-16 17:55:28 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking Fifth  Resolution Image7
+2023-01-16 17:55:37 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking Fifth  Resolution Image8
+2023-01-16 17:55:45 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking Fifth  Resolution Image9
+2023-01-16 17:55:53 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking Fifth  Resolution Image10
+2023-01-16 17:56:02 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture clicking Fifth  Resolution Image11
+2023-01-16 17:56:04 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture Rear camera fifth resolution:12 images Captured succesfull
+2023-01-16 17:56:11 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture Total Count value:60 images to be Captured 
+2023-01-16 17:56:13 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture Launch file manager application and verify captured rear camera images present  in uSD Card
+2023-01-16 17:56:30 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture Swipe up to select uSD card
+2023-01-16 17:56:33 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture Select SD card
+2023-01-16 17:56:39 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture switch to grid view mode to select DCIM folder
+2023-01-16 17:56:42 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture Select DCIM folder
+2023-01-16 17:56:46 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture Select camera folder
+2023-01-16 17:56:49 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture switch to list view mode 
+2023-01-16 17:56:52 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture Click More options
+2023-01-16 17:56:59 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture Click Select all
+2023-01-16 17:57:12 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture Pass: Test9 pass for rear Image capture
+2023-01-16 17:57:12 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture Test9_Bcam_image: 60  images Captured succesfull
+2023-01-16 17:57:12 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture calling DataMoveOperation() 
+2023-01-16 17:57:12 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-16 17:57:15 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture calling DataMoveOperation() 
+2023-01-16 17:57:15 INFO   Samsung_Galaxy_A51_SM515F.Test9 DataMoveOperation Re-launch file manager application and select external storage for data move operation, select all rear camera images files present in camera folder and move to Test9 folder
+2023-01-16 17:57:25 INFO   Samsung_Galaxy_A51_SM515F.Test9 DataMoveOperation Select external storage
+2023-01-16 17:57:30 INFO   Samsung_Galaxy_A51_SM515F.Test9 DataMoveOperation switch to grid view mode and select DCIM  folder
+2023-01-16 17:57:34 INFO   Samsung_Galaxy_A51_SM515F.Test9 DataMoveOperation Select DCIM folder
+2023-01-16 17:57:37 INFO   Samsung_Galaxy_A51_SM515F.Test9 DataMoveOperation Select camera  folder
+2023-01-16 17:57:41 INFO   Samsung_Galaxy_A51_SM515F.Test9 DataMoveOperation switch to list view mode 
+2023-01-16 17:57:44 INFO   Samsung_Galaxy_A51_SM515F.Test9 DataMoveOperation Click More options
+2023-01-16 17:57:51 INFO   Samsung_Galaxy_A51_SM515F.Test9 DataMoveOperation Click Select all
+2023-01-16 17:57:55 INFO   Samsung_Galaxy_A51_SM515F.Test9 DataMoveOperation Click More options
+2023-01-16 17:58:02 INFO   Samsung_Galaxy_A51_SM515F.Test9 DataMoveOperation Select move to option
+2023-01-16 17:58:09 INFO   Samsung_Galaxy_A51_SM515F.Test9 DataMoveOperation Select uSD Card
+2023-01-16 17:58:15 INFO   Samsung_Galaxy_A51_SM515F.Test9 DataMoveOperation Select ADD NEW Folder option
+2023-01-16 17:58:22 INFO   Samsung_Galaxy_A51_SM515F.Test9 DataMoveOperation Name folder as Test9
+2023-01-16 17:58:28 INFO   Samsung_Galaxy_A51_SM515F.Test9 DataMoveOperation Accept create folder
+2023-01-16 17:58:58 INFO   Samsung_Galaxy_A51_SM515F.Test9 DataMoveOperation Cut paste  operation completed successfully
+2023-01-16 17:59:02 INFO   Samsung_Galaxy_A51_SM515F.Test9 DataMoveOperation Test9: Data move operation completed successfully
+2023-01-16 17:59:11 INFO   Samsung_Galaxy_A51_SM515F.Test9 DataMoveOperation Pass: Test9 Pass for data move operation successfully
+2023-01-16 17:59:11 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture Final Message: Pass Test9 Pass for rear Camera image capture
+2023-01-16 17:59:11 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture Test: End
+2023-01-16 17:59:11 INFO   Samsung_Galaxy_A51_SM515F.Test9 RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

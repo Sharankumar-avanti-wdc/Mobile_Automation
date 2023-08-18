@@ -1,0 +1,54 @@
+2023-02-08 15:32:00 INFO   BlackView_A55_Pro.Test8 recordAudio Test: Start
+2023-02-08 15:32:00 INFO   BlackView_A55_Pro.Test8 recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-08 15:32:00 INFO   BlackView_A55_Pro.Test8 recordAudio Test8 scenario is as follows
+2023-02-08 15:32:00 INFO   BlackView_A55_Pro.Test8 recordAudio 1.Launch mobile default voice recording application and set  storage option, record audio file for 2 minutes duration
+2023-02-08 15:32:00 INFO   BlackView_A55_Pro.Test8 recordAudio 2.Launch file manager application and playback recorded audio file from external storage, fast forward audio file and pause
+2023-02-08 15:32:00 INFO   BlackView_A55_Pro.Test8 recordAudio 3.Launch file manager application and playback copied audio files from external storage the files are placed in the Test1 folder
+2023-02-08 15:32:00 INFO   BlackView_A55_Pro.Test8 recordAudio Setting up the appium desired capabilities
+2023-02-08 15:32:00 INFO   BlackView_A55_Pro.Test8 recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-08 15:32:11 INFO   BlackView_A55_Pro.Test8 recordAudio Launch home screen
+2023-02-08 15:32:17 INFO   BlackView_A55_Pro.Test8 recordAudio Launch voice recorder application
+2023-02-08 15:32:25 INFO   BlackView_A55_Pro.Test8 recordAudio Select settings option
+2023-02-08 15:32:28 INFO   BlackView_A55_Pro.Test8 recordAudio select location option
+2023-02-08 15:32:31 INFO   BlackView_A55_Pro.Test8 recordAudio Select SD card 
+2023-02-08 15:32:43 INFO   BlackView_A55_Pro.Test8 recordAudio Start audio recording
+2023-02-08 15:34:44 INFO   BlackView_A55_Pro.Test8 recordAudio Start audio recording
+2023-02-08 15:34:53 INFO   BlackView_A55_Pro.Test8 recordAudio Launch default file manager and verify recorded audio in SD card storage
+2023-02-08 15:34:53 INFO   BlackView_A55_Pro.Test8 recordAudio Launch settings application
+2023-02-08 15:35:01 INFO   BlackView_A55_Pro.Test8 recordAudio Scrolling till battery and device care is visible
+2023-02-08 15:35:09 INFO   BlackView_A55_Pro.Test8 recordAudio Clicking on storage
+2023-02-08 15:35:15 INFO   BlackView_A55_Pro.Test8 recordAudio Select SANDISK SD CARD
+2023-02-08 15:35:15 INFO   BlackView_A55_Pro.Test8 recordAudio Clicking on SD card
+2023-02-08 15:35:20 INFO   BlackView_A55_Pro.Test8 recordAudio select android folder
+2023-02-08 15:35:27 INFO   BlackView_A55_Pro.Test8 recordAudio select data folder
+2023-02-08 15:35:33 INFO   BlackView_A55_Pro.Test8 recordAudio select voice recorder folder
+2023-02-08 15:35:39 INFO   BlackView_A55_Pro.Test8 recordAudio select Files folder
+2023-02-08 15:35:46 INFO   BlackView_A55_Pro.Test8 recordAudio select Recorders folder
+2023-02-08 15:35:52 INFO   BlackView_A55_Pro.Test8 recordAudio Select more options
+2023-02-08 15:35:57 INFO   BlackView_A55_Pro.Test8 recordAudio Click Select all option
+2023-02-08 15:36:09 INFO   BlackView_A55_Pro.Test8 recordAudio Pass: Audio recording scenario completed succesfully
+2023-02-08 15:36:19 INFO   BlackView_A55_Pro.Test8 recordAudio Calling PlayRecordedAudio() for recorded audio playback and fast forward sceanrio
+2023-02-08 15:36:24 INFO   BlackView_A55_Pro.Test8 PlayRecordedAudio Launch home screen and clear recent apps
+2023-02-08 15:36:31 INFO   BlackView_A55_Pro.Test8 PlayRecordedAudio Launch File Manager Application
+2023-02-08 15:36:31 INFO   BlackView_A55_Pro.Test8 PlayRecordedAudio Launch settings application
+2023-02-08 15:36:38 INFO   BlackView_A55_Pro.Test8 PlayRecordedAudio Scrolling till battery and device care is visible
+2023-02-08 15:36:46 INFO   BlackView_A55_Pro.Test8 PlayRecordedAudio Clicking on storage
+2023-02-08 15:36:52 INFO   BlackView_A55_Pro.Test8 PlayRecordedAudio Select SANDISK SD CARD
+2023-02-08 15:36:52 INFO   BlackView_A55_Pro.Test8 PlayRecordedAudio Clicking on SD card
+2023-02-08 15:36:57 INFO   BlackView_A55_Pro.Test8 PlayRecordedAudio select android folder
+2023-02-08 15:37:03 INFO   BlackView_A55_Pro.Test8 PlayRecordedAudio select data folder
+2023-02-08 15:37:09 INFO   BlackView_A55_Pro.Test8 PlayRecordedAudio select voice recorder folder
+2023-02-08 15:37:16 INFO   BlackView_A55_Pro.Test8 PlayRecordedAudio select Files folder
+2023-02-08 15:37:22 INFO   BlackView_A55_Pro.Test8 PlayRecordedAudio select Recorders folder
+2023-02-08 15:37:28 INFO   BlackView_A55_Pro.Test8 PlayRecordedAudio Click first audio file for audio playback and fast forward scenario
+2023-02-08 15:38:01 INFO   BlackView_A55_Pro.Test8 PlayRecordedAudio Fast Forwarding Audio for 10 Seconds
+2023-02-08 15:38:11 INFO   BlackView_A55_Pro.Test8 PlayRecordedAudio Continue audio playback
+2023-02-08 15:38:41 INFO   BlackView_A55_Pro.Test8 PlayRecordedAudio Pause audio playback
+2023-02-08 15:38:58 INFO   BlackView_A55_Pro.Test8 PlayRecordedAudio Pass: Test8 Pass for playing, fast forward, and pause recorded audio file scenario
+2023-02-08 15:38:58 INFO   BlackView_A55_Pro.Test8 PlayRecordedAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-08 15:38:58 INFO   BlackView_A55_Pro.Test8 PlayRecordedAudio Calling PlayCopiedAudioFile() for copied audio files from Test1 folder
+2023-02-08 15:39:03 INFO   BlackView_A55_Pro.Test8 PlayCopiedAudioFile Launch home screen
+2023-02-08 15:39:10 INFO   BlackView_A55_Pro.Test8 PlayCopiedAudioFile Launch File Manager Application
+2023-02-08 15:39:18 INFO   BlackView_A55_Pro.Test8 PlayCopiedAudioFile Select  SD card
+2023-02-08 15:39:32 INFO   BlackView_A55_Pro.Test8 PlayCopiedAudioFile Select Test1 folder
+2023-02-08 15:39:42 INFO   BlackView_A55_Pro.Test8 PlayRecordedAudio Fail: Test8 Fail for Recorded audio file play back, fast forward, and pause  scenario

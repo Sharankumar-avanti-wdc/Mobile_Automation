@@ -1,0 +1,75 @@
+2023-01-16 21:13:30 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture Test: Start
+2023-01-16 21:13:30 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-16 21:13:30 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture Test9F Scenario is as follows:
+2023-01-16 21:13:30 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture 1.Launch camera application, set uSD as a Storage option, start Front camera image picture capture for all Host front resolutions
+2023-01-16 21:13:30 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture Setting up the appium desired capabilities
+2023-01-16 21:13:30 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-16 21:13:38 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture Launch Home screen and Clear recent apps
+2023-01-16 21:13:57 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture Launch Camera Application for Front camera picture Capture for all Host resolutions
+2023-01-16 21:13:58 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture If change to uSD card pop-up exists select Cancel
+2023-01-16 21:14:09 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy A21s, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: RZ8NA0LW97D}, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-A217F, deviceName: RZ8NA0LW97D, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: RZ8NA0LW97D, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 68, takesScreenshot: true, udid: RZ8NA0LW97D, viewportRect: {height: 1380, left: 0, top: 68, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 1ef2c7c1-02b0-466b-b43b-bdaf1df5e30c
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2023-01-16 21:14:09 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture If Location access Permission Request Pop Exists Click on Cancel. 
+2023-01-16 21:14:19 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture Location access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy A21s, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: RZ8NA0LW97D}, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-A217F, deviceName: RZ8NA0LW97D, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: RZ8NA0LW97D, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 68, takesScreenshot: true, udid: RZ8NA0LW97D, viewportRect: {height: 1380, left: 0, top: 68, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 1ef2c7c1-02b0-466b-b43b-bdaf1df5e30c
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2023-01-16 21:14:24 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture Test9F_Fcam_res: 4 resolutions supported
+2023-01-16 21:14:24 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture Switch to front camera mode
+2023-01-16 21:14:26 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture Click Settings option
+2023-01-16 21:14:32 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture Swipe up and select storage location option
+2023-01-16 21:14:47 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture Select SD as storage option
+2023-01-16 21:14:55 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture Select Front Image size
+2023-01-16 21:14:55 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture Select First front Image Resoution: 3:4
+2023-01-16 21:15:03 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture Capture Images
+2023-01-16 21:15:08 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture clicking First resolution Image0
+2023-01-16 21:15:12 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture clicking First resolution Image1
+2023-01-16 21:15:16 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture clicking First resolution Image2
+2023-01-16 21:15:20 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture clicking First resolution Image3
+2023-01-16 21:15:25 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture clicking First resolution Image4
+2023-01-16 21:15:29 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture clicking First resolution Image5
+2023-01-16 21:15:34 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture clicking First resolution Image6
+2023-01-16 21:15:39 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture clicking First resolution Image7
+2023-01-16 21:15:43 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture clicking First resolution Image8
+2023-01-16 21:15:48 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture clicking First resolution Image9
+2023-01-16 21:15:53 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture clicking First resolution Image10
+2023-01-16 21:15:57 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture clicking First resolution Image11
+2023-01-16 21:15:59 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture front camera first resolution:12 images Captured succesfull
+2023-01-16 21:15:59 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture Select Front Image size
+2023-01-16 21:16:00 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture Select Second resolution: 9:16
+2023-01-16 21:16:08 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture Capture Images
+2023-01-16 21:16:12 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture clicking Second resolution Image0
+2023-01-16 21:16:16 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture clicking Second resolution Image1
+2023-01-16 21:16:21 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture clicking Second resolution Image2
+2023-01-16 21:16:25 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture clicking Second resolution Image3
+2023-01-16 21:16:29 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture clicking Second resolution Image4
+2023-01-16 21:16:34 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture clicking Second resolution Image5
+2023-01-16 21:16:38 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture clicking Second resolution Image6
+2023-01-16 21:16:43 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture clicking Second resolution Image7
+2023-01-16 21:16:47 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture clicking Second resolution Image8
+2023-01-16 21:16:51 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture clicking Second resolution Image9
+2023-01-16 21:16:56 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture clicking Second resolution Image10
+2023-01-16 21:17:00 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture clicking Second resolution Image11
+2023-01-16 21:17:02 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture front camera second resolution:12 images Captured succesfull
+2023-01-16 21:17:02 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture Select Front Image size
+2023-01-16 21:17:02 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture Select third Image Resoution: 1:1
+2023-01-16 21:17:10 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture Capture Images
+2023-01-16 21:17:14 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture clicking Second Third Image0
+2023-01-16 21:17:19 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture clicking Second Third Image1
+2023-01-16 21:17:23 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture clicking Second Third Image2
+2023-01-16 21:17:27 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture clicking Second Third Image3
+2023-01-16 21:17:32 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture clicking Second Third Image4
+2023-01-16 21:17:36 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture clicking Second Third Image5
+2023-01-16 21:17:41 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture clicking Second Third Image6
+2023-01-16 21:17:43 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture Fail: Test9F fail for Fail Count Issue
+2023-01-16 21:17:43 INFO   Samsung_Galaxy_A21s.Test9F frontPictureCapture calling DataMoveOperation() 

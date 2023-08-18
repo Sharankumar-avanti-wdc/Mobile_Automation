@@ -1,0 +1,173 @@
+2023-02-13 10:06:53 INFO   Doogee_X96.Test0_Int start Test: Start
+2023-02-13 10:06:53 INFO   Doogee_X96.Test0_Int start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-13 10:06:53 INFO   Doogee_X96.Test0_Int start  Test0_Int Scenario is as follows  
+2023-02-13 10:06:53 INFO   Doogee_X96.Test0_Int start 1.Unlock phone, clear recent apps,Format uSD as Internal mount and Clear internal mount memory
+2023-02-13 10:06:53 INFO   Doogee_X96.Test0_Int start 2.Call Image() and Capture Rear camera 25 images with default resolution in internal mount uSD card and Verify the data capture
+2023-02-13 10:06:53 INFO   Doogee_X96.Test0_Int start 3.Call Video() and record Rear camera video of first 2 resloutions for 2 minutes of duration in internal mount uSD Card and verify the same
+2023-02-13 10:06:53 INFO   Doogee_X96.Test0_Int start 4.Call Format() Format uSD as External mount,Format back to internal mount, Verify with data format status.
+2023-02-13 10:06:53 INFO   Doogee_X96.Test0_Int start Setting up the appium desired capabilities
+2023-02-13 10:06:53 INFO   Doogee_X96.Test0_Int start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-13 10:07:01 INFO   Doogee_X96.Test0_Int start Unlocking Phone
+2023-02-13 10:07:01 INFO   Doogee_X96.Test0_Int start Launch Home screen
+2023-02-13 10:07:13 INFO   Doogee_X96.Test0_Int start Clearing Recent Apps
+2023-02-13 10:07:25 INFO   Doogee_X96.Test0_Int start Pass: Test0_Int Pass for clearing Recent apps 
+2023-02-13 10:07:27 INFO   Doogee_X96.Test0_Int start Calling FormatAsInternal() to format uSD card as internal mount
+2023-02-13 10:07:27 INFO   Doogee_X96.Test0_Int FormatAsInternal Formatting uSD card as Internal mount
+2023-02-13 10:07:27 INFO   Doogee_X96.Test0_Int FormatAsInternal Launch settings application
+2023-02-13 10:07:38 INFO   Doogee_X96.Test0_Int FormatAsInternal Scrolling till battery and device care is visible
+2023-02-13 10:07:44 INFO   Doogee_X96.Test0_Int FormatAsInternal Clicking on storage
+2023-02-13 10:07:49 INFO   Doogee_X96.Test0_Int FormatAsInternal Clicking on SD card
+2023-02-13 10:07:59 INFO   Doogee_X96.Test0_Int FormatAsInternal Clicking on SD card
+2023-02-13 10:08:04 INFO   Doogee_X96.Test0_Int FormatAsInternal Clicking on more options
+2023-02-13 10:08:10 INFO   Doogee_X96.Test0_Int FormatAsInternal Clicking on Storage settings
+2023-02-13 10:08:16 INFO   Doogee_X96.Test0_Int FormatAsInternal Select format as Internal option
+2023-02-13 10:08:21 INFO   Doogee_X96.Test0_Int FormatAsInternal Accept Format SD card pop-up
+2023-02-13 10:10:21 INFO   Doogee_X96.Test0_Int FormatAsInternal Accept move content  pop-up
+2023-02-13 10:11:21 INFO   Doogee_X96.Test0_Int FormatAsInternal Click Done option
+2023-02-13 10:11:25 INFO   Doogee_X96.Test0_Int FormatAsInternal Pass: Format as Internal Mount scenario completed Successfull
+2023-02-13 10:11:34 INFO   Doogee_X96.Test0_Int start Launch File Manager Application and clear internal memory
+2023-02-13 10:11:41 INFO   Doogee_X96.Test0_Int start Swipe up and Internal storage
+2023-02-13 10:11:44 INFO   Doogee_X96.Test0_Int start Select  Internal storage
+2023-02-13 10:11:50 INFO   Doogee_X96.Test0_Int start Click on more options
+2023-02-13 10:11:53 INFO   Doogee_X96.Test0_Int start Click select all
+2023-02-13 10:11:57 INFO   Doogee_X96.Test0_Int start Click on more options
+2023-02-13 10:12:00 INFO   Doogee_X96.Test0_Int start Select delete option
+2023-02-13 10:12:04 INFO   Doogee_X96.Test0_Int start Accept delete pop-up
+2023-02-13 10:14:04 INFO   Doogee_X96.Test0_Int start Pass: Clearing phone internal memory is successfull
+2023-02-13 10:14:18 INFO   Doogee_X96.Test0_Int start Calling Images() for rear camera image capture and verify the data
+2023-02-13 10:14:18 INFO   Doogee_X96.Test0_Int start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-13 10:14:18 INFO   Doogee_X96.Test0_Int Images Launch Camera Application for Rear picture capture
+2023-02-13 10:14:19 INFO   Doogee_X96.Test0_Int Images IF Change to uSD card notification pop-up exists select Cancel Option
+2023-02-13 10:14:29 INFO   Doogee_X96.Test0_Int Images change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: X96, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: X96EEA0000000002740}, deviceApiLevel: 30, deviceManufacturer: DOOGEE, deviceModel: X96, deviceName: X96EEA0000000002740, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: X96EEA0000000002740, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 58, takesScreenshot: true, udid: X96EEA0000000002740, viewportRect: {height: 1390, left: 0, top: 58, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 7ea1f33d-a731-4fe3-a304-3e2ae45031ba
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("DENY")}
+2023-02-13 10:14:29 INFO   Doogee_X96.Test0_Int Images ACCEPT START CAPTURE POP-UP
+2023-02-13 10:14:39 INFO   Doogee_X96.Test0_Int Images START CAPTURE POP-UP element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: X96, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: X96EEA0000000002740}, deviceApiLevel: 30, deviceManufacturer: DOOGEE, deviceModel: X96, deviceName: X96EEA0000000002740, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: X96EEA0000000002740, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 58, takesScreenshot: true, udid: X96EEA0000000002740, viewportRect: {height: 1390, left: 0, top: 58, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 7ea1f33d-a731-4fe3-a304-3e2ae45031ba
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("START CAPTURE")}
+2023-02-13 10:14:39 INFO   Doogee_X96.Test0_Int Images Switch to rear Camera Mode if current Exiting camera is Front camera Mode
+2023-02-13 10:14:50 INFO   Doogee_X96.Test0_Int Images Currently camera is already in rear camera mode no need to switch
+2023-02-13 10:14:50 INFO   Doogee_X96.Test0_Int Images Select photo mode option
+2023-02-13 10:14:50 INFO   Doogee_X96.Test0_Int Images Capture Image of Default Resolution
+2023-02-13 10:14:57 INFO   Doogee_X96.Test0_Int Images Captureing default resolition image 0
+2023-02-13 10:15:05 INFO   Doogee_X96.Test0_Int Images Captureing default resolition image 1
+2023-02-13 10:15:12 INFO   Doogee_X96.Test0_Int Images Captureing default resolition image 2
+2023-02-13 10:15:19 INFO   Doogee_X96.Test0_Int Images Captureing default resolition image 3
+2023-02-13 10:15:26 INFO   Doogee_X96.Test0_Int Images Captureing default resolition image 4
+2023-02-13 10:15:34 INFO   Doogee_X96.Test0_Int Images Captureing default resolition image 5
+2023-02-13 10:15:41 INFO   Doogee_X96.Test0_Int Images Captureing default resolition image 6
+2023-02-13 10:15:48 INFO   Doogee_X96.Test0_Int Images Captureing default resolition image 7
+2023-02-13 10:15:55 INFO   Doogee_X96.Test0_Int Images Captureing default resolition image 8
+2023-02-13 10:16:03 INFO   Doogee_X96.Test0_Int Images Captureing default resolition image 9
+2023-02-13 10:16:10 INFO   Doogee_X96.Test0_Int Images Captureing default resolition image 10
+2023-02-13 10:16:17 INFO   Doogee_X96.Test0_Int Images Captureing default resolition image 11
+2023-02-13 10:16:24 INFO   Doogee_X96.Test0_Int Images Captureing default resolition image 12
+2023-02-13 10:16:32 INFO   Doogee_X96.Test0_Int Images Captureing default resolition image 13
+2023-02-13 10:16:39 INFO   Doogee_X96.Test0_Int Images Captureing default resolition image 14
+2023-02-13 10:16:46 INFO   Doogee_X96.Test0_Int Images Captureing default resolition image 15
+2023-02-13 10:16:53 INFO   Doogee_X96.Test0_Int Images Captureing default resolition image 16
+2023-02-13 10:17:00 INFO   Doogee_X96.Test0_Int Images Captureing default resolition image 17
+2023-02-13 10:17:08 INFO   Doogee_X96.Test0_Int Images Captureing default resolition image 18
+2023-02-13 10:17:15 INFO   Doogee_X96.Test0_Int Images Captureing default resolition image 19
+2023-02-13 10:17:22 INFO   Doogee_X96.Test0_Int Images Captureing default resolition image 20
+2023-02-13 10:17:29 INFO   Doogee_X96.Test0_Int Images Captureing default resolition image 21
+2023-02-13 10:17:37 INFO   Doogee_X96.Test0_Int Images Captureing default resolition image 22
+2023-02-13 10:17:44 INFO   Doogee_X96.Test0_Int Images Captureing default resolition image 23
+2023-02-13 10:17:51 INFO   Doogee_X96.Test0_Int Images Captureing default resolition image 24
+2023-02-13 10:17:57 INFO   Doogee_X96.Test0_Int Images Total Number Of Image captured 25 is successfull
+2023-02-13 10:17:57 INFO   Doogee_X96.Test0_Int Images Launch File Manager application to verify  Image capture
+2023-02-13 10:18:12 INFO   Doogee_X96.Test0_Int Images Select DCIM Folder
+2023-02-13 10:18:23 INFO   Doogee_X96.Test0_Int Images Select Camera Folder
+2023-02-13 10:18:28 INFO   Doogee_X96.Test0_Int Images Select More Options 
+2023-02-13 10:18:38 INFO   Doogee_X96.Test0_Int Images Click On Select All Options
+2023-02-13 10:18:48 INFO   Doogee_X96.Test0_Int Images Pass: Total Number Of Image captured 25 is successfull
+2023-02-13 10:19:01 INFO   Doogee_X96.Test0_Int Images Calling video() for rear video recording in USD card and verifying data capture.
+2023-02-13 10:19:01 INFO   Doogee_X96.Test0_Int Images ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-13 10:19:01 INFO   Doogee_X96.Test0_Int Video Launch home screen and clear recent apps
+2023-02-13 10:19:18 INFO   Doogee_X96.Test0_Int Video re-launch camera application for rear camera video recording
+2023-02-13 10:19:19 INFO   Doogee_X96.Test0_Int Video IF Change to uSD card notification pop-up exists select Cancel Option
+2023-02-13 10:19:29 INFO   Doogee_X96.Test0_Int Video change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: X96, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: X96EEA0000000002740}, deviceApiLevel: 30, deviceManufacturer: DOOGEE, deviceModel: X96, deviceName: X96EEA0000000002740, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: X96EEA0000000002740, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 58, takesScreenshot: true, udid: X96EEA0000000002740, viewportRect: {height: 1390, left: 0, top: 58, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 7ea1f33d-a731-4fe3-a304-3e2ae45031ba
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("DENY")}
+2023-02-13 10:19:29 INFO   Doogee_X96.Test0_Int Video ACCEPT START CAPTURE POP-UP
+2023-02-13 10:19:39 INFO   Doogee_X96.Test0_Int Video START CAPTURE POP-UP element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: X96, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: X96EEA0000000002740}, deviceApiLevel: 30, deviceManufacturer: DOOGEE, deviceModel: X96, deviceName: X96EEA0000000002740, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: X96EEA0000000002740, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 58, takesScreenshot: true, udid: X96EEA0000000002740, viewportRect: {height: 1390, left: 0, top: 58, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 7ea1f33d-a731-4fe3-a304-3e2ae45031ba
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("START CAPTURE")}
+2023-02-13 10:19:39 INFO   Doogee_X96.Test0_Int Video Switch to rear Camera Mode if current Exiting camera is Front camera Mode
+2023-02-13 10:19:49 INFO   Doogee_X96.Test0_Int Video Currently camera is already in rear camera mode no need to switch
+2023-02-13 10:19:49 INFO   Doogee_X96.Test0_Int Video Switch to video mode
+2023-02-13 10:19:59 INFO   Doogee_X96.Test0_Int Video Select settings option
+2023-02-13 10:20:05 INFO   Doogee_X96.Test0_Int Video Select Video size option
+2023-02-13 10:20:11 INFO   Doogee_X96.Test0_Int Video Select first highest rear camera video resolution: HD 1080p
+2023-02-13 10:20:16 INFO   Doogee_X96.Test0_Int Video Start video recording
+2023-02-13 10:22:16 INFO   Doogee_X96.Test0_Int Video Recording Video for 2Minutes of Duration
+2023-02-13 10:22:16 INFO   Doogee_X96.Test0_Int Video Stop video recording
+2023-02-13 10:22:21 INFO   Doogee_X96.Test0_Int Video Select settings option
+2023-02-13 10:22:26 INFO   Doogee_X96.Test0_Int Video Select Video size option
+2023-02-13 10:22:32 INFO   Doogee_X96.Test0_Int Video Select second highest rear camera video resolution: HD 720p
+2023-02-13 10:22:37 INFO   Doogee_X96.Test0_Int Video Start video recording
+2023-02-13 10:24:38 INFO   Doogee_X96.Test0_Int Video Recording Video for 2Minutes of Duration
+2023-02-13 10:24:38 INFO   Doogee_X96.Test0_Int Video Stop video recording
+2023-02-13 10:24:43 INFO   Doogee_X96.Test0_Int Video Switch to back to photo mode
+2023-02-13 10:24:57 INFO   Doogee_X96.Test0_Int Video Rear camera video recording is successfull
+2023-02-13 10:24:57 INFO   Doogee_X96.Test0_Int Video Launch File Manager application to verify  video  recordings
+2023-02-13 10:25:07 INFO   Doogee_X96.Test0_Int Video Select internal storage
+2023-02-13 10:25:12 INFO   Doogee_X96.Test0_Int Video Select DCIM Folder
+2023-02-13 10:25:23 INFO   Doogee_X96.Test0_Int Video Select Camera Folder
+2023-02-13 10:25:28 INFO   Doogee_X96.Test0_Int Video Select More Options 
+2023-02-13 10:25:38 INFO   Doogee_X96.Test0_Int Video Click On Select All Options
+2023-02-13 10:25:55 INFO   Doogee_X96.Test0_Int Video Pass: 2 Videos recorded Successfully
+2023-02-13 10:25:55 INFO   Doogee_X96.Test0_Int Video Pass: A total of 27 files present in uSD card before Format
+2023-02-13 10:25:55 INFO   Doogee_X96.Test0_Int Video ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-13 10:25:55 INFO   Doogee_X96.Test0_Int Video calling FormatAsExternal() for format with data scenario
+2023-02-13 10:25:55 INFO   Doogee_X96.Test0_Int FormatAsExternal Formatting uSD as External format
+2023-02-13 10:25:55 INFO   Doogee_X96.Test0_Int FormatAsExternal Launch Settings Application
+2023-02-13 10:26:01 INFO   Doogee_X96.Test0_Int FormatAsExternal Swipe Up and Search for Storage
+2023-02-13 10:26:07 INFO   Doogee_X96.Test0_Int FormatAsExternal Select storage option
+2023-02-13 10:26:12 INFO   Doogee_X96.Test0_Int FormatAsExternal Clicking on SD card
+2023-02-13 10:26:17 INFO   Doogee_X96.Test0_Int FormatAsExternal Clicking on more options
+2023-02-13 10:26:27 INFO   Doogee_X96.Test0_Int FormatAsExternal Select Storage settings option
+2023-02-13 10:26:33 INFO   Doogee_X96.Test0_Int FormatAsExternal Select Format as portable option
+2023-02-13 10:26:38 INFO   Doogee_X96.Test0_Int FormatAsExternal Accept format pop-up
+2023-02-13 10:28:43 INFO   Doogee_X96.Test0_Int FormatAsExternal Pass: Fomrat as External Mount is successfull
+2023-02-13 10:28:46 INFO   Doogee_X96.Test0_Int Video ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-13 10:28:46 INFO   Doogee_X96.Test0_Int Video calling FormatAsInternal() for format with data scenario
+2023-02-13 10:28:46 INFO   Doogee_X96.Test0_Int FormatASInternal Formatting uSD card as internal mount
+2023-02-13 10:28:46 INFO   Doogee_X96.Test0_Int FormatASInternal Launch settings application
+2023-02-13 10:28:53 INFO   Doogee_X96.Test0_Int FormatASInternal Swipe up and select storage option
+2023-02-13 10:29:03 INFO   Doogee_X96.Test0_Int FormatASInternal Select uSD card
+2023-02-13 10:29:08 INFO   Doogee_X96.Test0_Int FormatASInternal Click more options
+2023-02-13 10:29:09 INFO   Doogee_X96.Test0_Int FormatASInternal Clicking on more options
+2023-02-13 10:29:14 INFO   Doogee_X96.Test0_Int FormatASInternal Select storage settings option
+2023-02-13 10:29:20 INFO   Doogee_X96.Test0_Int FormatASInternal Select Format as Internal option
+2023-02-13 10:29:30 INFO   Doogee_X96.Test0_Int FormatASInternal Accept format SD Card pop-up
+2023-02-13 10:31:30 INFO   Doogee_X96.Test0_Int FormatASInternal Accept move content pop-up
+2023-02-13 10:32:30 INFO   Doogee_X96.Test0_Int FormatASInternal click on done
+2023-02-13 10:32:34 INFO   Doogee_X96.Test0_Int FormatASInternal Pass:Format as Internal Mount completed Successfull
+2023-02-13 10:32:39 INFO   Doogee_X96.Test0_Int FormatASInternal Launch file manager
+2023-02-13 10:32:53 INFO   Doogee_X96.Test0_Int FormatASInternal Select DCIM folder
+2023-02-13 10:33:03 INFO   Doogee_X96.Test0_Int FormatASInternal Pass: Images and videos are not present in the DCIM folder, CARD format is successfully completed 
+2023-02-13 10:33:03 INFO   Doogee_X96.Test0_Int FormatASInternal Pass: Images and videos are not present in the DCIM folder, CARD format is successfully completed 
+2023-02-13 10:33:03 INFO   Doogee_X96.Test0_Int FormatASInternal Final Message: Pass Test0_Int pass for format with data scenario
+2023-02-13 10:33:03 INFO   Doogee_X96.Test0_Int FormatASInternal Test: End
+2023-02-13 10:33:03 INFO   Doogee_X96.Test0_Int FormatASInternal ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

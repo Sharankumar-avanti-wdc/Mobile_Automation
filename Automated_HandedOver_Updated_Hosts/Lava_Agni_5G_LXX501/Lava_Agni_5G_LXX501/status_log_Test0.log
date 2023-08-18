@@ -1,0 +1,167 @@
+2023-03-17 17:53:59 INFO   Lava_Agni_5G_LXX501.Test0 start Test: Start
+2023-03-17 17:53:59 INFO   Lava_Agni_5G_LXX501.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-17 17:53:59 INFO   Lava_Agni_5G_LXX501.Test0 start  Test0 Scenario is as follows 
+2023-03-17 17:53:59 INFO   Lava_Agni_5G_LXX501.Test0 start 1.Unlock phone, clear recent apps, clear internal memory
+2023-03-17 17:53:59 INFO   Lava_Agni_5G_LXX501.Test0 start 2.Call Image() and Capture Rear camera 25 images for default resolution in uSD card and Verify the data capture
+2023-03-17 17:53:59 INFO   Lava_Agni_5G_LXX501.Test0 start 3.Call Video() and record Rear camera video of first 2 resloutions for 2 minutes of duration in uSD Card and verify the same
+2023-03-17 17:53:59 INFO   Lava_Agni_5G_LXX501.Test0 start 4.Call Format() and format uSD card with data and verify the same
+2023-03-17 17:53:59 INFO   Lava_Agni_5G_LXX501.Test0 start Setting up the appium desired capabilities
+2023-03-17 17:53:59 INFO   Lava_Agni_5G_LXX501.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-17 17:54:17 INFO   Lava_Agni_5G_LXX501.Test0 start Clearing Recent Apps
+2023-03-17 17:54:17 INFO   Lava_Agni_5G_LXX501.Test0 start Pass: No recent apps found
+2023-03-17 17:54:21 INFO   Lava_Agni_5G_LXX501.Test0 start Launch File Manager Application and clear internal memory
+2023-03-17 17:54:35 INFO   Lava_Agni_5G_LXX501.Test0 start Select  Internal storage
+2023-03-17 17:54:40 INFO   Lava_Agni_5G_LXX501.Test0 start Select  More options
+2023-03-17 17:54:44 INFO   Lava_Agni_5G_LXX501.Test0 start click on Select all
+2023-03-17 17:54:48 INFO   Lava_Agni_5G_LXX501.Test0 start Select  More options
+2023-03-17 17:54:51 INFO   Lava_Agni_5G_LXX501.Test0 start Select Delete permanently
+2023-03-17 17:54:55 INFO   Lava_Agni_5G_LXX501.Test0 start Select  Delete
+2023-03-17 17:55:44 INFO   Lava_Agni_5G_LXX501.Test0 start Pass: Clearing phone internal memory is successfull
+2023-03-17 17:55:44 INFO   Lava_Agni_5G_LXX501.Test0 start Calling Image() to capture rear camera image in uSD card and verifying the same.
+2023-03-17 17:55:44 INFO   Lava_Agni_5G_LXX501.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-17 17:55:50 INFO   Lava_Agni_5G_LXX501.Test0 Images Launch Camera Application for Rear picture capture
+2023-03-17 17:56:12 INFO   Lava_Agni_5G_LXX501.Test0 Images Select App info
+2023-03-17 17:56:19 INFO   Lava_Agni_5G_LXX501.Test0 Images IF Change to uSD card notification pop-up exists select Cancel Option
+2023-03-17 17:56:30 INFO   Lava_Agni_5G_LXX501.Test0 Images change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: LAVA  LXX501, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: AG5GAO21KB000842}, deviceApiLevel: 30, deviceManufacturer: LAVA, deviceModel: LAVA LXX501, deviceName: AG5GAO21KB000842, deviceScreenDensity: 480, deviceScreenSize: 1080x2460, deviceUDID: AG5GAO21KB000842, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 108, takesScreenshot: true, udid: AG5GAO21KB000842, viewportRect: {height: 2102, left: 0, top: 108, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 5a8ee45a-1ce2-40ad-a42a-712b052fa3e9
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("DENY")}
+2023-03-17 17:56:30 INFO   Lava_Agni_5G_LXX501.Test0 Images if Location permisson Pop Exists Select Cancel Option
+2023-03-17 17:56:40 INFO   Lava_Agni_5G_LXX501.Test0 Images Location permission access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: LAVA  LXX501, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: AG5GAO21KB000842}, deviceApiLevel: 30, deviceManufacturer: LAVA, deviceModel: LAVA LXX501, deviceName: AG5GAO21KB000842, deviceScreenDensity: 480, deviceScreenSize: 1080x2460, deviceUDID: AG5GAO21KB000842, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 108, takesScreenshot: true, udid: AG5GAO21KB000842, viewportRect: {height: 2102, left: 0, top: 108, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 5a8ee45a-1ce2-40ad-a42a-712b052fa3e9
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("START CAPTURE")}
+2023-03-17 17:56:40 INFO   Lava_Agni_5G_LXX501.Test0 Images Switch to rear Camera Mode if current Exiting camera is Front camera Mode
+2023-03-17 17:56:42 INFO   Lava_Agni_5G_LXX501.Test0 Images Select settings option
+2023-03-17 17:56:45 INFO   Lava_Agni_5G_LXX501.Test0 Images Search for Storage path option
+2023-03-17 17:56:49 INFO   Lava_Agni_5G_LXX501.Test0 Images Select SD as storage option
+2023-03-17 17:56:54 INFO   Lava_Agni_5G_LXX501.Test0 Images Capture Image of Default Resolution
+2023-03-17 17:57:01 INFO   Lava_Agni_5G_LXX501.Test0 Images clicking Image of Default Resolutions0
+2023-03-17 17:57:08 INFO   Lava_Agni_5G_LXX501.Test0 Images clicking Image of Default Resolutions1
+2023-03-17 17:57:15 INFO   Lava_Agni_5G_LXX501.Test0 Images clicking Image of Default Resolutions2
+2023-03-17 17:57:23 INFO   Lava_Agni_5G_LXX501.Test0 Images clicking Image of Default Resolutions3
+2023-03-17 17:57:30 INFO   Lava_Agni_5G_LXX501.Test0 Images clicking Image of Default Resolutions4
+2023-03-17 17:57:37 INFO   Lava_Agni_5G_LXX501.Test0 Images clicking Image of Default Resolutions5
+2023-03-17 17:57:44 INFO   Lava_Agni_5G_LXX501.Test0 Images clicking Image of Default Resolutions6
+2023-03-17 17:57:52 INFO   Lava_Agni_5G_LXX501.Test0 Images clicking Image of Default Resolutions7
+2023-03-17 17:57:59 INFO   Lava_Agni_5G_LXX501.Test0 Images clicking Image of Default Resolutions8
+2023-03-17 17:58:06 INFO   Lava_Agni_5G_LXX501.Test0 Images clicking Image of Default Resolutions9
+2023-03-17 17:58:13 INFO   Lava_Agni_5G_LXX501.Test0 Images clicking Image of Default Resolutions10
+2023-03-17 17:58:21 INFO   Lava_Agni_5G_LXX501.Test0 Images clicking Image of Default Resolutions11
+2023-03-17 17:58:28 INFO   Lava_Agni_5G_LXX501.Test0 Images clicking Image of Default Resolutions12
+2023-03-17 17:58:35 INFO   Lava_Agni_5G_LXX501.Test0 Images clicking Image of Default Resolutions13
+2023-03-17 17:58:42 INFO   Lava_Agni_5G_LXX501.Test0 Images clicking Image of Default Resolutions14
+2023-03-17 17:58:49 INFO   Lava_Agni_5G_LXX501.Test0 Images clicking Image of Default Resolutions15
+2023-03-17 17:58:57 INFO   Lava_Agni_5G_LXX501.Test0 Images clicking Image of Default Resolutions16
+2023-03-17 17:59:04 INFO   Lava_Agni_5G_LXX501.Test0 Images clicking Image of Default Resolutions17
+2023-03-17 17:59:11 INFO   Lava_Agni_5G_LXX501.Test0 Images clicking Image of Default Resolutions18
+2023-03-17 17:59:18 INFO   Lava_Agni_5G_LXX501.Test0 Images clicking Image of Default Resolutions19
+2023-03-17 17:59:27 INFO   Lava_Agni_5G_LXX501.Test0 Images clicking Image of Default Resolutions20
+2023-03-17 17:59:34 INFO   Lava_Agni_5G_LXX501.Test0 Images clicking Image of Default Resolutions21
+2023-03-17 17:59:41 INFO   Lava_Agni_5G_LXX501.Test0 Images clicking Image of Default Resolutions22
+2023-03-17 17:59:48 INFO   Lava_Agni_5G_LXX501.Test0 Images clicking Image of Default Resolutions23
+2023-03-17 17:59:55 INFO   Lava_Agni_5G_LXX501.Test0 Images clicking Image of Default Resolutions24
+2023-03-17 18:00:00 INFO   Lava_Agni_5G_LXX501.Test0 Images Pass:Total Number Of Image captured 25 is successfull
+2023-03-17 18:00:00 INFO   Lava_Agni_5G_LXX501.Test0 Images ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-17 18:00:00 INFO   Lava_Agni_5G_LXX501.Test0 Images Launch File Manager application to verify  Image capture
+2023-03-17 18:00:06 INFO   Lava_Agni_5G_LXX501.Test0 Images Select browse option
+2023-03-17 18:00:09 INFO   Lava_Agni_5G_LXX501.Test0 Images swipe up and search for sd card option
+2023-03-17 18:00:12 INFO   Lava_Agni_5G_LXX501.Test0 Images Select  SD Card
+2023-03-17 18:00:17 INFO   Lava_Agni_5G_LXX501.Test0 Images switch to grid view mode to select DCIM folder
+2023-03-17 18:00:20 INFO   Lava_Agni_5G_LXX501.Test0 Images Select DCIM folder
+2023-03-17 18:00:24 INFO   Lava_Agni_5G_LXX501.Test0 Images Select camera folder
+2023-03-17 18:00:27 INFO   Lava_Agni_5G_LXX501.Test0 Images switch to list view mode 
+2023-03-17 18:00:30 INFO   Lava_Agni_5G_LXX501.Test0 Images Select moreoptions
+2023-03-17 18:00:35 INFO   Lava_Agni_5G_LXX501.Test0 Images Select select all option
+2023-03-17 18:00:41 INFO   Lava_Agni_5G_LXX501.Test0 Images Check 25 images present or not
+2023-03-17 18:00:42 INFO   Lava_Agni_5G_LXX501.Test0 Images Verifying Image Capture 
+2023-03-17 18:00:47 INFO   Lava_Agni_5G_LXX501.Test0 Images Pass:Total Number Of Image captured 25 is successfull
+2023-03-17 18:00:47 INFO   Lava_Agni_5G_LXX501.Test0 Images Calling video() for rear video recording in USD card and verifying data capture.
+2023-03-17 18:00:47 INFO   Lava_Agni_5G_LXX501.Test0 Images ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-17 18:01:01 INFO   Lava_Agni_5G_LXX501.Test0 Video Launch Camera Application for Rear picture capture
+2023-03-17 18:01:22 INFO   Lava_Agni_5G_LXX501.Test0 Video Select App info
+2023-03-17 18:01:29 INFO   Lava_Agni_5G_LXX501.Test0 Video IF Change to uSD card notification pop-up exists select Cancel Option
+2023-03-17 18:01:39 INFO   Lava_Agni_5G_LXX501.Test0 Video change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: LAVA  LXX501, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: AG5GAO21KB000842}, deviceApiLevel: 30, deviceManufacturer: LAVA, deviceModel: LAVA LXX501, deviceName: AG5GAO21KB000842, deviceScreenDensity: 480, deviceScreenSize: 1080x2460, deviceUDID: AG5GAO21KB000842, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 108, takesScreenshot: true, udid: AG5GAO21KB000842, viewportRect: {height: 2102, left: 0, top: 108, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 5a8ee45a-1ce2-40ad-a42a-712b052fa3e9
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("DENY")}
+2023-03-17 18:01:39 INFO   Lava_Agni_5G_LXX501.Test0 Video if Location permisson Pop Exists Select Cancel Option
+2023-03-17 18:01:49 INFO   Lava_Agni_5G_LXX501.Test0 Video Location permission access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: LAVA  LXX501, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: AG5GAO21KB000842}, deviceApiLevel: 30, deviceManufacturer: LAVA, deviceModel: LAVA LXX501, deviceName: AG5GAO21KB000842, deviceScreenDensity: 480, deviceScreenSize: 1080x2460, deviceUDID: AG5GAO21KB000842, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 108, takesScreenshot: true, udid: AG5GAO21KB000842, viewportRect: {height: 2102, left: 0, top: 108, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 5a8ee45a-1ce2-40ad-a42a-712b052fa3e9
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("START CAPTURE")}
+2023-03-17 18:01:49 INFO   Lava_Agni_5G_LXX501.Test0 Video Switch to video  mode
+2023-03-17 18:01:59 INFO   Lava_Agni_5G_LXX501.Test0 Video Select settings option
+2023-03-17 18:02:02 INFO   Lava_Agni_5G_LXX501.Test0 Video Search for Storage path option
+2023-03-17 18:02:06 INFO   Lava_Agni_5G_LXX501.Test0 Video Select SD as storage option
+2023-03-17 18:02:11 INFO   Lava_Agni_5G_LXX501.Test0 Video Select Video size(Back camera)
+2023-03-17 18:02:12 INFO   Lava_Agni_5G_LXX501.Test0 Video Select 1st Back Video Resolution: FHD
+2023-03-17 18:02:15 INFO   Lava_Agni_5G_LXX501.Test0 Video Start video recording
+2023-03-17 18:04:15 INFO   Lava_Agni_5G_LXX501.Test0 Video Recording Video for 2Minutes of Duration
+2023-03-17 18:04:15 INFO   Lava_Agni_5G_LXX501.Test0 Video Stop video recording
+2023-03-17 18:04:24 INFO   Lava_Agni_5G_LXX501.Test0 Video Select settings option
+2023-03-17 18:04:27 INFO   Lava_Agni_5G_LXX501.Test0 Video Select Video size(Back camera)
+2023-03-17 18:04:28 INFO   Lava_Agni_5G_LXX501.Test0 Video Select 2nd Back Video Resolution: HD
+2023-03-17 18:04:31 INFO   Lava_Agni_5G_LXX501.Test0 Video Start video recording
+2023-03-17 18:06:32 INFO   Lava_Agni_5G_LXX501.Test0 Video Recording Video for 2Minutes of Duration
+2023-03-17 18:06:32 INFO   Lava_Agni_5G_LXX501.Test0 Video Stop video recording
+2023-03-17 18:06:40 INFO   Lava_Agni_5G_LXX501.Test0 Video Select photo mode
+2023-03-17 18:06:51 INFO   Lava_Agni_5G_LXX501.Test0 Video Pass: Rear camera video recording is successfull
+2023-03-17 18:06:51 INFO   Lava_Agni_5G_LXX501.Test0 Video ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-17 18:06:51 INFO   Lava_Agni_5G_LXX501.Test0 Video Verifying Captured Videos
+2023-03-17 18:06:51 INFO   Lava_Agni_5G_LXX501.Test0 Video Launch Home screen and Clear recent Apps
+2023-03-17 18:06:51 INFO   Lava_Agni_5G_LXX501.Test0 Video Launch File Manager Application to verify captured videos
+2023-03-17 18:06:57 INFO   Lava_Agni_5G_LXX501.Test0 Video select Browse option
+2023-03-17 18:07:01 INFO   Lava_Agni_5G_LXX501.Test0 Video swipe up and search for sd card option
+2023-03-17 18:07:03 INFO   Lava_Agni_5G_LXX501.Test0 Video Click On SD Card
+2023-03-17 18:07:08 INFO   Lava_Agni_5G_LXX501.Test0 Video switch to grid view mode to select DCIM folder
+2023-03-17 18:07:12 INFO   Lava_Agni_5G_LXX501.Test0 Video Select DCIM folder
+2023-03-17 18:07:15 INFO   Lava_Agni_5G_LXX501.Test0 Video Select camera folder
+2023-03-17 18:07:18 INFO   Lava_Agni_5G_LXX501.Test0 Video switch to list view mode 
+2023-03-17 18:07:22 INFO   Lava_Agni_5G_LXX501.Test0 Video Select moreoptions
+2023-03-17 18:07:27 INFO   Lava_Agni_5G_LXX501.Test0 Video Select select all options
+2023-03-17 18:07:31 INFO   Lava_Agni_5G_LXX501.Test0 Video check videos present or not
+2023-03-17 18:07:37 INFO   Lava_Agni_5G_LXX501.Test0 Video Pass: 2 Videos recorded Successfully
+2023-03-17 18:07:37 INFO   Lava_Agni_5G_LXX501.Test0 Video Pass: A total of 27 files present in uSD card before Format
+2023-03-17 18:07:37 INFO   Lava_Agni_5G_LXX501.Test0 Video calling Format() for format with data scenario
+2023-03-17 18:07:37 INFO   Lava_Agni_5G_LXX501.Test0 Video ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-17 18:07:37 INFO   Lava_Agni_5G_LXX501.Test0 Format Clearing Recent Apps
+2023-03-17 18:07:43 INFO   Lava_Agni_5G_LXX501.Test0 Format Launch Settings application for Format uSD card with Data scenario 
+2023-03-17 18:07:59 INFO   Lava_Agni_5G_LXX501.Test0 Format Select system
+2023-03-17 18:08:03 INFO   Lava_Agni_5G_LXX501.Test0 Format Select Storage
+2023-03-17 18:08:05 INFO   Lava_Agni_5G_LXX501.Test0 Format Clicking on SD card
+2023-03-17 18:08:15 INFO   Lava_Agni_5G_LXX501.Test0 Format Select uSD card
+2023-03-17 18:08:25 INFO   Lava_Agni_5G_LXX501.Test0 Format Clicking on moreoptions
+2023-03-17 18:08:31 INFO   Lava_Agni_5G_LXX501.Test0 Format Select Storage settings
+2023-03-17 18:08:37 INFO   Lava_Agni_5G_LXX501.Test0 Format Select  format
+2023-03-17 18:08:42 INFO   Lava_Agni_5G_LXX501.Test0 Format Select again formatsdcard
+2023-03-17 18:09:22 INFO   Lava_Agni_5G_LXX501.Test0 Format Accept to Format uSD Card
+2023-03-17 18:09:22 INFO   Lava_Agni_5G_LXX501.Test0 Format Started formatting, waiting till it gets formatted
+2023-03-17 18:09:31 INFO   Lava_Agni_5G_LXX501.Test0 Format Pass: Format uSD with Data is successfull
+2023-03-17 18:09:31 INFO   Lava_Agni_5G_LXX501.Test0 Format ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-17 18:09:37 INFO   Lava_Agni_5G_LXX501.Test0 Format Launch File Manager Application
+2023-03-17 18:09:43 INFO   Lava_Agni_5G_LXX501.Test0 Format select browse option
+2023-03-17 18:09:46 INFO   Lava_Agni_5G_LXX501.Test0 Format Swipe Up and Search for Storage
+2023-03-17 18:09:49 INFO   Lava_Agni_5G_LXX501.Test0 Format Click On SD Card
+2023-03-17 18:10:02 INFO   Lava_Agni_5G_LXX501.Test0 Format Click on DCIM Folder
+2023-03-17 18:10:08 INFO   Lava_Agni_5G_LXX501.Test0 Format Click on camera Folder
+2023-03-17 18:10:18 INFO   Lava_Agni_5G_LXX501.Test0 Format Pass:Images and videos are not present in the DCIM folder, CARD format is successfully completed 
+2023-03-17 18:10:18 INFO   Lava_Agni_5G_LXX501.Test0 Format Final Message: Pass Test0 pass for format Operation
+2023-03-17 18:10:18 INFO   Lava_Agni_5G_LXX501.Test0 Format Test: End
+2023-03-17 18:10:25 INFO   Lava_Agni_5G_LXX501.Test0 Format ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

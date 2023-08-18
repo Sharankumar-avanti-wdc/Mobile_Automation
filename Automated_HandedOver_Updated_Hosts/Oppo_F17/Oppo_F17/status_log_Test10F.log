@@ -1,0 +1,92 @@
+2022-10-03 14:25:07 INFO   Oppo_F17.Test10F frontVideoRec Test:Start
+2022-10-03 14:25:07 INFO   Oppo_F17.Test10F frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-03 14:25:07 INFO   Oppo_F17.Test10F frontVideoRec Test10F Scenario is as follows
+2022-10-03 14:25:07 INFO   Oppo_F17.Test10F frontVideoRec 1.Launch Camera application and start front camera video recording for all host applicable resolutions in uSD Card
+2022-10-03 14:25:07 INFO   Oppo_F17.Test10F frontVideoRec 2.Playback front Highest recorded video for 30 seconds, pause video playback, lock mobile and wait 30 seconds, unlock mobile and playback video from pause video duration
+2022-10-03 14:25:07 INFO   Oppo_F17.Test10F frontVideoRec Setting up the appium desired capabilities
+2022-10-03 14:25:07 INFO   Oppo_F17.Test10F frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-03 14:25:21 INFO   Oppo_F17.Test10F frontVideoRec Launch Camera Application for rear camera video recording
+2022-10-03 14:25:22 INFO   Oppo_F17.Test10F frontVideoRec select deny button
+2022-10-03 14:25:32 INFO   Oppo_F17.Test10F frontVideoRec change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '5CG2148T4G', ip: '10.113.85.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: OPPO F17, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: 3e301a7}, deviceApiLevel: 30, deviceManufacturer: OPPO, deviceModel: CPH2095, deviceName: 3e301a7, deviceScreenDensity: 480, deviceScreenSize: 1080x2400, deviceUDID: 3e301a7, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 96, takesScreenshot: true, udid: 3e301a7, viewportRect: {height: 2076, left: 0, top: 96, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 0e4f0a6c-3208-47d5-a543-089fd06e58fe
+*** Element info: {Using=xpath, value=//*[@resource-id='com.android.permissioncontroller:id/permission_deny_button']}
+2022-10-03 14:25:37 INFO   Oppo_F17.Test10F frontVideoRec Test10F_Fcam_res: 2 resolutions supported
+2022-10-03 14:25:37 INFO   Oppo_F17.Test10F frontVideoRec Clicking Video Tab
+2022-10-03 14:25:44 INFO   Oppo_F17.Test10F frontVideoRec Click On front camera mode
+2022-10-03 14:25:48 INFO   Oppo_F17.Test10F frontVideoRec Select settings option
+2022-10-03 14:25:54 INFO   Oppo_F17.Test10F frontVideoRec Search for Advanced settings option
+2022-10-03 14:25:57 INFO   Oppo_F17.Test10F frontVideoRec Select SD as storage option
+2022-10-03 14:26:02 INFO   Oppo_F17.Test10F frontVideoRec Select turn on option
+2022-10-03 14:26:12 INFO   Oppo_F17.Test10F frontVideoRec Select SD as storage option
+2022-10-03 14:26:17 INFO   Oppo_F17.Test10F frontVideoRec Select turn on option
+2022-10-03 14:26:33 INFO   Oppo_F17.Test10F frontVideoRec Select settings option
+2022-10-03 14:26:38 INFO   Oppo_F17.Test10F frontVideoRec swipe up and select for video resolution
+2022-10-03 14:26:42 INFO   Oppo_F17.Test10F frontVideoRec Select First front video Resolution:  1080P
+2022-10-03 14:26:56 INFO   Oppo_F17.Test10F frontVideoRec Start video recording
+2022-10-03 14:26:56 INFO   Oppo_F17.Test10F frontVideoRec Stop video recording
+2022-10-03 14:32:35 INFO   Oppo_F17.Test10F frontVideoRec Select settings option
+2022-10-03 14:32:41 INFO   Oppo_F17.Test10F frontVideoRec swipe up and select for video resolution
+2022-10-03 14:32:44 INFO   Oppo_F17.Test10F frontVideoRec Select second front video Resolution:  720P
+2022-10-03 14:32:58 INFO   Oppo_F17.Test10F frontVideoRec Start video recording
+2022-10-03 14:32:58 INFO   Oppo_F17.Test10F frontVideoRec Stop video recording
+2022-10-03 14:38:29 INFO   Oppo_F17.Test10F frontVideoRec Click On back camera mode
+2022-10-03 14:38:34 INFO   Oppo_F17.Test10F frontVideoRec Switch to defalut Photo mode
+2022-10-03 14:38:46 INFO   Oppo_F17.Test10F frontVideoRec Pass: Test10F pass for front camera video recording
+2022-10-03 14:38:46 INFO   Oppo_F17.Test10F frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-03 14:38:46 INFO   Oppo_F17.Test10F frontVideoRec Launch File Manager Application to verify captured videos
+2022-10-03 14:38:52 INFO   Oppo_F17.Test10F frontVideoRec Select  SD Card
+2022-10-03 14:38:57 INFO   Oppo_F17.Test10F frontVideoRec swipe up and search for dcim
+2022-10-03 14:39:00 INFO   Oppo_F17.Test10F frontVideoRec Select DCIM Folder
+2022-10-03 14:39:05 INFO   Oppo_F17.Test10F frontVideoRec Select Camera Folder
+2022-10-03 14:39:10 INFO   Oppo_F17.Test10F frontVideoRec Select More Options 
+2022-10-03 14:39:15 INFO   Oppo_F17.Test10F frontVideoRec Click On Select All Options
+2022-10-03 14:39:24 INFO   Oppo_F17.Test10F frontVideoRec Test10F_Fcam_video: 2 Videos captured successfull
+2022-10-03 14:39:24 INFO   Oppo_F17.Test10F frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-03 14:39:34 INFO   Oppo_F17.Test10F frontVideoRec Calling VideoPlayBackForSleepWake()
+2022-10-03 14:39:34 INFO   Oppo_F17.Test10F VideoPlayBackForSleepWake Launch File Manager application and playback front recorded video from USD for 30 seconds, pause video playback, locking phone and unlock after 30 seconds delay and playback video from pause duration.
+2022-10-03 14:39:40 INFO   Oppo_F17.Test10F VideoPlayBackForSleepWake swipe up and search for sd card
+2022-10-03 14:39:42 INFO   Oppo_F17.Test10F VideoPlayBackForSleepWake Select External Storage
+2022-10-03 14:39:48 INFO   Oppo_F17.Test10F VideoPlayBackForSleepWake swipe up and search for dcim
+2022-10-03 14:39:51 INFO   Oppo_F17.Test10F VideoPlayBackForSleepWake Select DCIM Folder
+2022-10-03 14:39:54 INFO   Oppo_F17.Test10F VideoPlayBackForSleepWake Select Camera
+2022-10-03 14:39:57 INFO   Oppo_F17.Test10F VideoPlayBackForSleepWake select more options
+2022-10-03 14:40:02 INFO   Oppo_F17.Test10F VideoPlayBackForSleepWake Select Sort BY
+2022-10-03 14:40:07 INFO   Oppo_F17.Test10F VideoPlayBackForSleepWake Select Newest date first
+2022-10-03 14:40:10 INFO   Oppo_F17.Test10F VideoPlayBackForSleepWake Click on first file to play highest recorded resolution video file
+2022-10-03 14:40:10 INFO   Oppo_F17.Test10F VideoPlayBackForSleepWake Started video playback
+2022-10-03 14:40:30 INFO   Oppo_F17.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2022-10-03 14:40:30 INFO   Oppo_F17.Test10F VideoPlayBackForSleepWake Lock Mobile with 30 seconds delay
+2022-10-03 14:41:00 INFO   Oppo_F17.Test10F VideoPlayBackForSleepWake Wait For 30Seconds
+2022-10-03 14:41:05 INFO   Oppo_F17.Test10F VideoPlayBackForSleepWake Unlock Mobile 
+2022-10-03 14:41:35 INFO   Oppo_F17.Test10F VideoPlayBackForSleepWake Pause video 
+2022-10-03 14:41:42 INFO   Oppo_F17.Test10F VideoPlayBackForSleepWake Pass: Test10F Pass for Front video play back, Pause,Lock and Unlock Phone Play back from Pause duration Scenario
+2022-10-03 14:41:42 INFO   Oppo_F17.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-03 14:41:42 INFO   Oppo_F17.Test10F VideoPlayBackForSleepWake Calling Data Move Operation
+2022-10-03 14:41:42 INFO   Oppo_F17.Test10F DataMoveOperation Re-launch file manager application and select external storage for data move operation, select all rear camera videos present in camera folder and move to Test10 folder
+2022-10-03 14:41:49 INFO   Oppo_F17.Test10F DataMoveOperation Launching file manager application
+2022-10-03 14:41:51 INFO   Oppo_F17.Test10F DataMoveOperation Select external storage
+2022-10-03 14:41:56 INFO   Oppo_F17.Test10F DataMoveOperation switch to grid view mode and select DCIM  folder
+2022-10-03 14:41:59 INFO   Oppo_F17.Test10F DataMoveOperation Select DCIM folder
+2022-10-03 14:42:03 INFO   Oppo_F17.Test10F DataMoveOperation Select camera  folder
+2022-10-03 14:42:06 INFO   Oppo_F17.Test10F DataMoveOperation switch to list view mode 
+2022-10-03 14:42:09 INFO   Oppo_F17.Test10F DataMoveOperation Click More options
+2022-10-03 14:42:15 INFO   Oppo_F17.Test10F DataMoveOperation Click Select all
+2022-10-03 14:42:19 INFO   Oppo_F17.Test10F DataMoveOperation Click More options
+2022-10-03 14:42:25 INFO   Oppo_F17.Test10F DataMoveOperation Select move to option
+2022-10-03 14:42:32 INFO   Oppo_F17.Test10F DataMoveOperation Select uSD Card
+2022-10-03 14:42:38 INFO   Oppo_F17.Test10F DataMoveOperation Select ADD NEW Folder option
+2022-10-03 14:42:44 INFO   Oppo_F17.Test10F DataMoveOperation Name folder as Test10F
+2022-10-03 14:42:51 INFO   Oppo_F17.Test10F DataMoveOperation Accept create folder
+2022-10-03 14:43:21 INFO   Oppo_F17.Test10F DataMoveOperation Cut paste  video files operation completed successfully
+2022-10-03 14:43:24 INFO   Oppo_F17.Test10F DataMoveOperation Test10F: Data move operation completed successfully
+2022-10-03 14:43:33 INFO   Oppo_F17.Test10F DataMoveOperation Pass: Test10F Pass for data move operation successfully
+2022-10-03 14:43:33 INFO   Oppo_F17.Test10F DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-03 14:43:33 INFO   Oppo_F17.Test10F VideoPlayBackForSleepWake Final Message: Pass Test10F Pass for Pause Video Playback
+2022-10-03 14:43:33 INFO   Oppo_F17.Test10F VideoPlayBackForSleepWake Test: End
+2022-10-03 14:43:33 INFO   Oppo_F17.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-03 14:43:33 INFO   Oppo_F17.Test10F frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

@@ -1,0 +1,98 @@
+2023-07-17 14:47:39 INFO   Nokia_5_3.Test10F frontVideoRec Test: Start
+2023-07-17 14:47:39 INFO   Nokia_5_3.Test10F frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-07-17 14:47:39 INFO   Nokia_5_3.Test10F frontVideoRec Test10F Scenario is as follows
+2023-07-17 14:47:39 INFO   Nokia_5_3.Test10F frontVideoRec 1.Launch Camera application and start front camera video recording for all host applicable resolutions in uSD Card
+2023-07-17 14:47:39 INFO   Nokia_5_3.Test10F frontVideoRec 2.Playback front Highest recorded video for 30 seconds, pause video playback, lock mobile and wait 30 seconds, unlock mobile and playback video from pause video duration
+2023-07-17 14:47:39 INFO   Nokia_5_3.Test10F frontVideoRec 3.Move front camera recorded video files to Test10F folder
+2023-07-17 14:47:39 INFO   Nokia_5_3.Test10F frontVideoRec Setting up the appium desired capabilities
+2023-07-17 14:47:39 INFO   Nokia_5_3.Test10F frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-07-17 14:47:53 INFO   Nokia_5_3.Test10F frontVideoRec Unlocking Phone
+2023-07-17 14:47:58 INFO   Nokia_5_3.Test10F frontVideoRec Launch home screen
+2023-07-17 14:48:04 INFO   Nokia_5_3.Test10F frontVideoRec Launch Camera Application for rear camera video recording
+2023-07-17 14:48:16 INFO   Nokia_5_3.Test10F frontVideoRec change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '5CG01821WY', ip: '10.113.95.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Nokia 5.3, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: N0AA003791K52000302}, deviceApiLevel: 30, deviceManufacturer: HMD Global, deviceModel: Nokia 5.3, deviceName: N0AA003791K52000302, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: N0AA003791K52000302, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 56, takesScreenshot: true, udid: N0AA003791K52000302, viewportRect: {height: 1405, left: 0, top: 56, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 158b653c-6852-490e-8053-2419b6749bbc
+*** Element info: {Using=xpath, value=//*[@resource-id='com.android.permissioncontroller:id/permission_deny_button']}
+2023-07-17 14:48:18 INFO   Nokia_5_3.Test10F frontVideoRec Test10F_Fcam_res: 2 resolutions supported
+2023-07-17 14:48:18 INFO   Nokia_5_3.Test10F frontVideoRec Select Video Tab
+2023-07-17 14:48:21 INFO   Nokia_5_3.Test10F frontVideoRec Switch to front video mode
+2023-07-17 14:48:24 INFO   Nokia_5_3.Test10F frontVideoRec Click On Settings and set uSD card as storage option
+2023-07-17 14:48:27 INFO   Nokia_5_3.Test10F frontVideoRec Select storage location option
+2023-07-17 14:48:31 INFO   Nokia_5_3.Test10F frontVideoRec Select SD as storage option
+2023-07-17 14:48:38 INFO   Nokia_5_3.Test10F frontVideoRec Click On Settings option to select front video resolution
+2023-07-17 14:48:41 INFO   Nokia_5_3.Test10F frontVideoRec Swipe Up and select Video Resolution option
+2023-07-17 14:48:44 INFO   Nokia_5_3.Test10F frontVideoRec Select Video Resolution
+2023-07-17 14:48:48 INFO   Nokia_5_3.Test10F frontVideoRec Select front video size
+2023-07-17 14:48:52 INFO   Nokia_5_3.Test10F frontVideoRec Select First back video Resolution: FHD 1080P
+2023-07-17 14:49:06 INFO   Nokia_5_3.Test10F frontVideoRec Start video recording
+2023-07-17 14:49:06 INFO   Nokia_5_3.Test10F frontVideoRec Stop video recording
+2023-07-17 14:49:29 INFO   Nokia_5_3.Test10F frontVideoRec Click On Settings option to select front video resolution
+2023-07-17 14:49:32 INFO   Nokia_5_3.Test10F frontVideoRec Swipe Up and select Video Resolution option
+2023-07-17 14:49:35 INFO   Nokia_5_3.Test10F frontVideoRec Select Video Resolution
+2023-07-17 14:49:39 INFO   Nokia_5_3.Test10F frontVideoRec Select front video size
+2023-07-17 14:49:43 INFO   Nokia_5_3.Test10F frontVideoRec Select Second back video Resolution: HD 720P
+2023-07-17 14:49:57 INFO   Nokia_5_3.Test10F frontVideoRec Start video recording
+2023-07-17 14:49:57 INFO   Nokia_5_3.Test10F frontVideoRec Stop video recording
+2023-07-17 14:53:04 INFO   Nokia_5_3.Test10F frontVideoRec Select photo Tab
+2023-07-17 14:53:04 INFO   Nokia_5_3.Test10F frontVideoRec Switch to back video mode
+2023-07-17 14:53:13 INFO   Nokia_5_3.Test10F frontVideoRec Pass: pass for front camera video recording
+2023-07-17 14:53:13 INFO   Nokia_5_3.Test10F frontVideoRec Launch file manager application and verify recorded video capture uSD Card
+2023-07-17 14:53:29 INFO   Nokia_5_3.Test10F frontVideoRec Swipe up to select uSD card
+2023-07-17 14:53:32 INFO   Nokia_5_3.Test10F frontVideoRec Select SD card
+2023-07-17 14:53:38 INFO   Nokia_5_3.Test10F frontVideoRec switch to grid view mode to select DCIM folder
+2023-07-17 14:53:41 INFO   Nokia_5_3.Test10F frontVideoRec Select DCIM folder
+2023-07-17 14:53:45 INFO   Nokia_5_3.Test10F frontVideoRec Select camera folder
+2023-07-17 14:53:48 INFO   Nokia_5_3.Test10F frontVideoRec switch to list view mode 
+2023-07-17 14:53:51 INFO   Nokia_5_3.Test10F frontVideoRec Click More options
+2023-07-17 14:53:57 INFO   Nokia_5_3.Test10F frontVideoRec Click Select all
+2023-07-17 14:54:04 INFO   Nokia_5_3.Test10F frontVideoRec Test10F_Fcam_video: 2 Videos captured successfull
+2023-07-17 14:54:04 INFO   Nokia_5_3.Test10F frontVideoRec Calling VideoPlayBackForSleepWake()
+2023-07-17 14:54:04 INFO   Nokia_5_3.Test10F frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-07-17 14:54:04 INFO   Nokia_5_3.Test10F VideoPlayBackForSleepWake Launch File Manager application and playback front recorded video from USD for 30 seconds, pause video playback, locking phone and unlock after 30 seconds delay and playback video from pause duration.
+2023-07-17 14:54:04 INFO   Nokia_5_3.Test10F VideoPlayBackForSleepWake Launching file manager application
+2023-07-17 14:54:13 INFO   Nokia_5_3.Test10F VideoPlayBackForSleepWake Select External Storage
+2023-07-17 14:54:18 INFO   Nokia_5_3.Test10F VideoPlayBackForSleepWake switch to grid view mode to select DCIM folder
+2023-07-17 14:54:21 INFO   Nokia_5_3.Test10F VideoPlayBackForSleepWake Select DCIM folder
+2023-07-17 14:54:25 INFO   Nokia_5_3.Test10F VideoPlayBackForSleepWake Select Camera folder
+2023-07-17 14:54:28 INFO   Nokia_5_3.Test10F VideoPlayBackForSleepWake switch to list view mode 
+2023-07-17 14:54:31 INFO   Nokia_5_3.Test10F VideoPlayBackForSleepWake Select more options
+2023-07-17 14:54:40 INFO   Nokia_5_3.Test10F VideoPlayBackForSleepWake Select Sort by Newest date first
+2023-07-17 14:54:43 INFO   Nokia_5_3.Test10F VideoPlayBackForSleepWake Click on first file to play highest recorded resolution video file from uSD card
+2023-07-17 14:54:43 INFO   Nokia_5_3.Test10F VideoPlayBackForSleepWake Started video playback
+2023-07-17 14:55:03 INFO   Nokia_5_3.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-07-17 14:55:04 INFO   Nokia_5_3.Test10F VideoPlayBackForSleepWake Click pause video button
+2023-07-17 14:55:05 INFO   Nokia_5_3.Test10F VideoPlayBackForSleepWake Lock Mobile with 30 seconds delay
+2023-07-17 14:55:37 INFO   Nokia_5_3.Test10F VideoPlayBackForSleepWake Wait For 30Seconds
+2023-07-17 14:55:37 INFO   Nokia_5_3.Test10F VideoPlayBackForSleepWake Unlock Mobile 
+2023-07-17 14:55:38 INFO   Nokia_5_3.Test10F VideoPlayBackForSleepWake PlayBack Video from Pause duartion
+2023-07-17 14:55:48 INFO   Nokia_5_3.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-07-17 14:55:49 INFO   Nokia_5_3.Test10F VideoPlayBackForSleepWake Fast forward video for 10 seconds
+2023-07-17 14:55:50 INFO   Nokia_5_3.Test10F VideoPlayBackForSleepWake Pause video play back
+2023-07-17 14:55:59 INFO   Nokia_5_3.Test10F VideoPlayBackForSleepWake Pass: Test10F Pass for Front video play back, Pause,Lock and Unlock Phone Play back from Pause duration Scenario
+2023-07-17 14:55:59 INFO   Nokia_5_3.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-07-17 14:55:59 INFO   Nokia_5_3.Test10F VideoPlayBackForSleepWake calling DatamoveOperation() to move front camera recorded videos files to Test10F folder
+2023-07-17 14:55:59 INFO   Nokia_5_3.Test10F DataMoveOperation Re-launch file manager application and select external storage for data move operation, select all rear camera videos present in camera folder and move to Test10F folder
+2023-07-17 14:56:05 INFO   Nokia_5_3.Test10F DataMoveOperation Launching file manager application
+2023-07-17 14:56:07 INFO   Nokia_5_3.Test10F DataMoveOperation Select external storage
+2023-07-17 14:56:13 INFO   Nokia_5_3.Test10F DataMoveOperation switch to grid view mode and select DCIM  folder
+2023-07-17 14:56:16 INFO   Nokia_5_3.Test10F DataMoveOperation Select DCIM folder
+2023-07-17 14:56:19 INFO   Nokia_5_3.Test10F DataMoveOperation Select camera  folder
+2023-07-17 14:56:22 INFO   Nokia_5_3.Test10F DataMoveOperation switch to list view mode 
+2023-07-17 14:56:26 INFO   Nokia_5_3.Test10F DataMoveOperation Click More options
+2023-07-17 14:56:32 INFO   Nokia_5_3.Test10F DataMoveOperation Click Select all
+2023-07-17 14:56:36 INFO   Nokia_5_3.Test10F DataMoveOperation Click More options
+2023-07-17 14:56:42 INFO   Nokia_5_3.Test10F DataMoveOperation Select move to option
+2023-07-17 14:56:49 INFO   Nokia_5_3.Test10F DataMoveOperation Select uSD Card
+2023-07-17 14:56:55 INFO   Nokia_5_3.Test10F DataMoveOperation Select ADD NEW Folder option
+2023-07-17 14:57:01 INFO   Nokia_5_3.Test10F DataMoveOperation Name folder as Test10F
+2023-07-17 14:57:08 INFO   Nokia_5_3.Test10F DataMoveOperation Accept create folder
+2023-07-17 14:58:38 INFO   Nokia_5_3.Test10F DataMoveOperation Cut paste  video files operation completed successfully
+2023-07-17 14:58:45 INFO   Nokia_5_3.Test10F DataMoveOperation Pass: Test10F Pass for data move operation successfully
+2023-07-17 14:58:45 INFO   Nokia_5_3.Test10F DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-07-17 14:58:45 INFO   Nokia_5_3.Test10F VideoPlayBackForSleepWake Final Message: Pass Test10F Pass for front camera  video recording, Pause Video Playback scenario and data move operation scenario
+2023-07-17 14:58:45 INFO   Nokia_5_3.Test10F VideoPlayBackForSleepWake Test: End
+2023-07-17 14:58:45 INFO   Nokia_5_3.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

@@ -1,0 +1,47 @@
+2022-10-13 13:57:39 INFO   Xiaomi_Redmi_Note11.Test9F frontPictureCapture Test: Start
+2022-10-13 13:57:39 INFO   Xiaomi_Redmi_Note11.Test9F frontPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-13 13:57:39 INFO   Xiaomi_Redmi_Note11.Test9F frontPictureCapture Test9F Scenario is as follows:
+2022-10-13 13:57:39 INFO   Xiaomi_Redmi_Note11.Test9F frontPictureCapture 1.Launch camera application, set uSD as a Storage option, start Front camera image picture capture for all Host front resolutions
+2022-10-13 13:57:39 INFO   Xiaomi_Redmi_Note11.Test9F frontPictureCapture Setting up the appium desired capabilities
+2022-10-13 13:57:39 INFO   Xiaomi_Redmi_Note11.Test9F frontPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-13 13:57:55 INFO   Xiaomi_Redmi_Note11.Test9F frontPictureCapture Launch home screen
+2022-10-13 13:58:12 INFO   Xiaomi_Redmi_Note11.Test9F frontPictureCapture No permission access pop-up found
+2022-10-13 13:58:15 INFO   Xiaomi_Redmi_Note11.Test9F frontPictureCapture Launching settings application and set external storage as storage option for rear camera image capture.
+2022-10-13 13:58:22 INFO   Xiaomi_Redmi_Note11.Test9F frontPictureCapture Select About phone
+2022-10-13 13:58:26 INFO   Xiaomi_Redmi_Note11.Test9F frontPictureCapture Select storage option
+2022-10-13 13:58:32 INFO   Xiaomi_Redmi_Note11.Test9F frontPictureCapture Select storage settings
+2022-10-13 13:58:35 INFO   Xiaomi_Redmi_Note11.Test9F frontPictureCapture Select camera option
+2022-10-13 13:58:38 INFO   Xiaomi_Redmi_Note11.Test9F frontPictureCapture Select storage as external storage
+2022-10-13 13:59:07 INFO   Xiaomi_Redmi_Note11.Test9F frontPictureCapture Launch Camera application for rear camera Image capture
+2022-10-13 13:59:25 INFO   Xiaomi_Redmi_Note11.Test9F frontPictureCapture No location permission access pop-up found: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'FJVQ4M2', ip: '192.168.225.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Redmi Note 11, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: c6d0bf33}, deviceApiLevel: 30, deviceManufacturer: Xiaomi, deviceModel: 2201117TI, deviceName: c6d0bf33, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: c6d0bf33, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 93, takesScreenshot: true, udid: c6d0bf33, viewportRect: {height: 2084, left: 0, top: 93, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 73c1ac2f-b872-4abe-8905-597fd5c48bb6
+*** Element info: {Using=xpath, value=//*[@resource-id='android:id/button2']}
+2022-10-13 13:59:27 INFO   Xiaomi_Redmi_Note11.Test9F frontPictureCapture Test9_Fcam_res: 4 resolutions supported
+2022-10-13 13:59:27 INFO   Xiaomi_Redmi_Note11.Test9F frontPictureCapture Select photo mode option
+2022-10-13 13:59:28 INFO   Xiaomi_Redmi_Note11.Test9F frontPictureCapture Switch to front Image  mode
+2022-10-13 13:59:32 INFO   Xiaomi_Redmi_Note11.Test9F frontPictureCapture Switch photo mode
+2022-10-13 13:59:32 INFO   Xiaomi_Redmi_Note11.Test9F frontPictureCapture Select settings option to select resolution
+2022-10-13 13:59:36 INFO   Xiaomi_Redmi_Note11.Test9F frontPictureCapture Select first front camera resolution: 1:1
+2022-10-13 13:59:47 INFO   Xiaomi_Redmi_Note11.Test9F frontPictureCapture Fail: Test9F fail for Fail Count Issue
+2022-10-13 13:59:47 INFO   Xiaomi_Redmi_Note11.Test9F frontPictureCapture calling DataMoveOperation() 
+2022-10-13 13:59:54 INFO   Xiaomi_Redmi_Note11.Test9F DataMoveOperation launch file manager application select uSD card-->DCIM folder-->Camera folder-->Select all back camera front camera videos create Test10 and cut paste all videos in BCFC_Cameravideos folder
+2022-10-13 14:00:11 INFO   Xiaomi_Redmi_Note11.Test9F DataMoveOperation click on browse option
+2022-10-13 14:00:14 INFO   Xiaomi_Redmi_Note11.Test9F DataMoveOperation Swipe up to select uSD card
+2022-10-13 14:00:17 INFO   Xiaomi_Redmi_Note11.Test9F DataMoveOperation Select SD card
+2022-10-13 14:00:23 INFO   Xiaomi_Redmi_Note11.Test9F DataMoveOperation Select DCIM folder
+2022-10-13 14:00:26 INFO   Xiaomi_Redmi_Note11.Test9F DataMoveOperation Select camera folder
+2022-10-13 14:00:29 INFO   Xiaomi_Redmi_Note11.Test9F DataMoveOperation Click More options
+2022-10-13 14:00:36 INFO   Xiaomi_Redmi_Note11.Test9F DataMoveOperation Click Select all
+2022-10-13 14:00:39 INFO   Xiaomi_Redmi_Note11.Test9F DataMoveOperation Click More options
+2022-10-13 14:00:45 INFO   Xiaomi_Redmi_Note11.Test9F DataMoveOperation Select move to option
+2022-10-13 14:00:56 INFO   Xiaomi_Redmi_Note11.Test9F DataMoveOperation Fail: Test9F Fail for data move operation 
+2022-10-13 14:00:56 INFO   Xiaomi_Redmi_Note11.Test9F DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-13 14:00:56 INFO   Xiaomi_Redmi_Note11.Test9F frontPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-13 14:00:56 INFO   Xiaomi_Redmi_Note11.Test9F frontPictureCapture Final message: Fail Test9F for front camera image capture
+2022-10-13 14:00:56 INFO   Xiaomi_Redmi_Note11.Test9F frontPictureCapture Test: End
+2022-10-13 14:00:56 INFO   Xiaomi_Redmi_Note11.Test9F frontPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

@@ -1,0 +1,67 @@
+2023-01-04 12:38:02 INFO   UMIDIGI_A11S.Test8_Int recordAudio Test: Start
+2023-01-04 12:38:02 INFO   UMIDIGI_A11S.Test8_Int recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-04 12:38:02 INFO   UMIDIGI_A11S.Test8_Int recordAudio Test8_Int scenario is as follows
+2023-01-04 12:38:02 INFO   UMIDIGI_A11S.Test8_Int recordAudio 1.Launch mobile default voice recording application and set  storage option, record audio file for 2 minutes duration
+2023-01-04 12:38:02 INFO   UMIDIGI_A11S.Test8_Int recordAudio 2.Launch file manager application and playback recorded audio file from external storage, fast forward audio file and pause
+2023-01-04 12:38:02 INFO   UMIDIGI_A11S.Test8_Int recordAudio 3.Launch file manager application and playback copied audio files from external storage the files are placed in the Test1 folder
+2023-01-04 12:38:02 INFO   UMIDIGI_A11S.Test8_Int recordAudio Setting up the appium desired capabilities
+2023-01-04 12:38:02 INFO   UMIDIGI_A11S.Test8_Int recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-04 12:38:10 INFO   UMIDIGI_A11S.Test8_Int recordAudio Launch Home screen application and clear recent apps
+2023-01-04 12:38:20 INFO   UMIDIGI_A11S.Test8_Int recordAudio Clearing Recent Apps
+2023-01-04 12:38:24 INFO   UMIDIGI_A11S.Test8_Int recordAudio clearing Recent apps 
+2023-01-04 12:38:27 INFO   UMIDIGI_A11S.Test8_Int recordAudio Launch Voice recorder application for Audio recording
+2023-01-04 12:38:27 INFO   UMIDIGI_A11S.Test8_Int recordAudio If application launch permission pop-up exists accept allow permission to launch application
+2023-01-04 12:38:42 INFO   UMIDIGI_A11S.Test8_Int recordAudio  No Launch permission Pop-up  found
+2023-01-04 12:38:47 INFO   UMIDIGI_A11S.Test8_Int recordAudio Select settings option
+2023-01-04 12:38:53 INFO   UMIDIGI_A11S.Test8_Int recordAudio Select Save location option
+2023-01-04 12:38:58 INFO   UMIDIGI_A11S.Test8_Int recordAudio Select SD card option
+2023-01-04 12:39:07 INFO   UMIDIGI_A11S.Test8_Int recordAudio Start Recording
+2023-01-04 12:41:07 INFO   UMIDIGI_A11S.Test8_Int recordAudio Stop Recording
+2023-01-04 12:41:43 INFO   UMIDIGI_A11S.Test8_Int recordAudio Stop and Save Recording
+2023-01-04 12:41:49 INFO   UMIDIGI_A11S.Test8_Int recordAudio Pass: Test8_Int pass for recording  audio file
+2023-01-04 12:41:49 INFO   UMIDIGI_A11S.Test8_Int recordAudio Calling PlayRecordedAudio() for Audio play back and fast forward scenario
+2023-01-04 12:41:54 INFO   UMIDIGI_A11S.Test8_Int PlayRecordedAudio Launch home screen and clear recent apps
+2023-01-04 12:42:09 INFO   UMIDIGI_A11S.Test8_Int PlayRecordedAudio clearing Recent apps 
+2023-01-04 12:42:11 INFO   UMIDIGI_A11S.Test8_Int PlayRecordedAudio Launch File Manager Application
+2023-01-04 12:42:20 INFO   UMIDIGI_A11S.Test8_Int PlayRecordedAudio Launch File Manager Application
+2023-01-04 12:42:25 INFO   UMIDIGI_A11S.Test8_Int PlayRecordedAudio Select internalstorage
+2023-01-04 12:42:25 INFO   UMIDIGI_A11S.Test8_Int PlayRecordedAudio Select Music Folder
+2023-01-04 12:42:30 INFO   UMIDIGI_A11S.Test8_Int PlayRecordedAudio Select recordings Folder
+2023-01-04 12:42:33 INFO   UMIDIGI_A11S.Test8_Int PlayRecordedAudio Click first audio file for audio playback and fast forward scenario
+2023-01-04 12:43:14 INFO   UMIDIGI_A11S.Test8_Int PlayRecordedAudio Fast Forwarding Audio for 10 Seconds
+2023-01-04 12:43:26 INFO   UMIDIGI_A11S.Test8_Int PlayRecordedAudio Continue audio playback
+2023-01-04 12:43:56 INFO   UMIDIGI_A11S.Test8_Int PlayRecordedAudio Pause audio playback
+2023-01-04 12:44:05 INFO   UMIDIGI_A11S.Test8_Int PlayRecordedAudio Pass: Test8_Int Pass for playing, fast forward, and pause recorded audio file scenario
+2023-01-04 12:44:05 INFO   UMIDIGI_A11S.Test8_Int PlayRecordedAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-04 12:44:05 INFO   UMIDIGI_A11S.Test8_Int PlayRecordedAudio Calling PlayCopiedAudioFile() for copied audio files from Test1 folder
+2023-01-04 12:44:10 INFO   UMIDIGI_A11S.Test8_Int PlayCopiedAudioFile Clear Recent Apps
+2023-01-04 12:44:22 INFO   UMIDIGI_A11S.Test8_Int PlayCopiedAudioFile Clearing Recent Apps
+2023-01-04 12:44:30 INFO   UMIDIGI_A11S.Test8_Int PlayCopiedAudioFile clearing Recent apps 
+2023-01-04 12:44:32 INFO   UMIDIGI_A11S.Test8_Int PlayCopiedAudioFile Launch File Manager Application
+2023-01-04 12:44:39 INFO   UMIDIGI_A11S.Test8_Int PlayCopiedAudioFile Swipe up and select uSD card
+2023-01-04 12:44:42 INFO   UMIDIGI_A11S.Test8_Int PlayCopiedAudioFile Select  Internal storage
+2023-01-04 12:44:52 INFO   UMIDIGI_A11S.Test8_Int PlayCopiedAudioFile Select Test1 folder
+2023-01-04 12:45:02 INFO   UMIDIGI_A11S.Test8_Int PlayCopiedAudioFile Select Test_file folder
+2023-01-04 12:45:07 INFO   UMIDIGI_A11S.Test8_Int PlayCopiedAudioFile Select 1GB folder
+2023-01-04 12:45:11 INFO   UMIDIGI_A11S.Test8_Int PlayCopiedAudioFile Select MP3 files Folder
+2023-01-04 12:45:16 INFO   UMIDIGI_A11S.Test8_Int PlayCopiedAudioFile Playing first audio file from Test1 folder
+2023-01-04 12:45:56 INFO   UMIDIGI_A11S.Test8_Int PlayCopiedAudioFile Fast Forwarding Audio for 10 Seconds
+2023-01-04 12:46:08 INFO   UMIDIGI_A11S.Test8_Int PlayCopiedAudioFile Continue audio playback
+2023-01-04 12:46:18 INFO   UMIDIGI_A11S.Test8_Int PlayCopiedAudioFile Pause Audio
+2023-01-04 12:46:21 INFO   UMIDIGI_A11S.Test8_Int PlayCopiedAudioFile Pass: first audio file palyback and fast forward scenario is successfull
+2023-01-04 12:46:24 INFO   UMIDIGI_A11S.Test8_Int PlayCopiedAudioFile Playing second audio file from Test1 folder
+2023-01-04 12:47:04 INFO   UMIDIGI_A11S.Test8_Int PlayCopiedAudioFile Fast Forwarding Audio for 10 Seconds
+2023-01-04 12:47:16 INFO   UMIDIGI_A11S.Test8_Int PlayCopiedAudioFile Continue audio playback
+2023-01-04 12:47:26 INFO   UMIDIGI_A11S.Test8_Int PlayCopiedAudioFile Pause Audio
+2023-01-04 12:47:29 INFO   UMIDIGI_A11S.Test8_Int PlayCopiedAudioFile Pass: Seond audio file palyback and fast forward scenario is successfull
+2023-01-04 12:47:31 INFO   UMIDIGI_A11S.Test8_Int PlayCopiedAudioFile Playing third audio file from Test1 folder
+2023-01-04 12:48:12 INFO   UMIDIGI_A11S.Test8_Int PlayCopiedAudioFile Fast Forwarding Audio for 10 Seconds
+2023-01-04 12:48:24 INFO   UMIDIGI_A11S.Test8_Int PlayCopiedAudioFile Continue audio playback
+2023-01-04 12:48:34 INFO   UMIDIGI_A11S.Test8_Int PlayCopiedAudioFile Pause Audio
+2023-01-04 12:48:37 INFO   UMIDIGI_A11S.Test8_Int PlayCopiedAudioFile Pass: Third audio file palyback and fast forward scenario is successfull
+2023-01-04 12:48:37 INFO   UMIDIGI_A11S.Test8_Int PlayCopiedAudioFile Pass: Test8_Int Pass for Recorded and copied audio play back and fast forward scenario
+2023-01-04 12:48:37 INFO   UMIDIGI_A11S.Test8_Int PlayCopiedAudioFile ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-04 12:48:37 INFO   UMIDIGI_A11S.Test8_Int PlayCopiedAudioFile Final Message: Pass Test8_Int Pass for Recorded and copied audio play back and fast forward scenario
+2023-01-04 12:48:37 INFO   UMIDIGI_A11S.Test8_Int PlayCopiedAudioFile Test: End
+2023-01-04 12:48:37 INFO   UMIDIGI_A11S.Test8_Int PlayCopiedAudioFile ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-04 12:48:44 INFO   UMIDIGI_A11S.Test8_Int recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

@@ -1,0 +1,105 @@
+2023-01-11 19:40:02 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 rearVideoRec Test: Start
+2023-01-11 19:40:02 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-11 19:40:02 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 rearVideoRec Test10 Scenario is as follows
+2023-01-11 19:40:02 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 rearVideoRec 1.Launch Camera application and start back camera video recording for all host applicable resolutions in uSD Card
+2023-01-11 19:40:02 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 rearVideoRec 2.Playback Highest resolution recorded video from USD Card, fast forward playback and pause video scenario 
+2023-01-11 19:40:02 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 rearVideoRec 3.Playback copied videos from Test1 folder, fast forward and pause scenario
+2023-01-11 19:40:02 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 rearVideoRec Setting up the appium desired capabilities
+2023-01-11 19:40:02 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-11 19:40:17 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 rearVideoRec Launch home screen
+2023-01-11 19:40:23 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 rearVideoRec Launch appium permission access pop-up
+2023-01-11 19:40:33 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 rearVideoRec No permission access pop-up found
+2023-01-11 19:40:35 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 rearVideoRec Launching settings application and set external storage as storage option for video recording.
+2023-01-11 19:40:43 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 rearVideoRec Select About phone
+2023-01-11 19:40:46 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 rearVideoRec Select storage option
+2023-01-11 19:40:53 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 rearVideoRec Select storage settings
+2023-01-11 19:40:56 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 rearVideoRec Select camera option
+2023-01-11 19:40:59 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 rearVideoRec Select storage as external storage
+2023-01-11 19:41:15 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 rearVideoRec Launch Camera application for rear camera video recording
+2023-01-11 19:41:33 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 rearVideoRec No location permission access pop-up found: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RPG-USB-APPS-38', ip: '10.65.145.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Redmi Note 11 Pro max 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: 0c8bd05e61df}, deviceApiLevel: 30, deviceManufacturer: Xiaomi, deviceModel: 2201116SI, deviceName: 0c8bd05e61df, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 0c8bd05e61df, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 90, takesScreenshot: true, udid: 0c8bd05e61df, viewportRect: {height: 2090, left: 0, top: 90, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 6fa6200f-207a-4328-bafb-67ef0748a2c8
+*** Element info: {Using=xpath, value=//*[@resource-id='android:id/button2']}
+2023-01-11 19:41:33 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 rearVideoRec Test10_Bcam_res: 2 resolutions supported
+2023-01-11 19:41:33 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 rearVideoRec Switch to video tab
+2023-01-11 19:41:36 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 rearVideoRec Select settings option to select resolution
+2023-01-11 19:41:39 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 rearVideoRec Select first video resolution: HD 720p, 30fps
+2023-01-11 19:41:48 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 rearVideoRec Start video recording for specified duration time
+2023-01-11 19:51:28 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 rearVideoRec Stop video recording
+2023-01-11 19:51:28 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 rearVideoRec click setting option to select second highest video resolution
+2023-01-11 19:51:32 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 rearVideoRec Select second highest resolution: FHD 1080p, 30fps
+2023-01-11 19:51:40 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 rearVideoRec Start Recording second resolution video for specified duration time
+2023-01-11 20:01:22 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 rearVideoRec Stop Recording
+2023-01-11 20:01:22 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 rearVideoRec Switch to photo tab
+2023-01-11 20:01:30 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 rearVideoRec Pass: Rear video recording is successfull
+2023-01-11 20:01:30 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 rearVideoRec Launch File Manager Application to verify captured videos
+2023-01-11 20:01:32 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 rearVideoRec Select  SD Card
+2023-01-11 20:01:41 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 rearVideoRec Select DCIM Folder
+2023-01-11 20:01:51 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 rearVideoRec Select Camera Folder
+2023-01-11 20:02:07 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 rearVideoRec Select More Options 
+2023-01-11 20:02:17 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 rearVideoRec Click On Select All Options
+2023-01-11 20:02:26 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 rearVideoRec Test10_Bcam_video: 2 Videos captured successfully
+2023-01-11 20:02:26 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-11 20:02:26 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 rearVideoRec Calling RecordedVideoPlayback() for Playing Highest record video, fast forward video play back scenario
+2023-01-11 20:02:26 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 RecordedVideoPlayback Launch File Manager for playing highest resolution recorded video from USD, fast forward and pause scenario
+2023-01-11 20:02:35 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 RecordedVideoPlayback Select External storage
+2023-01-11 20:02:41 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 RecordedVideoPlayback Select DCIM folder
+2023-01-11 20:02:45 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 RecordedVideoPlayback Select camera folder
+2023-01-11 20:02:53 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 RecordedVideoPlayback Select more options and sort by largest file first
+2023-01-11 20:03:00 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 RecordedVideoPlayback Click on first file to play highest recorded resolution video file
+2023-01-11 20:03:01 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 RecordedVideoPlayback Started video playback
+2023-01-11 20:03:31 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 RecordedVideoPlayback Tap Somewhere on Screen for contents to visible on Screen
+2023-01-11 20:03:31 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 RecordedVideoPlayback Fast forward video for 10 seconds
+2023-01-11 20:04:01 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 RecordedVideoPlayback Pass: Recorded Video play back and fast forward successfull 
+2023-01-11 20:04:01 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 RecordedVideoPlayback ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-11 20:04:01 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 RecordedVideoPlayback Calling DataMovementOperation() to move recorded rear camer videos to Test10 Folder
+2023-01-11 20:04:07 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 DataMoveOperation launch file manager application select uSD card-->DCIM folder-->Camera folder-->Select all back camera front camera videos create Test10 and cut paste all videos in BCFC_Cameravideos folder
+2023-01-11 20:04:23 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 DataMoveOperation click on browse option
+2023-01-11 20:04:26 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 DataMoveOperation Swipe up to select uSD card
+2023-01-11 20:04:29 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 DataMoveOperation Select SD card
+2023-01-11 20:04:36 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 DataMoveOperation Select DCIM folder
+2023-01-11 20:04:39 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 DataMoveOperation Select camera folder
+2023-01-11 20:04:42 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 DataMoveOperation Click More options
+2023-01-11 20:04:48 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 DataMoveOperation Click Select all
+2023-01-11 20:04:52 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 DataMoveOperation Click More options
+2023-01-11 20:04:58 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 DataMoveOperation Select move to option
+2023-01-11 20:05:05 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 DataMoveOperation Select uSD Card
+2023-01-11 20:05:11 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 DataMoveOperation Select ADD NEW Folder option
+2023-01-11 20:05:17 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 DataMoveOperation Name folder as Test10
+2023-01-11 20:05:23 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 DataMoveOperation Accept create folder
+2023-01-11 20:07:23 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 DataMoveOperation Cut paste  video files operation completed successfully
+2023-01-11 20:07:27 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 DataMoveOperation Pass: Test10 Pass for data move operation successfully
+2023-01-11 20:07:27 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-11 20:07:27 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 RecordedVideoPlayback Calling copiedvideosPlayBack() for playing copied video file from Test1 folder
+2023-01-11 20:07:27 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 CopiedvideosPlayBack Re-launch file manager application and select external storage for playing copied video files
+2023-01-11 20:07:36 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 CopiedvideosPlayBack Select external storage
+2023-01-11 20:07:36 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 CopiedvideosPlayBack Select External Storage
+2023-01-11 20:07:36 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 CopiedvideosPlayBack Select Test1 folder
+2023-01-11 20:07:40 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 CopiedvideosPlayBack Select TestFile folder
+2023-01-11 20:07:43 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 CopiedvideosPlayBack Select OneGB folder
+2023-01-11 20:07:46 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 CopiedvideosPlayBack Select video folder
+2023-01-11 20:07:49 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 CopiedvideosPlayBack Select LG_4K_DEMO_HDR_2018_(60FPS)_ELBA(480p).mp4 file for video playback
+2023-01-11 20:07:50 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 CopiedvideosPlayBack Started video playback
+2023-01-11 20:08:10 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 CopiedvideosPlayBack Tap Somewhere on Screen for contents to visible on Screen
+2023-01-11 20:08:10 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 CopiedvideosPlayBack Click fast forward button for 10 seconds video forward
+2023-01-11 20:08:31 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 CopiedvideosPlayBack click press back stop video
+2023-01-11 20:08:34 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 CopiedvideosPlayBack Pass: 4K Video play back and fast forward is successful 
+2023-01-11 20:08:37 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 CopiedvideosPlayBack Select FHD 5.1 ( 1350 X 2560 ).webm file for video playback
+2023-01-11 20:08:37 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 CopiedvideosPlayBack Started video playback
+2023-01-11 20:08:57 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 CopiedvideosPlayBack Tap Somewhere on Screen for contents to visible on Screen
+2023-01-11 20:09:07 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 CopiedvideosPlayBack Fail:Test10 Fail for FHD video play back Host Doesn't support .webm videos org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RPG-USB-APPS-38', ip: '10.65.145.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Redmi Note 11 Pro max 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: 0c8bd05e61df}, deviceApiLevel: 30, deviceManufacturer: Xiaomi, deviceModel: 2201116SI, deviceName: 0c8bd05e61df, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 0c8bd05e61df, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 90, takesScreenshot: true, udid: 0c8bd05e61df, viewportRect: {height: 2090, left: 0, top: 90, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 6fa6200f-207a-4328-bafb-67ef0748a2c8
+*** Element info: {Using=xpath, value=//*[@resource-id='com.google.android.apps.nbu.files:id/video_player']}
+2023-01-11 20:09:07 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 CopiedvideosPlayBack ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-11 20:09:07 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 CopiedvideosPlayBack Final message: Pass Test10 Pass for rear camera  video recording, playback and fast forward highest resolution recorded video and playback and fast forward copied video files from Test1 folder and data move operation scenario
+2023-01-11 20:09:07 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 CopiedvideosPlayBack Test:End
+2023-01-11 20:09:07 INFO   Xiaomi_Redmi_Note11_Pro_Max5G_2201116SI.Test10 CopiedvideosPlayBack ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

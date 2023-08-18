@@ -1,0 +1,130 @@
+2022-10-31 13:12:42 INFO   OnePlus_Nord_N10_5G.Test0 start Test: Start
+2022-10-31 13:12:42 INFO   OnePlus_Nord_N10_5G.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-31 13:12:42 INFO   OnePlus_Nord_N10_5G.Test0 start  Test0 Scenario is as follows 
+2022-10-31 13:12:42 INFO   OnePlus_Nord_N10_5G.Test0 start 1.Unlock phone, clear recent apps, clear internal memory
+2022-10-31 13:12:42 INFO   OnePlus_Nord_N10_5G.Test0 start 2.Call Image() and Capture Rear camera 25 images for default resolution in uSD card and Verify the data capture
+2022-10-31 13:12:42 INFO   OnePlus_Nord_N10_5G.Test0 start 3.Call Video() and record Rear camera video of first 2 resloutions for 2 minutes of duration in uSD Card and verify the same
+2022-10-31 13:12:42 INFO   OnePlus_Nord_N10_5G.Test0 start 4.Call Format() and format uSD card with data and verify the same
+2022-10-31 13:12:42 INFO   OnePlus_Nord_N10_5G.Test0 start Setting up the appium desired capabilities
+2022-10-31 13:12:42 INFO   OnePlus_Nord_N10_5G.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-31 13:12:51 INFO   OnePlus_Nord_N10_5G.Test0 start Launch home screen
+2022-10-31 13:13:02 INFO   OnePlus_Nord_N10_5G.Test0 start Clearing Recent Apps
+2022-10-31 13:13:13 INFO   OnePlus_Nord_N10_5G.Test0 start Pass: Test0 Pass for clearing Recent apps 
+2022-10-31 13:13:15 INFO   OnePlus_Nord_N10_5G.Test0 start Launch File Manager Application and clear internal memory
+2022-10-31 13:13:21 INFO   OnePlus_Nord_N10_5G.Test0 start Scroll up and select Internal storage
+2022-10-31 13:13:24 INFO   OnePlus_Nord_N10_5G.Test0 start Select  Internal storage
+2022-10-31 13:13:29 INFO   OnePlus_Nord_N10_5G.Test0 start Select More Options
+2022-10-31 13:13:32 INFO   OnePlus_Nord_N10_5G.Test0 start Select Edit Option
+2022-10-31 13:13:39 INFO   OnePlus_Nord_N10_5G.Test0 start Select Delete All Option
+2022-10-31 13:13:44 INFO   OnePlus_Nord_N10_5G.Test0 start Allow delet folders
+2022-10-31 13:14:14 INFO   OnePlus_Nord_N10_5G.Test0 start Pass: Clearing phone internal memory is successfull
+2022-10-31 13:14:28 INFO   OnePlus_Nord_N10_5G.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-31 13:14:28 INFO   OnePlus_Nord_N10_5G.Test0 start Calling Image() for rear Image capture in uSD Card and Verify the Captured images
+2022-10-31 13:14:28 INFO   OnePlus_Nord_N10_5G.Test0 Images Launch Camera Application for Rear picture capture
+2022-10-31 13:14:29 INFO   OnePlus_Nord_N10_5G.Test0 Images if Location permisson Pop Exists Select Cancel Option
+2022-10-31 13:14:39 INFO   OnePlus_Nord_N10_5G.Test0 Images Location access permission pop-up not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: OnePlus Nord N10 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: f0e384e2}, deviceApiLevel: 30, deviceManufacturer: OnePlus, deviceModel: BE2026, deviceName: f0e384e2, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: f0e384e2, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 127, takesScreenshot: true, udid: f0e384e2, viewportRect: {height: 2029, left: 0, top: 127, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: ecc7a801-ef8b-4d43-8ad5-83db03721676
+*** Element info: {Using=xpath, value=//*[@resource-id='com.android.permissioncontroller:id/permission_deny_button']}
+2022-10-31 13:14:41 INFO   OnePlus_Nord_N10_5G.Test0 Images Select More option
+2022-10-31 13:14:46 INFO   OnePlus_Nord_N10_5G.Test0 Images Select settings option
+2022-10-31 13:14:52 INFO   OnePlus_Nord_N10_5G.Test0 Images Search for SD Card option
+2022-10-31 13:15:02 INFO   OnePlus_Nord_N10_5G.Test0 Images check SD card as storage option
+2022-10-31 13:15:10 INFO   OnePlus_Nord_N10_5G.Test0 Images Capture Image of Default Resolution
+2022-10-31 13:15:19 INFO   OnePlus_Nord_N10_5G.Test0 Images Capturing default resolution image 0
+2022-10-31 13:15:33 INFO   OnePlus_Nord_N10_5G.Test0 Images Capturing default resolution image 1
+2022-10-31 13:15:42 INFO   OnePlus_Nord_N10_5G.Test0 Images Capturing default resolution image 2
+2022-10-31 13:15:51 INFO   OnePlus_Nord_N10_5G.Test0 Images Capturing default resolution image 3
+2022-10-31 13:16:00 INFO   OnePlus_Nord_N10_5G.Test0 Images Capturing default resolution image 4
+2022-10-31 13:16:09 INFO   OnePlus_Nord_N10_5G.Test0 Images Capturing default resolution image 5
+2022-10-31 13:16:18 INFO   OnePlus_Nord_N10_5G.Test0 Images Capturing default resolution image 6
+2022-10-31 13:16:27 INFO   OnePlus_Nord_N10_5G.Test0 Images Capturing default resolution image 7
+2022-10-31 13:16:36 INFO   OnePlus_Nord_N10_5G.Test0 Images Capturing default resolution image 8
+2022-10-31 13:16:45 INFO   OnePlus_Nord_N10_5G.Test0 Images Capturing default resolution image 9
+2022-10-31 13:16:54 INFO   OnePlus_Nord_N10_5G.Test0 Images Capturing default resolution image 10
+2022-10-31 13:17:03 INFO   OnePlus_Nord_N10_5G.Test0 Images Capturing default resolution image 11
+2022-10-31 13:17:12 INFO   OnePlus_Nord_N10_5G.Test0 Images Capturing default resolution image 12
+2022-10-31 13:17:21 INFO   OnePlus_Nord_N10_5G.Test0 Images Capturing default resolution image 13
+2022-10-31 13:17:30 INFO   OnePlus_Nord_N10_5G.Test0 Images Capturing default resolution image 14
+2022-10-31 13:17:39 INFO   OnePlus_Nord_N10_5G.Test0 Images Capturing default resolution image 15
+2022-10-31 13:17:48 INFO   OnePlus_Nord_N10_5G.Test0 Images Capturing default resolution image 16
+2022-10-31 13:17:57 INFO   OnePlus_Nord_N10_5G.Test0 Images Capturing default resolution image 17
+2022-10-31 13:18:06 INFO   OnePlus_Nord_N10_5G.Test0 Images Capturing default resolution image 18
+2022-10-31 13:18:15 INFO   OnePlus_Nord_N10_5G.Test0 Images Capturing default resolution image 19
+2022-10-31 13:18:24 INFO   OnePlus_Nord_N10_5G.Test0 Images Capturing default resolution image 20
+2022-10-31 13:18:33 INFO   OnePlus_Nord_N10_5G.Test0 Images Capturing default resolution image 21
+2022-10-31 13:18:42 INFO   OnePlus_Nord_N10_5G.Test0 Images Capturing default resolution image 22
+2022-10-31 13:18:51 INFO   OnePlus_Nord_N10_5G.Test0 Images Capturing default resolution image 23
+2022-10-31 13:19:00 INFO   OnePlus_Nord_N10_5G.Test0 Images Capturing default resolution image 24
+2022-10-31 13:19:00 INFO   OnePlus_Nord_N10_5G.Test0 Images Select More option
+2022-10-31 13:19:05 INFO   OnePlus_Nord_N10_5G.Test0 Images Select More option
+2022-10-31 13:19:12 INFO   OnePlus_Nord_N10_5G.Test0 Images Search for SD Card option
+2022-10-31 13:19:21 INFO   OnePlus_Nord_N10_5G.Test0 Images uncheck SD card as storage option
+2022-10-31 13:19:34 INFO   OnePlus_Nord_N10_5G.Test0 Images 25 Images captured successfully
+2022-10-31 13:19:34 INFO   OnePlus_Nord_N10_5G.Test0 Images Launch File Manager application to verify  Image capture
+2022-10-31 13:19:43 INFO   OnePlus_Nord_N10_5G.Test0 Images Select  SD Card
+2022-10-31 13:19:48 INFO   OnePlus_Nord_N10_5G.Test0 Images Select DCIM Folder
+2022-10-31 13:19:54 INFO   OnePlus_Nord_N10_5G.Test0 Images Select Camera Folder
+2022-10-31 13:19:59 INFO   OnePlus_Nord_N10_5G.Test0 Images Select More Options 
+2022-10-31 13:20:04 INFO   OnePlus_Nord_N10_5G.Test0 Images Click On Select All Options
+2022-10-31 13:20:13 INFO   OnePlus_Nord_N10_5G.Test0 Images Pass:Total Number Of Image captured 25 is successfull
+2022-10-31 13:20:13 INFO   OnePlus_Nord_N10_5G.Test0 Images ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-31 13:20:13 INFO   OnePlus_Nord_N10_5G.Test0 Images Calling video() for rear video recording in USD card and verifying data capture.
+2022-10-31 13:20:27 INFO   OnePlus_Nord_N10_5G.Test0 Video Launch Camera Application for Rear camera video recording
+2022-10-31 13:20:28 INFO   OnePlus_Nord_N10_5G.Test0 Video if Location permisson Pop Exists Select Cancel Option
+2022-10-31 13:20:38 INFO   OnePlus_Nord_N10_5G.Test0 Video Location permission access pop-up not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: OnePlus Nord N10 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: f0e384e2}, deviceApiLevel: 30, deviceManufacturer: OnePlus, deviceModel: BE2026, deviceName: f0e384e2, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: f0e384e2, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 127, takesScreenshot: true, udid: f0e384e2, viewportRect: {height: 2029, left: 0, top: 127, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: ecc7a801-ef8b-4d43-8ad5-83db03721676
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("DENY")}
+2022-10-31 13:20:40 INFO   OnePlus_Nord_N10_5G.Test0 Video Switch to video mode
+2022-10-31 13:20:50 INFO   OnePlus_Nord_N10_5G.Test0 Video Select settings option
+2022-10-31 13:20:55 INFO   OnePlus_Nord_N10_5G.Test0 Video Search for SD Card option
+2022-10-31 13:21:05 INFO   OnePlus_Nord_N10_5G.Test0 Video Check SD card as storage option
+2022-10-31 13:21:13 INFO   OnePlus_Nord_N10_5G.Test0 Video Select first highest rear camera Video Resolution:Rear camera video size, FHD (30 fps)
+2022-10-31 13:21:17 INFO   OnePlus_Nord_N10_5G.Test0 Video Start video recording
+2022-10-31 13:23:17 INFO   OnePlus_Nord_N10_5G.Test0 Video Stop video recording
+2022-10-31 13:23:33 INFO   OnePlus_Nord_N10_5G.Test0 Video Select second highest rear camera Video Resolution:Rear camera video size, HD (30 fps)
+2022-10-31 13:23:35 INFO   OnePlus_Nord_N10_5G.Test0 Video Start video recording
+2022-10-31 13:25:36 INFO   OnePlus_Nord_N10_5G.Test0 Video Recording Video for 2Minutes of Duration
+2022-10-31 13:25:36 INFO   OnePlus_Nord_N10_5G.Test0 Video Stop video recording
+2022-10-31 13:25:52 INFO   OnePlus_Nord_N10_5G.Test0 Video Select settings option
+2022-10-31 13:25:57 INFO   OnePlus_Nord_N10_5G.Test0 Video Search for SD Card option
+2022-10-31 13:26:07 INFO   OnePlus_Nord_N10_5G.Test0 Video Uncheck SD card as storage option
+2022-10-31 13:26:20 INFO   OnePlus_Nord_N10_5G.Test0 Video Rear camera video recording is successfull
+2022-10-31 13:26:20 INFO   OnePlus_Nord_N10_5G.Test0 Video Launch File Manager Application to verify captured videos
+2022-10-31 13:26:25 INFO   OnePlus_Nord_N10_5G.Test0 Video Select  SD Card
+2022-10-31 13:26:30 INFO   OnePlus_Nord_N10_5G.Test0 Video Select DCIM Folder
+2022-10-31 13:26:35 INFO   OnePlus_Nord_N10_5G.Test0 Video Select Camera Folder
+2022-10-31 13:26:41 INFO   OnePlus_Nord_N10_5G.Test0 Video Select More Options 
+2022-10-31 13:26:46 INFO   OnePlus_Nord_N10_5G.Test0 Video Click On Select All Options
+2022-10-31 13:26:55 INFO   OnePlus_Nord_N10_5G.Test0 Video Pass: 2 Videos recorded Successfully
+2022-10-31 13:26:55 INFO   OnePlus_Nord_N10_5G.Test0 Video Pass: A total of 27 files present in uSD card before Format
+2022-10-31 13:26:55 INFO   OnePlus_Nord_N10_5G.Test0 Video ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-31 13:26:55 INFO   OnePlus_Nord_N10_5G.Test0 Video calling Format() for format with data scenario
+2022-10-31 13:27:08 INFO   OnePlus_Nord_N10_5G.Test0 Format Launch Settings application for Format uSD card with Data scenario 
+2022-10-31 13:27:15 INFO   OnePlus_Nord_N10_5G.Test0 Format Scrolling till battery and device care is visible
+2022-10-31 13:27:24 INFO   OnePlus_Nord_N10_5G.Test0 Format Clicking on battery and device care
+2022-10-31 13:27:30 INFO   OnePlus_Nord_N10_5G.Test0 Format Clicking on storage
+2022-10-31 13:27:30 INFO   OnePlus_Nord_N10_5G.Test0 Format Select uSD Card
+2022-10-31 13:27:35 INFO   OnePlus_Nord_N10_5G.Test0 Format Select more options
+2022-10-31 13:27:40 INFO   OnePlus_Nord_N10_5G.Test0 Format Select Storage settings
+2022-10-31 13:27:46 INFO   OnePlus_Nord_N10_5G.Test0 Format Click Format
+2022-10-31 13:27:53 INFO   OnePlus_Nord_N10_5G.Test0 Format Started formatting, waiting till it gets formatted
+2022-10-31 13:29:30 INFO   OnePlus_Nord_N10_5G.Test0 Format Format uSD with Data is successfull
+2022-10-31 13:29:30 INFO   OnePlus_Nord_N10_5G.Test0 Format Launch File Manager Application and verify data format scenario
+2022-10-31 13:29:36 INFO   OnePlus_Nord_N10_5G.Test0 Format Select  SD Card
+2022-10-31 13:29:41 INFO   OnePlus_Nord_N10_5G.Test0 Format Select DCIM Folder
+2022-10-31 13:29:46 INFO   OnePlus_Nord_N10_5G.Test0 Format Select Camera Folder
+2022-10-31 13:29:56 INFO   OnePlus_Nord_N10_5G.Test0 Format Pass:Images and videos are not present in the DCIM folder, CARD format is successfully completed 
+2022-10-31 13:29:56 INFO   OnePlus_Nord_N10_5G.Test0 Format ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-31 13:29:56 INFO   OnePlus_Nord_N10_5G.Test0 Format Final Message: Pass Test0 pass for format with data scenario
+2022-10-31 13:29:56 INFO   OnePlus_Nord_N10_5G.Test0 Format Test: End
+2022-10-31 13:29:56 INFO   OnePlus_Nord_N10_5G.Test0 Format ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

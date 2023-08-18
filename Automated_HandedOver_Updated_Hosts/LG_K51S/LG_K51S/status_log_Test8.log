@@ -1,0 +1,67 @@
+2023-01-13 15:38:45 INFO   LG_K51S.Test8 recordAudio Test: Start
+2023-01-13 15:38:45 INFO   LG_K51S.Test8 recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-13 15:38:45 INFO   LG_K51S.Test8 recordAudio Test8 scenario is as follows
+2023-01-13 15:38:45 INFO   LG_K51S.Test8 recordAudio 1.Launch mobile default voice recording application and set uSD card storage option, record audio file for 2 minutes duration
+2023-01-13 15:38:45 INFO   LG_K51S.Test8 recordAudio 2.Launch file manager application and playback recorded audio file from external storage, fast forward audio file and pause
+2023-01-13 15:38:45 INFO   LG_K51S.Test8 recordAudio 3.Launch file manager application and playback copied audio files from external storage the files are placed in the Test1 folder
+2023-01-13 15:38:45 INFO   LG_K51S.Test8 recordAudio Setting up the appium desired capabilities
+2023-01-13 15:38:45 INFO   LG_K51S.Test8 recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-13 15:38:55 INFO   LG_K51S.Test8 recordAudio Clearing Recent Apps
+2023-01-13 15:39:06 INFO   LG_K51S.Test8 recordAudio 	click on clear all
+2023-01-13 15:39:12 INFO   LG_K51S.Test8 recordAudio Pass: Test0 Pass for clearing Recent apps 
+2023-01-13 15:39:14 INFO   LG_K51S.Test8 recordAudio Launch Voice recorder application
+2023-01-13 15:39:22 INFO   LG_K51S.Test8 recordAudio Clicking on more options
+2023-01-13 15:39:26 INFO   LG_K51S.Test8 recordAudio Clicking on Settings Tab
+2023-01-13 15:39:30 INFO   LG_K51S.Test8 recordAudio Clicking on save to
+2023-01-13 15:39:34 INFO   LG_K51S.Test8 recordAudio Clicking on sd card
+2023-01-13 15:39:41 INFO   LG_K51S.Test8 recordAudio Start Recording
+2023-01-13 15:42:18 INFO   LG_K51S.Test8 recordAudio Recording Completed
+2023-01-13 15:42:27 INFO   LG_K51S.Test8 recordAudio Pass: Test8 pass for audio recording in uSD Card
+2023-01-13 15:42:27 INFO   LG_K51S.Test8 recordAudio Calling PlayRecordedAudio() to play back recorded file
+2023-01-13 15:42:32 INFO   LG_K51S.Test8 PlayRecordedAudio Clearing Recent Apps
+2023-01-13 15:42:44 INFO   LG_K51S.Test8 PlayRecordedAudio Clearing Recent Apps
+2023-01-13 15:42:53 INFO   LG_K51S.Test8 PlayRecordedAudio Pass: Test0 Pass for clearing Recent apps 
+2023-01-13 15:42:55 INFO   LG_K51S.Test8 PlayRecordedAudio Launching file manager application
+2023-01-13 15:43:02 INFO   LG_K51S.Test8 PlayRecordedAudio swipe up and search for sd card
+2023-01-13 15:43:05 INFO   LG_K51S.Test8 PlayRecordedAudio Select External Storage
+2023-01-13 15:43:11 INFO   LG_K51S.Test8 PlayRecordedAudio swipe up and search for Music
+2023-01-13 15:43:12 INFO   LG_K51S.Test8 PlayRecordedAudio clicking AudioRecorder folder
+2023-01-13 15:43:15 INFO   LG_K51S.Test8 PlayRecordedAudio Clicking recordings folder
+2023-01-13 15:43:18 INFO   LG_K51S.Test8 PlayRecordedAudio Started Audio playback
+2023-01-13 15:43:39 INFO   LG_K51S.Test8 PlayRecordedAudio Fast forward audio for 10 seconds
+2023-01-13 15:43:59 INFO   LG_K51S.Test8 PlayRecordedAudio Pause audio playback
+2023-01-13 15:44:03 INFO   LG_K51S.Test8 PlayRecordedAudio Pass: Test8 Pass for playing recorded Audio file
+2023-01-13 15:44:10 INFO   LG_K51S.Test8 PlayRecordedAudio Pass: Test8 Pass for playing, fast forward, and pause recorded audio file scenario
+2023-01-13 15:44:10 INFO   LG_K51S.Test8 PlayRecordedAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-13 15:44:10 INFO   LG_K51S.Test8 PlayRecordedAudio Calling PlayCopiedAudioFile() for copied audio files from Test1 folder
+2023-01-13 15:44:15 INFO   LG_K51S.Test8 PlayCopiedAudioFile Clearing Recent Apps
+2023-01-13 15:44:27 INFO   LG_K51S.Test8 PlayCopiedAudioFile Clearing Recent Apps
+2023-01-13 15:44:38 INFO   LG_K51S.Test8 PlayCopiedAudioFile Pass: Test0 Pass for clearing Recent apps 
+2023-01-13 15:44:40 INFO   LG_K51S.Test8 PlayCopiedAudioFile Launching file manager application
+2023-01-13 15:44:47 INFO   LG_K51S.Test8 PlayCopiedAudioFile swipe up and search for sd card
+2023-01-13 15:44:50 INFO   LG_K51S.Test8 PlayCopiedAudioFile Select External Storage
+2023-01-13 15:44:55 INFO   LG_K51S.Test8 PlayCopiedAudioFile swipe and select test1 folder
+2023-01-13 15:44:56 INFO   LG_K51S.Test8 PlayCopiedAudioFile Select Test1 folder
+2023-01-13 15:45:00 INFO   LG_K51S.Test8 PlayCopiedAudioFile Select test_filefolder
+2023-01-13 15:45:03 INFO   LG_K51S.Test8 PlayCopiedAudioFile Select OneGB folder
+2023-01-13 15:45:06 INFO   LG_K51S.Test8 PlayCopiedAudioFile Select MP3 Files
+2023-01-13 15:45:09 INFO   LG_K51S.Test8 PlayCopiedAudioFile Select Laahe.Mp3.mp3
+2023-01-13 15:45:10 INFO   LG_K51S.Test8 PlayCopiedAudioFile Started audio playback
+2023-01-13 15:45:30 INFO   LG_K51S.Test8 PlayCopiedAudioFile Click fast forward button for 10 seconds audio forward
+2023-01-13 15:45:50 INFO   LG_K51S.Test8 PlayCopiedAudioFile Pause audio playback
+2023-01-13 15:45:54 INFO   LG_K51S.Test8 PlayCopiedAudioFile Pass: 1st Copied Audio play back and fast forward is successfull
+2023-01-13 15:45:57 INFO   LG_K51S.Test8 PlayCopiedAudioFile select 11 Rob Thomas - Lonely No More.mp3
+2023-01-13 15:45:57 INFO   LG_K51S.Test8 PlayCopiedAudioFile Started audio playback
+2023-01-13 15:46:17 INFO   LG_K51S.Test8 PlayCopiedAudioFile Click fast forward button for 10 seconds audio forward
+2023-01-13 15:46:37 INFO   LG_K51S.Test8 PlayCopiedAudioFile Pause audio playback
+2023-01-13 15:46:41 INFO   LG_K51S.Test8 PlayCopiedAudioFile Pass: 2nd Copied Audio play back and fast forward is successfull
+2023-01-13 15:46:44 INFO   LG_K51S.Test8 PlayCopiedAudioFile select file_example_MP3_5MG.mp3
+2023-01-13 15:46:44 INFO   LG_K51S.Test8 PlayCopiedAudioFile Started audio playback
+2023-01-13 15:47:04 INFO   LG_K51S.Test8 PlayCopiedAudioFile Click fast forward button for 10 seconds audio forward
+2023-01-13 15:47:25 INFO   LG_K51S.Test8 PlayCopiedAudioFile Pause audio playback
+2023-01-13 15:47:32 INFO   LG_K51S.Test8 PlayCopiedAudioFile Pass: 3rd Copied Audio play back and fast forward is successfull
+2023-01-13 15:47:32 INFO   LG_K51S.Test8 PlayCopiedAudioFile Pass: Test8 Pass for Recorded and copied audio play back and fast forward scenario
+2023-01-13 15:47:32 INFO   LG_K51S.Test8 PlayCopiedAudioFile ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-13 15:47:32 INFO   LG_K51S.Test8 PlayCopiedAudioFile Final Message: Pass Test8 Pass for Recorded and copied audio play back and fast forward scenario
+2023-01-13 15:47:32 INFO   LG_K51S.Test8 PlayCopiedAudioFile Test: End
+2023-01-13 15:47:32 INFO   LG_K51S.Test8 PlayCopiedAudioFile ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

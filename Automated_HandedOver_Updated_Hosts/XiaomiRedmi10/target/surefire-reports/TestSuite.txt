@@ -1,0 +1,75 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 376.407 s <<< FAILURE! - in TestSuite
+Xiaomi_Redmi_10.Test3.Format  Time elapsed: 29.65 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: java.lang.SecurityException: Injecting to another application requires INJECT_EVENTS permission
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Redmi 10, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: 106092d40507}, deviceApiLevel: 30, deviceManufacturer: Xiaomi, deviceModel: 21061119DG, deviceName: 106092d40507, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 106092d40507, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 103, takesScreenshot: true, udid: 106092d40507, viewportRect: {height: 2064, left: 0, top: 103, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: cffcb478-b49b-41bf-96b1-579063587f78
+	at Xiaomi_Redmi_10.Test3.Format(Test3.java:108)
+
+Xiaomi_Redmi_10.Test18.CopyPaste  Time elapsed: 34.739 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: java.lang.SecurityException: Injecting to another application requires INJECT_EVENTS permission
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Redmi 10, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: 106092d40507}, deviceApiLevel: 30, deviceManufacturer: Xiaomi, deviceModel: 21061119DG, deviceName: 106092d40507, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 106092d40507, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 103, takesScreenshot: true, udid: 106092d40507, viewportRect: {height: 2064, left: 0, top: 103, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 0fd85437-fd2a-4bdf-8060-a9bc3c1fa19a
+	at Xiaomi_Redmi_10.Test18.CopyPaste(Test18.java:109)
+
+Xiaomi_Redmi_10.Test8.recordAudio  Time elapsed: 31.577 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Cannot invoke method public void androidx.test.uiautomator.GestureController.performGesture(androidx.test.uiautomator.PointerGesture[]) on object androidx.test.uiautomator.GestureController@7229bf5 with parameters [[Landroidx.test.uiautomator.PointerGesture;@c56152c]
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Redmi 10, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: 106092d40507}, deviceApiLevel: 30, deviceManufacturer: Xiaomi, deviceModel: 21061119DG, deviceName: 106092d40507, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 106092d40507, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 103, takesScreenshot: true, udid: 106092d40507, viewportRect: {height: 2064, left: 0, top: 103, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 9f0d4dd5-5a7f-4697-9b8c-f5e096773511
+	at Xiaomi_Redmi_10.Test8.PlayCopiedAudioFile(Test8.java:104)
+	at Xiaomi_Redmi_10.Test8.recordAudio(Test8.java:81)
+
+Xiaomi_Redmi_10.Test10.rearVideoRec  Time elapsed: 35.704 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: java.lang.SecurityException: Injecting to another application requires INJECT_EVENTS permission
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Redmi 10, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: 106092d40507}, deviceApiLevel: 30, deviceManufacturer: Xiaomi, deviceModel: 21061119DG, deviceName: 106092d40507, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 106092d40507, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 103, takesScreenshot: true, udid: 106092d40507, viewportRect: {height: 2064, left: 0, top: 103, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 244d35c6-02c4-4964-8861-7f349f7ea5e5
+	at Xiaomi_Redmi_10.Test10.rearVideoRec(Test10.java:115)
+
+Xiaomi_Redmi_10.Test10F.frontVideoRec  Time elapsed: 69.32 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: java.lang.SecurityException: Injecting to another application requires INJECT_EVENTS permission
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Redmi 10, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: 106092d40507}, deviceApiLevel: 30, deviceManufacturer: Xiaomi, deviceModel: 21061119DG, deviceName: 106092d40507, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 106092d40507, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 103, takesScreenshot: true, udid: 106092d40507, viewportRect: {height: 2064, left: 0, top: 103, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 4a9b2e24-1a40-4ffe-9558-ddc0c7c67bc9
+	at Xiaomi_Redmi_10.Test10F.frontVideoRec(Test10F.java:395)
+
+Xiaomi_Redmi_10.Test9.RearPictureCapture  Time elapsed: 36.099 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: java.lang.SecurityException: Injecting to another application requires INJECT_EVENTS permission
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Redmi 10, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: 106092d40507}, deviceApiLevel: 30, deviceManufacturer: Xiaomi, deviceModel: 21061119DG, deviceName: 106092d40507, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 106092d40507, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 103, takesScreenshot: true, udid: 106092d40507, viewportRect: {height: 2064, left: 0, top: 103, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: b84f8251-44bf-40ea-8866-7219b1ddb66f
+	at Xiaomi_Redmi_10.Test9.RearPictureCapture(Test9.java:102)
+
+Xiaomi_Redmi_10.Test9F.frontPictureCapture  Time elapsed: 36.919 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: java.lang.SecurityException: Injecting to another application requires INJECT_EVENTS permission
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Redmi 10, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: 106092d40507}, deviceApiLevel: 30, deviceManufacturer: Xiaomi, deviceModel: 21061119DG, deviceName: 106092d40507, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 106092d40507, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 103, takesScreenshot: true, udid: 106092d40507, viewportRect: {height: 2064, left: 0, top: 103, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 20431b76-3cd7-4675-a93b-50bb1bfbe00c
+	at Xiaomi_Redmi_10.Test9F.frontPictureCapture(Test9F.java:99)
+

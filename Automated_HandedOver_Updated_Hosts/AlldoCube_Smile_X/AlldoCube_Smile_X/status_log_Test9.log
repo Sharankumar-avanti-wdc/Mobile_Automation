@@ -1,0 +1,30 @@
+2023-03-12 21:04:55 INFO   AlldoCube_Smile_X.Test9 RearPictureCapture Test: Start
+2023-03-12 21:04:55 INFO   AlldoCube_Smile_X.Test9 RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-12 21:04:55 INFO   AlldoCube_Smile_X.Test9 RearPictureCapture Test9 Scenario is follows:
+2023-03-12 21:04:55 INFO   AlldoCube_Smile_X.Test9 RearPictureCapture 1.Launch camera application, set uSD as a Storage option, start rear camera Image capture for all host resolutions
+2023-03-12 21:04:55 INFO   AlldoCube_Smile_X.Test9 RearPictureCapture 2.Move rear camera image captured files from camera folder to Test9 folder
+2023-03-12 21:04:55 INFO   AlldoCube_Smile_X.Test9 RearPictureCapture Setting up the appium desired capabilities
+2023-03-12 21:04:55 INFO   AlldoCube_Smile_X.Test9 RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-12 21:05:08 INFO   AlldoCube_Smile_X.Test9 RearPictureCapture Launch home screen
+2023-03-12 21:05:14 INFO   AlldoCube_Smile_X.Test9 RearPictureCapture Launch Camera application for rear camera Image capture
+2023-03-12 21:05:21 INFO   AlldoCube_Smile_X.Test9 RearPictureCapture Test9_Bcam_res: 6 resolutions supported
+2023-03-12 21:05:21 INFO   AlldoCube_Smile_X.Test9 RearPictureCapture IF Change to uSD card notification pop-up exists select Cancel Option
+2023-03-12 21:05:31 INFO   AlldoCube_Smile_X.Test9 RearPictureCapture change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '172.20.10.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Smile_X, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: T102864GB22122100402}, deviceApiLevel: 30, deviceManufacturer: Alldocube, deviceModel: Smile_X, deviceName: T102864GB22122100402, deviceScreenDensity: 320, deviceScreenSize: 1200x1920, deviceUDID: T102864GB22122100402, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 48, takesScreenshot: true, udid: T102864GB22122100402, viewportRect: {height: 1776, left: 0, top: 48, width: 1200}, warnings: {}, webStorageEnabled: false}
+Session ID: cc711999-1b41-4b6d-86b8-f93b41a86b0b
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("DENY")}
+2023-03-12 21:05:31 INFO   AlldoCube_Smile_X.Test9 RearPictureCapture Switch to rear Camera Mode if current Exiting camera is Front camera Mode
+2023-03-12 21:05:33 INFO   AlldoCube_Smile_X.Test9 RearPictureCapture Switch to back to photo mode
+2023-03-12 21:05:43 INFO   AlldoCube_Smile_X.Test9 RearPictureCapture Select settings option
+2023-03-12 21:05:48 INFO   AlldoCube_Smile_X.Test9 RearPictureCapture Select Storage path option
+2023-03-12 21:05:54 INFO   AlldoCube_Smile_X.Test9 RearPictureCapture Select SD card as storage option
+2023-03-12 21:06:02 INFO   AlldoCube_Smile_X.Test9 RearPictureCapture Select settings option
+2023-03-12 21:06:08 INFO   AlldoCube_Smile_X.Test9 RearPictureCapture Select Picture size(Back camera) option to select resolution
+2023-03-12 21:06:12 INFO   AlldoCube_Smile_X.Test9 RearPictureCapture Select Rear camera first image resolution: (4:3) 5.0 megapixels
+2023-03-12 21:06:30 INFO   AlldoCube_Smile_X.Test9 RearPictureCapture captureing first Resolution image 0
+2023-03-12 21:06:37 INFO   AlldoCube_Smile_X.Test9 RearPictureCapture captureing first Resolution image 1
+2023-03-12 21:06:44 INFO   AlldoCube_Smile_X.Test9 RearPictureCapture captureing first Resolution image 2

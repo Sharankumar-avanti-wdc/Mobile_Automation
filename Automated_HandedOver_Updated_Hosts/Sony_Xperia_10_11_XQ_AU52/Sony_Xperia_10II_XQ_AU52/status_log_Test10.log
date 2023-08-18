@@ -1,0 +1,137 @@
+2022-10-18 16:17:50 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec Test: Start
+2022-10-18 16:17:50 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-18 16:17:50 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec Test10 Scenario is as follows
+2022-10-18 16:17:50 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec 1.Launch Camera application and start back camera video recording for all host applicable resolutions in uSD Card
+2022-10-18 16:17:50 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec 2.Playback Highest resolution recorded video from USD Card, fast forward playback and pause video scenario 
+2022-10-18 16:17:50 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec 3.Playback copied videos from Test1 folder, fast forward and pause scenario
+2022-10-18 16:17:50 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec Setting up the appium desired capabilities
+2022-10-18 16:17:50 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-18 16:18:05 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec Clearing  Recent Apps
+2022-10-18 16:18:05 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec Launch camera application
+2022-10-18 16:18:06 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec Test10_Bcam_res: 6 resolutions supported
+2022-10-18 16:18:06 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec if Location permisson Pop Exists Select Cancel Option
+2022-10-18 16:18:17 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: XQ-AU52, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: QV720DJV3A}, deviceApiLevel: 30, deviceManufacturer: Sony, deviceModel: XQ-AU52, deviceName: QV720DJV3A, deviceScreenDensity: 420, deviceScreenSize: 1080x2520, deviceUDID: QV720DJV3A, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 63, takesScreenshot: true, udid: QV720DJV3A, viewportRect: {height: 2331, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 5244b3a7-4621-4e1a-aee3-efe3ba369294
+*** Element info: {Using=xpath, value=//*[@text='NO']}
+2022-10-18 16:18:27 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec Currently camera is already in rear camera mode no need to switch
+2022-10-18 16:18:27 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec Switch to Video Mode
+2022-10-18 16:18:30 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec Select settings option
+2022-10-18 16:18:35 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec Search for Data storage option
+2022-10-18 16:18:48 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec Select SD as storage option
+2022-10-18 16:19:07 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec Host does'nt support rear camera video resolution (4k:16:9) storage option in uSD during automation hence skip 4k resolution video recording
+2022-10-18 16:19:07 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec Select settings option to select second resolution
+2022-10-18 16:19:12 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec Select video size option
+2022-10-18 16:19:13 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec Select second Back Video Resolution:4K (21:9)
+2022-10-18 16:19:32 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec Start video recording
+2022-10-18 16:22:39 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec Stop video recording
+2022-10-18 16:22:40 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec Select settings option to select third resolution
+2022-10-18 16:22:46 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec Select video size option
+2022-10-18 16:22:47 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec Select third Back Video Resolution:Full HD (21:9)
+2022-10-18 16:23:07 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec Start video recording
+2022-10-18 16:26:13 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec Stop video recording
+2022-10-18 16:26:14 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec Select settings option to select fourth resolution
+2022-10-18 16:26:20 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec Select video size option
+2022-10-18 16:26:21 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec Select fourth Back Video Resolution:Full HD (16:9)
+2022-10-18 16:26:41 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec Start video recording
+2022-10-18 16:29:43 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec Stop video recording
+2022-10-18 16:29:46 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec Select settings option to select fifth resolution
+2022-10-18 16:29:51 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec Select video size option
+2022-10-18 16:29:52 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec Select fifth  Back Video Resolution:Full HD (16:9 60fps)
+2022-10-18 16:30:13 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec Start video recording
+2022-10-18 16:33:15 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec Stop video recording
+2022-10-18 16:33:19 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec Select settings option to select sixth resolution
+2022-10-18 16:33:24 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec Select video size option
+2022-10-18 16:33:25 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec Select sixth  Back Video Resolution:1080x1080(1:1)
+2022-10-18 16:33:44 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec Start video recording
+2022-10-18 16:36:46 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec Stop video recording
+2022-10-18 16:36:49 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec Select settings option to select seventh resolution
+2022-10-18 16:36:54 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec Select video size option
+2022-10-18 16:36:56 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec Select seventh  Back Video Resolution:HD
+2022-10-18 16:37:16 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec Start video recording
+2022-10-18 16:40:17 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec Stop video recording
+2022-10-18 16:40:41 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec Launch file manager application and verify recorded video present  in uSD Card
+2022-10-18 16:40:58 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec Swipe up to select uSD card
+2022-10-18 16:41:01 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec Select SD card
+2022-10-18 16:41:08 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec switch to grid view mode to select DCIM folder
+2022-10-18 16:41:11 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec Select DCIM folder
+2022-10-18 16:41:14 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec Select camera folder
+2022-10-18 16:41:17 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec switch to list view mode 
+2022-10-18 16:41:21 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec Click More options
+2022-10-18 16:41:27 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec Click Select all
+2022-10-18 16:41:42 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec Test10_Bcam_video: 6 videos captured successfully
+2022-10-18 16:41:42 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-18 16:41:42 INFO   Sony_Xperia_10II_XQ_AU52.Test10 rearVideoRec Calling RecordedVideoPlayback() for Playing Highest record video, fast forward video play back scenario
+2022-10-18 16:41:42 INFO   Sony_Xperia_10II_XQ_AU52.Test10 RecordedVideoPlayback Launch Home screen and clear recent apps
+2022-10-18 16:41:42 INFO   Sony_Xperia_10II_XQ_AU52.Test10 RecordedVideoPlayback Launch file manager application for Front video play back
+2022-10-18 16:41:48 INFO   Sony_Xperia_10II_XQ_AU52.Test10 RecordedVideoPlayback Swipe up and select uSD card
+2022-10-18 16:41:51 INFO   Sony_Xperia_10II_XQ_AU52.Test10 RecordedVideoPlayback Select External storage
+2022-10-18 16:41:57 INFO   Sony_Xperia_10II_XQ_AU52.Test10 RecordedVideoPlayback switch to grid view mode 
+2022-10-18 16:42:00 INFO   Sony_Xperia_10II_XQ_AU52.Test10 RecordedVideoPlayback Swipe up and select DCIM folder
+2022-10-18 16:42:00 INFO   Sony_Xperia_10II_XQ_AU52.Test10 RecordedVideoPlayback Select DCIM folder
+2022-10-18 16:42:04 INFO   Sony_Xperia_10II_XQ_AU52.Test10 RecordedVideoPlayback Select Camera folder
+2022-10-18 16:42:07 INFO   Sony_Xperia_10II_XQ_AU52.Test10 RecordedVideoPlayback switch to list view mode 
+2022-10-18 16:42:10 INFO   Sony_Xperia_10II_XQ_AU52.Test10 RecordedVideoPlayback select more options
+2022-10-18 16:42:16 INFO   Sony_Xperia_10II_XQ_AU52.Test10 RecordedVideoPlayback Select External Storage
+2022-10-18 16:42:16 INFO   Sony_Xperia_10II_XQ_AU52.Test10 RecordedVideoPlayback Select Sort BY
+2022-10-18 16:42:22 INFO   Sony_Xperia_10II_XQ_AU52.Test10 RecordedVideoPlayback Select Largest first
+2022-10-18 16:42:25 INFO   Sony_Xperia_10II_XQ_AU52.Test10 RecordedVideoPlayback Click on first file to play highest recorded resolution video file
+2022-10-18 16:42:26 INFO   Sony_Xperia_10II_XQ_AU52.Test10 RecordedVideoPlayback Started video playback
+2022-10-18 16:42:56 INFO   Sony_Xperia_10II_XQ_AU52.Test10 RecordedVideoPlayback Tap Somewhere on Screen for contents to visible on Screen
+2022-10-18 16:42:56 INFO   Sony_Xperia_10II_XQ_AU52.Test10 RecordedVideoPlayback Fast forward video for 10 seconds
+2022-10-18 16:43:18 INFO   Sony_Xperia_10II_XQ_AU52.Test10 RecordedVideoPlayback Continue video playback
+2022-10-18 16:43:21 INFO   Sony_Xperia_10II_XQ_AU52.Test10 RecordedVideoPlayback Pause video playback
+2022-10-18 16:43:37 INFO   Sony_Xperia_10II_XQ_AU52.Test10 RecordedVideoPlayback Pass: Recorded Video play back and fast forward successfull 
+2022-10-18 16:43:37 INFO   Sony_Xperia_10II_XQ_AU52.Test10 RecordedVideoPlayback Pass: Recorded Video play back and fast forward successfull 
+2022-10-18 16:43:37 INFO   Sony_Xperia_10II_XQ_AU52.Test10 RecordedVideoPlayback ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-18 16:43:37 INFO   Sony_Xperia_10II_XQ_AU52.Test10 RecordedVideoPlayback Calling DataMovementOperation() to move recorded rear camer videos to Test10 Folder
+2022-10-18 16:43:37 INFO   Sony_Xperia_10II_XQ_AU52.Test10 DataMoveOperation Re-launch file manager application and select external storage for data move operation, select all rear camera videos present in camera folder and move to Test10 folder
+2022-10-18 16:43:44 INFO   Sony_Xperia_10II_XQ_AU52.Test10 DataMoveOperation Launching file manager application
+2022-10-18 16:43:47 INFO   Sony_Xperia_10II_XQ_AU52.Test10 DataMoveOperation Select external storage
+2022-10-18 16:43:53 INFO   Sony_Xperia_10II_XQ_AU52.Test10 DataMoveOperation switch to grid view mode and select DCIM  folder
+2022-10-18 16:43:56 INFO   Sony_Xperia_10II_XQ_AU52.Test10 DataMoveOperation Select DCIM folder
+2022-10-18 16:43:59 INFO   Sony_Xperia_10II_XQ_AU52.Test10 DataMoveOperation Select camera  folder
+2022-10-18 16:44:03 INFO   Sony_Xperia_10II_XQ_AU52.Test10 DataMoveOperation switch to list view mode 
+2022-10-18 16:44:06 INFO   Sony_Xperia_10II_XQ_AU52.Test10 DataMoveOperation Click More options
+2022-10-18 16:44:12 INFO   Sony_Xperia_10II_XQ_AU52.Test10 DataMoveOperation Click Select all
+2022-10-18 16:44:16 INFO   Sony_Xperia_10II_XQ_AU52.Test10 DataMoveOperation Click More options
+2022-10-18 16:44:23 INFO   Sony_Xperia_10II_XQ_AU52.Test10 DataMoveOperation Select move to option
+2022-10-18 16:44:30 INFO   Sony_Xperia_10II_XQ_AU52.Test10 DataMoveOperation Select uSD Card
+2022-10-18 16:44:36 INFO   Sony_Xperia_10II_XQ_AU52.Test10 DataMoveOperation Select ADD NEW Folder option
+2022-10-18 16:44:42 INFO   Sony_Xperia_10II_XQ_AU52.Test10 DataMoveOperation Name folder as Test10
+2022-10-18 16:44:49 INFO   Sony_Xperia_10II_XQ_AU52.Test10 DataMoveOperation Accept create folder
+2022-10-18 16:45:19 INFO   Sony_Xperia_10II_XQ_AU52.Test10 DataMoveOperation Cut paste  video files operation completed successfully
+2022-10-18 16:45:24 INFO   Sony_Xperia_10II_XQ_AU52.Test10 DataMoveOperation Test10: Data move operation completed successfully
+2022-10-18 16:45:35 INFO   Sony_Xperia_10II_XQ_AU52.Test10 DataMoveOperation Pass: Test10 Pass for data move operation successfully
+2022-10-18 16:45:35 INFO   Sony_Xperia_10II_XQ_AU52.Test10 RecordedVideoPlayback ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-18 16:45:35 INFO   Sony_Xperia_10II_XQ_AU52.Test10 RecordedVideoPlayback Calling copiedvideosPlayBack() for playing copied video file from Test1 folder
+2022-10-18 16:45:35 INFO   Sony_Xperia_10II_XQ_AU52.Test10 CopiedvideosPlayBack launch  Home screen and clear recent apps
+2022-10-18 16:45:35 INFO   Sony_Xperia_10II_XQ_AU52.Test10 CopiedvideosPlayBack Re-launch file manager application and select external storage for playing copied video files
+2022-10-18 16:45:42 INFO   Sony_Xperia_10II_XQ_AU52.Test10 CopiedvideosPlayBack Launching file manager application
+2022-10-18 16:45:45 INFO   Sony_Xperia_10II_XQ_AU52.Test10 CopiedvideosPlayBack Select external storage
+2022-10-18 16:45:49 INFO   Sony_Xperia_10II_XQ_AU52.Test10 CopiedvideosPlayBack switch to grid view mode to select Test1 folder
+2022-10-18 16:45:52 INFO   Sony_Xperia_10II_XQ_AU52.Test10 CopiedvideosPlayBack Select Test1 folder
+2022-10-18 16:45:56 INFO   Sony_Xperia_10II_XQ_AU52.Test10 CopiedvideosPlayBack Select tes_file folder
+2022-10-18 16:45:59 INFO   Sony_Xperia_10II_XQ_AU52.Test10 CopiedvideosPlayBack Select 1GB folder
+2022-10-18 16:46:02 INFO   Sony_Xperia_10II_XQ_AU52.Test10 CopiedvideosPlayBack Select video folder
+2022-10-18 16:46:05 INFO   Sony_Xperia_10II_XQ_AU52.Test10 CopiedvideosPlayBack switch to list view mode to select Test1 folder
+2022-10-18 16:46:09 INFO   Sony_Xperia_10II_XQ_AU52.Test10 CopiedvideosPlayBack Started video playback
+2022-10-18 16:46:29 INFO   Sony_Xperia_10II_XQ_AU52.Test10 CopiedvideosPlayBack Tap Somewhere on Screen for contents to visible on Screen
+2022-10-18 16:46:29 INFO   Sony_Xperia_10II_XQ_AU52.Test10 CopiedvideosPlayBack Click fast forward button for 10 seconds video forward
+2022-10-18 16:46:50 INFO   Sony_Xperia_10II_XQ_AU52.Test10 CopiedvideosPlayBack Pause video playback
+2022-10-18 16:46:53 INFO   Sony_Xperia_10II_XQ_AU52.Test10 CopiedvideosPlayBack Pass: 4K Video play back and fast forward is successful 
+2022-10-18 16:46:56 INFO   Sony_Xperia_10II_XQ_AU52.Test10 CopiedvideosPlayBack Select FHD 5.1 ( 1350 X 2560 ).webm file for video playback from uSD card(Test-->Videos)
+2022-10-18 16:46:56 INFO   Sony_Xperia_10II_XQ_AU52.Test10 CopiedvideosPlayBack Started video playback
+2022-10-18 16:47:16 INFO   Sony_Xperia_10II_XQ_AU52.Test10 CopiedvideosPlayBack Tap Somewhere on Screen for contents to visible on Screen
+2022-10-18 16:47:16 INFO   Sony_Xperia_10II_XQ_AU52.Test10 CopiedvideosPlayBack Click fast forward button for 10 seconds video forward
+2022-10-18 16:47:38 INFO   Sony_Xperia_10II_XQ_AU52.Test10 CopiedvideosPlayBack Continue video playback
+2022-10-18 16:47:38 INFO   Sony_Xperia_10II_XQ_AU52.Test10 CopiedvideosPlayBack Pause video playback
+2022-10-18 16:47:43 INFO   Sony_Xperia_10II_XQ_AU52.Test10 CopiedvideosPlayBack Pass: FHD Video play back and fast forward is successful 
+2022-10-18 16:47:43 INFO   Sony_Xperia_10II_XQ_AU52.Test10 CopiedvideosPlayBack ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-18 16:47:43 INFO   Sony_Xperia_10II_XQ_AU52.Test10 CopiedvideosPlayBack Final message: Pass Test10 Pass for rear camera  video recording, playback and fast forward highest resolution recorded video and playback and fast forward copied video files from Test1 folder and data move operation scenario
+2022-10-18 16:47:43 INFO   Sony_Xperia_10II_XQ_AU52.Test10 CopiedvideosPlayBack Test:End
+2022-10-18 16:47:43 INFO   Sony_Xperia_10II_XQ_AU52.Test10 CopiedvideosPlayBack ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

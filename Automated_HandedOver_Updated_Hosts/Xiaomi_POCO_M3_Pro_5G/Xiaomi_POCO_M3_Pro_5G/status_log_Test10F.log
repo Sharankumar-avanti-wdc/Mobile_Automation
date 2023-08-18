@@ -1,0 +1,99 @@
+2022-09-29 18:07:08 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F frontVideoRec Test:Start
+2022-09-29 18:07:08 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-09-29 18:07:08 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F frontVideoRec Test10F Scenario is as follows
+2022-09-29 18:07:08 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F frontVideoRec 1.Launch Camera application and start front camera video recording for all host applicable resolutions in uSD Card
+2022-09-29 18:07:08 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F frontVideoRec 2.Playback front Highest recorded video for 30 seconds, pause video playback, lock mobile and wait 30 seconds, unlock mobile and playback video from pause video duration
+2022-09-29 18:07:08 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F frontVideoRec Move front camera recorded video files to Test10F folder
+2022-09-29 18:07:08 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F frontVideoRec Setting up the appium desired capabilities
+2022-09-29 18:07:08 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-09-29 18:07:21 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F frontVideoRec Launch  Home screen
+2022-09-29 18:07:27 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F frontVideoRec Launch appium permission access pop-up
+2022-09-29 18:07:37 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F frontVideoRec No permission access pop-up found
+2022-09-29 18:07:37 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F frontVideoRec Launching settings application and set external storage as storage option for video recording.
+2022-09-29 18:07:44 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F frontVideoRec Select About phone
+2022-09-29 18:07:48 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F frontVideoRec Select storage option
+2022-09-29 18:07:54 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F frontVideoRec Select storage settings
+2022-09-29 18:07:57 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F frontVideoRec Select camera option
+2022-09-29 18:08:01 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F frontVideoRec Select storage as external storage
+2022-09-29 18:08:16 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F frontVideoRec Launch Camera application for front camera video recording
+2022-09-29 18:08:34 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F frontVideoRec No location permission access pop-up found: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: POCO M3 Pro 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: 7l9twofy8xwobqi7}, deviceApiLevel: 30, deviceManufacturer: Xiaomi, deviceModel: M2103K19PG, deviceName: 7l9twofy8xwobqi7, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: 7l9twofy8xwobqi7, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 103, takesScreenshot: true, udid: 7l9twofy8xwobqi7, viewportRect: {height: 2064, left: 0, top: 103, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: a9c71f6b-6797-4f3a-86db-f84e92e3382a
+*** Element info: {Using=xpath, value=//*[@resource-id='android:id/button2']}
+2022-09-29 18:08:36 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F frontVideoRec Test10F_Fcam_res: 2 resolutions supported
+2022-09-29 18:08:36 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F frontVideoRec Switch to video tab
+2022-09-29 18:08:39 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F frontVideoRec Switch to front video camera mode
+2022-09-29 18:08:42 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F frontVideoRec Switching to Front Video capture
+2022-09-29 18:08:42 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F frontVideoRec Select settings option to select resolution
+2022-09-29 18:08:45 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F frontVideoRec Select first highest  video resolution 4K fps
+2022-09-29 18:08:59 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F frontVideoRec Start video recording for specified duration
+2022-09-29 18:08:59 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F frontVideoRec Start Recording
+2022-09-29 18:11:59 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F frontVideoRec Stop video recording
+2022-09-29 18:12:00 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F frontVideoRec click setting option to select second highest video resolution
+2022-09-29 18:12:04 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F frontVideoRec Select second video resolution FHD 1080fps
+2022-09-29 18:12:17 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F frontVideoRec Start video recording for specified duration
+2022-09-29 18:15:18 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F frontVideoRec Stop recording 
+2022-09-29 18:15:19 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F frontVideoRec Stop Recording
+2022-09-29 18:15:24 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F frontVideoRec Pass: Test10F pass for front camera video recording
+2022-09-29 18:15:24 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-09-29 18:15:24 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F frontVideoRec Launch file manager application and verify recorded video capture uSD Card
+2022-09-29 18:15:41 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F frontVideoRec Swipe up to select uSD card
+2022-09-29 18:15:44 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F frontVideoRec Select SD card
+2022-09-29 18:15:50 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F frontVideoRec switch to grid view mode to select DCIM folder
+2022-09-29 18:15:54 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F frontVideoRec Select DCIM folder
+2022-09-29 18:15:57 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F frontVideoRec Select camera folder
+2022-09-29 18:16:00 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F frontVideoRec switch to list view mode 
+2022-09-29 18:16:04 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F frontVideoRec Click More options
+2022-09-29 18:16:10 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F frontVideoRec Click Select all
+2022-09-29 18:16:23 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F frontVideoRec Test10F_Fcam_video: 2 videos captured successfully
+2022-09-29 18:16:23 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F frontVideoRec Pass: Test10F pass for front camera video recording
+2022-09-29 18:16:23 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-09-29 18:16:33 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F frontVideoRec Calling VideoPlayBackForSleepWake()
+2022-09-29 18:16:33 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F VideoPlayBackForSleepWake Launch File Manager application and playback front recorded video from USD for 30 seconds, pause video playback, locking phone and unlock after 30 seconds delay and playback video from pause duration.
+2022-09-29 18:16:39 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F VideoPlayBackForSleepWake Launching file manager application
+2022-09-29 18:16:42 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F VideoPlayBackForSleepWake Select External Storage
+2022-09-29 18:16:47 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F VideoPlayBackForSleepWake switch to grid view mode to select DCIM folder
+2022-09-29 18:16:50 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F VideoPlayBackForSleepWake Select DCIM folder
+2022-09-29 18:16:54 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F VideoPlayBackForSleepWake Select Camera folder
+2022-09-29 18:16:57 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F VideoPlayBackForSleepWake switch to list view mode 
+2022-09-29 18:17:00 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F VideoPlayBackForSleepWake Select more options
+2022-09-29 18:17:10 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F VideoPlayBackForSleepWake Select Sort by Newest date first
+2022-09-29 18:17:14 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F VideoPlayBackForSleepWake Click on first file to play highest recorded resolution video file
+2022-09-29 18:17:14 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F VideoPlayBackForSleepWake Started video playback
+2022-09-29 18:17:34 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2022-09-29 18:17:34 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F VideoPlayBackForSleepWake Click pause video button
+2022-09-29 18:17:39 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F VideoPlayBackForSleepWake Lock Mobile with 30 seconds delay
+2022-09-29 18:18:09 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F VideoPlayBackForSleepWake Unlock Mobile 
+2022-09-29 18:18:09 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F VideoPlayBackForSleepWake PlayBack Video from Pause duartion
+2022-09-29 18:18:09 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2022-09-29 18:18:09 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F VideoPlayBackForSleepWake Fast forward video play back for 10 seconds
+2022-09-29 18:18:09 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F VideoPlayBackForSleepWake Pause video play back
+2022-09-29 18:18:22 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F VideoPlayBackForSleepWake Pass: Pass Test10F Pass for Pause Video Playback scenario
+2022-09-29 18:18:22 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-09-29 18:18:22 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-09-29 18:18:22 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F VideoPlayBackForSleepWake calling DatamoveOperation() to move front camera recorded videos files to Test10F folder
+2022-09-29 18:18:22 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F DataMoveOperation Re-launch file manager application and select external storage for data move operation, select all rear camera videos present in camera folder and move to Test10 folder
+2022-09-29 18:18:28 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F DataMoveOperation Launching file manager application
+2022-09-29 18:18:31 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F DataMoveOperation Select external storage
+2022-09-29 18:18:36 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F DataMoveOperation switch to grid view mode and select DCIM  folder
+2022-09-29 18:18:40 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F DataMoveOperation Select DCIM folder
+2022-09-29 18:18:44 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F DataMoveOperation Select camera  folder
+2022-09-29 18:18:47 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F DataMoveOperation switch to list view mode 
+2022-09-29 18:18:50 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F DataMoveOperation Click More options
+2022-09-29 18:18:56 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F DataMoveOperation Click Select all
+2022-09-29 18:19:00 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F DataMoveOperation Click More options
+2022-09-29 18:19:06 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F DataMoveOperation Select move to option
+2022-09-29 18:19:13 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F DataMoveOperation Select uSD Card
+2022-09-29 18:19:19 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F DataMoveOperation Select ADD NEW Folder option
+2022-09-29 18:19:26 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F DataMoveOperation Name folder as Test10F
+2022-09-29 18:19:32 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F DataMoveOperation Accept create folder
+2022-09-29 18:20:02 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F DataMoveOperation Cut paste  video files operation completed successfully
+2022-09-29 18:20:06 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F DataMoveOperation Test10F: Data move operation completed successfully
+2022-09-29 18:20:15 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F DataMoveOperation Pass: Test10F Pass for data move operation successfully
+2022-09-29 18:20:15 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F VideoPlayBackForSleepWake Final message: Pass Test10F Pass for front camera  video recording, Pause Video Playback scenario and data move operation scenario
+2022-09-29 18:20:15 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F VideoPlayBackForSleepWake Test:End
+2022-09-29 18:20:15 INFO   Xiaomi_POCO_M3_Pro_5G.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

@@ -1,0 +1,384 @@
+2022-11-11 14:43:54 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture Test: Start
+2022-11-11 14:43:54 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-11-11 14:43:54 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture Test9F Scenario is as follows:
+2022-11-11 14:43:54 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture 1.Launch camera application, set uSD as a Storage option, start Front camera image picture capture for all Host front resolutions
+2022-11-11 14:43:54 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture Setting up the appium desired capabilities
+2022-11-11 14:43:54 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-11-11 14:44:06 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture Launch Home screen and Clear recent apps
+2022-11-11 14:44:24 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture Launch Camera Application for Front camera picture Capture for all Host resolutions
+2022-11-11 14:44:26 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture If change to uSD card pop-up exists select Cancel
+2022-11-11 14:44:36 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy A13, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: RZ8T312G76D}, deviceApiLevel: 31, deviceManufacturer: samsung, deviceModel: SM-A135F, deviceName: RZ8T312G76D, deviceScreenDensity: 450, deviceScreenSize: 1080x2408, deviceUDID: RZ8T312G76D, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 66, takesScreenshot: true, udid: RZ8T312G76D, viewportRect: {height: 2142, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 2282b969-d108-4f61-a557-f14a70edfe3c
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2022-11-11 14:44:36 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture If Location access Permission Request Pop Exists Click on Cancel. 
+2022-11-11 14:44:46 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture Location access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy A13, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: RZ8T312G76D}, deviceApiLevel: 31, deviceManufacturer: samsung, deviceModel: SM-A135F, deviceName: RZ8T312G76D, deviceScreenDensity: 450, deviceScreenSize: 1080x2408, deviceUDID: RZ8T312G76D, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 66, takesScreenshot: true, udid: RZ8T312G76D, viewportRect: {height: 2142, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 2282b969-d108-4f61-a557-f14a70edfe3c
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2022-11-11 14:44:51 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture Test9F_Fcam_Image: 4 resolutions supported
+2022-11-11 14:44:51 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture Switch to front camera mode
+2022-11-11 14:44:54 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture Click Settings option
+2022-11-11 14:45:02 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture Swipe up and select storage location option
+2022-11-11 14:45:14 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture Select SD as storage option
+2022-11-11 14:45:22 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture Select Front Image Size
+2022-11-11 14:45:23 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture Select First front Image Resoution: 3:4
+2022-11-11 14:45:34 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture Capture Images
+2022-11-11 14:45:38 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image0
+2022-11-11 14:45:43 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image1
+2022-11-11 14:45:47 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image2
+2022-11-11 14:45:52 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image3
+2022-11-11 14:45:57 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image4
+2022-11-11 14:46:01 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image5
+2022-11-11 14:46:06 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image6
+2022-11-11 14:46:10 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image7
+2022-11-11 14:46:15 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image8
+2022-11-11 14:46:19 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image9
+2022-11-11 14:46:24 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image10
+2022-11-11 14:46:28 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image11
+2022-11-11 14:46:33 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image12
+2022-11-11 14:46:37 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image13
+2022-11-11 14:46:41 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image14
+2022-11-11 14:46:46 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image15
+2022-11-11 14:46:50 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image16
+2022-11-11 14:46:55 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image17
+2022-11-11 14:46:59 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image18
+2022-11-11 14:47:04 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image19
+2022-11-11 14:47:08 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image20
+2022-11-11 14:47:12 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image21
+2022-11-11 14:47:17 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image22
+2022-11-11 14:47:21 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image23
+2022-11-11 14:47:26 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image24
+2022-11-11 14:47:30 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image25
+2022-11-11 14:47:34 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image26
+2022-11-11 14:47:39 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image27
+2022-11-11 14:47:43 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image28
+2022-11-11 14:47:48 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image29
+2022-11-11 14:47:52 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image30
+2022-11-11 14:47:57 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image31
+2022-11-11 14:48:01 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image32
+2022-11-11 14:48:05 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image33
+2022-11-11 14:48:10 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image34
+2022-11-11 14:48:14 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image35
+2022-11-11 14:48:19 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image36
+2022-11-11 14:48:23 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image37
+2022-11-11 14:48:28 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image38
+2022-11-11 14:48:32 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image39
+2022-11-11 14:48:36 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image40
+2022-11-11 14:48:41 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image41
+2022-11-11 14:48:45 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image42
+2022-11-11 14:48:50 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image43
+2022-11-11 14:48:54 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image44
+2022-11-11 14:48:58 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image45
+2022-11-11 14:49:03 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image46
+2022-11-11 14:49:07 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image47
+2022-11-11 14:49:12 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image48
+2022-11-11 14:49:16 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image49
+2022-11-11 14:49:21 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image50
+2022-11-11 14:49:26 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image51
+2022-11-11 14:49:30 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image52
+2022-11-11 14:49:34 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image53
+2022-11-11 14:49:39 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image54
+2022-11-11 14:49:43 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image55
+2022-11-11 14:49:48 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image56
+2022-11-11 14:49:53 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image57
+2022-11-11 14:49:57 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image58
+2022-11-11 14:50:02 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image59
+2022-11-11 14:50:06 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image60
+2022-11-11 14:50:11 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image61
+2022-11-11 14:50:15 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image62
+2022-11-11 14:50:19 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image63
+2022-11-11 14:50:24 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image64
+2022-11-11 14:50:28 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image65
+2022-11-11 14:50:33 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image66
+2022-11-11 14:50:37 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image67
+2022-11-11 14:50:42 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image68
+2022-11-11 14:50:46 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image69
+2022-11-11 14:50:50 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image70
+2022-11-11 14:50:55 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image71
+2022-11-11 14:50:59 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image72
+2022-11-11 14:51:04 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image73
+2022-11-11 14:51:08 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking First resolution Image74
+2022-11-11 14:51:10 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture front camera first resolution:75 images Captured succesfull
+2022-11-11 14:51:10 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture Select Front Image Size
+2022-11-11 14:51:10 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture Select Second resolution: 9:16
+2022-11-11 14:51:18 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture Capture Images
+2022-11-11 14:51:23 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image0
+2022-11-11 14:51:27 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image1
+2022-11-11 14:51:31 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image2
+2022-11-11 14:51:36 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image3
+2022-11-11 14:51:40 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image4
+2022-11-11 14:51:45 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image5
+2022-11-11 14:51:49 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image6
+2022-11-11 14:51:53 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image7
+2022-11-11 14:51:58 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image8
+2022-11-11 14:52:02 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image9
+2022-11-11 14:52:07 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image10
+2022-11-11 14:52:11 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image11
+2022-11-11 14:52:15 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image12
+2022-11-11 14:52:20 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image13
+2022-11-11 14:52:24 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image14
+2022-11-11 14:52:29 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image15
+2022-11-11 14:52:33 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image16
+2022-11-11 14:52:37 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image17
+2022-11-11 14:52:42 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image18
+2022-11-11 14:52:46 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image19
+2022-11-11 14:52:51 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image20
+2022-11-11 14:52:55 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image21
+2022-11-11 14:53:00 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image22
+2022-11-11 14:53:05 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image23
+2022-11-11 14:53:09 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image24
+2022-11-11 14:53:13 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image25
+2022-11-11 14:53:18 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image26
+2022-11-11 14:53:22 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image27
+2022-11-11 14:53:27 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image28
+2022-11-11 14:53:31 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image29
+2022-11-11 14:53:35 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image30
+2022-11-11 14:53:40 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image31
+2022-11-11 14:53:44 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image32
+2022-11-11 14:53:49 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image33
+2022-11-11 14:53:53 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image34
+2022-11-11 14:53:57 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image35
+2022-11-11 14:54:02 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image36
+2022-11-11 14:54:06 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image37
+2022-11-11 14:54:10 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image38
+2022-11-11 14:54:15 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image39
+2022-11-11 14:54:19 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image40
+2022-11-11 14:54:24 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image41
+2022-11-11 14:54:28 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image42
+2022-11-11 14:54:32 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image43
+2022-11-11 14:54:37 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image44
+2022-11-11 14:54:41 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image45
+2022-11-11 14:54:46 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image46
+2022-11-11 14:54:50 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image47
+2022-11-11 14:54:54 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image48
+2022-11-11 14:54:59 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image49
+2022-11-11 14:55:03 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image50
+2022-11-11 14:55:07 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image51
+2022-11-11 14:55:12 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image52
+2022-11-11 14:55:16 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image53
+2022-11-11 14:55:21 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image54
+2022-11-11 14:55:25 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image55
+2022-11-11 14:55:29 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image56
+2022-11-11 14:55:34 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image57
+2022-11-11 14:55:38 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image58
+2022-11-11 14:55:43 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image59
+2022-11-11 14:55:47 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image60
+2022-11-11 14:55:51 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image61
+2022-11-11 14:55:56 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image62
+2022-11-11 14:56:00 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image63
+2022-11-11 14:56:05 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image64
+2022-11-11 14:56:09 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image65
+2022-11-11 14:56:13 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image66
+2022-11-11 14:56:18 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image67
+2022-11-11 14:56:22 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image68
+2022-11-11 14:56:26 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image69
+2022-11-11 14:56:31 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image70
+2022-11-11 14:56:35 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image71
+2022-11-11 14:56:39 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image72
+2022-11-11 14:56:44 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image73
+2022-11-11 14:56:48 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Second resolution Image74
+2022-11-11 14:56:50 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture front camera first resolution:75 images Captured succesfull
+2022-11-11 14:56:50 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture Select Front Image Size
+2022-11-11 14:56:51 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture Select third Image Resoution: 1:1
+2022-11-11 14:56:59 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture Capture Images
+2022-11-11 14:57:04 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image0
+2022-11-11 14:57:08 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image1
+2022-11-11 14:57:12 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image2
+2022-11-11 14:57:17 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image3
+2022-11-11 14:57:21 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image4
+2022-11-11 14:57:27 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image5
+2022-11-11 14:57:31 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image6
+2022-11-11 14:57:35 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image7
+2022-11-11 14:57:40 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image8
+2022-11-11 14:57:44 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image9
+2022-11-11 14:57:49 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image10
+2022-11-11 14:57:53 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image11
+2022-11-11 14:57:57 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image12
+2022-11-11 14:58:02 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image13
+2022-11-11 14:58:06 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image14
+2022-11-11 14:58:11 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image15
+2022-11-11 14:58:16 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image16
+2022-11-11 14:58:20 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image17
+2022-11-11 14:58:25 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image18
+2022-11-11 14:58:29 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image19
+2022-11-11 14:58:34 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image20
+2022-11-11 14:58:38 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image21
+2022-11-11 14:58:42 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image22
+2022-11-11 14:58:47 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image23
+2022-11-11 14:58:51 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image24
+2022-11-11 14:58:56 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image25
+2022-11-11 14:59:00 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image26
+2022-11-11 14:59:05 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image27
+2022-11-11 14:59:10 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image28
+2022-11-11 14:59:14 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image29
+2022-11-11 14:59:18 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image30
+2022-11-11 14:59:23 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image31
+2022-11-11 14:59:27 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image32
+2022-11-11 14:59:32 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image33
+2022-11-11 14:59:36 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image34
+2022-11-11 14:59:40 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image35
+2022-11-11 14:59:45 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image36
+2022-11-11 14:59:49 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image37
+2022-11-11 14:59:54 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image38
+2022-11-11 14:59:58 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image39
+2022-11-11 15:00:02 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image40
+2022-11-11 15:00:07 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image41
+2022-11-11 15:00:11 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image42
+2022-11-11 15:00:16 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image43
+2022-11-11 15:00:21 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image44
+2022-11-11 15:00:25 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image45
+2022-11-11 15:00:30 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image46
+2022-11-11 15:00:35 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image47
+2022-11-11 15:00:39 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image48
+2022-11-11 15:00:45 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image49
+2022-11-11 15:00:49 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image50
+2022-11-11 15:00:53 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image51
+2022-11-11 15:00:58 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image52
+2022-11-11 15:01:03 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image53
+2022-11-11 15:01:07 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image54
+2022-11-11 15:01:12 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image55
+2022-11-11 15:01:17 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image56
+2022-11-11 15:01:22 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image57
+2022-11-11 15:01:27 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image58
+2022-11-11 15:01:31 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image59
+2022-11-11 15:01:35 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image60
+2022-11-11 15:01:40 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image61
+2022-11-11 15:01:44 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image62
+2022-11-11 15:01:49 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image63
+2022-11-11 15:01:53 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image64
+2022-11-11 15:01:57 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image65
+2022-11-11 15:02:02 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image66
+2022-11-11 15:02:06 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image67
+2022-11-11 15:02:11 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image68
+2022-11-11 15:02:15 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image69
+2022-11-11 15:02:19 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image70
+2022-11-11 15:02:24 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image71
+2022-11-11 15:02:28 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image72
+2022-11-11 15:02:33 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image73
+2022-11-11 15:02:37 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Third resolution Image74
+2022-11-11 15:02:39 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture front camera first resolution:75 images Captured succesfull
+2022-11-11 15:02:39 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture Select Front Image Size
+2022-11-11 15:02:39 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture Select fourth resolution: Full
+2022-11-11 15:02:47 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture Capture Images
+2022-11-11 15:02:51 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image0
+2022-11-11 15:02:56 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image1
+2022-11-11 15:03:00 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image2
+2022-11-11 15:03:05 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image3
+2022-11-11 15:03:09 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image4
+2022-11-11 15:03:13 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image5
+2022-11-11 15:03:18 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image6
+2022-11-11 15:03:22 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image7
+2022-11-11 15:03:27 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image8
+2022-11-11 15:03:31 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image9
+2022-11-11 15:03:35 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image10
+2022-11-11 15:03:40 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image11
+2022-11-11 15:03:44 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image12
+2022-11-11 15:03:49 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image13
+2022-11-11 15:03:53 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image14
+2022-11-11 15:03:57 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image15
+2022-11-11 15:04:02 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image16
+2022-11-11 15:04:06 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image17
+2022-11-11 15:04:11 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image18
+2022-11-11 15:04:16 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image19
+2022-11-11 15:04:20 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image20
+2022-11-11 15:04:24 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image21
+2022-11-11 15:04:29 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image22
+2022-11-11 15:04:33 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image23
+2022-11-11 15:04:38 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image24
+2022-11-11 15:04:42 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image25
+2022-11-11 15:04:46 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image26
+2022-11-11 15:04:51 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image27
+2022-11-11 15:04:55 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image28
+2022-11-11 15:05:00 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image29
+2022-11-11 15:05:04 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image30
+2022-11-11 15:05:08 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image31
+2022-11-11 15:05:13 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image32
+2022-11-11 15:05:17 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image33
+2022-11-11 15:05:21 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image34
+2022-11-11 15:05:26 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image35
+2022-11-11 15:05:30 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image36
+2022-11-11 15:05:35 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image37
+2022-11-11 15:05:39 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image38
+2022-11-11 15:05:43 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image39
+2022-11-11 15:05:48 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image40
+2022-11-11 15:05:52 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image41
+2022-11-11 15:05:56 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image42
+2022-11-11 15:06:01 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image43
+2022-11-11 15:06:05 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image44
+2022-11-11 15:06:10 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image45
+2022-11-11 15:06:14 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image46
+2022-11-11 15:06:18 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image47
+2022-11-11 15:06:24 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image48
+2022-11-11 15:06:28 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image49
+2022-11-11 15:06:33 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image50
+2022-11-11 15:06:37 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image51
+2022-11-11 15:06:42 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image52
+2022-11-11 15:06:46 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image53
+2022-11-11 15:06:50 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image54
+2022-11-11 15:06:55 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image55
+2022-11-11 15:06:59 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image56
+2022-11-11 15:07:04 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image57
+2022-11-11 15:07:08 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image58
+2022-11-11 15:07:12 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image59
+2022-11-11 15:07:17 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image60
+2022-11-11 15:07:21 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image61
+2022-11-11 15:07:26 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image62
+2022-11-11 15:07:30 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image63
+2022-11-11 15:07:34 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image64
+2022-11-11 15:07:39 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image65
+2022-11-11 15:07:43 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image66
+2022-11-11 15:07:48 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image67
+2022-11-11 15:07:53 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image68
+2022-11-11 15:07:57 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image69
+2022-11-11 15:08:02 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image70
+2022-11-11 15:08:06 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image71
+2022-11-11 15:08:10 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image72
+2022-11-11 15:08:15 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image73
+2022-11-11 15:08:19 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture clicking Fourth resolution Image74
+2022-11-11 15:08:21 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture front camera second resolution:75 images Captured succesfull
+2022-11-11 15:08:21 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture Total Count value:300 images to be Captured 
+2022-11-11 15:08:21 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture Switch to defalut back camera mode
+2022-11-11 15:08:31 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture Launch file manager application and verify recorded video present  in uSD Card
+2022-11-11 15:08:38 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture Swipe up to select uSD card
+2022-11-11 15:08:38 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture Select SD card
+2022-11-11 15:08:45 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture Swipe up to select DCIM folder
+2022-11-11 15:08:45 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture Select DCIM folder
+2022-11-11 15:08:48 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture Select camera folder
+2022-11-11 15:08:51 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture Select More Options 
+2022-11-11 15:08:57 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture Select Edit options
+2022-11-11 15:09:04 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture Click On Select All Options
+2022-11-11 15:09:16 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture Fail: Test9F fail for Fail Count Issue
+2022-11-11 15:09:16 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture Fail: Test9F fail for rear Image capture
+2022-11-11 15:09:16 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-11-11 15:09:16 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture Calling DataMoveOperation
+2022-11-11 15:09:23 INFO   Samsung_Galaxy_A13.Test9F DataMoveOperation launch file manager application select uSD card-->DCIM folder-->Camera folder-->Select all back camera front camera videos create Test10 and cut paste all videos in BCFC_Cameravideos folder
+2022-11-11 15:09:29 INFO   Samsung_Galaxy_A13.Test9F DataMoveOperation Swipe up to select uSD card
+2022-11-11 15:09:29 INFO   Samsung_Galaxy_A13.Test9F DataMoveOperation Select SD card
+2022-11-11 15:09:36 INFO   Samsung_Galaxy_A13.Test9F DataMoveOperation Select DCIM folder
+2022-11-11 15:09:40 INFO   Samsung_Galaxy_A13.Test9F DataMoveOperation Select camera folder
+2022-11-11 15:09:43 INFO   Samsung_Galaxy_A13.Test9F DataMoveOperation Select More Options 
+2022-11-11 15:09:48 INFO   Samsung_Galaxy_A13.Test9F DataMoveOperation Select Edit options
+2022-11-11 15:09:55 INFO   Samsung_Galaxy_A13.Test9F DataMoveOperation Click On Select All Options
+2022-11-11 15:09:59 INFO   Samsung_Galaxy_A13.Test9F DataMoveOperation Select move to option
+2022-11-11 15:10:12 INFO   Samsung_Galaxy_A13.Test9F DataMoveOperation Select uSD Card
+2022-11-11 15:10:18 INFO   Samsung_Galaxy_A13.Test9F DataMoveOperation Select More Options 
+2022-11-11 15:10:23 INFO   Samsung_Galaxy_A13.Test9F DataMoveOperation create folder
+2022-11-11 15:10:27 INFO   Samsung_Galaxy_A13.Test9F DataMoveOperation Name folder as Test9F
+2022-11-11 15:10:34 INFO   Samsung_Galaxy_A13.Test9F DataMoveOperation click create
+2022-11-11 15:10:36 INFO   Samsung_Galaxy_A13.Test9F DataMoveOperation Select DCIM folder
+2022-11-11 15:10:40 INFO   Samsung_Galaxy_A13.Test9F DataMoveOperation Move here
+2022-11-11 15:12:40 INFO   Samsung_Galaxy_A13.Test9F DataMoveOperation Cut paste  video files operation completed successfully
+2022-11-11 15:12:42 INFO   Samsung_Galaxy_A13.Test9F DataMoveOperation Pass: Test9F Pass for data move operation successfully
+2022-11-11 15:12:42 INFO   Samsung_Galaxy_A13.Test9F DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-11-11 15:12:42 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture Final message: Fail TestF9 for rear camera image capture
+2022-11-11 15:12:42 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture Test: End
+2022-11-11 15:12:42 INFO   Samsung_Galaxy_A13.Test9F frontPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

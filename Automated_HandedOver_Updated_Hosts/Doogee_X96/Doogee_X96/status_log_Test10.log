@@ -1,0 +1,127 @@
+2023-02-10 17:02:45 INFO   Doogee_X96.Test10 rearVideoRec Test: Start
+2023-02-10 17:02:45 INFO   Doogee_X96.Test10 rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-10 17:02:45 INFO   Doogee_X96.Test10 rearVideoRec Test10 Scenario is as follows
+2023-02-10 17:02:45 INFO   Doogee_X96.Test10 rearVideoRec 1.Launch Camera application and start back camera video recording for all host applicable resolutions in uSD Card
+2023-02-10 17:02:45 INFO   Doogee_X96.Test10 rearVideoRec 2.Playback Highest resolution recorded video from USD Card, fast forward playback and pause video scenario 
+2023-02-10 17:02:45 INFO   Doogee_X96.Test10 rearVideoRec 3.Playback copied videos from Test1 folder, fast forward and pause scenario
+2023-02-10 17:02:45 INFO   Doogee_X96.Test10 rearVideoRec 4.Move recorded videos from Exteranl storage-->DCIM-->Camera folder to Test10 folder in external storage
+2023-02-10 17:02:45 INFO   Doogee_X96.Test10 rearVideoRec Setting up the appium desired capabilities
+2023-02-10 17:02:45 INFO   Doogee_X96.Test10 rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-10 17:03:04 INFO   Doogee_X96.Test10 rearVideoRec Launch Home screen
+2023-02-10 17:03:15 INFO   Doogee_X96.Test10 rearVideoRec Clearing Recent Apps
+2023-02-10 17:03:21 INFO   Doogee_X96.Test10 rearVideoRec Launch Camera application for rear camera video recording
+2023-02-10 17:03:27 INFO   Doogee_X96.Test10 rearVideoRec Test10_Bcam_res: 3 resolutions supported
+2023-02-10 17:03:27 INFO   Doogee_X96.Test10 rearVideoRec IF Change to uSD card notification pop-up exists select Cancel Option
+2023-02-10 17:03:37 INFO   Doogee_X96.Test10 rearVideoRec change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: X96, newCommandTimeout: 1200, platformName: android, platformVersion: 12, udid: X96EEA0000000002740}, deviceApiLevel: 30, deviceManufacturer: DOOGEE, deviceModel: X96, deviceName: X96EEA0000000002740, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: X96EEA0000000002740, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 58, takesScreenshot: true, udid: X96EEA0000000002740, viewportRect: {height: 1390, left: 0, top: 58, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: d7c01ef3-9fdd-4f11-b0b5-09119b566ca1
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("DENY")}
+2023-02-10 17:03:37 INFO   Doogee_X96.Test10 rearVideoRec ACCEPT START CAPTURE POP-UP
+2023-02-10 17:03:47 INFO   Doogee_X96.Test10 rearVideoRec START CAPTURE POP-UP element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: X96, newCommandTimeout: 1200, platformName: android, platformVersion: 12, udid: X96EEA0000000002740}, deviceApiLevel: 30, deviceManufacturer: DOOGEE, deviceModel: X96, deviceName: X96EEA0000000002740, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: X96EEA0000000002740, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 58, takesScreenshot: true, udid: X96EEA0000000002740, viewportRect: {height: 1390, left: 0, top: 58, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: d7c01ef3-9fdd-4f11-b0b5-09119b566ca1
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("START CAPTURE")}
+2023-02-10 17:03:47 INFO   Doogee_X96.Test10 rearVideoRec Switch to rear Camera Mode if current Exiting camera is Front camera Mode
+2023-02-10 17:03:57 INFO   Doogee_X96.Test10 rearVideoRec Currently camera is already in rear camera mode no need to switch
+2023-02-10 17:03:57 INFO   Doogee_X96.Test10 rearVideoRec Select settings option
+2023-02-10 17:04:03 INFO   Doogee_X96.Test10 rearVideoRec Select Storagepath option
+2023-02-10 17:04:09 INFO   Doogee_X96.Test10 rearVideoRec Select SD as storage option
+2023-02-10 17:04:17 INFO   Doogee_X96.Test10 rearVideoRec Switch to video recording mode
+2023-02-10 17:04:28 INFO   Doogee_X96.Test10 rearVideoRec Select settings option
+2023-02-10 17:04:33 INFO   Doogee_X96.Test10 rearVideoRec Select Video size option
+2023-02-10 17:04:39 INFO   Doogee_X96.Test10 rearVideoRec Select first highest rear camera video resolution: HD 1080p
+2023-02-10 17:04:49 INFO   Doogee_X96.Test10 rearVideoRec Start video recording
+2023-02-10 17:07:49 INFO   Doogee_X96.Test10 rearVideoRec Stop video recording
+2023-02-10 17:07:55 INFO   Doogee_X96.Test10 rearVideoRec Select settings option
+2023-02-10 17:08:01 INFO   Doogee_X96.Test10 rearVideoRec Select Video size option
+2023-02-10 17:08:07 INFO   Doogee_X96.Test10 rearVideoRec Select second highest rear camera video resolution: HD 720p
+2023-02-10 17:08:17 INFO   Doogee_X96.Test10 rearVideoRec Start video recording
+2023-02-10 17:11:17 INFO   Doogee_X96.Test10 rearVideoRec Stop video recording
+2023-02-10 17:11:23 INFO   Doogee_X96.Test10 rearVideoRec Select settings option
+2023-02-10 17:11:29 INFO   Doogee_X96.Test10 rearVideoRec Select Video quality option
+2023-02-10 17:11:35 INFO   Doogee_X96.Test10 rearVideoRec Select third highest rear camera video resolution: SD 480p
+2023-02-10 17:11:45 INFO   Doogee_X96.Test10 rearVideoRec Start video recording
+2023-02-10 17:14:45 INFO   Doogee_X96.Test10 rearVideoRec Stop video recording
+2023-02-10 17:14:50 INFO   Doogee_X96.Test10 rearVideoRec Switch to back to photo mode
+2023-02-10 17:15:05 INFO   Doogee_X96.Test10 rearVideoRec Pass: Rear video recording is successfull
+2023-02-10 17:15:05 INFO   Doogee_X96.Test10 rearVideoRec Launch File Manager Application to verify captured videos in uSD card
+2023-02-10 17:15:07 INFO   Doogee_X96.Test10 rearVideoRec Swipe up to select uSD card
+2023-02-10 17:15:11 INFO   Doogee_X96.Test10 rearVideoRec Select SD card
+2023-02-10 17:15:17 INFO   Doogee_X96.Test10 rearVideoRec switch to grid view mode to select DCIM folder
+2023-02-10 17:15:21 INFO   Doogee_X96.Test10 rearVideoRec Select DCIM folder
+2023-02-10 17:15:24 INFO   Doogee_X96.Test10 rearVideoRec Select camera folder
+2023-02-10 17:15:27 INFO   Doogee_X96.Test10 rearVideoRec switch to list view mode 
+2023-02-10 17:15:33 INFO   Doogee_X96.Test10 rearVideoRec Click More options
+2023-02-10 17:15:39 INFO   Doogee_X96.Test10 rearVideoRec Click Select all
+2023-02-10 17:15:49 INFO   Doogee_X96.Test10 rearVideoRec Test10_Bcam_video: 3 Videos captured successfull
+2023-02-10 17:15:49 INFO   Doogee_X96.Test10 rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-10 17:15:49 INFO   Doogee_X96.Test10 rearVideoRec Calling RecordedVideoPlayback() for Playing Highest record video, fast forward video play back scenario
+2023-02-10 17:15:55 INFO   Doogee_X96.Test10 RecordedVideoPlayback Launch Camera Application for rear camera video recording
+2023-02-10 17:16:02 INFO   Doogee_X96.Test10 RecordedVideoPlayback Swipe up and select uSD card
+2023-02-10 17:16:05 INFO   Doogee_X96.Test10 RecordedVideoPlayback Select External storage
+2023-02-10 17:16:11 INFO   Doogee_X96.Test10 RecordedVideoPlayback switch to grid view mode 
+2023-02-10 17:16:14 INFO   Doogee_X96.Test10 RecordedVideoPlayback Swipe up and select DCIM folder
+2023-02-10 17:16:14 INFO   Doogee_X96.Test10 RecordedVideoPlayback Select DCIM folder
+2023-02-10 17:16:17 INFO   Doogee_X96.Test10 RecordedVideoPlayback Select Camera folder
+2023-02-10 17:16:20 INFO   Doogee_X96.Test10 RecordedVideoPlayback switch to list view mode 
+2023-02-10 17:16:24 INFO   Doogee_X96.Test10 RecordedVideoPlayback select more options
+2023-02-10 17:16:29 INFO   Doogee_X96.Test10 RecordedVideoPlayback Select Sort BY
+2023-02-10 17:16:33 INFO   Doogee_X96.Test10 RecordedVideoPlayback Select Largest first
+2023-02-10 17:16:36 INFO   Doogee_X96.Test10 RecordedVideoPlayback Click on first file to play highest recorded resolution video file
+2023-02-10 17:16:36 INFO   Doogee_X96.Test10 RecordedVideoPlayback Started video playback
+2023-02-10 17:16:56 INFO   Doogee_X96.Test10 RecordedVideoPlayback Tap Somewhere on Screen for contents to visible on Screen
+2023-02-10 17:16:56 INFO   Doogee_X96.Test10 RecordedVideoPlayback Fast forward video for 10 seconds
+2023-02-10 17:16:57 INFO   Doogee_X96.Test10 RecordedVideoPlayback Continue video playback
+2023-02-10 17:17:30 INFO   Doogee_X96.Test10 RecordedVideoPlayback Pass: Recorded Video playback and fast forward scenario successfull
+2023-02-10 17:17:30 INFO   Doogee_X96.Test10 RecordedVideoPlayback ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-10 17:17:30 INFO   Doogee_X96.Test10 RecordedVideoPlayback Calling DataMovementOperation() to move recorded rear camer videos to Test10 Folder
+2023-02-10 17:17:30 INFO   Doogee_X96.Test10 DataMoveOperation launch file manager application select uSD card-->DCIM folder-->Camera folder-->Select all back camera front camera videos create Test10 and cut paste all videos in Test10 folder
+2023-02-10 17:17:47 INFO   Doogee_X96.Test10 DataMoveOperation click on browse option
+2023-02-10 17:17:50 INFO   Doogee_X96.Test10 DataMoveOperation Swipe up to select uSD card
+2023-02-10 17:17:53 INFO   Doogee_X96.Test10 DataMoveOperation Select SD card
+2023-02-10 17:18:00 INFO   Doogee_X96.Test10 DataMoveOperation Select DCIM folder
+2023-02-10 17:18:03 INFO   Doogee_X96.Test10 DataMoveOperation Select DCIM folder
+2023-02-10 17:18:06 INFO   Doogee_X96.Test10 DataMoveOperation Select camera folder
+2023-02-10 17:18:09 INFO   Doogee_X96.Test10 DataMoveOperation Click More options
+2023-02-10 17:18:15 INFO   Doogee_X96.Test10 DataMoveOperation Click Select all
+2023-02-10 17:18:19 INFO   Doogee_X96.Test10 DataMoveOperation Click More options
+2023-02-10 17:18:26 INFO   Doogee_X96.Test10 DataMoveOperation Select move to option
+2023-02-10 17:18:32 INFO   Doogee_X96.Test10 DataMoveOperation Select uSD Card
+2023-02-10 17:18:39 INFO   Doogee_X96.Test10 DataMoveOperation Select ADD NEW Folder option
+2023-02-10 17:18:45 INFO   Doogee_X96.Test10 DataMoveOperation Name folder as Test10
+2023-02-10 17:18:51 INFO   Doogee_X96.Test10 DataMoveOperation Accept create folder
+2023-02-10 17:20:53 INFO   Doogee_X96.Test10 DataMoveOperation Cut paste  video files operation completed successfully
+2023-02-10 17:20:58 INFO   Doogee_X96.Test10 DataMoveOperation Pass: Test10 Pass for data move operation successfully
+2023-02-10 17:20:58 INFO   Doogee_X96.Test10 DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-10 17:20:58 INFO   Doogee_X96.Test10 RecordedVideoPlayback Calling copiedvideosPlayBack() for playing copied video file from Test1 folder
+2023-02-10 17:20:58 INFO   Doogee_X96.Test10 CopiedvideosPlayBack Launch file manager application, select uSD card, select Test1 folder, select Videos folder and Play copied videos and fast forward the same 
+2023-02-10 17:21:08 INFO   Doogee_X96.Test10 CopiedvideosPlayBack Select external storage
+2023-02-10 17:21:13 INFO   Doogee_X96.Test10 CopiedvideosPlayBack switch to gird view mode 
+2023-02-10 17:21:16 INFO   Doogee_X96.Test10 CopiedvideosPlayBack Select Test1 folder
+2023-02-10 17:21:19 INFO   Doogee_X96.Test10 CopiedvideosPlayBack Select test_filefolder
+2023-02-10 17:21:23 INFO   Doogee_X96.Test10 CopiedvideosPlayBack Select OneGB folder
+2023-02-10 17:21:26 INFO   Doogee_X96.Test10 CopiedvideosPlayBack Select video folder
+2023-02-10 17:21:29 INFO   Doogee_X96.Test10 CopiedvideosPlayBack switch to list view mode 
+2023-02-10 17:21:32 INFO   Doogee_X96.Test10 CopiedvideosPlayBack Select LG_4K_DEMO_HDR_2018_(60FPS)_ELBA(480p).mp4 file for video playback
+2023-02-10 17:21:32 INFO   Doogee_X96.Test10 CopiedvideosPlayBack Started video playback
+2023-02-10 17:21:52 INFO   Doogee_X96.Test10 CopiedvideosPlayBack Tap Somewhere on Screen for contents to visible on Screen
+2023-02-10 17:21:52 INFO   Doogee_X96.Test10 CopiedvideosPlayBack Click fast forward button for 10 seconds video forward
+2023-02-10 17:22:16 INFO   Doogee_X96.Test10 CopiedvideosPlayBack Pass: 4K Video play back and fast forward is successful 
+2023-02-10 17:22:19 INFO   Doogee_X96.Test10 CopiedvideosPlayBack Select FHD 5.1 ( 1350 X 2560 ).webm file for video playback
+2023-02-10 17:22:19 INFO   Doogee_X96.Test10 CopiedvideosPlayBack Started video playback
+2023-02-10 17:22:39 INFO   Doogee_X96.Test10 CopiedvideosPlayBack Tap Somewhere on Screen for contents to visible on Screen
+2023-02-10 17:22:40 INFO   Doogee_X96.Test10 CopiedvideosPlayBack Click fast forward button for 10 seconds video forward
+2023-02-10 17:22:41 INFO   Doogee_X96.Test10 CopiedvideosPlayBack Click pause button to stop video
+2023-02-10 17:22:51 INFO   Doogee_X96.Test10 CopiedvideosPlayBack Pass: FHD Video play back and fast forward is successful 
+2023-02-10 17:22:51 INFO   Doogee_X96.Test10 CopiedvideosPlayBack ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-10 17:22:51 INFO   Doogee_X96.Test10 CopiedvideosPlayBack Final Message: Pass Test10 Pass for Playing Copied Video files, recorded video file and fast forward video play back scenario 
+2023-02-10 17:22:51 INFO   Doogee_X96.Test10 CopiedvideosPlayBack Test: End
+2023-02-10 17:22:51 INFO   Doogee_X96.Test10 CopiedvideosPlayBack ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

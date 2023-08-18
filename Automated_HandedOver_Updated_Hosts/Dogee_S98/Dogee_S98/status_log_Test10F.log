@@ -1,0 +1,106 @@
+2023-02-08 11:07:26 INFO   Dogee_S98.Test10F rearVideoRec Test: Start
+2023-02-08 11:07:26 INFO   Dogee_S98.Test10F rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-08 11:07:26 INFO   Dogee_S98.Test10F rearVideoRec Test10F Scenario is as follows
+2023-02-08 11:07:26 INFO   Dogee_S98.Test10F rearVideoRec 1.Launch Camera application and start back camera video recording for all host applicable resolutions in uSD Card
+2023-02-08 11:07:26 INFO   Dogee_S98.Test10F rearVideoRec 2.Playback Highest resolution recorded video from USD Card, fast forward playback and pause video scenario 
+2023-02-08 11:07:26 INFO   Dogee_S98.Test10F rearVideoRec 3.Playback copied videos from Test1 folder, fast forward and pause scenario
+2023-02-08 11:07:26 INFO   Dogee_S98.Test10F rearVideoRec Setting up the appium desired capabilities
+2023-02-08 11:07:26 INFO   Dogee_S98.Test10F rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-08 11:07:46 INFO   Dogee_S98.Test10F rearVideoRec Launch home screen
+2023-02-08 11:07:57 INFO   Dogee_S98.Test10F rearVideoRec Clearing Recent Apps
+2023-02-08 11:08:06 INFO   Dogee_S98.Test10F rearVideoRec Launch Camera application for front camera video recording
+2023-02-08 11:08:12 INFO   Dogee_S98.Test10F rearVideoRec Test10F_Fcam_res: 4 resolutions supported
+2023-02-08 11:08:12 INFO   Dogee_S98.Test10F rearVideoRec IF Change to uSD card notification pop-up exists select Cancel Option
+2023-02-08 11:08:22 INFO   Dogee_S98.Test10F rearVideoRec change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: S98, newCommandTimeout: 1200, platformName: android, platformVersion: 12, udid: S980000000000004906}, deviceApiLevel: 31, deviceManufacturer: DOOGEE, deviceModel: S98, deviceName: S980000000000004906, deviceScreenDensity: 480, deviceScreenSize: 1080x2340, deviceUDID: S980000000000004906, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 108, takesScreenshot: true, udid: S980000000000004906, viewportRect: {height: 2007, left: 0, top: 108, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: caf2f593-89e7-4f88-ab3b-0344b7a3949a
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("DON’T ALLOW")}
+2023-02-08 11:08:22 INFO   Dogee_S98.Test10F rearVideoRec Select settings option
+2023-02-08 11:08:28 INFO   Dogee_S98.Test10F rearVideoRec Select Storagepath option
+2023-02-08 11:08:34 INFO   Dogee_S98.Test10F rearVideoRec Select SD as storage option
+2023-02-08 11:08:39 INFO   Dogee_S98.Test10F rearVideoRec Switch to front camera mode
+2023-02-08 11:08:44 INFO   Dogee_S98.Test10F rearVideoRec Switch to video recording mode
+2023-02-08 11:08:54 INFO   Dogee_S98.Test10F rearVideoRec Select settings option
+2023-02-08 11:09:00 INFO   Dogee_S98.Test10F rearVideoRec Select Video quality option
+2023-02-08 11:09:05 INFO   Dogee_S98.Test10F rearVideoRec Select first highest front camera video resolution: FHD
+2023-02-08 11:09:15 INFO   Dogee_S98.Test10F rearVideoRec Start video recording
+2023-02-08 11:12:15 INFO   Dogee_S98.Test10F rearVideoRec Stop video recording
+2023-02-08 11:12:21 INFO   Dogee_S98.Test10F rearVideoRec Select settings option
+2023-02-08 11:12:26 INFO   Dogee_S98.Test10F rearVideoRec Select Video quality option
+2023-02-08 11:12:32 INFO   Dogee_S98.Test10F rearVideoRec Select second highest front camera video resolution: FHD
+2023-02-08 11:12:39 INFO   Dogee_S98.Test10F rearVideoRec Start video recording
+2023-02-08 11:15:40 INFO   Dogee_S98.Test10F rearVideoRec Stop video recording
+2023-02-08 11:15:45 INFO   Dogee_S98.Test10F rearVideoRec Select settings option
+2023-02-08 11:15:50 INFO   Dogee_S98.Test10F rearVideoRec Select Video quality option
+2023-02-08 11:15:56 INFO   Dogee_S98.Test10F rearVideoRec Select third highest front camera video resolution: HD
+2023-02-08 11:16:04 INFO   Dogee_S98.Test10F rearVideoRec Start video recording
+2023-02-08 11:19:04 INFO   Dogee_S98.Test10F rearVideoRec Stop video recording
+2023-02-08 11:19:09 INFO   Dogee_S98.Test10F rearVideoRec Select settings option
+2023-02-08 11:19:15 INFO   Dogee_S98.Test10F rearVideoRec Select Video quality option
+2023-02-08 11:19:20 INFO   Dogee_S98.Test10F rearVideoRec Select fourth highest front camera video resolution: HD
+2023-02-08 11:19:28 INFO   Dogee_S98.Test10F rearVideoRec Start video recording
+2023-02-08 11:22:28 INFO   Dogee_S98.Test10F rearVideoRec Stop video recording
+2023-02-08 11:22:33 INFO   Dogee_S98.Test10F rearVideoRec Switch to front camera mode
+2023-02-08 11:22:39 INFO   Dogee_S98.Test10F rearVideoRec Clicking photo Tab
+2023-02-08 11:22:53 INFO   Dogee_S98.Test10F rearVideoRec Pass: Test10F Pass for front camera video recording
+2023-02-08 11:22:53 INFO   Dogee_S98.Test10F rearVideoRec Launch file manager application and verify recorded video capture uSD Card
+2023-02-08 11:23:09 INFO   Dogee_S98.Test10F rearVideoRec Swipe up to select uSD card
+2023-02-08 11:23:13 INFO   Dogee_S98.Test10F rearVideoRec Select SD card
+2023-02-08 11:23:19 INFO   Dogee_S98.Test10F rearVideoRec switch to grid view mode to select DCIM folder
+2023-02-08 11:23:22 INFO   Dogee_S98.Test10F rearVideoRec Select DCIM folder
+2023-02-08 11:23:26 INFO   Dogee_S98.Test10F rearVideoRec Select camera folder
+2023-02-08 11:23:29 INFO   Dogee_S98.Test10F rearVideoRec switch to list view mode 
+2023-02-08 11:23:32 INFO   Dogee_S98.Test10F rearVideoRec Click More options
+2023-02-08 11:23:38 INFO   Dogee_S98.Test10F rearVideoRec Click Select all
+2023-02-08 11:23:48 INFO   Dogee_S98.Test10F rearVideoRec Test10F_Fcam_video: 4 Videos captured successfull
+2023-02-08 11:23:48 INFO   Dogee_S98.Test10F rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-08 11:23:48 INFO   Dogee_S98.Test10F rearVideoRec Calling VideoPlayBackForSleepWake()
+2023-02-08 11:23:53 INFO   Dogee_S98.Test10F VideoPlayBackForSleepWake Launching file manager application
+2023-02-08 11:23:54 INFO   Dogee_S98.Test10F VideoPlayBackForSleepWake Swipe up to select uSD card
+2023-02-08 11:23:58 INFO   Dogee_S98.Test10F VideoPlayBackForSleepWake Select SD card
+2023-02-08 11:24:04 INFO   Dogee_S98.Test10F VideoPlayBackForSleepWake switch to grid view mode to select DCIM folder
+2023-02-08 11:24:08 INFO   Dogee_S98.Test10F VideoPlayBackForSleepWake Select DCIM folder
+2023-02-08 11:24:11 INFO   Dogee_S98.Test10F VideoPlayBackForSleepWake Select Camera folder
+2023-02-08 11:24:14 INFO   Dogee_S98.Test10F VideoPlayBackForSleepWake switch to list view mode 
+2023-02-08 11:24:18 INFO   Dogee_S98.Test10F VideoPlayBackForSleepWake Select more options
+2023-02-08 11:24:23 INFO   Dogee_S98.Test10F VideoPlayBackForSleepWake Select Sort By option
+2023-02-08 11:24:27 INFO   Dogee_S98.Test10F VideoPlayBackForSleepWake Select Sort by Newest date first
+2023-02-08 11:24:30 INFO   Dogee_S98.Test10F VideoPlayBackForSleepWake Click on first file to play highest recorded resolution video file
+2023-02-08 11:24:31 INFO   Dogee_S98.Test10F VideoPlayBackForSleepWake Started video playback
+2023-02-08 11:24:51 INFO   Dogee_S98.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-02-08 11:24:51 INFO   Dogee_S98.Test10F VideoPlayBackForSleepWake Click pause video button
+2023-02-08 11:24:55 INFO   Dogee_S98.Test10F VideoPlayBackForSleepWake Lock Mobile with 30 seconds delay
+2023-02-08 11:26:55 INFO   Dogee_S98.Test10F VideoPlayBackForSleepWake Wait For 30Seconds
+2023-02-08 11:27:00 INFO   Dogee_S98.Test10F VideoPlayBackForSleepWake Unlock Mobile 
+2023-02-08 11:27:00 INFO   Dogee_S98.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-02-08 11:27:01 INFO   Dogee_S98.Test10F VideoPlayBackForSleepWake Click pause video button
+2023-02-08 11:27:34 INFO   Dogee_S98.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-02-08 11:27:34 INFO   Dogee_S98.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-02-08 11:27:34 INFO   Dogee_S98.Test10F VideoPlayBackForSleepWake Click pause video button
+2023-02-08 11:27:47 INFO   Dogee_S98.Test10F VideoPlayBackForSleepWake Pass: Test10F Pass for Front video play back, Pause,Lock and Unlock Phone Play back from Pause duration Scenario
+2023-02-08 11:27:47 INFO   Dogee_S98.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-08 11:27:47 INFO   Dogee_S98.Test10F VideoPlayBackForSleepWake calling DatamoveOperation() to move front camera recorded videos files to Test10F folder
+2023-02-08 11:27:47 INFO   Dogee_S98.Test10F DataMoveOperation Launch home screen
+2023-02-08 11:27:53 INFO   Dogee_S98.Test10F DataMoveOperation launch file manager application select uSD card-->DCIM folder-->Camera folder-->Select all back camera front camera videos create Test10F and cut paste all videos in Test10F folder
+2023-02-08 11:27:59 INFO   Dogee_S98.Test10F DataMoveOperation Swipe up to select uSD card
+2023-02-08 11:28:02 INFO   Dogee_S98.Test10F DataMoveOperation Select SD card
+2023-02-08 11:28:08 INFO   Dogee_S98.Test10F DataMoveOperation Select DCIM folder
+2023-02-08 11:28:12 INFO   Dogee_S98.Test10F DataMoveOperation Select camera folder
+2023-02-08 11:28:15 INFO   Dogee_S98.Test10F DataMoveOperation Click More options
+2023-02-08 11:28:21 INFO   Dogee_S98.Test10F DataMoveOperation Click Select all
+2023-02-08 11:28:25 INFO   Dogee_S98.Test10F DataMoveOperation Click More options
+2023-02-08 11:28:31 INFO   Dogee_S98.Test10F DataMoveOperation Select move to option
+2023-02-08 11:28:39 INFO   Dogee_S98.Test10F DataMoveOperation Select uSD Card
+2023-02-08 11:28:45 INFO   Dogee_S98.Test10F DataMoveOperation Select ADD NEW Folder option
+2023-02-08 11:28:51 INFO   Dogee_S98.Test10F DataMoveOperation Name folder as Test10F
+2023-02-08 11:28:58 INFO   Dogee_S98.Test10F DataMoveOperation Accept create folder
+2023-02-08 11:30:59 INFO   Dogee_S98.Test10F DataMoveOperation Cut paste  video files operation completed successfully
+2023-02-08 11:31:02 INFO   Dogee_S98.Test10F DataMoveOperation Pass: Test10F Pass for data move operation successfully
+2023-02-08 11:31:02 INFO   Dogee_S98.Test10F DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-08 11:31:02 INFO   Dogee_S98.Test10F VideoPlayBackForSleepWake Final Message: Pass Test10F Pass for front camera  video recording, Pause Video Playback scenario and data move operation scenario
+2023-02-08 11:31:02 INFO   Dogee_S98.Test10F VideoPlayBackForSleepWake Test: End
+2023-02-08 11:31:02 INFO   Dogee_S98.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

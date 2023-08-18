@@ -1,0 +1,90 @@
+2023-03-13 14:00:49 INFO   BLU_G71_Plus.Test10F_Int frontVideoRec Test:Start
+2023-03-13 14:00:49 INFO   BLU_G71_Plus.Test10F_Int frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-13 14:00:49 INFO   BLU_G71_Plus.Test10F_Int frontVideoRec Test10F_Int Scenario is as follows
+2023-03-13 14:00:49 INFO   BLU_G71_Plus.Test10F_Int frontVideoRec 1.Launch Camera application and start front camera video recording for all host applicable resolutions in Internal storage
+2023-03-13 14:00:49 INFO   BLU_G71_Plus.Test10F_Int frontVideoRec 2.Playback front Highest recorded video for 30 seconds, pause video playback, lock mobile and wait 30 seconds, unlock mobile and playback video from pause video duration
+2023-03-13 14:00:49 INFO   BLU_G71_Plus.Test10F_Int frontVideoRec Setting up the appium desired capabilities
+2023-03-13 14:00:49 INFO   BLU_G71_Plus.Test10F_Int frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-13 14:01:06 INFO   BLU_G71_Plus.Test10F_Int frontVideoRec Clearing Recent Apps
+2023-03-13 14:01:06 INFO   BLU_G71_Plus.Test10F_Int frontVideoRec Pass: No recent apps found
+2023-03-13 14:01:10 INFO   BLU_G71_Plus.Test10F_Int frontVideoRec Launch Camera Application for rear camera video recording
+2023-03-13 14:01:16 INFO   BLU_G71_Plus.Test10F_Int frontVideoRec Select camera permissions
+2023-03-13 14:01:16 INFO   BLU_G71_Plus.Test10F_Int frontVideoRec Select While using the app
+2023-03-13 14:01:31 INFO   BLU_G71_Plus.Test10F_Int frontVideoRec Select START CAPTURE
+2023-03-13 14:01:46 INFO   BLU_G71_Plus.Test10F_Int frontVideoRec Test10F_Int_Fcam_res: 3 resolutions supported
+2023-03-13 14:01:46 INFO   BLU_G71_Plus.Test10F_Int frontVideoRec Select video tab
+2023-03-13 14:01:49 INFO   BLU_G71_Plus.Test10F_Int frontVideoRec Click On front camera mode
+2023-03-13 14:01:52 INFO   BLU_G71_Plus.Test10F_Int frontVideoRec Select settings option
+2023-03-13 14:01:55 INFO   BLU_G71_Plus.Test10F_Int frontVideoRec Select Video quality
+2023-03-13 14:02:00 INFO   BLU_G71_Plus.Test10F_Int frontVideoRec Select First front video Resolution:  1080p
+2023-03-13 14:02:11 INFO   BLU_G71_Plus.Test10F_Int frontVideoRec Start video recording
+2023-03-13 14:02:12 INFO   BLU_G71_Plus.Test10F_Int frontVideoRec Stop video recording
+2023-03-13 14:12:00 INFO   BLU_G71_Plus.Test10F_Int frontVideoRec Select settings option
+2023-03-13 14:12:03 INFO   BLU_G71_Plus.Test10F_Int frontVideoRec Select Video quality
+2023-03-13 14:12:08 INFO   BLU_G71_Plus.Test10F_Int frontVideoRec Select First front video Resolution:   720p
+2023-03-13 14:12:19 INFO   BLU_G71_Plus.Test10F_Int frontVideoRec Start video recording
+2023-03-13 14:12:19 INFO   BLU_G71_Plus.Test10F_Int frontVideoRec Stop video recording
+2023-03-13 14:22:07 INFO   BLU_G71_Plus.Test10F_Int frontVideoRec Select settings option
+2023-03-13 14:22:10 INFO   BLU_G71_Plus.Test10F_Int frontVideoRec Select Video quality
+2023-03-13 14:22:15 INFO   BLU_G71_Plus.Test10F_Int frontVideoRec Select third front video Resolution: 480p
+2023-03-13 14:22:26 INFO   BLU_G71_Plus.Test10F_Int frontVideoRec Start video recording
+2023-03-13 14:32:07 INFO   BLU_G71_Plus.Test10F_Int frontVideoRec Stop video recording
+2023-03-13 14:32:15 INFO   BLU_G71_Plus.Test10F_Int frontVideoRec Click On back camera mode
+2023-03-13 14:32:20 INFO   BLU_G71_Plus.Test10F_Int frontVideoRec Select photo mode
+2023-03-13 14:32:30 INFO   BLU_G71_Plus.Test10F_Int frontVideoRec Pass: Test10F_Int pass for front camera video recording
+2023-03-13 14:32:30 INFO   BLU_G71_Plus.Test10F_Int frontVideoRec Launch file manager application and verify recorded video capture Internal storage
+2023-03-13 14:32:47 INFO   BLU_G71_Plus.Test10F_Int frontVideoRec Swipe up to select Internal storage
+2023-03-13 14:32:50 INFO   BLU_G71_Plus.Test10F_Int frontVideoRec Select Internal storage
+2023-03-13 14:32:56 INFO   BLU_G71_Plus.Test10F_Int frontVideoRec switch to grid view mode to select DCIM folder
+2023-03-13 14:33:00 INFO   BLU_G71_Plus.Test10F_Int frontVideoRec Select DCIM folder
+2023-03-13 14:33:03 INFO   BLU_G71_Plus.Test10F_Int frontVideoRec Select camera folder
+2023-03-13 14:33:06 INFO   BLU_G71_Plus.Test10F_Int frontVideoRec switch to list view mode 
+2023-03-13 14:33:09 INFO   BLU_G71_Plus.Test10F_Int frontVideoRec Click More options
+2023-03-13 14:33:15 INFO   BLU_G71_Plus.Test10F_Int frontVideoRec Click Select all
+2023-03-13 14:33:31 INFO   BLU_G71_Plus.Test10F_Int frontVideoRec Test10F_Int_Fcam_video: 3 videos captured successfully
+2023-03-13 14:33:31 INFO   BLU_G71_Plus.Test10F_Int frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-13 14:33:31 INFO   BLU_G71_Plus.Test10F_Int frontVideoRec Calling VideoPlayBackForSleepWake()
+2023-03-13 14:33:31 INFO   BLU_G71_Plus.Test10F_Int VideoPlayBackForSleepWake Launch File Manager application and playback front recorded video from Internal for 30 seconds, pause video playback, locking phone and unlock after 30 seconds delay and playback video from pause duration.
+2023-03-13 14:33:38 INFO   BLU_G71_Plus.Test10F_Int VideoPlayBackForSleepWake Select Internal Storage
+2023-03-13 14:33:46 INFO   BLU_G71_Plus.Test10F_Int VideoPlayBackForSleepWake switch to grid view mode to select DCIM folder
+2023-03-13 14:33:49 INFO   BLU_G71_Plus.Test10F_Int VideoPlayBackForSleepWake Select DCIM folder
+2023-03-13 14:33:52 INFO   BLU_G71_Plus.Test10F_Int VideoPlayBackForSleepWake Select camera folder
+2023-03-13 14:33:55 INFO   BLU_G71_Plus.Test10F_Int VideoPlayBackForSleepWake switch to list view mode 
+2023-03-13 14:33:58 INFO   BLU_G71_Plus.Test10F_Int VideoPlayBackForSleepWake Select MoreOptions1
+2023-03-13 14:34:03 INFO   BLU_G71_Plus.Test10F_Int VideoPlayBackForSleepWake Select Sort by
+2023-03-13 14:34:08 INFO   BLU_G71_Plus.Test10F_Int VideoPlayBackForSleepWake Select Sort by Newest date first
+2023-03-13 14:34:12 INFO   BLU_G71_Plus.Test10F_Int VideoPlayBackForSleepWake Click on first file to play highest recorded resolution video file
+2023-03-13 14:34:12 INFO   BLU_G71_Plus.Test10F_Int VideoPlayBackForSleepWake Started video playback
+2023-03-13 14:34:32 INFO   BLU_G71_Plus.Test10F_Int VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-03-13 14:34:34 INFO   BLU_G71_Plus.Test10F_Int VideoPlayBackForSleepWake Click pause video button
+2023-03-13 14:34:37 INFO   BLU_G71_Plus.Test10F_Int VideoPlayBackForSleepWake Lock Mobile with 30 seconds delay
+2023-03-13 14:35:07 INFO   BLU_G71_Plus.Test10F_Int VideoPlayBackForSleepWake Unlock Mobile 
+2023-03-13 14:35:07 INFO   BLU_G71_Plus.Test10F_Int VideoPlayBackForSleepWake Wait For 30Seconds
+2023-03-13 14:35:12 INFO   BLU_G71_Plus.Test10F_Int VideoPlayBackForSleepWake Playback video from pause video duration
+2023-03-13 14:35:43 INFO   BLU_G71_Plus.Test10F_Int VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-03-13 14:35:45 INFO   BLU_G71_Plus.Test10F_Int VideoPlayBackForSleepWake Click pause video button
+2023-03-13 14:35:55 INFO   BLU_G71_Plus.Test10F_Int VideoPlayBackForSleepWake Pass: Test10F_Int Pass for Front video play back, Pause,Lock and Unlock Phone Play back from Pause duration Scenario
+2023-03-13 14:35:55 INFO   BLU_G71_Plus.Test10F_Int VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-13 14:35:55 INFO   BLU_G71_Plus.Test10F_Int VideoPlayBackForSleepWake calling DatamoveOperation() to move front camera recorded videos files to Test10F_Int folder
+2023-03-13 14:35:55 INFO   BLU_G71_Plus.Test10F_Int DataMoveOperation launch file manager application select Internal storage-->DCIM folder-->Camera folder-->Select all Front camera videos create Test10F_Int and cut paste all videos in Test10F_Int folder
+2023-03-13 14:36:11 INFO   BLU_G71_Plus.Test10F_Int DataMoveOperation click on browse option
+2023-03-13 14:36:14 INFO   BLU_G71_Plus.Test10F_Int DataMoveOperation Swipe up to select Internal storage
+2023-03-13 14:36:17 INFO   BLU_G71_Plus.Test10F_Int DataMoveOperation Select Internal storage
+2023-03-13 14:36:24 INFO   BLU_G71_Plus.Test10F_Int DataMoveOperation switch to grid view mode to select DCIM folder
+2023-03-13 14:36:27 INFO   BLU_G71_Plus.Test10F_Int DataMoveOperation Select DCIM folder
+2023-03-13 14:36:30 INFO   BLU_G71_Plus.Test10F_Int DataMoveOperation Select camera folder
+2023-03-13 14:36:33 INFO   BLU_G71_Plus.Test10F_Int DataMoveOperation switch to list view mode 
+2023-03-13 14:36:36 INFO   BLU_G71_Plus.Test10F_Int DataMoveOperation Click More options
+2023-03-13 14:36:42 INFO   BLU_G71_Plus.Test10F_Int DataMoveOperation Click Select all
+2023-03-13 14:36:46 INFO   BLU_G71_Plus.Test10F_Int DataMoveOperation Click More options
+2023-03-13 14:36:52 INFO   BLU_G71_Plus.Test10F_Int DataMoveOperation Select move to option
+2023-03-13 14:36:59 INFO   BLU_G71_Plus.Test10F_Int DataMoveOperation Select Internal storage
+2023-03-13 14:37:05 INFO   BLU_G71_Plus.Test10F_Int DataMoveOperation Select ADD NEW Folder option
+2023-03-13 14:37:11 INFO   BLU_G71_Plus.Test10F_Int DataMoveOperation Name folder as Test10F_Int
+2023-03-13 14:37:18 INFO   BLU_G71_Plus.Test10F_Int DataMoveOperation Accept create folder
+2023-03-13 14:38:00 INFO   BLU_G71_Plus.Test10F_Int DataMoveOperation Cut paste  video files operation completed successfully
+2023-03-13 14:38:00 INFO   BLU_G71_Plus.Test10F_Int DataMoveOperation Pass: Test10F_Int Pass for data move operation successfully
+2023-03-13 14:38:00 INFO   BLU_G71_Plus.Test10F_Int DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-13 14:38:15 INFO   BLU_G71_Plus.Test10F_Int VideoPlayBackForSleepWake Final Message: Pass Test10F_Int Pass for front camera  video recording, Pause Video Playback scenario and data move operation scenario
+2023-03-13 14:38:15 INFO   BLU_G71_Plus.Test10F_Int VideoPlayBackForSleepWake Test: End
+2023-03-13 14:38:15 INFO   BLU_G71_Plus.Test10F_Int VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

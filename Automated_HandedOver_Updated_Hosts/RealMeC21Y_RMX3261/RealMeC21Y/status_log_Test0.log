@@ -1,0 +1,127 @@
+2022-11-14 11:51:26 INFO   RealMeC21Y.Test0 start Test: Start
+2022-11-14 11:51:26 INFO   RealMeC21Y.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-11-14 11:51:26 INFO   RealMeC21Y.Test0 start  Test0 Scenario is as follows 
+2022-11-14 11:51:26 INFO   RealMeC21Y.Test0 start 1.Unlock phone, clear recent apps, clear internal memory
+2022-11-14 11:51:26 INFO   RealMeC21Y.Test0 start 2.Call Image() and Capture Rear camera 25 images for default resolution in uSD card and Verify the data capture
+2022-11-14 11:51:26 INFO   RealMeC21Y.Test0 start 3.Call Video() and record Rear camera video of first 2 resloutions for 2 minutes of duration in uSD Card and verify the same
+2022-11-14 11:51:26 INFO   RealMeC21Y.Test0 start 4.Call Format() and format uSD card with data and verify the same
+2022-11-14 11:51:26 INFO   RealMeC21Y.Test0 start Setting up the appium desired capabilities
+2022-11-14 11:51:26 INFO   RealMeC21Y.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-11-14 11:51:34 INFO   RealMeC21Y.Test0 start Launch home screen
+2022-11-14 11:51:47 INFO   RealMeC21Y.Test0 start Clearing recent apps
+2022-11-14 11:51:47 INFO   RealMeC21Y.Test0 start Clearing Recent Apps
+2022-11-14 11:51:52 INFO   RealMeC21Y.Test0 start Pass: Test0 Pass for clearing Recent apps 
+2022-11-14 11:51:54 INFO   RealMeC21Y.Test0 start Launch file manager application and clear phone internal memory
+2022-11-14 11:52:10 INFO   RealMeC21Y.Test0 start Select browse option
+2022-11-14 11:52:16 INFO   RealMeC21Y.Test0 start Select internal storage
+2022-11-14 11:52:21 INFO   RealMeC21Y.Test0 start Select Internal Storage
+2022-11-14 11:52:21 INFO   RealMeC21Y.Test0 start Select more options
+2022-11-14 11:52:27 INFO   RealMeC21Y.Test0 start Click select all option
+2022-11-14 11:52:36 INFO   RealMeC21Y.Test0 start Select delete option
+2022-11-14 11:53:39 INFO   RealMeC21Y.Test0 start Pass: Clearing phone internal memory is successfull
+2022-11-14 11:53:44 INFO   RealMeC21Y.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-11-14 11:53:44 INFO   RealMeC21Y.Test0 start Calling Image() for rear Image capture in uSD Card and Verify the Captured images
+2022-11-14 11:53:44 INFO   RealMeC21Y.Test0 Images Launch Camera Application for rear camera image capture
+2022-11-14 11:53:45 INFO   RealMeC21Y.Test0 Images If location location permission request pop-up exists? select deny option
+2022-11-14 11:53:55 INFO   RealMeC21Y.Test0 Images No location access permission pop-up found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: realme C21Y, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: 1825264110BA062U}, deviceApiLevel: 30, deviceManufacturer: realme, deviceModel: RMX3261, deviceName: 1825264110BA062U, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: 1825264110BA062U, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 64, takesScreenshot: true, udid: 1825264110BA062U, viewportRect: {height: 1384, left: 0, top: 64, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 6640f65b-dc5e-4b54-8c61-6975f1371538
+*** Element info: {Using=xpath, value=//*[@resource-id='com.android.camera2:id/positiveTextView']}
+2022-11-14 11:53:57 INFO   RealMeC21Y.Test0 Images Select settings option
+2022-11-14 11:54:00 INFO   RealMeC21Y.Test0 Images Select storage path
+2022-11-14 11:54:04 INFO   RealMeC21Y.Test0 Images Select SD card as storage option
+2022-11-14 11:54:10 INFO   RealMeC21Y.Test0 Images select phtot mode option
+2022-11-14 11:54:13 INFO   RealMeC21Y.Test0 Images Capturing  25 Images of Default Resolution
+2022-11-14 11:54:18 INFO   RealMeC21Y.Test0 Images Capturing default resolution image 0
+2022-11-14 11:54:22 INFO   RealMeC21Y.Test0 Images Capturing default resolution image 1
+2022-11-14 11:54:26 INFO   RealMeC21Y.Test0 Images Capturing default resolution image 2
+2022-11-14 11:54:30 INFO   RealMeC21Y.Test0 Images Capturing default resolution image 3
+2022-11-14 11:54:34 INFO   RealMeC21Y.Test0 Images Capturing default resolution image 4
+2022-11-14 11:54:39 INFO   RealMeC21Y.Test0 Images Capturing default resolution image 5
+2022-11-14 11:54:43 INFO   RealMeC21Y.Test0 Images Capturing default resolution image 6
+2022-11-14 11:54:47 INFO   RealMeC21Y.Test0 Images Capturing default resolution image 7
+2022-11-14 11:54:51 INFO   RealMeC21Y.Test0 Images Capturing default resolution image 8
+2022-11-14 11:54:56 INFO   RealMeC21Y.Test0 Images Capturing default resolution image 9
+2022-11-14 11:55:00 INFO   RealMeC21Y.Test0 Images Capturing default resolution image 10
+2022-11-14 11:55:04 INFO   RealMeC21Y.Test0 Images Capturing default resolution image 11
+2022-11-14 11:55:08 INFO   RealMeC21Y.Test0 Images Capturing default resolution image 12
+2022-11-14 11:55:12 INFO   RealMeC21Y.Test0 Images Capturing default resolution image 13
+2022-11-14 11:55:17 INFO   RealMeC21Y.Test0 Images Capturing default resolution image 14
+2022-11-14 11:55:21 INFO   RealMeC21Y.Test0 Images Capturing default resolution image 15
+2022-11-14 11:55:25 INFO   RealMeC21Y.Test0 Images Capturing default resolution image 16
+2022-11-14 11:55:29 INFO   RealMeC21Y.Test0 Images Capturing default resolution image 17
+2022-11-14 11:55:34 INFO   RealMeC21Y.Test0 Images Capturing default resolution image 18
+2022-11-14 11:55:38 INFO   RealMeC21Y.Test0 Images Capturing default resolution image 19
+2022-11-14 11:55:42 INFO   RealMeC21Y.Test0 Images Capturing default resolution image 20
+2022-11-14 11:55:46 INFO   RealMeC21Y.Test0 Images Capturing default resolution image 21
+2022-11-14 11:55:50 INFO   RealMeC21Y.Test0 Images Capturing default resolution image 22
+2022-11-14 11:55:55 INFO   RealMeC21Y.Test0 Images Capturing default resolution image 23
+2022-11-14 11:55:59 INFO   RealMeC21Y.Test0 Images Capturing default resolution image 24
+2022-11-14 11:56:01 INFO   RealMeC21Y.Test0 Images 25 Images captured successfully
+2022-11-14 11:56:07 INFO   RealMeC21Y.Test0 Images Launch File Manager application to verify  Image capture
+2022-11-14 11:56:16 INFO   RealMeC21Y.Test0 Images Select  SD Card
+2022-11-14 11:56:21 INFO   RealMeC21Y.Test0 Images Select DCIM Folder
+2022-11-14 11:56:26 INFO   RealMeC21Y.Test0 Images Select Camera Folder
+2022-11-14 11:56:31 INFO   RealMeC21Y.Test0 Images Select More Options 
+2022-11-14 11:56:36 INFO   RealMeC21Y.Test0 Images Click On Select All Options
+2022-11-14 11:56:45 INFO   RealMeC21Y.Test0 Images Pass:Total Number Of Image captured 25 is successfull
+2022-11-14 11:56:45 INFO   RealMeC21Y.Test0 Images ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-11-14 11:56:45 INFO   RealMeC21Y.Test0 Images Calling video() for rear video recording in USD card and verifying data capture.
+2022-11-14 11:56:58 INFO   RealMeC21Y.Test0 Video Launch home screen
+2022-11-14 11:57:11 INFO   RealMeC21Y.Test0 Video Clearing recent apps
+2022-11-14 11:57:19 INFO   RealMeC21Y.Test0 Video Launch camera application for rear camera video recording
+2022-11-14 11:57:30 INFO   RealMeC21Y.Test0 Video change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: realme C21Y, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: 1825264110BA062U}, deviceApiLevel: 30, deviceManufacturer: realme, deviceModel: RMX3261, deviceName: 1825264110BA062U, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: 1825264110BA062U, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 64, takesScreenshot: true, udid: 1825264110BA062U, viewportRect: {height: 1384, left: 0, top: 64, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 6640f65b-dc5e-4b54-8c61-6975f1371538
+*** Element info: {Using=xpath, value=//*[@resource-id='com.android.camera2:id/positiveTextView']}
+2022-11-14 11:57:32 INFO   RealMeC21Y.Test0 Video Switch to video mode
+2022-11-14 11:57:37 INFO   RealMeC21Y.Test0 Video Clicking Video Tab
+2022-11-14 11:57:37 INFO   RealMeC21Y.Test0 Video Switch to rear camera if existing camera is front camera mode
+2022-11-14 11:57:40 INFO   RealMeC21Y.Test0 Video Select settings option
+2022-11-14 11:57:43 INFO   RealMeC21Y.Test0 Video Click settings option
+2022-11-14 11:57:43 INFO   RealMeC21Y.Test0 Video Select storage path
+2022-11-14 11:57:48 INFO   RealMeC21Y.Test0 Video Clicking on Storage path
+2022-11-14 11:57:48 INFO   RealMeC21Y.Test0 Video Set SD card as storage option
+2022-11-14 11:57:51 INFO   RealMeC21Y.Test0 Video Select Video size option
+2022-11-14 11:58:03 INFO   RealMeC21Y.Test0 Video Selecting Resolution
+2022-11-14 12:01:09 INFO   RealMeC21Y.Test0 Video Stop Recording
+2022-11-14 12:01:30 INFO   RealMeC21Y.Test0 Video Launch File Manager Application to verify captured videos
+2022-11-14 12:01:36 INFO   RealMeC21Y.Test0 Video Select  SD Card
+2022-11-14 12:01:41 INFO   RealMeC21Y.Test0 Video Select DCIM Folder
+2022-11-14 12:01:46 INFO   RealMeC21Y.Test0 Video Select Camera Folder
+2022-11-14 12:01:51 INFO   RealMeC21Y.Test0 Video Select More Options 
+2022-11-14 12:01:56 INFO   RealMeC21Y.Test0 Video Click On Select All Options
+2022-11-14 12:02:05 INFO   RealMeC21Y.Test0 Video Pass: 2 Videos recorded Successfully
+2022-11-14 12:02:05 INFO   RealMeC21Y.Test0 Video Pass: A total of 27 files present in uSD card before Format
+2022-11-14 12:02:05 INFO   RealMeC21Y.Test0 Video ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-11-14 12:02:05 INFO   RealMeC21Y.Test0 Video calling Format() for format with data scenario
+2022-11-14 12:02:18 INFO   RealMeC21Y.Test0 Format Clearing recent apps
+2022-11-14 12:02:26 INFO   RealMeC21Y.Test0 Format Clearing Recent Apps
+2022-11-14 12:02:31 INFO   RealMeC21Y.Test0 Format clearing Recent apps 
+2022-11-14 12:02:33 INFO   RealMeC21Y.Test0 Format Launch Settings Application
+2022-11-14 12:02:40 INFO   RealMeC21Y.Test0 Format Select storage option
+2022-11-14 12:02:50 INFO   RealMeC21Y.Test0 Format Select SD card
+2022-11-14 12:02:55 INFO   RealMeC21Y.Test0 Format Clicking on storage
+2022-11-14 12:02:55 INFO   RealMeC21Y.Test0 Format Select more options
+2022-11-14 12:03:00 INFO   RealMeC21Y.Test0 Format Select storage settings
+2022-11-14 12:03:06 INFO   RealMeC21Y.Test0 Format Select Format option
+2022-11-14 12:04:41 INFO   RealMeC21Y.Test0 Format Accept to Format uSD Card
+2022-11-14 12:04:41 INFO   RealMeC21Y.Test0 Format Started formatting, waiting till it gets formatted
+2022-11-14 12:04:41 INFO   RealMeC21Y.Test0 Format Going back to home screen
+2022-11-14 12:04:50 INFO   RealMeC21Y.Test0 Format Launch File Manager Application and verify data format scenario
+2022-11-14 12:04:54 INFO   RealMeC21Y.Test0 Format Select  SD Card
+2022-11-14 12:04:59 INFO   RealMeC21Y.Test0 Format Select DCIM Folder
+2022-11-14 12:05:09 INFO   RealMeC21Y.Test0 Format Final Message: Fail Test0 Fail for Format with data scenario
+2022-11-14 12:05:09 INFO   RealMeC21Y.Test0 Format Test: End
+2022-11-14 12:05:09 INFO   RealMeC21Y.Test0 Format ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-11-14 12:05:09 INFO   RealMeC21Y.Test0 Format Final Message: Pass Test0 pass for format with data scenario
+2022-11-14 12:05:09 INFO   RealMeC21Y.Test0 Format Test: End
+2022-11-14 12:05:09 INFO   RealMeC21Y.Test0 Format ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

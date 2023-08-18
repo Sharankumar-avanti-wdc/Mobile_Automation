@@ -1,0 +1,83 @@
+2023-07-17 14:09:45 INFO   Nokia_5_3.Test9F FrontPictureCapture Test: Start
+2023-07-17 14:09:45 INFO   Nokia_5_3.Test9F FrontPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-07-17 14:09:45 INFO   Nokia_5_3.Test9F FrontPictureCapture Test9F Scenario is as follows:
+2023-07-17 14:09:45 INFO   Nokia_5_3.Test9F FrontPictureCapture 1.Launch camera application, set uSD as a Storage option, start Front camera image picture capture for all Host front resolutions
+2023-07-17 14:09:45 INFO   Nokia_5_3.Test9F FrontPictureCapture 2.Move Captured Rear camera images to Test9F folder
+2023-07-17 14:09:45 INFO   Nokia_5_3.Test9F FrontPictureCapture Setting up the appium desired capabilities
+2023-07-17 14:09:45 INFO   Nokia_5_3.Test9F FrontPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-07-17 14:09:54 INFO   Nokia_5_3.Test9F FrontPictureCapture Unlocking Phone
+2023-07-17 14:09:56 INFO   Nokia_5_3.Test9F FrontPictureCapture Launch home screen
+2023-07-17 14:10:02 INFO   Nokia_5_3.Test9F FrontPictureCapture Launch Camera Application for Front camera picture Capture for all Host resolutions
+2023-07-17 14:10:16 INFO   Nokia_5_3.Test9F FrontPictureCapture change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: '5CG01821WY', ip: '10.113.95.194', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Nokia 5.3, newCommandTimeout: 600, platformName: android, platformVersion: 11, udid: N0AA003791K52000302}, deviceApiLevel: 30, deviceManufacturer: HMD Global, deviceModel: Nokia 5.3, deviceName: N0AA003791K52000302, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: N0AA003791K52000302, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pixelRatio: 1.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 56, takesScreenshot: true, udid: N0AA003791K52000302, viewportRect: {height: 1405, left: 0, top: 56, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 26f3950d-f375-4580-b890-a13d116fb056
+*** Element info: {Using=xpath, value=//*[@resource-id='com.android.permissioncontroller:id/permission_deny_button']}
+2023-07-17 14:10:22 INFO   Nokia_5_3.Test9F FrontPictureCapture Switching to Front Camera mode
+2023-07-17 14:10:22 INFO   Nokia_5_3.Test9F FrontPictureCapture Test9F_Fcam_res: 3 resolutions supported
+2023-07-17 14:10:22 INFO   Nokia_5_3.Test9F FrontPictureCapture Click Settings option
+2023-07-17 14:10:25 INFO   Nokia_5_3.Test9F FrontPictureCapture Select Data storage
+2023-07-17 14:10:29 INFO   Nokia_5_3.Test9F FrontPictureCapture Selecting uSD Card as Storage option
+2023-07-17 14:10:35 INFO   Nokia_5_3.Test9F FrontPictureCapture Click On Settings option to select rear video resolution
+2023-07-17 14:10:39 INFO   Nokia_5_3.Test9F FrontPictureCapture Swipe Up and select Video Resolution option
+2023-07-17 14:10:39 INFO   Nokia_5_3.Test9F FrontPictureCapture Select photo Resolution
+2023-07-17 14:10:43 INFO   Nokia_5_3.Test9F FrontPictureCapture Select Rear photo size
+2023-07-17 14:10:47 INFO   Nokia_5_3.Test9F FrontPictureCapture Select first Image Resoution: (4:3) 8MP
+2023-07-17 14:11:02 INFO   Nokia_5_3.Test9F FrontPictureCapture clicking first Resolutions image0
+2023-07-17 14:11:07 INFO   Nokia_5_3.Test9F FrontPictureCapture clicking first Resolutions image1
+2023-07-17 14:11:09 INFO   Nokia_5_3.Test9F FrontPictureCapture front camera first resolution:2 images Captured succesfull
+2023-07-17 14:11:11 INFO   Nokia_5_3.Test9F FrontPictureCapture Click On Settings option to select rear video resolution
+2023-07-17 14:11:15 INFO   Nokia_5_3.Test9F FrontPictureCapture Swipe Up and select Video Resolution option
+2023-07-17 14:11:15 INFO   Nokia_5_3.Test9F FrontPictureCapture Select photo Resolution
+2023-07-17 14:11:19 INFO   Nokia_5_3.Test9F FrontPictureCapture Select Rear photo size
+2023-07-17 14:11:23 INFO   Nokia_5_3.Test9F FrontPictureCapture Select second Image Resoution: (16:9) 6MP 
+2023-07-17 14:11:39 INFO   Nokia_5_3.Test9F FrontPictureCapture clicking second  Resolution image0
+2023-07-17 14:11:44 INFO   Nokia_5_3.Test9F FrontPictureCapture clicking second  Resolution image1
+2023-07-17 14:11:46 INFO   Nokia_5_3.Test9F FrontPictureCapture front camera 2nd resolution:2 images Captured succesfull
+2023-07-17 14:11:46 INFO   Nokia_5_3.Test9F FrontPictureCapture Click On Settings option to select rear video resolution
+2023-07-17 14:11:50 INFO   Nokia_5_3.Test9F FrontPictureCapture Swipe Up and select Video Resolution option
+2023-07-17 14:11:50 INFO   Nokia_5_3.Test9F FrontPictureCapture Select photo Resolution
+2023-07-17 14:11:54 INFO   Nokia_5_3.Test9F FrontPictureCapture Select Rear photo size
+2023-07-17 14:11:57 INFO   Nokia_5_3.Test9F FrontPictureCapture Select third Image Resoution: (Full) 5MP
+2023-07-17 14:12:14 INFO   Nokia_5_3.Test9F FrontPictureCapture clicking third Resolution image 0
+2023-07-17 14:12:19 INFO   Nokia_5_3.Test9F FrontPictureCapture clicking third Resolution image 1
+2023-07-17 14:12:21 INFO   Nokia_5_3.Test9F FrontPictureCapture front camera 3rd resolution:2 images Captured succesfull
+2023-07-17 14:12:24 INFO   Nokia_5_3.Test9F FrontPictureCapture Switching to Front Camera mode
+2023-07-17 14:12:31 INFO   Nokia_5_3.Test9F FrontPictureCapture Total Count value:6 images to be Captured 
+2023-07-17 14:12:31 INFO   Nokia_5_3.Test9F FrontPictureCapture Launch file manager application and verify captured images present  in uSD Card
+2023-07-17 14:12:47 INFO   Nokia_5_3.Test9F FrontPictureCapture Swipe up to select uSD card
+2023-07-17 14:12:49 INFO   Nokia_5_3.Test9F FrontPictureCapture Select SD card
+2023-07-17 14:12:56 INFO   Nokia_5_3.Test9F FrontPictureCapture switch to grid view mode to select DCIM folder
+2023-07-17 14:12:59 INFO   Nokia_5_3.Test9F FrontPictureCapture Select DCIM folder
+2023-07-17 14:13:02 INFO   Nokia_5_3.Test9F FrontPictureCapture Select camera folder
+2023-07-17 14:13:05 INFO   Nokia_5_3.Test9F FrontPictureCapture switch to list view mode 
+2023-07-17 14:13:09 INFO   Nokia_5_3.Test9F FrontPictureCapture Click More options
+2023-07-17 14:13:15 INFO   Nokia_5_3.Test9F FrontPictureCapture Click Select all
+2023-07-17 14:13:19 INFO   Nokia_5_3.Test9F FrontPictureCapture Total Image captured
+2023-07-17 14:13:32 INFO   Nokia_5_3.Test9F FrontPictureCapture Pass: Test9F pass for front Image capture
+2023-07-17 14:13:32 INFO   Nokia_5_3.Test9F FrontPictureCapture Test9F Fcam_image: 6  images Captured succesfull
+2023-07-17 14:13:32 INFO   Nokia_5_3.Test9F FrontPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-07-17 14:13:36 INFO   Nokia_5_3.Test9F FrontPictureCapture calling DataMoveOperation() 
+2023-07-17 14:13:36 INFO   Nokia_5_3.Test9F DataMoveOperation Re-launch file manager application and select external storage for data move operation, select all front camera images files present in camera folder and move to Test9F folder
+2023-07-17 14:13:44 INFO   Nokia_5_3.Test9F DataMoveOperation Select external storage
+2023-07-17 14:13:50 INFO   Nokia_5_3.Test9F DataMoveOperation switch to grid view mode and select DCIM  folder
+2023-07-17 14:13:53 INFO   Nokia_5_3.Test9F DataMoveOperation Select DCIM folder
+2023-07-17 14:13:56 INFO   Nokia_5_3.Test9F DataMoveOperation Select camera  folder
+2023-07-17 14:13:59 INFO   Nokia_5_3.Test9F DataMoveOperation switch to list view mode 
+2023-07-17 14:14:03 INFO   Nokia_5_3.Test9F DataMoveOperation Click More options
+2023-07-17 14:14:09 INFO   Nokia_5_3.Test9F DataMoveOperation Click Select all
+2023-07-17 14:14:13 INFO   Nokia_5_3.Test9F DataMoveOperation Click More options
+2023-07-17 14:14:19 INFO   Nokia_5_3.Test9F DataMoveOperation Select move to option
+2023-07-17 14:14:26 INFO   Nokia_5_3.Test9F DataMoveOperation Select uSD Card
+2023-07-17 14:14:32 INFO   Nokia_5_3.Test9F DataMoveOperation Select ADD NEW Folder option
+2023-07-17 14:14:38 INFO   Nokia_5_3.Test9F DataMoveOperation Name folder as Test9F
+2023-07-17 14:14:45 INFO   Nokia_5_3.Test9F DataMoveOperation Accept create folder
+2023-07-17 14:15:15 INFO   Nokia_5_3.Test9F DataMoveOperation Cut paste   operation completed successfully
+2023-07-17 14:15:24 INFO   Nokia_5_3.Test9F DataMoveOperation Pass: Test9F Pass for data move operation successfully
+2023-07-17 14:15:24 INFO   Nokia_5_3.Test9F DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-07-17 14:15:24 INFO   Nokia_5_3.Test9F FrontPictureCapture Final Message: Pass Test9F Pass for Front camera image capture  successfully
+2023-07-17 14:15:24 INFO   Nokia_5_3.Test9F FrontPictureCapture Test: End
+2023-07-17 14:15:24 INFO   Nokia_5_3.Test9F FrontPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

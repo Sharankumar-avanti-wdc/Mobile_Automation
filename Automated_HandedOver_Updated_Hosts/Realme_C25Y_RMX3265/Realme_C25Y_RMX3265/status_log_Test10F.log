@@ -1,0 +1,91 @@
+2023-01-30 13:18:31 INFO   Realme_C25Y_RMX3265.Test10F frontVideoRec Test:Start
+2023-01-30 13:18:31 INFO   Realme_C25Y_RMX3265.Test10F frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-30 13:18:31 INFO   Realme_C25Y_RMX3265.Test10F frontVideoRec Test10F Scenario is as follows
+2023-01-30 13:18:31 INFO   Realme_C25Y_RMX3265.Test10F frontVideoRec 1.Launch Camera application and start front camera video recording for all host applicable resolutions in uSD Card
+2023-01-30 13:18:31 INFO   Realme_C25Y_RMX3265.Test10F frontVideoRec 2.Playback front Highest recorded video for 30 seconds, pause video playback, lock mobile and wait 30 seconds, unlock mobile and playback video from pause video duration
+2023-01-30 13:18:31 INFO   Realme_C25Y_RMX3265.Test10F frontVideoRec Setting up the appium desired capabilities
+2023-01-30 13:18:31 INFO   Realme_C25Y_RMX3265.Test10F frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-30 13:18:54 INFO   Realme_C25Y_RMX3265.Test10F frontVideoRec Clearing Recent Apps
+2023-01-30 13:19:00 INFO   Realme_C25Y_RMX3265.Test10F frontVideoRec Pass: Test10 Pass for clearing Recent apps 
+2023-01-30 13:19:04 INFO   Realme_C25Y_RMX3265.Test10F frontVideoRec Launch Camera Application for front camera video recording
+2023-01-30 13:19:05 INFO   Realme_C25Y_RMX3265.Test10F frontVideoRec Permission request
+2023-01-30 13:19:15 INFO   Realme_C25Y_RMX3265.Test10F frontVideoRec change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-201', ip: '10.65.147.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: realme C25Y, newCommandTimeout: 600, platformName: android, platformVersion: 11, udid: 1929171000018177}, deviceApiLevel: 30, deviceManufacturer: realme, deviceModel: RMX3265, deviceName: 1929171000018177, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: 1929171000018177, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 64, takesScreenshot: true, udid: 1929171000018177, viewportRect: {height: 1384, left: 0, top: 64, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 1c8ad488-06a0-447b-b5af-be52866729b4
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Agree")}
+2023-01-30 13:19:15 INFO   Realme_C25Y_RMX3265.Test10F frontVideoRec Allow Camera to access this device’s location?
+2023-01-30 13:19:30 INFO   Realme_C25Y_RMX3265.Test10F frontVideoRec Test10F_Fcam_res: 3 resolutions supported
+2023-01-30 13:19:30 INFO   Realme_C25Y_RMX3265.Test10F frontVideoRec Clicking Video Tab
+2023-01-30 13:19:36 INFO   Realme_C25Y_RMX3265.Test10F frontVideoRec Select settings option
+2023-01-30 13:19:39 INFO   Realme_C25Y_RMX3265.Test10F frontVideoRec Storage path settings option
+2023-01-30 13:19:43 INFO   Realme_C25Y_RMX3265.Test10F frontVideoRec Select sd card option
+2023-01-30 13:19:52 INFO   Realme_C25Y_RMX3265.Test10F frontVideoRec click on front camera
+2023-01-30 13:19:57 INFO   Realme_C25Y_RMX3265.Test10F frontVideoRec Select settings option
+2023-01-30 13:20:03 INFO   Realme_C25Y_RMX3265.Test10F frontVideoRec Select First front video Resolution: HD 720p
+2023-01-30 13:20:14 INFO   Realme_C25Y_RMX3265.Test10F frontVideoRec Start video recording
+2023-01-30 13:20:14 INFO   Realme_C25Y_RMX3265.Test10F frontVideoRec Stop video recording
+2023-01-30 13:30:03 INFO   Realme_C25Y_RMX3265.Test10F frontVideoRec Select settings option
+2023-01-30 13:30:09 INFO   Realme_C25Y_RMX3265.Test10F frontVideoRec Select second front video Resolution:  SD 480p
+2023-01-30 13:30:20 INFO   Realme_C25Y_RMX3265.Test10F frontVideoRec Start video recording
+2023-01-30 13:30:20 INFO   Realme_C25Y_RMX3265.Test10F frontVideoRec Stop video recording
+2023-01-30 13:40:00 INFO   Realme_C25Y_RMX3265.Test10F frontVideoRec Select settings option
+2023-01-30 13:40:07 INFO   Realme_C25Y_RMX3265.Test10F frontVideoRec Select third front video Resolution:  CIF
+2023-01-30 13:40:18 INFO   Realme_C25Y_RMX3265.Test10F frontVideoRec Start video recording
+2023-01-30 13:40:18 INFO   Realme_C25Y_RMX3265.Test10F frontVideoRec Stop video recording
+2023-01-30 13:50:03 INFO   Realme_C25Y_RMX3265.Test10F frontVideoRec Click On back camera mode
+2023-01-30 13:50:09 INFO   Realme_C25Y_RMX3265.Test10F frontVideoRec Switch to defalut Photo mode
+2023-01-30 13:50:25 INFO   Realme_C25Y_RMX3265.Test10F frontVideoRec Pass: Test10F pass for front camera video recording
+2023-01-30 13:50:25 INFO   Realme_C25Y_RMX3265.Test10F frontVideoRec Launch file manager application and verify recorded video capture uSD Card
+2023-01-30 13:50:41 INFO   Realme_C25Y_RMX3265.Test10F frontVideoRec Swipe up to select uSD card
+2023-01-30 13:50:50 INFO   Realme_C25Y_RMX3265.Test10F frontVideoRec Select SD card
+2023-01-30 13:51:06 INFO   Realme_C25Y_RMX3265.Test10F frontVideoRec Select DCIM folder
+2023-01-30 13:51:09 INFO   Realme_C25Y_RMX3265.Test10F frontVideoRec Select camera folder
+2023-01-30 13:51:12 INFO   Realme_C25Y_RMX3265.Test10F frontVideoRec Click More options
+2023-01-30 13:51:18 INFO   Realme_C25Y_RMX3265.Test10F frontVideoRec Click Select all
+2023-01-30 13:51:29 INFO   Realme_C25Y_RMX3265.Test10F frontVideoRec Test10F_Fcam_video: 3 videos captured successfully
+2023-01-30 13:51:29 INFO   Realme_C25Y_RMX3265.Test10F frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-30 13:51:29 INFO   Realme_C25Y_RMX3265.Test10F frontVideoRec Calling VideoPlayBackForSleepWake()
+2023-01-30 13:51:29 INFO   Realme_C25Y_RMX3265.Test10F VideoPlayBackForSleepWake Launch File Manager application and playback front recorded video from USD for 30 seconds, pause video playback, locking phone and unlock after 30 seconds delay and playback video from pause duration.
+2023-01-30 13:51:34 INFO   Realme_C25Y_RMX3265.Test10F VideoPlayBackForSleepWake Select External Storage
+2023-01-30 13:51:57 INFO   Realme_C25Y_RMX3265.Test10F VideoPlayBackForSleepWake Select DCIM folder
+2023-01-30 13:52:01 INFO   Realme_C25Y_RMX3265.Test10F VideoPlayBackForSleepWake Select Camera folder
+2023-01-30 13:52:04 INFO   Realme_C25Y_RMX3265.Test10F VideoPlayBackForSleepWake Select MoreOptions1
+2023-01-30 13:52:09 INFO   Realme_C25Y_RMX3265.Test10F VideoPlayBackForSleepWake Select Sort by
+2023-01-30 13:52:14 INFO   Realme_C25Y_RMX3265.Test10F VideoPlayBackForSleepWake Select Sort by Newest date first
+2023-01-30 13:52:17 INFO   Realme_C25Y_RMX3265.Test10F VideoPlayBackForSleepWake Click on first file to play highest recorded resolution video file
+2023-01-30 13:52:17 INFO   Realme_C25Y_RMX3265.Test10F VideoPlayBackForSleepWake Started video playback
+2023-01-30 13:52:37 INFO   Realme_C25Y_RMX3265.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-01-30 13:52:37 INFO   Realme_C25Y_RMX3265.Test10F VideoPlayBackForSleepWake Click pause video button
+2023-01-30 13:52:41 INFO   Realme_C25Y_RMX3265.Test10F VideoPlayBackForSleepWake Lock Mobile with 30 seconds delay
+2023-01-30 13:53:11 INFO   Realme_C25Y_RMX3265.Test10F VideoPlayBackForSleepWake Unlock Mobile 
+2023-01-30 13:53:11 INFO   Realme_C25Y_RMX3265.Test10F VideoPlayBackForSleepWake Wait For 30Seconds
+2023-01-30 13:53:16 INFO   Realme_C25Y_RMX3265.Test10F VideoPlayBackForSleepWake Playback video from pause video duration
+2023-01-30 13:53:46 INFO   Realme_C25Y_RMX3265.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-01-30 13:53:46 INFO   Realme_C25Y_RMX3265.Test10F VideoPlayBackForSleepWake Click pause video button
+2023-01-30 13:54:00 INFO   Realme_C25Y_RMX3265.Test10F VideoPlayBackForSleepWake Pass: Test10F Pass for Front video play back, Pause,Lock and Unlock Phone Play back from Pause duration Scenario
+2023-01-30 13:54:00 INFO   Realme_C25Y_RMX3265.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-30 13:54:00 INFO   Realme_C25Y_RMX3265.Test10F VideoPlayBackForSleepWake calling DatamoveOperation() to move front camera recorded videos files to Test10F folder
+2023-01-30 13:54:00 INFO   Realme_C25Y_RMX3265.Test10F DataMoveOperation launch file manager application select uSD card-->DCIM folder-->Camera folder-->Select all back camera front camera videos create Test10 and cut paste all videos in BCFC_Cameravideos folder
+2023-01-30 13:54:16 INFO   Realme_C25Y_RMX3265.Test10F DataMoveOperation click on browse option
+2023-01-30 13:54:19 INFO   Realme_C25Y_RMX3265.Test10F DataMoveOperation Swipe up to select uSD card
+2023-01-30 13:54:28 INFO   Realme_C25Y_RMX3265.Test10F DataMoveOperation Select SD card
+2023-01-30 13:54:40 INFO   Realme_C25Y_RMX3265.Test10F DataMoveOperation Select DCIM folder
+2023-01-30 13:54:43 INFO   Realme_C25Y_RMX3265.Test10F DataMoveOperation Select camera folder
+2023-01-30 13:54:46 INFO   Realme_C25Y_RMX3265.Test10F DataMoveOperation Click More options
+2023-01-30 13:54:52 INFO   Realme_C25Y_RMX3265.Test10F DataMoveOperation Click Select all
+2023-01-30 13:54:56 INFO   Realme_C25Y_RMX3265.Test10F DataMoveOperation Click More options
+2023-01-30 13:55:02 INFO   Realme_C25Y_RMX3265.Test10F DataMoveOperation Select move to option
+2023-01-30 13:55:09 INFO   Realme_C25Y_RMX3265.Test10F DataMoveOperation Select uSD Card
+2023-01-30 13:55:15 INFO   Realme_C25Y_RMX3265.Test10F DataMoveOperation Select ADD NEW Folder option
+2023-01-30 13:55:21 INFO   Realme_C25Y_RMX3265.Test10F DataMoveOperation Name folder as Test10F
+2023-01-30 13:55:28 INFO   Realme_C25Y_RMX3265.Test10F DataMoveOperation Accept create folder
+2023-01-30 13:57:28 INFO   Realme_C25Y_RMX3265.Test10F DataMoveOperation Cut paste  video files operation completed successfully
+2023-01-30 13:57:37 INFO   Realme_C25Y_RMX3265.Test10F DataMoveOperation Pass: Test10F Pass for data move operation successfully
+2023-01-30 13:57:37 INFO   Realme_C25Y_RMX3265.Test10F DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-30 13:57:37 INFO   Realme_C25Y_RMX3265.Test10F VideoPlayBackForSleepWake Final Message: Pass Test10F Pass for front camera  video recording, Pause Video Playback scenario and data move operation scenario
+2023-01-30 13:57:37 INFO   Realme_C25Y_RMX3265.Test10F VideoPlayBackForSleepWake Test: End
+2023-01-30 13:57:37 INFO   Realme_C25Y_RMX3265.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

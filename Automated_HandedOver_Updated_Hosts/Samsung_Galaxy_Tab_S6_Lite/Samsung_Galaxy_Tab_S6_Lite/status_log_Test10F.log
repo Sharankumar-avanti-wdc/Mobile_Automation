@@ -1,0 +1,39 @@
+2022-06-22 09:23:59 INFO   Samsung_Galaxy_Tab_S6_Lite.Test10F rearVideoRec Test:Start
+2022-06-22 09:23:59 INFO   Samsung_Galaxy_Tab_S6_Lite.Test10F rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-06-22 09:23:59 INFO   Samsung_Galaxy_Tab_S6_Lite.Test10F rearVideoRec Test10F Scenario is as follows
+2022-06-22 09:23:59 INFO   Samsung_Galaxy_Tab_S6_Lite.Test10F rearVideoRec 1.Launch Camera application and start front camera video recording for all host applicable resolutions in uSD Card
+2022-06-22 09:23:59 INFO   Samsung_Galaxy_Tab_S6_Lite.Test10F rearVideoRec 2.Playback front Highest recorded video for 30 seconds, pause video playback, lock mobile and wait 30 seconds, unlock mobile and playback video from pause video duration
+2022-06-22 09:23:59 INFO   Samsung_Galaxy_Tab_S6_Lite.Test10F rearVideoRec Setting up the appium desired capabilities
+2022-06-22 09:23:59 INFO   Samsung_Galaxy_Tab_S6_Lite.Test10F rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-06-22 09:24:14 INFO   Samsung_Galaxy_Tab_S6_Lite.Test10F rearVideoRec Launch Home screen and clear recent Apps
+2022-06-22 09:24:37 INFO   Samsung_Galaxy_Tab_S6_Lite.Test10F rearVideoRec Launch Camera Application for rear camera video recording
+2022-06-22 09:24:39 INFO   Samsung_Galaxy_Tab_S6_Lite.Test10F rearVideoRec If change to uSD card pop-up exists select Cancel
+2022-06-22 09:24:49 INFO   Samsung_Galaxy_Tab_S6_Lite.Test10F rearVideoRec change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy Tab S6 Lite, newCommandTimeout: 600, platformName: android, platformVersion: 11, udid: R52N81CPS4E}, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-P610, deviceName: R52N81CPS4E, deviceScreenDensity: 240, deviceScreenSize: 1200x2000, deviceUDID: R52N81CPS4E, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 36, takesScreenshot: true, udid: R52N81CPS4E, viewportRect: {height: 1892, left: 0, top: 36, width: 1200}, warnings: {}, webStorageEnabled: false}
+Session ID: 7886bc11-a71e-4eb4-a1fa-19488e7c5a3a
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2022-06-22 09:24:49 INFO   Samsung_Galaxy_Tab_S6_Lite.Test10F rearVideoRec If Location access Permission Request Pop Exists Click on Cancel. 
+2022-06-22 09:24:59 INFO   Samsung_Galaxy_Tab_S6_Lite.Test10F rearVideoRec Location access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '10.113.89.123', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy Tab S6 Lite, newCommandTimeout: 600, platformName: android, platformVersion: 11, udid: R52N81CPS4E}, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-P610, deviceName: R52N81CPS4E, deviceScreenDensity: 240, deviceScreenSize: 1200x2000, deviceUDID: R52N81CPS4E, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 36, takesScreenshot: true, udid: R52N81CPS4E, viewportRect: {height: 1892, left: 0, top: 36, width: 1200}, warnings: {}, webStorageEnabled: false}
+Session ID: 7886bc11-a71e-4eb4-a1fa-19488e7c5a3a
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2022-06-22 09:24:59 INFO   Samsung_Galaxy_Tab_S6_Lite.Test10F rearVideoRec Switch to video mode
+2022-06-22 09:25:10 INFO   Samsung_Galaxy_Tab_S6_Lite.Test10F rearVideoRec Switch to front camera mode
+2022-06-22 09:25:12 INFO   Samsung_Galaxy_Tab_S6_Lite.Test10F rearVideoRec Select settings option
+2022-06-22 09:25:18 INFO   Samsung_Galaxy_Tab_S6_Lite.Test10F rearVideoRec Swipe up and Select Storage location
+2022-06-22 09:25:30 INFO   Samsung_Galaxy_Tab_S6_Lite.Test10F rearVideoRec Select uSD card as Storage option
+2022-06-22 09:25:38 INFO   Samsung_Galaxy_Tab_S6_Lite.Test10F rearVideoRec Click on front video size and select resolution
+2022-06-22 09:25:39 INFO   Samsung_Galaxy_Tab_S6_Lite.Test10F rearVideoRec Select 1st Front Video Resolution:FRONT_CAMCORDER_RESOLUTION_FHD_30
+2022-06-22 09:25:47 INFO   Samsung_Galaxy_Tab_S6_Lite.Test10F rearVideoRec Start front video recording
+2022-06-22 09:30:48 INFO   Samsung_Galaxy_Tab_S6_Lite.Test10F rearVideoRec Stop Recording
+2022-06-22 09:30:50 INFO   Samsung_Galaxy_Tab_S6_Lite.Test10F rearVideoRec Click front video size and select second resolution
+2022-06-22 09:30:50 INFO   Samsung_Galaxy_Tab_S6_Lite.Test10F rearVideoRec Select second resolution
+2022-06-22 09:30:58 INFO   Samsung_Galaxy_Tab_S6_Lite.Test10F rearVideoRec Start front video recording

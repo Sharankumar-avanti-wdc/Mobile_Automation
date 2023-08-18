@@ -1,0 +1,388 @@
+2022-11-11 18:40:57 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture Test: Start
+2022-11-11 18:40:57 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-11-11 18:40:57 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture Test9 Scenario is follows:
+2022-11-11 18:40:57 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture 1.Launch camera application, set uSD as a Storage option, start rear camera Image capture for all host resolutions
+2022-11-11 18:40:57 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture Setting up the appium desired capabilities
+2022-11-11 18:40:57 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-11-11 18:41:07 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture Launch Home Screen and Clear recent
+2022-11-11 18:41:26 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture Launch Camera application for rear Picture capture for all host resolution
+2022-11-11 18:41:27 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture If change to uSD card pop-up exists select Cancel
+2022-11-11 18:41:38 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy F23 5G, newCommandTimeout: 600, platformName: android, platformVersion: 11, udid: RZCT303YGNE}, deviceApiLevel: 31, deviceManufacturer: samsung, deviceModel: SM-E236B, deviceName: RZCT303YGNE, deviceScreenDensity: 450, deviceScreenSize: 1080x2408, deviceUDID: RZCT303YGNE, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 64, takesScreenshot: true, udid: RZCT303YGNE, viewportRect: {height: 2146, left: 0, top: 64, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: d0ad2cc6-f9aa-444e-8e93-703ea7c06c1e
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2022-11-11 18:41:38 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture If Location access Permission Request Pop Exists Click on Cancel. 
+2022-11-11 18:41:48 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture Location access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy F23 5G, newCommandTimeout: 600, platformName: android, platformVersion: 11, udid: RZCT303YGNE}, deviceApiLevel: 31, deviceManufacturer: samsung, deviceModel: SM-E236B, deviceName: RZCT303YGNE, deviceScreenDensity: 450, deviceScreenSize: 1080x2408, deviceUDID: RZCT303YGNE, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 64, takesScreenshot: true, udid: RZCT303YGNE, viewportRect: {height: 2146, left: 0, top: 64, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: d0ad2cc6-f9aa-444e-8e93-703ea7c06c1e
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2022-11-11 18:41:48 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture Switch To Rear Camera mode if current Exiting camera is Front camera mode
+2022-11-11 18:41:58 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture Current Existing Camera is Rear Camera mode.
+2022-11-11 18:41:58 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture Test9_Bcam_res: 5 resolutions supported
+2022-11-11 18:41:58 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture Click Settings option
+2022-11-11 18:42:03 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture Search for Storage location
+2022-11-11 18:42:19 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture Select SD as storage option
+2022-11-11 18:42:27 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture Select Rear Image Size
+2022-11-11 18:42:28 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture Select first Image Resoution: 3:4 64MP
+2022-11-11 18:42:35 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture Capture Images
+2022-11-11 18:42:44 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image0
+2022-11-11 18:42:52 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image1
+2022-11-11 18:43:00 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image2
+2022-11-11 18:43:08 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image3
+2022-11-11 18:43:16 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image4
+2022-11-11 18:43:25 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image5
+2022-11-11 18:43:33 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image6
+2022-11-11 18:43:41 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image7
+2022-11-11 18:43:49 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image8
+2022-11-11 18:43:58 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image9
+2022-11-11 18:44:06 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image10
+2022-11-11 18:44:14 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image11
+2022-11-11 18:44:22 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image12
+2022-11-11 18:44:30 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image13
+2022-11-11 18:44:39 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image14
+2022-11-11 18:44:47 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image15
+2022-11-11 18:44:55 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image16
+2022-11-11 18:45:03 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image17
+2022-11-11 18:45:11 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image18
+2022-11-11 18:45:19 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image19
+2022-11-11 18:45:28 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image20
+2022-11-11 18:45:36 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image21
+2022-11-11 18:45:44 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image22
+2022-11-11 18:45:52 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image23
+2022-11-11 18:46:01 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image24
+2022-11-11 18:46:09 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image25
+2022-11-11 18:46:17 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image26
+2022-11-11 18:46:25 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image27
+2022-11-11 18:46:33 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image28
+2022-11-11 18:46:42 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image29
+2022-11-11 18:46:50 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image30
+2022-11-11 18:46:58 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image31
+2022-11-11 18:47:06 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image32
+2022-11-11 18:47:14 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image33
+2022-11-11 18:47:23 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image34
+2022-11-11 18:47:31 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image35
+2022-11-11 18:47:39 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image36
+2022-11-11 18:47:47 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image37
+2022-11-11 18:47:55 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image38
+2022-11-11 18:48:04 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image39
+2022-11-11 18:48:12 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image40
+2022-11-11 18:48:20 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image41
+2022-11-11 18:48:28 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image42
+2022-11-11 18:48:36 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image43
+2022-11-11 18:48:45 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image44
+2022-11-11 18:48:53 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image45
+2022-11-11 18:49:01 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image46
+2022-11-11 18:49:09 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image47
+2022-11-11 18:49:17 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image48
+2022-11-11 18:49:26 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image49
+2022-11-11 18:49:34 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image50
+2022-11-11 18:49:42 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image51
+2022-11-11 18:49:50 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image52
+2022-11-11 18:49:58 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image53
+2022-11-11 18:50:07 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image54
+2022-11-11 18:50:15 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image55
+2022-11-11 18:50:23 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image56
+2022-11-11 18:50:31 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image57
+2022-11-11 18:50:39 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image58
+2022-11-11 18:50:48 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image59
+2022-11-11 18:50:56 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image60
+2022-11-11 18:51:04 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image61
+2022-11-11 18:51:12 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image62
+2022-11-11 18:51:20 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image63
+2022-11-11 18:51:29 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image64
+2022-11-11 18:51:37 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image65
+2022-11-11 18:51:45 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image66
+2022-11-11 18:51:53 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image67
+2022-11-11 18:52:01 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image68
+2022-11-11 18:52:10 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image69
+2022-11-11 18:52:18 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image70
+2022-11-11 18:52:26 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image71
+2022-11-11 18:52:34 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image72
+2022-11-11 18:52:42 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image73
+2022-11-11 18:52:51 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image74
+2022-11-11 18:52:59 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image75
+2022-11-11 18:53:07 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image76
+2022-11-11 18:53:15 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image77
+2022-11-11 18:53:23 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image78
+2022-11-11 18:53:32 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image79
+2022-11-11 18:53:40 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image80
+2022-11-11 18:53:48 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image81
+2022-11-11 18:53:56 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image82
+2022-11-11 18:54:04 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image83
+2022-11-11 18:54:13 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image84
+2022-11-11 18:54:21 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image85
+2022-11-11 18:54:29 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image86
+2022-11-11 18:54:37 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image87
+2022-11-11 18:54:45 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image88
+2022-11-11 18:54:54 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image89
+2022-11-11 18:55:02 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image90
+2022-11-11 18:55:10 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image91
+2022-11-11 18:55:18 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image92
+2022-11-11 18:55:27 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image93
+2022-11-11 18:55:35 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image94
+2022-11-11 18:55:43 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image95
+2022-11-11 18:55:51 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image96
+2022-11-11 18:55:59 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image97
+2022-11-11 18:56:08 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image98
+2022-11-11 18:56:16 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking First  Resolution Image99
+2022-11-11 18:56:18 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture Back camera first resolution:100 images Captured succesfull
+2022-11-11 18:56:18 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture Select Rear Image Size
+2022-11-11 18:56:18 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture Select second Image Resoution: 3:4 
+2022-11-11 18:56:26 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture Capture Images
+2022-11-11 18:56:34 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image0
+2022-11-11 18:56:42 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image1
+2022-11-11 18:56:51 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image2
+2022-11-11 18:56:59 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image3
+2022-11-11 18:57:07 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image4
+2022-11-11 18:57:15 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image5
+2022-11-11 18:57:24 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image6
+2022-11-11 18:57:32 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image7
+2022-11-11 18:57:40 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image8
+2022-11-11 18:57:48 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image9
+2022-11-11 18:57:57 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image10
+2022-11-11 18:58:05 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image11
+2022-11-11 18:58:13 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image12
+2022-11-11 18:58:22 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image13
+2022-11-11 18:58:30 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image14
+2022-11-11 18:58:39 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image15
+2022-11-11 18:58:47 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image16
+2022-11-11 18:58:55 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image17
+2022-11-11 18:59:03 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image18
+2022-11-11 18:59:12 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image19
+2022-11-11 18:59:20 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image20
+2022-11-11 18:59:28 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image21
+2022-11-11 18:59:36 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image22
+2022-11-11 18:59:44 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image23
+2022-11-11 18:59:53 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image24
+2022-11-11 19:00:01 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image25
+2022-11-11 19:00:09 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image26
+2022-11-11 19:00:17 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image27
+2022-11-11 19:00:26 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image28
+2022-11-11 19:00:34 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image29
+2022-11-11 19:00:42 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image30
+2022-11-11 19:00:50 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image31
+2022-11-11 19:00:58 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image32
+2022-11-11 19:01:07 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image33
+2022-11-11 19:01:15 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image34
+2022-11-11 19:01:23 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image35
+2022-11-11 19:01:31 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image36
+2022-11-11 19:01:40 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image37
+2022-11-11 19:01:48 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image38
+2022-11-11 19:01:56 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image39
+2022-11-11 19:02:04 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image40
+2022-11-11 19:02:12 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image41
+2022-11-11 19:02:21 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image42
+2022-11-11 19:02:29 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image43
+2022-11-11 19:02:37 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image44
+2022-11-11 19:02:45 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image45
+2022-11-11 19:02:54 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image46
+2022-11-11 19:03:02 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image47
+2022-11-11 19:03:11 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image48
+2022-11-11 19:03:19 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image49
+2022-11-11 19:03:27 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image50
+2022-11-11 19:03:36 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image51
+2022-11-11 19:03:44 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image52
+2022-11-11 19:03:53 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image53
+2022-11-11 19:04:02 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image54
+2022-11-11 19:04:11 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image55
+2022-11-11 19:04:19 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image56
+2022-11-11 19:04:27 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image57
+2022-11-11 19:04:35 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image58
+2022-11-11 19:04:45 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image59
+2022-11-11 19:04:53 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image60
+2022-11-11 19:05:01 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image61
+2022-11-11 19:05:09 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image62
+2022-11-11 19:05:17 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image63
+2022-11-11 19:05:26 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image64
+2022-11-11 19:05:34 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image65
+2022-11-11 19:05:42 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image66
+2022-11-11 19:05:50 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image67
+2022-11-11 19:05:58 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image68
+2022-11-11 19:06:07 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image69
+2022-11-11 19:06:15 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image70
+2022-11-11 19:06:23 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image71
+2022-11-11 19:06:31 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image72
+2022-11-11 19:06:40 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image73
+2022-11-11 19:06:48 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image74
+2022-11-11 19:06:56 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image75
+2022-11-11 19:07:04 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image76
+2022-11-11 19:07:12 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image77
+2022-11-11 19:07:21 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image78
+2022-11-11 19:07:29 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image79
+2022-11-11 19:07:37 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image80
+2022-11-11 19:07:45 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image81
+2022-11-11 19:07:54 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image82
+2022-11-11 19:08:02 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image83
+2022-11-11 19:08:10 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image84
+2022-11-11 19:08:18 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image85
+2022-11-11 19:08:26 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image86
+2022-11-11 19:08:35 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image87
+2022-11-11 19:08:43 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image88
+2022-11-11 19:08:51 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image89
+2022-11-11 19:08:59 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image90
+2022-11-11 19:09:08 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image91
+2022-11-11 19:09:16 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image92
+2022-11-11 19:09:24 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image93
+2022-11-11 19:09:32 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image94
+2022-11-11 19:09:40 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image95
+2022-11-11 19:09:49 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image96
+2022-11-11 19:09:57 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image97
+2022-11-11 19:10:05 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image98
+2022-11-11 19:10:13 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Second  Resolution Image99
+2022-11-11 19:10:15 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture Back camera second resolution:100 images Captured succesfull
+2022-11-11 19:10:15 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture Select Rear Image Size
+2022-11-11 19:10:16 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture Select third Image Resoution: 9:16
+2022-11-11 19:10:28 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture Capture Images
+2022-11-11 19:10:32 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking third  Resolution Image0
+2022-11-11 19:10:36 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking third  Resolution Image1
+2022-11-11 19:10:40 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking third  Resolution Image2
+2022-11-11 19:10:44 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking third  Resolution Image3
+2022-11-11 19:10:49 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking third  Resolution Image4
+2022-11-11 19:10:53 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking third  Resolution Image5
+2022-11-11 19:10:57 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking third  Resolution Image6
+2022-11-11 19:11:01 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking third  Resolution Image7
+2022-11-11 19:11:06 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking third  Resolution Image8
+2022-11-11 19:11:11 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking third  Resolution Image9
+2022-11-11 19:11:15 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking third  Resolution Image10
+2022-11-11 19:11:19 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking third  Resolution Image11
+2022-11-11 19:11:23 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking third  Resolution Image12
+2022-11-11 19:11:28 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking third  Resolution Image13
+2022-11-11 19:11:32 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking third  Resolution Image14
+2022-11-11 19:11:36 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking third  Resolution Image15
+2022-11-11 19:11:40 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking third  Resolution Image16
+2022-11-11 19:11:45 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking third  Resolution Image17
+2022-11-11 19:11:49 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking third  Resolution Image18
+2022-11-11 19:11:53 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking third  Resolution Image19
+2022-11-11 19:11:57 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking third  Resolution Image20
+2022-11-11 19:12:01 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking third  Resolution Image21
+2022-11-11 19:12:06 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking third  Resolution Image22
+2022-11-11 19:12:10 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking third  Resolution Image23
+2022-11-11 19:12:14 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking third  Resolution Image24
+2022-11-11 19:12:18 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking third  Resolution Image25
+2022-11-11 19:12:23 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking third  Resolution Image26
+2022-11-11 19:12:27 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking third  Resolution Image27
+2022-11-11 19:12:31 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking third  Resolution Image28
+2022-11-11 19:12:35 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking third  Resolution Image29
+2022-11-11 19:12:40 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking third  Resolution Image30
+2022-11-11 19:12:44 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking third  Resolution Image31
+2022-11-11 19:12:48 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking third  Resolution Image32
+2022-11-11 19:12:52 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking third  Resolution Image33
+2022-11-11 19:12:56 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking third  Resolution Image34
+2022-11-11 19:12:59 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture Back camera third resolution:35 images Captured succesfull
+2022-11-11 19:12:59 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture Select Rear Image Size
+2022-11-11 19:12:59 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture Select Fourth Image Resoution: 1:1
+2022-11-11 19:13:07 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture Capture Images
+2022-11-11 19:13:15 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fourth  Resolution Image0
+2022-11-11 19:13:23 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fourth  Resolution Image1
+2022-11-11 19:13:31 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fourth  Resolution Image2
+2022-11-11 19:13:40 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fourth  Resolution Image3
+2022-11-11 19:13:48 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fourth  Resolution Image4
+2022-11-11 19:13:56 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fourth  Resolution Image5
+2022-11-11 19:14:04 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fourth  Resolution Image6
+2022-11-11 19:14:13 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fourth  Resolution Image7
+2022-11-11 19:14:21 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fourth  Resolution Image8
+2022-11-11 19:14:29 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fourth  Resolution Image9
+2022-11-11 19:14:37 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fourth  Resolution Image10
+2022-11-11 19:14:45 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fourth  Resolution Image11
+2022-11-11 19:14:54 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fourth  Resolution Image12
+2022-11-11 19:15:02 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fourth  Resolution Image13
+2022-11-11 19:15:10 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fourth  Resolution Image14
+2022-11-11 19:15:18 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fourth  Resolution Image15
+2022-11-11 19:15:28 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fourth  Resolution Image16
+2022-11-11 19:15:37 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fourth  Resolution Image17
+2022-11-11 19:15:45 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fourth  Resolution Image18
+2022-11-11 19:15:53 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fourth  Resolution Image19
+2022-11-11 19:16:02 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fourth  Resolution Image20
+2022-11-11 19:16:11 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fourth  Resolution Image21
+2022-11-11 19:16:19 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fourth  Resolution Image22
+2022-11-11 19:16:27 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fourth  Resolution Image23
+2022-11-11 19:16:35 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fourth  Resolution Image24
+2022-11-11 19:16:44 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fourth  Resolution Image25
+2022-11-11 19:16:52 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fourth  Resolution Image26
+2022-11-11 19:17:00 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fourth  Resolution Image27
+2022-11-11 19:17:08 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fourth  Resolution Image28
+2022-11-11 19:17:16 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fourth  Resolution Image29
+2022-11-11 19:17:25 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fourth  Resolution Image30
+2022-11-11 19:17:33 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fourth  Resolution Image31
+2022-11-11 19:17:41 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fourth  Resolution Image32
+2022-11-11 19:17:49 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fourth  Resolution Image33
+2022-11-11 19:17:58 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fourth  Resolution Image34
+2022-11-11 19:18:00 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture Back camera fourth resolution:35 images Captured succesfull
+2022-11-11 19:18:00 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture Select Rear Image Size
+2022-11-11 19:18:00 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture Select fifth Resolution: Full
+2022-11-11 19:18:08 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture Capture Images
+2022-11-11 19:18:16 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fifth  Resolution Image0
+2022-11-11 19:18:24 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fifth  Resolution Image1
+2022-11-11 19:18:33 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fifth  Resolution Image2
+2022-11-11 19:18:42 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fifth  Resolution Image3
+2022-11-11 19:18:50 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fifth  Resolution Image4
+2022-11-11 19:18:58 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fifth  Resolution Image5
+2022-11-11 19:19:06 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fifth  Resolution Image6
+2022-11-11 19:19:15 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fifth  Resolution Image7
+2022-11-11 19:19:23 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fifth  Resolution Image8
+2022-11-11 19:19:31 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fifth  Resolution Image9
+2022-11-11 19:19:39 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fifth  Resolution Image10
+2022-11-11 19:19:47 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fifth  Resolution Image11
+2022-11-11 19:19:56 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fifth  Resolution Image12
+2022-11-11 19:20:04 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fifth  Resolution Image13
+2022-11-11 19:20:12 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fifth  Resolution Image14
+2022-11-11 19:20:20 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fifth  Resolution Image15
+2022-11-11 19:20:29 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fifth  Resolution Image16
+2022-11-11 19:20:37 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fifth  Resolution Image17
+2022-11-11 19:20:45 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fifth  Resolution Image18
+2022-11-11 19:20:53 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fifth  Resolution Image19
+2022-11-11 19:21:01 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fifth  Resolution Image20
+2022-11-11 19:21:10 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fifth  Resolution Image21
+2022-11-11 19:21:18 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fifth  Resolution Image22
+2022-11-11 19:21:26 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fifth  Resolution Image23
+2022-11-11 19:21:34 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fifth  Resolution Image24
+2022-11-11 19:21:42 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fifth  Resolution Image25
+2022-11-11 19:21:51 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fifth  Resolution Image26
+2022-11-11 19:21:59 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fifth  Resolution Image27
+2022-11-11 19:22:07 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fifth  Resolution Image28
+2022-11-11 19:22:15 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture clicking Fifth  Resolution Image29
+2022-11-11 19:22:17 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture Back camera fifth resolution:30 images Captured succesfull
+2022-11-11 19:22:17 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture Total Count value:300 images to be Captured 
+2022-11-11 19:22:25 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture Launch file manager application and verify recorded video present  in uSD Card
+2022-11-11 19:22:31 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture Swipe up to select uSD card
+2022-11-11 19:22:31 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture Select SD card
+2022-11-11 19:22:37 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture Swipe up to select DCIM folder
+2022-11-11 19:22:37 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture Select DCIM folder
+2022-11-11 19:22:41 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture Select camera folder
+2022-11-11 19:22:44 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture Select More Options 
+2022-11-11 19:22:54 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture Select Edit options
+2022-11-11 19:23:01 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture Click On Select All Options
+2022-11-11 19:23:13 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture Fail: Test9 fail for Fail Count Issue
+2022-11-11 19:23:13 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture Fail: Test9 fail for rear Image capture
+2022-11-11 19:23:13 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-11-11 19:23:13 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture Calling DataMoveOperation
+2022-11-11 19:23:19 INFO   Samsung_Galaxy_F23_5G.Test9 DataMoveOperation launch file manager application select uSD card-->DCIM folder-->Camera folder-->Select all back camera front camera videos create Test10 and cut paste all videos in BCFC_Cameravideos folder
+2022-11-11 19:23:25 INFO   Samsung_Galaxy_F23_5G.Test9 DataMoveOperation Swipe up to select uSD card
+2022-11-11 19:23:25 INFO   Samsung_Galaxy_F23_5G.Test9 DataMoveOperation Select SD card
+2022-11-11 19:23:31 INFO   Samsung_Galaxy_F23_5G.Test9 DataMoveOperation Select DCIM folder
+2022-11-11 19:23:35 INFO   Samsung_Galaxy_F23_5G.Test9 DataMoveOperation Select camera folder
+2022-11-11 19:23:38 INFO   Samsung_Galaxy_F23_5G.Test9 DataMoveOperation Select More Options 
+2022-11-11 19:23:48 INFO   Samsung_Galaxy_F23_5G.Test9 DataMoveOperation Select Edit options
+2022-11-11 19:23:55 INFO   Samsung_Galaxy_F23_5G.Test9 DataMoveOperation Click On Select All Options
+2022-11-11 19:23:59 INFO   Samsung_Galaxy_F23_5G.Test9 DataMoveOperation Select move to option
+2022-11-11 19:24:12 INFO   Samsung_Galaxy_F23_5G.Test9 DataMoveOperation Select uSD Card
+2022-11-11 19:24:18 INFO   Samsung_Galaxy_F23_5G.Test9 DataMoveOperation Select More Options 
+2022-11-11 19:24:29 INFO   Samsung_Galaxy_F23_5G.Test9 DataMoveOperation create folder
+2022-11-11 19:24:33 INFO   Samsung_Galaxy_F23_5G.Test9 DataMoveOperation Name folder as Test9
+2022-11-11 19:24:40 INFO   Samsung_Galaxy_F23_5G.Test9 DataMoveOperation click create
+2022-11-11 19:24:42 INFO   Samsung_Galaxy_F23_5G.Test9 DataMoveOperation Select DCIM folder
+2022-11-11 19:24:45 INFO   Samsung_Galaxy_F23_5G.Test9 DataMoveOperation Move here
+2022-11-11 19:27:46 INFO   Samsung_Galaxy_F23_5G.Test9 DataMoveOperation Cut paste  video files operation completed successfully
+2022-11-11 19:27:48 INFO   Samsung_Galaxy_F23_5G.Test9 DataMoveOperation Pass: Test9 Pass for data move operation successfully
+2022-11-11 19:27:48 INFO   Samsung_Galaxy_F23_5G.Test9 DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-11-11 19:27:48 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture Final message: Fail Test9 for rear camera image capture
+2022-11-11 19:27:48 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture Test: End
+2022-11-11 19:27:48 INFO   Samsung_Galaxy_F23_5G.Test9 RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 8,683.195 s <<< FAILURE! - in TestSuite
+Sony_Xperia1_II_XQAT52.Test18.CopyPaste  Time elapsed: 166.05 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: write ECONNABORTED
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: XQ-AT52, newCommandTimeout: 600, platformName: android, platformVersion: 11, udid: QV710PLJ3F}, deviceApiLevel: 30, deviceManufacturer: Sony, deviceModel: XQ-AT52, deviceName: QV710PLJ3F, deviceScreenDensity: 420, deviceScreenSize: 1096x2560, deviceUDID: QV710PLJ3F, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 63, takesScreenshot: true, udid: QV710PLJ3F, viewportRect: {height: 2371, left: 0, top: 63, width: 1096}, warnings: {}, webStorageEnabled: false}
+Session ID: 3a03ce8b-a11b-4987-a7f7-247611fd3528
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Done")}
+	at Sony_Xperia1_II_XQAT52.Test18.CopyPaste(Test18.java:132)
+

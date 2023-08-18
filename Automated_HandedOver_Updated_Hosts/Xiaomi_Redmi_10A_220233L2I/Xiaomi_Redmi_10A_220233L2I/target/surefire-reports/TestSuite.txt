@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 9,658.595 s <<< FAILURE! - in TestSuite
+Xiaomi_Redmi_10A_220233L2I.Test10F.frontVideoRec  Time elapsed: 1,294.476 s  <<< FAILURE!
+org.openqa.selenium.NoSuchSessionException: 
+The session identified by efceb38b-6a56-4a35-a1d7-8ceb04569732 is not known
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RPG-USB-APPS-38', ip: '10.65.145.50', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Redmi 10A, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: 6HHYPV7TKRDQCQ8H}, deviceApiLevel: 30, deviceManufacturer: Xiaomi, deviceModel: 220233L2I, deviceName: 6HHYPV7TKRDQCQ8H, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: 6HHYPV7TKRDQCQ8H, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 55, takesScreenshot: true, udid: 6HHYPV7TKRDQCQ8H, viewportRect: {height: 1394, left: 0, top: 55, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 267d579b-d417-4240-ba7b-f8f8531c59a0
+*** Element info: {Using=xpath, value=//*[@resource-id='com.android.camera:id/v9_camera_picker_horizontal']}
+	at Xiaomi_Redmi_10A_220233L2I.Test10F.frontVideoRec(Test10F.java:371)
+

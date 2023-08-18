@@ -1,0 +1,143 @@
+2023-01-16 18:10:32 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture Test: Start
+2023-01-16 18:10:32 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-16 18:10:32 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture Test9F Scenario is as follows:
+2023-01-16 18:10:32 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture 1.Launch camera application, set uSD as a Storage option, start Front camera image picture capture for all Host front resolutions
+2023-01-16 18:10:32 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture Setting up the appium desired capabilities
+2023-01-16 18:10:32 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-16 18:10:38 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture Launch Home screen and Clear recent apps
+2023-01-16 18:10:56 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture Launch Camera Application for Front camera picture Capture for all Host resolutions
+2023-01-16 18:10:57 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture If change to uSD card pop-up exists select Cancel
+2023-01-16 18:11:07 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy A71 5G, newCommandTimeout: 600, platformName: android, platformVersion: 11, udid: R5CN80J025V}, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-A716U1, deviceName: R5CN80J025V, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: R5CN80J025V, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 91, takesScreenshot: true, udid: R5CN80J025V, viewportRect: {height: 2092, left: 0, top: 91, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 54cd46ef-5d50-42f1-ac89-1c08455153a5
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2023-01-16 18:11:07 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture If Location access Permission Request Pop Exists Click on Cancel. 
+2023-01-16 18:11:17 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture Location access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy A71 5G, newCommandTimeout: 600, platformName: android, platformVersion: 11, udid: R5CN80J025V}, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-A716U1, deviceName: R5CN80J025V, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: R5CN80J025V, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 91, takesScreenshot: true, udid: R5CN80J025V, viewportRect: {height: 2092, left: 0, top: 91, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 54cd46ef-5d50-42f1-ac89-1c08455153a5
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2023-01-16 18:11:22 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture Switch To front Camera if current Exiting camera is in Back camera mode
+2023-01-16 18:11:25 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture Test9F_Fcam_res: 5 resolutions supported
+2023-01-16 18:11:25 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture Click Settings option
+2023-01-16 18:11:30 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture Swipe up and select storage location option
+2023-01-16 18:11:44 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture Select SD as storage option
+2023-01-16 18:11:53 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture Select Front Image size
+2023-01-16 18:11:53 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture Select First front Image Resoution: 3:4(32mp)
+2023-01-16 18:12:07 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking First resolution Image0
+2023-01-16 18:12:13 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking First resolution Image1
+2023-01-16 18:12:19 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking First resolution Image2
+2023-01-16 18:12:25 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking First resolution Image3
+2023-01-16 18:12:32 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking First resolution Image4
+2023-01-16 18:12:38 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking First resolution Image5
+2023-01-16 18:12:44 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking First resolution Image6
+2023-01-16 18:12:50 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking First resolution Image7
+2023-01-16 18:12:56 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking First resolution Image8
+2023-01-16 18:13:02 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking First resolution Image9
+2023-01-16 18:13:09 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking First resolution Image10
+2023-01-16 18:13:16 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking First resolution Image11
+2023-01-16 18:13:18 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture front camera first resolution:12 images Captured succesfull
+2023-01-16 18:13:18 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture Select Front Image size
+2023-01-16 18:13:18 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture Select Second resolution 3:4
+2023-01-16 18:13:32 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking Second resolution Image0
+2023-01-16 18:13:39 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking Second resolution Image1
+2023-01-16 18:13:47 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking Second resolution Image2
+2023-01-16 18:13:53 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking Second resolution Image3
+2023-01-16 18:13:59 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking Second resolution Image4
+2023-01-16 18:14:05 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking Second resolution Image5
+2023-01-16 18:14:11 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking Second resolution Image6
+2023-01-16 18:14:18 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking Second resolution Image7
+2023-01-16 18:14:24 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking Second resolution Image8
+2023-01-16 18:14:31 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking Second resolution Image9
+2023-01-16 18:14:37 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking Second resolution Image10
+2023-01-16 18:14:43 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking Second resolution Image11
+2023-01-16 18:14:45 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture front camera second resolution:12 images Captured succesfull
+2023-01-16 18:14:45 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture Select Front Image size
+2023-01-16 18:14:46 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture Select third Image Resoution: 9:16
+2023-01-16 18:15:00 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking Second Third Image0
+2023-01-16 18:15:07 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking Second Third Image1
+2023-01-16 18:15:13 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking Second Third Image2
+2023-01-16 18:15:20 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking Second Third Image3
+2023-01-16 18:15:26 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking Second Third Image4
+2023-01-16 18:15:32 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking Second Third Image5
+2023-01-16 18:15:38 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking Second Third Image6
+2023-01-16 18:15:44 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking Second Third Image7
+2023-01-16 18:15:50 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking Second Third Image8
+2023-01-16 18:15:58 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking Second Third Image9
+2023-01-16 18:16:04 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking Second Third Image10
+2023-01-16 18:16:10 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking Second Third Image11
+2023-01-16 18:16:12 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture front camera third resolution:12 images Captured succesfull
+2023-01-16 18:16:12 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture Select Front Image size
+2023-01-16 18:16:12 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture Select fourth resolution 1:1
+2023-01-16 18:16:31 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking Fourth resolution Image0
+2023-01-16 18:16:37 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking Fourth resolution Image1
+2023-01-16 18:16:43 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking Fourth resolution Image2
+2023-01-16 18:16:49 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking Fourth resolution Image3
+2023-01-16 18:16:56 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking Fourth resolution Image4
+2023-01-16 18:17:02 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking Fourth resolution Image5
+2023-01-16 18:17:08 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking Fourth resolution Image6
+2023-01-16 18:17:14 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking Fourth resolution Image7
+2023-01-16 18:17:20 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking Fourth resolution Image8
+2023-01-16 18:17:26 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking Fourth resolution Image9
+2023-01-16 18:17:32 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking Fourth resolution Image10
+2023-01-16 18:17:39 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking Fourth resolution Image11
+2023-01-16 18:17:41 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture Back camera fourth resolution:12 images Captured succesfull
+2023-01-16 18:17:41 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture Select Front Image size
+2023-01-16 18:17:41 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture Select fourth resolution Full
+2023-01-16 18:17:59 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking Fourth resolution Image0
+2023-01-16 18:18:05 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking Fourth resolution Image1
+2023-01-16 18:18:11 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking Fourth resolution Image2
+2023-01-16 18:18:18 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking Fourth resolution Image3
+2023-01-16 18:18:24 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking Fourth resolution Image4
+2023-01-16 18:18:30 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking Fourth resolution Image5
+2023-01-16 18:18:36 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking Fourth resolution Image6
+2023-01-16 18:18:42 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking Fourth resolution Image7
+2023-01-16 18:18:50 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking Fourth resolution Image8
+2023-01-16 18:18:56 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking Fourth resolution Image9
+2023-01-16 18:19:02 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking Fourth resolution Image10
+2023-01-16 18:19:08 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture clicking Fourth resolution Image11
+2023-01-16 18:19:10 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture Back camera fifth resolution:12 images Captured succesfull
+2023-01-16 18:19:17 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture Total Count value:60 images to be Captured 
+2023-01-16 18:19:17 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture switch to back camera
+2023-01-16 18:19:29 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture Launch file manager application and verify captured images present  in uSD Card
+2023-01-16 18:19:45 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture Swipe up to select uSD card
+2023-01-16 18:19:48 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture Select SD card
+2023-01-16 18:19:54 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture switch to grid view mode to select DCIM folder
+2023-01-16 18:19:57 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture Select DCIM folder
+2023-01-16 18:20:01 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture Select camera folder
+2023-01-16 18:20:04 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture switch to list view mode 
+2023-01-16 18:20:07 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture Click More options
+2023-01-16 18:20:13 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture Click Select all
+2023-01-16 18:20:17 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture Total Image captured
+2023-01-16 18:20:25 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture Pass: Test9F pass for rear Image capture
+2023-01-16 18:20:25 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture Test9F Fcam_image: 60  images Captured succesfull
+2023-01-16 18:20:25 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-16 18:20:29 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture calling DataMoveOperation() 
+2023-01-16 18:20:29 INFO   Samsung_Galaxy_A71_5G.Test9F DataMoveOperation Re-launch file manager application and select external storage for data move operation, select all front camera images files present in camera folder and move to Test9F folder
+2023-01-16 18:20:38 INFO   Samsung_Galaxy_A71_5G.Test9F DataMoveOperation Select external storage
+2023-01-16 18:20:43 INFO   Samsung_Galaxy_A71_5G.Test9F DataMoveOperation switch to grid view mode and select DCIM  folder
+2023-01-16 18:20:46 INFO   Samsung_Galaxy_A71_5G.Test9F DataMoveOperation Select DCIM folder
+2023-01-16 18:20:50 INFO   Samsung_Galaxy_A71_5G.Test9F DataMoveOperation Select camera  folder
+2023-01-16 18:20:53 INFO   Samsung_Galaxy_A71_5G.Test9F DataMoveOperation switch to list view mode 
+2023-01-16 18:20:56 INFO   Samsung_Galaxy_A71_5G.Test9F DataMoveOperation Click More options
+2023-01-16 18:21:02 INFO   Samsung_Galaxy_A71_5G.Test9F DataMoveOperation Click Select all
+2023-01-16 18:21:06 INFO   Samsung_Galaxy_A71_5G.Test9F DataMoveOperation Click More options
+2023-01-16 18:21:12 INFO   Samsung_Galaxy_A71_5G.Test9F DataMoveOperation Select move to option
+2023-01-16 18:21:19 INFO   Samsung_Galaxy_A71_5G.Test9F DataMoveOperation Select uSD Card
+2023-01-16 18:21:25 INFO   Samsung_Galaxy_A71_5G.Test9F DataMoveOperation Select ADD NEW Folder option
+2023-01-16 18:21:31 INFO   Samsung_Galaxy_A71_5G.Test9F DataMoveOperation Name folder as Test9F
+2023-01-16 18:21:38 INFO   Samsung_Galaxy_A71_5G.Test9F DataMoveOperation Accept create folder
+2023-01-16 18:22:08 INFO   Samsung_Galaxy_A71_5G.Test9F DataMoveOperation Cut paste  operation completed successfully
+2023-01-16 18:22:12 INFO   Samsung_Galaxy_A71_5G.Test9F DataMoveOperation Test9F: Data move operation completed successfully
+2023-01-16 18:22:20 INFO   Samsung_Galaxy_A71_5G.Test9F DataMoveOperation Pass: Test9F Pass for data move operation successfully
+2023-01-16 18:22:20 INFO   Samsung_Galaxy_A71_5G.Test9F DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-16 18:22:20 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture Final Message: Pass Test9F Pass for Front camera image capture  successfully
+2023-01-16 18:22:20 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture Test: End
+2023-01-16 18:22:20 INFO   Samsung_Galaxy_A71_5G.Test9F frontPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

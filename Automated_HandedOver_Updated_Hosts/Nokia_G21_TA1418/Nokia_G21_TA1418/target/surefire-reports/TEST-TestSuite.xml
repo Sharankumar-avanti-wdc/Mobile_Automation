@@ -1,0 +1,1500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="6,980.297" tests="11" errors="0" skipped="3" failures="4">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="fileName" value="testngMain.xml"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="totalPictureCountRear" value="60"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="totalPictureCountFront" value="75"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\sandisk\eclipse-workspace\Nokia_G21_TA1418\target\test-classes;C:\Users\sandisk\eclipse-workspace\Nokia_G21_TA1418\target\classes;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\sandisk\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\sandisk\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\sandisk\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\sandisk\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\sandisk\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\sandisk\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\sandisk\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\sandisk\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\sandisk\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\sandisk\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-android-driver\2.39.0\selenium-android-driver-2.39.0.jar;C:\Users\sandisk\.m2\repository\io\appium\java-client\7.0.0\java-client-7.0.0.jar;C:\Users\sandisk\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\sandisk\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\sandisk\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\sandisk\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\sandisk\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\sandisk\.m2\repository\cglib\cglib\3.2.8\cglib-3.2.8.jar;C:\Users\sandisk\.m2\repository\org\ow2\asm\asm\6.2.1\asm-6.2.1.jar;C:\Users\sandisk\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\sandisk\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\sandisk\.m2\repository\commons-validator\commons-validator\1.6\commons-validator-1.6.jar;C:\Users\sandisk\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\sandisk\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\sandisk\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\sandisk\.m2\repository\org\apache\commons\commons-lang3\3.8\commons-lang3-3.8.jar;C:\Users\sandisk\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\sandisk\.m2\repository\org\springframework\spring-context\5.1.0.RELEASE\spring-context-5.1.0.RELEASE.jar;C:\Users\sandisk\.m2\repository\org\springframework\spring-aop\5.1.0.RELEASE\spring-aop-5.1.0.RELEASE.jar;C:\Users\sandisk\.m2\repository\org\springframework\spring-beans\5.1.0.RELEASE\spring-beans-5.1.0.RELEASE.jar;C:\Users\sandisk\.m2\repository\org\springframework\spring-core\5.1.0.RELEASE\spring-core-5.1.0.RELEASE.jar;C:\Users\sandisk\.m2\repository\org\springframework\spring-jcl\5.1.0.RELEASE\spring-jcl-5.1.0.RELEASE.jar;C:\Users\sandisk\.m2\repository\org\springframework\spring-expression\5.1.0.RELEASE\spring-expression-5.1.0.RELEASE.jar;C:\Users\sandisk\.m2\repository\org\aspectj\aspectjweaver\1.9.1\aspectjweaver-1.9.1.jar;C:\Users\sandisk\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\sandisk\.m2\repository\org\testng\testng\6.1.1\testng-6.1.1.jar;C:\Users\sandisk\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\sandisk\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\sandisk\.m2\repository\com\beust\jcommander\1.12\jcommander-1.12.jar;C:\Users\sandisk\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin"/>
+    <property name="recordingDurationRear1" value="580"/>
+    <property name="sun.java.command" value="C:\Users\sandisk\AppData\Local\Temp\surefire415103870347458542\surefirebooter896600267229754981.jar C:\Users\sandisk\AppData\Local\Temp\surefire415103870347458542 2023-01-11T11-42-06_149-jvmRun1 surefire2823262644834731447tmp surefire_05371825412153867445tmp"/>
+    <property name="recordingDurationFront" value="580"/>
+    <property name="recordingDurationFront1" value="580"/>
+    <property name="surefire.test.class.path" value="C:\Users\sandisk\eclipse-workspace\Nokia_G21_TA1418\target\test-classes;C:\Users\sandisk\eclipse-workspace\Nokia_G21_TA1418\target\classes;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\sandisk\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\sandisk\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\sandisk\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\sandisk\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\sandisk\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\sandisk\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\sandisk\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\sandisk\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\sandisk\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\sandisk\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\sandisk\.m2\repository\org\seleniumhq\selenium\selenium-android-driver\2.39.0\selenium-android-driver-2.39.0.jar;C:\Users\sandisk\.m2\repository\io\appium\java-client\7.0.0\java-client-7.0.0.jar;C:\Users\sandisk\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\sandisk\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\sandisk\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\sandisk\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\sandisk\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\sandisk\.m2\repository\cglib\cglib\3.2.8\cglib-3.2.8.jar;C:\Users\sandisk\.m2\repository\org\ow2\asm\asm\6.2.1\asm-6.2.1.jar;C:\Users\sandisk\.m2\repository\org\apache\ant\ant\1.10.3\ant-1.10.3.jar;C:\Users\sandisk\.m2\repository\org\apache\ant\ant-launcher\1.10.3\ant-launcher-1.10.3.jar;C:\Users\sandisk\.m2\repository\commons-validator\commons-validator\1.6\commons-validator-1.6.jar;C:\Users\sandisk\.m2\repository\commons-beanutils\commons-beanutils\1.9.2\commons-beanutils-1.9.2.jar;C:\Users\sandisk\.m2\repository\commons-digester\commons-digester\1.8.1\commons-digester-1.8.1.jar;C:\Users\sandisk\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\sandisk\.m2\repository\org\apache\commons\commons-lang3\3.8\commons-lang3-3.8.jar;C:\Users\sandisk\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\sandisk\.m2\repository\org\springframework\spring-context\5.1.0.RELEASE\spring-context-5.1.0.RELEASE.jar;C:\Users\sandisk\.m2\repository\org\springframework\spring-aop\5.1.0.RELEASE\spring-aop-5.1.0.RELEASE.jar;C:\Users\sandisk\.m2\repository\org\springframework\spring-beans\5.1.0.RELEASE\spring-beans-5.1.0.RELEASE.jar;C:\Users\sandisk\.m2\repository\org\springframework\spring-core\5.1.0.RELEASE\spring-core-5.1.0.RELEASE.jar;C:\Users\sandisk\.m2\repository\org\springframework\spring-jcl\5.1.0.RELEASE\spring-jcl-5.1.0.RELEASE.jar;C:\Users\sandisk\.m2\repository\org\springframework\spring-expression\5.1.0.RELEASE\spring-expression-5.1.0.RELEASE.jar;C:\Users\sandisk\.m2\repository\org\aspectj\aspectjweaver\1.9.1\aspectjweaver-1.9.1.jar;C:\Users\sandisk\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\sandisk\.m2\repository\org\testng\testng\6.1.1\testng-6.1.1.jar;C:\Users\sandisk\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\sandisk\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\sandisk\.m2\repository\com\beust\jcommander\1.12\jcommander-1.12.jar;C:\Users\sandisk\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\sandisk"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_202\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\sandisk\eclipse-workspace\Nokia_G21_TA1418"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="mountUnmountCycle" value="1"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\sandisk\AppData\Local\Temp\surefire415103870347458542\surefirebooter896600267229754981.jar"/>
+    <property name="recordingDurationRear" value="580"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_202-b08"/>
+    <property name="totalPictureCountFront3" value="75"/>
+    <property name="user.name" value="sandisk"/>
+    <property name="totalPictureCountFront2" value="75"/>
+    <property name="totalPictureCountFront1" value="75"/>
+    <property name="path.separator" value=";"/>
+    <property name="totalPictureCountRear3" value="60"/>
+    <property name="totalPictureCountRear4" value="60"/>
+    <property name="totalPictureCountRear1" value="60"/>
+    <property name="os.version" value="10.0"/>
+    <property name="totalPictureCountRear2" value="60"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\sandisk\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\sandisk\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_202"/>
+    <property name="user.dir" value="C:\Users\sandisk\eclipse-workspace\Nokia_G21_TA1418"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.util.logging.SimpleFormatter.format" value="%1$tY-%1$tm-%1$td %1$tH:%1$tM:%1$tS %4$-6s %2$s %5$s%6$s%n"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="Tolerance_Level" value="75"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_202\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\sandisk\Maven\apache-maven-3.8.4\bin;C:\Ant\apache-ant-1.9.15\bin;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Users\sandisk\AppData\Local\Android\Sdk;C:\Users\sandisk\android-sdks\platform-tools;C:\Android\Android-sdk\bin;C:\Android\Android-sdk\tools;C:\Android\Android-sdk\platform-tools;C:\Python37\Scripts\;C:\Python37\;C:\Users\sandisk\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="25.202-b08"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="SetUp" classname="Nokia_G21_TA1418.Test0" time="7.016">
+    <failure message="Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Device PT19655JA1233000716 was not in the list of connected devices&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SD-APPS-090&apos;, ip: &apos;10.65.148.57&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;&#10;Driver info: driver.version: AndroidDriver&#10;remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Device PT19655JA1233000716 was not in the list of connected devices&#10;    at getResponseForW3CError (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)&#10;    at asyncHandler (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SD-APPS-090&apos;, ip: &apos;10.65.148.57&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;&#10;Driver info: driver.version: AndroidDriver" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Device PT19655JA1233000716 was not in the list of connected devices
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Device PT19655JA1233000716 was not in the list of connected devices
+    at getResponseForW3CError (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: AndroidDriver
+	at Nokia_G21_TA1418.Test0.SetUp(Test0.java:74)
+Caused by: java.lang.reflect.InvocationTargetException
+	at Nokia_G21_TA1418.Test0.SetUp(Test0.java:74)
+Caused by: org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Device PT19655JA1233000716 was not in the list of connected devices
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Device PT19655JA1233000716 was not in the list of connected devices
+    at getResponseForW3CError (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+	at Nokia_G21_TA1418.Test0.SetUp(Test0.java:74)
+]]></failure>
+  </testcase>
+  <testcase name="start" classname="Nokia_G21_TA1418.Test0" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="SetUp" classname="Nokia_G21_TA1418.Test3" time="0.329">
+    <failure message="Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Device PT19655JA1233000716 was not in the list of connected devices&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SD-APPS-090&apos;, ip: &apos;10.65.148.57&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;&#10;Driver info: driver.version: AndroidDriver&#10;remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Device PT19655JA1233000716 was not in the list of connected devices&#10;    at getResponseForW3CError (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)&#10;    at asyncHandler (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SD-APPS-090&apos;, ip: &apos;10.65.148.57&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;&#10;Driver info: driver.version: AndroidDriver" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Device PT19655JA1233000716 was not in the list of connected devices
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Device PT19655JA1233000716 was not in the list of connected devices
+    at getResponseForW3CError (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: AndroidDriver
+	at Nokia_G21_TA1418.Test3.SetUp(Test3.java:60)
+Caused by: java.lang.reflect.InvocationTargetException
+	at Nokia_G21_TA1418.Test3.SetUp(Test3.java:60)
+Caused by: org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Device PT19655JA1233000716 was not in the list of connected devices
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Device PT19655JA1233000716 was not in the list of connected devices
+    at getResponseForW3CError (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+	at Nokia_G21_TA1418.Test3.SetUp(Test3.java:60)
+]]></failure>
+  </testcase>
+  <testcase name="Format" classname="Nokia_G21_TA1418.Test3" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="SetUp" classname="Nokia_G21_TA1418.Test18" time="0.245">
+    <failure message="Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Device PT19655JA1233000716 was not in the list of connected devices&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SD-APPS-090&apos;, ip: &apos;10.65.148.57&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;&#10;Driver info: driver.version: AndroidDriver&#10;remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Device PT19655JA1233000716 was not in the list of connected devices&#10;    at getResponseForW3CError (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)&#10;    at asyncHandler (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SD-APPS-090&apos;, ip: &apos;10.65.148.57&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;&#10;Driver info: driver.version: AndroidDriver" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+Unable to create a new remote session. Please check the server log for more details. Original error: An unknown server-side error occurred while processing the command. Original error: Device PT19655JA1233000716 was not in the list of connected devices
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Device PT19655JA1233000716 was not in the list of connected devices
+    at getResponseForW3CError (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: AndroidDriver
+	at Nokia_G21_TA1418.Test18.SetUp(Test18.java:57)
+Caused by: java.lang.reflect.InvocationTargetException
+	at Nokia_G21_TA1418.Test18.SetUp(Test18.java:57)
+Caused by: org.openqa.selenium.WebDriverException: 
+An unknown server-side error occurred while processing the command. Original error: Device PT19655JA1233000716 was not in the list of connected devices
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: AndroidDriver
+remote stacktrace: UnknownError: An unknown server-side error occurred while processing the command. Original error: Device PT19655JA1233000716 was not in the list of connected devices
+    at getResponseForW3CError (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\errors.js:804:9)
+    at asyncHandler (C:\Program Files\Appium Server GUI\resources\app\node_modules\appium\node_modules\appium-base-driver\lib\protocol\protocol.js:380:37)
+	at Nokia_G21_TA1418.Test18.SetUp(Test18.java:57)
+]]></failure>
+  </testcase>
+  <testcase name="CopyPaste" classname="Nokia_G21_TA1418.Test18" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="recordAudio" classname="Nokia_G21_TA1418.Test8" time="46.849">
+    <failure message="An element could not be located on the page using the given search parameters.&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;SD-APPS-090&apos;, ip: &apos;10.65.148.57&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Nokia G21, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: PT19655JA1233000716}, deviceApiLevel: 30, deviceManufacturer: HMD Global, deviceModel: Nokia G21, deviceName: PT19655JA1233000716, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: PT19655JA1233000716, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 52, takesScreenshot: true, udid: PT19655JA1233000716, viewportRect: {height: 1468, left: 0, top: 52, width: 720}, warnings: {}, webStorageEnabled: false}&#10;Session ID: e52b3826-5005-4616-8bd3-d1378de78935&#10;*** Element info: {Using=xpath, value=//*[@text=&apos;Test1&apos;]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Nokia G21, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: PT19655JA1233000716}, deviceApiLevel: 30, deviceManufacturer: HMD Global, deviceModel: Nokia G21, deviceName: PT19655JA1233000716, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: PT19655JA1233000716, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 52, takesScreenshot: true, udid: PT19655JA1233000716, viewportRect: {height: 1468, left: 0, top: 52, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: e52b3826-5005-4616-8bd3-d1378de78935
+*** Element info: {Using=xpath, value=//*[@text='Test1']}
+	at Nokia_G21_TA1418.Test8.PlayCopiedAudioFile(Test8.java:103)
+	at Nokia_G21_TA1418.Test8.recordAudio(Test8.java:77)
+]]></failure>
+    <system-out><![CDATA[Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test8 scenario is as follows
+1.Host voice recorder application does not support uSD storage option. Hence skipping voice recording scenario!
+2.Launch file manager application and playback copied audio files from external storage the files are placed in the Test1 folder
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+calling PlayCopiedAudioFile to play back copied audio files from Test1 folder 
+Select external storage
+switch to grid view mode to select Test1 folder
+Select Test1 folder
+]]></system-out>
+    <system-err><![CDATA[2023-01-11 11:42:27 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+2023-01-11 11:42:40 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="rearVideoRec" classname="Nokia_G21_TA1418.Test10" time="1,605.611">
+    <system-out><![CDATA[Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test10 Scenario is as follows
+1.Launch Camera application and start back camera video recording for all host applicable resolutions in uSD Card
+2.Playback Highest resolution recorded video from USD Card, fast forward playback and pause video scenario 
+3.Playback copied videos from Test1 folder, fast forward and pause scenario
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Unlocking Phone
+Launch home screen
+If location location permission request pop-up exists? select deny option
+No location access permission pop-up found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Nokia G21, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: PT19655JA1233000716}, deviceApiLevel: 30, deviceManufacturer: HMD Global, deviceModel: Nokia G21, deviceName: PT19655JA1233000716, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: PT19655JA1233000716, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 52, takesScreenshot: true, udid: PT19655JA1233000716, viewportRect: {height: 1468, left: 0, top: 52, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 18a25a1c-61bf-4d36-b524-437ede83da7e
+*** Element info: {Using=xpath, value=//*[@resource-id='com.android.permissioncontroller:id/permission_deny_button']}
+Test10_Bcam_res: 2 resolutions supported
+Switch to video mode
+select settings option
+select data storage option
+select uSD card as storage option
+select settings option
+select video resolution option
+select Video from rear camera option
+select first highest rear camera video resolution: FHD 1080P
+recordingDurationRear = 580
+Start recording
+Stop recording
+select settings option
+select video resolution option
+select Video from rear camera option
+select second highest rear camera video resolution: HD 720P
+recordingDurationRear1 = 580
+Start recording
+Stop recording
+Switch to photo mode
+Pass: Rear video recording is successfull
+Launch file manager application and verify recorded video present in uSD Card
+Swipe up to select uSD card
+Select SD card
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Test10_Bcam_video: 2 videos captured successfully
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Calling RecordedVideoPlayback() for Playing Highest record video, fast forward video play back scenario
+Launch file manager application
+Select External storage
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+Select camera folder
+switch to list view mode
+Click More options
+Select sort by largest file first
+Click on first file to play highest recorded resolution video file from uSD card
+Started video playback
+Tap Somewhere on Screen for contents to visible on Screen
+Fast forward video for 10 seconds
+Continue video playback
+Tap Somewhere on Screen for contents to visible on Screen
+Pause video playback
+Pass: Recorded Video play back and fast forward successfull 
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Calling DataMovementOperation() to move recorded rear camer videos to Test10 Folder 
+Re-launch file manager application and select external storage for data move operation, select all rear camera videos present in camera folder and move to Test10 folder
+Select external storage
+switch to grid view mode and select DCIM folder
+Select DCIM folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Click More options
+select move to option
+select uSD Card
+Select ADD NEW Folder option
+Name folder as Test10
+Accept create folder
+Cut paste  video files operation completed successfully
+Test10: Data move operation completed successfully
+Pass: Test10 Pass for data move operation successfully
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Calling copiedvideosPlayBack() for playing copied video file from Test1 folder
+Re-launch file manager application and select external storage for playing copied video files
+Select external storage
+switch to grid view mode to select Test1 folder
+Select Test1 folder
+Final message: Fail Test10 Fail for Playing Copied Video files and fast forward video play back scenario 
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+]]></system-out>
+    <system-err><![CDATA[2023-01-11 11:43:22 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+2023-01-11 11:43:30 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Nokia G21, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: PT19655JA1233000716}, deviceApiLevel: 30, deviceManufacturer: HMD Global, deviceModel: Nokia G21, deviceName: PT19655JA1233000716, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: PT19655JA1233000716, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 52, takesScreenshot: true, udid: PT19655JA1233000716, viewportRect: {height: 1468, left: 0, top: 52, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 18a25a1c-61bf-4d36-b524-437ede83da7e
+*** Element info: {Using=xpath, value=//*[@resource-id='com.google.android.apps.nbu.files:id/agree_button']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at Nokia_G21_TA1418.Test10.rearVideoRec(Test10.java:272)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:673)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:842)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1166)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1178)
+	at org.testng.TestRunner.privateRun(TestRunner.java:757)
+	at org.testng.TestRunner.run(TestRunner.java:608)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1158)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1154)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1083)
+	at org.testng.TestNG.run(TestNG.java:999)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Nokia G21, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: PT19655JA1233000716}, deviceApiLevel: 30, deviceManufacturer: HMD Global, deviceModel: Nokia G21, deviceName: PT19655JA1233000716, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: PT19655JA1233000716, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 52, takesScreenshot: true, udid: PT19655JA1233000716, viewportRect: {height: 1468, left: 0, top: 52, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 18a25a1c-61bf-4d36-b524-437ede83da7e
+*** Element info: {Using=xpath, value=//*[@text='Test1']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at Nokia_G21_TA1418.Test10.CopiedvideosPlayBack(Test10.java:523)
+	at Nokia_G21_TA1418.Test10.RecordedVideoPlayback(Test10.java:474)
+	at Nokia_G21_TA1418.Test10.rearVideoRec(Test10.java:343)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:673)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:842)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1166)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1178)
+	at org.testng.TestRunner.privateRun(TestRunner.java:757)
+	at org.testng.TestRunner.run(TestRunner.java:608)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1158)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1154)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1083)
+	at org.testng.TestNG.run(TestNG.java:999)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]></system-err>
+  </testcase>
+  <testcase name="frontVideoRec" classname="Nokia_G21_TA1418.Test10F" time="1,602.265">
+    <system-out><![CDATA[Test:Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test10F Scenario is as follows
+1.Launch Camera application and start front camera video recording for all host applicable resolutions in uSD Card
+2.Playback front Highest recorded video from uSD card for 30 seconds, pause video playback, lock mobile and wait 30 seconds, unlock mobile and playback video from pause video duration
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Launch home screen
+Launch camera application for rear camera picture capture
+If location location permission request pop-up exists? select deny option
+No location access permission pop-up found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Nokia G21, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: PT19655JA1233000716}, deviceApiLevel: 30, deviceManufacturer: HMD Global, deviceModel: Nokia G21, deviceName: PT19655JA1233000716, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: PT19655JA1233000716, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 52, takesScreenshot: true, udid: PT19655JA1233000716, viewportRect: {height: 1468, left: 0, top: 52, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 81551f2e-29b5-46f4-9655-3344f87356c7
+*** Element info: {Using=xpath, value=//*[@resource-id='com.android.permissioncontroller:id/permission_deny_button']}
+Test10F_Fcam_res: 2 resolutions supported
+Switch to video mode
+Switch to front camera mode
+select settings option
+select data storage option
+select uSD card as storage option
+select settings option
+select video resolution option
+select Video from rear camera option
+select 1st highest front camera video resolution:  FHD 1080P
+recordingDurationFront = 580
+Start recording
+Stop recording
+select settings option
+select video resolution option
+select Video from rear camera option
+select 2nd highest front camera video resolution:  HD 720p
+recordingDurationFront1 = 580
+Start recording
+Stop recording
+Switch back to rear camera mode
+Switch back to photo camera mode
+Launch file manager application and verify recorded video capture uSD Card
+Swipe up to select uSD card
+Select SD card
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Test10F_Fcam_video: 2 videos captured successfully
+Pass: Test10F pass for front camera video recording
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Calling VideoPlayBackForSleepWake()
+Launch File Manager application and playback front recorded video from USD for 30 seconds, pause video playback, locking phone and unlock after 30 seconds delay and playback video from pause duration.
+Launching file manager application
+Select External Storage
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+Select Camera folder
+switch to list view mode
+Select more options
+Select Sort by Newest date first
+Click on first file to play highest recorded resolution video file from uSD card
+Started video playback
+Tap Somewhere on Screen for contents to visible on Screen
+Click pause video button
+Lock Mobile with 30 seconds delay
+Unlock Mobile
+PlayBack Video from Pause duartion
+Tap Somewhere on Screen for contents to visible on Screen
+Fast forward video play back for 10 seconds
+Pause video play back
+Pass: Pass Test10F Pass for Pause Video Playback scenario
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+calling DatamoveOperation() to move front camera recorded videos files to Test10F folder
+Re-launch file manager application and select external storage for data move operation, select all rear camera videos present in camera folder and move to Test10 folder
+Select external storage
+switch to grid view mode and select DCIM folder
+Select DCIM folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Click More options
+select move to option
+select uSD Card
+Select ADD NEW Folder option
+Name folder as Test10F
+Accept create folder
+Cut paste  video files operation completed successfully
+Test10F: Data move operation completed successfully
+Pass: Test10F Pass for data move operation successfully
+Final message: Pass Test10F Pass for front camera  video recording, Pause Video Playback scenario and data move operation scenario
+Test:End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+]]></system-out>
+    <system-err><![CDATA[2023-01-11 12:10:17 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+2023-01-11 12:10:25 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Nokia G21, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: PT19655JA1233000716}, deviceApiLevel: 30, deviceManufacturer: HMD Global, deviceModel: Nokia G21, deviceName: PT19655JA1233000716, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: PT19655JA1233000716, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 52, takesScreenshot: true, udid: PT19655JA1233000716, viewportRect: {height: 1468, left: 0, top: 52, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 81551f2e-29b5-46f4-9655-3344f87356c7
+*** Element info: {Using=xpath, value=//*[@resource-id='com.google.android.apps.nbu.files:id/agree_button']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at Nokia_G21_TA1418.Test10F.frontVideoRec(Test10F.java:272)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:673)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:842)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1166)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1178)
+	at org.testng.TestRunner.privateRun(TestRunner.java:757)
+	at org.testng.TestRunner.run(TestRunner.java:608)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1158)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1154)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1083)
+	at org.testng.TestNG.run(TestNG.java:999)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]></system-err>
+  </testcase>
+  <testcase name="RearPictureCapture" classname="Nokia_G21_TA1418.Test9" time="1,820.661">
+    <system-out><![CDATA[Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test9 Scenario is follows:
+1.Launch camera application, set USD as a Storage option, start rear camera Image capture for all host resolutions
+2.Move Captured Rear camera images to Test9 folder
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Unlocking Phone
+Launch home screen
+Launch camera application for rear camera picture capture
+If location location permission request pop-up exists? select deny option
+No location access permission pop-up found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Nokia G21, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: PT19655JA1233000716}, deviceApiLevel: 30, deviceManufacturer: HMD Global, deviceModel: Nokia G21, deviceName: PT19655JA1233000716, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: PT19655JA1233000716, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 52, takesScreenshot: true, udid: PT19655JA1233000716, viewportRect: {height: 1468, left: 0, top: 52, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: a1098f15-210b-431d-acfe-a5c7f03194a4
+*** Element info: {Using=xpath, value=//*[@resource-id='com.android.permissioncontroller:id/permission_deny_button']}
+Test9_Bcam_res: 5 resolutions supported
+select settings option
+select data storage option
+select uSD card as storage option
+select photo resolution option
+Select first highest resolution: 4:3 50MP
+totalPictureCountRear = 60
+clicking first Resolutions image0
+clicking first Resolutions image1
+clicking first Resolutions image2
+clicking first Resolutions image3
+clicking first Resolutions image4
+clicking first Resolutions image5
+clicking first Resolutions image6
+clicking first Resolutions image7
+clicking first Resolutions image8
+clicking first Resolutions image9
+clicking first Resolutions image10
+clicking first Resolutions image11
+clicking first Resolutions image12
+clicking first Resolutions image13
+clicking first Resolutions image14
+clicking first Resolutions image15
+clicking first Resolutions image16
+clicking first Resolutions image17
+clicking first Resolutions image18
+clicking first Resolutions image19
+clicking first Resolutions image20
+clicking first Resolutions image21
+clicking first Resolutions image22
+clicking first Resolutions image23
+clicking first Resolutions image24
+clicking first Resolutions image25
+clicking first Resolutions image26
+clicking first Resolutions image27
+clicking first Resolutions image28
+clicking first Resolutions image29
+clicking first Resolutions image30
+clicking first Resolutions image31
+clicking first Resolutions image32
+clicking first Resolutions image33
+clicking first Resolutions image34
+clicking first Resolutions image35
+clicking first Resolutions image36
+clicking first Resolutions image37
+clicking first Resolutions image38
+clicking first Resolutions image39
+clicking first Resolutions image40
+clicking first Resolutions image41
+clicking first Resolutions image42
+clicking first Resolutions image43
+clicking first Resolutions image44
+clicking first Resolutions image45
+clicking first Resolutions image46
+clicking first Resolutions image47
+clicking first Resolutions image48
+clicking first Resolutions image49
+clicking first Resolutions image50
+clicking first Resolutions image51
+clicking first Resolutions image52
+clicking first Resolutions image53
+clicking first Resolutions image54
+clicking first Resolutions image55
+clicking first Resolutions image56
+clicking first Resolutions image57
+clicking first Resolutions image58
+clicking first Resolutions image59
+Rear camera first resolution:60 images Captured succesfull
+select photo resolution option
+Select rear camera second image resoltion: 16:9 
+totalPictureCountRear1 = 60
+clicking second  Resolution image0
+clicking second  Resolution image1
+clicking second  Resolution image2
+clicking second  Resolution image3
+clicking second  Resolution image4
+clicking second  Resolution image5
+clicking second  Resolution image6
+clicking second  Resolution image7
+clicking second  Resolution image8
+clicking second  Resolution image9
+clicking second  Resolution image10
+clicking second  Resolution image11
+clicking second  Resolution image12
+clicking second  Resolution image13
+clicking second  Resolution image14
+clicking second  Resolution image15
+clicking second  Resolution image16
+clicking second  Resolution image17
+clicking second  Resolution image18
+clicking second  Resolution image19
+clicking second  Resolution image20
+clicking second  Resolution image21
+clicking second  Resolution image22
+clicking second  Resolution image23
+clicking second  Resolution image24
+clicking second  Resolution image25
+clicking second  Resolution image26
+clicking second  Resolution image27
+clicking second  Resolution image28
+clicking second  Resolution image29
+clicking second  Resolution image30
+clicking second  Resolution image31
+clicking second  Resolution image32
+clicking second  Resolution image33
+clicking second  Resolution image34
+clicking second  Resolution image35
+clicking second  Resolution image36
+clicking second  Resolution image37
+clicking second  Resolution image38
+clicking second  Resolution image39
+clicking second  Resolution image40
+clicking second  Resolution image41
+clicking second  Resolution image42
+clicking second  Resolution image43
+clicking second  Resolution image44
+clicking second  Resolution image45
+clicking second  Resolution image46
+clicking second  Resolution image47
+clicking second  Resolution image48
+clicking second  Resolution image49
+clicking second  Resolution image50
+clicking second  Resolution image51
+clicking second  Resolution image52
+clicking second  Resolution image53
+clicking second  Resolution image54
+clicking second  Resolution image55
+clicking second  Resolution image56
+clicking second  Resolution image57
+clicking second  Resolution image58
+clicking second  Resolution image59
+Rear camera second resolution:60 images Captured succesfull
+select photo resolution option
+select rear camera third resolution: Full 
+totalPictureCountRear2 = 60
+clicking third Resolution image0
+clicking third Resolution image1
+clicking third Resolution image2
+clicking third Resolution image3
+clicking third Resolution image4
+clicking third Resolution image5
+clicking third Resolution image6
+clicking third Resolution image7
+clicking third Resolution image8
+clicking third Resolution image9
+clicking third Resolution image10
+clicking third Resolution image11
+clicking third Resolution image12
+clicking third Resolution image13
+clicking third Resolution image14
+clicking third Resolution image15
+clicking third Resolution image16
+clicking third Resolution image17
+clicking third Resolution image18
+clicking third Resolution image19
+clicking third Resolution image20
+clicking third Resolution image21
+clicking third Resolution image22
+clicking third Resolution image23
+clicking third Resolution image24
+clicking third Resolution image25
+clicking third Resolution image26
+clicking third Resolution image27
+clicking third Resolution image28
+clicking third Resolution image29
+clicking third Resolution image30
+clicking third Resolution image31
+clicking third Resolution image32
+clicking third Resolution image33
+clicking third Resolution image34
+clicking third Resolution image35
+clicking third Resolution image36
+clicking third Resolution image37
+clicking third Resolution image38
+clicking third Resolution image39
+clicking third Resolution image40
+clicking third Resolution image41
+clicking third Resolution image42
+clicking third Resolution image43
+clicking third Resolution image44
+clicking third Resolution image45
+clicking third Resolution image46
+clicking third Resolution image47
+clicking third Resolution image48
+clicking third Resolution image49
+clicking third Resolution image50
+clicking third Resolution image51
+clicking third Resolution image52
+clicking third Resolution image53
+clicking third Resolution image54
+clicking third Resolution image55
+clicking third Resolution image56
+clicking third Resolution image57
+clicking third Resolution image58
+clicking third Resolution image59
+Rear camera third resolution:60 images Captured succesfull
+select photo resolution option
+select rear camera 4th resolution: 1:1
+totalPictureCountRear3 = 60
+clicking third Resolution image0
+clicking third Resolution image1
+clicking third Resolution image2
+clicking third Resolution image3
+clicking third Resolution image4
+clicking third Resolution image5
+clicking third Resolution image6
+clicking third Resolution image7
+clicking third Resolution image8
+clicking third Resolution image9
+clicking third Resolution image10
+clicking third Resolution image11
+clicking third Resolution image12
+clicking third Resolution image13
+clicking third Resolution image14
+clicking third Resolution image15
+clicking third Resolution image16
+clicking third Resolution image17
+clicking third Resolution image18
+clicking third Resolution image19
+clicking third Resolution image20
+clicking third Resolution image21
+clicking third Resolution image22
+clicking third Resolution image23
+clicking third Resolution image24
+clicking third Resolution image25
+clicking third Resolution image26
+clicking third Resolution image27
+clicking third Resolution image28
+clicking third Resolution image29
+clicking third Resolution image30
+clicking third Resolution image31
+clicking third Resolution image32
+clicking third Resolution image33
+clicking third Resolution image34
+clicking third Resolution image35
+clicking third Resolution image36
+clicking third Resolution image37
+clicking third Resolution image38
+clicking third Resolution image39
+clicking third Resolution image40
+clicking third Resolution image41
+clicking third Resolution image42
+clicking third Resolution image43
+clicking third Resolution image44
+clicking third Resolution image45
+clicking third Resolution image46
+clicking third Resolution image47
+clicking third Resolution image48
+clicking third Resolution image49
+clicking third Resolution image50
+clicking third Resolution image51
+clicking third Resolution image52
+clicking third Resolution image53
+clicking third Resolution image54
+clicking third Resolution image55
+clicking third Resolution image56
+clicking third Resolution image57
+clicking third Resolution image58
+clicking third Resolution image59
+Rear camera 4th resolution:60 images Captured succesfull
+select photo resolution option
+select rear camera 5th resolution: 4:3 
+totalPictureCountRear4 = 60
+clicking third Resolution image0
+clicking third Resolution image1
+clicking third Resolution image2
+clicking third Resolution image3
+clicking third Resolution image4
+clicking third Resolution image5
+clicking third Resolution image6
+clicking third Resolution image7
+clicking third Resolution image8
+clicking third Resolution image9
+clicking third Resolution image10
+clicking third Resolution image11
+clicking third Resolution image12
+clicking third Resolution image13
+clicking third Resolution image14
+clicking third Resolution image15
+clicking third Resolution image16
+clicking third Resolution image17
+clicking third Resolution image18
+clicking third Resolution image19
+clicking third Resolution image20
+clicking third Resolution image21
+clicking third Resolution image22
+clicking third Resolution image23
+clicking third Resolution image24
+clicking third Resolution image25
+clicking third Resolution image26
+clicking third Resolution image27
+clicking third Resolution image28
+clicking third Resolution image29
+clicking third Resolution image30
+clicking third Resolution image31
+clicking third Resolution image32
+clicking third Resolution image33
+clicking third Resolution image34
+clicking third Resolution image35
+clicking third Resolution image36
+clicking third Resolution image37
+clicking third Resolution image38
+clicking third Resolution image39
+clicking third Resolution image40
+clicking third Resolution image41
+clicking third Resolution image42
+clicking third Resolution image43
+clicking third Resolution image44
+clicking third Resolution image45
+clicking third Resolution image46
+clicking third Resolution image47
+clicking third Resolution image48
+clicking third Resolution image49
+clicking third Resolution image50
+clicking third Resolution image51
+clicking third Resolution image52
+clicking third Resolution image53
+clicking third Resolution image54
+clicking third Resolution image55
+clicking third Resolution image56
+clicking third Resolution image57
+clicking third Resolution image58
+clicking third Resolution image59
+Rear camera 5th resolution:60 images Captured succesfull
+Launch file manager application and verify recorded video present in uSD Card
+Swipe up to select uSD card
+Select SD card
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Test9_Bcam_image: 300 selected images Captured succesfull
+Actual Value:300 selected
+Interger value:300
+Tolerance_Level = 75
+
+Pass: Test9 pass for rear Image capture
+Test9_Bcam_image: 300  images Captured succesfull
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+calling DataMoveOperation()
+Re-launch file manager application and select external storage for data move operation, select all rear camera images files present in camera folder and move to Test9 folder
+Select external storage
+switch to grid view mode and select DCIM folder
+Select DCIM folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Click More options
+select move to option
+select uSD Card
+Select ADD NEW Folder option
+Name folder as Test9
+Accept create folder
+Cut paste  operation completed successfully
+Test9: Data move operation completed successfully
+Pass: Test9 Pass for data move operation successfully
+Final message: Pass Test9 Pass for rear Camera image capture
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+]]></system-out>
+    <system-err><![CDATA[2023-01-11 12:37:09 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+2023-01-11 12:37:23 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Nokia G21, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: PT19655JA1233000716}, deviceApiLevel: 30, deviceManufacturer: HMD Global, deviceModel: Nokia G21, deviceName: PT19655JA1233000716, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: PT19655JA1233000716, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 52, takesScreenshot: true, udid: PT19655JA1233000716, viewportRect: {height: 1468, left: 0, top: 52, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: a1098f15-210b-431d-acfe-a5c7f03194a4
+*** Element info: {Using=xpath, value=//*[@resource-id='com.google.android.apps.nbu.files:id/agree_button']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at Nokia_G21_TA1418.Test9.RearPictureCapture(Test9.java:282)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:673)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:842)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1166)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1178)
+	at org.testng.TestRunner.privateRun(TestRunner.java:757)
+	at org.testng.TestRunner.run(TestRunner.java:608)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1158)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1154)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1083)
+	at org.testng.TestNG.run(TestNG.java:999)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]></system-err>
+  </testcase>
+  <testcase name="FrontPictureCapture" classname="Nokia_G21_TA1418.Test9F" time="1,848.821">
+    <system-out><![CDATA[Test: Start
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Test9F Scenario is as follows:
+1.Launch camera application, set uSD as a Storage option, start Front camera image picture capture for all Host front resolutions
+Setting up the appium desired capabilities
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Unlocking Phone
+Launch home screen
+Launch Camera Application for front picture capture
+Launch camera application for rear camera picture capture
+If location location permission request pop-up exists? select deny option
+No location access permission pop-up found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Nokia G21, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: PT19655JA1233000716}, deviceApiLevel: 30, deviceManufacturer: HMD Global, deviceModel: Nokia G21, deviceName: PT19655JA1233000716, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: PT19655JA1233000716, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 52, takesScreenshot: true, udid: PT19655JA1233000716, viewportRect: {height: 1468, left: 0, top: 52, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 17788f9b-b070-49fe-a96e-9cb1c02b6dfd
+*** Element info: {Using=xpath, value=//*[@resource-id='com.android.permissioncontroller:id/permission_deny_button']}
+Test9F_Fcam_res: 4 resolutions supported
+select settings option
+select settings option
+select data storage option
+select uSD card as storage option
+Switch to front camera mode
+select  photo resolution option
+select front camera front resolution: 4:3 
+totalPictureCountFront = 75
+clicking first Resolutions image0
+clicking first Resolutions image1
+clicking first Resolutions image2
+clicking first Resolutions image3
+clicking first Resolutions image4
+clicking first Resolutions image5
+clicking first Resolutions image6
+clicking first Resolutions image7
+clicking first Resolutions image8
+clicking first Resolutions image9
+clicking first Resolutions image10
+clicking first Resolutions image11
+clicking first Resolutions image12
+clicking first Resolutions image13
+clicking first Resolutions image14
+clicking first Resolutions image15
+clicking first Resolutions image16
+clicking first Resolutions image17
+clicking first Resolutions image18
+clicking first Resolutions image19
+clicking first Resolutions image20
+clicking first Resolutions image21
+clicking first Resolutions image22
+clicking first Resolutions image23
+clicking first Resolutions image24
+clicking first Resolutions image25
+clicking first Resolutions image26
+clicking first Resolutions image27
+clicking first Resolutions image28
+clicking first Resolutions image29
+clicking first Resolutions image30
+clicking first Resolutions image31
+clicking first Resolutions image32
+clicking first Resolutions image33
+clicking first Resolutions image34
+clicking first Resolutions image35
+clicking first Resolutions image36
+clicking first Resolutions image37
+clicking first Resolutions image38
+clicking first Resolutions image39
+clicking first Resolutions image40
+clicking first Resolutions image41
+clicking first Resolutions image42
+clicking first Resolutions image43
+clicking first Resolutions image44
+clicking first Resolutions image45
+clicking first Resolutions image46
+clicking first Resolutions image47
+clicking first Resolutions image48
+clicking first Resolutions image49
+clicking first Resolutions image50
+clicking first Resolutions image51
+clicking first Resolutions image52
+clicking first Resolutions image53
+clicking first Resolutions image54
+clicking first Resolutions image55
+clicking first Resolutions image56
+clicking first Resolutions image57
+clicking first Resolutions image58
+clicking first Resolutions image59
+clicking first Resolutions image60
+clicking first Resolutions image61
+clicking first Resolutions image62
+clicking first Resolutions image63
+clicking first Resolutions image64
+clicking first Resolutions image65
+clicking first Resolutions image66
+clicking first Resolutions image67
+clicking first Resolutions image68
+clicking first Resolutions image69
+clicking first Resolutions image70
+clicking first Resolutions image71
+clicking first Resolutions image72
+clicking first Resolutions image73
+clicking first Resolutions image74
+front camera first resolution:75 images Captured succesfull
+select  photo resolution option
+select front camera sencond resolution: 16:9 
+totalPictureCountFront1 = 75
+clicking second  Resolution image0
+clicking second  Resolution image1
+clicking second  Resolution image2
+clicking second  Resolution image3
+clicking second  Resolution image4
+clicking second  Resolution image5
+clicking second  Resolution image6
+clicking second  Resolution image7
+clicking second  Resolution image8
+clicking second  Resolution image9
+clicking second  Resolution image10
+clicking second  Resolution image11
+clicking second  Resolution image12
+clicking second  Resolution image13
+clicking second  Resolution image14
+clicking second  Resolution image15
+clicking second  Resolution image16
+clicking second  Resolution image17
+clicking second  Resolution image18
+clicking second  Resolution image19
+clicking second  Resolution image20
+clicking second  Resolution image21
+clicking second  Resolution image22
+clicking second  Resolution image23
+clicking second  Resolution image24
+clicking second  Resolution image25
+clicking second  Resolution image26
+clicking second  Resolution image27
+clicking second  Resolution image28
+clicking second  Resolution image29
+clicking second  Resolution image30
+clicking second  Resolution image31
+clicking second  Resolution image32
+clicking second  Resolution image33
+clicking second  Resolution image34
+clicking second  Resolution image35
+clicking second  Resolution image36
+clicking second  Resolution image37
+clicking second  Resolution image38
+clicking second  Resolution image39
+clicking second  Resolution image40
+clicking second  Resolution image41
+clicking second  Resolution image42
+clicking second  Resolution image43
+clicking second  Resolution image44
+clicking second  Resolution image45
+clicking second  Resolution image46
+clicking second  Resolution image47
+clicking second  Resolution image48
+clicking second  Resolution image49
+clicking second  Resolution image50
+clicking second  Resolution image51
+clicking second  Resolution image52
+clicking second  Resolution image53
+clicking second  Resolution image54
+clicking second  Resolution image55
+clicking second  Resolution image56
+clicking second  Resolution image57
+clicking second  Resolution image58
+clicking second  Resolution image59
+clicking second  Resolution image60
+clicking second  Resolution image61
+clicking second  Resolution image62
+clicking second  Resolution image63
+clicking second  Resolution image64
+clicking second  Resolution image65
+clicking second  Resolution image66
+clicking second  Resolution image67
+clicking second  Resolution image68
+clicking second  Resolution image69
+clicking second  Resolution image70
+clicking second  Resolution image71
+clicking second  Resolution image72
+clicking second  Resolution image73
+clicking second  Resolution image74
+front camera 2nd resolution:75 images Captured succesfull
+select  photo resolution option
+select front camera thirs resolution: Full 
+totalPictureCountFront2 = 75
+clicking third Resolution image 0
+clicking third Resolution image 1
+clicking third Resolution image 2
+clicking third Resolution image 3
+clicking third Resolution image 4
+clicking third Resolution image 5
+clicking third Resolution image 6
+clicking third Resolution image 7
+clicking third Resolution image 8
+clicking third Resolution image 9
+clicking third Resolution image 10
+clicking third Resolution image 11
+clicking third Resolution image 12
+clicking third Resolution image 13
+clicking third Resolution image 14
+clicking third Resolution image 15
+clicking third Resolution image 16
+clicking third Resolution image 17
+clicking third Resolution image 18
+clicking third Resolution image 19
+clicking third Resolution image 20
+clicking third Resolution image 21
+clicking third Resolution image 22
+clicking third Resolution image 23
+clicking third Resolution image 24
+clicking third Resolution image 25
+clicking third Resolution image 26
+clicking third Resolution image 27
+clicking third Resolution image 28
+clicking third Resolution image 29
+clicking third Resolution image 30
+clicking third Resolution image 31
+clicking third Resolution image 32
+clicking third Resolution image 33
+clicking third Resolution image 34
+clicking third Resolution image 35
+clicking third Resolution image 36
+clicking third Resolution image 37
+clicking third Resolution image 38
+clicking third Resolution image 39
+clicking third Resolution image 40
+clicking third Resolution image 41
+clicking third Resolution image 42
+clicking third Resolution image 43
+clicking third Resolution image 44
+clicking third Resolution image 45
+clicking third Resolution image 46
+clicking third Resolution image 47
+clicking third Resolution image 48
+clicking third Resolution image 49
+clicking third Resolution image 50
+clicking third Resolution image 51
+clicking third Resolution image 52
+clicking third Resolution image 53
+clicking third Resolution image 54
+clicking third Resolution image 55
+clicking third Resolution image 56
+clicking third Resolution image 57
+clicking third Resolution image 58
+clicking third Resolution image 59
+clicking third Resolution image 60
+clicking third Resolution image 61
+clicking third Resolution image 62
+clicking third Resolution image 63
+clicking third Resolution image 64
+clicking third Resolution image 65
+clicking third Resolution image 66
+clicking third Resolution image 67
+clicking third Resolution image 68
+clicking third Resolution image 69
+clicking third Resolution image 70
+clicking third Resolution image 71
+clicking third Resolution image 72
+clicking third Resolution image 73
+clicking third Resolution image 74
+front camera 3rd resolution:75 images Captured succesfull
+select  photo resolution option
+select front camera 4th resolution: 1:1
+totalPictureCountFront3 = 75
+clicking 4th Resolution image 0
+clicking 4th Resolution image 1
+clicking 4th Resolution image 2
+clicking 4th Resolution image 3
+clicking 4th Resolution image 4
+clicking 4th Resolution image 5
+clicking 4th Resolution image 6
+clicking 4th Resolution image 7
+clicking 4th Resolution image 8
+clicking 4th Resolution image 9
+clicking 4th Resolution image 10
+clicking 4th Resolution image 11
+clicking 4th Resolution image 12
+clicking 4th Resolution image 13
+clicking 4th Resolution image 14
+clicking 4th Resolution image 15
+clicking 4th Resolution image 16
+clicking 4th Resolution image 17
+clicking 4th Resolution image 18
+clicking 4th Resolution image 19
+clicking 4th Resolution image 20
+clicking 4th Resolution image 21
+clicking 4th Resolution image 22
+clicking 4th Resolution image 23
+clicking 4th Resolution image 24
+clicking 4th Resolution image 25
+clicking 4th Resolution image 26
+clicking 4th Resolution image 27
+clicking 4th Resolution image 28
+clicking 4th Resolution image 29
+clicking 4th Resolution image 30
+clicking 4th Resolution image 31
+clicking 4th Resolution image 32
+clicking 4th Resolution image 33
+clicking 4th Resolution image 34
+clicking 4th Resolution image 35
+clicking 4th Resolution image 36
+clicking 4th Resolution image 37
+clicking 4th Resolution image 38
+clicking 4th Resolution image 39
+clicking 4th Resolution image 40
+clicking 4th Resolution image 41
+clicking 4th Resolution image 42
+clicking 4th Resolution image 43
+clicking 4th Resolution image 44
+clicking 4th Resolution image 45
+clicking 4th Resolution image 46
+clicking 4th Resolution image 47
+clicking 4th Resolution image 48
+clicking 4th Resolution image 49
+clicking 4th Resolution image 50
+clicking 4th Resolution image 51
+clicking 4th Resolution image 52
+clicking 4th Resolution image 53
+clicking 4th Resolution image 54
+clicking 4th Resolution image 55
+clicking 4th Resolution image 56
+clicking 4th Resolution image 57
+clicking 4th Resolution image 58
+clicking 4th Resolution image 59
+clicking 4th Resolution image 60
+clicking 4th Resolution image 61
+clicking 4th Resolution image 62
+clicking 4th Resolution image 63
+clicking 4th Resolution image 64
+clicking 4th Resolution image 65
+clicking 4th Resolution image 66
+clicking 4th Resolution image 67
+clicking 4th Resolution image 68
+clicking 4th Resolution image 69
+clicking 4th Resolution image 70
+clicking 4th Resolution image 71
+clicking 4th Resolution image 72
+clicking 4th Resolution image 73
+clicking 4th Resolution image 74
+front camera 4th resolution:75 images Captured succesfull
+Switch back to rear camera mode
+Total Count value:225 images to be Captured 
+Launch file manager application and verify captured images present in uSD Card
+Swipe up to select uSD card
+Select SD card
+switch to grid view mode to select DCIM folder
+Select DCIM Folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Total Image
+Test9F_Fcam_image: 300 selected images Captured succesfull
+Actual Value:300 selected
+Interger value:300
+Tolerance_Level = 75
+
+Pass: Test9F pass for front Image capture
+Test9F_Fcam_image: 300  images Captured succesfull
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+calling DataMoveOperation()
+Re-launch file manager application and select external storage for data move operation, select all front camera images files present in camera folder and move to Test9F folder
+Select external storage
+switch to grid view mode and select DCIM folder
+Select DCIM folder
+Select camera folder
+switch to list view mode
+Click More options
+Click select all
+Click More options
+select move to option
+select uSD Card
+Select ADD NEW Folder option
+Name folder as Test9F
+Accept create folder
+Cut paste   operation completed successfully
+Test9F: Data move operation completed successfully
+Pass: Test9F Pass for data move operation successfully
+Final message: Pass Test9F Pass for front Camera image capture
+Test: End
+===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+]]></system-out>
+    <system-err><![CDATA[2023-01-11 13:07:40 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+2023-01-11 13:07:53 INFO   io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0 Detected dialect: W3C
+org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Nokia G21, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: PT19655JA1233000716}, deviceApiLevel: 30, deviceManufacturer: HMD Global, deviceModel: Nokia G21, deviceName: PT19655JA1233000716, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: PT19655JA1233000716, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 52, takesScreenshot: true, udid: PT19655JA1233000716, viewportRect: {height: 1468, left: 0, top: 52, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 17788f9b-b070-49fe-a96e-9cb1c02b6dfd
+*** Element info: {Using=xpath, value=//*[@resource-id='com.google.android.apps.nbu.files:id/agree_button']}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:152)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at Nokia_G21_TA1418.Test9F.FrontPictureCapture(Test9F.java:289)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:673)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:842)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1166)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1178)
+	at org.testng.TestRunner.privateRun(TestRunner.java:757)
+	at org.testng.TestRunner.run(TestRunner.java:608)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1158)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1154)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1083)
+	at org.testng.TestNG.run(TestNG.java:999)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+]]></system-err>
+  </testcase>
+</testsuite>

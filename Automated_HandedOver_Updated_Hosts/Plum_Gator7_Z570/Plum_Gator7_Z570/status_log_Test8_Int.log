@@ -1,0 +1,61 @@
+2023-03-10 18:53:25 INFO   Plum_Gator7_Z570.Test8_Int recordAudio Test: Start
+2023-03-10 18:53:25 INFO   Plum_Gator7_Z570.Test8_Int recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-10 18:53:25 INFO   Plum_Gator7_Z570.Test8_Int recordAudio Test8_Int scenario is as follows
+2023-03-10 18:53:25 INFO   Plum_Gator7_Z570.Test8_Int recordAudio 1.Launch mobile default voice recording application and set  storage option, record audio file for 2 minutes duration
+2023-03-10 18:53:25 INFO   Plum_Gator7_Z570.Test8_Int recordAudio 2.Launch file manager application and playback recorded audio file from external storage, fast forward audio file and pause
+2023-03-10 18:53:25 INFO   Plum_Gator7_Z570.Test8_Int recordAudio 3.Launch file manager application and playback copied audio files from external storage the files are placed in the Test1 folder
+2023-03-10 18:53:25 INFO   Plum_Gator7_Z570.Test8_Int recordAudio Setting up the appium desired capabilities
+2023-03-10 18:53:25 INFO   Plum_Gator7_Z570.Test8_Int recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-10 18:53:33 INFO   Plum_Gator7_Z570.Test8_Int recordAudio Launch Home screen application and clear recent apps
+2023-03-10 18:53:43 INFO   Plum_Gator7_Z570.Test8_Int recordAudio Clearing Recent Apps
+2023-03-10 18:53:43 INFO   Plum_Gator7_Z570.Test8_Int recordAudio Pass: No recent apps found
+2023-03-10 18:53:47 INFO   Plum_Gator7_Z570.Test8_Int recordAudio Launch Voice recorder application for Audio recording
+2023-03-10 18:53:55 INFO   Plum_Gator7_Z570.Test8_Int recordAudio If application launch permission pop-up exists accept allow permission to launch application
+2023-03-10 18:53:55 INFO   Plum_Gator7_Z570.Test8_Int recordAudio Clicking on settings
+2023-03-10 18:54:01 INFO   Plum_Gator7_Z570.Test8_Int recordAudio Select location 
+2023-03-10 18:54:06 INFO   Plum_Gator7_Z570.Test8_Int recordAudio Select sd card
+2023-03-10 18:54:06 INFO   Plum_Gator7_Z570.Test8_Int recordAudio click on Select 
+2023-03-10 18:54:13 INFO   Plum_Gator7_Z570.Test8_Int recordAudio click on close 
+2023-03-10 18:54:25 INFO   Plum_Gator7_Z570.Test8_Int recordAudio Start Recording
+2023-03-10 18:56:26 INFO   Plum_Gator7_Z570.Test8_Int recordAudio Stop Recording
+2023-03-10 18:56:31 INFO   Plum_Gator7_Z570.Test8_Int recordAudio Stop and Save Recording
+2023-03-10 18:57:12 INFO   Plum_Gator7_Z570.Test8_Int recordAudio Pass: Test8_Int pass for recording  audio file
+2023-03-10 18:57:12 INFO   Plum_Gator7_Z570.Test8_Int recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-10 18:57:12 INFO   Plum_Gator7_Z570.Test8_Int recordAudio Calling PlayRecordedAudio() for Audio play back and fast forward scenario
+2023-03-10 18:57:24 INFO   Plum_Gator7_Z570.Test8_Int PlayRecordedAudio Launch File Manager Application
+2023-03-10 18:57:34 INFO   Plum_Gator7_Z570.Test8_Int PlayRecordedAudio Launch File Manager Application
+2023-03-10 18:57:39 INFO   Plum_Gator7_Z570.Test8_Int PlayRecordedAudio switch to grid view mode to select Music folder
+2023-03-10 18:57:43 INFO   Plum_Gator7_Z570.Test8_Int PlayRecordedAudio Select Recorders Folder
+2023-03-10 18:57:46 INFO   Plum_Gator7_Z570.Test8_Int PlayRecordedAudio switch to list view mode 
+2023-03-10 18:57:49 INFO   Plum_Gator7_Z570.Test8_Int PlayRecordedAudio Click first audio file for audio playback and fast forward scenario
+2023-03-10 18:58:30 INFO   Plum_Gator7_Z570.Test8_Int PlayRecordedAudio Fast Forwarding Audio for 10 Seconds
+2023-03-10 18:58:33 INFO   Plum_Gator7_Z570.Test8_Int PlayRecordedAudio Continue audio playback
+2023-03-10 18:59:03 INFO   Plum_Gator7_Z570.Test8_Int PlayRecordedAudio Pause audio playback
+2023-03-10 18:59:14 INFO   Plum_Gator7_Z570.Test8_Int PlayRecordedAudio Pass: Test8_Int Pass for playing, fast forward, and pause recorded audio file scenario
+2023-03-10 18:59:14 INFO   Plum_Gator7_Z570.Test8_Int PlayRecordedAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-10 18:59:14 INFO   Plum_Gator7_Z570.Test8_Int PlayRecordedAudio Calling PlayCopiedAudioFile() for copied audio files from Test1 folder
+2023-03-10 18:59:19 INFO   Plum_Gator7_Z570.Test8_Int PlayCopiedAudioFile Launch File Manager Application
+2023-03-10 18:59:29 INFO   Plum_Gator7_Z570.Test8_Int PlayCopiedAudioFile Select  Internal storage
+2023-03-10 18:59:39 INFO   Plum_Gator7_Z570.Test8_Int PlayCopiedAudioFile Select Test1 folder
+2023-03-10 18:59:49 INFO   Plum_Gator7_Z570.Test8_Int PlayCopiedAudioFile Select Test_file folder
+2023-03-10 18:59:54 INFO   Plum_Gator7_Z570.Test8_Int PlayCopiedAudioFile Select 1GB folder
+2023-03-10 18:59:58 INFO   Plum_Gator7_Z570.Test8_Int PlayCopiedAudioFile Select MP3 files Folder
+2023-03-10 19:00:03 INFO   Plum_Gator7_Z570.Test8_Int PlayCopiedAudioFile Playing first audio file from Test1 folder
+2023-03-10 19:00:43 INFO   Plum_Gator7_Z570.Test8_Int PlayCopiedAudioFile Fast Forwarding Audio for 10 Seconds
+2023-03-10 19:00:47 INFO   Plum_Gator7_Z570.Test8_Int PlayCopiedAudioFile Pause Audio
+2023-03-10 19:00:50 INFO   Plum_Gator7_Z570.Test8_Int PlayCopiedAudioFile Pass: first audio file palyback and fast forward scenario is successfull
+2023-03-10 19:00:53 INFO   Plum_Gator7_Z570.Test8_Int PlayCopiedAudioFile Playing second audio file from Test1 folder
+2023-03-10 19:01:33 INFO   Plum_Gator7_Z570.Test8_Int PlayCopiedAudioFile Fast Forwarding Audio for 10 Seconds
+2023-03-10 19:01:37 INFO   Plum_Gator7_Z570.Test8_Int PlayCopiedAudioFile Continue audio playback
+2023-03-10 19:01:47 INFO   Plum_Gator7_Z570.Test8_Int PlayCopiedAudioFile Pause Audio
+2023-03-10 19:01:50 INFO   Plum_Gator7_Z570.Test8_Int PlayCopiedAudioFile Pass: Seond audio file palyback and fast forward scenario is successfull
+2023-03-10 19:01:53 INFO   Plum_Gator7_Z570.Test8_Int PlayCopiedAudioFile Playing third audio file from Test1 folder
+2023-03-10 19:02:33 INFO   Plum_Gator7_Z570.Test8_Int PlayCopiedAudioFile Fast Forwarding Audio for 10 Seconds
+2023-03-10 19:02:37 INFO   Plum_Gator7_Z570.Test8_Int PlayCopiedAudioFile Continue audio playback
+2023-03-10 19:02:47 INFO   Plum_Gator7_Z570.Test8_Int PlayCopiedAudioFile Pause Audio
+2023-03-10 19:02:50 INFO   Plum_Gator7_Z570.Test8_Int PlayCopiedAudioFile Pass: Third audio file palyback and fast forward scenario is successfull
+2023-03-10 19:02:50 INFO   Plum_Gator7_Z570.Test8_Int PlayCopiedAudioFile Pass: Test8_Int Pass for Recorded and copied audio play back and fast forward scenario
+2023-03-10 19:02:50 INFO   Plum_Gator7_Z570.Test8_Int PlayCopiedAudioFile ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-10 19:02:50 INFO   Plum_Gator7_Z570.Test8_Int PlayCopiedAudioFile Final Message: Pass Test8_Int Pass for Recorded and copied audio play back and fast forward scenario
+2023-03-10 19:02:50 INFO   Plum_Gator7_Z570.Test8_Int PlayCopiedAudioFile Test: End
+2023-03-10 19:02:50 INFO   Plum_Gator7_Z570.Test8_Int PlayCopiedAudioFile ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

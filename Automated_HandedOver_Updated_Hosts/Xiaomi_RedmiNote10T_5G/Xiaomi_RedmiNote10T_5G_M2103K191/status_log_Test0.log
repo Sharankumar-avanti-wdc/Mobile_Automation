@@ -1,0 +1,138 @@
+2022-10-27 10:59:56 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 start Test: Start
+2022-10-27 10:59:56 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-27 10:59:56 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 start  Test0 Scenario is as follows 
+2022-10-27 10:59:56 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 start 1.Unlock phone, clear recent apps, clear internal memory
+2022-10-27 10:59:56 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 start 2.Call Image() and Capture Rear camera 25 images for default resolution in uSD card and Verify the data capture
+2022-10-27 10:59:56 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 start 3.Call Video() and record Rear camera video of first 2 resloutions for 2 minutes of duration in uSD Card and verify the same
+2022-10-27 10:59:56 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 start 4.Call Format() and format uSD card with data and verify the same
+2022-10-27 10:59:56 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 start Setting up the appium desired capabilities
+2022-10-27 10:59:56 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-27 11:00:04 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 start Unlock Phone
+2022-10-27 11:00:09 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 start Launch home screen
+2022-10-27 11:00:15 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 start Allowed appium permission access:
+2022-10-27 11:00:25 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 start No permission access found
+2022-10-27 11:00:25 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 start Command to check recent apps in background
+2022-10-27 11:00:25 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 start Clearing Recent Apps
+2022-10-27 11:00:36 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 start Pass: No recent pass found in background
+2022-10-27 11:00:38 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 start Launch file manager application for clearing phone internal memory
+2022-10-27 11:00:54 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 start Swipe Up
+2022-10-27 11:00:57 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 start Select Internal storage
+2022-10-27 11:01:03 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 start Click More options
+2022-10-27 11:01:09 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 start Click Select all
+2022-10-27 11:01:12 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 start Click More options
+2022-10-27 11:01:19 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 start Select delete permanently option
+2022-10-27 11:01:23 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 start Accept allow delete pop-up
+2022-10-27 11:02:10 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 start Pass: Clearing phone internal memory is successfull
+2022-10-27 11:02:10 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 start ===============================================================================================================================================
+2022-10-27 11:02:10 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 start Calling Image() to capture rear image in uSD card and verifying the same.
+2022-10-27 11:02:10 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Images Launching settings application, set uSD as Storage option for Image capture
+2022-10-27 11:02:17 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Images select about phone
+2022-10-27 11:02:21 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Images select storage option
+2022-10-27 11:02:27 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Images Select storage settings option
+2022-10-27 11:02:30 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Images Select Camera option
+2022-10-27 11:02:34 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Images Select Exteranl stoarge as storage option
+2022-10-27 11:02:55 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Images Launch camera application
+2022-10-27 11:03:03 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Images If location access Permission request pop-up exists, then deny permissions
+2022-10-27 11:03:13 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Images No location access permission pop-up found: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '192.168.15.26', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Redmi 10T 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: fun77xcu8hjnmbeu}, deviceApiLevel: 30, deviceManufacturer: Xiaomi, deviceModel: M2103K19I, deviceName: fun77xcu8hjnmbeu, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: fun77xcu8hjnmbeu, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 103, takesScreenshot: true, udid: fun77xcu8hjnmbeu, viewportRect: {height: 2064, left: 0, top: 103, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 01a79c69-b00d-4f77-9997-af84334dfb76
+*** Element info: {Using=xpath, value=//*[@resource-id='android:id/button2']}
+2022-10-27 11:03:13 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Images Switch to photo mode
+2022-10-27 11:03:16 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Images Capturing  25 Images of Default Resolution
+2022-10-27 11:03:23 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Images capture default resolution image 0
+2022-10-27 11:03:30 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Images capture default resolution image 1
+2022-10-27 11:03:37 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Images capture default resolution image 2
+2022-10-27 11:03:44 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Images capture default resolution image 3
+2022-10-27 11:03:51 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Images capture default resolution image 4
+2022-10-27 11:03:59 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Images capture default resolution image 5
+2022-10-27 11:04:06 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Images capture default resolution image 6
+2022-10-27 11:04:13 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Images capture default resolution image 7
+2022-10-27 11:04:20 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Images capture default resolution image 8
+2022-10-27 11:04:27 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Images capture default resolution image 9
+2022-10-27 11:04:35 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Images capture default resolution image 10
+2022-10-27 11:04:42 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Images capture default resolution image 11
+2022-10-27 11:04:49 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Images capture default resolution image 12
+2022-10-27 11:04:56 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Images capture default resolution image 13
+2022-10-27 11:05:03 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Images capture default resolution image 14
+2022-10-27 11:05:10 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Images capture default resolution image 15
+2022-10-27 11:05:17 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Images capture default resolution image 16
+2022-10-27 11:05:25 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Images capture default resolution image 17
+2022-10-27 11:05:32 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Images capture default resolution image 18
+2022-10-27 11:05:39 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Images capture default resolution image 19
+2022-10-27 11:05:46 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Images capture default resolution image 20
+2022-10-27 11:05:53 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Images capture default resolution image 21
+2022-10-27 11:06:00 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Images capture default resolution image 22
+2022-10-27 11:06:08 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Images capture default resolution image 23
+2022-10-27 11:06:15 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Images capture default resolution image 24
+2022-10-27 11:06:15 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Images 25 Image Capture is successfull
+2022-10-27 11:06:21 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Images Launch file manager application and verify image capture in uSD card
+2022-10-27 11:06:40 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Images Select SD card
+2022-10-27 11:06:46 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Images switch to grid view mode to select DCIM folder
+2022-10-27 11:06:50 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Images Select DCIM folder
+2022-10-27 11:06:53 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Images Select camera folder
+2022-10-27 11:06:56 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Images switch to list view mode to select DCIM folder
+2022-10-27 11:07:00 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Images Click More options
+2022-10-27 11:07:06 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Images Click Select all
+2022-10-27 11:07:14 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Images Pass:Total Number Of Image captured 25 in uSD card is successfull
+2022-10-27 11:07:19 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Images ===============================================================================================================================================
+2022-10-27 11:07:19 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Images Calling video() for rear video recording in uSD card and verifying data capture.
+2022-10-27 11:07:19 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Video Launching settings application, set uSD as Storage option for Video recording
+2022-10-27 11:07:26 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Video Select About phone
+2022-10-27 11:07:29 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Video Select storage option
+2022-10-27 11:07:35 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Video Select storage settings option
+2022-10-27 11:07:38 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Video Select camera option
+2022-10-27 11:07:41 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Video Select external storage as option for Video recording
+2022-10-27 11:08:02 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Video Launching camera application for video recording
+2022-10-27 11:08:10 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Video If location permission request pop-up exists select deny option
+2022-10-27 11:08:20 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Video Location permission access  pop-up not found: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '192.168.15.26', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Redmi 10T 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: fun77xcu8hjnmbeu}, deviceApiLevel: 30, deviceManufacturer: Xiaomi, deviceModel: M2103K19I, deviceName: fun77xcu8hjnmbeu, deviceScreenDensity: 440, deviceScreenSize: 1080x2400, deviceUDID: fun77xcu8hjnmbeu, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 103, takesScreenshot: true, udid: fun77xcu8hjnmbeu, viewportRect: {height: 2064, left: 0, top: 103, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 01a79c69-b00d-4f77-9997-af84334dfb76
+*** Element info: {Using=xpath, value=//*[@resource-id='android:id/button2']}
+2022-10-27 11:08:22 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Video Switch to video tab
+2022-10-27 11:08:25 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Video Click setting option to select video resolution
+2022-10-27 11:08:28 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Video Select first highest resolution Video resolution 4K fps
+2022-10-27 11:08:36 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Video Click Start video recording for:  two minute video duration
+2022-10-27 11:10:37 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Video Stop video recording
+2022-10-27 11:10:41 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Video Click setting option to select video resolution
+2022-10-27 11:10:45 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Video Select second highest resolution FHD 1080 fps for recording
+2022-10-27 11:10:53 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Video Click Start video recording for: two minute video duration
+2022-10-27 11:12:54 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Video Stop video recording
+2022-10-27 11:13:00 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Video Rear camera Video recording is successfull.
+2022-10-27 11:13:00 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Video Launch file manager application and verify video capture in uSD card
+2022-10-27 11:13:17 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Video Swipe up
+2022-10-27 11:13:20 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Video Select SD card
+2022-10-27 11:13:26 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Video switch to grid view mode to select DCIM folder
+2022-10-27 11:13:29 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Video Select DCIM folder
+2022-10-27 11:13:33 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Video Select camera folder
+2022-10-27 11:13:36 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Video switch to list view mode to select DCIM folder
+2022-10-27 11:13:39 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Video Click More options
+2022-10-27 11:13:46 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Video Click Select all
+2022-10-27 11:13:53 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Video Pass: 2 Videos recorded Successfully
+2022-10-27 11:13:53 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Video Pass: A total of 27 files present in uSD card before Format
+2022-10-27 11:13:53 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Video ===============================================================================================================================================
+2022-10-27 11:13:56 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Video calling Format() for format with data scenario
+2022-10-27 11:13:56 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Format Launch settings application to format uSD card with data
+2022-10-27 11:14:03 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Format Select about phone
+2022-10-27 11:14:06 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Format Select Storage
+2022-10-27 11:14:12 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Format Select FORMAT SD CARD option
+2022-10-27 11:14:15 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Format Accept pop-up to  Format uSD Card
+2022-10-27 11:14:15 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Format Accept pop-up to  Format uSD Card
+2022-10-27 11:14:49 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Format Format USD Card with data is succesfull
+2022-10-27 11:14:55 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Format Launch file manager application and Verify Data format
+2022-10-27 11:15:14 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Format Select SD card
+2022-10-27 11:15:20 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Format switch to grid view mode to select DCIM folder
+2022-10-27 11:15:23 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Format Select DCIM folder
+2022-10-27 11:15:23 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Format switch to list view mode to select DCIM folder
+2022-10-27 11:15:37 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Format Pass:Images and videos are not present in the DCIM folder, CARD format is successfully completed 
+2022-10-27 11:15:37 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Format ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-27 11:15:37 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Format Final Message: Pass Test0 pass for format Operation
+2022-10-27 11:15:37 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Format Test:End
+2022-10-27 11:15:37 INFO   Xiaomi_RedmiNote10T_5G_M2103K191.Test0 Format ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

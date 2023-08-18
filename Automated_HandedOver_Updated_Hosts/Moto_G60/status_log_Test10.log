@@ -1,0 +1,106 @@
+2022-10-04 10:17:30 INFO   Moto_G60.Test10 rearVideoRec Test: Start
+2022-10-04 10:17:30 INFO   Moto_G60.Test10 rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-04 10:17:30 INFO   Moto_G60.Test10 rearVideoRec Test10 Scenario is as follows
+2022-10-04 10:17:30 INFO   Moto_G60.Test10 rearVideoRec 1.Launch Camera application and start back camera video recording for all host applicable resolutions in uSD Card
+2022-10-04 10:17:30 INFO   Moto_G60.Test10 rearVideoRec 2.Playback Highest resolution recorded video from USD Card, fast forward playback and pause video scenario 
+2022-10-04 10:17:30 INFO   Moto_G60.Test10 rearVideoRec 3.Playback copied videos from Test1 folder, fast forward and pause scenario
+2022-10-04 10:17:30 INFO   Moto_G60.Test10 rearVideoRec Setting up the appium desired capabilities
+2022-10-04 10:17:30 INFO   Moto_G60.Test10 rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-04 10:17:50 INFO   Moto_G60.Test10 rearVideoRec Launch home screen
+2022-10-04 10:17:56 INFO   Moto_G60.Test10 rearVideoRec Launch appium permission access pop-up
+2022-10-04 10:18:06 INFO   Moto_G60.Test10 rearVideoRec No permission access pop-up found
+2022-10-04 10:18:09 INFO   Moto_G60.Test10 rearVideoRec Launch Camera application for rear camera video recording
+2022-10-04 10:18:26 INFO   Moto_G60.Test10 rearVideoRec No location permission access pop-up found: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'FJVQ4M2', ip: '192.168.225.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: moto g(60), newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: ZF6526TSRV}, deviceApiLevel: 30, deviceManufacturer: motorola, deviceModel: moto g(60), deviceName: ZF6526TSRV, deviceScreenDensity: 400, deviceScreenSize: 1080x2460, deviceUDID: ZF6526TSRV, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.5, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 115, takesScreenshot: true, udid: ZF6526TSRV, viewportRect: {height: 2170, left: 0, top: 115, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 03f7e369-964a-4fc8-b47f-03cf99018862
+*** Element info: {Using=xpath, value=//*[@resource-id='android:id/button2']}
+2022-10-04 10:18:26 INFO   Moto_G60.Test10 rearVideoRec Test10_Bcam_res: 4 resolutions supported
+2022-10-04 10:18:26 INFO   Moto_G60.Test10 rearVideoRec Switch to video tab
+2022-10-04 10:18:30 INFO   Moto_G60.Test10 rearVideoRec Select settings option
+2022-10-04 10:18:35 INFO   Moto_G60.Test10 rearVideoRec Search for SD Card option
+2022-10-04 10:18:46 INFO   Moto_G60.Test10 rearVideoRec Select  storage option
+2022-10-04 10:18:51 INFO   Moto_G60.Test10 rearVideoRec Select SD as storage option
+2022-10-04 10:19:00 INFO   Moto_G60.Test10 rearVideoRec Select settings option to select resolution
+2022-10-04 10:19:03 INFO   Moto_G60.Test10 rearVideoRec Select first video resolution: Resolution FHD
+2022-10-04 10:19:08 INFO   Moto_G60.Test10 rearVideoRec Start video recording for specified duration time
+2022-10-04 10:21:09 INFO   Moto_G60.Test10 rearVideoRec Stop video recording
+2022-10-04 10:21:09 INFO   Moto_G60.Test10 rearVideoRec click setting option to select second highest video resolution
+2022-10-04 10:21:14 INFO   Moto_G60.Test10 rearVideoRec Select second highest resolution: Frame rate 60fps
+2022-10-04 10:21:21 INFO   Moto_G60.Test10 rearVideoRec Start Recording second resolution video for specified duration time
+2022-10-04 10:21:42 INFO   Moto_G60.Test10 rearVideoRec Stop Recording
+2022-10-04 10:21:42 INFO   Moto_G60.Test10 rearVideoRec click setting option to select Third highest video resolution
+2022-10-04 10:21:47 INFO   Moto_G60.Test10 rearVideoRec Select third highest resolution: Resolution 4K UHD
+2022-10-04 10:21:54 INFO   Moto_G60.Test10 rearVideoRec Start Recording Third resolution video for specified duration time
+2022-10-04 10:22:17 INFO   Moto_G60.Test10 rearVideoRec Stop Recording
+2022-10-04 10:22:17 INFO   Moto_G60.Test10 rearVideoRec click setting option to select Fourth highest video resolution
+2022-10-04 10:22:22 INFO   Moto_G60.Test10 rearVideoRec Select Fourth highest resolution: Aspect ratio Full
+2022-10-04 10:22:30 INFO   Moto_G60.Test10 rearVideoRec Start Recording second resolution video for specified duration time
+2022-10-04 10:22:53 INFO   Moto_G60.Test10 rearVideoRec Stop Recording
+2022-10-04 10:22:53 INFO   Moto_G60.Test10 rearVideoRec Clicking photo Tab
+2022-10-04 10:23:08 INFO   Moto_G60.Test10 rearVideoRec Pass: Rear video recording is successfull
+2022-10-04 10:23:08 INFO   Moto_G60.Test10 rearVideoRec Launch File Manager Application to verify captured videos
+2022-10-04 10:23:10 INFO   Moto_G60.Test10 rearVideoRec Select  SD Card
+2022-10-04 10:23:18 INFO   Moto_G60.Test10 rearVideoRec Select DCIM Folder
+2022-10-04 10:23:28 INFO   Moto_G60.Test10 rearVideoRec Select Camera Folder
+2022-10-04 10:23:33 INFO   Moto_G60.Test10 rearVideoRec Select More Options 
+2022-10-04 10:23:44 INFO   Moto_G60.Test10 rearVideoRec Click On Select All Options
+2022-10-04 10:23:54 INFO   Moto_G60.Test10 rearVideoRec Test10_Bcam_video: 4 Videos captured successfull
+2022-10-04 10:23:54 INFO   Moto_G60.Test10 rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-04 10:23:54 INFO   Moto_G60.Test10 rearVideoRec Calling RecordedVideoPlayback() for Playing Highest record video, fast forward video play back scenario
+2022-10-04 10:24:05 INFO   Moto_G60.Test10 RecordedVideoPlayback Launch Camera Application for rear camera video recording
+2022-10-04 10:24:14 INFO   Moto_G60.Test10 RecordedVideoPlayback Select External Storage
+2022-10-04 10:24:19 INFO   Moto_G60.Test10 RecordedVideoPlayback Select DCIM folder
+2022-10-04 10:24:22 INFO   Moto_G60.Test10 RecordedVideoPlayback Select Camera folder
+2022-10-04 10:24:26 INFO   Moto_G60.Test10 RecordedVideoPlayback select more options
+2022-10-04 10:24:32 INFO   Moto_G60.Test10 RecordedVideoPlayback Select Sort BY
+2022-10-04 10:24:36 INFO   Moto_G60.Test10 RecordedVideoPlayback Select Largest first
+2022-10-04 10:24:39 INFO   Moto_G60.Test10 RecordedVideoPlayback Click on first file to play highest recorded resolution video file
+2022-10-04 10:24:39 INFO   Moto_G60.Test10 RecordedVideoPlayback Started video playback
+2022-10-04 10:25:09 INFO   Moto_G60.Test10 RecordedVideoPlayback Tap Somewhere on Screen for contents to visible on Screen
+2022-10-04 10:25:10 INFO   Moto_G60.Test10 RecordedVideoPlayback Fast forward video for 10 seconds
+2022-10-04 10:25:38 INFO   Moto_G60.Test10 RecordedVideoPlayback Pass: Recorded Video play back and fast forward successfull 
+2022-10-04 10:25:38 INFO   Moto_G60.Test10 RecordedVideoPlayback ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-04 10:25:38 INFO   Moto_G60.Test10 RecordedVideoPlayback Calling DataMovementOperation() to move recorded rear camer videos to Test10 Folder
+2022-10-04 10:25:44 INFO   Moto_G60.Test10 DataMoveOperation launch file manager application select uSD card-->DCIM folder-->Camera folder-->Select all back camera front camera videos create Test10 and cut paste all videos in BCFC_Cameravideos folder
+2022-10-04 10:26:01 INFO   Moto_G60.Test10 DataMoveOperation click on browse option
+2022-10-04 10:26:04 INFO   Moto_G60.Test10 DataMoveOperation Swipe up to select uSD card
+2022-10-04 10:26:06 INFO   Moto_G60.Test10 DataMoveOperation Select SD card
+2022-10-04 10:26:13 INFO   Moto_G60.Test10 DataMoveOperation Select DCIM folder
+2022-10-04 10:26:16 INFO   Moto_G60.Test10 DataMoveOperation Select camera folder
+2022-10-04 10:26:19 INFO   Moto_G60.Test10 DataMoveOperation Click More options
+2022-10-04 10:26:26 INFO   Moto_G60.Test10 DataMoveOperation Click Select all
+2022-10-04 10:26:29 INFO   Moto_G60.Test10 DataMoveOperation Click More options
+2022-10-04 10:26:36 INFO   Moto_G60.Test10 DataMoveOperation Select move to option
+2022-10-04 10:26:43 INFO   Moto_G60.Test10 DataMoveOperation Select uSD Card
+2022-10-04 10:26:49 INFO   Moto_G60.Test10 DataMoveOperation Select ADD NEW Folder option
+2022-10-04 10:26:55 INFO   Moto_G60.Test10 DataMoveOperation Name folder as Test10
+2022-10-04 10:27:03 INFO   Moto_G60.Test10 DataMoveOperation Accept create folder
+2022-10-04 10:29:03 INFO   Moto_G60.Test10 DataMoveOperation Cut paste  video files operation completed successfully
+2022-10-04 10:29:07 INFO   Moto_G60.Test10 DataMoveOperation Pass: Test10 Pass for data move operation successfully
+2022-10-04 10:29:07 INFO   Moto_G60.Test10 DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-04 10:29:07 INFO   Moto_G60.Test10 RecordedVideoPlayback Calling copiedvideosPlayBack() for playing copied video file from Test1 folder
+2022-10-04 10:29:18 INFO   Moto_G60.Test10 CopiedvideosPlayBack Launch file manager application, select uSD card, select Test1 folder, select Videos folder and Play copied videos and fast forward the same 
+2022-10-04 10:29:27 INFO   Moto_G60.Test10 CopiedvideosPlayBack Select external storage
+2022-10-04 10:29:32 INFO   Moto_G60.Test10 CopiedvideosPlayBack Select Test1 folder
+2022-10-04 10:29:35 INFO   Moto_G60.Test10 CopiedvideosPlayBack Select test_filefolder
+2022-10-04 10:29:38 INFO   Moto_G60.Test10 CopiedvideosPlayBack Select OneGB folder
+2022-10-04 10:29:42 INFO   Moto_G60.Test10 CopiedvideosPlayBack Select video folder
+2022-10-04 10:29:45 INFO   Moto_G60.Test10 CopiedvideosPlayBack Select LG_4K_DEMO_HDR_2018_(60FPS)_ELBA(480p).mp4 file for video playback
+2022-10-04 10:29:45 INFO   Moto_G60.Test10 CopiedvideosPlayBack Started video playback
+2022-10-04 10:30:05 INFO   Moto_G60.Test10 CopiedvideosPlayBack Tap Somewhere on Screen for contents to visible on Screen
+2022-10-04 10:30:06 INFO   Moto_G60.Test10 CopiedvideosPlayBack Click fast forward button for 10 seconds video forward
+2022-10-04 10:30:29 INFO   Moto_G60.Test10 CopiedvideosPlayBack Pass: 4K Video play back and fast forward is successful 
+2022-10-04 10:30:32 INFO   Moto_G60.Test10 CopiedvideosPlayBack Select FHD 5.1 ( 1350 X 2560 ).webm file for video playback
+2022-10-04 10:30:33 INFO   Moto_G60.Test10 CopiedvideosPlayBack Started video playback
+2022-10-04 10:30:53 INFO   Moto_G60.Test10 CopiedvideosPlayBack Tap Somewhere on Screen for contents to visible on Screen
+2022-10-04 10:30:53 INFO   Moto_G60.Test10 CopiedvideosPlayBack Click fast forward button for 10 seconds video forward
+2022-10-04 10:30:54 INFO   Moto_G60.Test10 CopiedvideosPlayBack Click pause button to stop video
+2022-10-04 10:31:04 INFO   Moto_G60.Test10 CopiedvideosPlayBack Pass: FHD Video play back and fast forward is successful 
+2022-10-04 10:31:04 INFO   Moto_G60.Test10 CopiedvideosPlayBack ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-10-04 10:31:04 INFO   Moto_G60.Test10 CopiedvideosPlayBack Final message: Pass Test10 Pass for Playing Copied Video files, recorded video file and fast forward video play back scenario 
+2022-10-04 10:31:04 INFO   Moto_G60.Test10 CopiedvideosPlayBack Test: End
+2022-10-04 10:31:04 INFO   Moto_G60.Test10 CopiedvideosPlayBack ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

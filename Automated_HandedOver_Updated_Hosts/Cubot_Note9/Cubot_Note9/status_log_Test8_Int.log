@@ -1,0 +1,72 @@
+2023-02-15 10:44:54 INFO   Cubot_Note9.Test8_Int recordAudio Test: Start
+2023-02-15 10:44:54 INFO   Cubot_Note9.Test8_Int recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-15 10:44:54 INFO   Cubot_Note9.Test8_Int recordAudio Test8_Int scenario is as follows
+2023-02-15 10:44:54 INFO   Cubot_Note9.Test8_Int recordAudio 1.Launch mobile default voice recording application and set uSD card storage option, record audio file for 2 minutes duration
+2023-02-15 10:44:54 INFO   Cubot_Note9.Test8_Int recordAudio 2.Launch file manager application and playback recorded audio file from external storage, fast forward audio file and pause
+2023-02-15 10:44:54 INFO   Cubot_Note9.Test8_Int recordAudio 3.Launch file manager application and playback copied audio files from external storage the files are placed in the Test1 folder
+2023-02-15 10:44:54 INFO   Cubot_Note9.Test8_Int recordAudio Setting up the appium desired capabilities
+2023-02-15 10:44:54 INFO   Cubot_Note9.Test8_Int recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-15 10:45:11 INFO   Cubot_Note9.Test8_Int recordAudio Clearing Recent Apps
+2023-02-15 10:45:11 INFO   Cubot_Note9.Test8_Int recordAudio Pass: No recent apps found
+2023-02-15 10:45:15 INFO   Cubot_Note9.Test8_Int recordAudio Launch Voice recorder application for Audio recording
+2023-02-15 10:45:21 INFO   Cubot_Note9.Test8_Int recordAudio Start Recording
+2023-02-15 10:47:22 INFO   Cubot_Note9.Test8_Int recordAudio Stop Recording
+2023-02-15 10:47:58 INFO   Cubot_Note9.Test8_Int recordAudio Stop and Save Recording
+2023-02-15 10:48:04 INFO   Cubot_Note9.Test8_Int recordAudio Pass: Test8_Int pass for recording  audio file
+2023-02-15 10:48:04 INFO   Cubot_Note9.Test8_Int recordAudio Pass: Test8_Int pass for recording  audio file
+2023-02-15 10:48:04 INFO   Cubot_Note9.Test8_Int recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-15 10:48:04 INFO   Cubot_Note9.Test8_Int recordAudio Launch File Manager Application to verify recorded audio
+2023-02-15 10:48:06 INFO   Cubot_Note9.Test8_Int recordAudio swipe up and search for sd card
+2023-02-15 10:48:10 INFO   Cubot_Note9.Test8_Int recordAudio Select  Internal storage
+2023-02-15 10:48:15 INFO   Cubot_Note9.Test8_Int recordAudio Select grid view
+2023-02-15 10:48:19 INFO   Cubot_Note9.Test8_Int recordAudio Select Music Folder
+2023-02-15 10:48:24 INFO   Cubot_Note9.Test8_Int recordAudio Select recordings
+2023-02-15 10:48:27 INFO   Cubot_Note9.Test8_Int recordAudio switch to list view mode
+2023-02-15 10:48:30 INFO   Cubot_Note9.Test8_Int recordAudio Select More Options 
+2023-02-15 10:48:35 INFO   Cubot_Note9.Test8_Int recordAudio Click On Select All Options
+2023-02-15 10:48:45 INFO   Cubot_Note9.Test8_Int recordAudio Test8_Int: 1 Audio file recorded  sucessfully
+2023-02-15 10:48:45 INFO   Cubot_Note9.Test8_Int recordAudio Pass: Test8_Int pass for audio recording in uSD Card
+2023-02-15 10:48:45 INFO   Cubot_Note9.Test8_Int recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-15 10:48:45 INFO   Cubot_Note9.Test8_Int recordAudio Calling PlayRecordedAudio() to play back recorded file
+2023-02-15 10:48:59 INFO   Cubot_Note9.Test8_Int PlayRecordedAudio Clearing Recent Apps
+2023-02-15 10:48:59 INFO   Cubot_Note9.Test8_Int PlayRecordedAudio Pass: No recent apps found
+2023-02-15 10:49:04 INFO   Cubot_Note9.Test8_Int PlayRecordedAudio Launch File Manager Application
+2023-02-15 10:49:18 INFO   Cubot_Note9.Test8_Int PlayRecordedAudio Click On internal storage
+2023-02-15 10:49:23 INFO   Cubot_Note9.Test8_Int PlayRecordedAudio Select grid view
+2023-02-15 10:49:27 INFO   Cubot_Note9.Test8_Int PlayRecordedAudio Select Music Folder
+2023-02-15 10:49:32 INFO   Cubot_Note9.Test8_Int PlayRecordedAudio Select recordings
+2023-02-15 10:49:35 INFO   Cubot_Note9.Test8_Int PlayRecordedAudio switch to list view mode
+2023-02-15 10:49:38 INFO   Cubot_Note9.Test8_Int PlayRecordedAudio Select mp3 audio-file
+2023-02-15 10:49:58 INFO   Cubot_Note9.Test8_Int PlayRecordedAudio Select files by goggle
+2023-02-15 10:50:09 INFO   Cubot_Note9.Test8_Int PlayRecordedAudio Fast Forwarding Audio for 10 Seconds
+2023-02-15 10:50:12 INFO   Cubot_Note9.Test8_Int PlayRecordedAudio click on pause button
+2023-02-15 10:50:20 INFO   Cubot_Note9.Test8_Int PlayRecordedAudio Pass: Test8_Int Pass for playing, fast forward, and pause recorded audio file scenario
+2023-02-15 10:50:20 INFO   Cubot_Note9.Test8_Int PlayRecordedAudio Calling PlayCopiedAudioFile() for copied audio files from Test1 folder
+2023-02-15 10:50:20 INFO   Cubot_Note9.Test8_Int PlayRecordedAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-15 10:50:25 INFO   Cubot_Note9.Test8_Int PlayCopiedAudioFile Launch File Manager Application
+2023-02-15 10:50:32 INFO   Cubot_Note9.Test8_Int PlayCopiedAudioFile Swipe up and select uSD card
+2023-02-15 10:50:40 INFO   Cubot_Note9.Test8_Int PlayCopiedAudioFile Select  Internal storage
+2023-02-15 10:50:50 INFO   Cubot_Note9.Test8_Int PlayCopiedAudioFile Select Test1 folder
+2023-02-15 10:50:55 INFO   Cubot_Note9.Test8_Int PlayCopiedAudioFile Select Test_file folder
+2023-02-15 10:51:01 INFO   Cubot_Note9.Test8_Int PlayCopiedAudioFile Select 1GB folder
+2023-02-15 10:51:04 INFO   Cubot_Note9.Test8_Int PlayCopiedAudioFile Select MP3 files Folder
+2023-02-15 10:51:09 INFO   Cubot_Note9.Test8_Int PlayCopiedAudioFile Playing first audio file from Test1 folder
+2023-02-15 10:51:49 INFO   Cubot_Note9.Test8_Int PlayCopiedAudioFile Fast Forwarding Audio for 10 Seconds
+2023-02-15 10:51:49 INFO   Cubot_Note9.Test8_Int PlayCopiedAudioFile Continue audio playback
+2023-02-15 10:51:59 INFO   Cubot_Note9.Test8_Int PlayCopiedAudioFile Pause Audio
+2023-02-15 10:52:03 INFO   Cubot_Note9.Test8_Int PlayCopiedAudioFile Pass: first audio file palyback and fast forward scenario is successfull
+2023-02-15 10:52:06 INFO   Cubot_Note9.Test8_Int PlayCopiedAudioFile Playing second audio file from Test1 folder
+2023-02-15 10:52:46 INFO   Cubot_Note9.Test8_Int PlayCopiedAudioFile Fast Forwarding Audio for 10 Seconds
+2023-02-15 10:52:46 INFO   Cubot_Note9.Test8_Int PlayCopiedAudioFile Continue audio playback
+2023-02-15 10:52:56 INFO   Cubot_Note9.Test8_Int PlayCopiedAudioFile Pause Audio
+2023-02-15 10:53:00 INFO   Cubot_Note9.Test8_Int PlayCopiedAudioFile Pass: Seond audio file palyback and fast forward scenario is successfull
+2023-02-15 10:53:02 INFO   Cubot_Note9.Test8_Int PlayCopiedAudioFile Playing third audio file from Test1 folder
+2023-02-15 10:53:43 INFO   Cubot_Note9.Test8_Int PlayCopiedAudioFile Fast Forwarding Audio for 10 Seconds
+2023-02-15 10:53:43 INFO   Cubot_Note9.Test8_Int PlayCopiedAudioFile Continue audio playback
+2023-02-15 10:53:53 INFO   Cubot_Note9.Test8_Int PlayCopiedAudioFile Pause Audio
+2023-02-15 10:53:56 INFO   Cubot_Note9.Test8_Int PlayCopiedAudioFile Pass: Third audio file palyback and fast forward scenario is successfull
+2023-02-15 10:53:56 INFO   Cubot_Note9.Test8_Int PlayCopiedAudioFile Pass: Test8_Int Pass for Recorded and copied audio play back and fast forward scenario
+2023-02-15 10:53:56 INFO   Cubot_Note9.Test8_Int PlayCopiedAudioFile ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-15 10:53:56 INFO   Cubot_Note9.Test8_Int PlayCopiedAudioFile Final Message: Pass Test8_Int Pass for Recorded and copied audio play back and fast forward scenario
+2023-02-15 10:53:56 INFO   Cubot_Note9.Test8_Int PlayCopiedAudioFile Test: End
+2023-02-15 10:53:56 INFO   Cubot_Note9.Test8_Int PlayCopiedAudioFile ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

@@ -1,0 +1,75 @@
+2023-01-13 15:16:40 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 recordAudio Test: Start
+2023-01-13 15:16:40 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-13 15:16:40 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 recordAudio Test8 scenario is as follows
+2023-01-13 15:16:40 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 recordAudio 1.Launch mobile default voice recording application and set uSD card storage option, record audio file for 2 minutes duration
+2023-01-13 15:16:40 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 recordAudio 2.Launch file manager application and playback recorded audio file from external storage, fast forward audio file and pause
+2023-01-13 15:16:40 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 recordAudio 3.Launch file manager application and playback copied audio files from external storage the files are placed in the Test1 folder
+2023-01-13 15:16:40 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 recordAudio Setting up the appium desired capabilities
+2023-01-13 15:16:40 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-13 15:16:46 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 recordAudio Launch Home screen application and clear recent apps
+2023-01-13 15:17:04 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 recordAudio Launch Voice recorder application for Audio recording
+2023-01-13 15:17:05 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 recordAudio If application launch permission pop-up exists accept allow permission to launch application
+2023-01-13 15:17:20 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 recordAudio  No Launch permission Pop-up  found
+2023-01-13 15:17:25 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 recordAudio If save to uSD card pop-up exists select Save to SD card option
+2023-01-13 15:17:35 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 recordAudio Select More options and Set uSD card as storage option
+2023-01-13 15:17:41 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 recordAudio Select settings option
+2023-01-13 15:17:47 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 recordAudio Select Storage location
+2023-01-13 15:17:52 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 recordAudio Select uSD card
+2023-01-13 15:18:00 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 recordAudio Start Recording
+2023-01-13 15:20:00 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 recordAudio Stop Recording
+2023-01-13 15:20:48 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 recordAudio Stop and Save Recording
+2023-01-13 15:20:54 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 recordAudio Pass: Test8 pass for recording  audio file
+2023-01-13 15:20:54 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-13 15:20:54 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 recordAudio Launch File Manager Application to verify recorded audio
+2023-01-13 15:20:55 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 recordAudio swipe up and search for sd card
+2023-01-13 15:20:59 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 recordAudio Select  SD Card
+2023-01-13 15:21:04 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 recordAudio Select list view
+2023-01-13 15:21:07 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 recordAudio Select Music Folder
+2023-01-13 15:21:12 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 recordAudio Select Voice recorder
+2023-01-13 15:21:18 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 recordAudio switch to list view mode
+2023-01-13 15:21:21 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 recordAudio Select More Options 
+2023-01-13 15:21:26 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 recordAudio Click On Select All Options
+2023-01-13 15:21:36 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 recordAudio Test8: 1 Audio file recorded  sucessfully
+2023-01-13 15:21:36 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 recordAudio Pass: Test8 pass for audio recording in uSD Card
+2023-01-13 15:21:36 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-13 15:21:36 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 recordAudio Calling PlayRecordedAudio() to play back recorded file
+2023-01-13 15:21:41 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 PlayRecordedAudio Launch File Manager Application
+2023-01-13 15:21:50 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 PlayRecordedAudio Select  SD Card
+2023-01-13 15:21:55 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 PlayRecordedAudio Select list view
+2023-01-13 15:21:58 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 PlayRecordedAudio Select Music Folder
+2023-01-13 15:22:04 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 PlayRecordedAudio Select Voice recorder
+2023-01-13 15:22:09 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 PlayRecordedAudio switch to list view mode
+2023-01-13 15:22:12 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 PlayRecordedAudio Click Audio file for play back and fast forward
+2023-01-13 15:22:12 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 PlayRecordedAudio Started Audio playback
+2023-01-13 15:22:32 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 PlayRecordedAudio click on fastforward  10 seconds
+2023-01-13 15:22:53 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 PlayRecordedAudio click on pause
+2023-01-13 15:22:56 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 PlayRecordedAudio Pass: Test8 Pass for playing recorded Audio file
+2023-01-13 15:23:07 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 PlayRecordedAudio Pass: Test8 Pass for playing, fast forward, and pause recorded audio file scenario
+2023-01-13 15:23:07 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 PlayRecordedAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-13 15:23:07 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 PlayRecordedAudio Calling PlayCopiedAudioFile() for copied audio files from Test1 folder
+2023-01-13 15:23:18 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 PlayCopiedAudioFile Launching file manager application
+2023-01-13 15:23:21 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 PlayCopiedAudioFile Select  SD Card
+2023-01-13 15:23:26 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 PlayCopiedAudioFile Select test1
+2023-01-13 15:23:30 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 PlayCopiedAudioFile Select testfile
+2023-01-13 15:23:33 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 PlayCopiedAudioFile Select 1GB
+2023-01-13 15:23:36 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 PlayCopiedAudioFile Select MP3 Files
+2023-01-13 15:23:40 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 PlayCopiedAudioFile Select Laahe.Mp3.mp3
+2023-01-13 15:23:40 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 PlayCopiedAudioFile Started video playback
+2023-01-13 15:24:00 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 PlayCopiedAudioFile Click fast forward button for 10 seconds audio forward
+2023-01-13 15:24:21 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 PlayCopiedAudioFile Pause audio playback
+2023-01-13 15:24:24 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 PlayCopiedAudioFile Pass: 1st Copied Audio play back and fast forward is successfull
+2023-01-13 15:24:27 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 PlayCopiedAudioFile select 11 Rob Thomas - Lonely No More.mp3
+2023-01-13 15:24:27 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 PlayCopiedAudioFile Started audio playback
+2023-01-13 15:24:47 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 PlayCopiedAudioFile Click fast forward button for 10 seconds audio forward
+2023-01-13 15:25:08 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 PlayCopiedAudioFile Pause audio playback
+2023-01-13 15:25:11 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 PlayCopiedAudioFile Pass: 2nd Copied Audio play back and fast forward is successfull
+2023-01-13 15:25:14 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 PlayCopiedAudioFile select file_example_MP3_5MG.mp3
+2023-01-13 15:25:14 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 PlayCopiedAudioFile Started audio playback
+2023-01-13 15:25:34 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 PlayCopiedAudioFile Click fast forward button for 10 seconds audio forward
+2023-01-13 15:25:55 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 PlayCopiedAudioFile Pause audio playback
+2023-01-13 15:26:01 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 PlayCopiedAudioFile Pass: 3rd Copied Audio play back and fast forward is successfull
+2023-01-13 15:26:01 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 PlayCopiedAudioFile Pass: Test8 Pass for Recorded and copied audio play back and fast forward scenario
+2023-01-13 15:26:01 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 PlayCopiedAudioFile ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-13 15:26:01 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 PlayCopiedAudioFile Final Message: Pass Test8 Pass for Recorded and copied audio play back and fast forward scenario
+2023-01-13 15:26:01 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 PlayCopiedAudioFile Test: End
+2023-01-13 15:26:01 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test8 PlayCopiedAudioFile ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

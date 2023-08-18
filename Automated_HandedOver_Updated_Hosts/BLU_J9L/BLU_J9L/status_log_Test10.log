@@ -1,0 +1,111 @@
+2023-02-14 17:01:52 INFO   BLU_J9L.Test10 rearVideoRec Test: Start
+2023-02-14 17:01:52 INFO   BLU_J9L.Test10 rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-14 17:01:52 INFO   BLU_J9L.Test10 rearVideoRec Test10 Scenario is as follows
+2023-02-14 17:01:52 INFO   BLU_J9L.Test10 rearVideoRec 1.Launch Camera application and start rear camera video recording for all host applicable resolutions in uSD Card
+2023-02-14 17:01:52 INFO   BLU_J9L.Test10 rearVideoRec 2.Playback Highest resolution recorded video from USD Card, fast forward playback and pause video scenario 
+2023-02-14 17:01:52 INFO   BLU_J9L.Test10 rearVideoRec 3.Playback copied videos from Test1 folder, fast forward and pause scenario
+2023-02-14 17:01:52 INFO   BLU_J9L.Test10 rearVideoRec Setting up the appium desired capabilities
+2023-02-14 17:01:52 INFO   BLU_J9L.Test10 rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-14 17:02:11 INFO   BLU_J9L.Test10 rearVideoRec Clearing Recent Apps
+2023-02-14 17:02:11 INFO   BLU_J9L.Test10 rearVideoRec Pass: No recent apps found
+2023-02-14 17:02:15 INFO   BLU_J9L.Test10 rearVideoRec Launch Camera Application for rear camera video recording
+2023-02-14 17:02:22 INFO   BLU_J9L.Test10 rearVideoRec Select camera permissions
+2023-02-14 17:02:22 INFO   BLU_J9L.Test10 rearVideoRec Select While using the app
+2023-02-14 17:02:37 INFO   BLU_J9L.Test10 rearVideoRec Select START CAPTURE
+2023-02-14 17:02:52 INFO   BLU_J9L.Test10 rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-14 17:02:54 INFO   BLU_J9L.Test10 rearVideoRec Test10_Bcam_res: 3 resolutions supported
+2023-02-14 17:02:54 INFO   BLU_J9L.Test10 rearVideoRec Select settings option
+2023-02-14 17:02:57 INFO   BLU_J9L.Test10 rearVideoRec Search for Storage path option
+2023-02-14 17:03:01 INFO   BLU_J9L.Test10 rearVideoRec Select SD as storage option
+2023-02-14 17:03:11 INFO   BLU_J9L.Test10 rearVideoRec Select video tab
+2023-02-14 17:03:14 INFO   BLU_J9L.Test10 rearVideoRec Select settings option
+2023-02-14 17:03:17 INFO   BLU_J9L.Test10 rearVideoRec Select Video quality
+2023-02-14 17:03:22 INFO   BLU_J9L.Test10 rearVideoRec Select 1st Back Video Resolution:  1080p
+2023-02-14 17:03:31 INFO   BLU_J9L.Test10 rearVideoRec Start video recording
+2023-02-14 17:03:34 INFO   BLU_J9L.Test10 rearVideoRec Stop video recording
+2023-02-14 17:13:22 INFO   BLU_J9L.Test10 rearVideoRec Select settings option
+2023-02-14 17:13:25 INFO   BLU_J9L.Test10 rearVideoRec Select Video quality
+2023-02-14 17:13:30 INFO   BLU_J9L.Test10 rearVideoRec Select 2nd Back Video Resolution:  720p
+2023-02-14 17:13:40 INFO   BLU_J9L.Test10 rearVideoRec Start video recording
+2023-02-14 17:13:42 INFO   BLU_J9L.Test10 rearVideoRec Stop video recording
+2023-02-14 17:23:30 INFO   BLU_J9L.Test10 rearVideoRec Select settings option
+2023-02-14 17:23:33 INFO   BLU_J9L.Test10 rearVideoRec Select Video quality
+2023-02-14 17:23:38 INFO   BLU_J9L.Test10 rearVideoRec Select 3rd Rear Video Resolution: SD 480p
+2023-02-14 17:23:47 INFO   BLU_J9L.Test10 rearVideoRec Start video recording
+2023-02-14 17:23:50 INFO   BLU_J9L.Test10 rearVideoRec Stop video recording
+2023-02-14 17:33:34 INFO   BLU_J9L.Test10 rearVideoRec Select photo mode
+2023-02-14 17:33:43 INFO   BLU_J9L.Test10 rearVideoRec Pass: Rear video recording is successfull
+2023-02-14 17:33:43 INFO   BLU_J9L.Test10 rearVideoRec Launch File Manager Application to verify captured videos
+2023-02-14 17:33:45 INFO   BLU_J9L.Test10 rearVideoRec Select  SD Card
+2023-02-14 17:33:55 INFO   BLU_J9L.Test10 rearVideoRec switch to grid view mode to select DCIM folder
+2023-02-14 17:33:59 INFO   BLU_J9L.Test10 rearVideoRec Select DCIM folder
+2023-02-14 17:34:02 INFO   BLU_J9L.Test10 rearVideoRec Select camera folder
+2023-02-14 17:34:05 INFO   BLU_J9L.Test10 rearVideoRec switch to list view mode 
+2023-02-14 17:34:08 INFO   BLU_J9L.Test10 rearVideoRec Select More Options 
+2023-02-14 17:34:11 INFO   BLU_J9L.Test10 rearVideoRec Click On Select All Options
+2023-02-14 17:34:20 INFO   BLU_J9L.Test10 rearVideoRec Test10_Bcam_video: 3 Videos captured successfully
+2023-02-14 17:34:20 INFO   BLU_J9L.Test10 rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-14 17:34:20 INFO   BLU_J9L.Test10 rearVideoRec Calling RecordedVideoPlayback() for Playing Highest record video, fast forward video play back scenario
+2023-02-14 17:34:20 INFO   BLU_J9L.Test10 RecordedVideoPlayback Launch File Manager for playing highest resolution recorded video from USD, fast forward and pause scenario
+2023-02-14 17:34:31 INFO   BLU_J9L.Test10 RecordedVideoPlayback Select External storage
+2023-02-14 17:34:36 INFO   BLU_J9L.Test10 RecordedVideoPlayback switch to grid view mode to select DCIM folder
+2023-02-14 17:34:40 INFO   BLU_J9L.Test10 RecordedVideoPlayback Select DCIM folder
+2023-02-14 17:34:43 INFO   BLU_J9L.Test10 RecordedVideoPlayback Select camera folder
+2023-02-14 17:34:47 INFO   BLU_J9L.Test10 RecordedVideoPlayback switch to list view mode 
+2023-02-14 17:34:55 INFO   BLU_J9L.Test10 RecordedVideoPlayback Select more options and sort by largest file first
+2023-02-14 17:35:02 INFO   BLU_J9L.Test10 RecordedVideoPlayback Click on first file to play highest recorded resolution video file
+2023-02-14 17:35:03 INFO   BLU_J9L.Test10 RecordedVideoPlayback Started video playback
+2023-02-14 17:35:33 INFO   BLU_J9L.Test10 RecordedVideoPlayback Tap Somewhere on Screen for contents to visible on Screen
+2023-02-14 17:35:35 INFO   BLU_J9L.Test10 RecordedVideoPlayback Fast forward video for 10 seconds
+2023-02-14 17:36:04 INFO   BLU_J9L.Test10 RecordedVideoPlayback Pass: Recorded Video play back and fast forward successfull 
+2023-02-14 17:36:04 INFO   BLU_J9L.Test10 RecordedVideoPlayback ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-14 17:36:04 INFO   BLU_J9L.Test10 RecordedVideoPlayback Calling DataMovementOperation() to move recorded rear camer videos to Test10 Folder
+2023-02-14 17:36:04 INFO   BLU_J9L.Test10 DataMoveOperation launch file manager application select uSD card-->DCIM folder-->Camera folder-->Select all rear camera videos create Test10 and cut paste all videos in Test10 folder
+2023-02-14 17:36:20 INFO   BLU_J9L.Test10 DataMoveOperation click on browse option
+2023-02-14 17:36:24 INFO   BLU_J9L.Test10 DataMoveOperation Swipe up to select uSD card
+2023-02-14 17:36:28 INFO   BLU_J9L.Test10 DataMoveOperation Select SD card
+2023-02-14 17:36:34 INFO   BLU_J9L.Test10 DataMoveOperation switch to grid view mode to select DCIM folder
+2023-02-14 17:36:37 INFO   BLU_J9L.Test10 DataMoveOperation Select DCIM folder
+2023-02-14 17:36:40 INFO   BLU_J9L.Test10 DataMoveOperation Select camera folder
+2023-02-14 17:36:44 INFO   BLU_J9L.Test10 DataMoveOperation switch to list view mode 
+2023-02-14 17:36:47 INFO   BLU_J9L.Test10 DataMoveOperation Click More options
+2023-02-14 17:36:53 INFO   BLU_J9L.Test10 DataMoveOperation Click Select all
+2023-02-14 17:36:57 INFO   BLU_J9L.Test10 DataMoveOperation Click More options
+2023-02-14 17:37:03 INFO   BLU_J9L.Test10 DataMoveOperation Select move to option
+2023-02-14 17:37:10 INFO   BLU_J9L.Test10 DataMoveOperation Select uSD Card
+2023-02-14 17:37:16 INFO   BLU_J9L.Test10 DataMoveOperation Select ADD NEW Folder option
+2023-02-14 17:37:22 INFO   BLU_J9L.Test10 DataMoveOperation Name folder as Test10
+2023-02-14 17:37:29 INFO   BLU_J9L.Test10 DataMoveOperation Accept create folder
+2023-02-14 17:39:29 INFO   BLU_J9L.Test10 DataMoveOperation Cut paste  video files operation completed successfully
+2023-02-14 17:39:37 INFO   BLU_J9L.Test10 DataMoveOperation Pass: Test10 Pass for data move operation successfully
+2023-02-14 17:39:37 INFO   BLU_J9L.Test10 DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-14 17:39:37 INFO   BLU_J9L.Test10 RecordedVideoPlayback Calling copiedvideosPlayBack() for playing copied video file from Test1 folder
+2023-02-14 17:39:37 INFO   BLU_J9L.Test10 CopiedvideosPlayBack Re-launch file manager application and select external storage for playing copied video files
+2023-02-14 17:39:47 INFO   BLU_J9L.Test10 CopiedvideosPlayBack Select external storage
+2023-02-14 17:39:47 INFO   BLU_J9L.Test10 CopiedvideosPlayBack Select External Storage
+2023-02-14 17:39:48 INFO   BLU_J9L.Test10 CopiedvideosPlayBack Select Test1 folder
+2023-02-14 17:39:52 INFO   BLU_J9L.Test10 CopiedvideosPlayBack Select TestFile folder
+2023-02-14 17:39:55 INFO   BLU_J9L.Test10 CopiedvideosPlayBack Select OneGB folder
+2023-02-14 17:39:58 INFO   BLU_J9L.Test10 CopiedvideosPlayBack Select video folder
+2023-02-14 17:40:01 INFO   BLU_J9L.Test10 CopiedvideosPlayBack Select LG_4K_DEMO_HDR_2018_(60FPS)_ELBA(480p).mp4 file for video playback
+2023-02-14 17:40:02 INFO   BLU_J9L.Test10 CopiedvideosPlayBack Started video playback
+2023-02-14 17:40:22 INFO   BLU_J9L.Test10 CopiedvideosPlayBack Tap Somewhere on Screen for contents to visible on Screen
+2023-02-14 17:40:24 INFO   BLU_J9L.Test10 CopiedvideosPlayBack Click fast forward button for 10 seconds video forward
+2023-02-14 17:40:44 INFO   BLU_J9L.Test10 CopiedvideosPlayBack click press back stop video
+2023-02-14 17:40:47 INFO   BLU_J9L.Test10 CopiedvideosPlayBack Pass: 4K Video play back and fast forward is successful 
+2023-02-14 17:40:50 INFO   BLU_J9L.Test10 CopiedvideosPlayBack Select FHD 5.1 ( 1350 X 2560 ).webm file for video playback from uSD card(Test-->Videos)
+2023-02-14 17:40:50 INFO   BLU_J9L.Test10 CopiedvideosPlayBack Started video playback
+2023-02-14 17:41:10 INFO   BLU_J9L.Test10 CopiedvideosPlayBack Tap Somewhere on Screen for contents to visible on Screen
+2023-02-14 17:41:10 INFO   BLU_J9L.Test10 CopiedvideosPlayBack Click fast forward button for 10 seconds video forward
+2023-02-14 17:41:20 INFO   BLU_J9L.Test10 CopiedvideosPlayBack Fail:Test10 Fail for FHD video play back Host Doesn't support .webm videos org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-201', ip: '10.65.147.20', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: J9L, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: 2040306021133362}, deviceApiLevel: 30, deviceManufacturer: BLU, deviceModel: J9L, deviceName: 2040306021133362, deviceScreenDensity: 240, deviceScreenSize: 480x960, deviceUDID: 2040306021133362, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.5, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 36, takesScreenshot: true, udid: 2040306021133362, viewportRect: {height: 852, left: 0, top: 36, width: 480}, warnings: {}, webStorageEnabled: false}
+Session ID: d093c8e5-ca1f-4dc9-a1c3-51e55e525337
+*** Element info: {Using=xpath, value=//*[@resource-id='com.google.android.apps.nbu.files:id/fast_forward']}
+2023-02-14 17:41:20 INFO   BLU_J9L.Test10 CopiedvideosPlayBack ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-14 17:41:20 INFO   BLU_J9L.Test10 CopiedvideosPlayBack Final Message: Pass Test10 Pass for rear camera  video recording, playback and fast forward highest resolution recorded video and playback and fast forward copied video files from Test1 folder and data move operation scenario
+2023-02-14 17:41:20 INFO   BLU_J9L.Test10 CopiedvideosPlayBack Test:End
+2023-02-14 17:41:20 INFO   BLU_J9L.Test10 CopiedvideosPlayBack ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

@@ -1,0 +1,100 @@
+2023-01-02 13:06:07 INFO   Motorola_Moto_G82_5G_XT22251.Test10 rearVideoRec Test: Start
+2023-01-02 13:06:07 INFO   Motorola_Moto_G82_5G_XT22251.Test10 rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-02 13:06:07 INFO   Motorola_Moto_G82_5G_XT22251.Test10 rearVideoRec Test10 Scenario is as follows
+2023-01-02 13:06:07 INFO   Motorola_Moto_G82_5G_XT22251.Test10 rearVideoRec 1.Launch Camera application and start back camera video recording for all host applicable resolutions in uSD Card
+2023-01-02 13:06:07 INFO   Motorola_Moto_G82_5G_XT22251.Test10 rearVideoRec 2.Playback Highest resolution recorded video from USD Card, fast forward playback and pause video scenario 
+2023-01-02 13:06:07 INFO   Motorola_Moto_G82_5G_XT22251.Test10 rearVideoRec 3.Playback copied videos from Test1 folder, fast forward and pause scenario
+2023-01-02 13:06:07 INFO   Motorola_Moto_G82_5G_XT22251.Test10 rearVideoRec Setting up the appium desired capabilities
+2023-01-02 13:06:07 INFO   Motorola_Moto_G82_5G_XT22251.Test10 rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-02 13:06:26 INFO   Motorola_Moto_G82_5G_XT22251.Test10 rearVideoRec Launch home screen
+2023-01-02 13:06:32 INFO   Motorola_Moto_G82_5G_XT22251.Test10 rearVideoRec Launch appium permission access pop-up
+2023-01-02 13:06:42 INFO   Motorola_Moto_G82_5G_XT22251.Test10 rearVideoRec No permission access pop-up found
+2023-01-02 13:06:44 INFO   Motorola_Moto_G82_5G_XT22251.Test10 rearVideoRec Launch Camera application for rear camera video recording
+2023-01-02 13:07:01 INFO   Motorola_Moto_G82_5G_XT22251.Test10 rearVideoRec No location permission access pop-up found: org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: moto g82 5G, newCommandTimeout: 1200, platformName: android, platformVersion: 12, udid: ZD2226M38Q}, deviceApiLevel: 31, deviceManufacturer: motorola, deviceModel: moto g82 5G, deviceName: ZD2226M38Q, deviceScreenDensity: 340, deviceScreenSize: 1080x2400, deviceUDID: ZD2226M38Q, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.125, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 100, takesScreenshot: true, udid: ZD2226M38Q, viewportRect: {height: 2098, left: 0, top: 100, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: d2e97278-4e55-4cc9-b821-de9725f4a467
+*** Element info: {Using=xpath, value=//*[@resource-id='android:id/button2']}
+2023-01-02 13:07:01 INFO   Motorola_Moto_G82_5G_XT22251.Test10 rearVideoRec Test10_Bcam_res: 2 resolutions supported
+2023-01-02 13:07:01 INFO   Motorola_Moto_G82_5G_XT22251.Test10 rearVideoRec Switch to video tab
+2023-01-02 13:07:06 INFO   Motorola_Moto_G82_5G_XT22251.Test10 rearVideoRec Select settings option
+2023-01-02 13:07:11 INFO   Motorola_Moto_G82_5G_XT22251.Test10 rearVideoRec Search for SD Card option
+2023-01-02 13:07:22 INFO   Motorola_Moto_G82_5G_XT22251.Test10 rearVideoRec Select  storage option
+2023-01-02 13:07:27 INFO   Motorola_Moto_G82_5G_XT22251.Test10 rearVideoRec Select SD as storage option
+2023-01-02 13:07:35 INFO   Motorola_Moto_G82_5G_XT22251.Test10 rearVideoRec Select settings option to select resolution
+2023-01-02 13:07:38 INFO   Motorola_Moto_G82_5G_XT22251.Test10 rearVideoRec Select first video resolution: Aspect ratio 9:16
+2023-01-02 13:07:44 INFO   Motorola_Moto_G82_5G_XT22251.Test10 rearVideoRec Start video recording for specified duration time
+2023-01-02 13:17:25 INFO   Motorola_Moto_G82_5G_XT22251.Test10 rearVideoRec Stop video recording
+2023-01-02 13:17:30 INFO   Motorola_Moto_G82_5G_XT22251.Test10 rearVideoRec click setting option to select second highest video resolution
+2023-01-02 13:17:33 INFO   Motorola_Moto_G82_5G_XT22251.Test10 rearVideoRec Select second highest resolution: Aspect ratio Full
+2023-01-02 13:17:38 INFO   Motorola_Moto_G82_5G_XT22251.Test10 rearVideoRec Start Recording second resolution video for specified duration time
+2023-01-02 13:27:24 INFO   Motorola_Moto_G82_5G_XT22251.Test10 rearVideoRec Stop Recording
+2023-01-02 13:27:24 INFO   Motorola_Moto_G82_5G_XT22251.Test10 rearVideoRec Clicking photo Tab
+2023-01-02 13:27:38 INFO   Motorola_Moto_G82_5G_XT22251.Test10 rearVideoRec Pass: Rear video recording is successfull
+2023-01-02 13:27:38 INFO   Motorola_Moto_G82_5G_XT22251.Test10 rearVideoRec Launch File Manager Application to verify captured videos
+2023-01-02 13:27:39 INFO   Motorola_Moto_G82_5G_XT22251.Test10 rearVideoRec Select  SD Card
+2023-01-02 13:27:48 INFO   Motorola_Moto_G82_5G_XT22251.Test10 rearVideoRec Select DCIM Folder
+2023-01-02 13:27:58 INFO   Motorola_Moto_G82_5G_XT22251.Test10 rearVideoRec Select Camera Folder
+2023-01-02 13:28:03 INFO   Motorola_Moto_G82_5G_XT22251.Test10 rearVideoRec Select More Options 
+2023-01-02 13:28:13 INFO   Motorola_Moto_G82_5G_XT22251.Test10 rearVideoRec Click On Select All Options
+2023-01-02 13:28:23 INFO   Motorola_Moto_G82_5G_XT22251.Test10 rearVideoRec Test10_Bcam_video: 2 Videos captured successfully
+2023-01-02 13:28:23 INFO   Motorola_Moto_G82_5G_XT22251.Test10 rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-02 13:28:23 INFO   Motorola_Moto_G82_5G_XT22251.Test10 rearVideoRec Calling RecordedVideoPlayback() for Playing Highest record video, fast forward video play back scenario
+2023-01-02 13:28:28 INFO   Motorola_Moto_G82_5G_XT22251.Test10 RecordedVideoPlayback Launch Camera Application for rear camera video recording
+2023-01-02 13:28:34 INFO   Motorola_Moto_G82_5G_XT22251.Test10 RecordedVideoPlayback click on browse option
+2023-01-02 13:28:40 INFO   Motorola_Moto_G82_5G_XT22251.Test10 RecordedVideoPlayback Select External Storage
+2023-01-02 13:28:45 INFO   Motorola_Moto_G82_5G_XT22251.Test10 RecordedVideoPlayback Select DCIM folder
+2023-01-02 13:28:48 INFO   Motorola_Moto_G82_5G_XT22251.Test10 RecordedVideoPlayback Select Camera folder
+2023-01-02 13:28:51 INFO   Motorola_Moto_G82_5G_XT22251.Test10 RecordedVideoPlayback select more options
+2023-01-02 13:28:56 INFO   Motorola_Moto_G82_5G_XT22251.Test10 RecordedVideoPlayback Select Sort BY
+2023-01-02 13:29:01 INFO   Motorola_Moto_G82_5G_XT22251.Test10 RecordedVideoPlayback Select Largest first
+2023-01-02 13:29:04 INFO   Motorola_Moto_G82_5G_XT22251.Test10 RecordedVideoPlayback Click on first file to play highest recorded resolution video file
+2023-01-02 13:29:04 INFO   Motorola_Moto_G82_5G_XT22251.Test10 RecordedVideoPlayback Started video playback
+2023-01-02 13:29:34 INFO   Motorola_Moto_G82_5G_XT22251.Test10 RecordedVideoPlayback Tap Somewhere on Screen for contents to visible on Screen
+2023-01-02 13:29:34 INFO   Motorola_Moto_G82_5G_XT22251.Test10 RecordedVideoPlayback Fast forward video for 10 seconds
+2023-01-02 13:30:03 INFO   Motorola_Moto_G82_5G_XT22251.Test10 RecordedVideoPlayback Pass: Recorded Video play back and fast forward successfull 
+2023-01-02 13:30:03 INFO   Motorola_Moto_G82_5G_XT22251.Test10 RecordedVideoPlayback ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-02 13:30:03 INFO   Motorola_Moto_G82_5G_XT22251.Test10 RecordedVideoPlayback Calling DataMovementOperation() to move recorded rear camer videos to Test10 Folder
+2023-01-02 13:30:03 INFO   Motorola_Moto_G82_5G_XT22251.Test10 DataMoveOperation Re-launch file manager application and select external storage for data move operation, select all rear camera videos present in camera folder and move to Test10 folder
+2023-01-02 13:30:09 INFO   Motorola_Moto_G82_5G_XT22251.Test10 DataMoveOperation Launching file manager application
+2023-01-02 13:30:11 INFO   Motorola_Moto_G82_5G_XT22251.Test10 DataMoveOperation Select external storage
+2023-01-02 13:30:16 INFO   Motorola_Moto_G82_5G_XT22251.Test10 DataMoveOperation switch to grid view mode and select DCIM  folder
+2023-01-02 13:30:20 INFO   Motorola_Moto_G82_5G_XT22251.Test10 DataMoveOperation Select DCIM folder
+2023-01-02 13:30:23 INFO   Motorola_Moto_G82_5G_XT22251.Test10 DataMoveOperation Select camera  folder
+2023-01-02 13:30:27 INFO   Motorola_Moto_G82_5G_XT22251.Test10 DataMoveOperation switch to list view mode 
+2023-01-02 13:30:30 INFO   Motorola_Moto_G82_5G_XT22251.Test10 DataMoveOperation Click More options
+2023-01-02 13:30:36 INFO   Motorola_Moto_G82_5G_XT22251.Test10 DataMoveOperation Click Select all
+2023-01-02 13:30:39 INFO   Motorola_Moto_G82_5G_XT22251.Test10 DataMoveOperation Click More options
+2023-01-02 13:30:46 INFO   Motorola_Moto_G82_5G_XT22251.Test10 DataMoveOperation Select move to option
+2023-01-02 13:30:52 INFO   Motorola_Moto_G82_5G_XT22251.Test10 DataMoveOperation Select uSD Card
+2023-01-02 13:30:58 INFO   Motorola_Moto_G82_5G_XT22251.Test10 DataMoveOperation Select ADD NEW Folder option
+2023-01-02 13:31:05 INFO   Motorola_Moto_G82_5G_XT22251.Test10 DataMoveOperation Name folder as Test10
+2023-01-02 13:31:11 INFO   Motorola_Moto_G82_5G_XT22251.Test10 DataMoveOperation Accept create folder
+2023-01-02 13:31:41 INFO   Motorola_Moto_G82_5G_XT22251.Test10 DataMoveOperation Cut paste  video files operation completed successfully
+2023-01-02 13:31:45 INFO   Motorola_Moto_G82_5G_XT22251.Test10 DataMoveOperation Test10: Data move operation completed successfully
+2023-01-02 13:31:53 INFO   Motorola_Moto_G82_5G_XT22251.Test10 DataMoveOperation Pass: Test10 Pass for data move operation successfully
+2023-01-02 13:31:53 INFO   Motorola_Moto_G82_5G_XT22251.Test10 RecordedVideoPlayback Calling copiedvideosPlayBack() for playing copied video file from Test1 folder
+2023-01-02 13:31:59 INFO   Motorola_Moto_G82_5G_XT22251.Test10 CopiedvideosPlayBack Launch file manager application, select uSD card, select Test1 folder, select Videos folder and Play copied videos and fast forward the same 
+2023-01-02 13:32:05 INFO   Motorola_Moto_G82_5G_XT22251.Test10 CopiedvideosPlayBack click on browse option
+2023-01-02 13:32:11 INFO   Motorola_Moto_G82_5G_XT22251.Test10 CopiedvideosPlayBack Select external storage
+2023-01-02 13:32:16 INFO   Motorola_Moto_G82_5G_XT22251.Test10 CopiedvideosPlayBack Select Test1 folder
+2023-01-02 13:32:26 INFO   Motorola_Moto_G82_5G_XT22251.Test10 RecordedVideoPlayback Fail: Test10 Fail for RecordedVideoPlayBack()
+2023-01-02 13:32:26 INFO   Motorola_Moto_G82_5G_XT22251.Test10 RecordedVideoPlayback ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-02 13:32:26 INFO   Motorola_Moto_G82_5G_XT22251.Test10 RecordedVideoPlayback Calling DataMoveOperation() to move all rear camera recorded video files to Test10 folder
+2023-01-02 13:32:26 INFO   Motorola_Moto_G82_5G_XT22251.Test10 DataMoveOperation Re-launch file manager application and select external storage for data move operation, select all rear camera videos present in camera folder and move to Test10 folder
+2023-01-02 13:32:32 INFO   Motorola_Moto_G82_5G_XT22251.Test10 DataMoveOperation Launching file manager application
+2023-01-02 13:32:34 INFO   Motorola_Moto_G82_5G_XT22251.Test10 DataMoveOperation Select external storage
+2023-01-02 13:32:40 INFO   Motorola_Moto_G82_5G_XT22251.Test10 DataMoveOperation switch to grid view mode and select DCIM  folder
+2023-01-02 13:32:43 INFO   Motorola_Moto_G82_5G_XT22251.Test10 DataMoveOperation Select DCIM folder
+2023-01-02 13:32:46 INFO   Motorola_Moto_G82_5G_XT22251.Test10 DataMoveOperation Select camera  folder
+2023-01-02 13:32:49 INFO   Motorola_Moto_G82_5G_XT22251.Test10 DataMoveOperation switch to list view mode 
+2023-01-02 13:32:52 INFO   Motorola_Moto_G82_5G_XT22251.Test10 DataMoveOperation Click More options
+2023-01-02 13:32:58 INFO   Motorola_Moto_G82_5G_XT22251.Test10 DataMoveOperation Click Select all
+2023-01-02 13:33:02 INFO   Motorola_Moto_G82_5G_XT22251.Test10 DataMoveOperation Click More options
+2023-01-02 13:33:08 INFO   Motorola_Moto_G82_5G_XT22251.Test10 DataMoveOperation Select move to option
+2023-01-02 13:33:18 INFO   Motorola_Moto_G82_5G_XT22251.Test10 RecordedVideoPlayback Final Message: Fail Test10 Fail for RecordedVideoPlayBAck()
+2023-01-02 13:33:18 INFO   Motorola_Moto_G82_5G_XT22251.Test10 RecordedVideoPlayback Test: End
+2023-01-02 13:33:18 INFO   Motorola_Moto_G82_5G_XT22251.Test10 RecordedVideoPlayback ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

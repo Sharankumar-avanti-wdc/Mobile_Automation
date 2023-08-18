@@ -1,0 +1,152 @@
+2023-02-12 22:10:16 INFO   Doogee_X96.Test9F RearPictureCapture Test: Start
+2023-02-12 22:10:16 INFO   Doogee_X96.Test9F RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-12 22:10:16 INFO   Doogee_X96.Test9F RearPictureCapture Test9F Scenario is as follows:
+2023-02-12 22:10:16 INFO   Doogee_X96.Test9F RearPictureCapture 1.Launch camera application, set uSD as a Storage option, start Front camera image picture capture for all Host front resolutions
+2023-02-12 22:10:16 INFO   Doogee_X96.Test9F RearPictureCapture Setting up the appium desired capabilities
+2023-02-12 22:10:16 INFO   Doogee_X96.Test9F RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-12 22:10:31 INFO   Doogee_X96.Test9F RearPictureCapture Launch home screen
+2023-02-12 22:10:43 INFO   Doogee_X96.Test9F RearPictureCapture Clearing Recent Apps
+2023-02-12 22:10:50 INFO   Doogee_X96.Test9F RearPictureCapture Launch Camera application for front camera Image capture
+2023-02-12 22:10:57 INFO   Doogee_X96.Test9F RearPictureCapture Test9F_Fcam_res: 6 resolutions supported
+2023-02-12 22:10:57 INFO   Doogee_X96.Test9F RearPictureCapture IF Change to uSD card notification pop-up exists select Cancel Option
+2023-02-12 22:11:08 INFO   Doogee_X96.Test9F RearPictureCapture change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '172.20.10.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: X96, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: X96EEA0000000002740}, deviceApiLevel: 30, deviceManufacturer: DOOGEE, deviceModel: X96, deviceName: X96EEA0000000002740, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: X96EEA0000000002740, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 58, takesScreenshot: true, udid: X96EEA0000000002740, viewportRect: {height: 1390, left: 0, top: 58, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: fec5b811-11d7-4e6e-9e83-63987ffd0a3b
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("DENY")}
+2023-02-12 22:11:08 INFO   Doogee_X96.Test9F RearPictureCapture ACCEPT START CAPTURE POP-UP
+2023-02-12 22:11:18 INFO   Doogee_X96.Test9F RearPictureCapture START CAPTURE POP-UP element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '172.20.10.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: X96, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: X96EEA0000000002740}, deviceApiLevel: 30, deviceManufacturer: DOOGEE, deviceModel: X96, deviceName: X96EEA0000000002740, deviceScreenDensity: 320, deviceScreenSize: 720x1600, deviceUDID: X96EEA0000000002740, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 58, takesScreenshot: true, udid: X96EEA0000000002740, viewportRect: {height: 1390, left: 0, top: 58, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: fec5b811-11d7-4e6e-9e83-63987ffd0a3b
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("START CAPTURE")}
+2023-02-12 22:11:18 INFO   Doogee_X96.Test9F RearPictureCapture Switch to front Camera Mode if current Exiting camera is rear camera Mode
+2023-02-12 22:11:20 INFO   Doogee_X96.Test9F RearPictureCapture Select settings option
+2023-02-12 22:11:25 INFO   Doogee_X96.Test9F RearPictureCapture Select Storagepath option
+2023-02-12 22:11:32 INFO   Doogee_X96.Test9F RearPictureCapture Select SD as storage option
+2023-02-12 22:11:40 INFO   Doogee_X96.Test9F RearPictureCapture Select settings option
+2023-02-12 22:11:46 INFO   Doogee_X96.Test9F RearPictureCapture Select photo resolution option to select resolution
+2023-02-12 22:11:50 INFO   Doogee_X96.Test9F RearPictureCapture Select front camera front image resolution: (4:3) 5.0 megapixels
+2023-02-12 22:12:08 INFO   Doogee_X96.Test9F RearPictureCapture Captureing first resolution image 0
+2023-02-12 22:12:16 INFO   Doogee_X96.Test9F RearPictureCapture Captureing first resolution image 1
+2023-02-12 22:12:23 INFO   Doogee_X96.Test9F RearPictureCapture Captureing first resolution image 2
+2023-02-12 22:12:30 INFO   Doogee_X96.Test9F RearPictureCapture Captureing first resolution image 3
+2023-02-12 22:12:37 INFO   Doogee_X96.Test9F RearPictureCapture Captureing first resolution image 4
+2023-02-12 22:12:45 INFO   Doogee_X96.Test9F RearPictureCapture Captureing first resolution image 5
+2023-02-12 22:12:52 INFO   Doogee_X96.Test9F RearPictureCapture Captureing first resolution image 6
+2023-02-12 22:12:59 INFO   Doogee_X96.Test9F RearPictureCapture Captureing first resolution image 7
+2023-02-12 22:13:07 INFO   Doogee_X96.Test9F RearPictureCapture Captureing first resolution image 8
+2023-02-12 22:13:14 INFO   Doogee_X96.Test9F RearPictureCapture Captureing first resolution image 9
+2023-02-12 22:13:21 INFO   Doogee_X96.Test9F RearPictureCapture Captureing first resolution image 10
+2023-02-12 22:13:23 INFO   Doogee_X96.Test9F RearPictureCapture Select settings option
+2023-02-12 22:13:29 INFO   Doogee_X96.Test9F RearPictureCapture Select  resolution option to photo resolution
+2023-02-12 22:13:33 INFO   Doogee_X96.Test9F RearPictureCapture Select front camera second image resolution: (4:3) 1.9 megapixels
+2023-02-12 22:13:52 INFO   Doogee_X96.Test9F RearPictureCapture Captureing second resolution image 0
+2023-02-12 22:13:59 INFO   Doogee_X96.Test9F RearPictureCapture Captureing second resolution image 1
+2023-02-12 22:14:06 INFO   Doogee_X96.Test9F RearPictureCapture Captureing second resolution image 2
+2023-02-12 22:14:14 INFO   Doogee_X96.Test9F RearPictureCapture Captureing second resolution image 3
+2023-02-12 22:14:21 INFO   Doogee_X96.Test9F RearPictureCapture Captureing second resolution image 4
+2023-02-12 22:14:29 INFO   Doogee_X96.Test9F RearPictureCapture Captureing second resolution image 5
+2023-02-12 22:14:36 INFO   Doogee_X96.Test9F RearPictureCapture Captureing second resolution image 6
+2023-02-12 22:14:43 INFO   Doogee_X96.Test9F RearPictureCapture Captureing second resolution image 7
+2023-02-12 22:14:51 INFO   Doogee_X96.Test9F RearPictureCapture Captureing second resolution image 8
+2023-02-12 22:14:59 INFO   Doogee_X96.Test9F RearPictureCapture Captureing second resolution image 9
+2023-02-12 22:15:06 INFO   Doogee_X96.Test9F RearPictureCapture Captureing second resolution image 10
+2023-02-12 22:15:08 INFO   Doogee_X96.Test9F RearPictureCapture Select settings option
+2023-02-12 22:15:13 INFO   Doogee_X96.Test9F RearPictureCapture Select  resolution option to photo resolution
+2023-02-12 22:15:17 INFO   Doogee_X96.Test9F RearPictureCapture Select front camera third image resolution: (4:3) 1.6 megapixels
+2023-02-12 22:15:36 INFO   Doogee_X96.Test9F RearPictureCapture Captureing third resolution image 0
+2023-02-12 22:15:43 INFO   Doogee_X96.Test9F RearPictureCapture Captureing third resolution image 1
+2023-02-12 22:15:50 INFO   Doogee_X96.Test9F RearPictureCapture Captureing third resolution image 2
+2023-02-12 22:15:57 INFO   Doogee_X96.Test9F RearPictureCapture Captureing third resolution image 3
+2023-02-12 22:16:05 INFO   Doogee_X96.Test9F RearPictureCapture Captureing third resolution image 4
+2023-02-12 22:16:13 INFO   Doogee_X96.Test9F RearPictureCapture Captureing third resolution image 5
+2023-02-12 22:16:21 INFO   Doogee_X96.Test9F RearPictureCapture Captureing third resolution image 6
+2023-02-12 22:16:28 INFO   Doogee_X96.Test9F RearPictureCapture Captureing third resolution image 7
+2023-02-12 22:16:36 INFO   Doogee_X96.Test9F RearPictureCapture Captureing third resolution image 8
+2023-02-12 22:16:43 INFO   Doogee_X96.Test9F RearPictureCapture Captureing third resolution image 9
+2023-02-12 22:16:51 INFO   Doogee_X96.Test9F RearPictureCapture Captureing third resolution image 10
+2023-02-12 22:16:53 INFO   Doogee_X96.Test9F RearPictureCapture Select settings option
+2023-02-12 22:16:59 INFO   Doogee_X96.Test9F RearPictureCapture Select  resolution option to photo resolution
+2023-02-12 22:17:03 INFO   Doogee_X96.Test9F RearPictureCapture Select front camera fourth image resolution: (16:9) 3.8 megapixels
+2023-02-12 22:17:22 INFO   Doogee_X96.Test9F RearPictureCapture Captureing fourth resolution image 0
+2023-02-12 22:17:29 INFO   Doogee_X96.Test9F RearPictureCapture Captureing fourth resolution image 1
+2023-02-12 22:17:37 INFO   Doogee_X96.Test9F RearPictureCapture Captureing fourth resolution image 2
+2023-02-12 22:17:44 INFO   Doogee_X96.Test9F RearPictureCapture Captureing fourth resolution image 3
+2023-02-12 22:17:52 INFO   Doogee_X96.Test9F RearPictureCapture Captureing fourth resolution image 4
+2023-02-12 22:17:59 INFO   Doogee_X96.Test9F RearPictureCapture Captureing fourth resolution image 5
+2023-02-12 22:18:06 INFO   Doogee_X96.Test9F RearPictureCapture Captureing fourth resolution image 6
+2023-02-12 22:18:13 INFO   Doogee_X96.Test9F RearPictureCapture Captureing fourth resolution image 7
+2023-02-12 22:18:21 INFO   Doogee_X96.Test9F RearPictureCapture Captureing fourth resolution image 8
+2023-02-12 22:18:28 INFO   Doogee_X96.Test9F RearPictureCapture Captureing fourth resolution image 9
+2023-02-12 22:18:35 INFO   Doogee_X96.Test9F RearPictureCapture Captureing fourth resolution image 10
+2023-02-12 22:18:35 INFO   Doogee_X96.Test9F RearPictureCapture Select settings option
+2023-02-12 22:18:41 INFO   Doogee_X96.Test9F RearPictureCapture Select  resolution option to photo resolution
+2023-02-12 22:18:45 INFO   Doogee_X96.Test9F RearPictureCapture Select front camera fifth image resolution: (16:9) 2.1 megapixels
+2023-02-12 22:19:04 INFO   Doogee_X96.Test9F RearPictureCapture Captureing fifth resolution image 0
+2023-02-12 22:19:11 INFO   Doogee_X96.Test9F RearPictureCapture Captureing fifth resolution image 1
+2023-02-12 22:19:18 INFO   Doogee_X96.Test9F RearPictureCapture Captureing fifth resolution image 2
+2023-02-12 22:19:25 INFO   Doogee_X96.Test9F RearPictureCapture Captureing fifth resolution image 3
+2023-02-12 22:19:33 INFO   Doogee_X96.Test9F RearPictureCapture Captureing fifth resolution image 4
+2023-02-12 22:19:40 INFO   Doogee_X96.Test9F RearPictureCapture Captureing fifth resolution image 5
+2023-02-12 22:19:47 INFO   Doogee_X96.Test9F RearPictureCapture Captureing fifth resolution image 6
+2023-02-12 22:19:54 INFO   Doogee_X96.Test9F RearPictureCapture Captureing fifth resolution image 7
+2023-02-12 22:20:02 INFO   Doogee_X96.Test9F RearPictureCapture Captureing fifth resolution image 8
+2023-02-12 22:20:09 INFO   Doogee_X96.Test9F RearPictureCapture Captureing fifth resolution image 9
+2023-02-12 22:20:17 INFO   Doogee_X96.Test9F RearPictureCapture Captureing fifth resolution image 10
+2023-02-12 22:20:17 INFO   Doogee_X96.Test9F RearPictureCapture Select settings option
+2023-02-12 22:20:22 INFO   Doogee_X96.Test9F RearPictureCapture Select  resolution option to photo resolution
+2023-02-12 22:20:26 INFO   Doogee_X96.Test9F RearPictureCapture Select front camera sixth image resolution: (16:9) 0.9 megapixels
+2023-02-12 22:20:45 INFO   Doogee_X96.Test9F RearPictureCapture Captureing sixth resolution image 0
+2023-02-12 22:20:52 INFO   Doogee_X96.Test9F RearPictureCapture Captureing sixth resolution image 1
+2023-02-12 22:20:59 INFO   Doogee_X96.Test9F RearPictureCapture Captureing sixth resolution image 2
+2023-02-12 22:21:07 INFO   Doogee_X96.Test9F RearPictureCapture Captureing sixth resolution image 3
+2023-02-12 22:21:14 INFO   Doogee_X96.Test9F RearPictureCapture Captureing sixth resolution image 4
+2023-02-12 22:21:21 INFO   Doogee_X96.Test9F RearPictureCapture Captureing sixth resolution image 5
+2023-02-12 22:21:29 INFO   Doogee_X96.Test9F RearPictureCapture Captureing sixth resolution image 6
+2023-02-12 22:21:36 INFO   Doogee_X96.Test9F RearPictureCapture Captureing sixth resolution image 7
+2023-02-12 22:21:44 INFO   Doogee_X96.Test9F RearPictureCapture Captureing sixth resolution image 8
+2023-02-12 22:21:51 INFO   Doogee_X96.Test9F RearPictureCapture Captureing sixth resolution image 9
+2023-02-12 22:21:59 INFO   Doogee_X96.Test9F RearPictureCapture Captureing sixth resolution image 10
+2023-02-12 22:21:59 INFO   Doogee_X96.Test9F RearPictureCapture Switch to front camera mode
+2023-02-12 22:22:09 INFO   Doogee_X96.Test9F RearPictureCapture Total Count value:66 images to be Captured 
+2023-02-12 22:22:11 INFO   Doogee_X96.Test9F RearPictureCapture Launch file manager application and verify captured images present  in uSD Card
+2023-02-12 22:22:28 INFO   Doogee_X96.Test9F RearPictureCapture Swipe up to select uSD card
+2023-02-12 22:22:31 INFO   Doogee_X96.Test9F RearPictureCapture Select SD card
+2023-02-12 22:22:38 INFO   Doogee_X96.Test9F RearPictureCapture switch to grid view mode to select DCIM folder
+2023-02-12 22:22:41 INFO   Doogee_X96.Test9F RearPictureCapture Select DCIM folder
+2023-02-12 22:22:44 INFO   Doogee_X96.Test9F RearPictureCapture Select camera folder
+2023-02-12 22:22:47 INFO   Doogee_X96.Test9F RearPictureCapture switch to list view mode 
+2023-02-12 22:22:51 INFO   Doogee_X96.Test9F RearPictureCapture Click More options
+2023-02-12 22:22:57 INFO   Doogee_X96.Test9F RearPictureCapture Click Select all
+2023-02-12 22:23:01 INFO   Doogee_X96.Test9F RearPictureCapture Total Image captured
+2023-02-12 22:23:09 INFO   Doogee_X96.Test9F RearPictureCapture Pass: Test9F pass for front Image capture
+2023-02-12 22:23:09 INFO   Doogee_X96.Test9F RearPictureCapture Test9F_Fcam_image: 66  images Captured succesfull
+2023-02-12 22:23:09 INFO   Doogee_X96.Test9F RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-12 22:23:14 INFO   Doogee_X96.Test9F RearPictureCapture calling DataMoveOperation() 
+2023-02-12 22:23:14 INFO   Doogee_X96.Test9F DataMoveOperation Re-launch file manager application and select external storage for data move operation, select all front camera images files present in camera folder and move to Test9F folder
+2023-02-12 22:23:21 INFO   Doogee_X96.Test9F DataMoveOperation Swipe up to select uSD card
+2023-02-12 22:23:25 INFO   Doogee_X96.Test9F DataMoveOperation Select external storage
+2023-02-12 22:23:31 INFO   Doogee_X96.Test9F DataMoveOperation Click More options
+2023-02-12 22:23:37 INFO   Doogee_X96.Test9F DataMoveOperation Select add new folder option
+2023-02-12 22:23:44 INFO   Doogee_X96.Test9F DataMoveOperation Name folder as Test9F
+2023-02-12 22:23:58 INFO   Doogee_X96.Test9F DataMoveOperation Select DCIM folder
+2023-02-12 22:24:01 INFO   Doogee_X96.Test9F DataMoveOperation Select camera folder
+2023-02-12 22:24:05 INFO   Doogee_X96.Test9F DataMoveOperation Click More options
+2023-02-12 22:24:11 INFO   Doogee_X96.Test9F DataMoveOperation Click select all option
+2023-02-12 22:24:18 INFO   Doogee_X96.Test9F DataMoveOperation Click More options
+2023-02-12 22:24:24 INFO   Doogee_X96.Test9F DataMoveOperation Select Move to option
+2023-02-12 22:24:31 INFO   Doogee_X96.Test9F DataMoveOperation Select SD card
+2023-02-12 22:24:37 INFO   Doogee_X96.Test9F DataMoveOperation Select Test9 folder
+2023-02-12 22:24:43 INFO   Doogee_X96.Test9F DataMoveOperation Click move here
+2023-02-12 22:26:48 INFO   Doogee_X96.Test9F DataMoveOperation Pass: Test9F Pass for data move operation successfully
+2023-02-12 22:26:48 INFO   Doogee_X96.Test9F DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-12 22:26:48 INFO   Doogee_X96.Test9F RearPictureCapture Final Message: Pass Test9F Pass for front Camera image capture
+2023-02-12 22:26:48 INFO   Doogee_X96.Test9F RearPictureCapture Test: End
+2023-02-12 22:26:48 INFO   Doogee_X96.Test9F RearPictureCapture ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

@@ -1,0 +1,104 @@
+2023-01-13 15:34:25 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F rearVideoRec Test:Start
+2023-01-13 15:34:25 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-13 15:34:25 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F rearVideoRec Test10F Scenario is as follows
+2023-01-13 15:34:25 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F rearVideoRec 1.Launch Camera application and start front camera video recording for all host applicable resolutions in uSD Card
+2023-01-13 15:34:25 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F rearVideoRec 2.Playback front Highest recorded video for 30 seconds, pause video playback, lock mobile and wait 30 seconds, unlock mobile and playback video from pause video duration
+2023-01-13 15:34:25 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F rearVideoRec Setting up the appium desired capabilities
+2023-01-13 15:34:25 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-13 15:34:38 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F rearVideoRec Launch Home screen and clear recent Apps
+2023-01-13 15:34:49 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F rearVideoRec Clearing Recent Apps
+2023-01-13 15:34:57 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F rearVideoRec Launch Camera Application for front camera video recording
+2023-01-13 15:34:58 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F rearVideoRec Test10F_Fcam_res: 2 resolutions supported
+2023-01-13 15:34:58 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F rearVideoRec If change to uSD card pop-up exists select Cancel
+2023-01-13 15:35:08 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F rearVideoRec change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy A23 , newCommandTimeout: 1200, platformName: android, platformVersion: 12, udid: RZ8T31WK83X}, deviceApiLevel: 31, deviceManufacturer: samsung, deviceModel: SM-A235F, deviceName: RZ8T31WK83X, deviceScreenDensity: 450, deviceScreenSize: 1080x2408, deviceUDID: RZ8T31WK83X, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 66, takesScreenshot: true, udid: RZ8T31WK83X, viewportRect: {height: 2141, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 93f32b1c-9cdc-434a-85a8-3b3b88387989
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2023-01-13 15:35:08 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F rearVideoRec If Location access Permission Request Pop Exists Click on Cancel. 
+2023-01-13 15:35:18 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F rearVideoRec Location access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy A23 , newCommandTimeout: 1200, platformName: android, platformVersion: 12, udid: RZ8T31WK83X}, deviceApiLevel: 31, deviceManufacturer: samsung, deviceModel: SM-A235F, deviceName: RZ8T31WK83X, deviceScreenDensity: 450, deviceScreenSize: 1080x2408, deviceUDID: RZ8T31WK83X, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 66, takesScreenshot: true, udid: RZ8T31WK83X, viewportRect: {height: 2141, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 93f32b1c-9cdc-434a-85a8-3b3b88387989
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2023-01-13 15:35:18 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F rearVideoRec Switch To front Camera mode if current Exiting camera is rear camera mode
+2023-01-13 15:35:21 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F rearVideoRec Switch to video mode
+2023-01-13 15:35:31 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F rearVideoRec Select settings option
+2023-01-13 15:35:37 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F rearVideoRec Swipe up and Select Storage location
+2023-01-13 15:35:47 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F rearVideoRec Select uSD card as Storage option
+2023-01-13 15:35:56 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F rearVideoRec Click on front video size and select resolution
+2023-01-13 15:35:56 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F rearVideoRec Select front camera first Video Resolution:BACK_CAMCORDER_RESOLUTION_FHD_60
+2023-01-13 15:36:02 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F rearVideoRec Start front video recording
+2023-01-13 15:46:03 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F rearVideoRec Stop Recording
+2023-01-13 15:46:05 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F rearVideoRec Click front video size and select second resolution
+2023-01-13 15:46:05 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F rearVideoRec Select front camera second Video Resolution:BACK_CAMCORDER_RESOLUTION_FHD_60
+2023-01-13 15:46:13 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F rearVideoRec Start front video recording
+2023-01-13 15:56:15 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F rearVideoRec Stop Recording
+2023-01-13 15:56:17 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F rearVideoRec Switch To Rear Camera mode if current Exiting camera is Front camera mode
+2023-01-13 15:56:31 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F rearVideoRec Pass: Test10F pass for front camera video recording
+2023-01-13 15:56:31 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F rearVideoRec Launch file manager application and verify recorded video capture uSD Card
+2023-01-13 15:56:48 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F rearVideoRec Swipe up to select uSD card
+2023-01-13 15:56:51 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F rearVideoRec Select SD card
+2023-01-13 15:56:57 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F rearVideoRec switch to grid view mode to select DCIM folder
+2023-01-13 15:57:00 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F rearVideoRec Select DCIM folder
+2023-01-13 15:57:04 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F rearVideoRec Select camera folder
+2023-01-13 15:57:07 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F rearVideoRec switch to list view mode 
+2023-01-13 15:57:10 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F rearVideoRec Click More options
+2023-01-13 15:57:16 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F rearVideoRec Click Select all
+2023-01-13 15:57:30 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F rearVideoRec Test10F_Fcam_video: 2 videos captured successfully
+2023-01-13 15:57:30 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F rearVideoRec Pass: Test10F pass for front camera video recording
+2023-01-13 15:57:30 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-13 15:57:30 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F rearVideoRec Calling VideoPlayBackForSleepWake()
+2023-01-13 15:57:30 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F VideoPlayBackForSleepWake Launch File Manager application and playback front recorded video from USD for 30 seconds, pause video playback, locking phone and unlock after 30 seconds delay and playback video from pause duration.
+2023-01-13 15:57:30 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F VideoPlayBackForSleepWake Clearing Recent Apps
+2023-01-13 15:57:30 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F VideoPlayBackForSleepWake Clear Recent Apps
+2023-01-13 15:57:48 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F VideoPlayBackForSleepWake Launching file manager application 
+2023-01-13 15:57:49 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F VideoPlayBackForSleepWake Swipe up to select uSD card
+2023-01-13 15:57:53 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F VideoPlayBackForSleepWake Select SD card
+2023-01-13 15:58:04 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F VideoPlayBackForSleepWake switch to grid view mode to select DCIM folder
+2023-01-13 15:58:07 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F VideoPlayBackForSleepWake Select DCIM folder
+2023-01-13 15:58:11 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F VideoPlayBackForSleepWake Select Camera folder
+2023-01-13 15:58:14 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F VideoPlayBackForSleepWake switch to list view mode 
+2023-01-13 15:58:17 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F VideoPlayBackForSleepWake Select more options
+2023-01-13 15:58:27 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F VideoPlayBackForSleepWake Select Sort by Newest date first
+2023-01-13 15:58:30 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F VideoPlayBackForSleepWake Click on first file to play highest recorded resolution video file
+2023-01-13 15:58:31 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F VideoPlayBackForSleepWake Started video playback
+2023-01-13 15:58:51 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-01-13 15:58:51 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F VideoPlayBackForSleepWake Click pause video button
+2023-01-13 15:58:55 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F VideoPlayBackForSleepWake Lock Mobile with 30 seconds delay
+2023-01-13 15:59:25 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F VideoPlayBackForSleepWake Unlock Mobile 
+2023-01-13 15:59:25 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F VideoPlayBackForSleepWake PlayBack Video from Pause duartion
+2023-01-13 15:59:25 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-01-13 15:59:25 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F VideoPlayBackForSleepWake Fast forward video play back for 10 seconds
+2023-01-13 15:59:25 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F VideoPlayBackForSleepWake Pause video play back
+2023-01-13 15:59:37 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F VideoPlayBackForSleepWake Pass: Pass Test10F Pass for Pause Video Playback scenario
+2023-01-13 15:59:37 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-13 15:59:37 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-13 15:59:37 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F VideoPlayBackForSleepWake calling DatamoveOperation() to move front camera recorded videos files to Test10F folder
+2023-01-13 15:59:37 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F DataMoveOperation Re-launch file manager application and select external storage for data move operation, select all rear camera videos present in camera folder and move to Test10 folder
+2023-01-13 15:59:43 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F DataMoveOperation Launching file manager application
+2023-01-13 15:59:46 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F DataMoveOperation Select external storage
+2023-01-13 15:59:51 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F DataMoveOperation switch to grid view mode and select DCIM  folder
+2023-01-13 15:59:54 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F DataMoveOperation Select DCIM folder
+2023-01-13 15:59:57 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F DataMoveOperation Select camera  folder
+2023-01-13 16:00:01 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F DataMoveOperation switch to list view mode 
+2023-01-13 16:00:04 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F DataMoveOperation Click More options
+2023-01-13 16:00:10 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F DataMoveOperation Click Select all
+2023-01-13 16:00:14 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F DataMoveOperation Click More options
+2023-01-13 16:00:20 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F DataMoveOperation Select move to option
+2023-01-13 16:00:27 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F DataMoveOperation Select uSD Card
+2023-01-13 16:00:33 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F DataMoveOperation Select ADD NEW Folder option
+2023-01-13 16:00:40 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F DataMoveOperation Name folder as Test10F
+2023-01-13 16:00:47 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F DataMoveOperation Accept create folder
+2023-01-13 16:01:18 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F DataMoveOperation Cut paste  video files operation completed successfully
+2023-01-13 16:01:29 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F DataMoveOperation Test10F: Data move operation completed successfully
+2023-01-13 16:01:38 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F DataMoveOperation Pass: Test10F Pass for data move operation successfully
+2023-01-13 16:01:38 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F VideoPlayBackForSleepWake Final message: Pass Test10F Pass for front camera  video recording, Pause Video Playback scenario and data move operation scenario
+2023-01-13 16:01:38 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F VideoPlayBackForSleepWake Test:End
+2023-01-13 16:01:38 INFO   Samsung_Galaxy_A23_SMA235F1DS.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

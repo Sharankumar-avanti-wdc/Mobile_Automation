@@ -1,0 +1,90 @@
+2023-02-15 12:11:25 INFO   BLU_J9L.Test10F_Int frontVideoRec Test:Start
+2023-02-15 12:11:25 INFO   BLU_J9L.Test10F_Int frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-15 12:11:25 INFO   BLU_J9L.Test10F_Int frontVideoRec Test10F_Int Scenario is as follows
+2023-02-15 12:11:25 INFO   BLU_J9L.Test10F_Int frontVideoRec 1.Launch Camera application and start front camera video recording for all host applicable resolutions in Internal storage
+2023-02-15 12:11:25 INFO   BLU_J9L.Test10F_Int frontVideoRec 2.Playback front Highest recorded video from Internal storage for 30 seconds, pause video playback, lock mobile and wait 30 seconds, unlock mobile and playback video from pause video duration
+2023-02-15 12:11:25 INFO   BLU_J9L.Test10F_Int frontVideoRec Setting up the appium desired capabilities
+2023-02-15 12:11:25 INFO   BLU_J9L.Test10F_Int frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-15 12:11:44 INFO   BLU_J9L.Test10F_Int frontVideoRec Clearing Recent Apps
+2023-02-15 12:11:44 INFO   BLU_J9L.Test10F_Int frontVideoRec Pass: No recent apps found
+2023-02-15 12:11:48 INFO   BLU_J9L.Test10F_Int frontVideoRec Launch Camera Application for rear camera video recording
+2023-02-15 12:11:54 INFO   BLU_J9L.Test10F_Int frontVideoRec Select camera permissions
+2023-02-15 12:11:54 INFO   BLU_J9L.Test10F_Int frontVideoRec Select While using the app
+2023-02-15 12:12:09 INFO   BLU_J9L.Test10F_Int frontVideoRec Select START CAPTURE
+2023-02-15 12:12:24 INFO   BLU_J9L.Test10F_Int frontVideoRec Test10F_Int_Fcam_res: 3 resolutions supported
+2023-02-15 12:12:24 INFO   BLU_J9L.Test10F_Int frontVideoRec Select video tab
+2023-02-15 12:12:27 INFO   BLU_J9L.Test10F_Int frontVideoRec Click On front camera mode
+2023-02-15 12:12:31 INFO   BLU_J9L.Test10F_Int frontVideoRec Select settings option
+2023-02-15 12:12:34 INFO   BLU_J9L.Test10F_Int frontVideoRec Select Video quality
+2023-02-15 12:12:39 INFO   BLU_J9L.Test10F_Int frontVideoRec Select First front video Resolution:  720p
+2023-02-15 12:12:49 INFO   BLU_J9L.Test10F_Int frontVideoRec Start video recording
+2023-02-15 12:12:50 INFO   BLU_J9L.Test10F_Int frontVideoRec Stop video recording
+2023-02-15 12:22:38 INFO   BLU_J9L.Test10F_Int frontVideoRec Select settings option
+2023-02-15 12:22:41 INFO   BLU_J9L.Test10F_Int frontVideoRec Select Video quality
+2023-02-15 12:22:46 INFO   BLU_J9L.Test10F_Int frontVideoRec Select First front video Resolution:   480p
+2023-02-15 12:22:57 INFO   BLU_J9L.Test10F_Int frontVideoRec Start video recording
+2023-02-15 12:22:57 INFO   BLU_J9L.Test10F_Int frontVideoRec Stop video recording
+2023-02-15 12:32:45 INFO   BLU_J9L.Test10F_Int frontVideoRec Select settings option
+2023-02-15 12:32:48 INFO   BLU_J9L.Test10F_Int frontVideoRec Select Video quality
+2023-02-15 12:32:53 INFO   BLU_J9L.Test10F_Int frontVideoRec Select third front video Resolution: CIF
+2023-02-15 12:33:04 INFO   BLU_J9L.Test10F_Int frontVideoRec Start video recording
+2023-02-15 12:42:44 INFO   BLU_J9L.Test10F_Int frontVideoRec Stop video recording
+2023-02-15 12:42:52 INFO   BLU_J9L.Test10F_Int frontVideoRec Click On back camera mode
+2023-02-15 12:42:57 INFO   BLU_J9L.Test10F_Int frontVideoRec Select photo mode
+2023-02-15 12:43:08 INFO   BLU_J9L.Test10F_Int frontVideoRec Pass: Test10F_Int pass for front camera video recording
+2023-02-15 12:43:08 INFO   BLU_J9L.Test10F_Int frontVideoRec Launch file manager application and verify recorded video capture Internal storage
+2023-02-15 12:43:25 INFO   BLU_J9L.Test10F_Int frontVideoRec Swipe up to select Internal storage
+2023-02-15 12:43:29 INFO   BLU_J9L.Test10F_Int frontVideoRec Select Internal storage
+2023-02-15 12:43:35 INFO   BLU_J9L.Test10F_Int frontVideoRec switch to grid view mode to select DCIM folder
+2023-02-15 12:43:39 INFO   BLU_J9L.Test10F_Int frontVideoRec Select DCIM folder
+2023-02-15 12:43:42 INFO   BLU_J9L.Test10F_Int frontVideoRec Select camera folder
+2023-02-15 12:43:45 INFO   BLU_J9L.Test10F_Int frontVideoRec switch to list view mode 
+2023-02-15 12:43:48 INFO   BLU_J9L.Test10F_Int frontVideoRec Click More options
+2023-02-15 12:43:54 INFO   BLU_J9L.Test10F_Int frontVideoRec Click Select all
+2023-02-15 12:44:11 INFO   BLU_J9L.Test10F_Int frontVideoRec Test10F_Int_Fcam_video: 3 videos captured successfully
+2023-02-15 12:44:11 INFO   BLU_J9L.Test10F_Int frontVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-15 12:44:11 INFO   BLU_J9L.Test10F_Int frontVideoRec Calling VideoPlayBackForSleepWake()
+2023-02-15 12:44:11 INFO   BLU_J9L.Test10F_Int VideoPlayBackForSleepWake Launch File Manager application and playback front recorded video from Internal storage for 30 seconds, pause video playback, locking phone and unlock after 30 seconds delay and playback video from pause duration.
+2023-02-15 12:44:17 INFO   BLU_J9L.Test10F_Int VideoPlayBackForSleepWake Select Internal storage
+2023-02-15 12:44:27 INFO   BLU_J9L.Test10F_Int VideoPlayBackForSleepWake switch to grid view mode to select DCIM folder
+2023-02-15 12:44:30 INFO   BLU_J9L.Test10F_Int VideoPlayBackForSleepWake Select DCIM folder
+2023-02-15 12:44:33 INFO   BLU_J9L.Test10F_Int VideoPlayBackForSleepWake Select camera folder
+2023-02-15 12:44:36 INFO   BLU_J9L.Test10F_Int VideoPlayBackForSleepWake switch to list view mode 
+2023-02-15 12:44:39 INFO   BLU_J9L.Test10F_Int VideoPlayBackForSleepWake Select MoreOptions1
+2023-02-15 12:44:44 INFO   BLU_J9L.Test10F_Int VideoPlayBackForSleepWake Select Sort by
+2023-02-15 12:44:49 INFO   BLU_J9L.Test10F_Int VideoPlayBackForSleepWake Select Sort by Newest date first
+2023-02-15 12:44:52 INFO   BLU_J9L.Test10F_Int VideoPlayBackForSleepWake Click on first file to play highest recorded resolution video file
+2023-02-15 12:44:53 INFO   BLU_J9L.Test10F_Int VideoPlayBackForSleepWake Started video playback
+2023-02-15 12:45:13 INFO   BLU_J9L.Test10F_Int VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-02-15 12:45:15 INFO   BLU_J9L.Test10F_Int VideoPlayBackForSleepWake Click pause video button
+2023-02-15 12:45:18 INFO   BLU_J9L.Test10F_Int VideoPlayBackForSleepWake Lock Mobile with 30 seconds delay
+2023-02-15 12:45:48 INFO   BLU_J9L.Test10F_Int VideoPlayBackForSleepWake Unlock Mobile 
+2023-02-15 12:45:48 INFO   BLU_J9L.Test10F_Int VideoPlayBackForSleepWake Wait For 30Seconds
+2023-02-15 12:45:53 INFO   BLU_J9L.Test10F_Int VideoPlayBackForSleepWake Playback video from pause video duration
+2023-02-15 12:46:23 INFO   BLU_J9L.Test10F_Int VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-02-15 12:46:25 INFO   BLU_J9L.Test10F_Int VideoPlayBackForSleepWake Click pause video button
+2023-02-15 12:46:36 INFO   BLU_J9L.Test10F_Int VideoPlayBackForSleepWake Pass: Test10F_Int Pass for Front video play back, Pause,Lock and Unlock Phone Play back from Pause duration Scenario
+2023-02-15 12:46:36 INFO   BLU_J9L.Test10F_Int VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-15 12:46:36 INFO   BLU_J9L.Test10F_Int VideoPlayBackForSleepWake calling DatamoveOperation() to move front camera recorded videos files to Test10F_Int folder
+2023-02-15 12:46:36 INFO   BLU_J9L.Test10F_Int DataMoveOperation launch file manager application select Internal storage -->DCIM folder-->Camera folder-->Select all Front camera videos create Test10F_Int and cut paste all videos in Test10F_Int folder
+2023-02-15 12:46:52 INFO   BLU_J9L.Test10F_Int DataMoveOperation click on browse option
+2023-02-15 12:46:55 INFO   BLU_J9L.Test10F_Int DataMoveOperation Swipe up to select Internal storage
+2023-02-15 12:47:00 INFO   BLU_J9L.Test10F_Int DataMoveOperation Select Internal storage
+2023-02-15 12:47:06 INFO   BLU_J9L.Test10F_Int DataMoveOperation switch to grid view mode to select DCIM folder
+2023-02-15 12:47:09 INFO   BLU_J9L.Test10F_Int DataMoveOperation Select DCIM folder
+2023-02-15 12:47:12 INFO   BLU_J9L.Test10F_Int DataMoveOperation Select camera folder
+2023-02-15 12:47:15 INFO   BLU_J9L.Test10F_Int DataMoveOperation switch to list view mode 
+2023-02-15 12:47:18 INFO   BLU_J9L.Test10F_Int DataMoveOperation Click More options
+2023-02-15 12:47:25 INFO   BLU_J9L.Test10F_Int DataMoveOperation Click Select all
+2023-02-15 12:47:28 INFO   BLU_J9L.Test10F_Int DataMoveOperation Click More options
+2023-02-15 12:47:35 INFO   BLU_J9L.Test10F_Int DataMoveOperation Select move to option
+2023-02-15 12:47:41 INFO   BLU_J9L.Test10F_Int DataMoveOperation select Internal storage
+2023-02-15 12:47:48 INFO   BLU_J9L.Test10F_Int DataMoveOperation Select ADD NEW Folder option
+2023-02-15 12:47:54 INFO   BLU_J9L.Test10F_Int DataMoveOperation Name folder as Test10F_Int
+2023-02-15 12:48:01 INFO   BLU_J9L.Test10F_Int DataMoveOperation Accept create folder
+2023-02-15 12:48:41 INFO   BLU_J9L.Test10F_Int DataMoveOperation Cut paste  video files operation completed successfully
+2023-02-15 12:48:41 INFO   BLU_J9L.Test10F_Int DataMoveOperation Pass: Test10F_Int Pass for data move operation successfully
+2023-02-15 12:48:41 INFO   BLU_J9L.Test10F_Int DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-02-15 12:48:56 INFO   BLU_J9L.Test10F_Int VideoPlayBackForSleepWake Final Message: Pass Test10F_Int Pass for front camera  video recording, Pause Video Playback scenario and data move operation scenario
+2023-02-15 12:48:56 INFO   BLU_J9L.Test10F_Int VideoPlayBackForSleepWake Test: End
+2023-02-15 12:48:56 INFO   BLU_J9L.Test10F_Int VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

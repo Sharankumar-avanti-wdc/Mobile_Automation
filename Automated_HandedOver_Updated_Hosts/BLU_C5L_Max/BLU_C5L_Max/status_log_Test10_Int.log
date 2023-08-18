@@ -1,0 +1,87 @@
+2023-03-16 12:33:13 INFO   BLU_C5L_Max.Test10_Int rearVideoRec Test: Start
+2023-03-16 12:33:13 INFO   BLU_C5L_Max.Test10_Int rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-16 12:33:13 INFO   BLU_C5L_Max.Test10_Int rearVideoRec Test10_Int Scenario is as follows
+2023-03-16 12:33:13 INFO   BLU_C5L_Max.Test10_Int rearVideoRec 1.Launch Camera application and start rear camera video recording for all host applicable resolutions in Internal storage
+2023-03-16 12:33:13 INFO   BLU_C5L_Max.Test10_Int rearVideoRec 2.Playback Highest resolution recorded video from Internal storage, fast forward playback and pause video scenario 
+2023-03-16 12:33:13 INFO   BLU_C5L_Max.Test10_Int rearVideoRec 3.Playback copied videos from Test1 folder, fast forward and pause scenario
+2023-03-16 12:33:13 INFO   BLU_C5L_Max.Test10_Int rearVideoRec Setting up the appium desired capabilities
+2023-03-16 12:33:13 INFO   BLU_C5L_Max.Test10_Int rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-16 12:33:32 INFO   BLU_C5L_Max.Test10_Int rearVideoRec Clearing Recent Apps
+2023-03-16 12:33:33 INFO   BLU_C5L_Max.Test10_Int rearVideoRec Pass: No recent apps found
+2023-03-16 12:33:37 INFO   BLU_C5L_Max.Test10_Int rearVideoRec Launch Camera Application for rear camera video recording
+2023-03-16 12:33:43 INFO   BLU_C5L_Max.Test10_Int rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-16 12:33:45 INFO   BLU_C5L_Max.Test10_Int rearVideoRec Test10_Int_Bcam_res: 1 resolutions supported
+2023-03-16 12:33:45 INFO   BLU_C5L_Max.Test10_Int rearVideoRec Select video tab
+2023-03-16 12:33:50 INFO   BLU_C5L_Max.Test10_Int rearVideoRec Select 1st Back Video Resolution by default
+2023-03-16 12:33:55 INFO   BLU_C5L_Max.Test10_Int rearVideoRec Start video recording
+2023-03-16 12:33:57 INFO   BLU_C5L_Max.Test10_Int rearVideoRec Stop video recording
+2023-03-16 12:44:15 INFO   BLU_C5L_Max.Test10_Int rearVideoRec Select photo mode
+2023-03-16 12:44:26 INFO   BLU_C5L_Max.Test10_Int rearVideoRec Pass: Rear video recording is successfull
+2023-03-16 12:44:26 INFO   BLU_C5L_Max.Test10_Int rearVideoRec Launch File Manager Application to verify captured videos
+2023-03-16 12:44:29 INFO   BLU_C5L_Max.Test10_Int rearVideoRec Select  Internal storage
+2023-03-16 12:44:41 INFO   BLU_C5L_Max.Test10_Int rearVideoRec switch to grid view mode to select DCIM folder
+2023-03-16 12:44:45 INFO   BLU_C5L_Max.Test10_Int rearVideoRec Select DCIM folder
+2023-03-16 12:44:48 INFO   BLU_C5L_Max.Test10_Int rearVideoRec Select camera folder
+2023-03-16 12:44:52 INFO   BLU_C5L_Max.Test10_Int rearVideoRec switch to list view mode 
+2023-03-16 12:44:55 INFO   BLU_C5L_Max.Test10_Int rearVideoRec Select More Options 
+2023-03-16 12:44:58 INFO   BLU_C5L_Max.Test10_Int rearVideoRec Click On Select All Options
+2023-03-16 12:45:07 INFO   BLU_C5L_Max.Test10_Int rearVideoRec Test10_Int_Bcam_video: 1 Videos captured successfully
+2023-03-16 12:45:07 INFO   BLU_C5L_Max.Test10_Int rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-16 12:45:07 INFO   BLU_C5L_Max.Test10_Int rearVideoRec Calling RecordedVideoPlayback() for Playing Highest record video, fast forward video play back scenario
+2023-03-16 12:45:07 INFO   BLU_C5L_Max.Test10_Int RecordedVideoPlayback Launch File Manager for playing highest resolution recorded video from Internal, fast forward and pause scenario
+2023-03-16 12:45:19 INFO   BLU_C5L_Max.Test10_Int RecordedVideoPlayback Select Internal storage
+2023-03-16 12:45:24 INFO   BLU_C5L_Max.Test10_Int RecordedVideoPlayback switch to grid view mode to select DCIM folder
+2023-03-16 12:45:29 INFO   BLU_C5L_Max.Test10_Int RecordedVideoPlayback Select DCIM folder
+2023-03-16 12:45:32 INFO   BLU_C5L_Max.Test10_Int RecordedVideoPlayback Select camera folder
+2023-03-16 12:45:36 INFO   BLU_C5L_Max.Test10_Int RecordedVideoPlayback switch to list view mode 
+2023-03-16 12:45:44 INFO   BLU_C5L_Max.Test10_Int RecordedVideoPlayback Select more options and sort by largest file first
+2023-03-16 12:45:51 INFO   BLU_C5L_Max.Test10_Int RecordedVideoPlayback Click on first file to play highest recorded resolution video file
+2023-03-16 12:45:52 INFO   BLU_C5L_Max.Test10_Int RecordedVideoPlayback Started video playback
+2023-03-16 12:46:22 INFO   BLU_C5L_Max.Test10_Int RecordedVideoPlayback Tap Somewhere on Screen for contents to visible on Screen
+2023-03-16 12:46:24 INFO   BLU_C5L_Max.Test10_Int RecordedVideoPlayback Fast forward video for 10 seconds
+2023-03-16 12:46:54 INFO   BLU_C5L_Max.Test10_Int RecordedVideoPlayback Pass: Recorded Video play back and fast forward successfull 
+2023-03-16 12:46:54 INFO   BLU_C5L_Max.Test10_Int RecordedVideoPlayback ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-16 12:46:54 INFO   BLU_C5L_Max.Test10_Int RecordedVideoPlayback Calling DataMovementOperation() to move recorded rear camer videos to Test10_Int Folder
+2023-03-16 12:46:54 INFO   BLU_C5L_Max.Test10_Int DataMoveOperation launch file manager application select Internal storage-->DCIM folder-->Camera folder-->Select all rear camera videos create Test10_Int and cut paste all videos in Test10_Int folder
+2023-03-16 12:47:11 INFO   BLU_C5L_Max.Test10_Int DataMoveOperation Swipe up to select Internal storage
+2023-03-16 12:47:15 INFO   BLU_C5L_Max.Test10_Int DataMoveOperation Select Internal storage
+2023-03-16 12:47:22 INFO   BLU_C5L_Max.Test10_Int DataMoveOperation switch to grid view mode to select DCIM folder
+2023-03-16 12:47:25 INFO   BLU_C5L_Max.Test10_Int DataMoveOperation Select DCIM folder
+2023-03-16 12:47:28 INFO   BLU_C5L_Max.Test10_Int DataMoveOperation Select camera folder
+2023-03-16 12:47:31 INFO   BLU_C5L_Max.Test10_Int DataMoveOperation switch to list view mode 
+2023-03-16 12:47:34 INFO   BLU_C5L_Max.Test10_Int DataMoveOperation Click More options
+2023-03-16 12:47:40 INFO   BLU_C5L_Max.Test10_Int DataMoveOperation Click Select all
+2023-03-16 12:47:44 INFO   BLU_C5L_Max.Test10_Int DataMoveOperation Click More options
+2023-03-16 12:47:50 INFO   BLU_C5L_Max.Test10_Int DataMoveOperation Select move to option
+2023-03-16 12:47:57 INFO   BLU_C5L_Max.Test10_Int DataMoveOperation Select Internal storage
+2023-03-16 12:48:04 INFO   BLU_C5L_Max.Test10_Int DataMoveOperation Select ADD NEW Folder option
+2023-03-16 12:48:10 INFO   BLU_C5L_Max.Test10_Int DataMoveOperation Name folder as Test10_Int
+2023-03-16 12:48:17 INFO   BLU_C5L_Max.Test10_Int DataMoveOperation Accept create folder
+2023-03-16 12:50:19 INFO   BLU_C5L_Max.Test10_Int DataMoveOperation Cut paste  video files operation completed successfully
+2023-03-16 12:50:27 INFO   BLU_C5L_Max.Test10_Int DataMoveOperation Pass: Test10_Int Pass for data move operation successfully
+2023-03-16 12:50:27 INFO   BLU_C5L_Max.Test10_Int DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-16 12:50:27 INFO   BLU_C5L_Max.Test10_Int RecordedVideoPlayback Calling copiedvideosPlayBack() for playing copied video file from Test1 folder
+2023-03-16 12:50:27 INFO   BLU_C5L_Max.Test10_Int CopiedvideosPlayBack Re-launch file manager application and select Internal storage for playing copied video files
+2023-03-16 12:50:39 INFO   BLU_C5L_Max.Test10_Int CopiedvideosPlayBack Select Internal storage
+2023-03-16 12:50:42 INFO   BLU_C5L_Max.Test10_Int CopiedvideosPlayBack switch to grid view mode to select Test1 folder
+2023-03-16 12:50:45 INFO   BLU_C5L_Max.Test10_Int CopiedvideosPlayBack Select Test1 folder
+2023-03-16 12:50:49 INFO   BLU_C5L_Max.Test10_Int CopiedvideosPlayBack Select TestFile folder
+2023-03-16 12:50:52 INFO   BLU_C5L_Max.Test10_Int CopiedvideosPlayBack Select OneGB folder
+2023-03-16 12:50:55 INFO   BLU_C5L_Max.Test10_Int CopiedvideosPlayBack Select video folder
+2023-03-16 12:50:58 INFO   BLU_C5L_Max.Test10_Int CopiedvideosPlayBack switch to list view mode 
+2023-03-16 12:51:01 INFO   BLU_C5L_Max.Test10_Int CopiedvideosPlayBack Select LG_4K_DEMO_HDR_2018_(60FPS)_ELBA(480p).mp4 file for video playback
+2023-03-16 12:51:02 INFO   BLU_C5L_Max.Test10_Int CopiedvideosPlayBack Started video playback
+2023-03-16 12:51:22 INFO   BLU_C5L_Max.Test10_Int CopiedvideosPlayBack Tap Somewhere on Screen for contents to visible on Screen
+2023-03-16 12:51:24 INFO   BLU_C5L_Max.Test10_Int CopiedvideosPlayBack Click fast forward button for 10 seconds video forward
+2023-03-16 12:51:44 INFO   BLU_C5L_Max.Test10_Int CopiedvideosPlayBack click press back stop video
+2023-03-16 12:51:47 INFO   BLU_C5L_Max.Test10_Int CopiedvideosPlayBack Pass: 4K Video play back and fast forward is successful 
+2023-03-16 12:51:50 INFO   BLU_C5L_Max.Test10_Int CopiedvideosPlayBack Select FHD 5.1 ( 1350 X 2560 ).webm file for video playback
+2023-03-16 12:51:50 INFO   BLU_C5L_Max.Test10_Int CopiedvideosPlayBack Started video playback
+2023-03-16 12:52:10 INFO   BLU_C5L_Max.Test10_Int CopiedvideosPlayBack Tap Somewhere on Screen for contents to visible on Screen
+2023-03-16 12:52:12 INFO   BLU_C5L_Max.Test10_Int CopiedvideosPlayBack Click fast forward button for 10 seconds video forward
+2023-03-16 12:52:34 INFO   BLU_C5L_Max.Test10_Int CopiedvideosPlayBack click press back stop video
+2023-03-16 12:52:41 INFO   BLU_C5L_Max.Test10_Int CopiedvideosPlayBack Pass: FHD Video play back and fast forward is successful 
+2023-03-16 12:52:41 INFO   BLU_C5L_Max.Test10_Int CopiedvideosPlayBack ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-16 12:52:41 INFO   BLU_C5L_Max.Test10_Int CopiedvideosPlayBack Final Message: Pass Test10_Int Pass for Playing Copied Video files, recorded video file and fast forward video play back scenario 
+2023-03-16 12:52:41 INFO   BLU_C5L_Max.Test10_Int CopiedvideosPlayBack Test: End
+2023-03-16 12:52:41 INFO   BLU_C5L_Max.Test10_Int CopiedvideosPlayBack ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

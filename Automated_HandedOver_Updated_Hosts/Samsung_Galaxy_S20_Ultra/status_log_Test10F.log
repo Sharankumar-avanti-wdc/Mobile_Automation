@@ -1,0 +1,61 @@
+2022-11-09 16:06:37 INFO   Samsung_Galaxy_S20_Ultra.Test10F rearVideoRec Test:Start
+2022-11-09 16:06:37 INFO   Samsung_Galaxy_S20_Ultra.Test10F rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-11-09 16:06:37 INFO   Samsung_Galaxy_S20_Ultra.Test10F rearVideoRec Test10F Scenario is as follows
+2022-11-09 16:06:37 INFO   Samsung_Galaxy_S20_Ultra.Test10F rearVideoRec 1.Launch Camera application and start front camera video recording for all host applicable resolutions in uSD Card
+2022-11-09 16:06:37 INFO   Samsung_Galaxy_S20_Ultra.Test10F rearVideoRec 2.Playback front Highest recorded video for 30 seconds, pause video playback, lock mobile and wait 30 seconds, unlock mobile and playback video from pause video duration
+2022-11-09 16:06:37 INFO   Samsung_Galaxy_S20_Ultra.Test10F rearVideoRec Setting up the appium desired capabilities
+2022-11-09 16:06:37 INFO   Samsung_Galaxy_S20_Ultra.Test10F rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-11-09 16:06:50 INFO   Samsung_Galaxy_S20_Ultra.Test10F rearVideoRec Launch Home screen and clear recent Apps
+2022-11-09 16:07:01 INFO   Samsung_Galaxy_S20_Ultra.Test10F rearVideoRec Clearing Recent Apps
+2022-11-09 16:07:08 INFO   Samsung_Galaxy_S20_Ultra.Test10F rearVideoRec Launch Camera Application for rear camera video recording
+2022-11-09 16:07:10 INFO   Samsung_Galaxy_S20_Ultra.Test10F rearVideoRec Test10F_Fcam_res: 4 resolutions supported
+2022-11-09 16:07:10 INFO   Samsung_Galaxy_S20_Ultra.Test10F rearVideoRec If change to uSD card pop-up exists select Cancel
+2022-11-09 16:07:20 INFO   Samsung_Galaxy_S20_Ultra.Test10F rearVideoRec change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Samsung_Galaxy_S20_Ultra, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: R5CN317QZVF}, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-G988B, deviceName: R5CN317QZVF, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: R5CN317QZVF, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 74, takesScreenshot: true, udid: R5CN317QZVF, viewportRect: {height: 2126, left: 0, top: 74, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 66af2d99-bd93-4b8b-9293-e03808dfbbb4
+*** Element info: {Using=id, value=android:id/button2}
+2022-11-09 16:07:20 INFO   Samsung_Galaxy_S20_Ultra.Test10F rearVideoRec If Location access Permission Request Pop Exists Click on Cancel. 
+2022-11-09 16:07:30 INFO   Samsung_Galaxy_S20_Ultra.Test10F rearVideoRec Location access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Samsung_Galaxy_S20_Ultra, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: R5CN317QZVF}, deviceApiLevel: 30, deviceManufacturer: samsung, deviceModel: SM-G988B, deviceName: R5CN317QZVF, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: R5CN317QZVF, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 74, takesScreenshot: true, udid: R5CN317QZVF, viewportRect: {height: 2126, left: 0, top: 74, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 66af2d99-bd93-4b8b-9293-e03808dfbbb4
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2022-11-09 16:07:30 INFO   Samsung_Galaxy_S20_Ultra.Test10F rearVideoRec Switch To front Camera mode if current Exiting camera is rear camera mode
+2022-11-09 16:07:32 INFO   Samsung_Galaxy_S20_Ultra.Test10F rearVideoRec Switch to video mode
+2022-11-09 16:07:42 INFO   Samsung_Galaxy_S20_Ultra.Test10F rearVideoRec Select settings option
+2022-11-09 16:07:47 INFO   Samsung_Galaxy_S20_Ultra.Test10F rearVideoRec Swipe up and Select Storage location
+2022-11-09 16:08:01 INFO   Samsung_Galaxy_S20_Ultra.Test10F rearVideoRec Select uSD card as Storage option
+2022-11-09 16:08:10 INFO   Samsung_Galaxy_S20_Ultra.Test10F rearVideoRec Click on front video size and select resolution
+2022-11-09 16:08:10 INFO   Samsung_Galaxy_S20_Ultra.Test10F rearVideoRec Select settings option
+2022-11-09 16:08:15 INFO   Samsung_Galaxy_S20_Ultra.Test10F rearVideoRec Select front video size
+2022-11-09 16:08:16 INFO   Samsung_Galaxy_S20_Ultra.Test10F rearVideoRec Select First front video Resolution: 16:9
+2022-11-09 16:08:26 INFO   Samsung_Galaxy_S20_Ultra.Test10F rearVideoRec Start front video recording
+2022-11-09 16:13:26 INFO   Samsung_Galaxy_S20_Ultra.Test10F rearVideoRec Stop Recording
+2022-11-09 16:13:28 INFO   Samsung_Galaxy_S20_Ultra.Test10F rearVideoRec Select settings option
+2022-11-09 16:13:34 INFO   Samsung_Galaxy_S20_Ultra.Test10F rearVideoRec Select front Video size
+2022-11-09 16:13:35 INFO   Samsung_Galaxy_S20_Ultra.Test10F rearVideoRec Select second front Video Resolution: Full
+2022-11-09 16:13:44 INFO   Samsung_Galaxy_S20_Ultra.Test10F rearVideoRec Start front video recording
+2022-11-09 16:15:45 INFO   Samsung_Galaxy_S20_Ultra.Test10F rearVideoRec Stop Recording
+2022-11-09 16:15:47 INFO   Samsung_Galaxy_S20_Ultra.Test10F rearVideoRec Select settings option
+2022-11-09 16:15:52 INFO   Samsung_Galaxy_S20_Ultra.Test10F rearVideoRec Select front Video size
+2022-11-09 16:15:53 INFO   Samsung_Galaxy_S20_Ultra.Test10F rearVideoRec Select Third front Video Resolution: 1:1
+2022-11-09 16:16:03 INFO   Samsung_Galaxy_S20_Ultra.Test10F rearVideoRec Start front video recording
+2022-11-09 16:18:03 INFO   Samsung_Galaxy_S20_Ultra.Test10F rearVideoRec Switch to defalut Photo mode
+2022-11-09 16:18:10 INFO   Samsung_Galaxy_S20_Ultra.Test10F rearVideoRec Switch to defalut back camera mode
+2022-11-09 16:18:26 INFO   Samsung_Galaxy_S20_Ultra.Test10F rearVideoRec Pass: Test10F pass for front camera video recording
+2022-11-09 16:18:26 INFO   Samsung_Galaxy_S20_Ultra.Test10F rearVideoRec Launch file manager application and verify recorded video capture uSD Card
+2022-11-09 16:18:27 INFO   Samsung_Galaxy_S20_Ultra.Test10F rearVideoRec Fail: Test10F for Front camera video recording
+2022-11-09 16:18:27 INFO   Samsung_Galaxy_S20_Ultra.Test10F rearVideoRec Final Message: Fail Test10F Fail fro Front camera video recording
+2022-11-09 16:18:27 INFO   Samsung_Galaxy_S20_Ultra.Test10F rearVideoRec Calling Data move operation
+2022-11-09 16:18:27 INFO   Samsung_Galaxy_S20_Ultra.Test10F DataMoveOperation Re-launch file manager application and select external storage for data move operation, select all rear camera videos present in camera folder and move to Test10 folder
+2022-11-09 16:18:28 INFO   Samsung_Galaxy_S20_Ultra.Test10F rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-11-09 16:18:28 INFO   Samsung_Galaxy_S20_Ultra.Test10F rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-11-09 16:18:28 INFO   Samsung_Galaxy_S20_Ultra.Test10F rearVideoRec Test:End
+2022-11-09 16:18:28 INFO   Samsung_Galaxy_S20_Ultra.Test10F rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

@@ -1,0 +1,97 @@
+2023-01-11 11:43:22 INFO   Nokia_G21_TA1418.Test10 rearVideoRec Test: Start
+2023-01-11 11:43:22 INFO   Nokia_G21_TA1418.Test10 rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-11 11:43:22 INFO   Nokia_G21_TA1418.Test10 rearVideoRec Test10 Scenario is as follows
+2023-01-11 11:43:22 INFO   Nokia_G21_TA1418.Test10 rearVideoRec 1.Launch Camera application and start back camera video recording for all host applicable resolutions in uSD Card
+2023-01-11 11:43:22 INFO   Nokia_G21_TA1418.Test10 rearVideoRec 2.Playback Highest resolution recorded video from USD Card, fast forward playback and pause video scenario 
+2023-01-11 11:43:22 INFO   Nokia_G21_TA1418.Test10 rearVideoRec 3.Playback copied videos from Test1 folder, fast forward and pause scenario
+2023-01-11 11:43:22 INFO   Nokia_G21_TA1418.Test10 rearVideoRec Setting up the appium desired capabilities
+2023-01-11 11:43:22 INFO   Nokia_G21_TA1418.Test10 rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-11 11:43:36 INFO   Nokia_G21_TA1418.Test10 rearVideoRec Unlocking Phone
+2023-01-11 11:43:36 INFO   Nokia_G21_TA1418.Test10 rearVideoRec Launch home screen
+2023-01-11 11:44:10 INFO   Nokia_G21_TA1418.Test10 rearVideoRec If location location permission request pop-up exists? select deny option
+2023-01-11 11:44:20 INFO   Nokia_G21_TA1418.Test10 rearVideoRec No location access permission pop-up found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-090', ip: '10.65.148.57', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Nokia G21, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: PT19655JA1233000716}, deviceApiLevel: 30, deviceManufacturer: HMD Global, deviceModel: Nokia G21, deviceName: PT19655JA1233000716, deviceScreenDensity: 280, deviceScreenSize: 720x1600, deviceUDID: PT19655JA1233000716, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 1.75, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 52, takesScreenshot: true, udid: PT19655JA1233000716, viewportRect: {height: 1468, left: 0, top: 52, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: 18a25a1c-61bf-4d36-b524-437ede83da7e
+*** Element info: {Using=xpath, value=//*[@resource-id='com.android.permissioncontroller:id/permission_deny_button']}
+2023-01-11 11:44:20 INFO   Nokia_G21_TA1418.Test10 rearVideoRec Test10_Bcam_res: 2 resolutions supported
+2023-01-11 11:44:20 INFO   Nokia_G21_TA1418.Test10 rearVideoRec Switch to video mode
+2023-01-11 11:44:23 INFO   Nokia_G21_TA1418.Test10 rearVideoRec select settings option
+2023-01-11 11:44:27 INFO   Nokia_G21_TA1418.Test10 rearVideoRec select data storage option
+2023-01-11 11:44:31 INFO   Nokia_G21_TA1418.Test10 rearVideoRec select uSD card as storage option
+2023-01-11 11:44:37 INFO   Nokia_G21_TA1418.Test10 rearVideoRec select settings option
+2023-01-11 11:44:43 INFO   Nokia_G21_TA1418.Test10 rearVideoRec select video resolution option
+2023-01-11 11:44:48 INFO   Nokia_G21_TA1418.Test10 rearVideoRec select Video from rear camera option
+2023-01-11 11:44:51 INFO   Nokia_G21_TA1418.Test10 rearVideoRec select first highest rear camera video resolution: FHD 1080P
+2023-01-11 11:45:05 INFO   Nokia_G21_TA1418.Test10 rearVideoRec Start recording
+2023-01-11 11:54:45 INFO   Nokia_G21_TA1418.Test10 rearVideoRec Stop recodring
+2023-01-11 11:54:49 INFO   Nokia_G21_TA1418.Test10 rearVideoRec select settings option
+2023-01-11 11:54:55 INFO   Nokia_G21_TA1418.Test10 rearVideoRec select video resolution option
+2023-01-11 11:54:59 INFO   Nokia_G21_TA1418.Test10 rearVideoRec select Video from rear camera option
+2023-01-11 11:55:03 INFO   Nokia_G21_TA1418.Test10 rearVideoRec select second highest rear camera video resolution:HD 720P
+2023-01-11 11:55:17 INFO   Nokia_G21_TA1418.Test10 rearVideoRec Start Recording
+2023-01-11 12:04:57 INFO   Nokia_G21_TA1418.Test10 rearVideoRec Stop recodring
+2023-01-11 12:05:04 INFO   Nokia_G21_TA1418.Test10 rearVideoRec Switch to photo mode
+2023-01-11 12:05:07 INFO   Nokia_G21_TA1418.Test10 rearVideoRec Pass: Rear video recording is successfull
+2023-01-11 12:05:11 INFO   Nokia_G21_TA1418.Test10 rearVideoRec Launch file manager application and verify recorded video present  in uSD Card
+2023-01-11 12:05:28 INFO   Nokia_G21_TA1418.Test10 rearVideoRec Swipe up to select uSD card
+2023-01-11 12:05:31 INFO   Nokia_G21_TA1418.Test10 rearVideoRec Select SD card
+2023-01-11 12:05:38 INFO   Nokia_G21_TA1418.Test10 rearVideoRec switch to grid view mode to select DCIM folder
+2023-01-11 12:05:41 INFO   Nokia_G21_TA1418.Test10 rearVideoRec Select DCIM folder
+2023-01-11 12:05:44 INFO   Nokia_G21_TA1418.Test10 rearVideoRec Select camera folder
+2023-01-11 12:05:47 INFO   Nokia_G21_TA1418.Test10 rearVideoRec switch to list view mode 
+2023-01-11 12:05:50 INFO   Nokia_G21_TA1418.Test10 rearVideoRec Click More options
+2023-01-11 12:05:56 INFO   Nokia_G21_TA1418.Test10 rearVideoRec Click Select all
+2023-01-11 12:06:10 INFO   Nokia_G21_TA1418.Test10 rearVideoRec Test10_Bcam_video: 2 videos captured successfully
+2023-01-11 12:06:10 INFO   Nokia_G21_TA1418.Test10 rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-11 12:06:10 INFO   Nokia_G21_TA1418.Test10 rearVideoRec Calling RecordedVideoPlayback() for Playing Highest record video, fast forward video play back scenario
+2023-01-11 12:06:10 INFO   Nokia_G21_TA1418.Test10 RecordedVideoPlayback Launching file manager application
+2023-01-11 12:06:19 INFO   Nokia_G21_TA1418.Test10 RecordedVideoPlayback Select External storage
+2023-01-11 12:06:22 INFO   Nokia_G21_TA1418.Test10 RecordedVideoPlayback switch to grid view mode to select DCIM folder
+2023-01-11 12:06:26 INFO   Nokia_G21_TA1418.Test10 RecordedVideoPlayback Select DCIM folder
+2023-01-11 12:06:29 INFO   Nokia_G21_TA1418.Test10 RecordedVideoPlayback Select camera folder
+2023-01-11 12:06:32 INFO   Nokia_G21_TA1418.Test10 RecordedVideoPlayback switch to list view mode 
+2023-01-11 12:06:35 INFO   Nokia_G21_TA1418.Test10 RecordedVideoPlayback Click More options
+2023-01-11 12:06:40 INFO   Nokia_G21_TA1418.Test10 RecordedVideoPlayback Select sort by largest file first
+2023-01-11 12:06:48 INFO   Nokia_G21_TA1418.Test10 RecordedVideoPlayback Click on first file to play highest recorded resolution video file from uSD card
+2023-01-11 12:06:48 INFO   Nokia_G21_TA1418.Test10 RecordedVideoPlayback Started video playback
+2023-01-11 12:07:18 INFO   Nokia_G21_TA1418.Test10 RecordedVideoPlayback Tap Somewhere on Screen for contents to visible on Screen
+2023-01-11 12:07:18 INFO   Nokia_G21_TA1418.Test10 RecordedVideoPlayback Fast forward video for 10 seconds
+2023-01-11 12:07:39 INFO   Nokia_G21_TA1418.Test10 RecordedVideoPlayback Continue video playback
+2023-01-11 12:07:39 INFO   Nokia_G21_TA1418.Test10 RecordedVideoPlayback Tap Somewhere on Screen for contents to visible on Screen
+2023-01-11 12:07:39 INFO   Nokia_G21_TA1418.Test10 RecordedVideoPlayback Pause video playback
+2023-01-11 12:07:48 INFO   Nokia_G21_TA1418.Test10 RecordedVideoPlayback Pass: Recorded Video play back and fast forward successfull 
+2023-01-11 12:07:48 INFO   Nokia_G21_TA1418.Test10 RecordedVideoPlayback Pass: Recorded Video play back and fast forward successfull 
+2023-01-11 12:07:48 INFO   Nokia_G21_TA1418.Test10 RecordedVideoPlayback ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-11 12:07:48 INFO   Nokia_G21_TA1418.Test10 RecordedVideoPlayback Calling DataMovementOperation() to move recorded rear camer videos to Test10 Folder
+2023-01-11 12:07:48 INFO   Nokia_G21_TA1418.Test10 DataMoveOperation Re-launch file manager application and select external storage for data move operation, select all rear camera videos present in camera folder and move to Test10 folder
+2023-01-11 12:07:54 INFO   Nokia_G21_TA1418.Test10 DataMoveOperation Launching file manager application
+2023-01-11 12:07:58 INFO   Nokia_G21_TA1418.Test10 DataMoveOperation Select external storage
+2023-01-11 12:08:03 INFO   Nokia_G21_TA1418.Test10 DataMoveOperation switch to grid view mode and select DCIM  folder
+2023-01-11 12:08:06 INFO   Nokia_G21_TA1418.Test10 DataMoveOperation Select DCIM folder
+2023-01-11 12:08:09 INFO   Nokia_G21_TA1418.Test10 DataMoveOperation Select camera  folder
+2023-01-11 12:08:12 INFO   Nokia_G21_TA1418.Test10 DataMoveOperation switch to list view mode 
+2023-01-11 12:08:15 INFO   Nokia_G21_TA1418.Test10 DataMoveOperation Click More options
+2023-01-11 12:08:21 INFO   Nokia_G21_TA1418.Test10 DataMoveOperation Click Select all
+2023-01-11 12:08:25 INFO   Nokia_G21_TA1418.Test10 DataMoveOperation Click More options
+2023-01-11 12:08:31 INFO   Nokia_G21_TA1418.Test10 DataMoveOperation Select move to option
+2023-01-11 12:08:38 INFO   Nokia_G21_TA1418.Test10 DataMoveOperation Select uSD Card
+2023-01-11 12:08:44 INFO   Nokia_G21_TA1418.Test10 DataMoveOperation Select ADD NEW Folder option
+2023-01-11 12:08:51 INFO   Nokia_G21_TA1418.Test10 DataMoveOperation Name folder as Test10
+2023-01-11 12:08:58 INFO   Nokia_G21_TA1418.Test10 DataMoveOperation Accept create folder
+2023-01-11 12:09:28 INFO   Nokia_G21_TA1418.Test10 DataMoveOperation Cut paste  video files operation completed successfully
+2023-01-11 12:09:31 INFO   Nokia_G21_TA1418.Test10 DataMoveOperation Test10: Data move operation completed successfully
+2023-01-11 12:09:39 INFO   Nokia_G21_TA1418.Test10 DataMoveOperation Pass: Test10 Pass for data move operation successfully
+2023-01-11 12:09:39 INFO   Nokia_G21_TA1418.Test10 RecordedVideoPlayback ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-11 12:09:39 INFO   Nokia_G21_TA1418.Test10 RecordedVideoPlayback Calling copiedvideosPlayBack() for playing copied video file from Test1 folder
+2023-01-11 12:09:39 INFO   Nokia_G21_TA1418.Test10 CopiedvideosPlayBack Re-launch file manager application and select external storage for playing copied video files
+2023-01-11 12:09:45 INFO   Nokia_G21_TA1418.Test10 CopiedvideosPlayBack Launching file manager application
+2023-01-11 12:09:49 INFO   Nokia_G21_TA1418.Test10 CopiedvideosPlayBack Select external storage
+2023-01-11 12:09:52 INFO   Nokia_G21_TA1418.Test10 CopiedvideosPlayBack switch to grid view mode to select Test1 folder
+2023-01-11 12:09:55 INFO   Nokia_G21_TA1418.Test10 CopiedvideosPlayBack Select Test1 folder
+2023-01-11 12:10:05 INFO   Nokia_G21_TA1418.Test10 CopiedvideosPlayBack Final message: Fail Test10 Fail for Playing Copied Video files  and fast forward video play back scenario 
+2023-01-11 12:10:05 INFO   Nokia_G21_TA1418.Test10 CopiedvideosPlayBack Test:End
+2023-01-11 12:10:05 INFO   Nokia_G21_TA1418.Test10 CopiedvideosPlayBack ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

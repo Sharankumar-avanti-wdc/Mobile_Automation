@@ -1,0 +1,143 @@
+2023-01-13 14:35:41 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 start Test: Start
+2023-01-13 14:35:41 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-13 14:35:41 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 start  Test0 Scenario is as follows 
+2023-01-13 14:35:41 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 start 1.Unlock phone, clear recent apps, clear internal memory
+2023-01-13 14:35:41 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 start 2.Call Image() and Capture Rear camera 25 images for default resolution in uSD card and Verify the data capture
+2023-01-13 14:35:41 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 start 3.Call Video() and record Rear camera video of first 2 resloutions for 2 minutes of duration in uSD Card and verify the same
+2023-01-13 14:35:41 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 start 4.Call Format() and format uSD card with data and verify the same
+2023-01-13 14:35:41 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 start Setting up the appium desired capabilities
+2023-01-13 14:35:41 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-13 14:35:48 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 start Clearing Recent Apps
+2023-01-13 14:36:08 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 start Pass: No recent apps found
+2023-01-13 14:36:10 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 start Launch File Manager Application and clear internal memory
+2023-01-13 14:36:16 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 start swipe up and search for internal storage
+2023-01-13 14:36:19 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 start Select  Internal storage
+2023-01-13 14:36:24 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 start Select  More options
+2023-01-13 14:36:28 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 start click on Select all
+2023-01-13 14:36:32 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 start Select Delete permanently
+2023-01-13 14:36:42 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 start Select  More options
+2023-01-13 14:36:45 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 start Select Delete permanently
+2023-01-13 14:36:49 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 start Select  Delete
+2023-01-13 14:39:05 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 start Pass: Clearing phone internal memory is successfull
+2023-01-13 14:39:05 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 start ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-13 14:39:05 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 start Calling Image() to capture rear camera image in uSD card and verifying the same.
+2023-01-13 14:39:05 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Images Launch Camera Application for Rear picture capture
+2023-01-13 14:39:09 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Images if Location permisson Pop Exists Select Cancel Option
+2023-01-13 14:39:19 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Images Location  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy M53 5G, newCommandTimeout: 600, platformName: android, platformVersion: 12, udid: RFCT41Y5Y9V}, deviceApiLevel: 31, deviceManufacturer: samsung, deviceModel: SM-M536B, deviceName: RFCT41Y5Y9V, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RFCT41Y5Y9V, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 90, takesScreenshot: true, udid: RFCT41Y5Y9V, viewportRect: {height: 2085, left: 0, top: 90, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 609965fa-3684-4d9c-894c-bcb3b3c55870
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2023-01-13 14:39:30 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Images Currently camera is already in rear camera mode no need to switch
+2023-01-13 14:39:30 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Images Select settings option
+2023-01-13 14:39:35 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Images Search for SD Card option
+2023-01-13 14:39:52 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Images Select SD as storage option
+2023-01-13 14:40:00 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Images Capture 25 Images of Default Resolution
+2023-01-13 14:40:10 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Images clicking Image of Default Resolutions0
+2023-01-13 14:40:18 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Images clicking Image of Default Resolutions1
+2023-01-13 14:40:26 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Images clicking Image of Default Resolutions2
+2023-01-13 14:40:34 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Images clicking Image of Default Resolutions3
+2023-01-13 14:40:42 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Images clicking Image of Default Resolutions4
+2023-01-13 14:40:51 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Images clicking Image of Default Resolutions5
+2023-01-13 14:40:59 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Images clicking Image of Default Resolutions6
+2023-01-13 14:41:07 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Images clicking Image of Default Resolutions7
+2023-01-13 14:41:15 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Images clicking Image of Default Resolutions8
+2023-01-13 14:41:24 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Images clicking Image of Default Resolutions9
+2023-01-13 14:41:32 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Images clicking Image of Default Resolutions10
+2023-01-13 14:41:40 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Images clicking Image of Default Resolutions11
+2023-01-13 14:41:48 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Images clicking Image of Default Resolutions12
+2023-01-13 14:41:57 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Images clicking Image of Default Resolutions13
+2023-01-13 14:42:05 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Images clicking Image of Default Resolutions14
+2023-01-13 14:42:13 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Images clicking Image of Default Resolutions15
+2023-01-13 14:42:21 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Images clicking Image of Default Resolutions16
+2023-01-13 14:42:29 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Images clicking Image of Default Resolutions17
+2023-01-13 14:42:38 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Images clicking Image of Default Resolutions18
+2023-01-13 14:42:46 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Images clicking Image of Default Resolutions19
+2023-01-13 14:42:54 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Images clicking Image of Default Resolutions20
+2023-01-13 14:43:02 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Images clicking Image of Default Resolutions21
+2023-01-13 14:43:11 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Images clicking Image of Default Resolutions22
+2023-01-13 14:43:19 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Images clicking Image of Default Resolutions23
+2023-01-13 14:43:27 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Images clicking Image of Default Resolutions24
+2023-01-13 14:43:32 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Images Pass:Total Number Of Image captured 25 is successfull
+2023-01-13 14:43:32 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Images ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-13 14:43:32 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Images Launch File Manager application to verify  Image capture
+2023-01-13 14:43:38 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Images clicking on browse
+2023-01-13 14:43:41 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Images swipe up search for sd card
+2023-01-13 14:43:44 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Images Select  SD Card
+2023-01-13 14:43:49 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Images Select DCIM Folder
+2023-01-13 14:43:55 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Images Select Camera Folder
+2023-01-13 14:44:00 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Images Select more options
+2023-01-13 14:44:05 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Images click on Select all
+2023-01-13 14:44:11 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Images Verifying Image Capture 
+2023-01-13 14:44:16 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Images Pass:Total Number Of Image captured 25 is successfull
+2023-01-13 14:44:16 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Images ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-13 14:44:16 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Images Calling video() for rear video recording in USD card and verifying data capture.
+2023-01-13 14:44:30 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Video Clear Recent Apps
+2023-01-13 14:44:42 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Video Launch Camera Application
+2023-01-13 14:44:53 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Video change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy M53 5G, newCommandTimeout: 600, platformName: android, platformVersion: 12, udid: RFCT41Y5Y9V}, deviceApiLevel: 31, deviceManufacturer: samsung, deviceModel: SM-M536B, deviceName: RFCT41Y5Y9V, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RFCT41Y5Y9V, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 90, takesScreenshot: true, udid: RFCT41Y5Y9V, viewportRect: {height: 2085, left: 0, top: 90, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 609965fa-3684-4d9c-894c-bcb3b3c55870
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2023-01-13 14:44:53 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Video If Location Permission Request Pop Exists Click on Cancel Option
+2023-01-13 14:45:03 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Video Location access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SD-APPS-200', ip: '10.65.150.243', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: Galaxy M53 5G, newCommandTimeout: 600, platformName: android, platformVersion: 12, udid: RFCT41Y5Y9V}, deviceApiLevel: 31, deviceManufacturer: samsung, deviceModel: SM-M536B, deviceName: RFCT41Y5Y9V, deviceScreenDensity: 450, deviceScreenSize: 1080x2400, deviceUDID: RFCT41Y5Y9V, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 600, pixelRatio: 2.8125, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 90, takesScreenshot: true, udid: RFCT41Y5Y9V, viewportRect: {height: 2085, left: 0, top: 90, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 609965fa-3684-4d9c-894c-bcb3b3c55870
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("Cancel")}
+2023-01-13 14:45:13 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Video Current Existing Camera is Back Camera
+2023-01-13 14:45:13 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Video Clicking Video Tab
+2023-01-13 14:45:25 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Video Select 1st Back Video Resolution:Rear camera video size, UHD (30 fps)
+2023-01-13 14:45:30 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Video Start video recording
+2023-01-13 14:47:31 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Video Recording Video for 2Minutes of Duration
+2023-01-13 14:47:31 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Video Stop video recording
+2023-01-13 14:47:36 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Video Select 2nd Rear camera video size, FHD (60 fps)
+2023-01-13 14:47:42 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Video Start video recording
+2023-01-13 14:49:44 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Video Recording Video for 2Minutes of Duration
+2023-01-13 14:49:44 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Video Stop video recording
+2023-01-13 14:49:54 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Video Pass: Rear camera video recording is successfull
+2023-01-13 14:49:54 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Video ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-13 14:49:54 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Video Verifying Captured Videos
+2023-01-13 14:49:54 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Video Launch Home screen and Clear recent Apps
+2023-01-13 14:49:54 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Video Launch File Manager Application to verify captured videos
+2023-01-13 14:50:00 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Video clcik on browse
+2023-01-13 14:50:03 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Video swipe up and search for sd card
+2023-01-13 14:50:06 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Video Click On SD Card
+2023-01-13 14:50:11 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Video Select DCIM Folder
+2023-01-13 14:50:16 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Video Select Camera Folder
+2023-01-13 14:50:21 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Video Select more options
+2023-01-13 14:50:26 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Video click on Select all
+2023-01-13 14:50:31 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Video Verifying Image Capture and videos 
+2023-01-13 14:50:36 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Video Pass: 2 Videos recorded Successfully
+2023-01-13 14:50:36 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Video Pass: A total of 27 files present in uSD card before Format
+2023-01-13 14:50:36 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Video ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-13 14:50:36 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Video calling Format() for format with data scenario
+2023-01-13 14:50:54 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Format Launch Settings application for Format uSD card with Data scenario 
+2023-01-13 14:51:00 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Format Scrolling till battery and device care is visible
+2023-01-13 14:51:11 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Format Clicking on battery and device care
+2023-01-13 14:51:17 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Format Clicking on storage
+2023-01-13 14:51:22 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Format Clicking on slide button
+2023-01-13 14:51:28 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Format Clicking on more options
+2023-01-13 14:51:33 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Format Click Format
+2023-01-13 14:51:39 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Format Click on again Format
+2023-01-13 14:51:39 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Format Started formatting, waiting till it gets formatted
+2023-01-13 14:53:16 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Format Pass: Format uSD with Data is successfull
+2023-01-13 14:53:16 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Format ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-13 14:53:16 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Format Launch File Manager Application
+2023-01-13 14:53:22 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Format select browse option
+2023-01-13 14:53:25 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Format swipe up and search for sd card
+2023-01-13 14:53:28 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Format Click On SD Card
+2023-01-13 14:53:33 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Format Click on camera Folder
+2023-01-13 14:53:43 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Format Pass:Images and videos are not present in the DCIM folder, CARD format is successfully completed 
+2023-01-13 14:53:43 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Format Final Message: Pass Test0 pass for format Operation
+2023-01-13 14:53:43 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Format Test: End
+2023-01-13 14:53:43 INFO   Samsung_Galaxy_M53_5G_SM_M536BDS.Test0 Format ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

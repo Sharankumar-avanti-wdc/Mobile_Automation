@@ -1,0 +1,71 @@
+2022-11-11 13:01:11 INFO   Samsung_Galaxy_A13.Test8 recordAudio Test: Start
+2022-11-11 13:01:11 INFO   Samsung_Galaxy_A13.Test8 recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-11-11 13:01:11 INFO   Samsung_Galaxy_A13.Test8 recordAudio Test8 scenario is as follows
+2022-11-11 13:01:11 INFO   Samsung_Galaxy_A13.Test8 recordAudio 1.Launch mobile default voice recording application and set uSD card storage option, record audio file for 2 minutes duration
+2022-11-11 13:01:11 INFO   Samsung_Galaxy_A13.Test8 recordAudio 2.Launch file manager application and playback recorded audio file from external storage, fast forward audio file and pause
+2022-11-11 13:01:11 INFO   Samsung_Galaxy_A13.Test8 recordAudio 3.Launch file manager application and playback copied audio files from external storage the files are placed in the Test1 folder
+2022-11-11 13:01:11 INFO   Samsung_Galaxy_A13.Test8 recordAudio Setting up the appium desired capabilities
+2022-11-11 13:01:11 INFO   Samsung_Galaxy_A13.Test8 recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-11-11 13:01:22 INFO   Samsung_Galaxy_A13.Test8 recordAudio Launch Home screen application and clear recent apps
+2022-11-11 13:01:40 INFO   Samsung_Galaxy_A13.Test8 recordAudio Launch Voice recorder application for Audio recording
+2022-11-11 13:01:41 INFO   Samsung_Galaxy_A13.Test8 recordAudio If application launch permission pop-up exists accept allow permission to launch application
+2022-11-11 13:01:56 INFO   Samsung_Galaxy_A13.Test8 recordAudio  No Launch permission Pop-up  found
+2022-11-11 13:02:01 INFO   Samsung_Galaxy_A13.Test8 recordAudio If save to uSD card pop-up exists select Save to SD card option
+2022-11-11 13:02:11 INFO   Samsung_Galaxy_A13.Test8 recordAudio Select More options and Set uSD card as storage option
+2022-11-11 13:02:17 INFO   Samsung_Galaxy_A13.Test8 recordAudio Select settings option
+2022-11-11 13:02:23 INFO   Samsung_Galaxy_A13.Test8 recordAudio Select Storage location
+2022-11-11 13:02:28 INFO   Samsung_Galaxy_A13.Test8 recordAudio Select uSD card
+2022-11-11 13:02:37 INFO   Samsung_Galaxy_A13.Test8 recordAudio Start Recording
+2022-11-11 13:04:37 INFO   Samsung_Galaxy_A13.Test8 recordAudio Stop Recording
+2022-11-11 13:05:25 INFO   Samsung_Galaxy_A13.Test8 recordAudio Stop and Save Recording
+2022-11-11 13:05:31 INFO   Samsung_Galaxy_A13.Test8 recordAudio Launch File Manager Application to verify recorded audio
+2022-11-11 13:05:33 INFO   Samsung_Galaxy_A13.Test8 recordAudio swipe up and search for sd card
+2022-11-11 13:05:38 INFO   Samsung_Galaxy_A13.Test8 recordAudio Select  SD Card
+2022-11-11 13:05:43 INFO   Samsung_Galaxy_A13.Test8 recordAudio switch to grid view mode and select recordings  folder
+2022-11-11 13:05:47 INFO   Samsung_Galaxy_A13.Test8 recordAudio Select recordings Folder
+2022-11-11 13:05:52 INFO   Samsung_Galaxy_A13.Test8 recordAudio Select Voice recorder
+2022-11-11 13:05:58 INFO   Samsung_Galaxy_A13.Test8 recordAudio switch to list view mode 
+2022-11-11 13:06:01 INFO   Samsung_Galaxy_A13.Test8 recordAudio switch to more options 
+2022-11-11 13:06:06 INFO   Samsung_Galaxy_A13.Test8 recordAudio Select all
+2022-11-11 13:06:24 INFO   Samsung_Galaxy_A13.Test8 recordAudio Pass: Test8 pass for recording  audio file
+2022-11-11 13:06:24 INFO   Samsung_Galaxy_A13.Test8 recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-11-11 13:06:24 INFO   Samsung_Galaxy_A13.Test8 recordAudio Calling PlayRecordedAudio() for Audio play back and fast forward scenario
+2022-11-11 13:06:29 INFO   Samsung_Galaxy_A13.Test8 PlayRecordedAudio Clearing Recent Apps
+2022-11-11 13:06:47 INFO   Samsung_Galaxy_A13.Test8 PlayRecordedAudio Launch File Manager Application to verify recorded audio
+2022-11-11 13:06:49 INFO   Samsung_Galaxy_A13.Test8 PlayRecordedAudio swipe up and search for sd card
+2022-11-11 13:06:54 INFO   Samsung_Galaxy_A13.Test8 PlayRecordedAudio Select  SD Card
+2022-11-11 13:06:59 INFO   Samsung_Galaxy_A13.Test8 PlayRecordedAudio switch to grid view mode and select recordings  folder
+2022-11-11 13:07:03 INFO   Samsung_Galaxy_A13.Test8 PlayRecordedAudio Select recordings Folder
+2022-11-11 13:07:08 INFO   Samsung_Galaxy_A13.Test8 PlayRecordedAudio Select Voice recorder
+2022-11-11 13:07:14 INFO   Samsung_Galaxy_A13.Test8 PlayRecordedAudio switch to list view mode 
+2022-11-11 13:07:17 INFO   Samsung_Galaxy_A13.Test8 PlayRecordedAudio Started Audio playback
+2022-11-11 13:07:37 INFO   Samsung_Galaxy_A13.Test8 PlayRecordedAudio click on fastforward  10 seconds
+2022-11-11 13:07:57 INFO   Samsung_Galaxy_A13.Test8 PlayRecordedAudio click on pause
+2022-11-11 13:08:01 INFO   Samsung_Galaxy_A13.Test8 PlayRecordedAudio Pass: Test8 Pass for playing recorded Audio file
+2022-11-11 13:08:11 INFO   Samsung_Galaxy_A13.Test8 PlayRecordedAudio Pass: Test8 Pass for playing, fast forward, and pause recorded audio file scenario
+2022-11-11 13:08:11 INFO   Samsung_Galaxy_A13.Test8 PlayRecordedAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-11-11 13:08:11 INFO   Samsung_Galaxy_A13.Test8 PlayRecordedAudio Calling PlayCopiedAudioFile() for copied audio files from Test1 folder
+2022-11-11 13:08:16 INFO   Samsung_Galaxy_A13.Test8 PlayCopiedAudioFile Clear Recent Apps
+2022-11-11 13:08:35 INFO   Samsung_Galaxy_A13.Test8 PlayCopiedAudioFile Launch File Manager Application
+2022-11-11 13:08:41 INFO   Samsung_Galaxy_A13.Test8 PlayCopiedAudioFile Click On SD Card
+2022-11-11 13:08:46 INFO   Samsung_Galaxy_A13.Test8 PlayCopiedAudioFile Clicking Test1 Folder
+2022-11-11 13:09:01 INFO   Samsung_Galaxy_A13.Test8 PlayCopiedAudioFile Clicking test_file Folder
+2022-11-11 13:09:06 INFO   Samsung_Galaxy_A13.Test8 PlayCopiedAudioFile Clicking 1GB Folder
+2022-11-11 13:09:11 INFO   Samsung_Galaxy_A13.Test8 PlayCopiedAudioFile Select MP3 files Folder
+2022-11-11 13:09:17 INFO   Samsung_Galaxy_A13.Test8 PlayCopiedAudioFile Click on 1st File to Play Video for 30Seconds
+2022-11-11 13:09:57 INFO   Samsung_Galaxy_A13.Test8 PlayCopiedAudioFile Fast Forwarding Video for 10 Seconds
+2022-11-11 13:10:00 INFO   Samsung_Galaxy_A13.Test8 PlayCopiedAudioFile Pause Audio
+2022-11-11 13:10:03 INFO   Samsung_Galaxy_A13.Test8 PlayCopiedAudioFile Pass: 1st Audio Play Back Successfull 
+2022-11-11 13:10:06 INFO   Samsung_Galaxy_A13.Test8 PlayCopiedAudioFile Click on 2nd File to Play Video for 30Seconds
+2022-11-11 13:10:48 INFO   Samsung_Galaxy_A13.Test8 PlayCopiedAudioFile Fast Forwarding Video for 10 Seconds
+2022-11-11 13:10:51 INFO   Samsung_Galaxy_A13.Test8 PlayCopiedAudioFile Pause Audio
+2022-11-11 13:10:51 INFO   Samsung_Galaxy_A13.Test8 PlayCopiedAudioFile Pass: 2nd Audio Play back succssfull
+2022-11-11 13:10:53 INFO   Samsung_Galaxy_A13.Test8 PlayCopiedAudioFile Click on 3rd File to Play Video for 30Seconds
+2022-11-11 13:11:34 INFO   Samsung_Galaxy_A13.Test8 PlayCopiedAudioFile Fast Forwarding Video for 10 Seconds
+2022-11-11 13:11:37 INFO   Samsung_Galaxy_A13.Test8 PlayCopiedAudioFile Pause Audio
+2022-11-11 13:11:37 INFO   Samsung_Galaxy_A13.Test8 PlayCopiedAudioFile Pass: 3rd Audio Play Back Successfull 
+2022-11-11 13:11:37 INFO   Samsung_Galaxy_A13.Test8 PlayCopiedAudioFile Pass: Test8 Pass for Recorded and copied audio play back and fast forward scenario
+2022-11-11 13:11:37 INFO   Samsung_Galaxy_A13.Test8 PlayCopiedAudioFile ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-11-11 13:11:37 INFO   Samsung_Galaxy_A13.Test8 PlayCopiedAudioFile Final Message: Pass Test8 Pass for Recorded and copied audio play back and fast forward scenario
+2022-11-11 13:11:37 INFO   Samsung_Galaxy_A13.Test8 PlayCopiedAudioFile Test: End
+2022-11-11 13:11:37 INFO   Samsung_Galaxy_A13.Test8 PlayCopiedAudioFile ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

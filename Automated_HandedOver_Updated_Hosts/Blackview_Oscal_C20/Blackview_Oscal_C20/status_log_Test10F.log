@@ -1,0 +1,109 @@
+2023-01-22 18:59:07 INFO   Blackview_Oscal_C20.Test10F rearVideoRec Test: Start
+2023-01-22 18:59:07 INFO   Blackview_Oscal_C20.Test10F rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-22 18:59:07 INFO   Blackview_Oscal_C20.Test10F rearVideoRec Test10F Scenario is as follows
+2023-01-22 18:59:07 INFO   Blackview_Oscal_C20.Test10F rearVideoRec 1.Launch Camera application and start back camera video recording for all host applicable resolutions in uSD Card
+2023-01-22 18:59:07 INFO   Blackview_Oscal_C20.Test10F rearVideoRec 2.Playback Highest resolution recorded video from USD Card, fast forward playback and pause video scenario 
+2023-01-22 18:59:07 INFO   Blackview_Oscal_C20.Test10F rearVideoRec 3.Playback copied videos from Test1 folder, fast forward and pause scenario
+2023-01-22 18:59:07 INFO   Blackview_Oscal_C20.Test10F rearVideoRec Setting up the appium desired capabilities
+2023-01-22 18:59:07 INFO   Blackview_Oscal_C20.Test10F rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-22 18:59:30 INFO   Blackview_Oscal_C20.Test10F rearVideoRec Launch home screen
+2023-01-22 18:59:38 INFO   Blackview_Oscal_C20.Test10F rearVideoRec Clearing Recent Apps
+2023-01-22 18:59:51 INFO   Blackview_Oscal_C20.Test10F rearVideoRec Launch Camera application for front camera video recording
+2023-01-22 18:59:59 INFO   Blackview_Oscal_C20.Test10F rearVideoRec Test10F_Fcam_res: 3 resolutions supported
+2023-01-22 18:59:59 INFO   Blackview_Oscal_C20.Test10F rearVideoRec IF Change to uSD card notification pop-up exists select Cancel Option
+2023-01-22 19:00:09 INFO   Blackview_Oscal_C20.Test10F rearVideoRec change to SD card element not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '172.20.10.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: C20, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: C20EEA000011548}, deviceApiLevel: 30, deviceManufacturer: Chinoe, deviceModel: C20, deviceName: C20EEA000011548, deviceScreenDensity: 320, deviceScreenSize: 720x1560, deviceUDID: C20EEA000011548, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 48, takesScreenshot: true, udid: C20EEA000011548, viewportRect: {height: 1360, left: 0, top: 48, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: cab43214-a688-4b81-9c2e-d039e1894ee7
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("DENY")}
+2023-01-22 19:00:09 INFO   Blackview_Oscal_C20.Test10F rearVideoRec if Location permisson Pop Exists Select Cancel Option
+2023-01-22 19:00:19 INFO   Blackview_Oscal_C20.Test10F rearVideoRec Location permission access pop-up  not found : org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BNPLYY2', ip: '172.20.10.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {automationName: UiAutomator2, databaseEnabled: false, desired: {automationName: UiAutomator2, deviceName: C20, newCommandTimeout: 1200, platformName: android, platformVersion: 11, udid: C20EEA000011548}, deviceApiLevel: 30, deviceManufacturer: Chinoe, deviceModel: C20, deviceName: C20EEA000011548, deviceScreenDensity: 320, deviceScreenSize: 720x1560, deviceUDID: C20EEA000011548, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 1200, pixelRatio: 2, platform: LINUX, platformName: Android, platformVersion: 11, statBarHeight: 48, takesScreenshot: true, udid: C20EEA000011548, viewportRect: {height: 1360, left: 0, top: 48, width: 720}, warnings: {}, webStorageEnabled: false}
+Session ID: cab43214-a688-4b81-9c2e-d039e1894ee7
+*** Element info: {Using=-android uiautomator, value=new UiSelector().text("START CAPTURE")}
+2023-01-22 19:00:19 INFO   Blackview_Oscal_C20.Test10F rearVideoRec Switch to video recording mode
+2023-01-22 19:00:30 INFO   Blackview_Oscal_C20.Test10F rearVideoRec Switch to front video camera mode
+2023-01-22 19:00:33 INFO   Blackview_Oscal_C20.Test10F rearVideoRec Switching to Front Video capture
+2023-01-22 19:00:33 INFO   Blackview_Oscal_C20.Test10F rearVideoRec Select settings option
+2023-01-22 19:00:39 INFO   Blackview_Oscal_C20.Test10F rearVideoRec Select Storagepath option
+2023-01-22 19:00:46 INFO   Blackview_Oscal_C20.Test10F rearVideoRec Select SD as storage option
+2023-01-22 19:00:54 INFO   Blackview_Oscal_C20.Test10F rearVideoRec Select settings option
+2023-01-22 19:00:59 INFO   Blackview_Oscal_C20.Test10F rearVideoRec Select Video size option
+2023-01-22 19:01:06 INFO   Blackview_Oscal_C20.Test10F rearVideoRec Select front camera first video resolution: HD 720p
+2023-01-22 19:01:16 INFO   Blackview_Oscal_C20.Test10F rearVideoRec Start video recording
+2023-01-22 19:04:16 INFO   Blackview_Oscal_C20.Test10F rearVideoRec Stop video recording
+2023-01-22 19:04:22 INFO   Blackview_Oscal_C20.Test10F rearVideoRec Select settings option
+2023-01-22 19:04:28 INFO   Blackview_Oscal_C20.Test10F rearVideoRec Select Video size option
+2023-01-22 19:04:34 INFO   Blackview_Oscal_C20.Test10F rearVideoRec Select front camera second video resolution : SD 480p
+2023-01-22 19:04:45 INFO   Blackview_Oscal_C20.Test10F rearVideoRec Start video recording
+2023-01-22 19:07:45 INFO   Blackview_Oscal_C20.Test10F rearVideoRec Stop video recording
+2023-01-22 19:07:51 INFO   Blackview_Oscal_C20.Test10F rearVideoRec Select settings option
+2023-01-22 19:07:56 INFO   Blackview_Oscal_C20.Test10F rearVideoRec Select Video size option
+2023-01-22 19:08:02 INFO   Blackview_Oscal_C20.Test10F rearVideoRec Select Front camera third video resolution: CIF
+2023-01-22 19:08:13 INFO   Blackview_Oscal_C20.Test10F rearVideoRec Start video recording
+2023-01-22 19:11:13 INFO   Blackview_Oscal_C20.Test10F rearVideoRec Stop video recording
+2023-01-22 19:11:18 INFO   Blackview_Oscal_C20.Test10F rearVideoRec Switch to rear video camera mode
+2023-01-22 19:11:19 INFO   Blackview_Oscal_C20.Test10F rearVideoRec Clicking photo Tab
+2023-01-22 19:11:34 INFO   Blackview_Oscal_C20.Test10F rearVideoRec Pass: Test10F Pass for front camera video recording
+2023-01-22 19:11:34 INFO   Blackview_Oscal_C20.Test10F rearVideoRec Launch file manager application and verify recorded video capture uSD Card
+2023-01-22 19:11:53 INFO   Blackview_Oscal_C20.Test10F rearVideoRec Swipe up to select uSD card
+2023-01-22 19:11:57 INFO   Blackview_Oscal_C20.Test10F rearVideoRec Select SD card
+2023-01-22 19:12:03 INFO   Blackview_Oscal_C20.Test10F rearVideoRec switch to grid view mode to select DCIM folder
+2023-01-22 19:12:06 INFO   Blackview_Oscal_C20.Test10F rearVideoRec Select DCIM folder
+2023-01-22 19:12:09 INFO   Blackview_Oscal_C20.Test10F rearVideoRec Select camera folder
+2023-01-22 19:12:13 INFO   Blackview_Oscal_C20.Test10F rearVideoRec switch to list view mode 
+2023-01-22 19:12:16 INFO   Blackview_Oscal_C20.Test10F rearVideoRec Click More options
+2023-01-22 19:12:22 INFO   Blackview_Oscal_C20.Test10F rearVideoRec Click Select all
+2023-01-22 19:12:31 INFO   Blackview_Oscal_C20.Test10F rearVideoRec Test10F_Fcam_video: 3 Videos captured successfull
+2023-01-22 19:12:31 INFO   Blackview_Oscal_C20.Test10F rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-22 19:12:31 INFO   Blackview_Oscal_C20.Test10F rearVideoRec Calling VideoPlayBackForSleepWake()
+2023-01-22 19:12:39 INFO   Blackview_Oscal_C20.Test10F VideoPlayBackForSleepWake Launching file manager application
+2023-01-22 19:12:42 INFO   Blackview_Oscal_C20.Test10F VideoPlayBackForSleepWake Swipe up to select uSD card
+2023-01-22 19:12:47 INFO   Blackview_Oscal_C20.Test10F VideoPlayBackForSleepWake Select SD card
+2023-01-22 19:12:53 INFO   Blackview_Oscal_C20.Test10F VideoPlayBackForSleepWake switch to grid view mode to select DCIM folder
+2023-01-22 19:12:57 INFO   Blackview_Oscal_C20.Test10F VideoPlayBackForSleepWake Select DCIM folder
+2023-01-22 19:13:00 INFO   Blackview_Oscal_C20.Test10F VideoPlayBackForSleepWake Select Camera folder
+2023-01-22 19:13:03 INFO   Blackview_Oscal_C20.Test10F VideoPlayBackForSleepWake switch to list view mode 
+2023-01-22 19:13:06 INFO   Blackview_Oscal_C20.Test10F VideoPlayBackForSleepWake Select more options
+2023-01-22 19:13:11 INFO   Blackview_Oscal_C20.Test10F VideoPlayBackForSleepWake Select Sort By option
+2023-01-22 19:13:16 INFO   Blackview_Oscal_C20.Test10F VideoPlayBackForSleepWake Select Sort by Newest date first
+2023-01-22 19:13:19 INFO   Blackview_Oscal_C20.Test10F VideoPlayBackForSleepWake Click on first file to play highest recorded resolution video file
+2023-01-22 19:13:19 INFO   Blackview_Oscal_C20.Test10F VideoPlayBackForSleepWake Started video playback
+2023-01-22 19:13:39 INFO   Blackview_Oscal_C20.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-01-22 19:13:40 INFO   Blackview_Oscal_C20.Test10F VideoPlayBackForSleepWake Click pause video button
+2023-01-22 19:13:44 INFO   Blackview_Oscal_C20.Test10F VideoPlayBackForSleepWake Lock Mobile with 30 seconds delay
+2023-01-22 19:15:44 INFO   Blackview_Oscal_C20.Test10F VideoPlayBackForSleepWake Wait For 30Seconds
+2023-01-22 19:15:49 INFO   Blackview_Oscal_C20.Test10F VideoPlayBackForSleepWake Unlock Mobile 
+2023-01-22 19:15:49 INFO   Blackview_Oscal_C20.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-01-22 19:15:49 INFO   Blackview_Oscal_C20.Test10F VideoPlayBackForSleepWake Click pause video button
+2023-01-22 19:16:23 INFO   Blackview_Oscal_C20.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-01-22 19:16:23 INFO   Blackview_Oscal_C20.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-01-22 19:16:24 INFO   Blackview_Oscal_C20.Test10F VideoPlayBackForSleepWake Click pause video button
+2023-01-22 19:16:35 INFO   Blackview_Oscal_C20.Test10F VideoPlayBackForSleepWake Pass: Test10F Pass for Front video play back, Pause,Lock and Unlock Phone Play back from Pause duration Scenario
+2023-01-22 19:16:35 INFO   Blackview_Oscal_C20.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-22 19:16:35 INFO   Blackview_Oscal_C20.Test10F VideoPlayBackForSleepWake calling DatamoveOperation() to move front camera recorded videos files to Test10F folder
+2023-01-22 19:16:35 INFO   Blackview_Oscal_C20.Test10F DataMoveOperation Launch home screen
+2023-01-22 19:16:42 INFO   Blackview_Oscal_C20.Test10F DataMoveOperation launch file manager application select uSD card-->DCIM folder-->Camera folder-->Select all back camera front camera videos create Test10 and cut paste all videos in BCFC_Cameravideos folder
+2023-01-22 19:16:50 INFO   Blackview_Oscal_C20.Test10F DataMoveOperation Swipe up to select uSD card
+2023-01-22 19:16:53 INFO   Blackview_Oscal_C20.Test10F DataMoveOperation Select SD card
+2023-01-22 19:17:00 INFO   Blackview_Oscal_C20.Test10F DataMoveOperation Select DCIM folder
+2023-01-22 19:17:03 INFO   Blackview_Oscal_C20.Test10F DataMoveOperation Select camera folder
+2023-01-22 19:17:06 INFO   Blackview_Oscal_C20.Test10F DataMoveOperation Click More options
+2023-01-22 19:17:13 INFO   Blackview_Oscal_C20.Test10F DataMoveOperation Click Select all
+2023-01-22 19:17:16 INFO   Blackview_Oscal_C20.Test10F DataMoveOperation Click More options
+2023-01-22 19:17:23 INFO   Blackview_Oscal_C20.Test10F DataMoveOperation Select move to option
+2023-01-22 19:17:30 INFO   Blackview_Oscal_C20.Test10F DataMoveOperation Select uSD Card
+2023-01-22 19:17:36 INFO   Blackview_Oscal_C20.Test10F DataMoveOperation Select ADD NEW Folder option
+2023-01-22 19:17:43 INFO   Blackview_Oscal_C20.Test10F DataMoveOperation Name folder as Test10F
+2023-01-22 19:17:49 INFO   Blackview_Oscal_C20.Test10F DataMoveOperation Accept create folder
+2023-01-22 19:19:53 INFO   Blackview_Oscal_C20.Test10F DataMoveOperation Cut paste  video files operation completed successfully
+2023-01-22 19:19:58 INFO   Blackview_Oscal_C20.Test10F DataMoveOperation Pass: Test10F Pass for data move operation successfully
+2023-01-22 19:19:58 INFO   Blackview_Oscal_C20.Test10F DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-01-22 19:19:58 INFO   Blackview_Oscal_C20.Test10F VideoPlayBackForSleepWake Final Message: Pass Test10F Pass for front camera  video recording, Pause Video Playback scenario and data move operation scenario

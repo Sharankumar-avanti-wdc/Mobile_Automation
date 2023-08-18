@@ -1,0 +1,70 @@
+2022-11-11 17:21:07 INFO   Samsung_Galaxy_F23_5G.Test8 recordAudio Test: Start
+2022-11-11 17:21:07 INFO   Samsung_Galaxy_F23_5G.Test8 recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-11-11 17:21:07 INFO   Samsung_Galaxy_F23_5G.Test8 recordAudio Test8 scenario is as follows
+2022-11-11 17:21:07 INFO   Samsung_Galaxy_F23_5G.Test8 recordAudio 1.Launch mobile default voice recording application and set uSD card storage option, record audio file for 2 minutes duration
+2022-11-11 17:21:07 INFO   Samsung_Galaxy_F23_5G.Test8 recordAudio 2.Launch file manager application and playback recorded audio file from external storage, fast forward audio file and pause
+2022-11-11 17:21:07 INFO   Samsung_Galaxy_F23_5G.Test8 recordAudio 3.Launch file manager application and playback copied audio files from external storage the files are placed in the Test1 folder
+2022-11-11 17:21:07 INFO   Samsung_Galaxy_F23_5G.Test8 recordAudio Setting up the appium desired capabilities
+2022-11-11 17:21:07 INFO   Samsung_Galaxy_F23_5G.Test8 recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-11-11 17:21:17 INFO   Samsung_Galaxy_F23_5G.Test8 recordAudio Launch Home screen application and clear recent apps
+2022-11-11 17:21:37 INFO   Samsung_Galaxy_F23_5G.Test8 recordAudio Launch Voice recorder application for Audio recording
+2022-11-11 17:21:38 INFO   Samsung_Galaxy_F23_5G.Test8 recordAudio If application launch permission pop-up exists accept allow permission to launch application
+2022-11-11 17:21:53 INFO   Samsung_Galaxy_F23_5G.Test8 recordAudio  No Launch permission Pop-up  found
+2022-11-11 17:21:58 INFO   Samsung_Galaxy_F23_5G.Test8 recordAudio If save to uSD card pop-up exists select Save to SD card option
+2022-11-11 17:22:08 INFO   Samsung_Galaxy_F23_5G.Test8 recordAudio Select More options and Set uSD card as storage option
+2022-11-11 17:22:13 INFO   Samsung_Galaxy_F23_5G.Test8 recordAudio Select settings option
+2022-11-11 17:22:19 INFO   Samsung_Galaxy_F23_5G.Test8 recordAudio Select Storage location
+2022-11-11 17:22:25 INFO   Samsung_Galaxy_F23_5G.Test8 recordAudio Select uSD card
+2022-11-11 17:22:33 INFO   Samsung_Galaxy_F23_5G.Test8 recordAudio Start Recording
+2022-11-11 17:24:34 INFO   Samsung_Galaxy_F23_5G.Test8 recordAudio Stop Recording
+2022-11-11 17:25:21 INFO   Samsung_Galaxy_F23_5G.Test8 recordAudio Stop and Save Recording
+2022-11-11 17:25:28 INFO   Samsung_Galaxy_F23_5G.Test8 recordAudio Launch File Manager Application to verify recorded audio
+2022-11-11 17:25:29 INFO   Samsung_Galaxy_F23_5G.Test8 recordAudio swipe up and search for sd card
+2022-11-11 17:25:33 INFO   Samsung_Galaxy_F23_5G.Test8 recordAudio Select  SD Card
+2022-11-11 17:25:38 INFO   Samsung_Galaxy_F23_5G.Test8 recordAudio switch to grid view mode and select recordings  folder
+2022-11-11 17:25:41 INFO   Samsung_Galaxy_F23_5G.Test8 recordAudio Select recordings Folder
+2022-11-11 17:25:46 INFO   Samsung_Galaxy_F23_5G.Test8 recordAudio Select Voice recorder
+2022-11-11 17:25:52 INFO   Samsung_Galaxy_F23_5G.Test8 recordAudio switch to list view mode 
+2022-11-11 17:25:55 INFO   Samsung_Galaxy_F23_5G.Test8 recordAudio switch to more options 
+2022-11-11 17:26:00 INFO   Samsung_Galaxy_F23_5G.Test8 recordAudio Select all
+2022-11-11 17:26:18 INFO   Samsung_Galaxy_F23_5G.Test8 recordAudio Pass: Test8 pass for recording  audio file
+2022-11-11 17:26:18 INFO   Samsung_Galaxy_F23_5G.Test8 recordAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-11-11 17:26:18 INFO   Samsung_Galaxy_F23_5G.Test8 recordAudio Calling PlayRecordedAudio() for Audio play back and fast forward scenario
+2022-11-11 17:26:23 INFO   Samsung_Galaxy_F23_5G.Test8 PlayRecordedAudio Clearing Recent Apps
+2022-11-11 17:26:42 INFO   Samsung_Galaxy_F23_5G.Test8 PlayRecordedAudio Launch File Manager Application to verify recorded audio
+2022-11-11 17:26:43 INFO   Samsung_Galaxy_F23_5G.Test8 PlayRecordedAudio swipe up and search for sd card
+2022-11-11 17:26:48 INFO   Samsung_Galaxy_F23_5G.Test8 PlayRecordedAudio Select  SD Card
+2022-11-11 17:26:53 INFO   Samsung_Galaxy_F23_5G.Test8 PlayRecordedAudio switch to grid view mode and select recordings  folder
+2022-11-11 17:26:56 INFO   Samsung_Galaxy_F23_5G.Test8 PlayRecordedAudio Select recordings Folder
+2022-11-11 17:27:01 INFO   Samsung_Galaxy_F23_5G.Test8 PlayRecordedAudio Select Voice recorder
+2022-11-11 17:27:07 INFO   Samsung_Galaxy_F23_5G.Test8 PlayRecordedAudio switch to list view mode 
+2022-11-11 17:27:10 INFO   Samsung_Galaxy_F23_5G.Test8 PlayRecordedAudio Started Audio playback
+2022-11-11 17:27:30 INFO   Samsung_Galaxy_F23_5G.Test8 PlayRecordedAudio click on fastforward  10 seconds
+2022-11-11 17:27:30 INFO   Samsung_Galaxy_F23_5G.Test8 PlayRecordedAudio click on pause
+2022-11-11 17:27:34 INFO   Samsung_Galaxy_F23_5G.Test8 PlayRecordedAudio Pass: Test8 Pass for playing recorded Audio file
+2022-11-11 17:27:45 INFO   Samsung_Galaxy_F23_5G.Test8 PlayRecordedAudio Pass: Test8 Pass for playing, fast forward, and pause recorded audio file scenario
+2022-11-11 17:27:45 INFO   Samsung_Galaxy_F23_5G.Test8 PlayRecordedAudio ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-11-11 17:27:45 INFO   Samsung_Galaxy_F23_5G.Test8 PlayRecordedAudio Calling PlayCopiedAudioFile() for copied audio files from Test1 folder
+2022-11-11 17:27:50 INFO   Samsung_Galaxy_F23_5G.Test8 PlayCopiedAudioFile Clear Recent Apps
+2022-11-11 17:28:10 INFO   Samsung_Galaxy_F23_5G.Test8 PlayCopiedAudioFile Launch File Manager Application
+2022-11-11 17:28:16 INFO   Samsung_Galaxy_F23_5G.Test8 PlayCopiedAudioFile Select SD Card
+2022-11-11 17:28:21 INFO   Samsung_Galaxy_F23_5G.Test8 PlayCopiedAudioFile Clicking Test1 Folder from External storage
+2022-11-11 17:28:35 INFO   Samsung_Galaxy_F23_5G.Test8 PlayCopiedAudioFile select 1GB Folder
+2022-11-11 17:28:46 INFO   Samsung_Galaxy_F23_5G.Test8 PlayCopiedAudioFile Select MP3 files Folder
+2022-11-11 17:28:51 INFO   Samsung_Galaxy_F23_5G.Test8 PlayCopiedAudioFile Click on 1st File to Play Video for 30Seconds
+2022-11-11 17:29:31 INFO   Samsung_Galaxy_F23_5G.Test8 PlayCopiedAudioFile Fast Forwarding Video for 10 Seconds
+2022-11-11 17:29:34 INFO   Samsung_Galaxy_F23_5G.Test8 PlayCopiedAudioFile Pause Audio
+2022-11-11 17:29:37 INFO   Samsung_Galaxy_F23_5G.Test8 PlayCopiedAudioFile Pass: 1st Audio Play Back Successfull 
+2022-11-11 17:29:40 INFO   Samsung_Galaxy_F23_5G.Test8 PlayCopiedAudioFile Click on 2nd File to Play Video for 30Seconds
+2022-11-11 17:30:21 INFO   Samsung_Galaxy_F23_5G.Test8 PlayCopiedAudioFile Fast Forwarding Video for 10 Seconds
+2022-11-11 17:30:24 INFO   Samsung_Galaxy_F23_5G.Test8 PlayCopiedAudioFile Pause Audio
+2022-11-11 17:30:24 INFO   Samsung_Galaxy_F23_5G.Test8 PlayCopiedAudioFile Pass: 2nd Audio Play back succssfull
+2022-11-11 17:30:27 INFO   Samsung_Galaxy_F23_5G.Test8 PlayCopiedAudioFile Click on 3rd File to Play Video for 30Seconds
+2022-11-11 17:31:07 INFO   Samsung_Galaxy_F23_5G.Test8 PlayCopiedAudioFile Fast Forwarding Video for 10 Seconds
+2022-11-11 17:31:10 INFO   Samsung_Galaxy_F23_5G.Test8 PlayCopiedAudioFile Pause Audio
+2022-11-11 17:31:10 INFO   Samsung_Galaxy_F23_5G.Test8 PlayCopiedAudioFile Pass: 3rd Audio Play Back Successfull 
+2022-11-11 17:31:10 INFO   Samsung_Galaxy_F23_5G.Test8 PlayCopiedAudioFile Pass: Test8 Pass for Recorded and copied audio play back and fast forward scenario
+2022-11-11 17:31:10 INFO   Samsung_Galaxy_F23_5G.Test8 PlayCopiedAudioFile ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2022-11-11 17:31:10 INFO   Samsung_Galaxy_F23_5G.Test8 PlayCopiedAudioFile Final Message: Pass Test8 Pass for Recorded and copied audio play back and fast forward scenario
+2022-11-11 17:31:10 INFO   Samsung_Galaxy_F23_5G.Test8 PlayCopiedAudioFile Test: End
+2022-11-11 17:31:10 INFO   Samsung_Galaxy_F23_5G.Test8 PlayCopiedAudioFile ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================

@@ -1,0 +1,89 @@
+2023-03-27 20:07:43 INFO   Realme_Pad_RMP2102.Test10F rearVideoRec Test: Start
+2023-03-27 20:07:43 INFO   Realme_Pad_RMP2102.Test10F rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-27 20:07:43 INFO   Realme_Pad_RMP2102.Test10F rearVideoRec Test10F Scenario is as follows
+2023-03-27 20:07:43 INFO   Realme_Pad_RMP2102.Test10F rearVideoRec 1.Launch Camera application and start back camera video recording for all host applicable resolutions in uSD Card
+2023-03-27 20:07:43 INFO   Realme_Pad_RMP2102.Test10F rearVideoRec 2.Playback Highest resolution recorded video from USD Card, fast forward playback and pause video scenario 
+2023-03-27 20:07:43 INFO   Realme_Pad_RMP2102.Test10F rearVideoRec 3.Playback copied videos from Test1 folder, fast forward and pause scenario
+2023-03-27 20:07:43 INFO   Realme_Pad_RMP2102.Test10F rearVideoRec Setting up the appium desired capabilities
+2023-03-27 20:07:43 INFO   Realme_Pad_RMP2102.Test10F rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-27 20:08:02 INFO   Realme_Pad_RMP2102.Test10F rearVideoRec Launch home screen
+2023-03-27 20:08:13 INFO   Realme_Pad_RMP2102.Test10F rearVideoRec Clearing Recent Apps
+2023-03-27 20:08:21 INFO   Realme_Pad_RMP2102.Test10F rearVideoRec Launch Camera application for front camera video recording
+2023-03-27 20:08:28 INFO   Realme_Pad_RMP2102.Test10F rearVideoRec Test10F_Fcam_res: 3 resolutions supported
+2023-03-27 20:08:28 INFO   Realme_Pad_RMP2102.Test10F rearVideoRec Switch to video recording mode
+2023-03-27 20:08:38 INFO   Realme_Pad_RMP2102.Test10F rearVideoRec Switch to front Camera Mode if current Exiting camera is rear camera Mode
+2023-03-27 20:08:51 INFO   Realme_Pad_RMP2102.Test10F rearVideoRec Select settings option
+2023-03-27 20:08:56 INFO   Realme_Pad_RMP2102.Test10F rearVideoRec Select Video size(Front camera) option
+2023-03-27 20:09:01 INFO   Realme_Pad_RMP2102.Test10F rearVideoRec Select first highest front camera video resolution: HD 1080P
+2023-03-27 20:09:06 INFO   Realme_Pad_RMP2102.Test10F rearVideoRec Start video recording
+2023-03-27 20:12:06 INFO   Realme_Pad_RMP2102.Test10F rearVideoRec Stop video recording
+2023-03-27 20:12:12 INFO   Realme_Pad_RMP2102.Test10F rearVideoRec Select settings option
+2023-03-27 20:12:12 INFO   Realme_Pad_RMP2102.Test10F rearVideoRec Select Video size option
+2023-03-27 20:12:18 INFO   Realme_Pad_RMP2102.Test10F rearVideoRec Select second highest front camera video resolution: HD 720P
+2023-03-27 20:12:27 INFO   Realme_Pad_RMP2102.Test10F rearVideoRec Start video recording
+2023-03-27 20:15:28 INFO   Realme_Pad_RMP2102.Test10F rearVideoRec Stop video recording
+2023-03-27 20:15:33 INFO   Realme_Pad_RMP2102.Test10F rearVideoRec Select settings option
+2023-03-27 20:15:38 INFO   Realme_Pad_RMP2102.Test10F rearVideoRec Select Video size option
+2023-03-27 20:15:44 INFO   Realme_Pad_RMP2102.Test10F rearVideoRec Select third highest front camera video resolution: SD 480P
+2023-03-27 20:15:53 INFO   Realme_Pad_RMP2102.Test10F rearVideoRec Start video recording
+2023-03-27 20:18:53 INFO   Realme_Pad_RMP2102.Test10F rearVideoRec Stop video recording
+2023-03-27 20:18:59 INFO   Realme_Pad_RMP2102.Test10F rearVideoRec Switch to rear video camera mode
+2023-03-27 20:18:59 INFO   Realme_Pad_RMP2102.Test10F rearVideoRec Clicking photo Tab
+2023-03-27 20:19:14 INFO   Realme_Pad_RMP2102.Test10F rearVideoRec Pass: Test10F Pass for front camera video recording
+2023-03-27 20:19:14 INFO   Realme_Pad_RMP2102.Test10F rearVideoRec Launch file manager application and verify recorded video capture uSD Card
+2023-03-27 20:19:30 INFO   Realme_Pad_RMP2102.Test10F rearVideoRec Swipe up to select uSD card
+2023-03-27 20:19:31 INFO   Realme_Pad_RMP2102.Test10F rearVideoRec Select SD card
+2023-03-27 20:19:38 INFO   Realme_Pad_RMP2102.Test10F rearVideoRec switch to grid view mode to select DCIM folder
+2023-03-27 20:19:41 INFO   Realme_Pad_RMP2102.Test10F rearVideoRec Select DCIM folder
+2023-03-27 20:19:44 INFO   Realme_Pad_RMP2102.Test10F rearVideoRec Select camera folder
+2023-03-27 20:19:47 INFO   Realme_Pad_RMP2102.Test10F rearVideoRec switch to list view mode 
+2023-03-27 20:19:50 INFO   Realme_Pad_RMP2102.Test10F rearVideoRec Click More options
+2023-03-27 20:19:56 INFO   Realme_Pad_RMP2102.Test10F rearVideoRec Click Select all
+2023-03-27 20:20:05 INFO   Realme_Pad_RMP2102.Test10F rearVideoRec Test10F_Fcam_video: 3 Videos captured successfull
+2023-03-27 20:20:05 INFO   Realme_Pad_RMP2102.Test10F rearVideoRec ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-27 20:20:05 INFO   Realme_Pad_RMP2102.Test10F rearVideoRec Calling VideoPlayBackForSleepWake()
+2023-03-27 20:20:11 INFO   Realme_Pad_RMP2102.Test10F VideoPlayBackForSleepWake Launching file manager application
+2023-03-27 20:20:12 INFO   Realme_Pad_RMP2102.Test10F VideoPlayBackForSleepWake Swipe up to select uSD card
+2023-03-27 20:20:15 INFO   Realme_Pad_RMP2102.Test10F VideoPlayBackForSleepWake Select SD card
+2023-03-27 20:20:21 INFO   Realme_Pad_RMP2102.Test10F VideoPlayBackForSleepWake switch to grid view mode to select DCIM folder
+2023-03-27 20:20:24 INFO   Realme_Pad_RMP2102.Test10F VideoPlayBackForSleepWake Select DCIM folder
+2023-03-27 20:20:27 INFO   Realme_Pad_RMP2102.Test10F VideoPlayBackForSleepWake Select Camera folder
+2023-03-27 20:20:30 INFO   Realme_Pad_RMP2102.Test10F VideoPlayBackForSleepWake switch to list view mode 
+2023-03-27 20:20:34 INFO   Realme_Pad_RMP2102.Test10F VideoPlayBackForSleepWake Select more options
+2023-03-27 20:20:39 INFO   Realme_Pad_RMP2102.Test10F VideoPlayBackForSleepWake Select Sort By option
+2023-03-27 20:20:43 INFO   Realme_Pad_RMP2102.Test10F VideoPlayBackForSleepWake Select Sort by Newest date first
+2023-03-27 20:20:46 INFO   Realme_Pad_RMP2102.Test10F VideoPlayBackForSleepWake Click on first file to play highest recorded resolution video file
+2023-03-27 20:20:46 INFO   Realme_Pad_RMP2102.Test10F VideoPlayBackForSleepWake Started video playback
+2023-03-27 20:21:06 INFO   Realme_Pad_RMP2102.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-03-27 20:21:06 INFO   Realme_Pad_RMP2102.Test10F VideoPlayBackForSleepWake Click pause video button
+2023-03-27 20:21:10 INFO   Realme_Pad_RMP2102.Test10F VideoPlayBackForSleepWake Lock Mobile with 30 seconds delay
+2023-03-27 20:23:12 INFO   Realme_Pad_RMP2102.Test10F VideoPlayBackForSleepWake Wait For 30Seconds
+2023-03-27 20:23:18 INFO   Realme_Pad_RMP2102.Test10F VideoPlayBackForSleepWake Unlock Mobile 
+2023-03-27 20:23:18 INFO   Realme_Pad_RMP2102.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-03-27 20:23:18 INFO   Realme_Pad_RMP2102.Test10F VideoPlayBackForSleepWake Click pause video button
+2023-03-27 20:23:52 INFO   Realme_Pad_RMP2102.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-03-27 20:23:52 INFO   Realme_Pad_RMP2102.Test10F VideoPlayBackForSleepWake Tap Somewhere on Screen for contents to visible on Screen
+2023-03-27 20:23:52 INFO   Realme_Pad_RMP2102.Test10F VideoPlayBackForSleepWake Click pause video button
+2023-03-27 20:24:02 INFO   Realme_Pad_RMP2102.Test10F VideoPlayBackForSleepWake Pass: Test10F Pass for Front video play back, Pause,Lock and Unlock Phone Play back from Pause duration Scenario
+2023-03-27 20:24:02 INFO   Realme_Pad_RMP2102.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-27 20:24:02 INFO   Realme_Pad_RMP2102.Test10F VideoPlayBackForSleepWake calling DatamoveOperation() to move front camera recorded videos files to Test10F folder
+2023-03-27 20:24:02 INFO   Realme_Pad_RMP2102.Test10F DataMoveOperation Launch home screen
+2023-03-27 20:24:08 INFO   Realme_Pad_RMP2102.Test10F DataMoveOperation launch file manager application select uSD card-->DCIM folder-->Camera folder-->Select all back camera front camera videos create Test10F and cut paste all videos in Test10F folder
+2023-03-27 20:24:14 INFO   Realme_Pad_RMP2102.Test10F DataMoveOperation Swipe up to select uSD card
+2023-03-27 20:24:15 INFO   Realme_Pad_RMP2102.Test10F DataMoveOperation Select SD card
+2023-03-27 20:24:22 INFO   Realme_Pad_RMP2102.Test10F DataMoveOperation Select DCIM folder
+2023-03-27 20:24:25 INFO   Realme_Pad_RMP2102.Test10F DataMoveOperation Select camera folder
+2023-03-27 20:24:28 INFO   Realme_Pad_RMP2102.Test10F DataMoveOperation Click More options
+2023-03-27 20:24:34 INFO   Realme_Pad_RMP2102.Test10F DataMoveOperation Click Select all
+2023-03-27 20:24:38 INFO   Realme_Pad_RMP2102.Test10F DataMoveOperation Click More options
+2023-03-27 20:24:44 INFO   Realme_Pad_RMP2102.Test10F DataMoveOperation Select move to option
+2023-03-27 20:24:51 INFO   Realme_Pad_RMP2102.Test10F DataMoveOperation Select uSD Card
+2023-03-27 20:24:57 INFO   Realme_Pad_RMP2102.Test10F DataMoveOperation Select ADD NEW Folder option
+2023-03-27 20:25:03 INFO   Realme_Pad_RMP2102.Test10F DataMoveOperation Name folder as Test10F
+2023-03-27 20:25:10 INFO   Realme_Pad_RMP2102.Test10F DataMoveOperation Accept create folder
+2023-03-27 20:27:10 INFO   Realme_Pad_RMP2102.Test10F DataMoveOperation Cut paste  video files operation completed successfully
+2023-03-27 20:27:14 INFO   Realme_Pad_RMP2102.Test10F DataMoveOperation Pass: Test10F Pass for data move operation successfully
+2023-03-27 20:27:14 INFO   Realme_Pad_RMP2102.Test10F DataMoveOperation ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+2023-03-27 20:27:14 INFO   Realme_Pad_RMP2102.Test10F VideoPlayBackForSleepWake Final Message: Pass Test10F Pass for front camera  video recording, Pause Video Playback scenario and data move operation scenario
+2023-03-27 20:27:14 INFO   Realme_Pad_RMP2102.Test10F VideoPlayBackForSleepWake Test: End
+2023-03-27 20:27:14 INFO   Realme_Pad_RMP2102.Test10F VideoPlayBackForSleepWake ===================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
